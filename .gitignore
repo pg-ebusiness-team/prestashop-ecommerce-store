@@ -1,0 +1,4 @@
+# Sekrety i konfiguracja lokalna
+.env
+*.pem
+*.key
