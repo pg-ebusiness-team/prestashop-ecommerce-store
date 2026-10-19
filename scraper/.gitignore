@@ -4,3 +4,6 @@
 # python
 __pycache__/
 *.pyc
+
+# scraper html debugging
+debug[0-9]*.html
