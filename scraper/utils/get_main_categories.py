@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def get_categories_dict():
+def get_main_categories() -> list[dict[str, str]]:
     # request
     url = "https://luksusowealkohole.pl"
     response = requests.get(url)
@@ -15,19 +15,22 @@ def get_categories_dict():
     # all <li> category elements. Only the "big" blocks, excludes individual sub-categories to avoid repetition
     categories = header_top_box.select('li.category:has(> a[data-depth="0"])')
 
-    categories_dict = {}
+    url_arr: list[dict[str, str]] = []
 
     for c in categories:
+        # print(c.prettify())
         main_cat = c.find("a", attrs={"data-depth": 0})
         if main_cat is None:
             continue
 
+        main_cat_url = main_cat["href"]
         main_cat_name = main_cat.get_text(strip=True)
-        categories_dict[main_cat_name] = []
-        sub_cats = c.find_all("a", attrs={"data-depth": 1})
 
-        for sub_category in sub_cats:
-            sub_cat_name = sub_category.get_text(strip=True)
-            categories_dict[main_cat_name].append(sub_cat_name)
+        cat_object = {
+            "name": main_cat_name,
+            "url": main_cat_url,
+        }
+        url_arr.append(cat_object)
 
-    return categories_dict
+    return url_arr
+
