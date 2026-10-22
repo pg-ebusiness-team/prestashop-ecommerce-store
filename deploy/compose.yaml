@@ -10,7 +10,7 @@ services:
       DB_PASSWD: ${MYSQL_PASSWORD}
       PS_INSTALL_AUTO: "1"
       PS_LANGUAGE: pl
-      PSCOUNTRY: PL
+      PS_COUNTRY: PL
       PS_DOMAIN: localhost:${SHOP_PORT}
       ADMIN_MAIL: ${ADMIN_MAIL}
       ADMIN_PASSWD: ${ADMIN_PASSWD}
@@ -22,6 +22,7 @@ services:
 
   db:
     image: mysql:8.0
+    platform: linux/amd64
     command:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
