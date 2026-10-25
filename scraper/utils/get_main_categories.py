@@ -1,45 +1,27 @@
-import requests
-from bs4 import BeautifulSoup
 from models import Category
 
-def get_main_categories() -> list[Category] | None:
+def get_main_categories(soup) -> list[Category]:
 
-    # request
-    url = "https://luksusowealkohole.pl"
-    try:
-        response = requests.get(url, timeout=10)
+    header_top_box = soup.find("div", class_="header-top")
 
-        # bs
-        soup = BeautifulSoup(response.text, 'html.parser')
+    # all <li> category elements. Only the "big" blocks, excludes individual sub-categories to avoid repetition
+    categories = header_top_box.select('li.category:has(> a[data-depth="0"])')
 
-        header_top_box = soup.find("div", class_="header-top")
+    url_arr: list[Category] = []
 
-        # all <li> category elements. Only the "big" blocks, excludes individual sub-categories to avoid repetition
-        categories = header_top_box.select('li.category:has(> a[data-depth="0"])')
+    for c in categories:
+        # print(c.prettify())
+        main_cat = c.find("a", attrs={"data-depth": 0})
+        if main_cat is None:
+            continue
 
-        url_arr: list[Category] = []
+        main_cat_url = main_cat["href"]
+        main_cat_name = main_cat.get_text(strip=True)
 
-        for c in categories:
-            # print(c.prettify())
-            main_cat = c.find("a", attrs={"data-depth": 0})
-            if main_cat is None:
-                continue
+        cat_object = {
+            "name": main_cat_name,
+            "url": main_cat_url,
+        }
+        url_arr.append(cat_object)
 
-            main_cat_url = main_cat["href"]
-            main_cat_name = main_cat.get_text(strip=True)
-
-            cat_object = {
-                "name": main_cat_name,
-                "url": main_cat_url,
-            }
-            url_arr.append(cat_object)
-
-        return url_arr
-
-    except requests.exceptions.Timeout:
-        print("Error: Timeout")
-        return None
-
-    except requests.exceptions.RequestException as e:
-        print("Error: {}".format(e))
-        return None
+    return url_arr

@@ -1,6 +1,5 @@
 import time
 import requests
-
 from bs4 import BeautifulSoup
 from models import Category, CategoryWithSubcategories
 
@@ -8,10 +7,6 @@ from models import Category, CategoryWithSubcategories
 def get_categories_dict(url_arr: list[Category]) -> list[CategoryWithSubcategories]:
 
     result: list[CategoryWithSubcategories] = []
-    # [
-    #   { name: 'abc', url: '...', subcategories: [...] },
-    #   ...
-    # ]
 
     for i, url_dict in enumerate(url_arr):
         name, url = url_dict['name'], url_dict['url']
