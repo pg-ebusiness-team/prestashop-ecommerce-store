@@ -1,0 +1,1 @@
+FROM prestashop/prestashop:8.2.8
