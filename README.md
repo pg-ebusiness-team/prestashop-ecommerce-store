@@ -2,6 +2,12 @@
 
 Sklep internetowy oparty na PrestaShop 8.x, uruchamiany w kontenerach Docker, wyposażony w automatyczny import danych ze scrapera oraz testy E2E w Playwright. Projekt obejmuje pełną obsługę zamówień, płatności i dostaw, analitykę GA4 oraz integrację z klastrem Docker Swarm.
 
+Autorzy:
+Bartosz Pacyga
+Jakub Romanowski
+Michał Kaźmierowski
+Kacper Trznadel
+
 ## Uruchomienie projektu
 
 ### 1. Sklonuj repozytorium
@@ -14,10 +20,10 @@ cd prestashop-ecommerce-store
 
 ### 2. Przygotuj plik konfiguracyjny `.env`
 
-Po sklonowaniu repozytorium skopiuj przykładowy plik konfiguracyjny `.example.env` do pliku `.env`:
+Po sklonowaniu repozytorium skopiuj przykładowy plik konfiguracyjny `.env.example` do pliku `.env`:
 
 ```bash
-cp .example.env .env
+cp .env.example .env
 ```
 
 Następnie otwórz plik `.env` i uzupełnij wszystkie wymagane zmienne środowiskowe poprawnymi wartościami.
