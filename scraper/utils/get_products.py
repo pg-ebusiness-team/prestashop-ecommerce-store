@@ -38,12 +38,14 @@ def get_products():
             p_url = box.select_one('.product-thumbnail').get('href').strip()
             products.append(p_url)
 
+
         data['pages'].append({
             'page': page,
             'products': products
         })
 
         time.sleep(.5)
+        break
 
     return data
 

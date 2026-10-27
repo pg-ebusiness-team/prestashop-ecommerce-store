@@ -10,3 +10,6 @@ __pycache__/
 *.json
 pages/
 products/
+
+# test python files
+temp.py
