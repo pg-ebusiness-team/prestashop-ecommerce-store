@@ -31,7 +31,7 @@ OK   api/ bez klucza -> 401
 Przykładowe zapytanie (klucz jako login Basic Auth, hasło puste):
 
 ```bash
-curl -u "$PS_API_KEY:" http://localhost:8080/api/products
+curl -H "Authorization: Basic $(printf %s: "$PS_API_KEY" | base64)" http://localhost:8080/api/products
 ```
 
 ## Klucz API i bezpieczeństwo
