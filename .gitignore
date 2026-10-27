@@ -5,3 +5,27 @@
 *.pem
 *.key
 .vscode/
+.idea/
+
+# Zależności
+vendor/
+node_modules/
+.venv/
+
+# Cache, logi, uploady
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+cache/
+*.log
+logs/
+uploads/
+upload/
+
+# Pełny zbiór zdjęć ze scrapera — publikowany w Releases, nie w repo
+scraper-results/images/
+
+# Raporty Playwright
+test-results/
+playwright-report/
