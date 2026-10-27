@@ -8,7 +8,7 @@ help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
 	@echo "make down    - zatrzymaj i usun kontenery (dane zostaja)"
 	@echo "make reset   - usun kontenery ORAZ dane (sklep od zera)"
-	@echo "make logs    - logi sklepu na zywo"
+	@echo "make logs    - logi sklepu na zywo (domyslnie wszystkie, make logs SERVICE=[np. proxy], aby wybrać konkretne)"
 	@echo "make ps      - status kontenerow"
 	@echo "make shell   - powloka w kontenerze sklepu"
 	@echo "make build   - zbuduj obraz bez uruchamiania"
@@ -23,7 +23,7 @@ reset:
 	$(COMPOSE) down -v
 
 logs:
-	$(COMPOSE) logs -f shop
+	$(COMPOSE) logs -f $(SERVICE)
 
 ps:
 	$(COMPOSE) ps
