@@ -28,6 +28,12 @@ cp .env.example .env
 
 Następnie otwórz plik `.env` i uzupełnij wszystkie wymagane zmienne środowiskowe poprawnymi wartościami.
 
+Klucz Webservice API (`PS_API_KEY`) musi mieć dokładnie 32 znaki `A-Z0-9`. Wygeneruj go poleceniem:
+
+```bash
+openssl rand -hex 16 | tr a-f A-F
+```
+
 ### 3. Uruchom sklep
 
 Z poziomu głównego katalogu projektu wykonaj polecenie:
@@ -40,7 +46,23 @@ Polecenie zbuduje wymagane obrazy Docker i uruchomi kontenery w tle.
 
 Przy pierwszym uruchomieniu proces może potrwać dłużej, ponieważ Docker musi pobrać wymagane obrazy i zbudować środowisko.
 
-### 4. Sprawdź status kontenerów
+### 4. Zainicjalizuj dane
+
+Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! Starting web server now`), wykonaj:
+
+```bash
+make init
+```
+
+Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+
+Poprawność konfiguracji API sprawdzisz poleceniem:
+
+```bash
+make api-check
+```
+
+### 5. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 
