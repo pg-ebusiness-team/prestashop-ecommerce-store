@@ -62,6 +62,14 @@ Poprawność konfiguracji API sprawdzisz poleceniem:
 make api-check
 ```
 
+Następnie włącz motyw sklepu:
+
+```bash
+make theme
+```
+
+Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic) i czyści cache. Można je uruchamiać wielokrotnie.
+
 ### 5. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
@@ -77,6 +85,15 @@ make logs
 ```
 
 Adres sklepu oraz port, pod którym będzie dostępny, zależą od konfiguracji w pliku `.env`.
+
+## Wygląd sklepu (motyw potomny)
+
+Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-child-theme`. Plików motywu Classic nie edytujemy — pochodzi z obrazu PrestaShop i jest dziedziczony.
+
+- `config/theme.yml` — konfiguracja motywu (`parent: classic`, `use_parent_assets: true`); sekcje `global_settings` i `theme_settings` są skopiowane z Classic, aby zachować hooki modułów, typy obrazków i układy stron.
+- `assets/css/custom.css` — wszystkie własne style; PrestaShop ładuje go automatycznie po CSS Classic.
+
+Motyw jest kopiowany do obrazu, więc po każdej zmianie w jego plikach wykonaj `make up` (przebudowa obrazu, dane zostają) i `make theme` (czyści cache).
 
 ## Rozwiązywanie problemów
 

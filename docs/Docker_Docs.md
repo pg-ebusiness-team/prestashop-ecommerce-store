@@ -4,7 +4,15 @@ Stan architektury będzie rozwijany w czasie, a ninijeszy plik aktualizowany.
 
 ## Dockerfile
 
-Na razie **Dockerfile** zawiera jedną linijkę, która bazuje na obrazie kontenera Prestashop w wersji zgodnej z wymaganiami. W przyszłości osoba, która doda pierwszy moduł do sklepu, będzie musiała dopisać linijkę (bądź kilka) z *COPY*. Podobno bazowy template Prestashop aktualizuje się poprzez kopiowane do kontenera moduły, ale trzeba jeszcze zrobić research.
+**Dockerfile** bazuje na obrazie kontenera Prestashop w wersji zgodnej z wymaganiami i kopiuje do niego motyw potomny:
+
+```dockerfile
+COPY --chown=www-data:www-data themes/custom-child-theme /var/www/html/themes/custom-child-theme
+```
+
+Właścicielem musi być `www-data` (użytkownik Apache), bo PrestaShop zapisuje w katalogu motywu cache CSS/JS. Skrypt startowy obrazu dokopiowuje pliki PrestaShop z `cp -n` (bez nadpisywania), więc skopiowany motyw zostaje nienaruszony. Kolejne moduły własne dodajemy analogicznie, kolejnymi liniami *COPY*.
+
+Sam `COPY` tylko udostępnia motyw — aktywuje go `make theme` (`bin/console prestashop:theme:enable`), ponieważ aktywny motyw jest zapisany w bazie danych.
 
 ## Plik compose.yaml
 

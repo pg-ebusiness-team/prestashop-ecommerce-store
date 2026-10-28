@@ -6,7 +6,7 @@ COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= http://localhost:$(SHOP_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check
+.PHONY: help up down reset logs ps shell build init api-check theme
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -18,6 +18,8 @@ help:
 	@echo "make build   - zbuduj obraz bez uruchamiania"
 	@echo "make init    - wlacz Webservice API i zarejestruj klucz PS_API_KEY"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
+	@echo "make theme   - wlacz motyw potomny custom-child-theme i wyczysc cache"
+
 
 up:
 	$(COMPOSE) up -d --build
@@ -54,3 +56,8 @@ api-check:
 	check api/products 200 "-u $(PS_API_KEY):" "api/products z kluczem"; \
 	check api/customers 401 "-u $(PS_API_KEY):" "api/customers z kluczem (brak uprawnien)"; \
 	check api/ 401 "" "api/ bez klucza"
+
+# -u www-data: pliki cache muszą należeć do użytkownika Apache, inaczej sklep nie zapisze kolejnych
+theme:
+	$(COMPOSE) exec -T -u www-data shop php bin/console prestashop:theme:enable custom-child-theme
+	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
