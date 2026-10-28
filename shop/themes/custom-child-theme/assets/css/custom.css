@@ -1,0 +1,268 @@
+/*
+ * Styl sklepu na bazie Classic, wzorowany na luksusowealkohole.pl:
+ * Lato w treści, Playfair Display w nagłówkach, beżowe akcenty, grafitowy tekst.
+ * Własne reguły pisane pod szablony Classic (bez kodu motywu źródłowego).
+ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Playfair+Display:wght@400;700&display=swap");
+
+:root {
+  --color-black: #121212;
+  --color-graphite: #414141;
+  --color-text: #6f6f6f;        /* oryginał #777 ma kontrast 4.48:1, poniżej WCAG AA */
+  --color-muted: #767676;       /* oryginał #888, przyciemniony z tego samego powodu */
+  --color-brand-100: #e6ded7;
+  --color-brand-200: #ddd1c5;
+  --color-brand-500: #a48d66;
+  --color-grey-100: #f8f8f8;
+  --color-grey-200: #f1f1f1;
+  --color-border: #ddd;
+  --font-body: "Lato", Arial, sans-serif;
+  --font-heading: "Playfair Display", Georgia, serif;
+}
+
+/* Typografia */
+body {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: .5px;
+  color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  color: var(--color-graphite);
+}
+
+h1.h1, .page-header h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  text-transform: none;
+}
+
+#products .products-section-title,
+.featured-products .products-section-title,
+.product-accessories .products-section-title {
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  text-transform: none;
+  color: var(--color-graphite);
+}
+
+/* Linki i elementy w kolorze akcentu Classic (#24b9d7) */
+a,
+.btn-link,
+.page-link,
+.pagination .current a,
+.tabs .nav-tabs .nav-link.active,
+.block-promo .promo-code-button.cancel-promo {
+  color: var(--color-graphite);
+}
+
+.text-primary {
+  color: var(--color-graphite) !important; /* Classic ma tu !important */
+}
+
+a:hover,
+a:focus,
+#header a:hover,
+#header .top-menu a[data-depth="0"]:hover,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.footer-container li a:hover,
+.account-list a:hover,
+.product-miniature .highlighted-informations .quick-view:hover {
+  color: var(--color-brand-500);
+}
+
+/* Przyciski: beżowe, po najechaniu grafitowe */
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: var(--color-graphite);
+  background-color: var(--color-brand-100);
+  border: 1px solid var(--color-brand-100);
+  transition: all .5s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: var(--color-graphite);
+  border-color: var(--color-graphite);
+}
+
+.btn-outline-primary {
+  color: var(--color-graphite);
+  border-color: var(--color-graphite);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: var(--color-graphite);
+  border-color: var(--color-graphite);
+}
+
+/* Stany aktywne i focus */
+.page-item.active .page-link,
+.list-group-item.active,
+.dropdown-item.active,
+.nav-pills .nav-link.active,
+.custom-radio input[type=radio]:checked + span,
+.block-social ul li:hover,
+.products-sort-order .select-list:hover,
+.facet-dropdown .select-list:hover,
+#header .header-nav .cart-preview.active {
+  background-color: var(--color-graphite);
+  border-color: var(--color-graphite);
+}
+
+.form-control:focus,
+.input-group.focus,
+.search-widget form input[type=text]:focus,
+.block_newsletter form input[type=text]:focus,
+.product-customization .product-message:focus {
+  outline-color: var(--color-brand-500);
+}
+
+.tabs .nav-tabs .nav-link.active,
+.tabs .nav-tabs .nav-link:hover {
+  border-bottom-color: var(--color-brand-500);
+}
+
+.product-images > li.thumb-container .thumb.selected,
+.product-images > li.thumb-container .thumb:hover,
+#product-modal .modal-content .modal-body .product-images img:hover,
+body#checkout section.checkout-step .address-item.selected,
+#subcategories ul li:hover .subcategory-image a {
+  border-color: var(--color-brand-500);
+}
+
+/* Nagłówek */
+#header {
+  color: var(--color-text);
+}
+
+#header .header-nav {
+  font-size: 13px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#_desktop_top_menu {
+  background: var(--color-grey-100);
+}
+
+#header .top-menu a[data-depth="0"] {
+  font-family: var(--font-body);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-graphite);
+}
+
+.breadcrumb {
+  background: none;
+  padding-left: 0;
+  color: var(--color-muted);
+}
+
+/* Miniatury produktów */
+.product-miniature .thumbnail-container {
+  transition: all .5s ease;
+}
+
+.product-miniature .product-description {
+  padding: 1.5rem 1.25rem 1.25rem;
+  text-align: center;
+  background: var(--color-grey-200);
+  transition: background .5s ease;
+}
+
+.product-miniature .product-title a {
+  display: block;
+  overflow: hidden;
+  font-family: var(--font-heading);
+  font-size: 1.125rem;
+  color: var(--color-graphite);
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-miniature .product-price-and-shipping,
+.product-price,
+#blockcart-modal .product-name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--color-graphite);
+}
+
+.product-miniature .regular-price,
+.product-discount .regular-price {
+  color: var(--color-muted);
+}
+
+.product-miniature:hover .product-description {
+  background: var(--color-graphite);
+}
+
+.product-miniature:hover .product-description,
+.product-miniature:hover .product-title a,
+.product-miniature:hover .product-price-and-shipping,
+.product-miniature:hover .regular-price {
+  color: #fff;
+}
+
+.bg-primary {
+  background-color: var(--color-graphite) !important; /* Classic ma tu !important */
+}
+
+/* Flagi: promocja beżowa, nowość grafitowa */
+.product-flags li.product-flag {
+  font-weight: 700;
+  color: var(--color-graphite);
+  background: var(--color-brand-100);
+}
+
+.product-flags li.product-flag.new {
+  color: #fff;
+  background: var(--color-graphite);
+}
+
+.has-discount .discount {
+  color: var(--color-graphite);
+  background: var(--color-brand-100);
+}
+
+/* Stopka */
+#footer {
+  margin-top: 4rem;
+  color: var(--color-black);
+  background: var(--color-grey-100);
+}
+
+.footer-container {
+  padding: 4.5rem 0 2.5rem;
+  box-shadow: none;
+}
+
+.footer-container .h3,
+.footer-container .h4 {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  text-transform: none;
+  color: var(--color-graphite);
+}
+
+.footer-container li a {
+  color: var(--color-text);
+}
+
+.block_newsletter {
+  background: var(--color-grey-100);
+}
