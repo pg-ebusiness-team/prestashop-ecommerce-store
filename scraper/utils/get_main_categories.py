@@ -4,13 +4,11 @@ def get_main_categories(soup) -> list[Category]:
 
     header_top_box = soup.find("div", class_="header-top")
 
-    # all <li> category elements. Only the "big" blocks, excludes individual sub-categories to avoid repetition
     categories = header_top_box.select('li.category:has(> a[data-depth="0"])')
 
     url_arr: list[Category] = []
 
     for c in categories:
-        # print(c.prettify())
         main_cat = c.find("a", attrs={"data-depth": 0})
         if main_cat is None:
             continue

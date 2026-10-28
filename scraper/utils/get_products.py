@@ -1,12 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
-from get_page_count import get_page_count
+from utils.get_page_count import get_page_count
 import time
-from pathlib import Path
 
-def get_products():
-
-    base_url = 'https://luksusowealkohole.pl/15-whisky-bourbon'
+def get_products(base_url):
 
     response = requests.get(base_url, timeout=30)
     response.raise_for_status()
@@ -19,7 +16,7 @@ def get_products():
         'pages': [],
     }
 
-    print('Getting products. Page count: ' + str(page_count))
+    print(f"Getting products for {base_url}. Page count: {str(page_count)}")
 
     for page in range(1, page_count + 1):
 
@@ -31,7 +28,13 @@ def get_products():
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        product_boxes = soup.select_one('.product_list.grid.gridcount').find_all('li', class_='product_item')
+        product_list = soup.select_one('.product_list.grid.gridcount')
+        # empty category or different layout (e.g. gift card) - no products on this page
+        if product_list is None:
+            print(f"No product list on {url}, skipping")
+            break
+
+        product_boxes = product_list.find_all('li', class_='product_item')
         products = []
 
         for box in product_boxes:
@@ -45,8 +48,5 @@ def get_products():
         })
 
         time.sleep(.5)
-        break
 
     return data
-
-print(get_products())

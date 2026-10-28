@@ -14,14 +14,23 @@ def get_categories_dict(url_arr: list[Category]) -> list[CategoryWithSubcategori
         print("{}: Getting sub categories for {}".format(i, name))
 
         category_entry = {
-            'category': { 'name': name, 'url': url },
+            'main_category': { 'name': name, 'url': url },
             'subcategories': []
         }
 
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        subcategories = soup.find(id='subcategories').find_all('a', class_='subcategory-name')
+        subcategories_box = soup.find(id='subcategories')
+
+        # category without subcategories - treat itself as the only subcategory, so its products are scraped
+        if subcategories_box is None:
+            category_entry['subcategories'].append({ 'name': name, 'url': url })
+            result.append(category_entry)
+            time.sleep(.5)
+            continue
+
+        subcategories = subcategories_box.find_all('a', class_='subcategory-name')
 
         for s in subcategories:
             name = s.text.strip()
