@@ -48,13 +48,24 @@ Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 make ps
 ```
 
-Jeżeli chcesz obserwować logi sklepu na bieżąco, użyj:
+Jeżeli chcesz obserwować logi na bieżąco, użyj:
 
 ```bash
 make logs
 ```
 
-Adres sklepu oraz port, pod którym będzie dostępny, zależą od konfiguracji w pliku `.env`.
+Domyślnie pokazuje to logi wszystkich kontenerów. Aby zawęzić je do jednego, podaj nazwę usługi, np. `make logs SERVICE=proxy`.
+
+### 5. Otwórz sklep
+
+Sklep jest dostępny wyłącznie przez HTTPS:
+
+- sklep: `https://<SERVER_NAME>:<HTTPS_PORT>` (bazowo: https://localhost:8443)
+- panel administratora: `https://<SERVER_NAME>:<HTTPS_PORT>/<ADMIN_FOLDER>`
+
+Zapytania na `http://<SERVER_NAME>:<HTTP_PORT>` (bazowo: http://localhost:8080) są przekierowywane (301) na adres HTTPS.
+
+Certyfikat jest samopodpisany i generowany automatycznie przy pierwszym uruchomieniu, dlatego przeglądarka wyświetli ostrzeżenie o niezaufanym certyfikacie. Aby przejść do sklepu, zaakceptuj wyjątek.
 
 ## Rozwiązywanie problemów
 
@@ -80,3 +91,18 @@ make ps
 ```
 
 Pierwsze uruchomienie sklepu może potrwać dłuższą chwilę dlatego upewnij się, że sklep zdążył połączyć się z bazą danych.
+
+### Po aktualizacji sklep przekierowuje na zły adres lub w pętli
+
+Domena sklepu i ustawienie SSL są zapisywane w bazie danych przy pierwszej instalacji. Po zmianie `HTTP_PORT`, `HTTPS_PORT` lub `SERVER_NAME` (albo po aktualizacji ze starszej wersji projektu) usuń istniejące dane i uruchom sklep od zera:
+
+```bash
+make reset
+make up
+```
+
+Uwaga: `make reset` kasuje bazę danych oraz wygenerowany certyfikat.
+
+### Przeglądarka ostrzega o niezaufanym certyfikacie
+
+To oczekiwane zachowanie, ponieważ certyfikat jest samopodpisany. Certyfikat zapisuje się w wolumenie Dockera, więc przy kolejnych uruchomieniach pozostaje ten sam i wyjątek w przeglądarce nie musi być dodawany ponownie. Dopiero `make reset` generuje nowy certyfikat.
