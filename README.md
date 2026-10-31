@@ -86,7 +86,7 @@ make logs
 
 Domyślnie pokazuje to logi wszystkich kontenerów. Aby zawęzić je do jednego, podaj nazwę usługi, np. `make logs SERVICE=proxy`.
 
-### 5. Otwórz sklep
+### 6. Otwórz sklep
 
 Sklep jest dostępny wyłącznie przez HTTPS:
 
