@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  scraper:
+    name: Linter i testy scrapera
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install ruff==0.17.3 pytest
+      - run: ruff check scraper/
+      # shortcut: kod 5 = brak testów; usunąć "|| [ $? -eq 5 ]", gdy scraper trafi do main z testami
+      - run: pytest scraper/ || [ $? -eq 5 ]
+
+  gitleaks:
+    name: Skan sekretów (gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      # Obraz zamiast gitleaks-action: akcja wymaga płatnej licencji dla repozytoriów organizacji.
+      # Skanuje historię PR + main (to, co trafi do main), a nie inne gałęzie.
+      - run: docker run --rm -v "$PWD:/repo" ghcr.io/gitleaks/gitleaks:v8.30.1 git /repo --redact --log-opts=HEAD -v

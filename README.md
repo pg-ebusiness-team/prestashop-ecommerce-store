@@ -1,6 +1,6 @@
 # prestashop-ecommerce-store
 
-Sklep internetowy oparty na PrestaShop 8.x, uruchamiany w kontenerach Docker, wyposażony w automatyczny import danych ze scrapera oraz testy E2E w Playwright. Projekt obejmuje pełną obsługę zamówień, płatności i dostaw, analitykę GA4 oraz integrację z klastrem Docker Swarm.
+Sklep internetowy oparty na PrestaShop 8.2.8, uruchamiany w kontenerach Docker, wyposażony w automatyczny import danych ze scrapera oraz testy E2E w Playwright. Projekt obejmuje pełną obsługę zamówień, płatności i dostaw, analitykę GA4 oraz integrację z klastrem Docker Swarm.
 
 Autorzy:
 Bartosz Pacyga
@@ -28,6 +28,12 @@ cp .env.example .env
 
 Następnie otwórz plik `.env` i uzupełnij wszystkie wymagane zmienne środowiskowe poprawnymi wartościami.
 
+Klucz Webservice API (`PS_API_KEY`) musi mieć dokładnie 32 znaki `A-Z0-9`. Wygeneruj go poleceniem:
+
+```bash
+openssl rand -hex 16 | tr a-f A-F
+```
+
 ### 3. Uruchom sklep
 
 Z poziomu głównego katalogu projektu wykonaj polecenie:
@@ -40,7 +46,31 @@ Polecenie zbuduje wymagane obrazy Docker i uruchomi kontenery w tle.
 
 Przy pierwszym uruchomieniu proces może potrwać dłużej, ponieważ Docker musi pobrać wymagane obrazy i zbudować środowisko.
 
-### 4. Sprawdź status kontenerów
+### 4. Zainicjalizuj dane
+
+Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! Starting web server now`), wykonaj:
+
+```bash
+make init
+```
+
+Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+
+Poprawność konfiguracji API sprawdzisz poleceniem:
+
+```bash
+make api-check
+```
+
+Następnie włącz motyw sklepu:
+
+```bash
+make theme
+```
+
+Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic) i czyści cache. Można je uruchamiać wielokrotnie.
+
+### 5. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 
@@ -66,6 +96,15 @@ Sklep jest dostępny wyłącznie przez HTTPS:
 Zapytania na `http://<SERVER_NAME>:<HTTP_PORT>` (bazowo: http://localhost:8080) są przekierowywane (301) na adres HTTPS.
 
 Certyfikat jest samopodpisany i generowany automatycznie przy pierwszym uruchomieniu, dlatego przeglądarka wyświetli ostrzeżenie o niezaufanym certyfikacie. Aby przejść do sklepu, zaakceptuj wyjątek.
+
+## Wygląd sklepu (motyw potomny)
+
+Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-child-theme`. Plików motywu Classic nie edytujemy — pochodzi z obrazu PrestaShop i jest dziedziczony.
+
+- `config/theme.yml` — konfiguracja motywu (`parent: classic`, `use_parent_assets: true`); sekcje `global_settings` i `theme_settings` są skopiowane z Classic, aby zachować hooki modułów, typy obrazków i układy stron.
+- `assets/css/custom.css` — wszystkie własne style; PrestaShop ładuje go automatycznie po CSS Classic.
+
+Motyw jest kopiowany do obrazu, więc po każdej zmianie w jego plikach wykonaj `make up` (przebudowa obrazu, dane zostają) i `make theme` (czyści cache).
 
 ## Rozwiązywanie problemów
 
