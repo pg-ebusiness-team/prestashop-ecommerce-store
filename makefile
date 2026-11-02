@@ -4,7 +4,7 @@
 # --env-file - ścieżka do pliku .env z poziomu pliku makefile. Jest konieczna bo .env i compose.yaml znajdują się w innych folderach
 COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
-SHOP_URL ?= http://localhost:$(SHOP_PORT)
+SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init api-check theme
 
@@ -50,7 +50,7 @@ init:
 
 # Oczekiwane kody: klucz dziala, nie ma dostepu poza swoimi zasobami, bez klucza brak dostepu
 api-check:
-	@check() { code=$$(curl -s -o /dev/null -w '%{http_code}' $$3 "$(SHOP_URL)/$$1"); \
+	@check() { code=$$(curl -s -k -o /dev/null -w '%{http_code}' $$3 "$(SHOP_URL)/$$1"); \
 	  if [ "$$code" = "$$2" ]; then echo "OK   $$4 -> $$code"; else echo "FAIL $$4 -> $$code (oczekiwano $$2)"; exit 1; fi; }; \
 	check api/ 200 "-u $(PS_API_KEY):" "api/ z kluczem"; \
 	check api/products 200 "-u $(PS_API_KEY):" "api/products z kluczem"; \
