@@ -11,14 +11,26 @@ services:
       PS_INSTALL_AUTO: "1"
       PS_LANGUAGE: pl
       PS_COUNTRY: PL
-      PS_DOMAIN: localhost:${SHOP_PORT}
+      PS_DOMAIN: ${SERVER_NAME}:${HTTPS_PORT}
       ADMIN_MAIL: ${ADMIN_MAIL}
       ADMIN_PASSWD: ${ADMIN_PASSWD}
       PS_FOLDER_ADMIN: ${ADMIN_FOLDER}
+      PS_ENABLE_SSL: "1"
 
-
+  proxy:
+    build: ./nginx
+    image: proxy:dev
+    platform: linux/amd64
+    environment:
+      SERVER_NAME: ${SERVER_NAME}
+      HTTPS_PORT: ${HTTPS_PORT}
     ports:
-      - "${SHOP_PORT}:80"
+      - "${HTTP_PORT}:80"
+      - "${HTTPS_PORT}:443"
+    volumes:
+      - proxy_certs:/etc/nginx/certs
+    depends_on:
+      - shop
 
   db:
     image: mysql:8.0
@@ -36,3 +48,4 @@ services:
 
 volumes:
   db_data:
+  proxy_certs:
