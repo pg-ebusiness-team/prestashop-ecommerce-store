@@ -82,7 +82,7 @@
   </div>
   {if $page.page_name == 'index'}
     <ul class="header-benefits">
-      <li><i class="material-icons" aria-hidden="true">&#xE558;</i>Wysyłka gratis od 450 zł*</li>
+      <li><i class="material-icons" aria-hidden="true">&#xE558;</i>Wysyłka gratis od 2000 zł*</li>
       <li><i class="material-icons" aria-hidden="true">&#xE8F6;</i>Karty podarunkowe</li>
       <li><a href="{$urls.pages.prices_drop}"><i class="material-icons" aria-hidden="true">&#xE263;</i>Wyjątkowe promocje</a></li>
     </ul>

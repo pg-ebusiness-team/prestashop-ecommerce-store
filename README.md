@@ -68,7 +68,7 @@ Następnie włącz motyw sklepu:
 make theme
 ```
 
-Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic) i czyści cache. Można je uruchamiać wielokrotnie.
+Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera i bloku tekstowego zostaną nadpisane wersją z repo.
 
 ### 5. Sprawdź status kontenerów
 
