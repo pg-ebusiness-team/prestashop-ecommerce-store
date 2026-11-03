@@ -16,6 +16,8 @@ services:
       ADMIN_PASSWD: ${ADMIN_PASSWD}
       PS_FOLDER_ADMIN: ${ADMIN_FOLDER}
       PS_ENABLE_SSL: "1"
+      MAIL_SMTP_HOST: mail # Musi być zgodne z nazwą usługi "mail" poniżej (DNS w sieci Dockera)
+      MAIL_SMTP_PORT: "1025"
 
   proxy:
     build: ./nginx
@@ -31,6 +33,12 @@ services:
       - proxy_certs:/etc/nginx/certs
     depends_on:
       - shop
+
+  mail:
+    image: axllent/mailpit:v1.32.0
+    platform: linux/amd64
+    ports:
+      - "${MAILPIT_PORT}:8025"
 
   db:
     image: mysql:8.0
