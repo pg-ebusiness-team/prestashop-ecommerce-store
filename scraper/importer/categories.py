@@ -24,8 +24,8 @@ API_KEY = os.getenv("PS_API_KEY")
 if not API_KEY:
     raise RuntimeError("Brak klucza API. Ustaw PS_API_KEY w pliku .env.")
 
-LANGUAGE_ISO_CODE = "pl"
-ROOT_CATEGORY_FLAG = "1"
+LANGUAGE_ID = 1
+ROOT_CATEGORY_ID = 2
 
 def generate_link_rewrite(name: str) -> str:
     polish_chars = {
@@ -138,3 +138,112 @@ def update_category(api: PrestaShopAPI, mapping: list, name: str, url: str, root
     api.put("categories", prestashop_id, xml_data)
 
     return prestashop_id
+
+def import_categories():
+
+    api = PrestaShopAPI(SHOP_URL, API_KEY)
+
+    mapping = load_mapping(SOURCE_PATH, MAPPING_PATH)
+    
+    report = {
+        "created": 0,
+        "updated": 0,
+        "rejected": 0
+    }
+
+    language_id = LANGUAGE_ID
+    root_category_id = ROOT_CATEGORY_ID
+    
+    for category_group in mapping:
+        main_category = category_group["main_category"]
+
+        name = main_category["name"]
+        url = main_category["url"]
+
+        prestashop_id = get_prestashop_id(mapping, url)
+
+        try:
+            if prestashop_id is None:
+                create_category(
+                    api,
+                    mapping,
+                    name,
+                    url,
+                    root_category_id,
+                    language_id
+                )
+                report["created"] += 1
+
+            else:
+                update_category(
+                    api,
+                    mapping,
+                    name,
+                    url,
+                    root_category_id,
+                    language_id
+                )
+                report["updated"] += 1
+
+        except Exception as e:
+            print(f"Błąd importu kategorii '{name}': {e}")
+            report["rejected"] += 1
+            
+        if get_prestashop_id(mapping, main_category["url"]) is None:
+            continue
+            
+        for subcategory in category_group["subcategories"]:
+            name = subcategory["name"]
+            url = subcategory["url"]
+
+            prestashop_id = get_prestashop_id(mapping, url)
+
+            try:
+                if prestashop_id is None:
+                    create_category(
+                        api,
+                        mapping,
+                        name,
+                        url,
+                        root_category_id,
+                        language_id
+                    )
+                    report["created"] += 1
+
+                else:
+                    update_category(
+                        api,
+                        mapping,
+                        name,
+                        url,
+                        root_category_id,
+                        language_id
+                    )
+                    report["updated"] += 1
+
+            except Exception as e:
+                print(f"Błąd importu podkategorii '{name}': {e}")
+                report["rejected"] += 1
+    return report
+
+def print_import_report(report: dict) -> None:
+
+    created = report["created"]
+    updated = report["updated"]
+    rejected = report["rejected"]
+
+    total = created + updated + rejected
+
+    print("\n========== RAPORT IMPORTU ==========\n")
+
+    print(f"Utworzone kategorie:       {created}")
+    print(f"Zaktualizowane kategorie:  {updated}")
+    print(f"Odrzucone kategorie:       {rejected}")
+
+    print("------------------------------------")
+    print(f"Łącznie przetworzono:      {total}")
+    print("====================================")
+    
+if __name__ == "__main__":
+    report = import_categories()
+    print_import_report(report)
