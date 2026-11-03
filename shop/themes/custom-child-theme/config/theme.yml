@@ -73,9 +73,9 @@ global_settings:
       # displayNav1/displayNav2 nieużywane - header.tpl renderuje kontakt, konto i koszyk sam
       displayTop:
         - ps_mainmenu
-      #displayHome:                # kolejność jak w źródle (docs/wyglad_strony.md)
-       # - ps_imageslider
-        #- ps_customtext
+      displayHome:                # kolejność jak w źródle (docs/wyglad_strony.md)
+        - ps_imageslider
+        - ps_customtext
       # Własny hook: templates/index.tpl wywołuje każdy moduł osobno (mod=...) - zakładki „W naszej ofercie” i „Kup taniej”
       displayHomeProducts:
         - ps_featuredproducts
