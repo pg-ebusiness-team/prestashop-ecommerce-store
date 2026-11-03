@@ -11,6 +11,22 @@ from .categories_mapping import (
     add_mapping
 )
 
+# Konfiguracja importera
+SOURCE_PATH = "scraper/kategorie_poprawiony.json"
+MAPPING_PATH = "scraper/importer/categories_mapping.json"
+
+SHOP_URL = os.getenv(
+    "SHOP_URL",
+    f"http://localhost:{os.getenv('SHOP_PORT', '8080')}"
+)
+API_KEY = os.getenv("PS_API_KEY")
+
+if not API_KEY:
+    raise RuntimeError("Brak klucza API. Ustaw PS_API_KEY w pliku .env.")
+
+LANGUAGE_ISO_CODE = "pl"
+ROOT_CATEGORY_FLAG = "1"
+
 def generate_link_rewrite(name: str) -> str:
     polish_chars = {
         "ą": "a", "ć": "c", "ę": "e",
@@ -76,3 +92,49 @@ def get_parent_id(mapping: list, url: str, root_category_id: int) -> int:
                 return parent_id
 
     raise ValueError(f"Nie znaleziono kategorii o URL: {url}")
+
+def create_category(api: PrestaShopAPI, mapping: list, name: str, url: str, root_category_id: int, language_id: int) -> int:
+    parent_id = get_parent_id(mapping, url, root_category_id)
+    
+    xml_data = build_category_xml(name, parent_id, language_id)
+    
+    response = api.post("categories", xml_data)
+    
+    response_xml = ET.fromstring(response)
+
+    id_element = response_xml.find(".//category/id")
+
+    if id_element is None or id_element.text is None:
+        raise ValueError("PrestaShop API nie zwróciło ID utworzonej kategorii.")
+
+    prestashop_id = int(id_element.text)
+    
+    if not add_mapping(mapping, url, prestashop_id, MAPPING_PATH):
+        raise ValueError(f"Nie znaleziono kategorii w mapowaniu: {url}")
+
+    return prestashop_id
+
+def update_category(api: PrestaShopAPI, mapping: list, name: str, url: str, root_category_id: int, language_id: int) -> int:
+    prestashop_id = get_prestashop_id(mapping, url)
+
+    if prestashop_id is None:
+        raise ValueError(f"Nie znaleziono ID kategorii w mapowaniu: {url}")
+
+    parent_id = get_parent_id(mapping, url, root_category_id)
+
+    xml_data = build_category_xml(name, parent_id, language_id)
+
+    response_xml = ET.fromstring(xml_data)
+
+    category_element = response_xml.find("./category")
+
+    id_element = ET.Element("id")
+    id_element.text = str(prestashop_id)
+
+    category_element.insert(0, id_element)
+
+    xml_data = ET.tostring(response_xml, encoding="unicode")
+
+    api.put("categories", prestashop_id, xml_data)
+
+    return prestashop_id
