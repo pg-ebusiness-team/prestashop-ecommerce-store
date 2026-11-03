@@ -14,9 +14,17 @@ Właścicielem musi być `www-data` (użytkownik Apache), bo PrestaShop zapisuje
 
 Sam `COPY` tylko udostępnia motyw — aktywuje go `make theme` (`bin/console prestashop:theme:enable`), ponieważ aktywny motyw jest zapisany w bazie danych.
 
+Drugi `COPY` dodaje skrypty uruchamiane przy każdym starcie kontenera:
+
+```dockerfile
+COPY --chmod=755 init-scripts/ /tmp/init-scripts/
+```
+
+Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie jest tam jeden skrypt, który konfiguruje pocztę (opisany w sekcji o kontenerze `shop`).
+
 ## Plik compose.yaml
 
-Póki co plik zawiera kontener sklepu, reverse proxy (nginx) oraz bazy danych, która bazuje na wolumenie.
+Póki co plik zawiera kontener sklepu, reverse proxy (nginx), serwer poczty testowej (Mailpit) oraz bazy danych, która bazuje na wolumenie.
 
 ### Kontener shop
 
@@ -46,8 +54,26 @@ Zmienne środowiskowe:
 - ADMIN_PASSWD - hasło użytkownika admin
 - PS_FOLDER_ADMIN - miejsce panelu admina. Adres: PS_DOMAIN/PS_FOLDER_ADMIN
 - PS_ENABLE_SSL - włącza HTTPS w sklepie. Wartość jest zapisywana w bazie przy pierwszej instalacji.
+- MAIL_SMTP_HOST - nazwa serwera SMTP, czyli nazwa usługi z Mailpitem (`mail`) w sieci Dockera. Musi być zgodna z nazwą usługi w pliku `compose.yaml`.
+- MAIL_SMTP_PORT - port serwera SMTP (Mailpit domyślnie nasłuchuje na 1025).
 
 Kontener nie publikuje portów na hoście. Cały ruch przechodzi przez kontener `proxy`, co gwarantuje, że sklep jest dostępny wyłącznie przez HTTPS.
+
+#### Konfiguracja poczty (init-scripts)
+
+Obraz PrestaShop nie ma zmiennych środowiskowych do konfiguracji SMTP, a ustawienia poczty są zapisywane w bazie danych. Dlatego skrypt `shop/init-scripts/10-configure-mail.sh` ustawia je przez konsolę PrestaShop (`bin/console prestashop:config set`):
+- PS_MAIL_METHOD = 2 - wysyłka przez własny serwer SMTP
+- PS_MAIL_SERVER = MAIL_SMTP_HOST - adres serwera SMTP
+- PS_MAIL_SMTP_PORT = MAIL_SMTP_PORT - port serwera SMTP
+- PS_MAIL_SMTP_ENCRYPTION = off - Mailpit nie używa TLS ani logowania, dlatego PS_MAIL_USER i PS_MAIL_PASSWD zostają puste
+
+Skrypt jest w `init-scripts`, a nie w `make init`, ponieważ adres SMTP to konfiguracja środowiska (podobnie jak domena i SSL), a nie dane sklepu. Jest stosowana przy każdym starcie kontenera na podstawie zmiennych środowiskowych, więc zmiana serwera SMTP nie wymaga ręcznych kroków ani zmian w bazie.
+
+Szczegóły działania skryptu:
+- jeżeli sklep nie jest zainstalowany (brak `app/config/parameters.php`), skrypt nic nie robi,
+- konsola jest uruchamiana jako `www-data` (`runuser`, tak jak robi to instalator w obrazie). Uruchomiona jako root utworzyłaby w `var/cache` pliki, do których Apache nie mógłby zapisywać,
+- skrypt zawsze kończy się kodem 0. `docker_run.sh` działa z `set -e`, więc kod różny od zera zatrzymałby start całego kontenera, a błąd konfiguracji poczty nie powinien wyłączać sklepu. Problemy są zgłaszane komunikatem `BLAD` w logach (`make logs SERVICE=shop`),
+- ponowne uruchomienie ustawia te same wartości, więc nie powoduje skutków ubocznych.
 
 ### Kontener proxy
 
@@ -108,6 +134,30 @@ Certyfikat jest samopodpisany i generowany przez skrypt `deploy/nginx/docker-ent
 - klucz prywatny jest zapisywany bez hasła (`-noenc`), ponieważ nginx nie może go odblokować przy starcie.
 
 Certyfikat nie trafia do repozytorium. Zmiana `SERVER_NAME` po pierwszym uruchomieniu nie wygeneruje nowego certyfikatu, ponieważ stary pozostaje w wolumenie. W takiej sytuacji należy wykonać `make reset`.
+
+### Kontener mail
+
+Serwer poczty testowej Mailpit. Przechwytuje e-maile wysyłane przez sklep (m.in. po rejestracji i po złożeniu zamówienia) i nie dostarcza ich do prawdziwych adresatów. Używa gotowego obrazu, więc nie ma własnego Dockerfile:
+
+```yaml
+image: axllent/mailpit:v1.32.0
+platform: linux/amd64
+```
+
+Wersja obrazu jest przypięta do konkretnego tagu, a nie do `latest`, aby środowisko było powtarzalne.
+
+Mapowanie portu interfejsu WWW:
+
+```yaml
+ports:
+  - "${MAILPIT_PORT}:8025"
+```
+
+Port 8025 to interfejs WWW Mailpit (HTTP, bez TLS). To narzędzie deweloperskie, a wymóg HTTPS dotyczy sklepu. Port SMTP (1025) nie jest publikowany na hoście, bo sklep łączy się z Mailpitem wewnątrz sieci Dockera.
+
+Nazwa usługi (`mail`) jest jednocześnie nazwą DNS w sieci Dockera, pod którą sklep widzi serwer SMTP. Dlatego musi być zgodna z `MAIL_SMTP_HOST` w usłudze `shop` (w pliku jest o tym komentarz). Niezgodność nie powoduje błędu w logach, tylko brak wiadomości w Mailpicie.
+
+Usługa nie ma wolumenu, więc wiadomości nie są zapisywane trwale i znikają po usunięciu kontenera.
 
 ### Kontener db
 
