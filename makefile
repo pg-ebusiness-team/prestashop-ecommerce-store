@@ -18,7 +18,7 @@ help:
 	@echo "make build   - zbuduj obraz bez uruchamiania"
 	@echo "make init    - wlacz Webservice API i zarejestruj klucz PS_API_KEY"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
-	@echo "make theme   - wlacz motyw potomny custom-child-theme i wyczysc cache"
+	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej, wyczysc cache"
 
 
 up:
@@ -60,4 +60,8 @@ api-check:
 # -u www-data: pliki cache muszą należeć do użytkownika Apache, inaczej sklep nie zapisze kolejnych
 theme:
 	$(COMPOSE) exec -T -u www-data shop php bin/console prestashop:theme:enable custom-child-theme
+	@echo "Pobieranie grafik strony glownej (deploy/init/home-images.txt)..."
+	@grep -Ev '^(#|$$)' deploy/init/home-images.txt | $(COMPOSE) exec -T -u www-data shop sh -c \
+	  'mkdir -p img/cms/home && while read name url; do curl -fsS -o "img/cms/home/$$name" "$$url" || { echo "Nie udalo sie pobrac $$name"; exit 1; }; done'
+	@$(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"' < deploy/init/theme.sql
 	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
