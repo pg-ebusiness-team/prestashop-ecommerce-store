@@ -33,8 +33,12 @@ class PrestaShopAPI:
             raise RuntimeError("Nie udało się połączyć z PrestaShop API.")
 
         except requests.exceptions.HTTPError as e:
+            error_details = e.response.text[:2000]
+
             raise RuntimeError(
-                f"PrestaShop API zwróciło błąd HTTP: {e.response.status_code}"
+                f"PrestaShop API zwróciło błąd HTTP: "
+                f"{e.response.status_code}. "
+                f"Szczegóły: {error_details}"
             )
 
         except requests.exceptions.RequestException as e:
@@ -51,8 +55,8 @@ class PrestaShopAPI:
         return self._send_request(
             "POST",
             url,
-            data=xml_data,
-            headers={"Content-Type": "application/xml"}
+            data=xml_data.encode("utf-8"),
+            headers={"Content-Type": "application/xml; charset=utf-8"}
         )
 
 
@@ -62,8 +66,8 @@ class PrestaShopAPI:
         return self._send_request(
             "PUT",
             url,
-            data=xml_data,
-            headers={"Content-Type": "application/xml"}
+            data=xml_data.encode("utf-8"),
+            headers={"Content-Type": "application/xml; charset=utf-8"}
         )
 
 

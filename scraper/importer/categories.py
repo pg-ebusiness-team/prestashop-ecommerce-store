@@ -46,6 +46,37 @@ def generate_link_rewrite(name: str) -> str:
 
     return name
 
+def find_existing_category(api: PrestaShopAPI, name: str, parent_id: int) -> int | None:
+    link_rewrite = generate_link_rewrite(name)
+
+    response = api.get(
+        "categories",
+        params={
+            "filter[id_parent]": f"[{parent_id}]",
+            "filter[link_rewrite]": f"[{link_rewrite}]",
+            "display": "[id,id_parent,link_rewrite]"
+        }
+    )
+
+    response_xml = ET.fromstring(response)
+    categories = response_xml.findall(".//category")
+
+    if len(categories) > 1:
+        raise ValueError(
+            f"Znaleziono wiele kategorii o link_rewrite '{link_rewrite}' "
+            f"i id_parent '{parent_id}'."
+        )
+
+    if len(categories) == 0:
+        return None
+
+    id_element = categories[0].find("id")
+
+    if id_element is None or id_element.text is None:
+        raise ValueError("API nie zwróciło ID znalezionej kategorii.")
+
+    return int(id_element.text)
+
 def build_category_xml(name: str, parent_id: int, language_id: int) -> str:
     root = ET.Element("prestashop")
     category = ET.SubElement(root, "category")
@@ -164,6 +195,16 @@ def import_categories():
 
         try:
             if prestashop_id is None:
+                prestashop_id = find_existing_category(
+                    api,
+                    name,
+                    root_category_id
+                )
+
+                if prestashop_id is not None:
+                    add_mapping(mapping, url, prestashop_id, MAPPING_PATH)
+
+            if prestashop_id is None:
                 create_category(
                     api,
                     mapping,
@@ -190,6 +231,13 @@ def import_categories():
             report["rejected"] += 1
             
         if get_prestashop_id(mapping, main_category["url"]) is None:
+            skipped = len(category_group["subcategories"])
+            report["rejected"] += skipped
+
+            print(
+                f"Pominięto {skipped} podkategorii kategorii "
+                f"'{main_category['name']}' – brak ID kategorii nadrzędnej."
+            )
             continue
             
         for subcategory in category_group["subcategories"]:
@@ -199,6 +247,19 @@ def import_categories():
             prestashop_id = get_prestashop_id(mapping, url)
 
             try:
+                
+                parent_id = get_parent_id(mapping, url, root_category_id)
+                
+                if prestashop_id is None:
+                    prestashop_id = find_existing_category(
+                        api,
+                        name,
+                        parent_id
+                    )
+
+                    if prestashop_id is not None:
+                        add_mapping(mapping, url, prestashop_id, MAPPING_PATH)
+
                 if prestashop_id is None:
                     create_category(
                         api,

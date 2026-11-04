@@ -1,0 +1,217 @@
+[
+    {
+        "main_category": {
+            "name": "Prezenty",
+            "url": "https://luksusowealkohole.pl/11-prezenty",
+            "prestashop_id": 11
+        },
+        "subcategories": [
+            {
+                "name": "Kosze upominkowe",
+                "url": "https://luksusowealkohole.pl/38-kosze-upominkowe",
+                "prestashop_id": 12
+            },
+            {
+                "name": "Zestawy upominkowe",
+                "url": "https://luksusowealkohole.pl/39-zestawy-upominkowe",
+                "prestashop_id": 13
+            },
+            {
+                "name": "Zestawy alkoholi na...",
+                "url": "https://luksusowealkohole.pl/40-zestawy-alkohole",
+                "prestashop_id": 14
+            },
+            {
+                "name": "Ozdobne butelki",
+                "url": "https://luksusowealkohole.pl/41-ozdobne-butelki",
+                "prestashop_id": 15
+            },
+            {
+                "name": "Karty podarunkowe",
+                "url": "https://luksusowealkohole.pl/42-karta-podarunkowa",
+                "prestashop_id": 16
+            },
+            {
+                "name": "Prezenty świąteczne...",
+                "url": "https://luksusowealkohole.pl/109-prezenty-swiateczne-dla-klientow",
+                "prestashop_id": 42
+            },
+            {
+                "name": "Upominki świąteczne...",
+                "url": "https://luksusowealkohole.pl/110-upominki-swiateczne-dla-pracownikow",
+                "prestashop_id": 43
+            },
+            {
+                "name": "Zestawy prezentowe na...",
+                "url": "https://luksusowealkohole.pl/114-zestawy-prezentowe-na-wielkanoc",
+                "prestashop_id": 17
+            },
+            {
+                "name": "Kosze prezentowe na...",
+                "url": "https://luksusowealkohole.pl/115-kosze-prezentowe-na-wielkanoc",
+                "prestashop_id": 18
+            },
+            {
+                "name": "Alkohole na Wielkanoc",
+                "url": "https://luksusowealkohole.pl/116-alkohole-na-wielkanoc",
+                "prestashop_id": 19
+            }
+        ]
+    },
+    {
+        "main_category": {
+            "name": "Whisky & Bourbon",
+            "url": "https://luksusowealkohole.pl/15-whisky-bourbon",
+            "prestashop_id": 20
+        },
+        "subcategories": [
+            {
+                "name": "Whisky",
+                "url": "https://luksusowealkohole.pl/18-whisky",
+                "prestashop_id": 21
+            },
+            {
+                "name": "Bourbon",
+                "url": "https://luksusowealkohole.pl/19-bourbon",
+                "prestashop_id": 22
+            }
+        ]
+    },
+    {
+        "main_category": {
+            "name": "Alkohole & likiery",
+            "url": "https://luksusowealkohole.pl/16-alkohole-likiery",
+            "prestashop_id": 23
+        },
+        "subcategories": [
+            {
+                "name": "Absynt",
+                "url": "https://luksusowealkohole.pl/20-absynt",
+                "prestashop_id": 24
+            },
+            {
+                "name": "Aperitif",
+                "url": "https://luksusowealkohole.pl/21-aperitif",
+                "prestashop_id": 25
+            },
+            {
+                "name": "Armaniak",
+                "url": "https://luksusowealkohole.pl/22-armaniak",
+                "prestashop_id": 26
+            },
+            {
+                "name": "Brandy",
+                "url": "https://luksusowealkohole.pl/23-brandy",
+                "prestashop_id": 27
+            },
+            {
+                "name": "Calvados",
+                "url": "https://luksusowealkohole.pl/24-calvados",
+                "prestashop_id": 28
+            },
+            {
+                "name": "Gin",
+                "url": "https://luksusowealkohole.pl/26-gin",
+                "prestashop_id": 29
+            },
+            {
+                "name": "Grappa",
+                "url": "https://luksusowealkohole.pl/27-grappa",
+                "prestashop_id": 30
+            },
+            {
+                "name": "Koniak",
+                "url": "https://luksusowealkohole.pl/28-koniak",
+                "prestashop_id": 31
+            },
+            {
+                "name": "Likier",
+                "url": "https://luksusowealkohole.pl/29-likier",
+                "prestashop_id": 32
+            },
+            {
+                "name": "Miód pitny",
+                "url": "https://luksusowealkohole.pl/30-miod-pitny",
+                "prestashop_id": 44
+            },
+            {
+                "name": "Nalewki",
+                "url": "https://luksusowealkohole.pl/31-nalewka",
+                "prestashop_id": 33
+            },
+            {
+                "name": "Rum",
+                "url": "https://luksusowealkohole.pl/32-rum",
+                "prestashop_id": 34
+            },
+            {
+                "name": "Sake",
+                "url": "https://luksusowealkohole.pl/33-sake",
+                "prestashop_id": 35
+            },
+            {
+                "name": "Wódka",
+                "url": "https://luksusowealkohole.pl/34-wodka",
+                "prestashop_id": 45
+            },
+            {
+                "name": "Tequila & Mezcal",
+                "url": "https://luksusowealkohole.pl/56-tequila",
+                "prestashop_id": 36
+            }
+        ]
+    },
+    {
+        "main_category": {
+            "name": "Wino & Champagne",
+            "url": "https://luksusowealkohole.pl/17-wino-champagne",
+            "prestashop_id": 37
+        },
+        "subcategories": [
+            {
+                "name": "Wino",
+                "url": "https://luksusowealkohole.pl/35-wino",
+                "prestashop_id": 38
+            },
+            {
+                "name": "Wino bezalkoholowe",
+                "url": "https://luksusowealkohole.pl/36-wino-bezalkoholowe",
+                "prestashop_id": 39
+            },
+            {
+                "name": "Champagne",
+                "url": "https://luksusowealkohole.pl/37-champagne",
+                "prestashop_id": 40
+            }
+        ]
+    },
+    {
+        "main_category": {
+            "name": "Opakowania & Słodycze",
+            "url": "https://luksusowealkohole.pl/12-akcesoria-slodycze",
+            "prestashop_id": 46
+        },
+        "subcategories": [
+            {
+                "name": "Opakowania & Akcesoria",
+                "url": "https://luksusowealkohole.pl/43-akcesoria",
+                "prestashop_id": 47
+            },
+            {
+                "name": "Słodycze",
+                "url": "https://luksusowealkohole.pl/44-slodycze",
+                "prestashop_id": 48
+            },
+            {
+                "name": "Kawa",
+                "url": "https://luksusowealkohole.pl/46-kawa",
+                "prestashop_id": 49
+            },
+            {
+                "name": "Herbata",
+                "url": "https://luksusowealkohole.pl/47-herbata",
+                "prestashop_id": 50
+            }
+        ]
+    }
+]
