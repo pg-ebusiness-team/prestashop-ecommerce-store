@@ -1,6 +1,6 @@
 import json
-
 from pathlib import Path
+
 
 def load_mapping(source_path: str, mapping_path: str) -> list:
     mapping_file = Path(mapping_path)

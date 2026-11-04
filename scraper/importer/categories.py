@@ -1,14 +1,12 @@
-import json
 import os
 import re
 import xml.etree.ElementTree as ET
 
 from .api_client import PrestaShopAPI
 from .categories_mapping import (
-    load_mapping,
-    save_mapping,
+    add_mapping,
     get_prestashop_id,
-    add_mapping
+    load_mapping,
 )
 
 # Konfiguracja importera
@@ -226,7 +224,7 @@ def import_categories():
                 )
                 report["updated"] += 1
 
-        except Exception as e:
+        except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
             print(f"Błąd importu kategorii '{name}': {e}")
             report["rejected"] += 1
             
@@ -282,7 +280,7 @@ def import_categories():
                     )
                     report["updated"] += 1
 
-            except Exception as e:
+            except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
                 print(f"Błąd importu podkategorii '{name}': {e}")
                 report["rejected"] += 1
     return report
