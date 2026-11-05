@@ -1,3 +1,4 @@
+import os
 import requests
 
 
@@ -8,6 +9,7 @@ class PrestaShopAPI:
         self.api_key = api_key
 
         self.session = requests.Session()
+        self.session.verify = os.getenv("PS_VERIFY_SSL", "1") != "0"
         self.session.auth = (self.api_key, "")
         self.session.headers.update({
             "Accept": "application/xml"

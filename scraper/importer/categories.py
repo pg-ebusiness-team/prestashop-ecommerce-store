@@ -15,7 +15,7 @@ MAPPING_PATH = "scraper/importer/categories_mapping.json"
 
 SHOP_URL = os.getenv(
     "SHOP_URL",
-    f"http://localhost:{os.getenv('SHOP_PORT', '8080')}"
+    f"https://localhost:{os.getenv('HTTPS_PORT', '8443')}"
 )
 API_KEY = os.getenv("PS_API_KEY")
 

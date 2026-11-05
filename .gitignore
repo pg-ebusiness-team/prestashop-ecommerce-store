@@ -29,3 +29,6 @@ scraper-results/images/
 # Raporty Playwright
 test-results/
 playwright-report/
+
+# Lokalne mapowanie ID kategorii PrestaShop
+scraper/importer/categories_mapping.json
