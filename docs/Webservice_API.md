@@ -31,8 +31,10 @@ OK   api/ bez klucza -> 401
 Przykładowe zapytanie (klucz jako login Basic Auth, hasło puste):
 
 ```bash
-curl -H "Authorization: Basic $(printf %s: "$PS_API_KEY" | base64)" http://localhost:8080/api/products
+curl -k -H "Authorization: Basic $(printf %s: "$PS_API_KEY" | base64)" https://localhost:8443/api/products
 ```
+
+Sklep jest dostępny wyłącznie przez HTTPS, a certyfikat jest samopodpisany, dlatego `curl` wymaga `-k`. Adres i port zależą od `SERVER_NAME` i `HTTPS_PORT` z `.env` (bazowo `localhost:8443`).
 
 ## Klucz API i bezpieczeństwo
 
@@ -83,7 +85,7 @@ init:
 
 ### make api-check
 
-Wykonuje cztery zapytania `curl` i porównuje kody HTTP z oczekiwanymi (patrz [Uruchomienie](#uruchomienie)). Przy niezgodności wypisuje `FAIL` i kończy się błędem. Adres sklepu domyślnie to `http://localhost:$(SHOP_PORT)`; można go nadpisać, np. dla klastra w etapie 2:
+Wykonuje cztery zapytania `curl` i porównuje kody HTTP z oczekiwanymi (patrz [Uruchomienie](#uruchomienie)). Przy niezgodności wypisuje `FAIL` i kończy się błędem. Adres sklepu domyślnie to `https://localhost:$(HTTPS_PORT)` (zapytania idą z `-k`, bo certyfikat jest samopodpisany); można go nadpisać, np. dla klastra w etapie 2:
 
 ```bash
 make api-check SHOP_URL=https://adres-sklepu

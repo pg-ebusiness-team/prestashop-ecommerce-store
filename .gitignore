@@ -5,6 +5,7 @@
 *.pem
 *.key
 *.cert
+*.crt
 .vscode/
 .idea/
 
