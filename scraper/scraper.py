@@ -19,7 +19,8 @@ class Scraper:
     def __init__( self, site_url ):
         self.site_url = site_url
         self.soup = get_soup(self.site_url)
-        self.cache_path = 'cache/cache.json'
+        self.CACHE_PATH = 'cache/cache.json'
+        self.RESULTS_PATH = "../scraper_results/products"
         self.session = requests.Session()
 
     def run(self):
@@ -30,12 +31,12 @@ class Scraper:
         self.session.mount("https://", HTTPAdapter(max_retries=retry))
 
     def get_cache( self ) -> dict:
-        if os.path.exists( self.cache_path ):
+        if os.path.exists( self.CACHE_PATH ):
             try:
-                with open(self.cache_path, 'r') as f:
+                with open(self.CACHE_PATH, 'r') as f:
                     return json.load(f)
             except FileNotFoundError:
-                print('[cache] File not found: {}'.format(self.cache_path))
+                print('[cache] File not found: {}'.format(self.CACHE_PATH))
                 return {}
         else:
             return {}
@@ -61,7 +62,7 @@ class Scraper:
             print("Getting products for page " + str(page))
 
             url = "{}?page={}".format(category_url, page)
-            response = requests.get(url, timeout=30)
+            response = self.session.get(url, timeout=30)
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -115,20 +116,19 @@ class Scraper:
         return products_arr
 
     def scrap(self):
-        RESULTS_PATH = "../scraper_results/products"
         # delete old folder is exists (TODO: start at the scrapers last record)
-        folder = Path(RESULTS_PATH)
+        folder = Path(self.RESULTS_PATH)
         if folder.exists():
             shutil.rmtree(folder)
         folder.mkdir(parents=True)
 
-        response = requests.get('https://luksusowealkohole.pl/')
+        response = self.session.get('https://luksusowealkohole.pl/')
         soup = BeautifulSoup(response.text, 'html.parser')
 
         categories = get_categories_dict(get_main_categories(soup))
 
         for category in categories:
-            category_folder = f"{RESULTS_PATH}/{category['main_category']['name']}"
+            category_folder = f"{self.RESULTS_PATH}/{category['main_category']['name']}"
             os.makedirs(Path(category_folder), exist_ok=True)
 
             for sub_category in category['subcategories']:

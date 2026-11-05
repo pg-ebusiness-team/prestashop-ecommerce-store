@@ -3,25 +3,23 @@ import json
 import re
 import time
 from pathlib import Path
-
 import requests
-from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# for testing purposes
-BASE_URL = "https://luksusowealkohole.pl"
-AJAX_URL = BASE_URL + "/index.php"
-REQUEST_DELAY = 0.5
-JSONS_DIR = Path(__file__).parent.parent / "jsons"
-
-session = requests.Session()
-session.headers.update({"User-Agent": "Mozilla/5.0"})
-
-# retry on timeouts and server errors, with growing pauses (2s, 4s, 8s). POST is safe here - refresh only reads data
-retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
-              allowed_methods=["GET", "POST"])
-session.mount("https://", HTTPAdapter(max_retries=retry))
+# # for testing purposes
+# BASE_URL = "https://luksusowealkohole.pl"
+# AJAX_URL = BASE_URL + "/index.php"
+# REQUEST_DELAY = 0.5
+# JSONS_DIR = Path(__file__).parent.parent / "jsons"
+#
+# session = requests.Session()
+# session.headers.update({"User-Agent": "Mozilla/5.0"})
+#
+# # retry on timeouts and server errors, with growing pauses (2s, 4s, 8s). POST is safe here - refresh only reads data
+# retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
+#               allowed_methods=["GET", "POST"])
+# session.mount("https://", HTTPAdapter(max_retries=retry))
 
 
 def get_variant_select( product_soup ):
@@ -81,28 +79,3 @@ def json_name( product ):
         return f"{product['id_product']}_no_variants"
     return f"{product['id_product']}_variant_{product['id_product_attribute']}"
 
-
-def get_product_details(product_url):
-    """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
-    response = session.get(product_url, timeout=30)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    id_input = soup.select_one('input[name="id_product"]')
-    if id_input:
-        p_id = id_input.get('value')
-    else:
-        p_id = re.search(r"/(\d+)-", product_url).group(1)
-
-    group_id, values = get_variant_select(soup)
-
-    if not values:
-        _, product = refresh_variant(p_id, product_url, {})
-        return [product]
-
-    products_arr = []
-    for value in values:
-        _, product = refresh_variant(p_id, product_url, {group_id: value})
-        products_arr.append(product)
-
-    return products_arr
