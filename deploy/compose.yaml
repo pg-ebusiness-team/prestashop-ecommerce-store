@@ -11,14 +11,34 @@ services:
       PS_INSTALL_AUTO: "1"
       PS_LANGUAGE: pl
       PS_COUNTRY: PL
-      PS_DOMAIN: localhost:${SHOP_PORT}
+      PS_DOMAIN: ${SERVER_NAME}:${HTTPS_PORT}
       ADMIN_MAIL: ${ADMIN_MAIL}
       ADMIN_PASSWD: ${ADMIN_PASSWD}
       PS_FOLDER_ADMIN: ${ADMIN_FOLDER}
+      PS_ENABLE_SSL: "1"
+      MAIL_SMTP_HOST: mail # Musi być zgodne z nazwą usługi "mail" poniżej (DNS w sieci Dockera)
+      MAIL_SMTP_PORT: "1025"
 
-
+  proxy:
+    build: ./nginx
+    image: proxy:dev
+    platform: linux/amd64
+    environment:
+      SERVER_NAME: ${SERVER_NAME}
+      HTTPS_PORT: ${HTTPS_PORT}
     ports:
-      - "${SHOP_PORT}:80"
+      - "${HTTP_PORT}:80"
+      - "${HTTPS_PORT}:443"
+    volumes:
+      - proxy_certs:/etc/nginx/certs
+    depends_on:
+      - shop
+
+  mail:
+    image: axllent/mailpit:v1.32.0
+    platform: linux/amd64
+    ports:
+      - "${MAILPIT_PORT}:8025"
 
   db:
     image: mysql:8.0
@@ -36,3 +56,4 @@ services:
 
 volumes:
   db_data:
+  proxy_certs:

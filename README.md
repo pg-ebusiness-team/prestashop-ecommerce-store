@@ -68,7 +68,7 @@ Następnie włącz motyw sklepu:
 make theme
 ```
 
-Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic) i czyści cache. Można je uruchamiać wielokrotnie.
+Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera i bloku tekstowego zostaną nadpisane wersją z repo.
 
 ### 5. Sprawdź status kontenerów
 
@@ -78,13 +78,36 @@ Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 make ps
 ```
 
-Jeżeli chcesz obserwować logi sklepu na bieżąco, użyj:
+Jeżeli chcesz obserwować logi na bieżąco, użyj:
 
 ```bash
 make logs
 ```
 
-Adres sklepu oraz port, pod którym będzie dostępny, zależą od konfiguracji w pliku `.env`.
+Domyślnie pokazuje to logi wszystkich kontenerów. Aby zawęzić je do jednego, podaj nazwę usługi, np. `make logs SERVICE=proxy`.
+
+### 6. Otwórz sklep
+
+Sklep jest dostępny wyłącznie przez HTTPS:
+
+- sklep: `https://<SERVER_NAME>:<HTTPS_PORT>` (bazowo: https://localhost:8443)
+- panel administratora: `https://<SERVER_NAME>:<HTTPS_PORT>/<ADMIN_FOLDER>`
+
+Zapytania na `http://<SERVER_NAME>:<HTTP_PORT>` (bazowo: http://localhost:8080) są przekierowywane (301) na adres HTTPS.
+
+Certyfikat jest samopodpisany i generowany automatycznie przy pierwszym uruchomieniu, dlatego przeglądarka wyświetli ostrzeżenie o niezaufanym certyfikacie. Aby przejść do sklepu, zaakceptuj wyjątek.
+
+## Poczta testowa (Mailpit)
+
+E-maile wysyłane przez sklep (m.in. po rejestracji konta i po złożeniu zamówienia) nie trafiają do prawdziwych adresatów, tylko do kontenera Mailpit. Interfejs WWW jest dostępny pod adresem:
+
+- `http://localhost:<MAILPIT_PORT>` (bazowo: http://localhost:8025)
+
+Dodatkowe informacje:
+
+- Interfejs Mailpit działa po HTTP. To narzędzie deweloperskie, a wymóg HTTPS dotyczy sklepu.
+- Wiadomości nie są zapisywane trwale (brak wolumenu), więc znikają po usunięciu kontenera, np. po `make down`.
+- Sklep jest skonfigurowany do wysyłki przez Mailpit automatycznie przy każdym starcie kontenera `shop`. Nie trzeba w tym celu uruchamiać `make init` ani ustawiać niczego w panelu administratora.
 
 ## Wygląd sklepu (motyw potomny)
 
@@ -119,3 +142,30 @@ make ps
 ```
 
 Pierwsze uruchomienie sklepu może potrwać dłuższą chwilę dlatego upewnij się, że sklep zdążył połączyć się z bazą danych.
+
+### Po aktualizacji sklep przekierowuje na zły adres lub w pętli
+
+Domena sklepu i ustawienie SSL są zapisywane w bazie danych przy pierwszej instalacji. Po zmianie `HTTP_PORT`, `HTTPS_PORT` lub `SERVER_NAME` (albo po aktualizacji ze starszej wersji projektu) usuń istniejące dane i uruchom sklep od zera:
+
+```bash
+make reset
+make up
+```
+
+Uwaga: `make reset` kasuje bazę danych oraz wygenerowany certyfikat.
+
+### Przeglądarka ostrzega o niezaufanym certyfikacie
+
+To oczekiwane zachowanie, ponieważ certyfikat jest samopodpisany. Certyfikat zapisuje się w wolumenie Dockera, więc przy kolejnych uruchomieniach pozostaje ten sam i wyjątek w przeglądarce nie musi być dodawany ponownie. Dopiero `make reset` generuje nowy certyfikat.
+
+### E-maile ze sklepu nie pojawiają się w Mailpicie
+
+Sprawdź logi sklepu:
+
+```bash
+make logs SERVICE=shop
+```
+
+Przy starcie kontenera powinna pojawić się linia `10-configure-mail: ustawiam SMTP mail:1025`. Jeżeli zamiast tego widzisz `10-configure-mail: BLAD`, ustawienia poczty nie zostały zapisane (brak zmiennych `MAIL_SMTP_HOST` i `MAIL_SMTP_PORT` albo błąd konsoli PrestaShop).
+
+Jeżeli linia z ustawieniem SMTP jest, a wiadomości nadal nie docierają, sprawdź, czy `MAIL_SMTP_HOST` w `deploy/compose.yaml` jest taki sam jak nazwa usługi z Mailpitem (`mail`). Niezgodność nie powoduje błędu w logach, tylko brak wiadomości w Mailpicie.
