@@ -1,25 +1,5 @@
-import html
 import json
-import re
-import time
 from pathlib import Path
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
-
-# # for testing purposes
-# BASE_URL = "https://luksusowealkohole.pl"
-# AJAX_URL = BASE_URL + "/index.php"
-# REQUEST_DELAY = 0.5
-# JSONS_DIR = Path(__file__).parent.parent / "jsons"
-#
-# session = requests.Session()
-# session.headers.update({"User-Agent": "Mozilla/5.0"})
-#
-# # retry on timeouts and server errors, with growing pauses (2s, 4s, 8s). POST is safe here - refresh only reads data
-# retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
-#               allowed_methods=["GET", "POST"])
-# session.mount("https://", HTTPAdapter(max_retries=retry))
 
 
 def get_variant_select( product_soup ):

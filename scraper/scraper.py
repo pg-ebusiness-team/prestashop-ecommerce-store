@@ -12,8 +12,8 @@ import re
 from pathlib import Path
 import shutil
 from utils.get_product_details import save_json, json_name
-from utils.get_categories_dict import get_categories_dict
 from utils.get_main_categories import get_main_categories
+from models import Category, CategoryWithSubcategories
 import html
 
 class Scraper:
@@ -45,11 +45,51 @@ class Scraper:
             self.cache.add(file.name.split('_')[0])
         print(f"Loaded {len(self.cache)} products to cache")
 
+    def get_categories_dict(self, url_arr: list[Category]) -> list[CategoryWithSubcategories]:
+
+        result: list[CategoryWithSubcategories] = []
+
+        for i, url_dict in enumerate(url_arr):
+            name, url = url_dict['name'], url_dict['url']
+
+            print("{}: Getting sub categories for {}".format(i, name))
+
+            category_entry = {
+                'main_category': {'name': name, 'url': url},
+                'subcategories': []
+            }
+
+            response = self.session.get(url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            subcategories_box = soup.find(id='subcategories')
+
+            # category without subcategories - treat itself as the only subcategory, so its products are scraped
+            if subcategories_box is None:
+                category_entry['subcategories'].append({'name': name, 'url': url})
+                result.append(category_entry)
+                time.sleep(.5)
+                continue
+
+            subcategories = subcategories_box.find_all('a', class_='subcategory-name')
+
+            for s in subcategories:
+                name = s.text.strip()
+                url = s['href']
+
+                subcat_entry = {'name': name, 'url': url}
+                category_entry['subcategories'].append(subcat_entry)
+
+            result.append(category_entry)
+            time.sleep(.5)
+
+        print("Finished getting sub categories")
+        return result
 
     def get_products(self, category_url):
         """returns list of all products from a category"""
 
-        response = self.session.get(category_url, timeout=30)
+        response = self.session.get(category_url, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -67,7 +107,7 @@ class Scraper:
             print("Getting products for page " + str(page))
 
             url = "{}?page={}".format(category_url, page)
-            response = self.session.get(url, timeout=30)
+            response = self.session.get(url, timeout=10)
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, 'html.parser')
@@ -117,7 +157,7 @@ class Scraper:
                 "Referer": product_url,
                 "Origin": self.site_url,
             },
-            timeout=30,
+            timeout=10,
         )
         response.raise_for_status()
         data = response.json()
@@ -130,7 +170,7 @@ class Scraper:
 
     def get_product_details(self, product_url, p_id):
         """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
-        response = self.session.get(product_url, timeout=30)
+        response = self.session.get(product_url, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -149,10 +189,10 @@ class Scraper:
 
     def scrap(self):
 
-        response = self.session.get('https://luksusowealkohole.pl/')
+        response = self.session.get(self.site_url, timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        categories = get_categories_dict(get_main_categories(soup))
+        categories = self.get_categories_dict(get_main_categories(soup))
 
         for category in categories:
             category_folder = f"{self.RESULTS_PATH}/{category['main_category']['name']}"
@@ -170,12 +210,13 @@ class Scraper:
                     os.makedirs(Path(page_path), exist_ok=True)
                     products_urls = page['products']
                     for product_url in products_urls:
-                        # this function returns an array, even if product has no sub-categories
+                        # this function returns an array, even if product has no sub-variations
                         try:
                             p_id = re.search(r"/(\d+)-", product_url).group(1)
                             if p_id in self.cache:
                                 print(f"Loaded {p_id} from cache")
                                 continue
+                            print(f"Fetching {p_id} {product_url}")
                             product_details = self.get_product_details(product_url, p_id)
                         except Exception as e:
                             print(f"Error for {product_url}: {e}")
