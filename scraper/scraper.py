@@ -6,7 +6,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from utils.get_page_count import get_page_count
-from utils.get_product_details import refresh_variant, get_variant_select
+from utils.get_product_details import get_variant_select
 import time
 import re
 from pathlib import Path
@@ -14,14 +14,14 @@ import shutil
 from utils.get_product_details import save_json, json_name
 from utils.get_categories_dict import get_categories_dict
 from utils.get_main_categories import get_main_categories
+import html
 
 class Scraper:
     def __init__( self, site_url ):
         self.site_url = site_url
-        self.soup = get_soup(self.site_url)
-        self.CACHE_PATH = 'cache/cache.json'
         self.RESULTS_PATH = "../scraper_results/products"
         self.session = requests.Session()
+        self.cache = set()
 
     def run(self):
         self.session.headers.update({"User-Agent": "Mozilla/5.0"})
@@ -30,16 +30,21 @@ class Scraper:
                       allowed_methods=["GET", "POST"])
         self.session.mount("https://", HTTPAdapter(max_retries=retry))
 
-    def get_cache( self ) -> dict:
-        if os.path.exists( self.CACHE_PATH ):
-            try:
-                with open(self.CACHE_PATH, 'r') as f:
-                    return json.load(f)
-            except FileNotFoundError:
-                print('[cache] File not found: {}'.format(self.CACHE_PATH))
-                return {}
-        else:
-            return {}
+        self.load_cache()
+
+
+    def clear_result(self):
+        # delete old folder is exists (TODO: start at the scrapers last record)
+        folder = Path(self.RESULTS_PATH)
+        if folder.exists():
+            shutil.rmtree(folder)
+        folder.mkdir(parents=True)
+
+    def load_cache(self):
+        for file in Path(self.RESULTS_PATH).rglob('*.json'):
+            self.cache.add(file.name.split('_')[0])
+        print(f"Loaded {len(self.cache)} products to cache")
+
 
     def get_products(self, category_url):
         """returns list of all products from a category"""
@@ -89,38 +94,60 @@ class Scraper:
 
         return data
 
-    def get_product_details(self, product_url):
+    def refresh_variant(self, product_id, product_url, selected):
+        """Invokes PrestaShop's AJAX for a specific product-variant combination"""
+
+        ajax_url = self.site_url + '/index.php'
+        payload = {
+            'ajax': '1',
+            'action': 'refresh',
+            'quantity_wanted': '1'
+        }
+        for group_id, attribute_id in selected.items():
+            payload[f"group[{group_id}]"] = attribute_id
+
+        time.sleep(.5)
+        response = self.session.post(
+            ajax_url,
+            params={"controller": "product", "id_product": product_id, "id_customization": 0},
+            data=payload,
+            headers={
+                "Accept": "application/json, text/javascript, */*; q=0.01",
+                "X-Requested-With": "XMLHttpRequest",
+                "Referer": product_url,
+                "Origin": self.site_url,
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        data = response.json()
+
+        match = re.search(r'data-product="([^"]+)"', data.get("product_details", ""))
+        if not match:
+            raise ValueError("Brak data-product w odpowiedzi AJAX")
+
+        return data, json.loads(html.unescape(match.group(1)))
+
+    def get_product_details(self, product_url, p_id):
         """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
         response = self.session.get(product_url, timeout=30)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        id_input = soup.select_one('input[name="id_product"]')
-
-        if id_input:
-            p_id = id_input.get('value')
-        else:
-            p_id = re.search(r"/(\d+)-", product_url).group(1)
-
         group_id, values = get_variant_select(soup)
 
         if not values:
-            _, product = refresh_variant(p_id, product_url, {})
+            _, product = self.refresh_variant(p_id, product_url, {})
             return [product]
 
         products_arr = []
         for value in values:
-            _, product = refresh_variant(p_id, product_url, {group_id: value})
+            _, product = self.refresh_variant(p_id, product_url, {group_id: value})
             products_arr.append(product)
 
         return products_arr
 
     def scrap(self):
-        # delete old folder is exists (TODO: start at the scrapers last record)
-        folder = Path(self.RESULTS_PATH)
-        if folder.exists():
-            shutil.rmtree(folder)
-        folder.mkdir(parents=True)
 
         response = self.session.get('https://luksusowealkohole.pl/')
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -145,10 +172,15 @@ class Scraper:
                     for product_url in products_urls:
                         # this function returns an array, even if product has no sub-categories
                         try:
-                            product_details = self.get_product_details(product_url)
+                            p_id = re.search(r"/(\d+)-", product_url).group(1)
+                            if p_id in self.cache:
+                                print(f"Loaded {p_id} from cache")
+                                continue
+                            product_details = self.get_product_details(product_url, p_id)
                         except Exception as e:
                             print(f"Error for {product_url}: {e}")
                             continue
                         for p in product_details:
                             p_name = json_name(p)
                             save_json(page_path, p_name, p)
+                        self.cache.add(p_id)

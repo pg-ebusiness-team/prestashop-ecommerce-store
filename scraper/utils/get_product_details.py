@@ -39,39 +39,6 @@ def save_json( path, name, data ):
     with open(Path(path, f"{name}.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-# ai-assisted
-def refresh_variant( product_id, product_url, selected ):
-    """Invokes PrestaShop's AJAX for a specific product-variant combination"""
-    payload = {
-        'ajax': '1',
-        'action': 'refresh',
-        'quantity_wanted': '1'
-    }
-    for group_id, attribute_id in selected.items():
-        payload[f"group[{group_id}]"] = attribute_id
-
-    time.sleep(REQUEST_DELAY)
-    response = session.post(
-        AJAX_URL,
-        params={"controller": "product", "id_product": product_id, "id_customization": 0},
-        data=payload,
-        headers={
-            "Accept": "application/json, text/javascript, */*; q=0.01",
-            "X-Requested-With": "XMLHttpRequest",
-            "Referer": product_url,
-            "Origin": BASE_URL,
-        },
-        timeout=30,
-    )
-    response.raise_for_status()
-    data = response.json()
-
-    match = re.search(r'data-product="([^"]+)"', data.get("product_details", ""))
-    if not match:
-        raise ValueError("Brak data-product w odpowiedzi AJAX")
-
-    return data, json.loads(html.unescape(match.group(1)))
-
 
 def json_name( product ):
     """Returns file name based on product type: <id>_no_variants or <id>_variant_<variant_id>"""

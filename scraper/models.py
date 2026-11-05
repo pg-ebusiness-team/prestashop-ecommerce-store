@@ -6,5 +6,5 @@ class Category(TypedDict):
 
 
 class CategoryWithSubcategories(TypedDict):
-    category: Category
+    main_category: Category
     subcategories: list[Category]
