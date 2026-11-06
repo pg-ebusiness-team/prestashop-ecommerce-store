@@ -35,9 +35,13 @@
     <div class="container">
       {hook h='displayFooterBefore' mod='ps_socialfollow'}
       <p class="footer-copyright">&copy; {'Y'|date} {$shop.name}</p>
+      {* Zgodę trzeba móc wycofać równie łatwo, jak się ją wyraża - otwiera ponownie baner (assets/js/custom.js) *}
+      <button type="button" class="footer-cookie-settings" data-cookie-settings>Ustawienia cookies</button>
     </div>
   </div>
   {* Pozostałe moduły stopki (np. okna listy życzeń) - bez własnego miejsca w układzie *}
   {hook h='displayFooter' mod='blockwishlist'}
   {hook h='displayFooterAfter'}
+  {include file='_partials/cookie-banner.tpl'}
+  {include file='_partials/age-gate.tpl'}
 </div>

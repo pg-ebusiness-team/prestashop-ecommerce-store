@@ -20,22 +20,23 @@ INSERT INTO ps_homeslider (id_homeslider_slides, id_shop)
 VALUES (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1);
 
 -- Linki przez wyszukiwarkę: ID kategorii i produktów zmienią się po imporcie (D2).
+-- Bez prefiksu /pl/: sklep ma jeden aktywny język (cms.sql), więc PrestaShop nie dodaje go do adresów.
 INSERT INTO ps_homeslider_slides_lang (id_homeslider_slides, id_lang, title, description, legend, url, image)
 SELECT s.id, l.id_lang, s.title,
   CONCAT('<p class="slide-kicker">', s.kicker, '</p><p>', s.subtitle, '</p><span class="slide-btn">sprawdź naszą ofertę</span>'),
   s.legend, s.url, CONCAT(@img, 'slide-', s.id, '.webp')
 FROM (
             SELECT 1 AS id, 'gwarantujemy każdemu' AS kicker, 'Luksus Wyboru' AS title,
-                   'ARDBEG DOLCE Ekskluzywna Whisky Single Malt' AS subtitle, 'Ardbeg Dolce' AS legend, '/pl/szukaj?s=ardbeg' AS url
+                   'ARDBEG DOLCE Ekskluzywna Whisky Single Malt' AS subtitle, 'Ardbeg Dolce' AS legend, '/szukaj?s=ardbeg' AS url
   UNION ALL SELECT 2, 'gwarantujemy każdemu', 'Luksus Wyboru',
-                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/pl/szukaj?s=arcturus'
-  UNION ALL SELECT 3, 'luksus wyboru', 'Chopin Oak Cask No 9', '9 Lat starzenia', 'Chopin Vodka 9', '/pl/szukaj?s=chopin'
-  UNION ALL SELECT 4, 'A HARRISON FORD', 'Limited Edition', 'Glenmorangie 16 YO', 'A Harrison Ford', '/pl/szukaj?s=glenmo'
-  UNION ALL SELECT 5, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 14 YO Single Malt', 'The Balvenie 14 YO', '/pl/szukaj?s=balvenie'
+                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/szukaj?s=arcturus'
+  UNION ALL SELECT 3, 'luksus wyboru', 'Chopin Oak Cask No 9', '9 Lat starzenia', 'Chopin Vodka 9', '/szukaj?s=chopin'
+  UNION ALL SELECT 4, 'A HARRISON FORD', 'Limited Edition', 'Glenmorangie 16 YO', 'A Harrison Ford', '/szukaj?s=glenmo'
+  UNION ALL SELECT 5, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 14 YO Single Malt', 'The Balvenie 14 YO', '/szukaj?s=balvenie'
   UNION ALL SELECT 6, 'gwarantujemy każdemu', 'Luksus Wyboru',
-                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/pl/szukaj?s=chivas'
-  UNION ALL SELECT 7, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 16 YO Single Malt', 'The Balvenie 16 YO', '/pl/szukaj?s=balvenie'
-  UNION ALL SELECT 8, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 21 YO Single Malt', 'The Balvenie 21 YO', '/pl/szukaj?s=balvenie'
+                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/szukaj?s=chivas'
+  UNION ALL SELECT 7, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 16 YO Single Malt', 'The Balvenie 16 YO', '/szukaj?s=balvenie'
+  UNION ALL SELECT 8, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 21 YO Single Malt', 'The Balvenie 21 YO', '/szukaj?s=balvenie'
 ) s
 CROSS JOIN ps_lang l;
 
@@ -45,14 +46,14 @@ UPDATE ps_info_lang SET text = '
 <section class="home-categories">
   <h2 class="products-section-title">Polecamy w szczególności</h2>
   <div class="home-tiles">
-    <a class="home-tile" href="/pl/szukaj?s=whisky"><img src="/img/cms/home/tile-whisky.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Whisky &amp; Bourbon</span></a>
-    <a class="home-tile" href="/pl/szukaj?s=likier"><img src="/img/cms/home/tile-likiery.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Alkohole &amp; likiery</span></a>
-    <a class="home-tile" href="/pl/szukaj?s=wino"><img src="/img/cms/home/tile-wino.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Wino &amp; Champagne</span></a>
-    <a class="home-tile" href="/pl/szukaj?s=opakowanie"><img src="/img/cms/home/tile-opakowania.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Opakowania &amp; Słodycze</span></a>
+    <a class="home-tile" href="/szukaj?s=whisky"><img src="/img/cms/home/tile-whisky.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Whisky &amp; Bourbon</span></a>
+    <a class="home-tile" href="/szukaj?s=likier"><img src="/img/cms/home/tile-likiery.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Alkohole &amp; likiery</span></a>
+    <a class="home-tile" href="/szukaj?s=wino"><img src="/img/cms/home/tile-wino.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Wino &amp; Champagne</span></a>
+    <a class="home-tile" href="/szukaj?s=opakowanie"><img src="/img/cms/home/tile-opakowania.webp" alt="" width="540" height="540" loading="lazy"><span class="home-tile-name">Opakowania &amp; Słodycze</span></a>
   </div>
 </section>
 <section class="home-banners">
-  <a class="home-banner" href="/pl/szukaj?s=kosz">
+  <a class="home-banner" href="/szukaj?s=kosz">
     <img src="/img/cms/home/banner-kosze.webp" alt="" width="807" height="446" loading="lazy">
     <span class="home-banner-content">
       <span class="home-banner-title">Kosze<br>Prezentowe</span>
@@ -60,7 +61,7 @@ UPDATE ps_info_lang SET text = '
       <span class="home-banner-btn">zobacz produkty</span>
     </span>
   </a>
-  <a class="home-banner" href="/pl/szukaj?s=miniatur">
+  <a class="home-banner" href="/szukaj?s=miniatur">
     <img src="/img/cms/home/banner-miniatury.webp" alt="" width="672" height="371" loading="lazy">
     <span class="home-banner-content">
       <span class="home-banner-title">Duże pojemności<br>&amp; miniaturki</span>
