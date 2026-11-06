@@ -1,0 +1,53 @@
+-- Treści stron CMS (FRONT-4), uruchamiane przez `make theme`.
+-- Idempotentny: nadpisuje treść stron 1-5 z instalatora po polsku - źródłem prawdy jest repo, nie panel.
+-- Treść HTML stron leży w shop/cms/<id>-<nazwa>.html; make theme podaje ją jako @cms_<id> (base64, bez escapowania).
+-- Tytuły i adresy zostają z instalatora (stopka ps_linklist linkuje po ID, PS_CONDITIONS_CMS_ID = 3 to regulamin w zamówieniu).
+-- Dane firmy są fikcyjne (jak w theme.sql), żeby sklep testowy nie kierował klientów do istniejącej firmy.
+SET NAMES utf8mb4; -- bez tego polskie znaki zapisałyby się błędnie
+
+START TRANSACTION;
+
+SET @pl = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
+
+-- Bez tego przeglądarka z Accept-Language: en trafia na /en/ z tekstami instalatora, a przełącznika języka nie ma (FRONT-2).
+-- Angielskiego nie wyłączamy: przy jednym języku znika prefiks /pl/ z adresów i psują się linki /pl/... z theme.sql.
+UPDATE ps_configuration SET value = '0', date_upd = NOW() WHERE name = 'PS_DETECT_LANG';
+
+-- 1. Dostawa
+-- WERSJA ROBOCZA: dopasować nazwy i ceny przewoźników po konfiguracji sprzedaży (2 nowych przewoźników, WYMAGANIA.md).
+UPDATE ps_cms_lang SET
+  meta_keywords = 'dostawa, wysyłka, kurier, koszt dostawy, darmowa dostawa',
+  meta_description = 'Koszty i czas dostawy alkoholi premium, darmowa wysyłka od 2000 zł, bezpieczne pakowanie butelek.',
+  content = CONVERT(@cms_1 USING utf8mb4)
+WHERE id_cms = 1 AND id_lang = @pl;
+
+-- 2. Polityka prywatności
+UPDATE ps_cms_lang SET
+  meta_keywords = 'polityka prywatności, RODO, dane osobowe, cookies',
+  meta_description = 'Jak sklep Luksusowe Alkohole przetwarza dane osobowe klientów i jakich plików cookies używa.',
+  content = CONVERT(@cms_2 USING utf8mb4)
+WHERE id_cms = 2 AND id_lang = @pl;
+
+-- 3. Regulamin (podpięty pod zgodę w zamówieniu)
+UPDATE ps_cms_lang SET
+  meta_keywords = 'regulamin, zwrot, odstąpienie od umowy, reklamacja',
+  meta_description = 'Regulamin sklepu internetowego Luksusowe Alkohole: zamówienia, płatności, dostawa, odstąpienie od umowy i reklamacje.',
+  content = CONVERT(@cms_3 USING utf8mb4)
+WHERE id_cms = 3 AND id_lang = @pl;
+
+-- 4. O nas (O sklepie)
+UPDATE ps_cms_lang SET
+  meta_keywords = 'o nas, alkohole premium, whisky, koniak, kosze prezentowe',
+  meta_description = 'Luksusowe Alkohole - starannie wybrane whisky, koniaki, wina i szampany oraz kosze prezentowe na każdą okazję.',
+  content = CONVERT(@cms_4 USING utf8mb4)
+WHERE id_cms = 4 AND id_lang = @pl;
+
+-- 5. Płatności (Formy płatności)
+-- WERSJA ROBOCZA: zgodna z WYMAGANIA.md (przelew tradycyjny + płatność przy odbiorze, bez operatorów płatności).
+UPDATE ps_cms_lang SET
+  meta_keywords = 'płatności, przelew, pobranie, płatność przy odbiorze',
+  meta_description = 'Formy płatności w sklepie Luksusowe Alkohole: przelew tradycyjny i płatność przy odbiorze.',
+  content = CONVERT(@cms_5 USING utf8mb4)
+WHERE id_cms = 5 AND id_lang = @pl;
+
+COMMIT;
