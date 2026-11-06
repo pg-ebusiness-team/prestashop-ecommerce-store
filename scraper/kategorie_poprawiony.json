@@ -1,0 +1,178 @@
+[
+  {
+    "main_category": {
+      "name": "Prezenty",
+      "url": "https://luksusowealkohole.pl/11-prezenty"
+    },
+    "subcategories": [
+      {
+        "name": "Kosze upominkowe",
+        "url": "https://luksusowealkohole.pl/38-kosze-upominkowe"
+      },
+      {
+        "name": "Zestawy upominkowe",
+        "url": "https://luksusowealkohole.pl/39-zestawy-upominkowe"
+      },
+      {
+        "name": "Zestawy alkoholi na...",
+        "url": "https://luksusowealkohole.pl/40-zestawy-alkohole"
+      },
+      {
+        "name": "Ozdobne butelki",
+        "url": "https://luksusowealkohole.pl/41-ozdobne-butelki"
+      },
+      {
+        "name": "Karty podarunkowe",
+        "url": "https://luksusowealkohole.pl/42-karta-podarunkowa"
+      },
+      {
+        "name": "Prezenty świąteczne...",
+        "url": "https://luksusowealkohole.pl/109-prezenty-swiateczne-dla-klientow"
+      },
+      {
+        "name": "Upominki świąteczne...",
+        "url": "https://luksusowealkohole.pl/110-upominki-swiateczne-dla-pracownikow"
+      },
+      {
+        "name": "Zestawy prezentowe na...",
+        "url": "https://luksusowealkohole.pl/114-zestawy-prezentowe-na-wielkanoc"
+      },
+      {
+        "name": "Kosze prezentowe na...",
+        "url": "https://luksusowealkohole.pl/115-kosze-prezentowe-na-wielkanoc"
+      },
+      {
+        "name": "Alkohole na Wielkanoc",
+        "url": "https://luksusowealkohole.pl/116-alkohole-na-wielkanoc"
+      }
+    ]
+  },
+  {
+    "main_category": {
+      "name": "Whisky & Bourbon",
+      "url": "https://luksusowealkohole.pl/15-whisky-bourbon"
+    },
+    "subcategories": [
+      {
+        "name": "Whisky",
+        "url": "https://luksusowealkohole.pl/18-whisky"
+      },
+      {
+        "name": "Bourbon",
+        "url": "https://luksusowealkohole.pl/19-bourbon"
+      }
+    ]
+  },
+  {
+    "main_category": {
+      "name": "Alkohole & likiery",
+      "url": "https://luksusowealkohole.pl/16-alkohole-likiery"
+    },
+    "subcategories": [
+      {
+        "name": "Absynt",
+        "url": "https://luksusowealkohole.pl/20-absynt"
+      },
+      {
+        "name": "Aperitif",
+        "url": "https://luksusowealkohole.pl/21-aperitif"
+      },
+      {
+        "name": "Armaniak",
+        "url": "https://luksusowealkohole.pl/22-armaniak"
+      },
+      {
+        "name": "Brandy",
+        "url": "https://luksusowealkohole.pl/23-brandy"
+      },
+      {
+        "name": "Calvados",
+        "url": "https://luksusowealkohole.pl/24-calvados"
+      },
+      {
+        "name": "Gin",
+        "url": "https://luksusowealkohole.pl/26-gin"
+      },
+      {
+        "name": "Grappa",
+        "url": "https://luksusowealkohole.pl/27-grappa"
+      },
+      {
+        "name": "Koniak",
+        "url": "https://luksusowealkohole.pl/28-koniak"
+      },
+      {
+        "name": "Likier",
+        "url": "https://luksusowealkohole.pl/29-likier"
+      },
+      {
+        "name": "Miód pitny",
+        "url": "https://luksusowealkohole.pl/30-miod-pitny"
+      },
+      {
+        "name": "Nalewki",
+        "url": "https://luksusowealkohole.pl/31-nalewka"
+      },
+      {
+        "name": "Rum",
+        "url": "https://luksusowealkohole.pl/32-rum"
+      },
+      {
+        "name": "Sake",
+        "url": "https://luksusowealkohole.pl/33-sake"
+      },
+      {
+        "name": "Wódka",
+        "url": "https://luksusowealkohole.pl/34-wodka"
+      },
+      {
+        "name": "Tequila & Mezcal",
+        "url": "https://luksusowealkohole.pl/56-tequila"
+      }
+    ]
+  },
+  {
+    "main_category": {
+      "name": "Wino & Champagne",
+      "url": "https://luksusowealkohole.pl/17-wino-champagne"
+    },
+    "subcategories": [
+      {
+        "name": "Wino",
+        "url": "https://luksusowealkohole.pl/35-wino"
+      },
+      {
+        "name": "Wino bezalkoholowe",
+        "url": "https://luksusowealkohole.pl/36-wino-bezalkoholowe"
+      },
+      {
+        "name": "Champagne",
+        "url": "https://luksusowealkohole.pl/37-champagne"
+      }
+    ]
+  },
+  {
+    "main_category": {
+      "name": "Opakowania & Słodycze",
+      "url": "https://luksusowealkohole.pl/12-akcesoria-slodycze"
+    },
+    "subcategories": [
+      {
+        "name": "Opakowania & Akcesoria",
+        "url": "https://luksusowealkohole.pl/43-akcesoria"
+      },
+      {
+        "name": "Słodycze",
+        "url": "https://luksusowealkohole.pl/44-slodycze"
+      },
+      {
+        "name": "Kawa",
+        "url": "https://luksusowealkohole.pl/46-kawa"
+      },
+      {
+        "name": "Herbata",
+        "url": "https://luksusowealkohole.pl/47-herbata"
+      }
+    ]
+  }
+]
