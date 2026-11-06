@@ -9,9 +9,10 @@ START TRANSACTION;
 
 SET @pl = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
 
--- Bez tego przeglądarka z Accept-Language: en trafia na /en/ z tekstami instalatora, a przełącznika języka nie ma (FRONT-2).
--- Angielskiego nie wyłączamy: przy jednym języku znika prefiks /pl/ z adresów i psują się linki /pl/... z theme.sql.
-UPDATE ps_configuration SET value = '0', date_upd = NOW() WHERE name = 'PS_DETECT_LANG';
+-- Sklep tylko po polsku (WYMAGANIA.md). Instalator zostawia aktywny angielski, a pod /en/ są teksty z instalatora
+-- (zakazane w FRONT-4), do których prowadzi hreflang i przekierowanie przeglądarek z Accept-Language: en.
+-- Przy jednym aktywnym języku PrestaShop usuwa prefiks /pl/ z adresów - linki w theme.sql są więc bez /pl/.
+UPDATE ps_lang SET active = 0 WHERE iso_code <> 'pl';
 
 -- 1. Dostawa
 -- WERSJA ROBOCZA: dopasować nazwy i ceny przewoźników po konfiguracji sprzedaży (2 nowych przewoźników, WYMAGANIA.md).
