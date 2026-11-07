@@ -1,9 +1,15 @@
 import json
 from pathlib import Path
-from scraper.importer.products_mapping import get_product_mapping
 import xml.etree.ElementTree as ET
 import unicodedata
 import re
+from scraper.importer.api_client import PrestaShopAPI
+from scraper.importer.products_mapping import (
+    load_mapping,
+    save_mapping,
+    get_product_mapping,
+    add_product_mapping
+)
 
 LANGUAGE_ID = 1
 
@@ -183,7 +189,8 @@ def get_product_id(product: dict, mapping: dict) -> int | None:
 def build_product_xml(
     product: dict,
     category_id: int,
-    tax_rules_group_id: int
+    tax_rules_group_id: int,
+    product_id: int | None = None
 ) -> str:
     """
     Buduje XML produktu zgodny z formatem PrestaShop Webservice.
@@ -191,6 +198,9 @@ def build_product_xml(
 
     root = ET.Element("prestashop")
     product_element = ET.SubElement(root, "product")
+    
+    if product_id is not None:
+        ET.SubElement(product_element, "id").text = str(product_id)
 
     # Nazwa produktu
     name = ET.SubElement(product_element, "name")
@@ -236,3 +246,100 @@ def build_product_xml(
     ET.SubElement(category, "id").text = str(category_id)
 
     return ET.tostring(root, encoding="unicode")
+
+def create_product(api: PrestaShopAPI, product_xml: str) -> int:
+    """
+    Tworzy produkt w PrestaShop i zwraca jego ID.
+    """
+
+    response = api.post("products", product_xml)
+
+    root = ET.fromstring(response)
+
+    product_id = root.find("./product/id")
+
+    if product_id is None or product_id.text is None:
+        raise RuntimeError(
+            "PrestaShop nie zwrócił ID utworzonego produktu."
+        )
+
+    return int(product_id.text)
+
+def update_product(
+    api: PrestaShopAPI,
+    product_id: int,
+    product_xml: str
+) -> None:
+    """
+    Aktualizuje istniejący produkt w PrestaShop.
+    """
+
+    api.put("products", product_id, product_xml)
+    
+def import_product(
+    api: PrestaShopAPI,
+    product: dict,
+    mapping: dict,
+    category_id: int,
+    tax_rules_group_id: int
+) -> tuple[int, str]:
+    """
+    Tworzy lub aktualizuje produkt w PrestaShop.
+
+    Zwraca ID produktu w PrestaShop oraz rodzaj operacji.
+    """
+
+    existing_product_id = get_product_id(product, mapping)
+
+    product_xml = build_product_xml(
+        product,
+        category_id,
+        tax_rules_group_id,
+        existing_product_id
+    )
+
+    if existing_product_id is not None:
+        update_product(api, existing_product_id, product_xml)
+        return existing_product_id, "updated"
+
+    new_product_id = create_product(api, product_xml)
+
+    add_product_mapping(
+        mapping,
+        product["source_id"],
+        new_product_id
+    )
+
+    save_mapping(mapping)
+
+    return new_product_id, "created"
+
+def group_products(products: list[dict]) -> list[dict]:
+    """
+    Grupuje rekordy według ID produktu źródłowego.
+
+    Usuwa powtórzone warianty na podstawie ich ID źródłowego.
+    """
+
+    grouped = {}
+
+    for product in products:
+        source_id = product["source_id"]
+        attribute_id = product["source_attribute_id"]
+
+        if source_id not in grouped:
+            grouped[source_id] = {
+                **product,
+                "combinations": []
+            }
+
+        if attribute_id not in (None, 0):
+            existing_ids = {
+                combination["source_attribute_id"]
+                for combination in grouped[source_id]["combinations"]
+            }
+
+            if attribute_id not in existing_ids:
+                grouped[source_id]["combinations"].append(product)
+
+    return list(grouped.values())
