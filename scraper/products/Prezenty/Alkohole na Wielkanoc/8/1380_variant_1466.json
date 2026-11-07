@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902860430803",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 31,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1466,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-30 19:49:33",
+  "date_upd": "2025-01-31 17:37:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "NALEWKA Staropolska z Aronii",
+  "link_rewrite": "nalewka-staropolska-z-aronii",
+  "name": "NALEWKA Staropolska z Aronii",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Nalewka \r\n z aronii charakteryzuje się wyrazistym aromatem, a wyróżnia ją głęboka, ciemna, \r\n wręcz intrygująca barwa. W smaku wyczuć można odrobinę słodyczy oraz \r\ncharakterystyczną cierpkość. Jak to możliwe, że udało się połączyć tak skrajne \r\nnuty? Wszystkie te intensywne doznania zmysłowe pochodzą z dojrzałych owoców \r\naronii, które dzięki zastosowaniu spirytusu zachowują swoje właściwości. \r\nPowstały alkohol może śmiało stanąć w konkury z trunkiem przygotowywanym \r\nstaropolską metodą przez nasze babcie – powstał przecież wedle takich samych \r\nreceptur! Nalewka z aronii to idealny balans między lekką goryczką, owocową \r\nświeżością i subtelną słodyczą. Jest ona jednym z najbardziej \r\ncharakterystycznych alkoholi w polskiej tradycji.</SPAN></P>\r\n",
+  "description_short": "<p>Nalewka z aronii charakteryzuje się wyrazistym aromatem, a wyróżnia ją głęboka, ciemna, wręcz intrygująca barwa. W smaku wyczuć można odrobinę słodyczy oraz charakterystyczną cierpkość.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1380,
+  "id_product": 1380,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1466,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "nalewka",
+  "category_name": "Nalewki",
+  "link": "https://luksusowealkohole.pl/nalewka/1380-nalewka-staropolska-z-aronii",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "25%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 238
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 37,
+      "id_attribute_group": 5,
+      "name": "0,35 L",
+      "group": "Pojemność",
+      "reference": "5902860430803",
+      "ean13": "5902860430803",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1895,
+      "legend": "NALEWKA Staropolska z Aronii",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1895-small_default/nalewka-staropolska-z-aronii.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1895-small_default/nalewka-staropolska-z-aronii.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1895-medium_default/nalewka-staropolska-z-aronii.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1895-medium_default/nalewka-staropolska-z-aronii.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1895,
+    "legend": "NALEWKA Staropolska z Aronii",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1895-small_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-small_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1895-medium_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-medium_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1895-cart_default/nalewka-staropolska-z-aronii.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1895-home_default/nalewka-staropolska-z-aronii.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1895-large_default/nalewka-staropolska-z-aronii.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

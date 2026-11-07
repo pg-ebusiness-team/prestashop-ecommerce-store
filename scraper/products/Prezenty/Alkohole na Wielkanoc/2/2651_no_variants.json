@@ -1,0 +1,320 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "480,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-26 18:10:34",
+  "date_upd": "2026-06-03 00:02:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "eleganckie-pudelko-prezentowe-z-whisky-paprocky",
+  "name": "Eleganckie Pudełko Prezentowe z Whisky Paprocky",
+  "description": "<ul class=\"product-list\">\n<li>Eleganckie pudełko zamykane</li>\n<li>Whisky Single Barrel Paprocky 0,7l</li>\n<li>Loft miód piernikowy 240g</li>\n<li>Łyżka do miodu</li>\n<li>Herbata Bożonarodzeniowa 100g</li>\n<li>Brontedolci krem migdałowy 190g</li>\n<li>Wstążka/ozdoby</li>\n<li>Konfekcjonowanie</li>\n</ul>",
+  "description_short": "<p>Zestawy prezentowe – idealne na każdą okazję Podaruj bliskim lub partnerom biznesowym zestaw prezentowy, który łączy luksusowe alkohole z eleganckim stylem. W naszej ofercie czekają na Ciebie zestawy upominkowe z winem, koniakiem, whisky czy rumem, uzupełnione o delikatesy premium. To prezenty, które doskonale sprawdzą się podczas świąt, jubileuszy i ważnych uroczystości. Każdy kosz przygotowujemy w sposób staranny i estetyczny, aby był gotowy do wręczenia i zawsze robił wyjątkowe wrażenie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2651,
+  "id_product": 2651,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/2651-eleganckie-pudelko-prezentowe-z-whisky-paprocky",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 390.243902,
+  "price_without_reduction": 479.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3706,
+      "legend": "Eleganckie Pudełko Prezentowe z Whisky Paprocky",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3706-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3706-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3706-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3706-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3707,
+      "legend": "Eleganckie Pudełko Prezentowe z Whisky Paprocky",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3707-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3707-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3707-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3707-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3707-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3707-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3707-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3707-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3707-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3707-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3707-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3707-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3707-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3707-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3707-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3707-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3706,
+    "legend": "Eleganckie Pudełko Prezentowe z Whisky Paprocky",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3706-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-small_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3706-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-medium_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3706-cart_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3706-home_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3706-large_default/eleganckie-pudelko-prezentowe-z-whisky-paprocky.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 480,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

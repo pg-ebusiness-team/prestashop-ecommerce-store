@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4004752284615",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2007,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-31 19:01:20",
+  "date_upd": "2025-04-03 14:35:36",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Dooleys Toffee",
+  "link_rewrite": "likier-dooleys-toffee",
+  "name": "LIKIER Dooleys Toffee",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Dooley's \r\nToffee Cream to niebiańska mieszanka doskonałości i słodyczy, która wzbogaca \r\nkażdą chwilę swoim wyjątkowym smakiem. Ten kremowy likier łączy w sobie kuszące \r\naromaty toffi z delikatną nutą śmietanki, tworząc niepowtarzalny bukiet \r\nzapachowy, który kusi od pierwszego spojrzenia. Jego złocisty kolor i gładka \r\nkonsystencja zapowiadają rozkosz, którą oferuje każdy łyk. Dooley's Toffee Cream \r\njest nie tylko napojem, ale prawdziwym symbolem rozkoszy i luksusu. Doskonały \r\njako aperitif lub deserowy akcent, ten likier jest hołdem dla najwyższej jakości \r\ni tradycji niemieckiego rzemiosła. Rozkosz się chwilą, czerpiąc z bogactwa smaku\r\n Dooley's Toffee Cream, który przenosi Cię w podróż po aromatycznych\r\n krajobrazach, gdzie każdy łyk jest zapowiedzią czystej \r\nprzyjemności.</SPAN></P>\r\n",
+  "description_short": "<p>Dooley's Toffee Cream to niebiańska mieszanka doskonałości i słodyczy, która wzbogaca każdą chwilę swoim wyjątkowym smakiem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1917,
+  "id_product": 1917,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2007,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1917-likier-dooleys-toffee",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Niemcy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 231
+    },
+    {
+      "name": "Alkohol",
+      "value": "17%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 290
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4004752284615",
+      "ean13": "4004752284615",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2670,
+      "legend": "LIKIER Dooleys Toffee",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2670-small_default/likier-dooleys-toffee.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2670-small_default/likier-dooleys-toffee.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2670-medium_default/likier-dooleys-toffee.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2670-medium_default/likier-dooleys-toffee.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2670,
+    "legend": "LIKIER Dooleys Toffee",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2670-small_default/likier-dooleys-toffee.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-small_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2670-medium_default/likier-dooleys-toffee.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-medium_default/likier-dooleys-toffee.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2670-cart_default/likier-dooleys-toffee.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2670-home_default/likier-dooleys-toffee.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2670-large_default/likier-dooleys-toffee.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

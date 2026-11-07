@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7790189001242",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "69,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3182,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-11 22:25:51",
+  "date_upd": "2026-06-04 15:40:09",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "ARGENTYNA Michel Torino Torrontes 13,5% 0,75l",
+  "link_rewrite": "argentyna-michel-torino-torrontes-135-075l",
+  "name": "ARGENTYNA Michel Torino Torrontes 13,5% 0,75l",
+  "description": "<p>WINO Michel Torino Torrontés – aromatyczne białe wino z serca Argentyny WINO Michel Torino Torrontés to wyjątkowe białe wino pochodzące z renomowanego regionu Cafayate w północnej Argentynie. Powstaje ze szczepu Torrontés – najbardziej charakterystycznej białej odmiany Argentyny, cenionej za niezwykle intensywny aromat, świeżość oraz egzotyczny charakter. Wysokogórskie winnice regionu Cafayate, położone na wysokości ponad 1 500 m n.p.m., zapewniają idealne warunki do uzyskania win o wyjątkowej koncentracji aromatów i doskonałej równowadze. Charakterystyka wina W kieliszku WINO Michel Torino Torrontés prezentuje jasną, słomkową barwę z delikatnymi zielonkawymi refleksami. Aromat jest niezwykle ekspresyjny i świeży – dominują nuty białych kwiatów, jaśminu, kwiatu pomarańczy oraz róży, którym towarzyszą akcenty cytrusów, brzoskwini, liczi i owoców tropikalnych. Smak Na podniebieniu wino jest lekkie, rześkie i doskonale zbalansowane. Intensywna aromatyczność charakterystyczna dla szczepu Torrontés harmonijnie łączy się ze świeżą kwasowością i subtelną mineralnością. Smak cytrusów, brzoskwini i egzotycznych owoców prowadzi do eleganckiego, odświeżającego finiszu. Finisz Długi, świeży i aromatyczny. Pozostawia przyjemne nuty kwiatowe, cytrusowe oraz delikatną mineralność, charakterystyczną dla wysokogórskich win z Cafayate. Z czym podawać? WINO Michel Torino Torrontés doskonale komponuje się z: owocami morza grillowanymi rybami sushi i sashimi sałatkami kuchnią azjatycką lekkimi daniami drobiowymi świeżymi serami Najlepiej podawać schłodzone w temperaturze 8–10°C. Dlaczego warto wybrać Michel Torino Torrontés? klasyczny argentyński Torrontés intensywne aromaty kwiatów i owoców tropikalnych świeży, lekki i elegancki charakter wysoka jakość winogron z regionu Cafayate doskonałe do ryb, owoców morza i kuchni azjatyckiej świetny przykład najbardziej charakterystycznego białego szczepu Argentyny Szczegóły Kraj: Argentyna Region: Cafayate Alkohol: 13,5% Kolor: Białe Rodzaj: Wytrawne Szczep: Torrontés</p>",
+  "description_short": "<p>Michel Torino Torrontés to wyjątkowe białe wino pochodzące z malowniczego regionu Cafayate w Argentynie, słynącego z produkcji jednych z najlepszych win ze szczepu Torrontés</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2992,
+  "id_product": 2992,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3182,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2992-argentyna-michel-torino-torrontes-135-075l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.097561,
+  "price_without_reduction": 69,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Argentyna",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 22
+    },
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Torrontes",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 150
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7790189001242",
+      "ean13": "7790189001242",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4724,
+      "legend": "ARGENTYNA Michel Torino Torrontes 13,5% 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4724-small_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4724-small_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4724-medium_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4724-medium_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4724,
+    "legend": "ARGENTYNA Michel Torino Torrontes 13,5% 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4724-small_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-small_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4724-medium_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-medium_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4724-cart_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4724-home_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4724-large_default/argentyna-michel-torino-torrontes-135-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 69,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

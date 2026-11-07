@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8004400014119",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "17,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2004,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-31 18:51:20",
+  "date_upd": "2025-04-03 16:34:39",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Fernet Branca",
+  "link_rewrite": "likier-fernet-branca",
+  "name": "LIKIER Fernet Branca",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Likier \r\nFernet Branca - to wyjątkowy likier ziołowy. Powstaje na bazie starannie \r\ndobranej mieszanki 27 ziół i przypraw, takich jak m.in. szafran, mirra, aloes, \r\nkardamon. Ekstrakt z tych unikalnych składników jest długo starzony w \r\nzabytkowych piwnicach Branca, co nadaje likierowi jego charakterystyczny, \r\nwyrafinowany smak. Najlepiej smakuje schłodzony, serwowany z kostkami lodu lub \r\njako baza do koktajli, zachwycając bogactwem aromatów i głębią \r\nsmaku.</SPAN></P>\r\n",
+  "description_short": "<p>Likier Fernet Branca - to wyjątkowy likier ziołowy. Powstaje na bazie starannie dobranej mieszanki 27 ziół i przypraw, takich jak m.in. szafran, mirra, aloes, kardamon.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1915,
+  "id_product": 1915,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2384,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1915-likier-fernet-branca",
+  "manufacturer_name": null,
+  "attribute_price": -91.056911,
+  "price_tax_exc": 13.821138,
+  "price_without_reduction": 17,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 14,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "35%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 281
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 26,
+      "id_attribute_group": 5,
+      "name": "0,2 l",
+      "group": "Pojemność",
+      "reference": "8004400001348",
+      "ean13": "8004400001348",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2673,
+      "legend": "LIKIER Fernet Branca",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2673-small_default/likier-fernet-branca.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2673-small_default/likier-fernet-branca.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2673-medium_default/likier-fernet-branca.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2673-medium_default/likier-fernet-branca.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2673,
+    "legend": "LIKIER Fernet Branca",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2673-small_default/likier-fernet-branca.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-small_default/likier-fernet-branca.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2673-medium_default/likier-fernet-branca.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-medium_default/likier-fernet-branca.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2673-cart_default/likier-fernet-branca.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2673-home_default/likier-fernet-branca.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2673-large_default/likier-fernet-branca.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 17,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

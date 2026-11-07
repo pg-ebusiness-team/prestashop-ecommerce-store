@@ -1,0 +1,247 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "750,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2024-10-27 00:33:35",
+  "date_upd": "2024-10-28 01:39:43",
+  "pack_stock_type": 3,
+  "meta_description": "Zestaw Upominkowy Old Barrey",
+  "meta_keywords": "",
+  "meta_title": "Zestaw Upominkowy Old Barrey",
+  "link_rewrite": "zestaw-upominkowy-old-barrey",
+  "name": "Zestaw Upominkowy Old Barrey",
+  "description": "<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Whisky Old Barrey 700ml </span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Wino Włoskie Calalenta 750ml</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Vergani Praliny w białej czekoladzie nadziewane 215g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Włoskie czekoladki w puszce świątecznej 200g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Loison Panettone  100g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Duńskie ciasteczka w puszce 150g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Lindt czekolada mleczna z kawałkami wiśni Amarena - KIRSCH 100g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Pierniki z Wierzynka 135g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Mieszanka czekolad z dodatkami 140g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Niederegger Marcepan Bluebery 100g</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Świeczka Świąteczna </span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Cukierki Lindt</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Dekoracja świąteczna</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Pudełko Prezentowe</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Logo firmy /bilecik</span></span></p>\n<p align=\"left\" style=\"line-height:0.36cm;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;\"><span style=\"color:#000000;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:9pt;\"><span style=\"font-family:Verdana, sans-serif;\"><span style=\"font-size:12px;\">Konfekcjonowanie</span><span style=\"font-size:9pt;\"></span></span></span></span></span></p>\n<p style=\"line-height:16px;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;border:medium;padding:0cm;\"><br /><br /></p>\n<p style=\"line-height:16px;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;border:medium;padding:0cm;\"><strong>Szanowni Państwo,</strong></p>\n<p style=\"line-height:16px;margin-bottom:0.1cm;background-image:none;background-position:0% 0%;background-size:auto;background-repeat:repeat;background-attachment:scroll;margin-top:0.1cm;border:medium;padding:0cm;\"><strong>uprzejmie informujemy, że zdjęcia mają charakter poglądowy. Zastrzegamy sobie prawo do modyfikacji asortymentu w zależności od jego dostępności. Dziękujemy za wyrozumiałość!</strong></p>\n<p></p>",
+  "description_short": "<p>Odkryj idealny prezent z naszymi koszami upominkowymi!</p>\n<p>Szukasz wyjątkowego upominku na specjalną okazję? Nasze luksusowe kosze upominkowe to doskonały sposób, aby zaskoczyć swoich bliskich! W selekcji znajdziesz atrakcyjne zestawy, które zachwycą zarówno smakiem, jak i atrakcyjnym wyglądem. Od świąt po urodziny — nasze kosze są idealnym rozwiązaniem na każdą okazję! </p>\n<p>Zamów już dziś i spraw, aby Twoje prezenty były niezapomniane!</p>\n<p></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1079,
+  "id_product": 1079,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/1079-zestaw-upominkowy-old-barrey",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 609.756098,
+  "price_without_reduction": 750.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 100,
+  "quantity_all_versions": 100,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1370,
+      "legend": "Zestaw Upominkowy Old Barrey",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1370-small_default/zestaw-upominkowy-old-barrey.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1370-small_default/zestaw-upominkowy-old-barrey.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1370-medium_default/zestaw-upominkowy-old-barrey.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1370-medium_default/zestaw-upominkowy-old-barrey.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1370,
+    "legend": "Zestaw Upominkowy Old Barrey",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1370-small_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-small_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1370-medium_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-medium_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1370-cart_default/zestaw-upominkowy-old-barrey.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1370-home_default/zestaw-upominkowy-old-barrey.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1370-large_default/zestaw-upominkowy-old-barrey.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 750,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

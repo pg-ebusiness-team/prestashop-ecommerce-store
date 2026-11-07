@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5908275961635",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 31,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "83,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-04-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3157,
+  "advanced_stock_management": "0",
+  "date_add": "2026-04-16 09:59:18",
+  "date_upd": "2026-04-16 11:25:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "NALEWKA Wiśnia na miodzie Legacy",
+  "link_rewrite": "nalewka-wisnia-na-miodzie-legacy",
+  "name": "NALEWKA Wiśnia na miodzie Legacy",
+  "description": "\r\n<P class=MsoNormal style=\"MARGIN: 0cm 0cm 8pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",serif; LINE-HEIGHT: 107%'>Nalewka \r\nMiód Wiśnia Legacy to tradycyjny, rzemieślniczy trunek produkowany przez \r\nDestylarnię Legacy, oparty na rodzinnej recepturze przekazywanej z pokolenia na \r\npokolenie, w której klasyczny cukier został całkowicie zastąpiony naturalnym \r\nmiodem. Powstaje wyłącznie z naturalnych składników – dojrzałych wiśni i miodu – \r\ndlatego ze względu na swój autentyczny charakter może zawierać naturalny osad. \r\nCharakteryzuje się wyrazistym, lekko kwaskowym smakiem wiśni, który harmonijnie \r\nrównoważy słodycz miodu, tworząc pełny i przyjemnie zbalansowany profil. Całość \r\ndopełnia głęboka, rubinowa barwa oraz intensywny, bogaty aromat. To nalewka, \r\nktóra przypadnie do gustu zarówno miłośnikom słodszych trunków, jak i osobom \r\nceniącym wyraźne, owocowe nuty. Miód Wiśnia Legacy łączy w sobie tradycję, \r\nwysoką jakość i naturalność w nowoczesnej odsłonie, sprawdzając się zarówno \r\npodczas rodzinnych spotkań, jak i wieczorów w gronie \r\nprzyjaciół.</SPAN><?xml:namespace prefix = \"o\" ns = \r\n\"urn:schemas-microsoft-com:office:office\" /><o:p></o:p></P>\r\n",
+  "description_short": "<p>Nalewka Miód Wiśnia Legacy to tradycyjny, rzemieślniczy trunek produkowany przez Destylarnię Legacy, oparty na rodzinnej recepturze przekazywanej z pokolenia na pokolenie, w której klasyczny cukier został całkowicie zastąpiony naturalnym miodem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2965,
+  "id_product": 2965,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3157,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "nalewka",
+  "category_name": "Nalewki",
+  "link": "https://luksusowealkohole.pl/nalewka/2965-nalewka-wisnia-na-miodzie-legacy",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 67.479675,
+  "price_without_reduction": 83,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "29%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 390
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Owocowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 549
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5908275961635",
+      "ean13": "5908275961635",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4695,
+      "legend": "NALEWKA Wiśnia na miodzie Legacy",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4695-small_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4695-small_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4695-medium_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4695-medium_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4695,
+    "legend": "NALEWKA Wiśnia na miodzie Legacy",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4695-small_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-small_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4695-medium_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-medium_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4695-cart_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4695-home_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4695-large_default/nalewka-wisnia-na-miodzie-legacy.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 83,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5391397100141",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "129,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2270,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-28 18:09:55",
+  "date_upd": "2025-06-30 10:08:24",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Agwa de Bolivia",
+  "link_rewrite": "likier-agwa-de-bolivia",
+  "name": "LIKIER Agwa de Bolivia",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><STRONG><SPAN style='line-height: 115%; font-size: 12pt; font-weight: normal; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'><FONT \r\nface=\"Calibri\">Agwa De Bolivia to wyjątkowy likier ziołowy klasy premium - \r\njedyny taki na świecie, którego głównym składnikiem są starannie ręcznie \r\nzbierane liście dziko rosnącej koki z Boliwii, znanej także jako krasnodrzew \r\npospolity. Liście te zbierane są na wysokości około 2000 metrów nad poziomem \r\nmorza, a następnie - zgodnie z rygorystycznymi normami bezpieczeństwa oraz \r\nprzepisami Unii Europejskiej - transportowane są w zabezpieczonych balach do \r\nAmsterdamu. Tam poddawane są procesowi dekokainizacji, a potem macerowane w \r\nalkoholu wraz z mieszanką 36 naturalnych ziół, takich jak guarana, zielona \r\nherbata czy żeń-szeń, co wzmacnia ich działanie i walory smakowe. Całość \r\nprocesu, obejmującego także destylację i filtrację przez pięciomikronowy filtr, \r\nprzebiega pod nadzorem Mistrza Kupażu i kontrolą holenderskich służb \r\nsanitarnych. Dzięki połączeniu 30% alkoholu, kofeiny z guarany i żeń-szenia oraz \r\nnuty limonki, Agwa oferuje intensywne doznania smakowe i energetyzujące \r\ndziałanie. Jego żywy, zielony kolor oraz pieprzny, ziołowy aromat - w którym \r\nwyczuwalne są tony mięty, eukaliptusa, liści tytoniu i laurowych - pobudzają \r\nwszystkie zmysły. Taka bogata kompozycja szybko zyskała uznanie na całym \r\nświecie, czyniąc z likieru produkt kultowy. Unikalny smak liści koki otwiera \r\nnowe możliwości w miksologii, stanowiąc świeżą i oryginalną alternatywę do \r\ntworzenia wyrazistych drinków i \r\nkoktajli.</FONT></SPAN></STRONG></P>\r\n",
+  "description_short": "<p>Agwa De Bolivia to wyjątkowy likier ziołowy klasy premium - jedyny taki na świecie, którego głównym składnikiem są starannie ręcznie zbierane liście dziko rosnącej koki z Boliwii, znanej także jako krasnodrzew pospolity.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2180,
+  "id_product": 2180,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2270,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/2180-likier-agwa-de-bolivia",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 104.878049,
+  "price_without_reduction": 129,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Boliwia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 553
+    },
+    {
+      "name": "Alkohol",
+      "value": "30%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 282
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5391397100141",
+      "ean13": "5391397100141",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3111,
+      "legend": "LIKIER Agwa de Bolivia",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3111-small_default/likier-agwa-de-bolivia.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3111-small_default/likier-agwa-de-bolivia.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3111-medium_default/likier-agwa-de-bolivia.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3111-medium_default/likier-agwa-de-bolivia.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3111,
+    "legend": "LIKIER Agwa de Bolivia",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3111-small_default/likier-agwa-de-bolivia.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-small_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3111-medium_default/likier-agwa-de-bolivia.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-medium_default/likier-agwa-de-bolivia.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3111-cart_default/likier-agwa-de-bolivia.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3111-home_default/likier-agwa-de-bolivia.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3111-large_default/likier-agwa-de-bolivia.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 129,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}
