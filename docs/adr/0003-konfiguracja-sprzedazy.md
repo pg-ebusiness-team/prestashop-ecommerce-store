@@ -41,7 +41,11 @@ Opcja 4.
 - `shop/init-scripts/20-configure-sales.sh` uruchamia go jako `www-data` po instalacji, przed startem Apache —
   tym samym mechanizmem co konfiguracja poczty (`10-configure-mail.sh`).
 - Skrypt jest idempotentny: zmienia tylko to, co odbiega od opisanego stanu; przewoźników rozpoznaje po
-  `id_reference`, więc kolejne starty nie tworzą duplikatów.
+  `id_reference`, więc kolejne starty nie tworzą duplikatów. `Carrier::add()` sam nadaje `id_reference = id_carrier`,
+  więc skrypt zapisuje je po utworzeniu w konfiguracji (`SALES_CARRIER_REF_STANDARD`, `SALES_CARRIER_REF_EXPRESS`) —
+  tak samo robią to moduły przewoźników PrestaShop.
+- Przewoźnicy spoza skryptu (z instalatora, danych demo albo dodani w panelu) są przy starcie wyłączani, nie usuwani,
+  bo mogą się do nich odwoływać zamówienia.
 - Plik PHP leży w obrazie w `/usr/local/share/shop-init/`, a nie w `/tmp/init-scripts/`, bo `docker_run.sh`
   wykonuje każdy plik z tego katalogu.
 

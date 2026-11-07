@@ -15,7 +15,7 @@ SET @pl = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
 UPDATE ps_lang SET active = 0 WHERE iso_code <> 'pl';
 
 -- 1. Dostawa
--- WERSJA ROBOCZA: dopasować nazwy i ceny przewoźników po konfiguracji sprzedaży (2 nowych przewoźników, WYMAGANIA.md).
+-- Nazwy, ceny i czas dostawy muszą zgadzać się z CARRIERS w shop/scripts/configure-sales.php.
 UPDATE ps_cms_lang SET
   meta_keywords = 'dostawa, wysyłka, kurier, koszt dostawy, darmowa dostawa',
   meta_description = 'Koszty i czas dostawy alkoholi premium, darmowa wysyłka od 2000 zł, bezpieczne pakowanie butelek.',
@@ -44,7 +44,7 @@ UPDATE ps_cms_lang SET
 WHERE id_cms = 4 AND id_lang = @pl;
 
 -- 5. Płatności (Formy płatności)
--- WERSJA ROBOCZA: zgodna z WYMAGANIA.md (przelew tradycyjny + płatność przy odbiorze, bez operatorów płatności).
+-- Metody płatności muszą zgadzać się z PAYMENT_MODULES_ENABLED w shop/scripts/configure-sales.php.
 UPDATE ps_cms_lang SET
   meta_keywords = 'płatności, przelew, pobranie, płatność przy odbiorze',
   meta_description = 'Formy płatności w sklepie Luksusowe Alkohole: przelew tradycyjny i płatność przy odbiorze.',

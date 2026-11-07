@@ -114,6 +114,7 @@ Dodatkowe informacje:
 Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontenera `shop` — nie trzeba niczego klikać w panelu ani uruchamiać dodatkowych komend. Robi to `shop/init-scripts/20-configure-sales.sh`, który wywołuje `shop/scripts/configure-sales.php` (uzasadnienie: `docs/adr/0003-konfiguracja-sprzedazy.md`).
 
 - **Metody płatności:** przelew tradycyjny (`ps_wirepayment`, fikcyjne dane konta) i płatność przy odbiorze (`ps_cashondelivery`). Płatność czekiem (`ps_checkpayment`), instalowana domyślnie, jest odinstalowywana.
+- **Przewoźnicy:** „Przesyłka kurierska” (19,99 zł) i „Przesyłka kurierska ekspresowa” (29,99 zł), ceny brutto z 23% VAT, dostawa tylko na terenie Polski. Przewoźnicy z instalatora i danych demo („Click and collect”, „My carrier” itd.) są wyłączani. Nazwy i ceny zmienia się w tablicy `CARRIERS`, a potem trzeba też poprawić stronę CMS `shop/cms/1-dostawa.html`.
 - **Faktura:** zamówienie za pobraniem dostaje fakturę już przy złożeniu — klient może ją pobrać z „Historii zamówień”.
 
 Zmiany tych ustawień w panelu administratora zostaną nadpisane przy kolejnym starcie kontenera. Trwałą zmianę wprowadzamy w `shop/scripts/configure-sales.php`, a potem `make up` (przebudowa obrazu).
