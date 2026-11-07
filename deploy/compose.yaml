@@ -10,7 +10,7 @@ services:
       DB_PASSWD: ${MYSQL_PASSWORD}
       PS_INSTALL_AUTO: "1"
       PS_LANGUAGE: pl
-      PS_COUNTRY: PL
+      PS_COUNTRY: pl
       PS_DOMAIN: ${SERVER_NAME}:${HTTPS_PORT}
       ADMIN_MAIL: ${ADMIN_MAIL}
       ADMIN_PASSWD: ${ADMIN_PASSWD}

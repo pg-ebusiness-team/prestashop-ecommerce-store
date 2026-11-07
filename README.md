@@ -109,6 +109,17 @@ Dodatkowe informacje:
 - Wiadomości nie są zapisywane trwale (brak wolumenu), więc znikają po usunięciu kontenera, np. po `make down`.
 - Sklep jest skonfigurowany do wysyłki przez Mailpit automatycznie przy każdym starcie kontenera `shop`. Nie trzeba w tym celu uruchamiać `make init` ani ustawiać niczego w panelu administratora.
 
+## Płatności i dostawa
+
+Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontenera `shop` — nie trzeba niczego klikać w panelu ani uruchamiać dodatkowych komend. Robi to `shop/init-scripts/20-configure-sales.sh`, który wywołuje `shop/scripts/configure-sales.php` (uzasadnienie: `docs/adr/0003-konfiguracja-sprzedazy.md`).
+
+- **Metody płatności:** przelew tradycyjny (`ps_wirepayment`, fikcyjne dane konta) i płatność przy odbiorze (`ps_cashondelivery`). Płatność czekiem (`ps_checkpayment`), instalowana domyślnie, jest odinstalowywana.
+- **Faktura:** zamówienie za pobraniem dostaje fakturę już przy złożeniu — klient może ją pobrać z „Historii zamówień”.
+
+Zmiany tych ustawień w panelu administratora zostaną nadpisane przy kolejnym starcie kontenera. Trwałą zmianę wprowadzamy w `shop/scripts/configure-sales.php`, a potem `make up` (przebudowa obrazu).
+
+W logach (`make logs SERVICE=shop`) przy starcie pojawiają się linie `20-configure-sales: ...`, zakończone `konfiguracja sprzedazy zakonczona`. Linia `20-configure-sales: BLAD: ...` oznacza, że konfiguracja się nie udała — wtedy kontener `shop` celowo się zatrzymuje (widać to w `make ps`), żeby sklep nie działał z ustawieniami niezgodnymi z wymaganiami. Przyczyna jest w linii z `BLAD` powyżej.
+
 ## Wygląd sklepu (motyw potomny)
 
 Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-child-theme`. Plików motywu Classic nie edytujemy — pochodzi z obrazu PrestaShop i jest dziedziczony.
