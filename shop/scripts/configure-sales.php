@@ -143,7 +143,7 @@ const CARRIER_TAX_RULES_GROUP = 'PL Standard Rate (23%)';
 const CARRIER_VAT_RATE = 23;
 
 // Cena zależy od wagi, z jednym przedziałem obejmującym każdą realną wagę zamówienia.
-// Limit wagi zamówienia ustawia osobno max_weight przewoźnika (etap 3), a nie górna granica tego przedziału.
+// Limit wagi zamówienia ustawia osobno max_weight przewoźnika (limits()), a nie górna granica tego przedziału.
 const CARRIER_WEIGHT_RANGE = [0, 10000]; // kg, przedział [od, do)
 
 function carrierConfigKey(string $key): string
@@ -319,11 +319,85 @@ function carriers(): void
     info('przewoznicy: ' . implode(', ', array_column(CARRIERS, 'name')));
 }
 
+// --- Kraje -------------------------------------------------------------------------------------------------
+
+// Sprzedajemy i wysyłamy tylko w Polsce (strona CMS „Dostawa”). Płatności są przypisane wyłącznie do Polski,
+// więc adres w innym kraju kończyłby się w koszyku komunikatem o braku metod płatności.
+const SHOP_COUNTRY_ISO = 'PL';
+
+/**
+ * Zostawia aktywną tylko Polskę. Instalator wyłącza inne kraje, ale dane demo włączają m.in. USA i Francję.
+ * Kraje są wyłączane, nie usuwane - istniejące adresy (np. konta demo) zostają w bazie.
+ */
+function countries(): void
+{
+    $idCountry = (int) Country::getByIso(SHOP_COUNTRY_ISO);
+    $idCountry > 0 || fail('brak kraju ' . SHOP_COUNTRY_ISO);
+
+    $rows = Db::getInstance()->executeS(
+        'SELECT `id_country`, `iso_code` FROM `' . _DB_PREFIX_ . 'country`
+        WHERE (`active` = 1 AND `id_country` <> ' . $idCountry . ') OR (`active` = 0 AND `id_country` = ' . $idCountry . ')'
+    );
+    foreach ($rows as $row) {
+        $country = new Country((int) $row['id_country']);
+        $country->active = ((int) $row['id_country'] === $idCountry);
+        $country->update() || fail("nie udalo sie zmienic kraju {$row['iso_code']}");
+        info(($country->active ? 'wlaczono' : 'wylaczono') . " kraj {$row['iso_code']}");
+    }
+}
+
+// --- Ograniczenia dostawy ----------------------------------------------------------------------------------
+
+/**
+ * Odczytuje dodatnią liczbę ze zmiennej środowiskowej (ustawianej w deploy/compose.yaml).
+ */
+function envPositiveNumber(string $name): float
+{
+    $value = getenv($name);
+    if ($value === false || !is_numeric($value) || (float) $value <= 0) {
+        fail("zmienna $name musi byc liczba dodatnia (jest: " . var_export($value, true) . ')');
+    }
+
+    return (float) $value;
+}
+
+/**
+ * Darmowa dostawa od progu i limit wagi zamówienia (WYMAGANIA.md, W3). Wartości pochodzą z compose.yaml,
+ * żeby zmiana (np. próg 1500 zł na odbiorze) nie wymagała edycji kodu.
+ */
+function limits(): void
+{
+    // PrestaShop porównuje próg z wartością koszyka Z VAT, bez kosztu dostawy, po rabatach,
+    // i warunkiem >= - dostawa jest darmowa także przy wartości równej progowi (Cart::getPackageShippingCost).
+    $freeShippingThreshold = envPositiveNumber('FREE_SHIPPING_THRESHOLD');
+    Configuration::updateValue('PS_SHIPPING_FREE_PRICE', $freeShippingThreshold);
+    // Instalator ustawia 2 zł opłaty manipulacyjnej. Nasi przewoźnicy jej nie doliczają (shipping_handling = 0),
+    // ale zerujemy ją, żeby żaden przewoźnik nie dodawał ukrytej opłaty.
+    Configuration::updateValue('PS_SHIPPING_HANDLING', 0);
+
+    // Limit wagi: przewoźnik znika z listy, gdy koszyk waży więcej niż max_weight (Carrier::getAvailableCarrierList).
+    // Sprawdzenie jest niezależne od darmowej dostawy, a koszyk ważący dokładnie tyle co limit przechodzi.
+    // Bez przewoźnika nie da się przejść do płatności, więc zamówienia powyżej limitu nie da się złożyć.
+    $maxWeight = envPositiveNumber('MAX_ORDER_WEIGHT_KG');
+    foreach (array_keys(CARRIERS) as $key) {
+        $carrier = Carrier::getCarrierByReference((int) Configuration::get(carrierConfigKey($key)));
+        $carrier instanceof Carrier || fail("brak przewoznika $key");
+        if ((float) $carrier->max_weight !== $maxWeight) {
+            $carrier->max_weight = $maxWeight;
+            $carrier->update() || fail("nie udalo sie ustawic limitu wagi dla {$carrier->name}");
+        }
+    }
+
+    info("darmowa dostawa od $freeShippingThreshold zl brutto, limit wagi zamowienia $maxWeight kg");
+}
+
 // --- Uruchomienie ------------------------------------------------------------------------------------------
 
 try {
+    countries(); // najpierw, żeby kolejne kroki działały już na samej Polsce
     payments();
     carriers();
+    limits();
 } catch (Throwable $e) {
     info('BLAD: ' . $e->getMessage());
     exit(1);

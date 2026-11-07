@@ -116,6 +116,11 @@ Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontener
 - **Metody płatności:** przelew tradycyjny (`ps_wirepayment`, fikcyjne dane konta) i płatność przy odbiorze (`ps_cashondelivery`). Płatność czekiem (`ps_checkpayment`), instalowana domyślnie, jest odinstalowywana.
 - **Przewoźnicy:** „Przesyłka kurierska” (19,99 zł) i „Przesyłka kurierska ekspresowa” (29,99 zł), ceny brutto z 23% VAT, dostawa tylko na terenie Polski. Przewoźnicy z instalatora i danych demo („Click and collect”, „My carrier” itd.) są wyłączani. Nazwy i ceny zmienia się w tablicy `CARRIERS`, a potem trzeba też poprawić stronę CMS `shop/cms/1-dostawa.html`.
 - **Faktura:** zamówienie za pobraniem dostaje fakturę już przy złożeniu — klient może ją pobrać z „Historii zamówień”.
+- **Kraje:** aktywna jest tylko Polska — w adresie nie da się wybrać innego kraju. Pozostałe kraje (np. USA i Francja z danych demo) są wyłączane.
+- **Darmowa dostawa:** od 2000 zł brutto (włącznie), liczone od wartości produktów po rabatach, bez kosztu dostawy.
+- **Limit wagi:** zamówienie cięższe niż 50 kg nie ma dostępnego przewoźnika, więc nie da się go złożyć. Zamówienie ważące dokładnie 50 kg przechodzi. W kroku „Dostawa” klient widzi wtedy komunikat o przekroczonej wadze z linkiem do strony „Dostawa” (szablon `checkout/_partials/steps/shipping.tpl` w motywie potomnym).
+
+Próg darmowej dostawy i limit wagi ustawia się w `deploy/compose.yaml` (zmienne `FREE_SHIPPING_THRESHOLD` i `MAX_ORDER_WEIGHT_KG` usługi `shop`). Po zmianie wystarczy `make up` — kontener uruchomi się ponownie z nowymi wartościami. Pamiętaj też o treści strony CMS `shop/cms/1-dostawa.html`.
 
 Zmiany tych ustawień w panelu administratora zostaną nadpisane przy kolejnym starcie kontenera. Trwałą zmianę wprowadzamy w `shop/scripts/configure-sales.php`, a potem `make up` (przebudowa obrazu).
 

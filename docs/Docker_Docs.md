@@ -20,7 +20,15 @@ Drugi `COPY` dodaje skrypty uruchamiane przy każdym starcie kontenera:
 COPY --chmod=755 init-scripts/ /tmp/init-scripts/
 ```
 
-Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie jest tam jeden skrypt, który konfiguruje pocztę (opisany w sekcji o kontenerze `shop`).
+Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie są tam dwa skrypty: konfiguracja poczty (`10-configure-mail.sh`) i konfiguracja sprzedaży (`20-configure-sales.sh`), opisane w sekcji o kontenerze `shop`. Prefiks liczbowy ustala kolejność uruchamiania.
+
+Trzeci `COPY` dodaje skrypty PHP wywoływane przez init-scripts:
+
+```dockerfile
+COPY --chmod=755 scripts/ /usr/local/share/shop-init/
+```
+
+Nie mogą leżeć w `/tmp/init-scripts/`, bo `docker_run.sh` uruchomiłby je bezpośrednio — jako root i bez interpretera PHP, co przy `set -e` zatrzymałoby start kontenera. `--chmod=755` dotyczy też samego katalogu, który bez bitu `x` nie byłby dostępny.
 
 ## Plik compose.yaml
 
@@ -48,7 +56,7 @@ Zmienne środowiskowe:
 - DB_PASSWD - hasło użytkownika w bazie danych
 - PS_INSTALL_AUTO - flaga inicjalizująca automatyczną instalację prestashop po uruchomieniu kontenera
 - PS_LANGUAGE - bazowy język w Prestashop
-- PS_COUNTRY - bazowy kraj w Prestashop
+- PS_COUNTRY - bazowy kraj w Prestashop. Musi być zapisany **małymi literami** (`pl`): instalator wczytuje pakiet lokalizacyjny z pliku `localization/<kraj>.xml`, a przy `PL` nie znajduje `PL.xml` (system plików rozróżnia wielkość liter) i po cichu bierze `default.xml` — sklep nie ma wtedy waluty PLN ani polskich stawek VAT. Wartość jest stosowana tylko przy pierwszej instalacji, więc jej zmiana wymaga `make reset`.
 - PS_DOMAIN - adres sklepu
 - ADMIN_MAIL - mail użytkownika admin, używany w panelu admina
 - ADMIN_PASSWD - hasło użytkownika admin
@@ -56,6 +64,10 @@ Zmienne środowiskowe:
 - PS_ENABLE_SSL - włącza HTTPS w sklepie. Wartość jest zapisywana w bazie przy pierwszej instalacji.
 - MAIL_SMTP_HOST - nazwa serwera SMTP, czyli nazwa usługi z Mailpitem (`mail`) w sieci Dockera. Musi być zgodna z nazwą usługi w pliku `compose.yaml`.
 - MAIL_SMTP_PORT - port serwera SMTP (Mailpit domyślnie nasłuchuje na 1025).
+- FREE_SHIPPING_THRESHOLD - kwota w zł brutto, od której (włącznie) dostawa jest darmowa (wymaganie: 2000).
+- MAX_ORDER_WEIGHT_KG - maksymalna waga zamówienia w kg; cięższe zamówienie nie ma dostępnego przewoźnika (wymaganie: 50).
+
+FREE_SHIPPING_THRESHOLD i MAX_ORDER_WEIGHT_KG to reguły sklepu z wymagań, takie same dla wszystkich, dlatego są wpisane bezpośrednio w `compose.yaml` (zmiana przechodzi przez PR), a nie w `.env`, który służy sekretom i ustawieniom zależnym od komputera. Zmiana: edycja wartości i `make up`, bez przebudowy bazy.
 
 Kontener nie publikuje portów na hoście. Cały ruch przechodzi przez kontener `proxy`, co gwarantuje, że sklep jest dostępny wyłącznie przez HTTPS.
 
@@ -74,6 +86,20 @@ Szczegóły działania skryptu:
 - konsola jest uruchamiana jako `www-data` (`runuser`, tak jak robi to instalator w obrazie). Uruchomiona jako root utworzyłaby w `var/cache` pliki, do których Apache nie mógłby zapisywać,
 - skrypt zawsze kończy się kodem 0. `docker_run.sh` działa z `set -e`, więc kod różny od zera zatrzymałby start całego kontenera, a błąd konfiguracji poczty nie powinien wyłączać sklepu. Problemy są zgłaszane komunikatem `BLAD` w logach (`make logs SERVICE=shop`),
 - ponowne uruchomienie ustawia te same wartości, więc nie powoduje skutków ubocznych.
+
+#### Konfiguracja sprzedaży (init-scripts)
+
+Skrypt `shop/init-scripts/20-configure-sales.sh` uruchamia jako `www-data` plik `shop/scripts/configure-sales.php` (w obrazie `/usr/local/share/shop-init/configure-sales.php`). Skrypt PHP ładuje PrestaShop (`config/config.inc.php`) i ustawia, korzystając z klas PrestaShop:
+- kraje - aktywna tylko Polska,
+- płatności - przelew tradycyjny i płatność przy odbiorze, odinstalowanie płatności czekiem, dane do przelewu, faktura od razu przy zamówieniu za pobraniem,
+- przewoźników - dwóch kurierów z cenami brutto i VAT 23%, wyłączenie przewoźników z instalatora i danych demo,
+- ograniczenia - darmowa dostawa od `FREE_SHIPPING_THRESHOLD` i limit wagi `MAX_ORDER_WEIGHT_KG` (zmienne z `compose.yaml`).
+
+Uzasadnienie wyboru PHP zamiast SQL i `bin/console` jest w `docs/adr/0003-konfiguracja-sprzedazy.md`, a opis ustawień w README (sekcja „Płatności i dostawa”).
+
+Różnice względem skryptu poczty:
+- błąd konfiguracji **zatrzymuje start kontenera** (kod 1). Sklep z ustawieniami z instalatora (płatność czekiem, domyślni przewoźnicy) nie spełniałby wymagań, a sam komunikat w logu łatwo przeoczyć. Kontener, który nie wstaje, widać w `make ps`, a przyczynę w logu jako `20-configure-sales: BLAD: ...`,
+- skrypt nadpisuje zmiany wprowadzone w panelu administratora (źródłem prawdy jest repo); jest idempotentny — przewoźników rozpoznaje po `id_reference` zapisanym w konfiguracji, więc restart nie tworzy duplikatów.
 
 ### Kontener proxy
 
