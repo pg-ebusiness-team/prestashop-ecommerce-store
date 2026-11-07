@@ -1,6 +1,11 @@
 import json
 from pathlib import Path
+from scraper.importer.products_mapping import get_product_mapping
+import xml.etree.ElementTree as ET
+import unicodedata
+import re
 
+LANGUAGE_ID = 1
 
 # Konfiguracja importera
 SOURCE_PATH = "scraper/products"
@@ -149,3 +154,85 @@ def validate_product(product: dict) -> list[str]:
         errors.append("Pole images musi być listą.")
 
     return errors
+
+def find_existing_product(product: dict, mapping: dict) -> dict | None:
+    """
+    Sprawdza, czy produkt istnieje w mapowaniu.
+
+    Zwraca dane mapowania produktu lub None.
+    """
+
+    source_id = product["source_id"]
+
+    return get_product_mapping(mapping, source_id)
+
+def get_product_id(product: dict, mapping: dict) -> int | None:
+    """
+    Zwraca ID produktu w PrestaShop.
+
+    Jeśli produkt nie istnieje w mapowaniu, zwraca None.
+    """
+
+    existing_product = find_existing_product(product, mapping)
+
+    if existing_product is None:
+        return None
+
+    return existing_product["prestashop_id"]
+
+def build_product_xml(
+    product: dict,
+    category_id: int,
+    tax_rules_group_id: int
+) -> str:
+    """
+    Buduje XML produktu zgodny z formatem PrestaShop Webservice.
+    """
+
+    root = ET.Element("prestashop")
+    product_element = ET.SubElement(root, "product")
+
+    # Nazwa produktu
+    name = ET.SubElement(product_element, "name")
+    language_name = ET.SubElement(name, "language", {"id": str(LANGUAGE_ID)})
+    language_name.text = product["name"]
+
+    # Link rewrite
+    normalized_name = unicodedata.normalize("NFKD", product["name"])
+    normalized_name = normalized_name.encode("ascii", "ignore").decode("ascii")
+    link_rewrite = re.sub(r"[^a-zA-Z0-9]+", "-", normalized_name.lower()).strip("-")
+
+    link = ET.SubElement(product_element, "link_rewrite")
+    language_link = ET.SubElement(link, "language", {"id": str(LANGUAGE_ID)})
+    language_link.text = link_rewrite
+
+    # Opisy produktu
+    for field in ["description", "description_short"]:
+        element = ET.SubElement(product_element, field)
+        language_element = ET.SubElement(
+            element, "language", {"id": str(LANGUAGE_ID)}
+        )
+        language_element.text = product.get(field, "")
+
+    # Cena netto
+    ET.SubElement(product_element, "price").text = str(product["price_net"])
+
+    # Kategoria
+    ET.SubElement(product_element, "id_category_default").text = str(category_id)
+
+    # Grupa reguł podatkowych VAT
+    ET.SubElement(product_element, "id_tax_rules_group").text = str(tax_rules_group_id)
+
+    # Podstawowe ustawienia produktu
+    ET.SubElement(product_element, "active").text = "1"
+    ET.SubElement(product_element, "available_for_order").text = "1"
+    ET.SubElement(product_element, "show_price").text = "1"
+    ET.SubElement(product_element, "visibility").text = "both"
+
+    # Powiązanie produktu z kategorią
+    associations = ET.SubElement(product_element, "associations")
+    categories = ET.SubElement(associations, "categories")
+    category = ET.SubElement(categories, "category")
+    ET.SubElement(category, "id").text = str(category_id)
+
+    return ET.tostring(root, encoding="unicode")
