@@ -20,7 +20,8 @@ class Scraper:
         self.site_url = site_url
         self.RESULTS_PATH = "../scraper_results/products"
         self.session = requests.Session()
-        self.cache = set()
+        # product id -> folder with its json files (to copy them when the product appears in another category)
+        self.cache: dict[str, Path] = {}
 
     def run(self):
         self.session.headers.update({"User-Agent": "Mozilla/5.0"})
@@ -41,8 +42,20 @@ class Scraper:
 
     def load_cache(self):
         for file in Path(self.RESULTS_PATH).rglob('*.json'):
-            self.cache.add(file.name.split('_')[0])
+            self.cache.setdefault(file.name.split('_')[0], file.parent)
         print(f"Loaded {len(self.cache)} products to cache")
+
+    def copy_from_cache(self, p_id, page_path):
+        """Copies already scraped product files to another category folder instead of fetching them again"""
+        source = self.cache[p_id]
+        target = Path(page_path)
+        # product already saved in this folder (resumed run)
+        if source.resolve() == target.resolve():
+            print(f"{p_id} already saved here")
+            return
+        for file in source.glob(f"{p_id}_*.json"):
+            shutil.copy(file, target / file.name)
+        print(f"Copied {p_id} from {source}")
 
     def get_categories_dict(self, url_arr: list[Category]) -> list[CategoryWithSubcategories]:
 
@@ -221,7 +234,7 @@ class Scraper:
                         try:
                             p_id = re.search(r"/(\d+)-", product_url).group(1)
                             if p_id in self.cache:
-                                print(f"Loaded {p_id} from cache")
+                                self.copy_from_cache(p_id, page_path)
                                 continue
                             print(f"Fetching {p_id} {product_url}")
                             product_details = self.get_product_details(product_url, p_id)
@@ -232,7 +245,7 @@ class Scraper:
                         for p in product_details:
                             p_name = json_name(p)
                             save_json(page_path, p_name, p)
-                        self.cache.add(p_id)
+                        self.cache[p_id] = Path(page_path)
 
                 # don't mark if some product failed, so it's retried on the next run
                 if not had_errors:
