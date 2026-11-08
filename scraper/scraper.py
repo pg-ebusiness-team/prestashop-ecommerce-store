@@ -19,6 +19,8 @@ class Scraper:
         # paths relative to this file, not the current directory, so it works no matter where it's run from
         results_root = Path(__file__).resolve().parent.parent / "scraper_results"
         self.RESULTS_PATH = results_root / "products"
+        # one large_default photo per image: <id_product>/<id_image>.jpg - the shop generates other sizes on import
+        self.PHOTOS_PATH = results_root / "product_photos"
         # debug files (category tree, product listings) - kept outside RESULTS_PATH, so load_cache doesn't read them
         self.DEBUG_PATH = results_root / "debug"
         self.session = requests.Session()
@@ -65,11 +67,46 @@ class Scraper:
         response.raise_for_status()
 
     def clear_result(self):
-        # delete all scraped products (and so the cache, which is built from them)
-        folder = Path(self.RESULTS_PATH)
-        if folder.exists():
-            shutil.rmtree(folder)
-        folder.mkdir(parents=True)
+        # delete all scraped products (and so the cache, which is built from them) and their photos
+        for folder in (self.RESULTS_PATH, self.PHOTOS_PATH):
+            if folder.exists():
+                shutil.rmtree(folder)
+        self.RESULTS_PATH.mkdir(parents=True)
+
+    def download_photos(self, product):
+        """Downloads product's photos (large_default size) that aren't saved yet"""
+        for image in product.get('images') or []:
+            folder = self.PHOTOS_PATH / str(product['id_product'])
+            name = str(image['id_image'])
+            # extension depends on the content, so check any of them
+            if any((folder / f"{name}.{ext}").exists() for ext in ("webp", "jpg", "png")):
+                continue
+            response = self.request("GET", image['bySize']['large_default']['url'], timeout=10)
+            response.raise_for_status()
+            # the shop serves WebP under .jpg urls and an image/jpeg header, so the format is read from the content
+            content = response.content
+            if content[:4] == b'RIFF' and content[8:12] == b'WEBP':
+                extension = "webp"
+            elif content[:8] == b'\x89PNG\r\n\x1a\n':
+                extension = "png"
+            else:
+                extension = "jpg"
+            path = folder / f"{name}.{extension}"
+            folder.mkdir(parents=True, exist_ok=True)
+            # write to a temp file first, so an interrupted download doesn't leave a broken photo that would be skipped
+            temp_path = folder / f"{name}.part"
+            temp_path.write_bytes(content)
+            temp_path.replace(path)
+            print(f"Saved photo {path.relative_to(self.PHOTOS_PATH)}")
+
+    def download_missing_photos(self):
+        """Downloads photos for products already saved (e.g. scraped before photos were supported, or a download failed)"""
+        print("Checking photos of saved products")
+        for file in self.RESULTS_PATH.rglob('*.json'):
+            try:
+                self.download_photos(json.loads(file.read_text(encoding="utf-8")))
+            except Exception as e:
+                print(f"Error downloading photos for {file.name}: {e}")
 
     def load_cache(self):
         for file in Path(self.RESULTS_PATH).rglob('*.json'):
@@ -261,6 +298,8 @@ class Scraper:
 
         listings = []
 
+        self.download_missing_photos()
+
         for category in categories:
             category_folder = f"{self.RESULTS_PATH}/{category['main_category']['name']}"
             os.makedirs(Path(category_folder), exist_ok=True)
@@ -298,14 +337,17 @@ class Scraper:
                                 continue
                             print(f"Fetching {p_id} {product_url}")
                             product_details = self.get_product_details(product_url, p_id)
+                            for p in product_details:
+                                p_name = json_name(p)
+                                save_json(page_path, p_name, p)
+                            self.cache[p_id] = Path(page_path)
+                            # variants share photos - already downloaded ones are skipped
+                            for p in product_details:
+                                self.download_photos(p)
                         except Exception as e:
                             print(f"Error for {product_url}: {e}")
                             had_errors = True
                             continue
-                        for p in product_details:
-                            p_name = json_name(p)
-                            save_json(page_path, p_name, p)
-                        self.cache[p_id] = Path(page_path)
 
                 # don't mark if some product failed, so it's retried on the next run
                 if not had_errors:

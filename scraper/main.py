@@ -5,7 +5,7 @@ parser = argparse.ArgumentParser(
     description="Scrapes products from luksusowealkohole.pl into scraper_results/products. "
                 "Without arguments it runs the scraper and resumes from the products already saved.")
 parser.add_argument("--clean", action="store_true",
-                    help="delete all scraped products before running (this also resets the cache, "
+                    help="delete all scraped products and photos before running (this also resets the cache, "
                          "so everything is fetched again)")
 parser.add_argument("--category", metavar="NAME",
                     help="scrape only this main category (case-insensitive), e.g. \"Whisky & Bourbon\"")
