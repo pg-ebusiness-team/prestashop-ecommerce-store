@@ -4,6 +4,9 @@ import xml.etree.ElementTree as ET
 import unicodedata
 import re
 from scraper.importer.api_client import PrestaShopAPI
+from scraper.importer.images import import_product_images
+from scraper.importer.combinations import import_combination
+from scraper.importer.attributes_mapping import load_mapping as load_attributes_mapping
 from scraper.importer.products_mapping import (
     load_mapping,
     save_mapping,
@@ -89,10 +92,11 @@ def normalize_product(product: dict) -> dict:
         "description": data.get("description", ""),
         "description_short": data.get("description_short", ""),
 
-        # Ceny i podatek VAT
+        # Ceny, podatek VAT i stan magazynowy
         "price_gross": data.get("price_without_reduction"),
         "price_net": data.get("price_tax_exc"),
         "vat_rate": data.get("rate"),
+        "quantity": data.get("quantity"),
 
         # Kategoria źródłowa
         "category": data.get("category"),
@@ -158,6 +162,13 @@ def validate_product(product: dict) -> list[str]:
 
     if not isinstance(product.get("images"), list):
         errors.append("Pole images musi być listą.")
+        
+    # Sprawdzenie stanu magazynowego
+    quantity = product.get("quantity")
+
+    if quantity is not None:
+        if not isinstance(quantity, int) or isinstance(quantity, bool) or quantity < 0:
+            errors.append("Nieprawidłowa wartość stanu magazynowego.")
 
     return errors
 
@@ -284,7 +295,7 @@ def import_product(
     tax_rules_group_id: int
 ) -> tuple[int, str]:
     """
-    Tworzy lub aktualizuje produkt w PrestaShop.
+    Tworzy lub aktualizuje produkt oraz jego kombinacje.
 
     Zwraca ID produktu w PrestaShop oraz rodzaj operacji.
     """
@@ -299,20 +310,51 @@ def import_product(
     )
 
     if existing_product_id is not None:
-        update_product(api, existing_product_id, product_xml)
-        return existing_product_id, "updated"
+        product_id = existing_product_id
 
-    new_product_id = create_product(api, product_xml)
+        update_product(api, product_id, product_xml)
 
-    add_product_mapping(
-        mapping,
-        product["source_id"],
-        new_product_id
+        operation = "updated"
+
+    else:
+        product_id = create_product(api, product_xml)
+
+        add_product_mapping(
+            mapping,
+            product["source_id"],
+            product_id
+        )
+
+        save_mapping(mapping)
+
+        operation = "created"
+
+    # Import kombinacji produktu
+    attributes_mapping = load_attributes_mapping()
+
+    for combination in product.get("combinations", []):
+        import_combination(
+            api,
+            product_id,
+            combination,
+            mapping,
+            attributes_mapping
+        )
+        
+    created_images, skipped_images = import_product_images(
+        api,
+        product_id,
+        product,
+        mapping
     )
 
-    save_mapping(mapping)
+    print(
+        f"Zdjęcia produktu {product['source_id']}: "
+        f"utworzono {created_images}, "
+        f"pominięto {skipped_images}."
+    )
 
-    return new_product_id, "created"
+    return product_id, operation
 
 def group_products(products: list[dict]) -> list[dict]:
     """

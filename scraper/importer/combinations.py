@@ -75,12 +75,7 @@ def build_combination_xml(
         "minimal_quantity"
     ).text = "1"
 
-    # Kod EAN wariantu
-    source_attribute = next(
-        iter(combination["attributes"].values())
-    )
-
-    ean13 = source_attribute.get("ean13")
+    ean13 = combination.get("ean13")
 
     if ean13 and len(str(ean13)) == 13 and str(ean13).isdigit():
         ET.SubElement(
@@ -189,13 +184,38 @@ def update_combination(
     combination_xml: str
 ) -> None:
     """
-    Aktualizuje istniejącą kombinację.
+    Aktualizuje istniejącą kombinację,
+    zachowując pozostałe pola zasobu.
     """
+
+    response = api.get(f"combinations/{combination_id}")
+
+    root = ET.fromstring(response)
+
+    existing = root.find("./combination")
+
+    if existing is None:
+        raise RuntimeError(
+            f"Nie znaleziono kombinacji {combination_id}."
+        )
+
+    new_root = ET.fromstring(combination_xml)
+    new_combination = new_root.find("./combination")
+
+    if new_combination is None:
+        raise RuntimeError("Nieprawidłowy XML kombinacji.")
+
+    for field in ["ean13"]:
+        new_value = new_combination.find(field)
+        old_value = existing.find(field)
+
+        if new_value is not None and old_value is not None:
+            old_value.text = new_value.text
 
     api.put(
         "combinations",
         combination_id,
-        combination_xml
+        ET.tostring(root, encoding="unicode")
     )
 
 
