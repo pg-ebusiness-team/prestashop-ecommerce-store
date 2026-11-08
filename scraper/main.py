@@ -22,6 +22,6 @@ args = parser.parse_args()
 scraper = Scraper('https://luksusowealkohole.pl/')
 if args.clean:
     scraper.clear_result()
-scraper.run()
+scraper.load_cache()
 scraper.scrap(only_category=args.category, save_categories=args.save_categories, save_listings=args.save_listings,
               load_categories=args.load_categories)

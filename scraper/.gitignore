@@ -5,11 +5,8 @@
 __pycache__/
 *.pyc
 
-# scraper html debugging
-*.html
-*.json
-pages/
-products/
+# old debug output (results go to scraper_results/, ignored in the root .gitignore)
+jsons/
 
 # test python files
 temp.py

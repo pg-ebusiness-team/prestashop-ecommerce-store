@@ -3,27 +3,29 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from utils.get_page_count import get_page_count
-from utils.get_product_details import get_variant_select
 import time
 import re
 from pathlib import Path
 import shutil
-from utils.get_product_details import save_json, json_name
+from utils.get_product_details import get_variant_select, save_json, json_name
 from utils.get_main_categories import get_main_categories
 from models import Category, CategoryWithSubcategories
 import html
 
 class Scraper:
     def __init__( self, site_url ):
-        self.site_url = site_url
+        # without trailing slash, so paths can be appended with '/'
+        self.site_url = site_url.rstrip('/')
         # paths relative to this file, not the current directory, so it works no matter where it's run from
         results_root = Path(__file__).resolve().parent.parent / "scraper_results"
         self.RESULTS_PATH = results_root / "products"
-        # one large_default photo per image: <id_product>/<id_image>.jpg - the shop generates other sizes on import
+        # one large_default photo per image: <id_product>/<id_image>.webp (extension read from the content)
+        # - the shop generates other sizes on import
         self.PHOTOS_PATH = results_root / "product_photos"
         # debug files (category tree, product listings) - kept outside RESULTS_PATH, so load_cache doesn't read them
         self.DEBUG_PATH = results_root / "debug"
         self.session = requests.Session()
+        self.session.headers.update({"User-Agent": "Mozilla/5.0"})
         # project limit: max 2 requests per second
         self.MIN_REQUEST_INTERVAL = 0.5
         self.last_request_time = 0.0
@@ -32,12 +34,6 @@ class Scraper:
         self.RETRY_STATUSES = {429, 500, 502, 503, 504}
         # product id -> folder with its json files (to copy them when the product appears in another category)
         self.cache: dict[str, Path] = {}
-
-    def run(self):
-        self.session.headers.update({"User-Agent": "Mozilla/5.0"})
-
-        self.load_cache()
-
 
     def request(self, method, url, **kwargs):
         """All requests go through here - keeps max 2 requests per second (retries included)
@@ -140,6 +136,7 @@ class Scraper:
             }
 
             response = self.request("GET", url, timeout=10)
+            response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
 
             subcategories_box = soup.find(id='subcategories')
@@ -242,9 +239,9 @@ class Scraper:
 
         match = re.search(r'data-product="([^"]+)"', data.get("product_details", ""))
         if not match:
-            raise ValueError("Brak data-product w odpowiedzi AJAX")
+            raise ValueError("No data-product in AJAX response")
 
-        return data, json.loads(html.unescape(match.group(1)))
+        return json.loads(html.unescape(match.group(1)))
 
     def get_product_details(self, product_url, p_id):
         """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
@@ -255,13 +252,11 @@ class Scraper:
         group_id, values = get_variant_select(soup)
 
         if not values:
-            _, product = self.refresh_variant(p_id, product_url, {})
-            return [product]
+            return [self.refresh_variant(p_id, product_url, {})]
 
         products_arr = []
         for value in values:
-            _, product = self.refresh_variant(p_id, product_url, {group_id: value})
-            products_arr.append(product)
+            products_arr.append(self.refresh_variant(p_id, product_url, {group_id: value}))
 
         return products_arr
 
@@ -279,6 +274,7 @@ class Scraper:
             names = [c['main_category']['name'] for c in loaded]
         else:
             response = self.request("GET", self.site_url, timeout=10)
+            response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             main_categories = get_main_categories(soup)
             names = [c['name'] for c in main_categories]
@@ -329,13 +325,13 @@ class Scraper:
                     os.makedirs(Path(page_path), exist_ok=True)
                     products_urls = page['products']
                     for product_url in products_urls:
-                        # this function returns an array, even if product has no sub-variations
                         try:
                             p_id = re.search(r"/(\d+)-", product_url).group(1)
                             if p_id in self.cache:
                                 self.copy_from_cache(p_id, page_path)
                                 continue
                             print(f"Fetching {p_id} {product_url}")
+                            # returns an array, even if product has no sub-variations
                             product_details = self.get_product_details(product_url, p_id)
                             for p in product_details:
                                 p_name = json_name(p)
