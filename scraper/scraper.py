@@ -18,7 +18,11 @@ import html
 class Scraper:
     def __init__( self, site_url ):
         self.site_url = site_url
-        self.RESULTS_PATH = "../scraper_results/products"
+        # paths relative to this file, not the current directory, so it works no matter where it's run from
+        results_root = Path(__file__).resolve().parent.parent / "scraper_results"
+        self.RESULTS_PATH = results_root / "products"
+        # debug files (category tree, product listings) - kept outside RESULTS_PATH, so load_cache doesn't read them
+        self.DEBUG_PATH = results_root / "debug"
         self.session = requests.Session()
         # product id -> folder with its json files (to copy them when the product appears in another category)
         self.cache: dict[str, Path] = {}
@@ -34,7 +38,7 @@ class Scraper:
 
 
     def clear_result(self):
-        # delete old folder is exists (TODO: start at the scrapers last record)
+        # delete all scraped products (and so the cache, which is built from them)
         folder = Path(self.RESULTS_PATH)
         if folder.exists():
             shutil.rmtree(folder)
@@ -200,12 +204,25 @@ class Scraper:
 
         return products_arr
 
-    def scrap(self):
+    def scrap(self, only_category=None, save_categories=False, save_listings=False):
 
         response = self.session.get(self.site_url, timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        categories = self.get_categories_dict(get_main_categories(soup))
+        main_categories = get_main_categories(soup)
+        # filter before fetching subcategories, so other categories cost no requests
+        if only_category is not None:
+            main_categories = [c for c in main_categories if c["name"].lower() == only_category.lower()]
+            if not main_categories:
+                names = ", ".join(c['name'] for c in get_main_categories(soup))
+                raise SystemExit(f"Category '{only_category}' not found. Available: {names}")
+
+        categories = self.get_categories_dict(main_categories)
+        listings = []
+
+        if save_categories:
+            os.makedirs(self.DEBUG_PATH, exist_ok=True)
+            save_json(self.DEBUG_PATH, "categories", categories)
 
         for category in categories:
             category_folder = f"{self.RESULTS_PATH}/{category['main_category']['name']}"
@@ -224,6 +241,12 @@ class Scraper:
                 had_errors = False
 
                 products_data = self.get_products(sub_category['url'])
+                if save_listings:
+                    listings.append({'main_category': category['main_category']['name'], 'subcategory': name, **products_data})
+                    # saved after every subcategory, so it's not lost when the run is interrupted
+                    os.makedirs(self.DEBUG_PATH, exist_ok=True)
+                    save_json(self.DEBUG_PATH, "listings", listings)
+
                 pages = products_data['pages']
                 for page in pages:
                     page_path = f"{sub_category_folder}/{page['page']}"
