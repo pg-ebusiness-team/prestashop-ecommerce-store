@@ -204,25 +204,38 @@ class Scraper:
 
         return products_arr
 
-    def scrap(self, only_category=None, save_categories=False, save_listings=False):
+    def scrap(self, only_category=None, save_categories=False, save_listings=False, load_categories=False):
 
-        response = self.session.get(self.site_url, timeout=10)
-        soup = BeautifulSoup(response.text, 'html.parser')
+        def selected(name):
+            return only_category is None or name.lower() == only_category.lower()
 
-        main_categories = get_main_categories(soup)
-        # filter before fetching subcategories, so other categories cost no requests
-        if only_category is not None:
-            main_categories = [c for c in main_categories if c["name"].lower() == only_category.lower()]
-            if not main_categories:
-                names = ", ".join(c['name'] for c in get_main_categories(soup))
-                raise SystemExit(f"Category '{only_category}' not found. Available: {names}")
+        if load_categories:
+            categories_file = self.DEBUG_PATH / "categories.json"
+            if not categories_file.exists():
+                raise SystemExit(f"{categories_file} not found - run with --save-categories first")
+            with open(categories_file, encoding="utf-8") as f:
+                loaded = json.load(f)
+            names = [c['main_category']['name'] for c in loaded]
+        else:
+            response = self.session.get(self.site_url, timeout=10)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            main_categories = get_main_categories(soup)
+            names = [c['name'] for c in main_categories]
 
-        categories = self.get_categories_dict(main_categories)
+        if only_category is not None and not any(selected(n) for n in names):
+            raise SystemExit(f"Category '{only_category}' not found. Available: {', '.join(names)}")
+
+        if load_categories:
+            categories = [c for c in loaded if selected(c['main_category']['name'])]
+        else:
+            # filter before fetching subcategories, so other categories cost no requests
+            categories = self.get_categories_dict([c for c in main_categories if selected(c['name'])])
+            # not when loading - it would overwrite the file with the same (or, with --category, filtered) data
+            if save_categories:
+                os.makedirs(self.DEBUG_PATH, exist_ok=True)
+                save_json(self.DEBUG_PATH, "categories", categories)
+
         listings = []
-
-        if save_categories:
-            os.makedirs(self.DEBUG_PATH, exist_ok=True)
-            save_json(self.DEBUG_PATH, "categories", categories)
 
         for category in categories:
             category_folder = f"{self.RESULTS_PATH}/{category['main_category']['name']}"
