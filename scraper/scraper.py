@@ -1,8 +1,6 @@
 import json
 import os
 import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 from utils.get_page_count import get_page_count
 from utils.get_product_details import get_variant_select
@@ -24,18 +22,47 @@ class Scraper:
         # debug files (category tree, product listings) - kept outside RESULTS_PATH, so load_cache doesn't read them
         self.DEBUG_PATH = results_root / "debug"
         self.session = requests.Session()
+        # project limit: max 2 requests per second
+        self.MIN_REQUEST_INTERVAL = 0.5
+        self.last_request_time = 0.0
+        # timeouts, connection errors and these statuses are retried with growing pauses (2s, 4s, 8s)
+        self.MAX_RETRIES = 3
+        self.RETRY_STATUSES = {429, 500, 502, 503, 504}
         # product id -> folder with its json files (to copy them when the product appears in another category)
         self.cache: dict[str, Path] = {}
 
     def run(self):
         self.session.headers.update({"User-Agent": "Mozilla/5.0"})
-        # retry on timeouts and server errors, with growing pauses (2s, 4s, 8s). POST is safe here - refresh only reads data
-        retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
-                      allowed_methods=["GET", "POST"])
-        self.session.mount("https://", HTTPAdapter(max_retries=retry))
 
         self.load_cache()
 
+
+    def request(self, method, url, **kwargs):
+        """All requests go through here - keeps max 2 requests per second (retries included)
+        and retries failed ones. POST is safe to retry here - refresh only reads data"""
+        for attempt in range(self.MAX_RETRIES + 1):
+            if attempt > 0:
+                pause = 2 ** attempt
+                print(f"Retry {attempt}/{self.MAX_RETRIES} for {url} in {pause}s")
+                time.sleep(pause)
+
+            # wait only as long as needed since the previous request
+            wait = self.last_request_time + self.MIN_REQUEST_INTERVAL - time.monotonic()
+            if wait > 0:
+                time.sleep(wait)
+            self.last_request_time = time.monotonic()
+
+            try:
+                response = self.session.request(method, url, **kwargs)
+            except (requests.ConnectionError, requests.Timeout):
+                if attempt == self.MAX_RETRIES:
+                    raise
+                continue
+            if response.status_code not in self.RETRY_STATUSES:
+                return response
+
+        # all attempts ended with a retryable status
+        response.raise_for_status()
 
     def clear_result(self):
         # delete all scraped products (and so the cache, which is built from them)
@@ -75,7 +102,7 @@ class Scraper:
                 'subcategories': []
             }
 
-            response = self.session.get(url, timeout=10)
+            response = self.request("GET", url, timeout=10)
             soup = BeautifulSoup(response.text, 'html.parser')
 
             subcategories_box = soup.find(id='subcategories')
@@ -84,7 +111,6 @@ class Scraper:
             if subcategories_box is None:
                 category_entry['subcategories'].append({'name': name, 'url': url})
                 result.append(category_entry)
-                time.sleep(.5)
                 continue
 
             subcategories = subcategories_box.find_all('a', class_='subcategory-name')
@@ -97,7 +123,6 @@ class Scraper:
                 category_entry['subcategories'].append(subcat_entry)
 
             result.append(category_entry)
-            time.sleep(.5)
 
         print("Finished getting sub categories")
         return result
@@ -105,7 +130,7 @@ class Scraper:
     def get_products(self, category_url):
         """returns list of all products from a category"""
 
-        response = self.session.get(category_url, timeout=10)
+        response = self.request("GET", category_url, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -125,7 +150,7 @@ class Scraper:
             url = "{}?page={}".format(category_url, page)
             # page 1 is the same as category_url, already fetched above
             if page > 1:
-                response = self.session.get(url, timeout=10)
+                response = self.request("GET", url, timeout=10)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -147,7 +172,6 @@ class Scraper:
                 'products': products
             })
 
-            time.sleep(.5)
 
         return data
 
@@ -163,8 +187,8 @@ class Scraper:
         for group_id, attribute_id in selected.items():
             payload[f"group[{group_id}]"] = attribute_id
 
-        time.sleep(.5)
-        response = self.session.post(
+        response = self.request(
+            "POST",
             ajax_url,
             params={"controller": "product", "id_product": product_id, "id_customization": 0},
             data=payload,
@@ -187,7 +211,7 @@ class Scraper:
 
     def get_product_details(self, product_url, p_id):
         """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
-        response = self.session.get(product_url, timeout=10)
+        response = self.request("GET", product_url, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -217,7 +241,7 @@ class Scraper:
                 loaded = json.load(f)
             names = [c['main_category']['name'] for c in loaded]
         else:
-            response = self.session.get(self.site_url, timeout=10)
+            response = self.request("GET", self.site_url, timeout=10)
             soup = BeautifulSoup(response.text, 'html.parser')
             main_categories = get_main_categories(soup)
             names = [c['name'] for c in main_categories]
