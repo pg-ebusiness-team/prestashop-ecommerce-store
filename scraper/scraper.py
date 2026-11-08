@@ -1,6 +1,5 @@
 import json
 import os
-from utils.get_soup import get_soup
 import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -107,10 +106,11 @@ class Scraper:
             print("Getting products for page " + str(page))
 
             url = "{}?page={}".format(category_url, page)
-            response = self.session.get(url, timeout=10)
-            response.raise_for_status()
-
-            soup = BeautifulSoup(response.text, 'html.parser')
+            # page 1 is the same as category_url, already fetched above
+            if page > 1:
+                response = self.session.get(url, timeout=10)
+                response.raise_for_status()
+                soup = BeautifulSoup(response.text, 'html.parser')
 
             product_list = soup.select_one('.product_list.grid.gridcount')
             # empty category or different layout (e.g. gift card) - no products on this page
@@ -203,6 +203,13 @@ class Scraper:
                 sub_category_folder = f"{category_folder}/{name}"
                 os.makedirs(Path(sub_category_folder), exist_ok=True)
 
+                # marker saved after the whole subcategory was scraped - skip it without any request
+                done_marker = Path(sub_category_folder) / "_done"
+                if done_marker.exists():
+                    print(f"Subcategory {name} already done, skipping")
+                    continue
+                had_errors = False
+
                 products_data = self.get_products(sub_category['url'])
                 pages = products_data['pages']
                 for page in pages:
@@ -220,8 +227,13 @@ class Scraper:
                             product_details = self.get_product_details(product_url, p_id)
                         except Exception as e:
                             print(f"Error for {product_url}: {e}")
+                            had_errors = True
                             continue
                         for p in product_details:
                             p_name = json_name(p)
                             save_json(page_path, p_name, p)
                         self.cache.add(p_id)
+
+                # don't mark if some product failed, so it's retried on the next run
+                if not had_errors:
+                    done_marker.touch()
