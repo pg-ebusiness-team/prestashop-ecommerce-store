@@ -119,7 +119,7 @@ class Scraper:
         for file in self.RESULTS_PATH.rglob('*.json'):
             try:
                 self.download_photos(json.loads(file.read_text(encoding="utf-8")))
-            except Exception as e:  # one broken product mustn't stop the whole run
+            except Exception as e:  # noqa: BLE001 - one broken product mustn't stop the whole run
                 print(f"Error downloading photos for {file.name}: {e}")
 
     def load_cache(self):
