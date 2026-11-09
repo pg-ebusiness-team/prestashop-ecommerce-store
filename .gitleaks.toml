@@ -1,0 +1,7 @@
+# default gitleaks rules + exceptions for this repo
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Scraper test fixtures - public pages saved from the source shop (e.g. reCAPTCHA site keys, which are public by design)"
+paths = ['''^scraper/fixtures/''']
