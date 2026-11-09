@@ -10,11 +10,11 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 from protego import Protego
+
 from models import Category, CategoryWithSubcategories
 from utils.get_main_categories import get_main_categories
 from utils.get_page_count import get_page_count
 from utils.get_product_details import get_variant_select, json_name, save_json
-
 
 log = logging.getLogger("scraper")
 
