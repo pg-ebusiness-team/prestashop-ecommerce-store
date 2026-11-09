@@ -1,5 +1,6 @@
 from models import Category
 
+
 def get_main_categories(soup) -> list[Category]:
 
     header_top_box = soup.find("div", class_="header-top")

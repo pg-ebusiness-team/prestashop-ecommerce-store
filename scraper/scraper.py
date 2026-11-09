@@ -1,16 +1,18 @@
+import html
 import json
 import os
+import re
+import shutil
+import time
+from pathlib import Path
+
 import requests
 from bs4 import BeautifulSoup
-from utils.get_page_count import get_page_count
-import time
-import re
-from pathlib import Path
-import shutil
-from utils.get_product_details import get_variant_select, save_json, json_name
-from utils.get_main_categories import get_main_categories
 from models import Category, CategoryWithSubcategories
-import html
+from utils.get_main_categories import get_main_categories
+from utils.get_page_count import get_page_count
+from utils.get_product_details import get_variant_select, json_name, save_json
+
 
 class Scraper:
     def __init__( self, site_url ):
@@ -101,7 +103,7 @@ class Scraper:
         for file in self.RESULTS_PATH.rglob('*.json'):
             try:
                 self.download_photos(json.loads(file.read_text(encoding="utf-8")))
-            except Exception as e:
+            except Exception as e:  # noqa: BLE001 - one broken product mustn't stop the whole run
                 print(f"Error downloading photos for {file.name}: {e}")
 
     def load_cache(self):
@@ -128,7 +130,7 @@ class Scraper:
         for i, url_dict in enumerate(url_arr):
             name, url = url_dict['name'], url_dict['url']
 
-            print("{}: Getting sub categories for {}".format(i, name))
+            print(f"{i}: Getting sub categories for {name}")
 
             category_entry = {
                 'main_category': {'name': name, 'url': url},
@@ -175,13 +177,13 @@ class Scraper:
             'pages': [],
         }
 
-        print(f"Getting products for {category_url}. Page count: {str(page_count)}")
+        print(f"Getting products for {category_url}. Page count: {page_count!s}")
 
         for page in range(1, page_count + 1):
 
             print("Getting products for page " + str(page))
 
-            url = "{}?page={}".format(category_url, page)
+            url = f"{category_url}?page={page}"
             # page 1 is the same as category_url, already fetched above
             if page > 1:
                 response = self.request("GET", url, timeout=10)
@@ -340,7 +342,7 @@ class Scraper:
                             # variants share photos - already downloaded ones are skipped
                             for p in product_details:
                                 self.download_photos(p)
-                        except Exception as e:
+                        except Exception as e:  # noqa: BLE001 - one broken product mustn't stop the whole run
                             print(f"Error for {product_url}: {e}")
                             had_errors = True
                             continue

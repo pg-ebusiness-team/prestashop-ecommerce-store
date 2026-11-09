@@ -1,4 +1,5 @@
 import argparse
+
 from scraper import Scraper
 
 parser = argparse.ArgumentParser(
