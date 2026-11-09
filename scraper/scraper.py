@@ -1,5 +1,6 @@
 import html
 import json
+import logging
 import os
 import re
 import shutil
@@ -8,10 +9,18 @@ from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+from protego import Protego
 from models import Category, CategoryWithSubcategories
 from utils.get_main_categories import get_main_categories
 from utils.get_page_count import get_page_count
 from utils.get_product_details import get_variant_select, json_name, save_json
+
+
+log = logging.getLogger("scraper")
+
+
+class RobotsDisallowed(Exception):
+    """Url blocked by the site's robots.txt"""
 
 
 class Scraper:
@@ -27,7 +36,8 @@ class Scraper:
         # debug files (category tree, product listings) - kept outside RESULTS_PATH, so load_cache doesn't read them
         self.DEBUG_PATH = results_root / "debug"
         self.session = requests.Session()
-        self.session.headers.update({"User-Agent": "Mozilla/5.0"})
+        # identifies the scraper as a bot - also the name matched against robots.txt rules
+        self.session.headers.update({"User-Agent": "EbizScraper/1.0"})
         # project limit: max 2 requests per second
         self.MIN_REQUEST_INTERVAL = 0.5
         self.last_request_time = 0.0
@@ -36,14 +46,34 @@ class Scraper:
         self.RETRY_STATUSES = {429, 500, 502, 503, 504}
         # product id -> folder with its json files (to copy them when the product appears in another category)
         self.cache: dict[str, Path] = {}
+        self.robots = self.load_robots()
+
+    def load_robots(self):
+        """Fetches the site's robots.txt - every request is checked against it"""
+        url = self.site_url + "/robots.txt"
+        # the only request outside request() (that one needs robots already) - logged the same way
+        log.info("GET %s", url)
+        # counts for the rate limit, so the next request waits for it too
+        self.last_request_time = time.monotonic()
+        response = self.session.get(url, timeout=10)
+        # no robots.txt (4xx) means everything is allowed; server errors stop the scraper
+        if 400 <= response.status_code < 500:
+            return Protego.parse("")
+        response.raise_for_status()
+        return Protego.parse(response.text)
 
     def request(self, method, url, **kwargs):
         """All requests go through here - keeps max 2 requests per second (retries included)
         and retries failed ones. POST is safe to retry here - refresh only reads data"""
+        # params are part of the url robots.txt rules match (e.g. /*controller=search)
+        full_url = requests.Request(method, url, params=kwargs.get("params")).prepare().url
+        if not self.robots.can_fetch(full_url, self.session.headers["User-Agent"]):
+            raise RobotsDisallowed(f"Blocked by robots.txt: {full_url}")
+
         for attempt in range(self.MAX_RETRIES + 1):
             if attempt > 0:
                 pause = 2 ** attempt
-                print(f"Retry {attempt}/{self.MAX_RETRIES} for {url} in {pause}s")
+                log.warning(f"Retry {attempt}/{self.MAX_RETRIES} for {url} in {pause}s")
                 time.sleep(pause)
 
             # wait only as long as needed since the previous request
@@ -52,6 +82,8 @@ class Scraper:
                 time.sleep(wait)
             self.last_request_time = time.monotonic()
 
+            # every request is logged - the timestamps show the rate limit is kept
+            log.info("%s %s", method, full_url)
             try:
                 response = self.session.request(method, url, **kwargs)
             except (requests.ConnectionError, requests.Timeout):
@@ -95,21 +127,21 @@ class Scraper:
             temp_path = folder / f"{name}.part"
             temp_path.write_bytes(content)
             temp_path.replace(path)
-            print(f"Saved photo {path.relative_to(self.PHOTOS_PATH)}")
+            log.info(f"Saved photo {path.relative_to(self.PHOTOS_PATH)}")
 
     def download_missing_photos(self):
         """Downloads photos for products already saved (e.g. scraped before photos were supported, or a download failed)"""
-        print("Checking photos of saved products")
+        log.info("Checking photos of saved products")
         for file in self.RESULTS_PATH.rglob('*.json'):
             try:
                 self.download_photos(json.loads(file.read_text(encoding="utf-8")))
             except Exception as e:  # noqa: BLE001 - one broken product mustn't stop the whole run
-                print(f"Error downloading photos for {file.name}: {e}")
+                log.error(f"Error downloading photos for {file.name}: {e}")
 
     def load_cache(self):
         for file in Path(self.RESULTS_PATH).rglob('*.json'):
             self.cache.setdefault(file.name.split('_')[0], file.parent)
-        print(f"Loaded {len(self.cache)} products to cache")
+        log.info(f"Loaded {len(self.cache)} products to cache")
 
     def copy_from_cache(self, p_id, page_path):
         """Copies already scraped product files to another category folder instead of fetching them again"""
@@ -117,11 +149,11 @@ class Scraper:
         target = Path(page_path)
         # product already saved in this folder (resumed run)
         if source.resolve() == target.resolve():
-            print(f"{p_id} already saved here")
+            log.info(f"{p_id} already saved here")
             return
         for file in source.glob(f"{p_id}_*.json"):
             shutil.copy(file, target / file.name)
-        print(f"Copied {p_id} from {source}")
+        log.info(f"Copied {p_id} from {source}")
 
     def get_categories_dict(self, url_arr: list[Category]) -> list[CategoryWithSubcategories]:
 
@@ -130,7 +162,7 @@ class Scraper:
         for i, url_dict in enumerate(url_arr):
             name, url = url_dict['name'], url_dict['url']
 
-            print(f"{i}: Getting sub categories for {name}")
+            log.info(f"{i}: Getting sub categories for {name}")
 
             category_entry = {
                 'main_category': {'name': name, 'url': url},
@@ -160,7 +192,7 @@ class Scraper:
 
             result.append(category_entry)
 
-        print("Finished getting sub categories")
+        log.info("Finished getting sub categories")
         return result
 
     def get_products(self, category_url):
@@ -177,11 +209,11 @@ class Scraper:
             'pages': [],
         }
 
-        print(f"Getting products for {category_url}. Page count: {page_count!s}")
+        log.info(f"Getting products for {category_url}. Page count: {page_count!s}")
 
         for page in range(1, page_count + 1):
 
-            print("Getting products for page " + str(page))
+            log.info("Getting products for page " + str(page))
 
             url = f"{category_url}?page={page}"
             # page 1 is the same as category_url, already fetched above
@@ -193,7 +225,7 @@ class Scraper:
             product_list = soup.select_one('.product_list.grid.gridcount')
             # empty category or different layout (e.g. gift card) - no products on this page
             if product_list is None:
-                print(f"No product list on {url}, skipping")
+                log.info(f"No product list on {url}, skipping")
                 break
 
             product_boxes = product_list.find_all('li', class_='product_item')
@@ -310,7 +342,7 @@ class Scraper:
                 # marker saved after the whole subcategory was scraped - skip it without any request
                 done_marker = Path(sub_category_folder) / "_done"
                 if done_marker.exists():
-                    print(f"Subcategory {name} already done, skipping")
+                    log.info(f"Subcategory {name} already done, skipping")
                     continue
                 had_errors = False
 
@@ -332,7 +364,7 @@ class Scraper:
                             if p_id in self.cache:
                                 self.copy_from_cache(p_id, page_path)
                                 continue
-                            print(f"Fetching {p_id} {product_url}")
+                            log.info(f"Fetching {p_id} {product_url}")
                             # returns an array, even if product has no sub-variations
                             product_details = self.get_product_details(product_url, p_id)
                             for p in product_details:
@@ -342,8 +374,12 @@ class Scraper:
                             # variants share photos - already downloaded ones are skipped
                             for p in product_details:
                                 self.download_photos(p)
+                        except RobotsDisallowed as e:
+                            # blocked on every run - not an error, so the subcategory can still be marked _done
+                            log.warning(f"Skipping {product_url}: {e}")
+                            continue
                         except Exception as e:  # noqa: BLE001 - one broken product mustn't stop the whole run
-                            print(f"Error for {product_url}: {e}")
+                            log.error(f"Error for {product_url}: {e}")
                             had_errors = True
                             continue
 
