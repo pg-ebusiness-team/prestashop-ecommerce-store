@@ -1,19 +1,36 @@
-import html
 import json
 import logging
 import os
-import re
 import shutil
 import time
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
 from models import Category, CategoryWithSubcategories
+from parser import (
+    parse_main_categories,
+    parse_page_count,
+    parse_product_ajax,
+    parse_product_id,
+    parse_product_urls,
+    parse_subcategories,
+    parse_variant_select,
+)
 from protego import Protego
-from utils.get_main_categories import get_main_categories
-from utils.get_page_count import get_page_count
-from utils.get_product_details import get_variant_select, json_name, save_json
+
+
+def save_json(path, name, data):
+    """Saves data to {path}/<name>.json"""
+    with open(Path(path, f"{name}.json"), "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def json_name(product):
+    """Returns file name based on product type: <id>_no_variants or <id>_variant_<variant_id>"""
+    if not product.get('attributes'):
+        return f"{product['id_product']}_no_variants"
+    return f"{product['id_product']}_variant_{product['id_product_attribute']}"
+
 
 log = logging.getLogger("scraper")
 
@@ -163,33 +180,15 @@ class Scraper:
 
             log.info(f"{i}: Getting sub categories for {name}")
 
-            category_entry = {
-                'main_category': {'name': name, 'url': url},
-                'subcategories': []
-            }
-
             response = self.request("GET", url, timeout=10)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-
-            subcategories_box = soup.find(id='subcategories')
+            subcategories = parse_subcategories(response.text)
 
             # category without subcategories - treat itself as the only subcategory, so its products are scraped
-            if subcategories_box is None:
-                category_entry['subcategories'].append({'name': name, 'url': url})
-                result.append(category_entry)
-                continue
+            if not subcategories:
+                subcategories = [{'name': name, 'url': url}]
 
-            subcategories = subcategories_box.find_all('a', class_='subcategory-name')
-
-            for s in subcategories:
-                name = s.text.strip()
-                url = s['href']
-
-                subcat_entry = {'name': name, 'url': url}
-                category_entry['subcategories'].append(subcat_entry)
-
-            result.append(category_entry)
+            result.append({'main_category': {'name': name, 'url': url}, 'subcategories': subcategories})
 
         log.info("Finished getting sub categories")
         return result
@@ -199,9 +198,9 @@ class Scraper:
 
         response = self.request("GET", category_url, timeout=10)
         response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
+        page_html = response.text
 
-        page_count = get_page_count(soup)
+        page_count = parse_page_count(page_html)
 
         data = {
             'base_url': category_url,
@@ -219,26 +218,18 @@ class Scraper:
             if page > 1:
                 response = self.request("GET", url, timeout=10)
                 response.raise_for_status()
-                soup = BeautifulSoup(response.text, 'html.parser')
+                page_html = response.text
 
-            product_list = soup.select_one('.product_list.grid.gridcount')
+            products = parse_product_urls(page_html)
             # empty category or different layout (e.g. gift card) - no products on this page
-            if product_list is None:
-                log.info(f"No product list on {url}, skipping")
+            if products is None:
+                print(f"No product list on {url}, skipping")
                 break
-
-            product_boxes = product_list.find_all('li', class_='product_item')
-            products = []
-
-            for box in product_boxes:
-                p_url = box.select_one('.product-thumbnail').get('href').strip()
-                products.append(p_url)
 
             data['pages'].append({
                 'page': page,
                 'products': products
             })
-
 
         return data
 
@@ -268,21 +259,14 @@ class Scraper:
             timeout=10,
         )
         response.raise_for_status()
-        data = response.json()
-
-        match = re.search(r'data-product="([^"]+)"', data.get("product_details", ""))
-        if not match:
-            raise ValueError("No data-product in AJAX response")
-
-        return json.loads(html.unescape(match.group(1)))
+        return parse_product_ajax(response.text)
 
     def get_product_details(self, product_url, p_id):
         """Returns list of data-product dicts - one per variant, or a single one for product without variants"""
         response = self.request("GET", product_url, timeout=10)
         response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
 
-        group_id, values = get_variant_select(soup)
+        group_id, values = parse_variant_select(response.text)
 
         if not values:
             return [self.refresh_variant(p_id, product_url, {})]
@@ -308,8 +292,7 @@ class Scraper:
         else:
             response = self.request("GET", self.site_url, timeout=10)
             response.raise_for_status()
-            soup = BeautifulSoup(response.text, 'html.parser')
-            main_categories = get_main_categories(soup)
+            main_categories = parse_main_categories(response.text)
             names = [c['name'] for c in main_categories]
 
         if only_category is not None and not any(selected(n) for n in names):
@@ -359,7 +342,7 @@ class Scraper:
                     products_urls = page['products']
                     for product_url in products_urls:
                         try:
-                            p_id = re.search(r"/(\d+)-", product_url).group(1)
+                            p_id = parse_product_id(product_url)
                             if p_id in self.cache:
                                 self.copy_from_cache(p_id, page_path)
                                 continue
