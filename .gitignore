@@ -4,6 +4,13 @@
 !.env.example
 *.pem
 *.key
+
+# intellij
+.idea/
+
+# scraper results
+scraper_results/
+
 *.cert
 *.crt
 .vscode/
