@@ -16,6 +16,7 @@ from parser import (
     parse_subcategories,
     parse_variant_select,
 )
+from protego import Protego
 
 
 def save_json(path, name, data):
@@ -29,10 +30,7 @@ def json_name(product):
     if not product.get('attributes'):
         return f"{product['id_product']}_no_variants"
     return f"{product['id_product']}_variant_{product['id_product_attribute']}"
-from protego import Protego
-from utils.get_main_categories import get_main_categories
-from utils.get_page_count import get_page_count
-from utils.get_product_details import get_variant_select, json_name, save_json
+
 
 log = logging.getLogger("scraper")
 
