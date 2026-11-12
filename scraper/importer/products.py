@@ -1,23 +1,24 @@
 import json
-from pathlib import Path
-import xml.etree.ElementTree as ET
-import unicodedata
 import re
+import unicodedata
+import xml.etree.ElementTree as ET
+from pathlib import Path
+
 from scraper.importer.api_client import PrestaShopAPI
-from scraper.importer.images import import_product_images
-from scraper.importer.combinations import import_combination
 from scraper.importer.attributes_mapping import load_mapping as load_attributes_mapping
+from scraper.importer.combinations import import_combination
+from scraper.importer.images import import_product_images
 from scraper.importer.products_mapping import (
-    load_mapping,
-    save_mapping,
+    add_product_mapping,
     get_product_mapping,
-    add_product_mapping
+    save_mapping,
 )
+from scraper.importer.stock import import_stock
 
 LANGUAGE_ID = 1
 
 # Konfiguracja importera
-SOURCE_PATH = "scraper/products"
+SOURCE_PATH = "scraper_results/products"
 MAPPING_PATH = "scraper/importer/products_mapping.json"
 
 
@@ -56,14 +57,14 @@ def load_products(source_path: str | Path = SOURCE_PATH) -> list[dict]:
                 product_data = json.load(file)
 
             if not isinstance(product_data, dict):
-                raise ValueError("Dane produktu nie są obiektem JSON.")
+                raise TypeError("Dane produktu nie są obiektem JSON.")
 
             products.append({
                 "data": product_data,
                 "source_file": str(file_path)
             })
 
-        except (json.JSONDecodeError, OSError, ValueError) as e:
+        except (json.JSONDecodeError, OSError, ValueError, TypeError) as e:
             print(f"Błąd odczytu pliku '{file_path}': {e}")
             rejected += 1
 
@@ -103,7 +104,7 @@ def normalize_product(product: dict) -> dict:
         "source_category_id": data.get("id_category_default"),
 
         # Dodatkowe informacje
-        "attributes": data.get("attributes", {}),
+        "attributes": data.get("attributes") or {},
         "features": data.get("features", []),
 
         # Zdjęcia produktu
@@ -134,24 +135,31 @@ def validate_product(product: dict) -> list[str]:
             errors.append(f"Brak wymaganego pola: {field}")
 
     # Sprawdzenie identyfikatora produktu
-    if product.get("source_id") is not None:
-        if not isinstance(product["source_id"], int) or product["source_id"] <= 0:
-            errors.append("Nieprawidłowy identyfikator produktu.")
+    if (
+        product.get("source_id") is not None
+        and (
+            not isinstance(product["source_id"], int)
+            or product["source_id"] <= 0
+        )
+    ):
+        errors.append("Nieprawidłowy identyfikator produktu.")
 
     # Sprawdzenie cen
     for field in ["price_gross", "price_net"]:
         value = product.get(field)
 
-        if value is not None:
-            if not isinstance(value, (int, float)) or value < 0:
-                errors.append(f"Nieprawidłowa wartość pola: {field}")
+        if value is not None and (
+            not isinstance(value, (int, float)) or value < 0
+        ):
+            errors.append(f"Nieprawidłowa wartość pola: {field}")
 
     # Sprawdzenie stawki VAT
     vat_rate = product.get("vat_rate")
 
-    if vat_rate is not None:
-        if not isinstance(vat_rate, (int, float)) or vat_rate < 0:
-            errors.append("Nieprawidłowa stawka VAT.")
+    if vat_rate is not None and (
+        not isinstance(vat_rate, (int, float)) or vat_rate < 0
+    ):
+        errors.append("Nieprawidłowa stawka VAT.")
 
     # Sprawdzenie struktury dodatkowych danych
     if not isinstance(product.get("attributes"), dict):
@@ -166,9 +174,12 @@ def validate_product(product: dict) -> list[str]:
     # Sprawdzenie stanu magazynowego
     quantity = product.get("quantity")
 
-    if quantity is not None:
-        if not isinstance(quantity, int) or isinstance(quantity, bool) or quantity < 0:
-            errors.append("Nieprawidłowa wartość stanu magazynowego.")
+    if quantity is not None and (
+        not isinstance(quantity, int)
+        or isinstance(quantity, bool)
+        or quantity < 0
+    ):
+        errors.append("Nieprawidłowa wartość stanu magazynowego.")
 
     return errors
 
@@ -212,6 +223,9 @@ def build_product_xml(
     
     if product_id is not None:
         ET.SubElement(product_element, "id").text = str(product_id)
+
+    # Techniczny, unikalny identyfikator źródła umożliwia odzyskanie mapowania.
+    ET.SubElement(product_element, "reference").text = f"SRC{product['source_id']}"
 
     # Nazwa produktu
     name = ET.SubElement(product_element, "name")
@@ -287,6 +301,29 @@ def update_product(
 
     api.put("products", product_id, product_xml)
     
+def find_existing_product_by_source_id(api: PrestaShopAPI, source_id: int) -> int | None:
+    """Odzyskuje ID produktu po technicznym reference ustawianym przez importer."""
+    reference = f"SRC{source_id}"
+    response = api.get(
+        "products",
+        params={
+            "filter[reference]": f"[{reference}]",
+            "display": "[id,reference]",
+            "limit": "0,10",
+        },
+    )
+    root = ET.fromstring(response)
+    matches = root.findall("./products/product")
+    if len(matches) > 1:
+        raise RuntimeError(
+            f"Więcej niż jeden produkt ma techniczny reference {reference}."
+        )
+    if not matches:
+        return None
+    value = matches[0].findtext("id")
+    return int(value) if value else None
+
+
 def import_product(
     api: PrestaShopAPI,
     product: dict,
@@ -302,6 +339,21 @@ def import_product(
 
     existing_product_id = get_product_id(product, mapping)
 
+    # Weryfikacja/odzyskanie ID, gdy lokalne mapowanie jest nieaktualne.
+    if existing_product_id is not None:
+        try:
+            api.get(f"products/{existing_product_id}")
+        except RuntimeError as exc:
+            if "404" not in str(exc):
+                raise
+            existing_product_id = find_existing_product_by_source_id(
+                api, product["source_id"]
+            )
+    else:
+        existing_product_id = find_existing_product_by_source_id(
+            api, product["source_id"]
+        )
+
     product_xml = build_product_xml(
         product,
         category_id,
@@ -311,36 +363,57 @@ def import_product(
 
     if existing_product_id is not None:
         product_id = existing_product_id
-
         update_product(api, product_id, product_xml)
-
+        mapping.setdefault(str(product["source_id"]), {})["prestashop_id"] = product_id
+        mapping[str(product["source_id"])].setdefault("combinations", {})
         operation = "updated"
-
     else:
         product_id = create_product(api, product_xml)
-
-        add_product_mapping(
-            mapping,
-            product["source_id"],
-            product_id
-        )
-
-        save_mapping(mapping)
-
+        add_product_mapping(mapping, product["source_id"], product_id)
         operation = "created"
 
-    # Import kombinacji produktu
+    save_mapping(mapping)
+    
+    # Import kombinacji produktu i ich stanów magazynowych
     attributes_mapping = load_attributes_mapping()
+    combinations = product.get("combinations", [])
 
-    for combination in product.get("combinations", []):
-        import_combination(
-            api,
-            product_id,
-            combination,
-            mapping,
-            attributes_mapping
-        )
-        
+    if not combinations:
+        # Produkt prosty
+        quantity = product.get("quantity")
+
+        if quantity is not None:
+            import_stock(
+                api,
+                product_id,
+                quantity
+            )
+
+    else:
+        # Produkt z wariantami
+        for combination in combinations:
+            result = import_combination(
+                api,
+                product_id,
+                combination,
+                mapping,
+                attributes_mapping
+            )
+
+            if result is None:
+                continue
+
+            combination_id, _combination_operation = result
+            quantity = combination.get("quantity")
+
+            if quantity is not None:
+                import_stock(
+                    api,
+                    product_id,
+                    quantity,
+                    combination_id
+                )
+
     created_images, skipped_images = import_product_images(
         api,
         product_id,
@@ -356,32 +429,37 @@ def import_product(
 
     return product_id, operation
 
-def group_products(products: list[dict]) -> list[dict]:
-    """
-    Grupuje rekordy według ID produktu źródłowego.
-
-    Usuwa powtórzone warianty na podstawie ich ID źródłowego.
-    """
-
+def group_products(products):
     grouped = {}
 
     for product in products:
         source_id = product["source_id"]
         attribute_id = product["source_attribute_id"]
+        attributes = product.get("attributes") or {}
 
         if source_id not in grouped:
             grouped[source_id] = {
                 **product,
+                "source_attribute_id": None,
+                "attributes": {},
+                "quantity": None,
                 "combinations": []
             }
 
-        if attribute_id not in (None, 0):
+        parent = grouped[source_id]
+
+        # Rekord wariantu z prawidłowymi atrybutami
+        if attribute_id not in (None, 0) and attributes:
             existing_ids = {
                 combination["source_attribute_id"]
-                for combination in grouped[source_id]["combinations"]
+                for combination in parent["combinations"]
             }
 
             if attribute_id not in existing_ids:
-                grouped[source_id]["combinations"].append(product)
+                parent["combinations"].append(product)
+
+        # Produkt prosty lub rekord bez możliwych do odtworzenia atrybutów
+        elif not attributes and not parent["combinations"]:
+            parent["quantity"] = product.get("quantity")
 
     return list(grouped.values())

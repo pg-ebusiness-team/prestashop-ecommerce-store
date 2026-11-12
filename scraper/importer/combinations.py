@@ -1,15 +1,8 @@
 import xml.etree.ElementTree as ET
 
-from scraper.importer.products_mapping import (
-    add_combination_mapping,
-    save_mapping as save_products_mapping
-)
-from scraper.importer.attributes_mapping import (
-    get_attribute_mapping
-)
-from scraper.importer.attributes_mapping import (
-    save_mapping as save_attributes_mapping
-)
+from scraper.importer.attributes_mapping import get_attribute_mapping
+from scraper.importer.products_mapping import add_combination_mapping
+from scraper.importer.products_mapping import save_mapping as save_products_mapping
 
 
 def get_prestashop_attribute_ids(
@@ -205,12 +198,20 @@ def update_combination(
     if new_combination is None:
         raise RuntimeError("Nieprawidłowy XML kombinacji.")
 
-    for field in ["ean13"]:
+    for field in ["ean13", "minimal_quantity"]:
         new_value = new_combination.find(field)
         old_value = existing.find(field)
 
         if new_value is not None and old_value is not None:
             old_value.text = new_value.text
+
+    # Aktualizuj także powiązane wartości atrybutów, jeśli źródło się zmieniło.
+    new_associations = new_combination.find("associations")
+    old_associations = existing.find("associations")
+    if new_associations is not None:
+        if old_associations is not None:
+            existing.remove(old_associations)
+        existing.append(new_associations)
 
     api.put(
         "combinations",
@@ -275,20 +276,22 @@ def import_combination(
     )
 
     if existing_id is not None:
-        update_combination(
-            api,
-            existing_id,
-            combination_xml
-        )
-
-        operation = "updated"
-
+        try:
+            update_combination(api, existing_id, combination_xml)
+            operation = "updated"
+        except RuntimeError as exc:
+            # Lokalne mapowanie mogło wskazywać usuniętą kombinację.
+            if "404" not in str(exc):
+                raise
+            existing_id = find_existing_combination(api, product_id, attribute_ids)
+            if existing_id is not None:
+                update_combination(api, existing_id, combination_xml)
+                operation = "updated"
+            else:
+                existing_id = create_combination(api, combination_xml)
+                operation = "created"
     else:
-        existing_id = create_combination(
-            api,
-            combination_xml
-        )
-
+        existing_id = create_combination(api, combination_xml)
         operation = "created"
 
     # Zapis mapowania kombinacji

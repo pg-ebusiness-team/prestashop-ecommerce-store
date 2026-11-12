@@ -1,65 +1,20 @@
-import mimetypes
-import xml.etree.ElementTree as ET
 
-import requests
+import os
+import xml.etree.ElementTree as ET
+from pathlib import Path
 
 from scraper.importer.products_mapping import save_mapping
 
 
-def get_image_url(image: dict) -> str | None:
-    """
-    Wybiera największą dostępną wersję zdjęcia.
-    """
-
-    sizes = image.get("bySize", {})
-
-    preferred_sizes = [
-        "large_default",
-        "thickbox_default",
-        "home_default",
-        "medium_default",
-        "small_default"
-    ]
-
-    for size in preferred_sizes:
-        image_data = sizes.get(size)
-
-        if image_data and image_data.get("url"):
-            return image_data["url"]
-
-    # Awaryjnie sprawdzamy pozostałe rozmiary
-    for image_data in sizes.values():
-        if isinstance(image_data, dict) and image_data.get("url"):
-            return image_data["url"]
-
-    return image.get("url")
+def _photos_path() -> Path:
+    configured = os.getenv("PS_PRODUCT_PHOTOS_DIR")
+    if configured:
+        return Path(configured)
+    candidates = (Path("scraper_results/product_photos"), Path("scraper/product_photos"))
+    return next((path for path in candidates if path.is_dir()), candidates[0])
 
 
-def download_image(url: str) -> tuple[bytes, str, str]:
-    """
-    Pobiera zdjęcie i zwraca jego zawartość,
-    nazwę pliku oraz typ MIME.
-    """
-
-    try:
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-
-    except requests.RequestException as error:
-        raise RuntimeError(
-            f"Nie udało się pobrać zdjęcia {url}: {error}"
-        )
-
-    content_type = response.headers.get(
-        "Content-Type",
-        "image/jpeg"
-    ).split(";")[0]
-
-    extension = mimetypes.guess_extension(content_type) or ".jpg"
-
-    filename = f"image{extension}"
-
-    return response.content, filename, content_type
+PHOTOS_PATH = _photos_path()
 
 
 def import_product_images(
@@ -69,10 +24,9 @@ def import_product_images(
     products_mapping: dict
 ) -> tuple[int, int]:
     """
-    Importuje zdjęcia produktu do PrestaShop.
+    Importuje lokalne zdjęcia produktu do PrestaShop.
 
-    Pomija zdjęcia, które zostały już zaimportowane.
-
+    Pomija zdjęcia już zaimportowane.
     Zwraca liczbę utworzonych i pominiętych zdjęć.
     """
 
@@ -86,38 +40,45 @@ def import_product_images(
         )
 
     product_mapping.setdefault("images", {})
-
     image_mapping = product_mapping["images"]
 
     created = 0
     skipped = 0
 
-    for image in product.get("images", []):
+    for image in (product.get("images") or []):
         source_image_id = image.get("id_image") or image.get("id")
 
-        image_url = get_image_url(image)
-
-        if not image_url:
+        if source_image_id is None:
             skipped += 1
             continue
 
-        # ID źródłowego zdjęcia jest podstawą mapowania.
-        # Jeżeli go brakuje, używamy URL jako klucza.
-        image_key = str(source_image_id or image_url)
+        image_key = str(source_image_id)
 
         if image_key in image_mapping:
             skipped += 1
             continue
 
-        image_data, filename, content_type = download_image(
-            image_url
+        image_path = (
+            PHOTOS_PATH
+            / source_id
+            / f"{source_image_id}.webp"
         )
+
+        if not image_path.is_file():
+            print(
+                f"Brak lokalnego zdjęcia produktu {source_id}: "
+                f"{image_path}"
+            )
+            skipped += 1
+            continue
+
+        image_data = image_path.read_bytes()
 
         response = api.post_image(
             product_id,
             image_data,
-            filename,
-            content_type
+            image_path.name,
+            "image/webp"
         )
 
         root = ET.fromstring(response)

@@ -6,7 +6,6 @@ from .attributes_mapping import (
     add_group_mapping,
     get_attribute_mapping,
     get_group_mapping,
-    load_mapping,
     save_mapping,
 )
 
@@ -152,16 +151,23 @@ def import_attribute_group(
     Zwraca ID grupy w PrestaShop.
     """
 
-    # 1. Sprawdzenie lokalnego mapowania
+    # 1. Sprawdzenie lokalnego mapowania i czy wskazany zasób nadal istnieje.
     existing_mapping = get_group_mapping(mapping, source_group_id)
-
+    prestashop_id = None
     if existing_mapping is not None:
-        return existing_mapping["prestashop_id"]
+        candidate_id = int(existing_mapping["prestashop_id"])
+        try:
+            api.get(f"product_options/{candidate_id}")
+            prestashop_id = candidate_id
+        except RuntimeError as exc:
+            if "404" not in str(exc):
+                raise
 
-    # 2. Wyszukanie grupy w PrestaShop
-    prestashop_id = find_existing_group(api, name)
+    # 2. Odzyskanie po nazwie, gdy mapowanie jest puste lub nieaktualne.
+    if prestashop_id is None:
+        prestashop_id = find_existing_group(api, name)
 
-    # 3. Utworzenie grupy, jeśli nie istnieje
+    # 3. Utworzenie grupy, jeśli nie istnieje.
     if prestashop_id is None:
         prestashop_id = create_attribute_group(api, name)
 
@@ -274,23 +280,27 @@ def import_attribute_value(
     Zwraca ID wartości w PrestaShop.
     """
 
-    # 1. Sprawdzenie lokalnego mapowania
-    existing_mapping = get_attribute_mapping(
-        mapping,
-        source_attribute_id
-    )
-
+    # 1. Sprawdzenie lokalnego mapowania i istnienia zasobu.
+    existing_mapping = get_attribute_mapping(mapping, source_attribute_id)
+    prestashop_id = None
     if existing_mapping is not None:
-        return existing_mapping["prestashop_id"]
+        candidate_id = int(existing_mapping["prestashop_id"])
+        try:
+            api.get(f"product_option_values/{candidate_id}")
+            prestashop_id = candidate_id
+        except RuntimeError as exc:
+            if "404" not in str(exc):
+                raise
 
-    # 2. Wyszukanie wartości w PrestaShop
-    prestashop_id = find_existing_attribute(
-        api,
-        name,
-        prestashop_group_id
-    )
+    # 2. Odzyskanie wartości po nazwie i grupie.
+    if prestashop_id is None:
+        prestashop_id = find_existing_attribute(
+            api,
+            name,
+            prestashop_group_id
+        )
 
-    # 3. Utworzenie wartości, jeśli nie istnieje
+    # 3. Utworzenie wartości, jeśli nie istnieje.
     if prestashop_id is None:
         prestashop_id = create_attribute_value(
             api,
