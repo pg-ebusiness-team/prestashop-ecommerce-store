@@ -3,5 +3,6 @@
 useDefault = true
 
 [[allowlists]]
-description = "Scraper test fixtures - public pages saved from the source shop (e.g. reCAPTCHA site keys, which are public by design)"
-paths = ['''^scraper/fixtures/''']
+description = "Scraper test fixtures - public pages saved from the source shop (e.g. reCAPTCHA site keys, which are public by design), only on one specific commit"
+#paths = ['''^scraper/fixtures/''']
+commits = ["03d437756f61c8858622a26ff380e412a05242bc"]
