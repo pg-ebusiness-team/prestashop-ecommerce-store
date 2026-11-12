@@ -68,7 +68,7 @@ Następnie włącz motyw sklepu:
 make theme
 ```
 
-Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera i bloku tekstowego zostaną nadpisane wersją z repo.
+Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo), treści stron CMS (Dostawa, Polityka prywatności, Regulamin, O nas, Płatności) z plików HTML w `shop/cms/` (metadane w `deploy/init/cms.sql`) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera, bloku tekstowego i stron CMS zostaną nadpisane wersją z repo.
 
 ### 5. Sprawdź status kontenerów
 
@@ -108,6 +108,23 @@ Dodatkowe informacje:
 - Interfejs Mailpit działa po HTTP. To narzędzie deweloperskie, a wymóg HTTPS dotyczy sklepu.
 - Wiadomości nie są zapisywane trwale (brak wolumenu), więc znikają po usunięciu kontenera, np. po `make down`.
 - Sklep jest skonfigurowany do wysyłki przez Mailpit automatycznie przy każdym starcie kontenera `shop`. Nie trzeba w tym celu uruchamiać `make init` ani ustawiać niczego w panelu administratora.
+
+## Płatności i dostawa
+
+Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontenera `shop` — nie trzeba niczego klikać w panelu ani uruchamiać dodatkowych komend. Robi to `shop/init-scripts/20-configure-sales.sh`, który wywołuje `shop/scripts/configure-sales.php` (uzasadnienie: `docs/adr/0003-konfiguracja-sprzedazy.md`).
+
+- **Metody płatności:** przelew tradycyjny (`ps_wirepayment`, fikcyjne dane konta) i płatność przy odbiorze (`ps_cashondelivery`). Płatność czekiem (`ps_checkpayment`), instalowana domyślnie, jest odinstalowywana.
+- **Przewoźnicy:** „Przesyłka kurierska” (19,99 zł) i „Przesyłka kurierska ekspresowa” (29,99 zł), ceny brutto z 23% VAT, dostawa tylko na terenie Polski. Przewoźnicy z instalatora i danych demo („Click and collect”, „My carrier” itd.) są wyłączani. Nazwy i ceny zmienia się w tablicy `CARRIERS`, a potem trzeba też poprawić stronę CMS `shop/cms/1-dostawa.html`.
+- **Faktura:** zamówienie za pobraniem dostaje fakturę już przy złożeniu — klient może ją pobrać z „Historii zamówień”.
+- **Kraje:** aktywna jest tylko Polska — w adresie nie da się wybrać innego kraju. Pozostałe kraje (np. USA i Francja z danych demo) są wyłączane.
+- **Darmowa dostawa:** od 2000 zł brutto (włącznie), liczone od wartości produktów po rabatach, bez kosztu dostawy.
+- **Limit wagi:** zamówienie cięższe niż 50 kg nie ma dostępnego przewoźnika, więc nie da się go złożyć. Zamówienie ważące dokładnie 50 kg przechodzi. W kroku „Dostawa” klient widzi wtedy komunikat o przekroczonej wadze z linkiem do strony „Dostawa” (szablon `checkout/_partials/steps/shipping.tpl` w motywie potomnym).
+
+Próg darmowej dostawy i limit wagi ustawia się w `deploy/compose.yaml` (zmienne `FREE_SHIPPING_THRESHOLD` i `MAX_ORDER_WEIGHT_KG` usługi `shop`). Po zmianie wystarczy `make up` — kontener uruchomi się ponownie z nowymi wartościami. Pamiętaj też o treści strony CMS `shop/cms/1-dostawa.html`.
+
+Zmiany tych ustawień w panelu administratora zostaną nadpisane przy kolejnym starcie kontenera. Trwałą zmianę wprowadzamy w `shop/scripts/configure-sales.php`, a potem `make up` (przebudowa obrazu).
+
+W logach (`make logs SERVICE=shop`) przy starcie pojawiają się linie `20-configure-sales: ...`, zakończone `konfiguracja sprzedazy zakonczona`. Linia `20-configure-sales: BLAD: ...` oznacza, że konfiguracja się nie udała — wtedy kontener `shop` celowo się zatrzymuje (widać to w `make ps`), żeby sklep nie działał z ustawieniami niezgodnymi z wymaganiami. Przyczyna jest w linii z `BLAD` powyżej.
 
 ## Wygląd sklepu (motyw potomny)
 

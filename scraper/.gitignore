@@ -1,0 +1,12 @@
+# venv
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# old debug output (results go to scraper_results/, ignored in the root .gitignore)
+jsons/
+
+# test python files
+temp.py

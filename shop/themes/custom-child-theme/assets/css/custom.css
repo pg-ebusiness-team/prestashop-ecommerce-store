@@ -1825,6 +1825,22 @@ body#checkout section.checkout-step .address-item.selected,
   color: var(--color-muted);
 }
 
+.footer-cookie-settings {
+  position: absolute;
+  right: 15px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: .8125rem;
+  color: var(--color-muted);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-cookie-settings:hover {
+  color: var(--color-graphite);
+}
+
 @media (max-width: 991px) {
   .footer-main {
     grid-template-columns: 1fr 1fr;
@@ -1847,7 +1863,144 @@ body#checkout section.checkout-step .address-item.selected,
     padding: 1rem 15px;
   }
 
-  .footer-bottom .block-social {
+  .footer-bottom .block-social,
+  .footer-cookie-settings {
     position: static;
+  }
+}
+
+/* Baner cookies (FRONT-4, wzór: docs/cookies.png): biały panel na środku ekranu, przyciemnione tło */
+.cookie-banner {
+  width: calc(100% - 2rem);
+  max-width: 62rem;
+  margin: auto;
+  padding: 1.25rem 1.25rem 1.5rem;
+  border: 0;
+  border-radius: 4px;
+  color: var(--color-black);
+  font-size: .8125rem;
+  line-height: 1.45;
+  letter-spacing: 0;
+}
+
+.cookie-banner::backdrop {
+  background: rgba(0, 0, 0, .55);
+}
+
+.cookie-banner-title {
+  margin: 0 0 .75rem;
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+/* Fokus startowy na tytule (autofocus), żeby czytnik ekranu zaczął od początku komunikatu - bez ramki */
+.cookie-banner-title:focus {
+  outline: none;
+}
+
+.cookie-banner-text {
+  margin: 0;
+  color: var(--color-black);
+}
+
+.cookie-banner-text a {
+  color: var(--color-black);
+  text-decoration: underline;
+}
+
+.cookie-banner-settings {
+  margin: 1rem 0 0;
+}
+
+.cookie-banner-legend {
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.cookie-banner-settings label {
+  display: flex;
+  gap: .5rem;
+  align-items: baseline;
+  margin: 0 0 .25rem;
+  text-align: left; /* Classic wyrównuje label do prawej */
+  color: var(--color-black);
+}
+
+.cookie-banner-settings input {
+  flex-shrink: 0;
+}
+
+.cookie-banner-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin-top: 2.5rem;
+}
+
+.cookie-btn {
+  flex: 1 1 auto;
+  min-height: 3.5rem;
+  padding: .5rem 2rem;
+  border: 0;
+  border-radius: 2px;
+  font-family: var(--font-body);
+  font-size: .875rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.cookie-btn-settings {
+  flex-grow: 0;
+  margin-right: auto;
+  background: #ddd;
+  color: var(--color-graphite);
+}
+
+.cookie-btn-save,
+.cookie-btn-necessary {
+  background: var(--color-grey-200);
+}
+
+.cookie-btn-all {
+  background: var(--color-brand-100);
+  color: var(--color-graphite);
+}
+
+.cookie-btn:hover {
+  filter: brightness(.95);
+}
+
+.cookie-btn:focus-visible,
+.cookie-banner-text a:focus-visible {
+  outline: 2px solid var(--color-black);
+  outline-offset: 2px;
+}
+
+/* Okno 18+ (age-gate.tpl) - styl banera cookies, węższe */
+.age-gate {
+  max-width: 40rem;
+}
+
+.age-gate-denied {
+  margin: 1rem 0 0;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+@media (min-width: 768px) {
+  .cookie-btn-settings {
+    margin-right: 7.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .cookie-btn {
+    flex-basis: 100%;
   }
 }
