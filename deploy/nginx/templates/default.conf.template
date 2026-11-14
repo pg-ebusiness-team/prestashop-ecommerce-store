@@ -22,7 +22,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
         proxy_set_header X-Forwarded-Port  ${HTTPS_PORT};
 
-        # Apache (mod_dir) dopisuje "/" do katalogów przekierowaniem zbudowanym z Host i schematu http; przepisz na https
+        # Apache (mod_dir) dopisuje "/" do katalogów przekierowaniem zbudowanym z Host i schematu http; przepisz na https w celu uniknięcia błędu 400 nginx (patrz Docker_Docs.md)
         proxy_redirect http://$http_host/ https://$http_host/;
     }
 }
