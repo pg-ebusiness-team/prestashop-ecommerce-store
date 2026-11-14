@@ -135,6 +135,18 @@ Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-chil
 
 Motyw jest kopiowany do obrazu, więc po każdej zmianie w jego plikach wykonaj `make up` (przebudowa obrazu, dane zostają) i `make theme` (czyści cache).
 
+## Testy E2E (Playwright)
+
+Wymagany Node.js 18+. Przy uruchomionym sklepie wykonaj:
+
+```bash
+make test-e2e
+```
+
+Polecenie instaluje zależności i przeglądarkę Chromium, a następnie uruchamia testy z katalogu `tests/e2e/` na adresie `https://localhost:${HTTPS_PORT}`. Inny adres sklepu podasz przez `make test-e2e SHOP_URL=https://adres`.
+
+Raport HTML zapisuje się w `tests/playwright-report/` (podgląd: `cd tests && npx playwright show-report`), a zrzuty ekranu nieudanych testów w `tests/test-results/`.
+
 ## Rozwiązywanie problemów
 
 ### Zmienne środowiskowe nie są ustawione
