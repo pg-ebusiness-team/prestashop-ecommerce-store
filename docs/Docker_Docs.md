@@ -151,6 +151,7 @@ Konfiguracja znajduje się w pliku `deploy/nginx/templates/default.conf.template
 Konfiguracja zawiera dwa bloki:
 - port 80 - `return 301` na `https://${SERVER_NAME}:${HTTPS_PORT}$request_uri`. Adres docelowy nie zależy od nagłówka `Host` wysłanego przez klienta, więc nie ma ryzyka open redirectu. Użycie `$request_uri` zachowuje ścieżkę i parametry zapytania.
 - port 443 - TLS oraz `proxy_pass` do `shop:80` z nagłówkami `Host` (razem z portem), `X-Real-IP`, `X-Forwarded-For`, `X-Forwarded-Proto` i `X-Forwarded-Port`. Dzięki `X-Forwarded-Proto` PrestaShop rozpoznaje, że klient połączył się przez HTTPS.
+  - `proxy_redirect http://$http_host/ https://$http_host/` - Apache w kontenerze `shop` (moduł `mod_dir`, `DirectorySlash`) odpowiada na adres katalogu bez końcowego `/` (np. `/<ADMIN_FOLDER>`, `/modules`) przekierowaniem 301. Adres w nagłówku `Location` składa z nagłówka `Host` i własnego schematu `http`, bo `X-Forwarded-Proto` odczytuje tylko PrestaShop, a nie Apache. Bez tej dyrektywy przeglądarka trafiałaby na `http://<host>:<HTTPS_PORT>/...`, czyli HTTP na porcie TLS (błąd 400 nginx). Przepisywane są tylko przekierowania na własny host sklepu, adresy zewnętrzne zostają bez zmian.
 
 #### Certyfikat
 
