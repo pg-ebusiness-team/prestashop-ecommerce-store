@@ -6,7 +6,7 @@ COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check theme
+.PHONY: help up down reset logs ps shell build init api-check theme test-e2e
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -19,6 +19,7 @@ help:
 	@echo "make init    - wlacz Webservice API i zarejestruj klucz PS_API_KEY"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
+	@echo "make test-e2e - uruchom testy E2E Playwright (raport: tests/playwright-report)"
 
 
 up:
@@ -78,3 +79,7 @@ theme:
 	  cat deploy/init/cms.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
 	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
+
+# Testy E2E: instalacja zależności i Chromium, potem testy na adresie SHOP_URL
+test-e2e:
+	cd tests && npm ci && npx playwright install chromium && BASE_URL=$(SHOP_URL) npm run test:e2e

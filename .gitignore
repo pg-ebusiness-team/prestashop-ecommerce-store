@@ -38,6 +38,10 @@ scraper-results/images/
 # Raporty Playwright
 test-results/
 playwright-report/
+blob-report/
+# Zapisane sesje logowania (ciasteczka) - nie commitować
+**/playwright/.auth/
+**/playwright/.cache/
 
 # Lokalne mapowanie ID kategorii PrestaShop
 scraper/importer/categories_mapping.json
