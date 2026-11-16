@@ -61,6 +61,27 @@ class PrestaShopAPI:
             data=xml_data.encode("utf-8"),
             headers={"Content-Type": "application/xml; charset=utf-8"}
         )
+        
+    def post_image(
+        self,
+        product_id: int,
+        image_data: bytes,
+        filename: str,
+        content_type: str = "image/jpeg"
+    ):
+        url = self.base_url + f"images/products/{product_id}"
+
+        return self._send_request(
+            "POST",
+            url,
+            files={
+                "image": (
+                    filename,
+                    image_data,
+                    content_type
+                )
+            }
+        )
 
 
     def put(self, resource: str, resource_id: int, xml_data: str):

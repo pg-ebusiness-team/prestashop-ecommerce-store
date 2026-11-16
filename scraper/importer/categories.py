@@ -10,7 +10,7 @@ from .categories_mapping import (
 )
 
 # Konfiguracja importera
-SOURCE_PATH = "scraper/kategorie_poprawiony.json"
+SOURCE_PATH = "scraper_results/debug/categories.json"
 MAPPING_PATH = "scraper/importer/categories_mapping.json"
 
 SHOP_URL = os.getenv(
@@ -18,9 +18,6 @@ SHOP_URL = os.getenv(
     f"https://localhost:{os.getenv('HTTPS_PORT', '8443')}"
 )
 API_KEY = os.getenv("PS_API_KEY")
-
-if not API_KEY:
-    raise RuntimeError("Brak klucza API. Ustaw PS_API_KEY w pliku .env.")
 
 LANGUAGE_ID = 1
 ROOT_CATEGORY_ID = 2
@@ -169,6 +166,9 @@ def update_category(api: PrestaShopAPI, mapping: list, name: str, url: str, root
     return prestashop_id
 
 def import_categories():
+
+    if not API_KEY:
+        raise RuntimeError("Brak klucza API. Ustaw PS_API_KEY w pliku .env.")
 
     api = PrestaShopAPI(SHOP_URL, API_KEY)
 
