@@ -133,7 +133,9 @@ def test_parse_product_lowest_price_30d(product_ajax):
     discounted = parse_product_ajax(read_fixture("product_ajax_discount_response.json"))
 
     assert discounted["lowest_price_30d"] == "119,00\xa0zł"
+    assert discounted["lowest_price_30d_amount"] == 119.0
     assert product_ajax["lowest_price_30d"] is None
+    assert product_ajax["lowest_price_30d_amount"] is None
 
 
 def test_parse_product_description(product_ajax):

@@ -88,7 +88,7 @@ scraper_results/
 - Zdjęcie główne bierz z `cover` — jest ustawione dla produktu, a nie dla wariantu.
 - Pole `id_image` na najwyższym poziomie JSON-a (`pl-default`) to obrazek zastępczy — pomiń.
 - Cena: `price_amount` (liczba) lub `price` (tekst z twardą spacją przed `zł`).
-- Najniższa cena z 30 dni (Omnibus): `lowest_price_30d` (tekst jak `price`), `null` gdy sklep jej nie pokazuje (produkt bez promocji).
+- Najniższa cena z 30 dni (Omnibus): `lowest_price_30d_amount` (liczba) lub `lowest_price_30d` (tekst jak `price`); oba `null`, gdy sklep jej nie pokazuje (produkt bez promocji).
 
 ## Testy i linter
 

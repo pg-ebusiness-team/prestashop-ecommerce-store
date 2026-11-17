@@ -83,7 +83,10 @@ def parse_product_ajax(response_text) -> dict:
 
     # Omnibus price is only in the rendered prices block, not in data-product
     lowest = _soup(data.get("product_prices", "")).select_one(".presta-studio-price-history-price")
-    product["lowest_price_30d"] = lowest.get_text(strip=True) if lowest else None
+    text = lowest.get_text(strip=True) if lowest else None
+    product["lowest_price_30d"] = text
+    # "1 119,00 zł" -> 1119.0
+    product["lowest_price_30d_amount"] = float(re.sub(r"[^\d,]", "", text).replace(",", ".")) if text else None
 
     return product
 
