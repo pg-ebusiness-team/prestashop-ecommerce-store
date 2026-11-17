@@ -79,7 +79,13 @@ def parse_product_ajax(response_text) -> dict:
     if not match:
         raise ValueError("No data-product in AJAX response")
 
-    return json.loads(html.unescape(match.group(1)))
+    product = json.loads(html.unescape(match.group(1)))
+
+    # Omnibus price is only in the rendered prices block, not in data-product
+    lowest = _soup(data.get("product_prices", "")).select_one(".presta-studio-price-history-price")
+    product["lowest_price_30d"] = lowest.get_text(strip=True) if lowest else None
+
+    return product
 
 
 def parse_product_id(product_url) -> str:
