@@ -1,0 +1,335 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8437013863018",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-26",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-26 11:12:40",
+  "date_upd": "2025-05-17 14:39:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Alkkemist",
+  "link_rewrite": "gin-alkkemist",
+  "name": "GIN Alkkemist",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Alkkemist \r\nGin to trunek klasy ultra-premium, destylowany wyłącznie podczas pełni księżyca \r\n- dokładnie 12 razy w roku. To rzemieślniczy projekt inspirowany duchem \r\nnowoczesnego alchemika, miłośnika ginu i śródziemnomorskiego wybrzeża. Bazą ginu \r\njest trzykrotnie destylowany spirytus zbożowy, wzbogacony o unikalną kompozycję \r\n21 starannie dobranych botanicznych składników. Alkkemist jako pierwszy na \r\nświecie wykorzystuje muskatowe winogrona pochodzące z wyselekcjonowanych \r\nśródziemnomorskich odmian - to one nadają mu wyjątkowy aromat i charakter. Zaraz \r\npo otwarciu butelki gin zaskakuje bogactwem zapachów. W aromacie wyczuwalne są \r\nnuty mentolu, przypraw, sosny, anyżu, goździków, suszonej cytrusowej skórki, a \r\ntakże delikatny kwiatowy akcent róż i winogron. W smaku gin jest lekki, \r\nniezwykle gładki i przyjemny - bez typowego dla mocnych alkoholi uczucia \r\npieczenia. Na podniebieniu początkowo dominują cytrusy, które płynnie przechodzą \r\nw kremową słodycz muskatowych winogron i truskawek. Z czasem pojawiają się \r\nbotaniczne niuanse mięty i przypraw, a wszystko wieńczy wytrawny, lekko pikantny \r\nfinisz z wyraźnym akcentem anyżu i papryki. Mimo złożonego profilu smakowego, \r\nwszystkie składniki są doskonale zharmonizowane - żaden nie dominuje, co \r\nsprawia, że gin jest perfekcyjnie zbalansowany i niezwykle przyjemny w \r\ndegustacji. Profil smakowy: winogrona muszkatołowe, skórka pomarańczy i cytryny, \r\njałowiec, lawenda, truskawka, melisa, mięta, koper morski, cytrynowa werbena, \r\nrumianek, niecierpek, kolendra, kardamon, arcydzięgiel, tymianek. Sposób \r\nserwowania: Alkkemist Gin świetnie sprawdza się zarówno w klasycznym negroni, \r\njak i eleganckim martini. Doskonale smakuje także w odświeżającym gin &amp; \r\ntonic - szczególnie w połączeniu z wysokiej jakości tonikiem typu Indian lub \r\nMediterranean. Najlepiej podawać go w kieliszku do wina, wypełnionym lodem i \r\nudekorowanym plasterkami truskawek. Dodatkowo warto dodać suszoną skórkę cytryny \r\nlub płatki róży dla podkreślenia aromatu.</SPAN></P>\r\n",
+  "description_short": "<p>Alkkemist Gin to trunek klasy ultra-premium, destylowany wyłącznie podczas pełni księżyca - dokładnie 12 razy w roku. To rzemieślniczy projekt inspirowany duchem nowoczesnego alchemika, miłośnika ginu i śródziemnomorskiego wybrzeża.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 279,
+  "id_product": 279,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/279-gin-alkkemist-8437013863018",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 242,
+      "legend": "GIN Alkkemist",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/242-small_default/gin-alkkemist.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/242-small_default/gin-alkkemist.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/242-medium_default/gin-alkkemist.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/242-medium_default/gin-alkkemist.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 243,
+      "legend": "GIN Alkkemist",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/243-cart_default/gin-alkkemist.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/243-cart_default/gin-alkkemist.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/243-small_default/gin-alkkemist.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/243-small_default/gin-alkkemist.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/243-home_default/gin-alkkemist.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/243-home_default/gin-alkkemist.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/243-medium_default/gin-alkkemist.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/243-medium_default/gin-alkkemist.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/243-large_default/gin-alkkemist.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/243-large_default/gin-alkkemist.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/243-cart_default/gin-alkkemist.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/243-cart_default/gin-alkkemist.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/243-home_default/gin-alkkemist.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/243-home_default/gin-alkkemist.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/243-large_default/gin-alkkemist.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/243-large_default/gin-alkkemist.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 242,
+    "legend": "GIN Alkkemist",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/242-small_default/gin-alkkemist.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-small_default/gin-alkkemist.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/242-medium_default/gin-alkkemist.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-medium_default/gin-alkkemist.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/242-cart_default/gin-alkkemist.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/242-home_default/gin-alkkemist.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/242-large_default/gin-alkkemist.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

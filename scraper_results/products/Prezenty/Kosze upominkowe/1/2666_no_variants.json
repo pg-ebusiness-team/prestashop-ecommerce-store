@@ -1,0 +1,247 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "360,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-26 21:48:55",
+  "date_upd": "2026-06-03 00:02:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy",
+  "name": "Ekskluzywne pudełko prezentowe ze wstążką – Zestaw bezalkoholowy",
+  "description": "<ul class=\"product-list\">\n<li>Eleganckie pudełko prezentowe ze wstążką bez alkoholu</li>\n<li>Marlona pralinki migdałowe z kawą w ciemnej czekoladzie 80g</li>\n<li>Duńskie ciasteczka w puszce 150g</li>\n<li>Herbata Bożonarodzeniowa 100g</li>\n<li>Włoskie makaroniki 90g</li>\n<li>Novi czekolada z orzechami 130g</li>\n<li>Kawa migdały w wiśniówce 100g</li>\n<li>Mathez francuskie trufle 50g</li>\n<li>Choinka z białej czekolady z owocami 65g</li>\n<li>Pralinki włoskie 130g</li>\n<li>Dodatki</li>\n<li>Konfekcjonowanie</li>\n</ul>\n<p style=\"margin-top:0px;margin-bottom:20px;font-family:Lato;font-size:18px;line-height:20px;letter-spacing:0px;color:#121212;background-color:#ffffff;\"><span style=\"font-weight:600;color:#414141;\">Szanowni Państwo,</span></p>\n<p style=\"margin-top:0px;margin-bottom:20px;font-family:Lato;font-size:18px;line-height:20px;letter-spacing:0px;color:#121212;background-color:#ffffff;\"><span style=\"font-weight:600;color:#414141;\">uprzejmie informujemy, że zdjęcia mają charakter poglądowy. Zastrzegamy sobie prawo do modyfikacji asortymentu w zależności od jego dostępności. Dziękujemy za wyrozumiałość!</span></p>",
+  "description_short": "<p>Ekskluzywne pudełko prezentowe ze wstążką – zestaw bezalkoholowy Podaruj bliskim wyjątkowy prezent w eleganckiej oprawie! Nasze ekskluzywne pudełko prezentowe ze wstążką – zestaw bezalkoholowy to doskonała propozycja dla osób, które cenią wykwintne smaki bez alkoholu. W zestawie znajdują się starannie dobrane produkty premium – kawa, herbata, słodycze, delikatesy – zamknięte w stylowym pudełku ozdobionym wstążką. To idealny prezent na święta, urodziny, jubileusz czy podziękowania biznesowe. Zestaw bezalkoholowy łączy klasę, elegancję i wyjątkowy charakter, dzięki czemu sprawdzi się w każdej sytuacji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2666,
+  "id_product": 2666,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/2666-ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 292.682927,
+  "price_without_reduction": 360,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 80,
+  "quantity_all_versions": 80,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3726,
+      "legend": "Ekskluzywne pudełko prezentowe ze wstążką – Zestaw bezalkoholowy",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3726-small_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3726-small_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3726-medium_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3726-medium_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3726,
+    "legend": "Ekskluzywne pudełko prezentowe ze wstążką – Zestaw bezalkoholowy",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3726-small_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-small_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3726-medium_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-medium_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3726-cart_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3726-home_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3726-large_default/ekskluzywne-pudelko-prezentowe-ze-wstazka-zestaw-bezalkoholowy.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 360,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

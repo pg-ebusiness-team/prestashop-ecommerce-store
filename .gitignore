@@ -8,9 +8,6 @@
 # intellij
 .idea/
 
-# scraper results
-scraper_results/
-
 *.cert
 *.crt
 .vscode/
@@ -32,8 +29,8 @@ logs/
 uploads/
 upload/
 
-# Pełny zbiór zdjęć ze scrapera — publikowany w Releases, nie w repo
-scraper-results/images/
+# Wyniki scrapera: dane JSON w repo, pełny zbiór zdjęć w Releases
+scraper_results/product_photos/
 
 # Raporty Playwright
 test-results/

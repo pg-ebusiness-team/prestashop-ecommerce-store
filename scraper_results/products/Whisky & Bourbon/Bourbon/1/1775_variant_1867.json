@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "096749021246",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 10,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1867,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-13 23:48:03",
+  "date_upd": "2026-08-03 11:50:50",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "bourbon-evan-williams-43-1l",
+  "name": "BOURBON Evan Williams 43% 1l",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Burbon Evan Williams odznacza się wyrazistym smakiem i jest solidnie wykonany. Jego nazwa upamiętnia Evana Williamsa, pioniera, który w 1783 roku założył pierwszą destylarnię w Kentucky, tuż nad brzegiem rzeki Ohio. Proces dojrzewania tego burbona jest znacznie dłuższy, niż nakazują przepisy prawne. Dzięki temu otrzymujemy trunek o łagodnym, pełnym i przyjemnym smaku. Barwa przypominająca bursztyn. Delikatny aromat z wyraźnymi nutami wanilii i mięty. W smaku wyczuwalne akcenty dębiny, brązowego cukru i słodkiego karmelu. Utrzymuje się na podniebieniu przez średnio długi czas.</span></p>",
+  "description_short": "<p>Burbon Evan Williams odznacza się wyrazistym smakiem i jest solidnie wykonany.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1775,
+  "id_product": 1775,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1867,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "alkohole",
+  "category_name": "Alkohole",
+  "link": "https://luksusowealkohole.pl/alkohole/1775-bourbon-evan-williams-43-1l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "096749021246",
+      "ean13": "096749021246",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2425,
+      "legend": "BOURBON Evan Williams 43% 1l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2425-small_default/bourbon-evan-williams-43-1l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2425-small_default/bourbon-evan-williams-43-1l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2425-medium_default/bourbon-evan-williams-43-1l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2425-medium_default/bourbon-evan-williams-43-1l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2425,
+    "legend": "BOURBON Evan Williams 43% 1l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2425-small_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-small_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2425-medium_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-medium_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2425-cart_default/bourbon-evan-williams-43-1l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2425-home_default/bourbon-evan-williams-43-1l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2425-large_default/bourbon-evan-williams-43-1l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

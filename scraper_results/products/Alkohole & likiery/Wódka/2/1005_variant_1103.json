@@ -1,0 +1,325 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 44,
+  "id_supplier": 0,
+  "reference": "5906124394511",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 97,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "290,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-09-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1103,
+  "advanced_stock_management": "0",
+  "date_add": "2024-09-04 12:03:10",
+  "date_upd": "2025-07-01 16:43:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Arcturus Premium",
+  "link_rewrite": "wodka-arcturus-premium",
+  "name": "WÓDKA Arcturus Premium",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wódka \r\nARCTURUS Premium dzięki procesowi wielokrotnej destylacji, odbywającej się w \r\nmiedzianych alembikach, staje się niezwykle czysta, delikatna w smaku, kusząca \r\naromatem tequili. Ta luksusowa wódka w pięknej szlifowanejkarafce to nie tylko \r\npołączenie najwyższych standardów w wyborze składników czy procesów produkcji. \r\nTo unikalny charakter, który wyraża sięw każdym łyku. ARCTURUS emanuje \r\nsubtelnymi aromatami i wyjątkową głębią, które definiują pojęcie Polska Wódka \r\nPremium. Wódka opakowana jest w piękne ekskluzywne etui.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>AROMAT \r\n:Nuty gorzkiej pomarańczy i orzecha</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>SMAK: \r\nSłodkich jabłek, żytniego chleba, pestek i białego</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>pieprzu</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>FINISZ \r\n:Długi, gładki i owocowy.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Czysta \r\ni schłodzona:</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wódka \r\nARCTURUS premium jest najlepsza w formie czystej o temperaturze pokojowej. Ale \r\nrównież możesz przechowywać butelkę w zamrażarce, a następnie podawać ją w \r\nschłodzonych kieliszkach. To podkreśli delikatność i klarowność smaku \r\nwódki.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Z \r\nlimonką lub cytryną:</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Podanie \r\nwódki z kawałkiem limonki lub cytryny może dodać odrobinę świeżości i \r\ncytrusowego akcentu. Możesz spróbować skręcić kawałek skórki cytrynowej nad \r\nkieliszkiem, aby uwolnić olejki eteryczne i wzbogacić \r\naromat.</SPAN></P>\r\n",
+  "description_short": "<p>Wódka ARCTURUS Premium dzięki procesowi wielokrotnej destylacji, odbywającej się w miedzianych alembikach, staje się niezwykle czysta, delikatna w smaku, kusząca aromatem tequili.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1005,
+  "id_product": 1005,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1103,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka-czysta",
+  "category_name": "Wódka czysta",
+  "link": "https://luksusowealkohole.pl/wodka-czysta/1005-wodka-arcturus-premium",
+  "manufacturer_name": "Arcturus",
+  "attribute_price": 0,
+  "price_tax_exc": 235.772344,
+  "price_without_reduction": 399,
+  "reduction": 109.000017,
+  "specific_prices": {
+    "id_specific_price": 96,
+    "id_specific_price_rule": 0,
+    "id_cart": 0,
+    "id_product": 1005,
+    "id_shop": 0,
+    "id_shop_group": 0,
+    "id_currency": 0,
+    "id_country": 0,
+    "id_group": 0,
+    "id_customer": 0,
+    "id_product_attribute": 1103,
+    "price": 324.390244,
+    "from_quantity": 1,
+    "reduction": "0.273183",
+    "reduction_tax": 1,
+    "reduction_type": "percentage",
+    "from": "0000-00-00 00:00:00",
+    "to": "0000-00-00 00:00:00",
+    "score": 32
+  },
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Żytnia",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 379
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Szczep",
+      "value": "Damaschino",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 512
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5906124394511",
+      "ean13": "5906124394511",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2842,
+      "legend": "WÓDKA Arcturus Premium",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2842-small_default/wodka-arcturus-premium.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2842-small_default/wodka-arcturus-premium.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2842-medium_default/wodka-arcturus-premium.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2842-medium_default/wodka-arcturus-premium.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2842,
+    "legend": "WÓDKA Arcturus Premium",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2842-small_default/wodka-arcturus-premium.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-small_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2842-medium_default/wodka-arcturus-premium.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-medium_default/wodka-arcturus-premium.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2842-cart_default/wodka-arcturus-premium.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2842-home_default/wodka-arcturus-premium.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2842-large_default/wodka-arcturus-premium.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": true,
+  "discount_type": "percentage",
+  "discount_percentage": "-27,32%",
+  "discount_percentage_absolute": "27,32%",
+  "discount_amount": "109,00 zł",
+  "discount_amount_to_display": "-109,00 zł",
+  "price_amount": 290,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

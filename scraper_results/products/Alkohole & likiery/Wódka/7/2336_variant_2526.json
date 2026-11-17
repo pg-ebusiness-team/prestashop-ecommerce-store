@@ -1,0 +1,302 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4750021000102",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "75,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2526,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-19 14:25:00",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Stolichnaya Premium",
+  "link_rewrite": "wodka-stolichnaya-premium",
+  "name": "WÓDKA Stolichnaya Premium",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Stolichnaya \r\nto marka z ponad 80-letnią historią, uznawana za jedną z dziesięciu najlepszych \r\nwódek na świecie. To właśnie Stoli® wprowadziła pierwszą na świecie komercyjną \r\nlinię bezbarwnych wódek smakowych, na zawsze zmieniając oblicze tego trunku. \r\nDziś Stolichnaya to synonim wódki premium, wyróżniającej się klasą i jakością, \r\nktórej trudno szukać u konkurencji. W latach 70. Stoli® przełamała bariery \r\nhandlowe między Wschodem a Zachodem, a jej oficjalnym dystrybutorem w USA była \r\nfirma PepsiCo. Marka może się też poszczycić tym, że była pierwszą wódką, która \r\ndotarła w kosmos. Dzięki uzyskaniu certyfikatu Alpha, Stolichnaya zmieniła \r\nstandardy jakości wódek, podnosząc poprzeczkę całej branży. Proces produkcji \r\nobejmuje filtrację przez węgiel drzewny oraz piasek kwarcowy, co nadaje wódce \r\nwyjątkową czystość i delikatność, czyniąc ją jednym z najbardziej wyrafinowanych \r\ntrunków na rynku.</SPAN></P>\r\n",
+  "description_short": "<p>Stolichnaya to marka z ponad 80-letnią historią, uznawana za jedną z dziesięciu najlepszych wódek na świecie. To właśnie Stoli® wprowadziła pierwszą na świecie komercyjną linię bezbarwnych wódek smakowych, na zawsze zmieniając oblicze tego trunku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2336,
+  "id_product": 2336,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2526,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2336-wodka-stolichnaya-premium",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 60.97561,
+  "price_without_reduction": 75,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Łotwa",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 430
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Żytnia",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 379
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Pszeniczna",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 399
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4750021003264",
+      "ean13": "4750021003264",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3299,
+      "legend": "WÓDKA Stolichnaya Premium",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3299-small_default/wodka-stolichnaya-premium.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3299-small_default/wodka-stolichnaya-premium.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3299-medium_default/wodka-stolichnaya-premium.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3299-medium_default/wodka-stolichnaya-premium.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "associatedVariants": [
+        2526
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3299,
+    "legend": "WÓDKA Stolichnaya Premium",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3299-small_default/wodka-stolichnaya-premium.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-small_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3299-medium_default/wodka-stolichnaya-premium.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-medium_default/wodka-stolichnaya-premium.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3299-cart_default/wodka-stolichnaya-premium.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3299-home_default/wodka-stolichnaya-premium.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3299-large_default/wodka-stolichnaya-premium.jpg"
+      }
+    },
+    "associatedVariants": [
+      2526
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 75,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

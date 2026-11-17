@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3352370013256",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 300,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2787,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-13 11:21:26",
+  "date_upd": "2025-09-13 15:22:40",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Pommery Brut Royal Cuvee Louise Vintage",
+  "link_rewrite": "champagne-pommery-brut-royal-cuvee-louise-vintage",
+  "name": "CHAMPAGNE Pommery Brut Royal Cuvee Louise Vintage",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Pommery \r\nChampagne Cuvée Louise Vintage Brut 2005 to wytrawny, rocznikowy szampan klasy \r\npremium, pochodzący z Francji, o zachwycającej, złocistej barwie i niezwykle \r\ndrobnych, delikatnych bąbelkach. Jego wyjątkowy charakter to efekt starannego \r\nprocesu produkcji oraz długiego dojrzewania w historycznych piwnicach domu \r\nszampańskiego Pommery. W nosie szampan urzeka eleganckim, złożonym bukietem - \r\nwyczuwalne są aromaty lipa, głóg i dojrzała brzoskwinia, przeplecione wyraźnymi \r\nnutami kwiatowymi i orzechowymi. Długie leżakowanie nadaje mu również subtelne \r\nmaślane akcenty, które wzbogacają jego głębię. Na podniebieniu Cuvée Louise 2005 \r\noferuje doskonałą harmonię smaków, w której mineralność łączy się z delikatną \r\nkremowością. Finisz jest długi, elegancki i wyraźnie cytrusowo-miodowy, \r\npozostawiając długie, przyjemne wrażenie. Stworzony jako hołd dla Louise \r\nPommery, ten szampan stanowi kwintesencję stylu i kunsztu winiarskiego domu \r\nPommery. Winogrona do jego produkcji pochodzą wyłącznie z trzech prestiżowych \r\nlokalizacji oznaczonych jako Grands Crus - Avize, Cramant i A&#255; - które uchodzą \r\nza prawdziwe perły regionu Szampanii. Cuvée Louise 2005 to szampan dla \r\nkoneserów, idealny na wyjątkowe okazje, oferujący zarówno klasyczną elegancję, \r\njak i nowoczesną finezję w jednym kieliszku.</SPAN></P>\r\n",
+  "description_short": "<p>Pommery Champagne Cuvée Louise Vintage Brut 2005 to wytrawny, rocznikowy szampan klasy premium, pochodzący z Francji, o zachwycającej, złocistej barwie i niezwykle drobnych, delikatnych bąbelkach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2570,
+  "id_product": 2570,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2787,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/2570-champagne-pommery-brut-royal-cuvee-louise-vintage",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 1056.910569,
+  "price_without_reduction": 1300,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3352370013256",
+      "ean13": "3352370013256",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3603,
+      "legend": "CHAMPAGNE Pommery Brut Royal Cuvee Louise Vintage",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3603-small_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3603-small_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3603-medium_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3603-medium_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3603,
+    "legend": "CHAMPAGNE Pommery Brut Royal Cuvee Louise Vintage",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3603-small_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-small_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3603-medium_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-medium_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3603-cart_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3603-home_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3603-large_default/champagne-pommery-brut-royal-cuvee-louise-vintage.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1300,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

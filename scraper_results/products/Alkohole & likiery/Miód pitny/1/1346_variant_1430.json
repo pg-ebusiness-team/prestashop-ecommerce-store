@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5901346111229",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 30,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "135,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-27",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1430,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-27 18:02:10",
+  "date_upd": "2025-06-28 12:03:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MIÓD PITNY Apis Jadwiga Półtorak Karafka",
+  "link_rewrite": "miod-pitny-apis-jadwiga-poltorak-karafka",
+  "name": "MIÓD PITNY Apis Jadwiga Półtorak Karafka",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Miód Pitny Półtorak Jadwiga jest miodem pitnym o wyrazistym, głębokim bukiecie smakowym. Produkowany z dodatkiem owoców maliny i dzikiej róży.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Miód Pitny Półtorak Jadwiga jest miodem pitnym o wyrazistym, głębokim bukiecie smakowym. Produkowany z dodatkiem owoców maliny i dzikiej róży.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1346,
+  "id_product": 1346,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1430,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "miod-pitny",
+  "category_name": "Miód pitny",
+  "link": "https://luksusowealkohole.pl/miod-pitny/1346-miod-pitny-apis-jadwiga-poltorak-karafka",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 109.756098,
+  "price_without_reduction": 135.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "16,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 235
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5901346111229",
+      "ean13": "5901346111229",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3071,
+      "legend": "MIÓD PITNY Apis Jadwiga Półtorak Karafka",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3071-small_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3071-small_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3071-medium_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3071-medium_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3071,
+    "legend": "MIÓD PITNY Apis Jadwiga Półtorak Karafka",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3071-small_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-small_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3071-medium_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-medium_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3071-cart_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3071-home_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3071-large_default/miod-pitny-apis-jadwiga-poltorak-karafka.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 135,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

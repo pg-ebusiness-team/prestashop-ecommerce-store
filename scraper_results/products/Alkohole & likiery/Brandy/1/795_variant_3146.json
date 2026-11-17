@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5202795120054",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 23,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "20,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-04-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 869,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-25 11:42:48",
+  "date_upd": "2024-07-25 11:42:48",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BRANDY Metaxa 5",
+  "link_rewrite": "brandy-metaxa-5",
+  "name": "BRANDY Metaxa 5",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Brandy \r\nMetaxa 5-letnia to Grecki trunek, posiada w sobie wszystko czym może poszczycić \r\nsię Grecja.&nbsp;Barwa złota jak popołudniowe słońce, kształt butelki w której\r\n zamknięta jest brandy przypomina nam Greckie kolumny.&nbsp;Historia Metaxy\r\n sięga 1888 roku kiedy to receptura brandy została opracowana przez Spirytosa\r\n Metaxasa. &nbsp;Jest to jeden z najbardziej popularnych trunków w Grecji.&nbsp;\r\n Metaxa posiada przyjemny na podniebieniu, słodki &nbsp;smak wanilii. Wszystko\r\n to zawdzięcza 3 odmianom winogron które tworzą tą brandy oraz płatkom róż które\r\n są dodawane do produkcji.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Odmiany \r\nz których tworzona jest brandy:</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Savatiano</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Sultanina</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Black \r\nCorinth. </SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Całość \r\nzamknieta na 5 lat w dębowych beczkach.&nbsp;Brandy Metaxa jest uzupełniana \r\nrównież słodkim, likierowym winem z wysp Samos oraz tajemniczym zestawieniem \r\nziół .</SPAN></P>\r\n",
+  "description_short": "<p>Brandy Metaxa 5-letnia to Grecki trunek, posiada w sobie wszystko czym może poszczycić się Grecja. Barwa złota jak popołudniowe słońce, kształt butelki w której zamknięta jest brandy przypomina nam Greckie kolumny.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 795,
+  "id_product": 795,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3146,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "brandy",
+  "category_name": "Brandy",
+  "link": "https://luksusowealkohole.pl/brandy/795-brandy-metaxa-5",
+  "manufacturer_name": null,
+  "attribute_price": -52.845528,
+  "price_tax_exc": 16.260163,
+  "price_without_reduction": 20,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 16,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Grecja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 26
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Wiek",
+      "value": "5 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 173
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "5202795120184",
+      "ean13": "5202795120184",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 978,
+      "legend": "BRANDY Metaxa 5",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/978-small_default/brandy-metaxa-5.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/978-small_default/brandy-metaxa-5.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/978-medium_default/brandy-metaxa-5.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/978-medium_default/brandy-metaxa-5.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 978,
+    "legend": "BRANDY Metaxa 5",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/978-small_default/brandy-metaxa-5.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-small_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/978-medium_default/brandy-metaxa-5.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-medium_default/brandy-metaxa-5.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/978-cart_default/brandy-metaxa-5.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/978-home_default/brandy-metaxa-5.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/978-large_default/brandy-metaxa-5.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 20,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,290 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902273816485",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "107,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2315,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-08 15:32:13",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Specjał Podlaski Palony",
+  "link_rewrite": "wodka-specjal-podlaski-palony",
+  "name": "WÓDKA Specjał Podlaski Palony",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Specjał \r\nPodlaski Palony to wyjątkowa polska wódka, która przenosi w świat głębokich \r\naromatów i tradycji Podlasia. Powstała z prażonych ziaren zbóż, stanowi \r\nautentyczny hołd dla dziedzictwa tego regionu, a jej charakter podkreśla nuta \r\npalonego karmelu - subtelna, lecz wyrazista. Aromat jest intensywny i złożony: \r\ndominują w nim nuty głęboko palonych zbóż, przełamane ciepłym, lekko słodkim \r\nakcentem karmelu. Zapach przywołuje obrazy tradycyjnych palenisk i domowego \r\nrzemiosła, wpisując się w klimat autentycznej podlaskiej historii. Na \r\npodniebieniu Specjał Palony prezentuje się zdecydowanie - smak jest mocny i \r\nbogaty, z wyraźnymi nutami prażonych ziaren, którym towarzyszy elegancka, \r\nkarmelowa słodycz. Całość tworzy zrównoważony, charakterystyczny profil, który \r\nwyróżnia się na tle klasycznych wódek. Finisz jest długi i zapadający w pamięć - \r\npozostawia przyjemne wrażenie palonych nut zbożowych i miękko rozwijającej się \r\nkarmelowej końcówki. To trunek, który nie tylko zachwyca smakiem, ale również \r\nopowiada historię - o regionie, jego tradycjach i pasji tworzenia. Specjał \r\nPodlaski Palony to idealny wybór dla osób poszukujących czegoś więcej niż tylko \r\nmocnego alkoholu - to propozycja z duszą, stworzona z szacunkiem do natury i \r\nlokalnych receptur.</SPAN></P>\r\n",
+  "description_short": "<p>Specjał Podlaski Palony to wyjątkowa polska wódka, która przenosi w świat głębokich aromatów i tradycji Podlasia.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2227,
+  "id_product": 2227,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2327,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2227-wodka-specjal-podlaski-palony",
+  "manufacturer_name": null,
+  "attribute_price": -39.02439,
+  "price_tax_exc": 86.99187,
+  "price_without_reduction": 107,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 9,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "50%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 251
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "SPECJAŁ PODLASKI",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3171,
+      "legend": "WÓDKA Specjał Podlaski Palony",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3171-small_default/wodka-specjal-podlaski-palony.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3171-small_default/wodka-specjal-podlaski-palony.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3171-medium_default/wodka-specjal-podlaski-palony.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3171-medium_default/wodka-specjal-podlaski-palony.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "associatedVariants": [
+        2315,
+        2327
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3171,
+    "legend": "WÓDKA Specjał Podlaski Palony",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3171-small_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-small_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3171-medium_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-medium_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3171-cart_default/wodka-specjal-podlaski-palony.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3171-home_default/wodka-specjal-podlaski-palony.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3171-large_default/wodka-specjal-podlaski-palony.jpg"
+      }
+    },
+    "associatedVariants": [
+      2315,
+      2327
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 107,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

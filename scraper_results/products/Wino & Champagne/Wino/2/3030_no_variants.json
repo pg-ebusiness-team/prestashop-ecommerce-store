@@ -1,0 +1,283 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8032638932004",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 82,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "60,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-15 09:22:43",
+  "date_upd": "2026-07-21 23:43:53",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "PROSECCO Borgo Molino  Motivo Rose Extra Dry",
+  "link_rewrite": "prosecco-borgo-molino-motivo-rose-extra-dry",
+  "name": "PROSECCO Borgo Molino  Motivo Rose Extra Dry",
+  "description": "Eleganckie różowe wino musujące z Veneto, produkowane przez Borgo Molino z \r\npołączenia szczepów Glera i Pinot Nero. Charakteryzuje się jasnoróżowym, żywym \r\nkolorem oraz drobnym, delikatnym i długo utrzymującym się perlażem.<BR>Na nosie \r\nwyczuwalny jest delikatny, owocowy bukiet z nutami truskawki, maliny i płatków \r\nróży. Smak jest lekki, świeży i żywy, z wyraźnym owocowym charakterem, typowym \r\ndla stylu Extra Dry (lekko słodszy niż Brut).<BR>Parametry:<BR>* Alkohol: ok. \r\n11%<BR>* Pojemność: 0,75 l<BR>* Szczep: Glera, Pinot Nero<BR>* Styl: Extra \r\nDry<BR>Serwowanie:&#8232;Doskonałe jako aperitif oraz do lekkich przekąsek między \r\nposiłkami. Podawać schłodzone, w temperaturze 6-8°C, w wysokim kieliszku typu \r\nflute.\r\n",
+  "description_short": "<p>Prosecco Borgo Molino Motivo Rosé Extra Dry<br/>Eleganckie różowe wino musujące z Veneto, produkowane przez Borgo Molino z połączenia szczepów Glera i Pinot Nero. Charakteryzuje się jasnoróżowym, żywym kolorem oraz drobnym, delikatnym i długo utrzymującym się</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3030,
+  "id_product": 3030,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino-musujace",
+  "category_name": "Wino Musujące",
+  "link": "https://luksusowealkohole.pl/wino-musujace/3030-prosecco-borgo-molino-motivo-rose-extra-dry-8032638932004",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 48.780488,
+  "price_without_reduction": 60,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Kolor",
+      "value": "Różowe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 21
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Extra Dry",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 544
+    },
+    {
+      "name": "Szczep",
+      "value": "Glera",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 80
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Nero",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 638
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4795,
+      "legend": "PROSECCO Borgo Molino  Motivo Rose Extra Dry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4795-small_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4795-small_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4795-medium_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4795-medium_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4795,
+    "legend": "PROSECCO Borgo Molino  Motivo Rose Extra Dry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4795-small_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-small_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4795-medium_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-medium_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4795-cart_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4795-home_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4795-large_default/prosecco-borgo-molino-motivo-rose-extra-dry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 60,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

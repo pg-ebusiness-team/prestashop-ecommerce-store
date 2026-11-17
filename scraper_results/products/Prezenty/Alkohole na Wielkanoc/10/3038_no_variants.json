@@ -1,0 +1,283 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "818051022069",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-27",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-27 12:07:37",
+  "date_upd": "2026-07-29 16:16:05",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "USA Bread&Butter Cab. Sauvignon Reserve",
+  "link_rewrite": "usa-breadbutter-cab-sauvignon-reserve",
+  "name": "USA Bread&Butter Cab. Sauvignon Reserve",
+  "description": "<p>Bread &amp; Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, bogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych Cabernet Sauvignon.<br />Charakterystyka<br />Kraj: USA<br />Region: Napa Valley, Kalifornia<br />Szczep: ok. 97% Cabernet Sauvignon, 3% Petite Sirah (w zależności od rocznika)<br />Styl: wytrawne, pełne i skoncentrowane<br />Alkohol: ok. 14,5%<br />Dojrzewanie: około 14 miesięcy w beczkach z francuskiego dębu.<br />Aromat i smak<br />czarne wiśnie i jeżyny,<br />śliwki,<br />mocha i gorzka czekolada,<br />wanilia,<br />cedr, goździki i przyprawy korzenne,<br />długi finisz z wyraźnymi, ale aksamitnymi taninami.<br />Do czego pasuje?<br />Świetnie komponuje się z:<br />stekiem z grilla,<br />jagnięciną,<br />pieczoną wołowiną,<br />burgerami premium,<br />dojrzałymi serami (cheddar, gouda długo dojrzewająca, parmezan).<br />Ocena<br />To wino regularnie zdobywa 90–91 punktów w Wine Enthusiast, co potwierdza jego wysoką jakość w swojej kategorii cenowej.</p>",
+  "description_short": "<p>Bread &amp; Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, bogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych Cabernet Sauvignon.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3038,
+  "id_product": 3038,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3038-usa-breadbutter-cab-sauvignon-reserve-818051022069",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Region",
+      "value": "Napa Valley",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 640
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4801,
+      "legend": "USA Bread&Butter Cab. Sauvignon Reserve",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4801-small_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4801-small_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4801-medium_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4801-medium_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4801,
+    "legend": "USA Bread&Butter Cab. Sauvignon Reserve",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4801-small_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-small_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4801-medium_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-medium_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4801-cart_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4801-home_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4801-large_default/usa-breadbutter-cab-sauvignon-reserve.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

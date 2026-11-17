@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5024546376592",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 552,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-13 14:08:48",
+  "date_upd": "2026-02-23 18:34:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Islay Mist Peated",
+  "link_rewrite": "whisky-islay-mist-peated",
+  "name": "WHISKY Islay Mist Peated",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Islay \r\n Mist został stworzony w związku z 21. urodzinami lokalnego arystokraty Lord \r\n Margadale. Lord Margadale uważał, że single malt Laphroaig byłby zbyt mocny dla \r\n gości, dlatego też destylarnia stworzyła blend w dosłownym tłumaczeniu „Czysta \r\n wyspiarska mgła” – Pure Islay Mist. Blend został wykreowany w 1922 roku i \r\n zawierał whisky Laphroig, Glenlivet i grain whisky</SPAN></P>\r\n",
+  "description_short": "<p>Islay Mist został stworzony w związku z 21. urodzinami lokalnego arystokraty Lord Margadale.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 491,
+  "id_product": 491,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 552,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/491-whisky-islay-mist-peated",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5024546376592",
+      "ean13": "5024546376592",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4567,
+      "legend": "WHISKY Islay Mist Peated",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4567-small_default/whisky-islay-mist-peated.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4567-small_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4567-medium_default/whisky-islay-mist-peated.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4567-medium_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4568,
+      "legend": "WHISKY Islay Mist Peated",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4568-cart_default/whisky-islay-mist-peated.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4568-cart_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4568-small_default/whisky-islay-mist-peated.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4568-small_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4568-home_default/whisky-islay-mist-peated.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4568-home_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4568-medium_default/whisky-islay-mist-peated.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4568-medium_default/whisky-islay-mist-peated.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4568-large_default/whisky-islay-mist-peated.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4568-large_default/whisky-islay-mist-peated.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4568-cart_default/whisky-islay-mist-peated.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4568-cart_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4568-home_default/whisky-islay-mist-peated.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4568-home_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4568-large_default/whisky-islay-mist-peated.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4568-large_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4567,
+    "legend": "WHISKY Islay Mist Peated",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4567-small_default/whisky-islay-mist-peated.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-small_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4567-medium_default/whisky-islay-mist-peated.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-medium_default/whisky-islay-mist-peated.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4567-cart_default/whisky-islay-mist-peated.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4567-home_default/whisky-islay-mist-peated.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4567-large_default/whisky-islay-mist-peated.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

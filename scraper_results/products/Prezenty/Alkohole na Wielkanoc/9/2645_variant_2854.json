@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8032738620795",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "330,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-23",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2854,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-23 10:58:49",
+  "date_upd": "2025-09-23 14:46:34",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "PROSECCO Lamborghini Platinum DRY",
+  "link_rewrite": "prosecco-lamborghini-platinum-dry",
+  "name": "PROSECCO Lamborghini Platinum DRY",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Lamborghini \r\nExtra Dry Prosecco DOC Treviso Platinum to wyrafinowane, włoskie wino musujące, \r\nktóre łączy elegancję z wyjątkową głębią smaku. Charakteryzuje się aksamitną, \r\ndelikatnie musującą strukturą oraz finezyjną owocową nutą, która doskonale \r\nwspółgra z wyrazistymi daniami kuchni śródziemnomorskiej. W jego aromacie \r\nodnajdziemy subtelne akcenty białych owoców, które naturalnie przenikają się z \r\nlekką słodyczą wersji Extra Dry. Zrównoważona kwasowość wnosi świeżość, \r\npodkreślając smak każdego kęsa, a miękka, lekko słodka końcówka sprawia, że \r\nprosecco nie dominuje nad potrawą, lecz pięknie ją uzupełnia. To wino idealnie \r\nkomponuje się z daniami takimi jak klasyczne carpaccio z delikatnej wołowiny czy \r\nsoczyste czerwone krewetki, dodając każdej chwili kulinarnego blasku. \r\nLamborghini Platinum Prosecco to doskonały wybór na wyjątkowe okazje i codzienne \r\nprzyjemności - celebracja smaku w najlepszym stylu.</SPAN></P>\r\n",
+  "description_short": "<p>Lamborghini Extra Dry Prosecco DOC Treviso Platinum to wyrafinowane, włoskie wino musujące, które łączy elegancję z wyjątkową głębią smaku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2645,
+  "id_product": 2645,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2854,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2645-prosecco-lamborghini-platinum-dry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 268.292683,
+  "price_without_reduction": 330,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Veneto",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 409
+    },
+    {
+      "name": "Alkohol",
+      "value": "11%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 234
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Glera",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 80
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8032738620795",
+      "ean13": "8032738620795",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3697,
+      "legend": "PROSECCO Lamborghini Platinum DRY",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3697-small_default/prosecco-lamborghini-platinum-dry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3697-small_default/prosecco-lamborghini-platinum-dry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3697-medium_default/prosecco-lamborghini-platinum-dry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3697-medium_default/prosecco-lamborghini-platinum-dry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3697,
+    "legend": "PROSECCO Lamborghini Platinum DRY",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3697-small_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-small_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3697-medium_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-medium_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3697-cart_default/prosecco-lamborghini-platinum-dry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3697-home_default/prosecco-lamborghini-platinum-dry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3697-large_default/prosecco-lamborghini-platinum-dry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 330,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

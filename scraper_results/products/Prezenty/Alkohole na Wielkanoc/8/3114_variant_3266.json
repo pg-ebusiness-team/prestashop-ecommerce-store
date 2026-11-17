@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "810451030217",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3266,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-01 22:47:03",
+  "date_upd": "2026-10-01 22:47:03",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Michelini Montesco Piefranc",
+  "link_rewrite": "michelini-montesco-piefranc",
+  "name": "Michelini Montesco Piefranc",
+  "description": "\r\n<P class=isSelectedEnd \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\"><STRONG><SPAN>ARGENTYNA \r\nMichelini Montesco Piefranc</SPAN></STRONG><SPAN><SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN>to eleganckie i charakterne czerwone \r\nwino z Argentyny, pochodzące z regionu<SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN></SPAN><STRONG><SPAN>Mendoza</SPAN></STRONG><SPAN>, \r\nsłynącego z wyjątkowych warunków do uprawy winorośli.</SPAN></P>\r\n<P class=isSelectedEnd \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\"><SPAN>Wino \r\nwyróżnia się<SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN></SPAN><STRONG><SPAN>intensywnym \r\naromatem ciemnych owoców</SPAN></STRONG><SPAN>, świeżością oraz przyjemną, \r\ndobrze zaznaczoną strukturą. W smaku jest soczyste, wytrawne i pełne charakteru, \r\nz nutami dojrzałych owoców, delikatnych przypraw i subtelną taniną. Długi, \r\nświeży finisz nadaje mu elegancji i sprawia, że wino bardzo dobrze sprawdza się \r\nzarówno podczas kolacji, jak i przy spokojnym wieczornym spotkaniu.</SPAN></P>\r\n<P class=isSelectedEnd \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\"><STRONG><SPAN>Michelini \r\nMontesco Piefranc</SPAN></STRONG><SPAN><SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN>będzie doskonałym wyborem dla osób \r\nposzukujących<SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN></SPAN><STRONG><SPAN>oryginalnego \r\nargentyńskiego wina czerwonego</SPAN></STRONG><SPAN>, które łączy intensywność \r\nowocu z elegancją i świeżością.</SPAN></P>\r\n<P \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\"><STRONG><SPAN>Doskonale \r\nkomponuje się z:</SPAN></STRONG><SPAN><SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN>wołowiną, stekami, grillowanymi \r\nmięsami, jagnięciną oraz dojrzewającymi serami.</SPAN></P>\r\n",
+  "description_short": "<p>ARGENTYNA Michelini Montesco Piefranc to eleganckie i charakterne czerwone wino z Argentyny, pochodzące z regionu Mendoza, słynącego z wyjątkowych warunków do uprawy winorośli.<br/><br/></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3114,
+  "id_product": 3114,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3266,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3114-michelini-montesco-piefranc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Argentyna",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 22
+    },
+    {
+      "name": "Region",
+      "value": "Mendoza",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 297
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "810451030217",
+      "ean13": "810451030217",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4899,
+      "legend": "Michelini Montesco Piefranc",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4899-small_default/michelini-montesco-piefranc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4899-small_default/michelini-montesco-piefranc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4899-medium_default/michelini-montesco-piefranc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4899-medium_default/michelini-montesco-piefranc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4899,
+    "legend": "Michelini Montesco Piefranc",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4899-small_default/michelini-montesco-piefranc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-small_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4899-medium_default/michelini-montesco-piefranc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-medium_default/michelini-montesco-piefranc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4899-cart_default/michelini-montesco-piefranc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4899-home_default/michelini-montesco-piefranc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4899-large_default/michelini-montesco-piefranc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

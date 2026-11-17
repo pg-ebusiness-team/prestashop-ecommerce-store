@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3700092711101",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "300,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-03-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3118,
+  "advanced_stock_management": "0",
+  "date_add": "2026-03-06 13:29:02",
+  "date_upd": "2026-03-06 17:08:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Le Mesnil Blanc de Blancs Grand Cru",
+  "link_rewrite": "champagne-le-mesnil-blanc-de-blancs-grand-cru",
+  "name": "CHAMPAGNE Le Mesnil Blanc de Blancs Grand Cru",
+  "description": "\r\n<P class=MsoNormal style=\"MARGIN: 0cm 0cm 8pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",serif; LINE-HEIGHT: 107%'>Le \r\nMesnil Grand Cru Blanc de Blancs to wyrafinowany szampan powstający w 100% z \r\nwinogron szczepu Chardonnay, uprawianych w winnicach klasy Grand Cru w \r\nmiejscowości Le Mesnil-sur-Oger, w słynnym regionie Côte des Blancs. Wyróżnia \r\nsię świeżością, elegancją oraz wyraźną mineralnością, charakterystyczną dla \r\nwapiennych gleb tego terroir. W bukiecie można odnaleźć aromaty zielonych \r\njabłek, cytrusów i białych kwiatów, którym towarzyszy subtelna nuta brioche. Na \r\npodniebieniu jest kremowy, harmonijny i dobrze zbalansowany, z wyraźną \r\nkwasowością oraz długim, czystym finiszem. Doskonale sprawdzi się jako aperitif, \r\na także w towarzystwie owoców morza, sushi, ryb czy delikatnych serów. Blanc de \r\nBlancs Grand Cru NV od Le Mesnil jest wizytówką stylu tej wytwórni. Powstaje z \r\nkupażu kilku roczników opartych na starannie wyselekcjonowanym Chardonnay, \r\ncenionym za jego subtelność i elegancję. Dzięki temu szampan zyskuje \r\nwielowymiarowy i wyjątkowy charakter. Trzyletnie dojrzewanie na osadzie zapewnia \r\ndoskonałą równowagę między świeżą owocowością a kremową strukturą. Szampan Le \r\nMesnil Grand Cru Blanc de Blancs Brut pochodzi z miejscowości Le \r\nMesnil-sur-Oger, oddalonej o około 20 km na południe od Épernay. To jedna z \r\nzaledwie 17 wiosek w Szampanii, które otrzymały prestiżowe oznaczenie Grand Cru \r\ndzięki wyjątkowej jakości uprawianych tam winogron. Wino powstaje wyłącznie z \r\nChardonnay — stąd nazwa Blanc de Blancs, oznaczająca białe wino z białych \r\nwinogron. Przechodzi pełną fermentację malolaktyczną, następnie dojrzewa przez \r\ntrzy lata na osadzie, a po zabutelkowaniu spędza dodatkowe sześć miesięcy na \r\nleżakowaniu. Efektem jest złożony, elegancki szampan, który łączy świeżą \r\nkwasowość owoców z delikatną, kremową teksturą.<?xml:namespace prefix = \"o\" ns = \r\n\"urn:schemas-microsoft-com:office:office\" /><o:p></o:p></SPAN></P>\r\n",
+  "description_short": "<p>Le Mesnil Grand Cru Blanc de Blancs to wyrafinowany szampan powstający w 100% z winogron szczepu Chardonnay, uprawianych w winnicach klasy Grand Cru w miejscowości Le Mesnil-sur-Oger, w słynnym regionie Côte des Blancs.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2923,
+  "id_product": 2923,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3118,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/2923-champagne-le-mesnil-blanc-de-blancs-grand-cru",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 243.902439,
+  "price_without_reduction": 300,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3700092711101",
+      "ean13": "3700092711101",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4599,
+      "legend": "CHAMPAGNE Le Mesnil Blanc de Blancs Grand Cru",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4599-small_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4599-small_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4599-medium_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4599-medium_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4599,
+    "legend": "CHAMPAGNE Le Mesnil Blanc de Blancs Grand Cru",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4599-small_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-small_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4599-medium_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-medium_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4599-cart_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4599-home_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4599-large_default/champagne-le-mesnil-blanc-de-blancs-grand-cru.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 300,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

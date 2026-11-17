@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5011007019518",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "435,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3113,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-18 15:48:11",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Redbreast 15YO",
+  "link_rewrite": "whisky-redbreast-15yo",
+  "name": "WHISKY Redbreast 15YO",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 8pt;\"><SPAN style='line-height: 107%; font-family: \"Times New Roman\",serif; font-size: 12pt;'>Redbreast \r\n15 Year Old to wyjątkowa irlandzka whiskey typu single pot still, ceniona za \r\nnajwyższą jakość oraz imponującą złożoność smaku. Jest doskonałym przykładem \r\ntradycyjnego rzemiosła irlandzkiej destylacji. Powstaje z precyzyjnie dobranej \r\nmieszanki jęczmienia słodowanego i niesłodowanego, a następnie poddawana jest \r\npotrójnej destylacji w miedzianych alembikach. Dzięki temu procesowi uzyskuje \r\nniezwykłą głębię, bogactwo i charakter, które wyróżniają ją na tle innych \r\nirlandzkich whiskey. Trunek dojrzewa przez 15 lat w kombinacji beczek po \r\nbourbonie oraz po sherry Oloroso, co nadaje mu harmonijny i wielowymiarowy \r\nprofil smakowy. Wyczuwalne są nuty dojrzałych, soczystych owoców, subtelnych \r\nkorzennych przypraw oraz prażonego dębu, które razem tworzą pełną, aksamitną i \r\ndoskonale zbalansowaną całość. Długie leżakowanie podkreśla jej elegancki, \r\nluksusowy charakter, dzięki czemu cieszy się uznaniem zarówno wśród \r\ndoświadczonych miłośników whiskey, jak i kolekcjonerów. Serwowana solo lub z \r\nkostką lodu, Redbreast 15 Year Old zapewnia wyjątkowo wyrafinowane i \r\nsatysfakcjonujące doświadczenie degustacyjne.</SPAN></P>\r\n",
+  "description_short": "<p>Redbreast 15 Year Old to wyjątkowa irlandzka whiskey typu single pot still, ceniona za najwyższą jakość oraz imponującą złożoność smaku. Jest doskonałym przykładem tradycyjnego rzemiosła irlandzkiej destylacji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2918,
+  "id_product": 2918,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3113,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2918-whisky-redbreast-15yo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 353.658537,
+  "price_without_reduction": 435.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single Pot Still",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 367
+    },
+    {
+      "name": "Wiek",
+      "value": "15 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 186
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5011007019518",
+      "ean13": "5011007019518",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4543,
+      "legend": "WHISKY Redbreast 15YO",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4543-small_default/whisky-redbreast-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4543-small_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4543-medium_default/whisky-redbreast-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4543-medium_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4544,
+      "legend": "WHISKY Redbreast 15YO",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4544-cart_default/whisky-redbreast-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4544-cart_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4544-small_default/whisky-redbreast-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4544-small_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4544-home_default/whisky-redbreast-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4544-home_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4544-medium_default/whisky-redbreast-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4544-medium_default/whisky-redbreast-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4544-large_default/whisky-redbreast-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4544-large_default/whisky-redbreast-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4544-cart_default/whisky-redbreast-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4544-cart_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4544-home_default/whisky-redbreast-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4544-home_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4544-large_default/whisky-redbreast-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4544-large_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4543,
+    "legend": "WHISKY Redbreast 15YO",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4543-small_default/whisky-redbreast-15yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-small_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4543-medium_default/whisky-redbreast-15yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-medium_default/whisky-redbreast-15yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4543-cart_default/whisky-redbreast-15yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4543-home_default/whisky-redbreast-15yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4543-large_default/whisky-redbreast-15yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 435,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

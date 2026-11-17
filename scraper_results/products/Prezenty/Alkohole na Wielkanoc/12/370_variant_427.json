@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 25,
+  "id_supplier": 0,
+  "reference": "8420455152079",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "55,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 427,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 13:02:11",
+  "date_upd": "2026-04-07 19:44:24",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Campillo Rosado",
+  "link_rewrite": "wino-campillo-rosado",
+  "name": "WINO Campillo Rosado",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Bodega Campillo otoczona 50 hektarami winnic i osłonięta przez \r\nSierra Cantabria znajduje się w samym sercu Rioja Alavesa, w średniowiecznej \r\nwiosce Laguardia. Tutejsza dewiza brzmi: „tylko dbając o winogrona od samego \r\npoczątku, możemy uzyskać najlepsze wino”.&nbsp; Campillo Rosado Rioja posiada \r\natrakcyjny malinowy kolor z różowym odcieniem i pomarańczowymi refleksami. \r\nIntensywne &nbsp;lecz finezyjne aromaty dojrzałych czerwonych owoców, w tle nuty \r\nowoców tropikalnych i bzu. Delikatna, owocowa w charakterze&nbsp;odświeżająca \r\nkwasowość i&nbsp;przyjemny finisz czynią z tego wina doskonały aperitif i \r\nidealne dopełnienie wielu dań.&nbsp;Najlepiej łączyć je z \r\nwędlinami,&nbsp;grillowaną wieprzowiną, białymi mięsami, łososiem, quiche \r\nlorraine, daniami z cukinią lub pomidorami.</FONT></P>\r\n",
+  "description_short": "<p>Bodega Campillo otoczona 50 hektarami winnic i osłonięta przez Sierra Cantabria znajduje się w samym sercu Rioja Alavesa, w średniowiecznej wiosce Laguardia.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 370,
+  "id_product": 370,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 427,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/370-wino-campillo-rosado",
+  "manufacturer_name": "Campillo",
+  "attribute_price": 0,
+  "price_tax_exc": 44.715447,
+  "price_without_reduction": 55,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Rioja",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 310
+    },
+    {
+      "name": "Alkohol",
+      "value": "13%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 262
+    },
+    {
+      "name": "Kolor",
+      "value": "Różowe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 21
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Garnacha",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 78
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8420455152079",
+      "ean13": "8420455152079",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4672,
+      "legend": "WINO Campillo Rosado",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4672-small_default/wino-campillo-rosado.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4672-small_default/wino-campillo-rosado.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4672-medium_default/wino-campillo-rosado.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4672-medium_default/wino-campillo-rosado.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4672,
+    "legend": "WINO Campillo Rosado",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4672-small_default/wino-campillo-rosado.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-small_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4672-medium_default/wino-campillo-rosado.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-medium_default/wino-campillo-rosado.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4672-cart_default/wino-campillo-rosado.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4672-home_default/wino-campillo-rosado.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4672-large_default/wino-campillo-rosado.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 55,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

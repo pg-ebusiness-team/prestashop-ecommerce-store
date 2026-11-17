@@ -1,0 +1,311 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8019873124302",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "135,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1265,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-16 12:23:50",
+  "date_upd": "2026-03-20 09:30:58",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Caldora Yume Tre Autoctoni",
+  "link_rewrite": "wino-caldora-yume-tre-autoctoni",
+  "name": "WINO Caldora Yume Tre Autoctoni",
+  "description": "",
+  "description_short": "<p>Wino starzone od 9 do 12 miesięcy w dębowych beczkach. Rodzi się z połączenia trzech niezwykle istotnych odmian winorośli Apulii, Abruzji oraz Sycylii.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1192,
+  "id_product": 1192,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1265,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1192-wino-caldora-yume-tre-autoctoni",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 109.756097,
+  "price_without_reduction": 164.999999,
+  "reduction": 30,
+  "specific_prices": {
+    "id_specific_price": 122,
+    "id_specific_price_rule": 0,
+    "id_cart": 0,
+    "id_product": 1192,
+    "id_shop": 1,
+    "id_shop_group": 0,
+    "id_currency": 0,
+    "id_country": 0,
+    "id_group": 0,
+    "id_customer": 0,
+    "id_product_attribute": 0,
+    "price": "-1.000000",
+    "from_quantity": 1,
+    "reduction": "30.000000",
+    "reduction_tax": 1,
+    "reduction_type": "amount",
+    "from": "0000-00-00 00:00:00",
+    "to": "0000-00-00 00:00:00",
+    "score": 34
+  },
+  "quantity": 18,
+  "quantity_all_versions": 18,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8019873124302",
+      "ean13": "8019873124302",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4005,
+      "legend": "WINO Caldora Yume Tre Autoctoni",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4005-small_default/wino-caldora-yume-tre-autoctoni.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4005-small_default/wino-caldora-yume-tre-autoctoni.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4005-medium_default/wino-caldora-yume-tre-autoctoni.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4005-medium_default/wino-caldora-yume-tre-autoctoni.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4005,
+    "legend": "WINO Caldora Yume Tre Autoctoni",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4005-small_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-small_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4005-medium_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-medium_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4005-cart_default/wino-caldora-yume-tre-autoctoni.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4005-home_default/wino-caldora-yume-tre-autoctoni.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4005-large_default/wino-caldora-yume-tre-autoctoni.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": true,
+  "discount_type": "amount",
+  "discount_percentage": "-3 000%",
+  "discount_percentage_absolute": "3 000%",
+  "discount_amount": "30,00 zł",
+  "discount_amount_to_display": "-30,00 zł",
+  "price_amount": 135,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

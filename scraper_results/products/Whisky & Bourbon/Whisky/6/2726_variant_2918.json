@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 26,
+  "id_supplier": 0,
+  "reference": "5060716145483",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "379,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2918,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-11 11:41:57",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glendronach Ode to the Valley",
+  "link_rewrite": "whisky-glendronach-ode-to-the-valley",
+  "name": "WHISKY Glendronach Ode to the Valley",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Glendronach \r\nOde To The Valley to wyjątkowa whisky single malt ze szkockiego regionu \r\nHighlands, stworzona jako hołd dla malowniczej doliny Forgue - miejsca, w którym \r\nod niemal dwóch wieków działa legendarna destylarnia GlenDronach. Ta limitowana \r\nedycja została opracowana z myślą o miłośnikach głębokich, intensywnie \r\ndojrzewających whisky typu sherry-matured. Dojrzewająca w starannie \r\nwyselekcjonowanych beczkach po hiszpańskich winach sherry Oloroso i Pedro \r\nXiménez, whisky oferuje niezwykle bogaty profil aromatyczno-smakowy. Już w \r\nzapachu wyczuwalne są wyraziste nuty suszonych śliwek, rodzynek, przypraw \r\nkorzennych - z cynamonem i gałką muszkatołową na czele - a także subtelny dębowy \r\ndym. Całość zapowiada klasyczny, głęboki charakter, z jakiego słynie \r\nGlenDronach. W ustach whisky jest pełna, oleista i intensywna. Dominuje deserowa \r\nczekolada, kawa, karmelizowane figi, a także delikatne akcenty pieprzu i skóry. \r\nFinisz długi, gładki i rozgrzewający, z wyraźną obecnością sherry, przypraw i \r\nszlachetnej dębiny. \"Ode To The Valley\" to współczesne uhonorowanie tradycji i\r\n dziedzictwa GlenDronach - destylarni, która od pokoleń dostarcza światu whisky\r\n o niezrównanej głębi i elegancji. Trunek ten nie jest filtrowany na zimno ani\r\n barwiony karmelem, co pozwala w pełni cieszyć się jego naturalnym charakterem i\r\n autentycznym smakiem. To doskonały wybór zarówno dla doświadczonych koneserów,\r\n jak i wszystkich, którzy chcą zanurzyć się w bogactwie klasycznej szkockiej\r\n whisky dojrzewającej w beczkach po sherry.</SPAN></P>\r\n",
+  "description_short": "<p>Glendronach Ode To The Valley to wyjątkowa whisky single malt ze szkockiego regionu Highlands, stworzona jako hołd dla malowniczej doliny Forgue - miejsca, w którym od niemal dwóch wieków działa legendarna destylarnia GlenDronach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2726,
+  "id_product": 2726,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2918,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2726-whisky-glendronach-ode-to-the-valley",
+  "manufacturer_name": "Glendronach",
+  "attribute_price": 0,
+  "price_tax_exc": 308.130081,
+  "price_without_reduction": 379,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "46,2%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 280
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5060716145483",
+      "ean13": "5060716145483",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3794,
+      "legend": "WHISKY Glendronach Ode to the Valley",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3794-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3794-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3794-small_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3794-small_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3794-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3794-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3794-medium_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3794-medium_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3794-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3794-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3794-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3794-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3794-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3794-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3794-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3794-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 3795,
+      "legend": "WHISKY Glendronach Ode to the Valley",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3795-small_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3795-small_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3795-medium_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3795-medium_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3795,
+    "legend": "WHISKY Glendronach Ode to the Valley",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3795-small_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-small_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3795-medium_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-medium_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3795-cart_default/whisky-glendronach-ode-to-the-valley.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3795-home_default/whisky-glendronach-ode-to-the-valley.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3795-large_default/whisky-glendronach-ode-to-the-valley.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 379,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

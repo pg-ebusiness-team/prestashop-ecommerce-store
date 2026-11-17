@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 47,
+  "id_supplier": 0,
+  "reference": "5010314302863",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "105,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 728,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-19 12:35:01",
+  "date_upd": "2026-05-19 20:18:53",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Macallan 12 Y O Double Cask",
+  "link_rewrite": "whisky-macallan-12-y-o-double-cask",
+  "name": "WHISKY Macallan 12 Y O Double Cask",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-size: 12pt; mso-ascii-font-family: Calibri; mso-fareast-font-family: \"Times New Roman\"; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; mso-fareast-language: PL;'><FONT \r\nface=\"Calibri\">Whisky Macallan 12 Years Old Double Cask swój debiut miała w 2016 \r\nroku. To kompozycja destylatów leżakowanych w beczkach z amerykańskiego oraz\r\n europejskiego dębu które wpierw zostały wysłane do Hiszpanii aby tam wino\r\n Sherry Oloroso spędziło swój czas dojrzewania. Macallan 12 YO Double Cask to\r\n prawdziwy klasyk o przyjemnym aromacie sherry, kandyzowanej skórki pomarańczy,\r\n wanilii oraz orzechu i dębu. W ustach prawdziwa eksplozja smaków, począwszy od\r\n owoców banana, rodzynek, wanilii po nutę kandyzowanego imbiru, cynamonu i \r\ndębu.</FONT></SPAN></P>\r\n",
+  "description_short": "<p>Whisky Macallan 12 Years Old Double Cask swój debiut miała w 2016 roku. To kompozycja destylatów leżakowanych w beczkach z amerykańskiego oraz europejskiego dębu które wpierw zostały wysłane do Hiszpanii aby tam wino Sherry Oloroso.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 657,
+  "id_product": 657,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2391,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/657-whisky-macallan-12-y-o-double-cask",
+  "manufacturer_name": "The Macallan",
+  "attribute_price": -239.02439,
+  "price_tax_exc": 85.365854,
+  "price_without_reduction": 105,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "12 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 183
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "5010314305147",
+      "ean13": "5010314305147",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4758,
+      "legend": "WHISKY Macallan 12 Y O Double Cask",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4758-small_default/whisky-macallan-12-y-o-double-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4758-small_default/whisky-macallan-12-y-o-double-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4758-medium_default/whisky-macallan-12-y-o-double-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4758-medium_default/whisky-macallan-12-y-o-double-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4758,
+    "legend": "WHISKY Macallan 12 Y O Double Cask",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4758-small_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-small_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4758-medium_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-medium_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4758-cart_default/whisky-macallan-12-y-o-double-cask.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4758-home_default/whisky-macallan-12-y-o-double-cask.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4758-large_default/whisky-macallan-12-y-o-double-cask.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 105,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

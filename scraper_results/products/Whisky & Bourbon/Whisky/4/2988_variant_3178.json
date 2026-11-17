@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000299643105",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3178,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-11 22:25:50",
+  "date_upd": "2026-09-04 17:02:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Chivas Regal Crystal Gold 40% 0,7l",
+  "link_rewrite": "whisky-chivas-regal-crystal-gold-40-07l",
+  "name": "WHISKY Chivas Regal Crystal Gold 40% 0,7l",
+  "description": "Chivas Regal Crystal Gold – elegancka szkocka whisky blended o aksamitnym \ncharakterze<br />Chivas Regal Crystal Gold to wyjątkowa szkocka whisky blended \npremium, stworzona z myślą o miłośnikach łagodnych, harmonijnych i eleganckich \nkompozycji smakowych. Łączy w sobie klasyczny styl marki Chivas Regal z \nnowoczesnym, wyjątkowo gładkim profilem, który doskonale sprawdza się zarówno \npodczas degustacji solo, jak i w koktajlach whisky premium.<br />Starannie \nwyselekcjonowane whisky słodowe i zbożowe tworzą kompozycję o kremowej \nstrukturze, subtelnej słodyczy oraz przyjemnie owocowym charakterze. Chivas \nRegal Crystal Gold to propozycja dla osób ceniących szkocką whisky premium o \ndelikatnym, przystępnym i niezwykle eleganckim stylu.<br />Aromat<br />Aromat jest \nmiękki i harmonijny. Dominują nuty miodu, wanilii i karmelu, którym towarzyszą \nakcenty dojrzałych gruszek, jabłek oraz subtelne nuty kwiatowe. W tle wyczuwalne \nsą lekkie akcenty dębu i delikatnych przypraw.<br />Smak<br />Na podniebieniu whisky \nprezentuje aksamitną strukturę i wyjątkową łagodność. Nuty karmelu, toffi i \nwanilii harmonijnie łączą się z owocową świeżością oraz lekkimi akcentami \nmlecznej czekolady i dębu. Całość pozostaje doskonale zbalansowana, gładka i \nbardzo przyjemna w odbiorze.<br />Finisz<br />Średnio długi, elegancki i kremowy. \nPozostawia subtelne nuty miodu, wanilii oraz delikatnego drewna dębowego.<br />Jak \npodawać?<br />Chivas Regal Crystal Gold najlepiej smakuje solo, na lodzie lub jako \nbaza do klasycznych koktajli whisky premium. Doskonale sprawdzi się w Highballu, \nWhisky Sour czy nowoczesnych drinkach opartych na szkockiej whisky \nblended.<br />Dlaczego warto wybrać Chivas Regal Crystal Gold?<br />elegancka \nszkocka whisky blended premium<br />wyjątkowo gładki i harmonijny profil \nsmakowy<br />nuty miodu, wanilii i owoców<br />idealna do koktajli i degustacji \nsolo<br />doskonała whisky na prezent<br />klasyczny styl marki Chivas Regal w \nnowoczesnym wydaniu",
+  "description_short": "<p>Chivas Regal Crystal Gold to wyjątkowa szkocka whisky blended premium, stworzona z myślą o miłośnikach łagodnych, harmonijnych i eleganckich kompozycji smakowych. Łączy w sobie klasyczny styl marki Chivas Regal z nowoczesnym, wyjątkowo gładkim profilem, k</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2988,
+  "id_product": 2988,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3178,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2988-whisky-chivas-regal-crystal-gold-40-07l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000299643105",
+      "ean13": "5000299643105",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4728,
+      "legend": "WHISKY Chivas Regal Crystal Gold 40% 0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4728-small_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4728-small_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4728-medium_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4728-medium_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4728,
+    "legend": "WHISKY Chivas Regal Crystal Gold 40% 0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4728-small_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-small_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4728-medium_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-medium_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4728-cart_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4728-home_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4728-large_default/whisky-chivas-regal-crystal-gold-40-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

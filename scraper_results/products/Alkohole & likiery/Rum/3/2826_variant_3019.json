@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8851707000501",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3019,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-06 09:26:20",
+  "date_upd": "2025-11-06 11:02:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Phraya Gold",
+  "link_rewrite": "rum-phraya-gold",
+  "name": "RUM Phraya Gold",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Phraya \r\nRum to wyjątkowy trunek, który zyskał uznanie koneserów na całym świecie dzięki \r\nswojej bogatej historii, starannej produkcji i niepowtarzalnemu charakterowi. \r\nWytwarzany z najwyższej jakości melasy z lokalnej trzciny cukrowej, destylowany \r\njest w aparatach kolumnowych, a następnie dojrzewa od 7 do 12 lat w beczkach z \r\namerykańskiego dębu, wcześniej używanych do starzenia bourbonu. Phraya zachwyca \r\nswoją złocistą barwą, wprowadzając w świat elegancji i harmonii smaków. W \r\naromacie dominują nuty miodu, kokosa, wanilii, goździków i rodzynek, wzbogacone \r\nsubtelnymi przyprawami, które tworzą bogaty i złożony bukiet zapachowy. W smaku \r\nrum jest gładki i kremowy - słodkie tony cr&#232;me br&#251;lée i krówek doskonale \r\nkomponują się z nutami owoców tropikalnych, takich jak ananas i cytrusy. Finisz \r\njest długi, delikatny i lekko pikantny, z akcentami wanilii, które przyjemnie \r\nutrzymują się na podniebieniu. To trunek stworzony dla prawdziwych koneserów - \r\nidealny do degustacji solo, ale również świetnie sprawdzający się w \r\nwyrafinowanych koktajlach. Dodanie jednej lub dwóch kropli wody źródlanej \r\npozwala w pełni rozwinąć jego bogatą paletę aromatyczno-smakową. Marka Phraya \r\npowstała w 2011 roku w legendarnej destylarni SangSom, jednej z najstarszych \r\ngorzelni w Tajlandii, działającej od 1977 roku. Zakład położony jest w pobliżu \r\nmorskich lagun, a beczki z rumem dojrzewają w specjalnych magazynach, \r\nznajdujących się cztery metry pod ziemią. Takie warunki chronią destylat przed \r\nnadmiernym parowaniem w gorącym, tropikalnym klimacie i pozwalają mu dojrzewać w \r\nidealnym tempie. Proces dojrzewania przebiega w ręcznie opalanych beczkach, \r\ndzięki czemu rum nabiera głębi, złożoności i eleganckiego charakteru. Efektem \r\njest trunek, który łączy tradycję Dalekiego Wschodu z nowoczesnym podejściem do \r\nrzemiosła gorzelniczego. Butelka Phraya to dzieło sztuki samo w sobie - wykonana \r\nz przejrzystego szkła, ozdobiona złotymi detalami i ornamentem nawiązującym do\r\n czterech żywiołów: ognia, wody, powietrza i ziemi, które symbolicznie\r\n towarzyszą procesowi tworzenia tego rumu. Phraya Rum to doskonały wybór na\r\n wyjątkowy prezent oraz prawdziwa gratka dla kolekcjonerów i miłośników\r\n unikalnych trunków. Jego tajskie pochodzenie, wyrafinowany smak i elegancka \r\noprawa czynią z niego nie tylko napój, ale także wyraz kultury, tradycji i\r\n sztuki destylacji.</SPAN></P>\r\n",
+  "description_short": "<p>Phraya Rum to wyjątkowy trunek, który zyskał uznanie koneserów na całym świecie dzięki swojej bogatej historii, starannej produkcji i niepowtarzalnemu charakterowi.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2826,
+  "id_product": 2826,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3019,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2826-rum-phraya-gold",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Tajlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 619
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8851707000501",
+      "ean13": "8851707000501",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3914,
+      "legend": "RUM Phraya Gold",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3914-small_default/rum-phraya-gold.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3914-small_default/rum-phraya-gold.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3914-medium_default/rum-phraya-gold.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3914-medium_default/rum-phraya-gold.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3914,
+    "legend": "RUM Phraya Gold",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3914-small_default/rum-phraya-gold.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-small_default/rum-phraya-gold.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3914-medium_default/rum-phraya-gold.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-medium_default/rum-phraya-gold.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3914-cart_default/rum-phraya-gold.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3914-home_default/rum-phraya-gold.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3914-large_default/rum-phraya-gold.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

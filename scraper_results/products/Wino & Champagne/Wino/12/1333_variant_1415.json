@@ -1,0 +1,347 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010867410220",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "165,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1415,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-21 16:11:03",
+  "date_upd": "2025-01-31 17:37:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Porto Graham's 10 Y O",
+  "link_rewrite": "wino-porto-graham-s-10-y-o",
+  "name": "WINO Porto Graham's 10 Y O",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bardzo \r\ndelikatne, dobrze zbudowane wino, które swoją łagodność zyskało podczas długiego \r\nokresu dojrzewania w dębowych beczkach. Wyprodukowane zostało z wyjątkowej \r\njakości mocno dojrzałych winogron. Ma bursztynowy kolor, pełny orzechowy bukiet \r\ni subtelny finisz.</SPAN></P>\r\n",
+  "description_short": "<p>Bardzo delikatne, dobrze zbudowane wino, które swoją łagodność zyskało podczas długiego okresu dojrzewania w dębowych beczkach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1333,
+  "id_product": 1333,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1415,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1333-wino-porto-graham-s-10-y-o",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 134.146341,
+  "price_without_reduction": 164.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Portugalia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 33
+    },
+    {
+      "name": "Region",
+      "value": "Douro",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 456
+    },
+    {
+      "name": "Alkohol",
+      "value": "20%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 455
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wzmacniane",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 405
+    },
+    {
+      "name": "Szczep",
+      "value": "Tinta Barroca",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 146
+    },
+    {
+      "name": "Szczep",
+      "value": "Tinta Roriz",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 148
+    },
+    {
+      "name": "Szczep",
+      "value": "Touriga Nacional",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 152
+    },
+    {
+      "name": "Szczep",
+      "value": "Tinta Cao",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 457
+    },
+    {
+      "name": "Szczep",
+      "value": "Touriga Franceska",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 458
+    },
+    {
+      "name": "Wiek",
+      "value": "10 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 178
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5010867410220",
+      "ean13": "5010867410220",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1856,
+      "legend": "WINO Porto Graham's 10 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1856-small_default/wino-porto-graham-s-10-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1856-small_default/wino-porto-graham-s-10-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1856-medium_default/wino-porto-graham-s-10-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1856-medium_default/wino-porto-graham-s-10-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1856,
+    "legend": "WINO Porto Graham's 10 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1856-small_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-small_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1856-medium_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-medium_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1856-cart_default/wino-porto-graham-s-10-y-o.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1856-home_default/wino-porto-graham-s-10-y-o.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1856-large_default/wino-porto-graham-s-10-y-o.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 165,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,343 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4260642250010",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "249,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2238,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 10:29:46",
+  "date_upd": "2025-06-16 19:08:27",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN The Illusionist Dry",
+  "link_rewrite": "gin-the-illusionist-dry",
+  "name": "GIN The Illusionist Dry",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Illusionist \r\nDistillery z Monachium została założona w 2015 roku przez Maxa Muggenthalera, \r\nstomatologa, oraz Tima Steglicha, doradcę biznesowego i ekonomistę. Pierwsza \r\npartia ginu \"Iluzjonista\" ujrzała światło dzienne w listopadzie 2016 roku i \r\npowstała na bazie unikalnej receptury, obejmującej aż 16 składników \r\nbotanicznych. Wśród nich znajdziemy m.in. jałowiec, lukrecję, lawendę, rozmaryn, \r\narcydzięgiel, kardamon, gałkę muszkatołową oraz cytrusy - cytryny i pomarańcze. \r\nPrezentacja The Illusionist wykracza poza klasyczne wzorce - butelka przypomina \r\nnaczynie z tajemną miksturą, a jej design przywodzi na myśl ekskluzywne edycje \r\ntakie jak Bruichladdich Black Art. Najbardziej zaskakującym elementem jest \r\nintensywny, niebieski kolor ginu, który zawdzięcza płatkom sekretnego kwiatu \r\npochodzącego z Dalekiego Wschodu, dodawanym przed destylacją. Jednak prawdziwa \r\nmagia zaczyna się w momencie zmieszania ginu z tonikiem lub innym mikserem - \r\nwtedy barwa trunku zmienia się na delikatne odcienie różu lub purpury. Ten efekt \r\nwizualny jest nie tylko niezapomniany, ale również stanowi znak rozpoznawczy \r\nmarki, co ma ogromne znaczenie marketingowe. The Illusionist Dry Gin to światowa\r\n unikatowa propozycja, która powinna na stałe zagościć w każdym barku.\r\n Aromatyczny, łączy w sobie floralno-cytrusowe nuty z subtelnymi akcentami\r\n pieprzu i ziół. Doskonale komponuje się praktycznie z każdym wytrawnym\r\n tonikiem, ale zachęca także do eksperymentowania z innymi mikserami, odkrywając\r\n coraz to nowe oblicza smaku.</SPAN></P>\r\n",
+  "description_short": "<p>Illusionist Distillery z Monachium została założona w 2015 roku przez Maxa Muggenthalera, stomatologa, oraz Tima Steglicha, doradcę biznesowego i ekonomistę.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2150,
+  "id_product": 2150,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2238,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/2150-gin-the-illusionist-dry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 202.439024,
+  "price_without_reduction": 249,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Alkohol",
+      "value": "45%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 240
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "4260642250010",
+      "ean13": "4260642250010",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4023,
+      "legend": "GIN The Illusionist Dry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4023-small_default/gin-the-illusionist-dry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4023-small_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4023-medium_default/gin-the-illusionist-dry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4023-medium_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4024,
+      "legend": "GIN The Illusionist Dry",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4024-cart_default/gin-the-illusionist-dry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4024-cart_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4024-small_default/gin-the-illusionist-dry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4024-small_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4024-home_default/gin-the-illusionist-dry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4024-home_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4024-medium_default/gin-the-illusionist-dry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4024-medium_default/gin-the-illusionist-dry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4024-large_default/gin-the-illusionist-dry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4024-large_default/gin-the-illusionist-dry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4024-cart_default/gin-the-illusionist-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4024-cart_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4024-home_default/gin-the-illusionist-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4024-home_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4024-large_default/gin-the-illusionist-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4024-large_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4023,
+    "legend": "GIN The Illusionist Dry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4023-small_default/gin-the-illusionist-dry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-small_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4023-medium_default/gin-the-illusionist-dry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-medium_default/gin-the-illusionist-dry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4023-cart_default/gin-the-illusionist-dry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4023-home_default/gin-the-illusionist-dry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4023-large_default/gin-the-illusionist-dry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 249,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

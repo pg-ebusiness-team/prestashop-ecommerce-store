@@ -1,0 +1,357 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000281045627",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2295,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-05 16:59:08",
+  "date_upd": "2026-02-06 18:00:48",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Haig Club Clubman Single Grain",
+  "link_rewrite": "whisky-haig-club-clubman-single-grain",
+  "name": "WHISKY Haig Club Clubman Single Grain",
+  "description": "Haig Club Clubman to nowoczesna single grain whisky o lekkim i klarownym \r\ncharakterze, dojrzewająca wyłącznie w beczkach po bourbonie, co nadaje jej \r\nsubtelnej słodyczy i kremowej gładkości. Jej jasnozłota barwa zapowiada aromaty \r\nzielonego jabłka i miodu, które na podniebieniu rozwijają się w nuty toffi, \r\nkarmelu i orzechów, zwieńczone długim, waniliowym finiszem z delikatnym zbożowym \r\ntłem. Whisky ta powstaje w renomowanej destylarni Cameronbridge, jednej z \r\nnajstarszych i najbardziej zaawansowanych technologicznie gorzelni w Szkocji. \r\nZałożona w 1824 roku w regionie Fife, Cameronbridge była pionierem w stosowaniu \r\nkolumnowej destylacji whisky zbożowej, korzystając z czystej wody z rzeki Leven \r\ni nowoczesnych alembików. Haig Club Clubman to idealne połączenie tradycji i \r\nwspółczesnego podejścia do whisky. Stworzona z myślą o nowym pokoleniu \r\nkonsumentów, świetnie sprawdza się zarówno w degustacji solo, jak i w prostych, \r\norzeźwiających koktajlach. To lekki, a zarazem wyrazisty trunek, który łączy \r\nprzystępność z wysoką jakością wykonania.\r\n",
+  "description_short": "<p>Haig Club Clubman to nowoczesna single grain whisky o lekkim i klarownym charakterze, dojrzewająca wyłącznie w beczkach po bourbonie, co nadaje jej subtelnej słodyczy i kremowej gładkości.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2207,
+  "id_product": 2207,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2295,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2207-whisky-haig-club-clubman-single-grain",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single Grain",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 300
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000281045627",
+      "ean13": "5000281045627",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4505,
+      "legend": "WHISKY Haig Club Clubman Single Grain",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4505-small_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4505-small_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4505-medium_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4505-medium_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4506,
+      "legend": "WHISKY Haig Club Clubman Single Grain",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4506-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4506-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4506-small_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4506-small_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4506-home_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4506-home_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4506-medium_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4506-medium_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4506-large_default/whisky-haig-club-clubman-single-grain.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4506-large_default/whisky-haig-club-clubman-single-grain.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4506-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4506-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4506-home_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4506-home_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4506-large_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4506-large_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4505,
+    "legend": "WHISKY Haig Club Clubman Single Grain",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4505-small_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-small_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4505-medium_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-medium_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4505-cart_default/whisky-haig-club-clubman-single-grain.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4505-home_default/whisky-haig-club-clubman-single-grain.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4505-large_default/whisky-haig-club-clubman-single-grain.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

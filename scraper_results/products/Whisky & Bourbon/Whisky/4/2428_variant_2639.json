@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 16,
+  "id_supplier": 0,
+  "reference": "5000299637500",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 100,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2639,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-11 14:13:37",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Chivas Royal Salute 21yo H. Reed Gold",
+  "link_rewrite": "whisky-chivas-royal-salute-21yo-h-reed-gold",
+  "name": "WHISKY Chivas Royal Salute 21yo H. Reed Gold",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Royal \r\nSalute The Harris Reed Edition Gold 21YO to wyjątkowa, limitowana whisky, będąca \r\nefektem kreatywnej współpracy z cenionym projektantem mody Harrisem Reedem. Jego \r\nwyrazisty, teatralny styl znalazł odzwierciedlenie nie tylko w wyglądzie butelki \r\ni opakowania, ale również w charakterze samego trunku. Projekt eksploruje motyw \r\nkorony, a opakowanie przyciąga wzrok wzorem inspirowanym piórami - \r\ncharakterystycznym elementem twórczości Reeda. To nie tylko whisky, ale \r\nprawdziwy manifest artystycznej wizji, łączący świat mody z rzemiosłem \r\ndestylacji. Stworzona przez mistrza kupażu Sandy'ego Hyslopa, ta 21-letnia \r\nkompozycja zachwyca bogactwem smaków i aromatów. W nosie pojawiają się \r\nintensywne nuty świeżych czerwonych jabłek, dżemu malinowego i cr&#232;me br&#251;lée, \r\nprzeplatające się z pralinami, cynamonem i prażonym dębem. Na podniebieniu \r\nodkrywamy złożone połączenie pieczonej gruszki, karmelu, ciemnej czekolady i \r\nprażonych migdałów. Głębię smaku wzmacnia leżakowanie w wypalonych beczkach z \r\ndębu oraz dodatek whisky z destylarni Braeval, która wnosi nuty rodzynek, \r\ndzikich porzeczek, agrestu, imbiru i goździków. Całość wieńczy długi, złożony \r\nfinisz z wyraźnym, pikantnym akcentem. Royal Salute The Harris Reed Edition Gold \r\n21YO to propozycja dla koneserów, którzy cenią nie tylko doskonały smak, ale i \r\nwyjątkową estetykę. Idealna na specjalne okazje lub jako prezent, który naprawdę \r\nrobi wrażenie.</SPAN></P>\r\n",
+  "description_short": "<p>Royal Salute The Harris Reed Edition Gold 21YO to wyjątkowa, limitowana whisky, będąca efektem kreatywnej współpracy z cenionym projektantem mody Harrisem Reedem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2428,
+  "id_product": 2428,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2639,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2428-whisky-chivas-royal-salute-21yo-h-reed-gold",
+  "manufacturer_name": "Chivas Regal",
+  "attribute_price": 0,
+  "price_tax_exc": 894.308943,
+  "price_without_reduction": 1100,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Wiek",
+      "value": "21 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 198
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000299637500",
+      "ean13": "5000299637500",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3439,
+      "legend": "WHISKY Chivas Royal Salute 21yo H. Reed Gold",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3439-small_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3439-small_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3439-medium_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3439-medium_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3439,
+    "legend": "WHISKY Chivas Royal Salute 21yo H. Reed Gold",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3439-small_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-small_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3439-medium_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-medium_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3439-cart_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3439-home_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3439-large_default/whisky-chivas-royal-salute-21yo-h-reed-gold.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1100,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

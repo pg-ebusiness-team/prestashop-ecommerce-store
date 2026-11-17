@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7804303555006",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "53,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-05-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2186,
+  "advanced_stock_management": "0",
+  "date_add": "2025-05-31 13:39:14",
+  "date_upd": "2025-06-10 18:02:30",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Kaiken Seleccion Cabernet Sauvignon",
+  "link_rewrite": "wino-kaiken-seleccion-cabernet-sauvignon",
+  "name": "WINO Kaiken Seleccion Cabernet Sauvignon",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Cabernet \r\nSauvignon z najlepszych posiadłości Vistalba i Agrelo (Mendoza). Dojrzewał 6 \r\nmiesięcy w nowej i starej beczce z francuskiego dębu. Piękne aromaty jagód i \r\nczarnej porzeczki. Wino krągłe, wypełniające usta, perfekcyjnie ułożone. Do \r\npieczonej wieprzowiny, risotto, makaronów i kremowych sosów. Zawartość alkoholu: \r\n14% Kaiken pochodzi od słowa \"caiquen\" i oznacza dziką gęś patagońską, która \r\nregularnie lata w Andach między Chile a Argentyną. Szczep: Cabernet\r\n Sauvignon</SPAN></P>\r\n",
+  "description_short": "<p>Cabernet Sauvignon z najlepszych posiadłości Vistalba i Agrelo (Mendoza). Dojrzewał 6 miesięcy w nowej i starej beczce z francuskiego dębu. Piękne aromaty jagód i czarnej porzeczki. Wino krągłe, wypełniające usta, perfekcyjnie ułożone.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2120,
+  "id_product": 2120,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2186,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2120-wino-kaiken-seleccion-cabernet-sauvignon",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 43.089431,
+  "price_without_reduction": 53,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Argentyna",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 22
+    },
+    {
+      "name": "Region",
+      "value": "Mendoza",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 297
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7804303555006",
+      "ean13": "7804303555006",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2941,
+      "legend": "WINO Kaiken Seleccion Cabernet Sauvignon",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2941-small_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2941-small_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2941-medium_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2941-medium_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2941,
+    "legend": "WINO Kaiken Seleccion Cabernet Sauvignon",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2941-small_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-small_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2941-medium_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-medium_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2941-cart_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2941-home_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2941-large_default/wino-kaiken-seleccion-cabernet-sauvignon.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 53,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

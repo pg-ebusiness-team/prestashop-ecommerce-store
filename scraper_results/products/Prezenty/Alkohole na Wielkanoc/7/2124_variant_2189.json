@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "9311910103103",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2189,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-10 12:06:14",
+  "date_upd": "2025-06-10 16:16:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Lehmann Layers Adelaide Red",
+  "link_rewrite": "lehmann-layers-adelaide-red",
+  "name": "Lehmann Layers Adelaide Red",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Lehmann \r\nLayers Red to czerwone wino wytrawne o urzekającej rubinowej barwie. Jego bukiet \r\npodkreśla zapachy owoców czerwonych, ciemnych wiśni z akcentem przypraw, \r\nprowadzących do subtelnego wykończenia. Shiraz wnosi owocową głębię oraz \r\nstrukturę, podczas gdy Tempranillo jest pełne charakteru i pikantności. \r\nMourvedre dodaje dzikiego, ziemistego smaku, a całość harmonizuje korzenna i \r\naromatyczna natura Grenache, która łagodzi doznania na podniebieniu. Każda z \r\nodmian jest oddzielnie fermentowana na skórkach do osiągnięcia suchości, a \r\nnastępnie dojrzewa przez sześć miesięcy w starych beczkach z francuskiego i \r\namerykańskiego dębu przed butelkowaniem pod nakrętką, co zapewnia jednolitą \r\njakość.</SPAN></P>\r\n",
+  "description_short": "<p>Lehmann Layers Red to czerwone wino wytrawne o urzekającej rubinowej barwie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2124,
+  "id_product": 2124,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2189,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2124-lehmann-layers-adelaide-red",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Australia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 23
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "9311910103103",
+      "ean13": "9311910103103",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2938,
+      "legend": "Lehmann Layers Adelaide Red",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2938-small_default/lehmann-layers-adelaide-red.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2938-small_default/lehmann-layers-adelaide-red.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2938-medium_default/lehmann-layers-adelaide-red.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2938-medium_default/lehmann-layers-adelaide-red.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2938,
+    "legend": "Lehmann Layers Adelaide Red",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2938-small_default/lehmann-layers-adelaide-red.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-small_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2938-medium_default/lehmann-layers-adelaide-red.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-medium_default/lehmann-layers-adelaide-red.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2938-cart_default/lehmann-layers-adelaide-red.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2938-home_default/lehmann-layers-adelaide-red.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2938-large_default/lehmann-layers-adelaide-red.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

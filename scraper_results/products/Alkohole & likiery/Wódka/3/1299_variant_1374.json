@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5905489720805",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "65,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-09",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1374,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-09 17:10:46",
+  "date_upd": "2025-02-20 12:50:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Bon Ton Puszka Tuńczyk",
+  "link_rewrite": "wodka-bon-ton-puszka-tunczyk",
+  "name": "WÓDKA Bon Ton Puszka Tuńczyk",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Pierwsza \r\nna świecie wódka o smaku tuńczyka, przygotowana z cytryną, gotowa do spożycia. \r\nKażda puszka jest indywidualnie numerowana, tylko po 100 puszek z każdej partii.\r\n Zapach tuńczyka z cytryną, sałatki tuńczykowej, w ogóle nie czuć alkoholu, jest\r\n za to w tle delikatna słodka nuta mokki. W smaku dużo cytryny, dominanta\r\n cytryny, skórki cytryny i tuńczyk oraz przyjemna słoność. Nie czuć mocy\r\n alkoholu, w posmaku pozostaje głównie tuńczyk. To jest \r\nto!</SPAN></P>\r\n",
+  "description_short": "<p>Pierwsza na świecie wódka o smaku tuńczyka, przygotowana z cytryną, gotowa do spożycia. Każda puszka jest indywidualnie numerowana, tylko po 100 puszek z każdej partii.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1299,
+  "id_product": 1299,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1374,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1299-wodka-bon-ton-puszka-tunczyk",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "38%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 233
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 26,
+      "id_attribute_group": 5,
+      "name": "0,2 l",
+      "group": "Pojemność",
+      "reference": "5905489720805",
+      "ean13": "5905489720805",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3597,
+      "legend": "WÓDKA Bon Ton Puszka Tuńczyk",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3597-small_default/wodka-bon-ton-puszka-tunczyk.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3597-small_default/wodka-bon-ton-puszka-tunczyk.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3597-medium_default/wodka-bon-ton-puszka-tunczyk.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3597-medium_default/wodka-bon-ton-puszka-tunczyk.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3597,
+    "legend": "WÓDKA Bon Ton Puszka Tuńczyk",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3597-small_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-small_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3597-medium_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-medium_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3597-cart_default/wodka-bon-ton-puszka-tunczyk.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3597-home_default/wodka-bon-ton-puszka-tunczyk.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3597-large_default/wodka-bon-ton-puszka-tunczyk.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 65,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

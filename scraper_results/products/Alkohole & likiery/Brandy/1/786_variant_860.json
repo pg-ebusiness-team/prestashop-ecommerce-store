@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410337070089",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 23,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "149,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 860,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-24 11:33:16",
+  "date_upd": "2024-07-24 11:33:16",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BRANDY Carlos I Gran Reserva",
+  "link_rewrite": "brandy-carlos-i-gran-reserva",
+  "name": "BRANDY Carlos I Gran Reserva",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Brandy \r\nCarlos I Gran Reserva z Jerez to trunek o niezwykle głębokiej, złotej barwie, z \r\ndelikatną nutą prażonych migdałów. Brandy Carlos I swój magiczny początek wzięła \r\n100 lat temu.... W palecie spotkać możemy wanilię fantastycznie zharmownizowaną \r\nz gałką muszkatołową. Hiszpańska brandy to destylat oparty na sherry, starzony w\r\n dębowych beczkach. Jest cięższa i słodsza od francuskich odpowiedni&shy;ków. \r\nNic dziwnego, że większość hiszpań&shy;skich producentów sherry zajmuje się też \r\nwytwarzaniem brandy, a tamtejsza produkcja koncentruje się wokół regionu Jerez\r\n de la Frontera</SPAN></P>\r\n",
+  "description_short": "<p>Brandy Carlos I Gran Reserva z Jerez to trunek o niezwykle głębokiej, złotej barwie, z delikatną nutą prażonych migdałów. Brandy Carlos I swój magiczny początek wzięła 100 lat temu.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 786,
+  "id_product": 786,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 860,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "brandy",
+  "category_name": "Brandy",
+  "link": "https://luksusowealkohole.pl/brandy/786-brandy-carlos-i-gran-reserva",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 121.138211,
+  "price_without_reduction": 149,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "38%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 233
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8410337070089",
+      "ean13": "8410337070089",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 996,
+      "legend": "BRANDY Carlos I Gran Reserva",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/996-small_default/brandy-carlos-i-gran-reserva.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/996-small_default/brandy-carlos-i-gran-reserva.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/996-medium_default/brandy-carlos-i-gran-reserva.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/996-medium_default/brandy-carlos-i-gran-reserva.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 996,
+    "legend": "BRANDY Carlos I Gran Reserva",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/996-small_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-small_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/996-medium_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-medium_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/996-cart_default/brandy-carlos-i-gran-reserva.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/996-home_default/brandy-carlos-i-gran-reserva.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/996-large_default/brandy-carlos-i-gran-reserva.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 149,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8429766265201",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "125,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-10-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1184,
+  "advanced_stock_management": "0",
+  "date_add": "2024-10-30 15:42:11",
+  "date_upd": "2024-10-30 15:42:11",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Zinio Reserva",
+  "link_rewrite": "wino-zinio-reserva",
+  "name": "WINO Zinio Reserva",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Wyjątkowość towarzyszy nam tu na każdym kroku – począwszy od \r\nmiejsca w którym rosną winogrona po samo wino. Winnica zajmująca obszar 450 \r\nhektarów, położona w samym sercu najbardziej cenionej Rioja Alta jest otoczona \r\nze wszystkich stron łańcuchami gór tworzącymi spektakularny krajobraz. Składa \r\nsię na nią prawdziwa mozaika terroir – aż 22 rodzaje gleby. Winnice są w rękach \r\nrodzinnych, a liczba tutejszych mieszkańców to niespełna 1000 osób. Seria Zinio \r\nTerroir jest poświęcona oddaniu w pełni zalet miejscowej natury i tradycji \r\nwiniarskiej. Suknia prezentuje głęboki wiśniowy kolor i blask oszlifowanego \r\ngranatu. Wino dojrzewa przez 18 miesięcy w beczkach z francuskiego dębu i w \r\nbutelce przez 24 miesiące. Bukiet tworzą nuty słodkich przypraw i aromatycznych \r\nziół, tymianku, rozmarynu, wszystko na tle toffi, czekolady i kakao. W ustach \r\njest soczyste, o pełnym ciele i trwałe, z żywymi taninami i dojrzałymi owocami. \r\nW parze z długością finiszu idzie długość potencjału dojrzewania. Polecane \r\npotrawy do tego wina to duszone&nbsp; mięso w sosie winnym, dojrzałe sery, a \r\nnawet desery z czarnymi owocami.</FONT></P>\r\n",
+  "description_short": "<p>Wyjątkowość towarzyszy nam tu na każdym kroku - począwszy od miejsca w którym rosną winogrona po samo wino.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1105,
+  "id_product": 1105,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1184,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1105-wino-zinio-reserva",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 101.626016,
+  "price_without_reduction": 125,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 15,
+  "quantity_all_versions": 15,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Rioja",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 310
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8429766265201",
+      "ean13": "8429766265201",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1697,
+      "legend": "WINO Zinio Reserva",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1697-small_default/wino-zinio-reserva.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1697-small_default/wino-zinio-reserva.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1697-medium_default/wino-zinio-reserva.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1697-medium_default/wino-zinio-reserva.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1697,
+    "legend": "WINO Zinio Reserva",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1697-small_default/wino-zinio-reserva.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-small_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1697-medium_default/wino-zinio-reserva.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-medium_default/wino-zinio-reserva.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1697-cart_default/wino-zinio-reserva.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1697-home_default/wino-zinio-reserva.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1697-large_default/wino-zinio-reserva.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 125,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

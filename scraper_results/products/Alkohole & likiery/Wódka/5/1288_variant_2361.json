@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8711566013701",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "20,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1362,
+  "advanced_stock_management": "0",
+  "date_add": "2024-12-14 12:30:56",
+  "date_upd": "2025-02-20 12:50:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Ketel One",
+  "link_rewrite": "wodka-ketel-one",
+  "name": "WÓDKA Ketel One",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wysokiej \r\nklasy wódka produkowana w Destylarni Nolet w holenderskim mieście Schiedam, \r\nwedług tradycyjnej receptury sprzed przeszło 300 lat, opracowanej przez samego\r\n założyciela owej gorzelni - Johannesa Noleta. Wódka Ketel One przesycona jest \r\nłagodnymi aromatami miodu i cytrusów, łagodnie otula podniebienie, by w finiszu\r\n pozostawić przyjemny posmak. Swą świetność trunek zawdzięcza wysokiej jakości\r\n europejskiej pszenicy, z której w 100% wyprodukowana jest wódka, oraz\r\n unikalnemu procesowi produkcji przy użyciu tradycyjnych miedzianych alembików.\r\n Doświadczenie Master Distillera, który weryfikuje czy trunek spełnia wszystkie\r\n standardy, gwarantuje iż do sprzedaży trafi jedynie najlepsza partia destylatu.\r\n Dodatkowo smak każdej partii jest testowany przez członka rodziny Nolet i\r\n dopiero po zatwierdzeniu wódka zasługuje na miano Ketel One i może zostać \r\nsprzedana.</SPAN></P>\r\n",
+  "description_short": "<p>Wysokiej klasy wódka produkowana w Destylarni Nolet w holenderskim mieście Schiedam, według tradycyjnej receptury sprzed przeszło 300 lat, opracowanej przez samego założyciela owej gorzelni - Johannesa Noleta.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1288,
+  "id_product": 1288,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2361,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1288-wodka-ketel-one",
+  "manufacturer_name": null,
+  "attribute_price": -96.747967,
+  "price_tax_exc": 16.260163,
+  "price_without_reduction": 20,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Holandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 381
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "085156018017",
+      "ean13": "085156018017",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1788,
+      "legend": "WÓDKA Ketel One",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1788-small_default/wodka-ketel-one.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1788-small_default/wodka-ketel-one.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1788-medium_default/wodka-ketel-one.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1788-medium_default/wodka-ketel-one.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1788,
+    "legend": "WÓDKA Ketel One",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1788-small_default/wodka-ketel-one.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-small_default/wodka-ketel-one.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1788-medium_default/wodka-ketel-one.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-medium_default/wodka-ketel-one.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1788-cart_default/wodka-ketel-one.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1788-home_default/wodka-ketel-one.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1788-large_default/wodka-ketel-one.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 20,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

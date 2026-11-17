@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7503035530335",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "279,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2821,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 16:06:10",
+  "date_upd": "2025-09-15 17:15:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MEZCAL Contraluz Cristalino Reposado",
+  "link_rewrite": "mezcal-contraluz-cristalino-reposado",
+  "name": "MEZCAL Contraluz Cristalino Reposado",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Contraluz \r\n Cristalino Mezcal to wyjątkowy mezcal klasy premium, produkowany z agawy \r\nEspadín  (Odmiana Angustifolia), uprawianej i zbieranej z najwyższą \r\nstarannością.  Tradycyjny proces produkcji rozpoczyna się od opalenia agawy w \r\npodziemnych  piecach, co wydobywa z rośliny naturalne cukry i nadaje mezcalowi \r\n charakterystyczne, dymne nuty. Następnie powstały zacier fermentuje nawet do 10 \r\n dni, w zależności od warunków pogodowych, by później zostać dwukrotnie \r\n destylowany w miedzianych kolumnach, co zapewnia czystość i głębię smaku. Po \r\n destylacji mezcal dojrzewa do 6 miesięcy w mocno wypalanych beczkach z \r\n amerykańskiego dębu, gdzie nabiera subtelnych nut wanilii, karmelu i drewna. \r\nAby  osiągnąć wyjątkową klarowność, trunek jest filtrowany przez węgiel drzewny, \r\nco  usuwa jego naturalną barwę, pozostawiając przejrzysty, krystaliczny destylat \r\n-  stąd nazwa \"Cristalino\". Contraluz zachwyca dobrze zbalansowanym profilem \r\n smakowym, w którym dymne akcenty idealnie współgrają z waniliową gładkością i \r\n lekką pikantnością. To mezcal dla tych, którzy szukają czegoś więcej - trunku o \r\n autentycznym charakterze, ale w nowoczesnym, eleganckim wydaniu. Idealny do \r\n picia solo, na lodzie lub jako wyrafinowana baza do koktajli - Contraluz \r\n Cristalino to nowa definicja mezcala: czysty, klarowny i pełen \r\n głębi.</SPAN></P>\r\n",
+  "description_short": "<p>Contraluz Cristalino Mezcal to wyjątkowy mezcal klasy premium, produkowany z agawy Espadín (Odmiana Angustifolia), uprawianej i zbieranej z najwyższą starannością.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2602,
+  "id_product": 2602,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2821,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/2602-mezcal-contraluz-cristalino-reposado",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 226.829268,
+  "price_without_reduction": 279,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "36%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 372
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7503035530335",
+      "ean13": "7503035530335",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3639,
+      "legend": "MEZCAL Contraluz Cristalino Reposado",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3639-small_default/mezcal-contraluz-cristalino-reposado.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3639-small_default/mezcal-contraluz-cristalino-reposado.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3639-medium_default/mezcal-contraluz-cristalino-reposado.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3639-medium_default/mezcal-contraluz-cristalino-reposado.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3639,
+    "legend": "MEZCAL Contraluz Cristalino Reposado",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3639-small_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-small_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3639-medium_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-medium_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3639-cart_default/mezcal-contraluz-cristalino-reposado.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3639-home_default/mezcal-contraluz-cristalino-reposado.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3639-large_default/mezcal-contraluz-cristalino-reposado.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 279,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5021349704126",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "229,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3099,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-05 09:37:34",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glencadam Reserva Andalucia",
+  "link_rewrite": "whisky-glencadam-reserva-andalucia",
+  "name": "WHISKY Glencadam Reserva Andalucia",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Glencadam \r\nReserva Andalucia, zgodnie ze swoją nazwą, stanowi hołd dla andaluzyjskiego \r\nregionu sherry, który od stuleci dostarcza beczki szkockiemu przemysłowi whisky. \r\nDo jej powstania wykorzystano jedne z najlepszych beczek po sherry znajdujących \r\nsię w magazynach Glencadam, starannie wyselekcjonowane przez Mistrza Destylacji \r\nRoberta Fleminga. Whisky z tych beczek została połączona z niewielką ilością \r\ndestylatu dojrzewającego w beczkach po bourbonie, a następnie całość poddano \r\ndalszemu leżakowaniu w beczkach po sherry oloroso, gdzie kompozycja dojrzewała \r\naż do momentu butelkowania z mocą 46%. W kieliszku prezentuje się bursztynową \r\nbarwą, a w aromacie ujawnia subtelne nuty nugatu, żółtych rodzynek i miodu. W \r\nsmaku jest wyjątkowo kremowa, krągła i doskonale zbalansowana, z wyraźnym \r\nwpływem sherry objawiającym się tonami suszonych owoców, przede wszystkim \r\nrodzynek, ciemnego cukru trzcinowego oraz czekoladowej polewy, z delikatnym \r\nakcentem zielonej herbaty pojawiającym się w finiszu. To whisky, która najlepiej \r\nsmakuje pita bez dodatków, pozwalając w pełni docenić jej elegancki charakter. \r\n</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gorzelnia \r\nGlencadam, rozpoznawalna dzięki charakterystycznemu czerwonemu kominowi, \r\nznajduje się w mieście Brechin i należy do nielicznych zachowanych destylarni \r\nregionu East Highlands. Została założona w 1825 roku, krótko po wejściu w życie \r\nustawy akcyzowej z 1823 roku, która zalegalizowała destylację na większą skalę w \r\nSzkocji. Od 2003 roku destylarnia jest własnością firmy Angus Dundee, a od 2005 \r\nroku pracuje nieprzerwanie przez całą dobę. Mimo to metody produkcji pozostały \r\nniemal niezmienione – wciąż używana jest żeliwna kadź zacierna oraz dwa \r\nspecjalnie zaprojektowane alembiki, które nadają destylatowi lekki i elegancki \r\nstyl. Do dziś wykorzystywane są również dwa oryginalne magazyny z 1825 roku. \r\nChoć większość produkcji trafia do whisky typu blended, zainteresowanie single\r\n maltami Glencadam wyraźnie wzrosło po przejęciu przez Angus Dundee, czego\r\n efektem była m.in. gruntowna reforma podstawowej oferty w 2016 roku. Warto\r\n podkreślić, że Glencadam nie stosuje filtracji na zimno ani barwienia whisky\r\n karmelem.</SPAN></P>\r\n",
+  "description_short": "<p>Glencadam Reserva Andalucia, zgodnie ze swoją nazwą, stanowi hołd dla andaluzyjskiego regionu sherry, który od stuleci dostarcza beczki szkockiemu przemysłowi whisky.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2902,
+  "id_product": 2902,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3099,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2902-whisky-glencadam-reserva-andalucia",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.178862,
+  "price_without_reduction": 229,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "Bez deklaracji wieku",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 621
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5021349704126",
+      "ean13": "5021349704126",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4411,
+      "legend": "WHISKY Glencadam Reserva Andalucia",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4411-small_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4411-small_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4411-medium_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4411-medium_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4412,
+      "legend": "WHISKY Glencadam Reserva Andalucia",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4412-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4412-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4412-small_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4412-small_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4412-home_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4412-home_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4412-medium_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4412-medium_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4412-large_default/whisky-glencadam-reserva-andalucia.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4412-large_default/whisky-glencadam-reserva-andalucia.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4412-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4412-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4412-home_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4412-home_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4412-large_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4412-large_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4411,
+    "legend": "WHISKY Glencadam Reserva Andalucia",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4411-small_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-small_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4411-medium_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-medium_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4411-cart_default/whisky-glencadam-reserva-andalucia.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4411-home_default/whisky-glencadam-reserva-andalucia.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4411-large_default/whisky-glencadam-reserva-andalucia.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 229,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

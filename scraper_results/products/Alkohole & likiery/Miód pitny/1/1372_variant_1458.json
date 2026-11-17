@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5908268446132",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 30,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1458,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-30 18:49:07",
+  "date_upd": "2025-02-20 12:50:32",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MIÓD PITNY Nidzica Bartniak Dwójniak",
+  "link_rewrite": "miod-pitny-nidzica-bartniak-dwojniak",
+  "name": "MIÓD PITNY Nidzica Bartniak Dwójniak",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bartniak \r\njest miodem pitnym o wyrazistym, dojrzałym smaku i aromacie pochodzącym z \r\ndodatku przypraw ziołowo-korzennych. Przepełniony taninami dębowych kuf w \r\nefekcie kilkunastoletniego leżakowania. Trunek ten doskonale komponuje się jako\r\n składnik aperitifu jak również z daniami z czerwonym mięsem lub rybami. Stanowi\r\n także doskonałą bazę do sporządzania drinków czy jako dodatek do kawy czy \r\nherbaty..</SPAN></P>\r\n",
+  "description_short": "<p>Bartniak jest miodem pitnym o wyrazistym, dojrzałym smaku i aromacie pochodzącym z dodatku przypraw ziołowo-korzennych. Przepełniony taninami dębowych kuf w efekcie kilkunastoletniego leżakowania.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1372,
+  "id_product": 1372,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1458,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "miod-pitny",
+  "category_name": "Miód pitny",
+  "link": "https://luksusowealkohole.pl/miod-pitny/1372-miod-pitny-nidzica-bartniak-dwojniak",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Wiek",
+      "value": "15 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 186
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5908268446132",
+      "ean13": "5908268446132",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1912,
+      "legend": "MIÓD PITNY Nidzica Bartniak Dwójniak",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1912-small_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1912-small_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1912-medium_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1912-medium_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1912,
+    "legend": "MIÓD PITNY Nidzica Bartniak Dwójniak",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1912-small_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-small_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1912-medium_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-medium_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1912-cart_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1912-home_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1912-large_default/miod-pitny-nidzica-bartniak-dwojniak.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

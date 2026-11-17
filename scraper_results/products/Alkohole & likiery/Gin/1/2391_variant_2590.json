@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4009415333198",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "130,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2590,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-31 18:37:48",
+  "date_upd": "2025-07-31 18:42:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Hanami",
+  "link_rewrite": "gin-hanami",
+  "name": "GIN Hanami",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Zainspirowany \r\nduchem zen i japońską filozofią równowagi, Hanami Dry Gin to ręcznie tworzony \r\ntrunek, powstający z poszanowaniem czasu, rzemiosła i natury. W hołdzie dawnym \r\nmistrzom, nasz mistrz destylacji dba o każdy szczegół procesu, by zapewnić \r\nniepowtarzalną jakość i doskonałość smaku. Stworzony na bazie wielowiekowej \r\nholenderskiej receptury London Dry Gin, Hanami wzbogacony jest o naturalną \r\nesencję kwiatu wiśni oraz starannie dobrane zioła. Te wyjątkowe składniki tworzą \r\nharmonijną kompozycję - świeże nuty jałowca, pikantne przyprawy, cytrusowa \r\nlekkość i subtelna kwiatowa słodycz dają razem wielowarstwowy, wyważony profil \r\nsmakowy. Nazwa \"Hanami\" nawiązuje do japońskiej tradycji podziwiania kwitnących\r\n wiśni, będącej symbolem ulotności życia i piękna chwili. To przesłanie przenika\r\n także charakter tego ginu, który oferuje delikatne, ale głębokie doznania\r\n aromatyczne. Destylowany w niewielkich partiach, Hanami Gin (43%, 0,7 l)\r\n wyróżnia się wyjątkową gładkością i czystością. Świetnie smakuje solo, z kostką \r\nlodu lub jako baza do wyrafinowanych koktajli.</SPAN></P>\r\n<P><STRONG>Nagrody i wyróżnienia:</STRONG></P>\r\n<UL style=\"list-style-type: disc; direction: ltr;\">\r\n  <LI style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal;'>\r\n  <P style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;' \r\n  data-end=\"1419\" data-start=\"1358\"><SPAN \r\n  style=\"mso-spacerun: yes;\">&nbsp;</SPAN><STRONG data-end=\"1388\" data-start=\"1361\">Złoty \r\n  medal &amp; 93 punkty</STRONG>, Exceptional Tastings (2017)</P></LI>\r\n  <LI style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal;'>\r\n  <P style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;' \r\n  data-end=\"1472\" data-start=\"1422\"><SPAN \r\n  style=\"mso-spacerun: yes;\">&nbsp;</SPAN><STRONG data-end=\"1444\" data-start=\"1425\">Złoto \r\n  za design</STRONG>, Gin Awards London (2017)</P></LI>\r\n  <LI style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal;'>\r\n  <P style='color: rgb(0, 0, 0); font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; font-style: normal; font-weight: normal; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt;' \r\n  data-end=\"1544\" data-start=\"1475\"><SPAN \r\n  style=\"mso-spacerun: yes;\">&nbsp;</SPAN><STRONG data-end=\"1495\" data-start=\"1478\">Srebrny \r\n  medal</STRONG>, International Wine &amp; Spirits Competition \r\n(2015)</P></LI></UL>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><FONT \r\nface=\"Calibri\">&nbsp;</FONT></P>\r\n",
+  "description_short": "<p>Zainspirowany duchem zen i japońską filozofią równowagi, Hanami Dry Gin to ręcznie tworzony trunek, powstający z poszanowaniem czasu, rzemiosła i natury.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2391,
+  "id_product": 2391,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2590,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/2391-gin-hanami",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 105.691057,
+  "price_without_reduction": 130,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Holandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 381
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4009415333198",
+      "ean13": "4009415333198",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3399,
+      "legend": "GIN Hanami",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3399-small_default/gin-hanami.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3399-small_default/gin-hanami.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3399-medium_default/gin-hanami.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3399-medium_default/gin-hanami.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3399,
+    "legend": "GIN Hanami",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3399-small_default/gin-hanami.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-small_default/gin-hanami.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3399-medium_default/gin-hanami.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-medium_default/gin-hanami.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3399-cart_default/gin-hanami.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3399-home_default/gin-hanami.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3399-large_default/gin-hanami.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 130,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

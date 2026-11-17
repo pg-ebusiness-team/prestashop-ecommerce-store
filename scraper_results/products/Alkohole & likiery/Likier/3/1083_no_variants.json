@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3018300004922",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-10-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2024-10-28 09:56:06",
+  "date_upd": "2024-10-28 17:45:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Grand Marnier Rouge",
+  "link_rewrite": "likier-grand-marnier-rouge",
+  "name": "LIKIER Grand Marnier Rouge",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grand \r\nMarnier Cordon Rouge to chyba najbardziej znany francuski likier pomarańczowy. \r\nOd 1870 r. firma Marnier-Lapostolle próbowała różnych połączeń koniaku i \r\nhaitańskich pomarańczami. Rozwój swej firmy, która od ponad stu lat zajmuje się \r\npro&shy;dukcją jednego z najlepszych likie&shy;rów pomarańczowych świata. Proces \r\nprodukcji zaczyna się od umieszczenia skórek pomarańczy w koniaku, by \r\nprzesiąknął ich zapachem. Następnie dodaje się mieszankę ziół i całość poddaje \r\nsię destylacji. W skład tego unikalnego trunku wchodzą: prawdziwy koniak, \r\nwy&shy;ciąg z gorzkich pomarańczy i inne składniki, które wraz poddawaniem \r\ngotowego zestawu dalszemu starzeniu, zapewniają tak niepo&shy;wtarzalny smak. \r\nChoć Grand Marnier jest świetnym dodatkiem do drinków, wśród konsumentów tego \r\nszlachetnego trunku są tacy, którzy uwielbiają pić go bez żadnych \r\ndodatków.</SPAN></P>\r\n",
+  "description_short": "<p>Grand Marnier Cordon Rouge to chyba najbardziej znany francuski likier pomarańczowy. Od 1870 r. firma Marnier-Lapostolle próbowała różnych połączeń koniaku i haitańskich pomarańczami.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1083,
+  "id_product": 1083,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1083-likier-grand-marnier-rouge-3018300004922",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1758,
+      "legend": "LIKIER Grand Marnier Rouge",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1758-small_default/likier-grand-marnier-rouge.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1758-small_default/likier-grand-marnier-rouge.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1758-medium_default/likier-grand-marnier-rouge.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1758-medium_default/likier-grand-marnier-rouge.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1758,
+    "legend": "LIKIER Grand Marnier Rouge",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1758-small_default/likier-grand-marnier-rouge.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-small_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1758-medium_default/likier-grand-marnier-rouge.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-medium_default/likier-grand-marnier-rouge.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1758-cart_default/likier-grand-marnier-rouge.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1758-home_default/likier-grand-marnier-rouge.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1758-large_default/likier-grand-marnier-rouge.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

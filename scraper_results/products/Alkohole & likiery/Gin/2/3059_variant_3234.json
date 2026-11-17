@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000291025824",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "125,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3234,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-04 23:32:19",
+  "date_upd": "2026-09-04 23:32:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Tanqueray Royale Blackcurrant 41.3%  0,7l",
+  "link_rewrite": "gin-tanqueray-royale-blackcurrant-413-07l",
+  "name": "GIN Tanqueray Royale Blackcurrant 41.3%  0,7l",
+  "description": "GIN Tanqueray Royale Blackcurrant 41,3% 0,7 L<BR>Tanqueray Blackcurrant \r\nRoyale to wyrafinowany gin premium, który łączy charakterystyczną, klasyczną \r\nbazę Tanqueray London Dry Gin z intensywnym, owocowym akcentem czarnej \r\nporzeczki. To elegancka propozycja dla osób, które cenią klasyczny gin, ale \r\nposzukują bardziej owocowego i nowoczesnego wydania.<BR>W aromacie dominują \r\nsoczyste owoce czarnej porzeczki, którym towarzyszą subtelne nuty jałowca, \r\nwanilii oraz delikatne akcenty kwiatowe. Na podniebieniu gin jest owocowy, \r\nintensywny i harmonijny, z przyjemnym połączeniem słodko-kwaśnych nut porzeczki \r\ni charakterystycznej ziołowości jałowca. Finisz pozostaje elegancki, lekko \r\nkorzenny i świeży.<BR>Tanqueray Blackcurrant Royale doskonale sprawdza się w \r\nklasycznym połączeniu z tonikiem, szczególnie z jego bardziej wytrawnymi \r\nwariantami. Świetnie komponuje się również z koktajlami, w których owocowy \r\ncharakter ginu może w pełni wybrzmieć.<BR>To stylowy i efektowny gin premium, \r\nktóry doskonale sprawdzi się zarówno podczas eleganckiego spotkania, jak i jako \r\nwyjątkowy prezent dla miłośnika ginów.\r\n",
+  "description_short": "<p>GIN Tanqueray Royale Blackcurrant 41,3% 0,7 L<br/>Tanqueray Blackcurrant Royale to wyrafinowany gin premium, który łączy charakterystyczną, klasyczną bazę Tanqueray London Dry Gin z intensywnym, owocowym akcentem czarnej porzeczki.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3059,
+  "id_product": 3059,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3234,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/3059-gin-tanqueray-royale-blackcurrant-413-07l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 101.626016,
+  "price_without_reduction": 125,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wielka Brytania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 239
+    },
+    {
+      "name": "Alkohol",
+      "value": "41,3%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 333
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Gin",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 634
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000291025824",
+      "ean13": "5000291025824",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4826,
+      "legend": "GIN Tanqueray Royale Blackcurrant 41.3%  0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4826-small_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4826-small_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4826-medium_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4826-medium_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4826,
+    "legend": "GIN Tanqueray Royale Blackcurrant 41.3%  0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4826-small_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-small_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4826-medium_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-medium_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4826-cart_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4826-home_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4826-large_default/gin-tanqueray-royale-blackcurrant-413-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 125,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

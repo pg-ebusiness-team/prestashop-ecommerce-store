@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8001935005407",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "145,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3259,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-17 22:09:34",
+  "date_upd": "2026-09-17 23:42:03",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WŁOCHY Antinori Chianti Classico Riserva 14% 0,75l",
+  "link_rewrite": "wlochy-antinori-chianti-classico-riserva-14-075l",
+  "name": "WŁOCHY Antinori Chianti Classico Riserva 14% 0,75l",
+  "description": "<p>WINO WŁOCHY Antinori Chianti Classico Riserva 14% 0,75L – szlachetne wino z serca Toskanii<br />WŁOCHY Antinori Chianti Classico Riserva 14% 0,75L to eleganckie czerwone wino z jednego z najbardziej cenionych regionów winiarskich Włoch. Za jego produkcją stoi Marchesi Antinori, którego historia sięga wielu pokoleń. Chianti Classico Riserva Antinori łączy charakterystyczną dla Sangiovese świeżość i kwasowość z aksamitnymi taninami, dojrzałym owocem oraz subtelnymi nutami dojrzewania w dębie.<br />Charakterystyka wina<br />W kieliszku Antinori Chianti Classico Riserva prezentuje intensywną, rubinową barwę. Aromat jest złożony i elegancki – pojawiają się dojrzałe wiśnie, czerwone owoce leśne, porzeczki i maliny, a w zależności od rocznika także nuty granatu, kandyzowanej pomarańczy oraz delikatne akcenty kwiatowe. Całość uzupełniają subtelne aromaty wanilii, tytoniu, lukrecji, przypraw i dębu.<br />Na podniebieniu Chianti Classico Riserva Antinori jest pełne, harmonijne i dobrze zbudowane. Charakterystyczna dla Sangiovese świeża kwasowość nadaje winu energii, natomiast jedwabiste, dojrzałe taniny zapewniają elegancką strukturę. Finisz jest długi i wyrazisty, z owocowo-korzennymi akcentami oraz subtelną nutą dębu.<br />Styl i dojrzewanie<br />Antinori Chianti Classico Riserva to interpretacja klasycznego toskańskiego stylu. Wino powstaje na bazie Sangiovese z dodatkiem innych odmian uzupełniających, a po fermentacji dojrzewa w dębie, przede wszystkim w większych beczkach oraz częściowo w barriques. Dzięki temu zyskuje większą złożoność, głębię i aksamitność, zachowując jednocześnie charakterystyczną świeżość Sangiovese.<br />Z czym podawać?<br />WINO Antinori Chianti Classico Riserva doskonale komponuje się z:<br />stekami i wołowiną,<br />jagnięciną,<br />dziczyzną,<br />makaronami z sosami mięsnymi,<br />lasagne i klasyczną kuchnią włoską,<br />grillowanymi mięsami,<br />dojrzałymi serami.<br />Najlepiej podawać w temperaturze 16–18°C. Przed degustacją warto pozwolić winu chwilę pooddychać w kieliszku lub karafce.</p>",
+  "description_short": "<p>WINO WŁOCHY Antinori Chianti Classico Riserva 14% 0,75L – szlachetne wino z serca Toskanii<br />WŁOCHY Antinori Chianti Classico Riserva 14% 0,75L to eleganckie czerwone wino z jednego z najbardziej cenionych regionów winiarskich Włoch. Za jego produkcją stoi</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3107,
+  "id_product": 3107,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3259,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3107-wlochy-antinori-chianti-classico-riserva-14-075l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 117.886179,
+  "price_without_reduction": 145,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Toskania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 426
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Sangiovese",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 133
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8001935005407",
+      "ean13": "8001935005407",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4889,
+      "legend": "WŁOCHY Antinori Chianti Classico Riserva 14% 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4889-small_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4889-small_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4889-medium_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4889-medium_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4889,
+    "legend": "WŁOCHY Antinori Chianti Classico Riserva 14% 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4889-small_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-small_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4889-medium_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-medium_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4889-cart_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4889-home_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4889-large_default/wlochy-antinori-chianti-classico-riserva-14-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 145,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

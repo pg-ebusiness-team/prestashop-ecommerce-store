@@ -1,0 +1,281 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "897076002010",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "20,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 987,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 12:28:29",
+  "date_upd": "2025-07-14 10:34:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Bulldog London",
+  "link_rewrite": "gin-bulldog-london",
+  "name": "GIN Bulldog London",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gin \r\nklasy super-premium, zdobywca wielu prestiżowych nagród, ręcznie produkowany w\r\n londyńskiej gorzelni. W jego skład wchodzi 12 różnych komponentów roślinnych z\r\n ośmiu krajów świata m. in. longan z Chin, który dodaje trunkowi nieco słodyczy,\r\n a także turecki mak i azjatyckie liście lotosu. Jego bukiet przepełniają, poza\r\n jałowcowym, aromaty cytrusowe i kwiatowe. W ustach początkowo dominuje\r\n jałowiec, ale po chwili pojawiają się kolejne roślinne nuty, wśród nich \r\nlawenda, cytrusy, świeże zioła. Gin Bulldog posiada certyfikat koszerności, może \r\nbyć też degustowany przez wegan.</SPAN></P>\r\n",
+  "description_short": "<p>Gin klasy super-premium, zdobywca wielu prestiżowych nagród, ręcznie produkowany w londyńskiej gorzelni.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 899,
+  "id_product": 899,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2409,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/899-gin-bulldog-london",
+  "manufacturer_name": null,
+  "attribute_price": -96.747967,
+  "price_tax_exc": 16.260163,
+  "price_without_reduction": 20,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Anglia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 353
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "897076002027",
+      "ean13": "897076002027",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3205,
+      "legend": "GIN Bulldog London",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3205-cart_default/gin-bulldog-london.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3205-cart_default/gin-bulldog-london.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3205-small_default/gin-bulldog-london.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3205-small_default/gin-bulldog-london.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3205-home_default/gin-bulldog-london.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3205-home_default/gin-bulldog-london.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3205-medium_default/gin-bulldog-london.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3205-medium_default/gin-bulldog-london.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3205-large_default/gin-bulldog-london.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3205-large_default/gin-bulldog-london.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3205-cart_default/gin-bulldog-london.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3205-cart_default/gin-bulldog-london.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3205-home_default/gin-bulldog-london.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3205-home_default/gin-bulldog-london.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3205-large_default/gin-bulldog-london.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3205-large_default/gin-bulldog-london.jpg"
+        }
+      },
+      "associatedVariants": [
+        2409
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1544,
+    "legend": "GIN Bulldog London",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1544-cart_default/gin-bulldog-london.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1544-cart_default/gin-bulldog-london.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1544-small_default/gin-bulldog-london.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1544-small_default/gin-bulldog-london.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1544-home_default/gin-bulldog-london.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1544-home_default/gin-bulldog-london.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1544-medium_default/gin-bulldog-london.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1544-medium_default/gin-bulldog-london.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1544-large_default/gin-bulldog-london.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1544-large_default/gin-bulldog-london.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1544-cart_default/gin-bulldog-london.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1544-cart_default/gin-bulldog-london.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1544-home_default/gin-bulldog-london.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1544-home_default/gin-bulldog-london.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1544-large_default/gin-bulldog-london.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1544-large_default/gin-bulldog-london.jpg"
+      }
+    },
+    "associatedVariants": [
+      987
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 20,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

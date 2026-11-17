@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5908268446163",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 30,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2808,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 10:51:10",
+  "date_upd": "2025-09-15 11:51:24",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MIÓD PITNY Mellis 21yo",
+  "link_rewrite": "miod-pitny-mellis-21yo",
+  "name": "MIÓD PITNY Mellis 21yo",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Mellis \r\nto najstarszy i najbardziej szlachetny półtorak w naszej ofercie - wyjątkowy \r\nmiód pitny o zawartości alkoholu na poziomie 16%, który przez ponad 21 lat \r\ndojrzewał w dębowych beczkach. Jego długi proces leżakowania sprawia, że jest \r\nniezwykle bogaty w smaku, głęboki i intensywny w aromacie, a przez wielu \r\nnazywany jest Miodem Królewskim. Produkcja Mellisa oparta jest na tradycyjnej, \r\nstaropolskiej recepturze, w której stosuje się proporcję 1 litra miodu na 0,5 \r\nlitra wody - charakterystyczną dla najbardziej esencjonalnego typu miodów \r\npitnych, czyli półtoraków. To właśnie ta gęsta i bogata kompozycja, wraz z \r\ndługim okresem dojrzewania (zwykle minimum 8-10 lat, w przypadku Mellisa \r\nznacznie dłuższym), nadaje mu deserowy charakter i sprawia, że doskonale \r\nsprawdza się po posiłku, wspomagając trawienie. Szczególną wersją tego trunku \r\njest Mellis z bursztynem, w której zatopiono kawałki bałtyckiego bursztynu, \r\nznanego również jako sukcynit. Ten naturalny skarb, liczący nawet 40-50 milionów \r\nlat, uznawany jest za najstarszy bursztyn na świecie. Uwolnione z niego związki \r\nod wieków wykorzystywane są w medycynie naturalnej - przypisuje się im działanie \r\nwspierające zdrowie i łagodzące różne dolegliwości. Mellis to miód pitny dla \r\nkoneserów - wyjątkowy, historyczny i niepowtarzalny w swoim charakterze. Idealny \r\nna wyjątkowe okazje, jako prezent lub luksusowy trunek \r\ndegustacyjny.</SPAN></P>\r\n",
+  "description_short": "<p>Mellis to najstarszy i najbardziej szlachetny półtorak w naszej ofercie - wyjątkowy miód pitny o zawartości alkoholu na poziomie 16%, który przez ponad 21 lat dojrzewał w dębowych beczkach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2589,
+  "id_product": 2589,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2808,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "miod-pitny",
+  "category_name": "Miód pitny",
+  "link": "https://luksusowealkohole.pl/miod-pitny/2589-miod-pitny-mellis-21yo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "16,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 235
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Wiek",
+      "value": "21 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 198
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5908268446163",
+      "ean13": "5908268446163",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3626,
+      "legend": "MIÓD PITNY Mellis 21yo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3626-small_default/miod-pitny-mellis-21yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3626-small_default/miod-pitny-mellis-21yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3626-medium_default/miod-pitny-mellis-21yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3626-medium_default/miod-pitny-mellis-21yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3626,
+    "legend": "MIÓD PITNY Mellis 21yo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3626-small_default/miod-pitny-mellis-21yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-small_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3626-medium_default/miod-pitny-mellis-21yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-medium_default/miod-pitny-mellis-21yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3626-cart_default/miod-pitny-mellis-21yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3626-home_default/miod-pitny-mellis-21yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3626-large_default/miod-pitny-mellis-21yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

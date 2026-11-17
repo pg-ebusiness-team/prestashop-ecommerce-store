@@ -1,0 +1,276 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8019873578006",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "69,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-16 14:08:59",
+  "date_upd": "2026-07-16 15:12:31",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WŁOCHY Terre Natuzzi Chianti Riserva 0,75l",
+  "link_rewrite": "wlochy-terre-natuzzi-chianti-riserva-075l",
+  "name": "WŁOCHY Terre Natuzzi Chianti Riserva 0,75l",
+  "description": "\r\n<P class=\"font-claude-response-body break-words whitespace-normal\">Chianti \r\nRiserva od winiarni Terre Natuzzi to klasyczne czerwone wino z serca Toskanii, \r\npowstające niedaleko Florencji – regionu słynącego z upraw Sangiovese i \r\nwielowiekowej tradycji winiarskiej. To wino typu Riserva, a więc dłużej \r\ndojrzewające i pełniejsze w charakterze niż standardowe Chianti.</P>\r\n<H3 \r\nclass=\"text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold\">Charakterystyka</H3>\r\n<P class=\"font-claude-response-body break-words whitespace-normal\">Wino powstaje \r\nz połączenia szczepów <STRONG>Sangiovese i Cabernet Sauvignon</STRONG>, co daje \r\ntrunek o pełnym, mocnym charakterze i dobrze wyważonej relacji między \r\nkwasowością a taninami. W aromacie dominują nuty dębu, wanilii i tytoniu, którym \r\ntowarzyszą ciemne owoce (śliwka, jeżyna) oraz czerwone owoce (wiśnia, żurawina, \r\nmalina), a w tle wyczuć można nuty ziemiste i lekko korzenne – efekt dojrzewania \r\nw beczkach.</P>\r\n<H3 class=\"text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold\">Degustacja i \r\nserwowanie</H3>\r\n<P class=\"font-claude-response-body break-words whitespace-normal\">Pełne i \r\nwyraziste, doskonale sprawdzi się jako towarzysz dań mięsnych – wołowiny, \r\ncielęciny, drobiu oraz jagnięciny. Najlepiej smakuje podane w temperaturze \r\n16–18°C, w szerokim kieliszku do czerwonego wina, który pozwoli w pełni rozwinąć \r\njego bukiet.</P>\r\n<H3 class=\"text-text-100 mt-3 -mb-1 text-[1.125rem] font-bold\">Region</H3>\r\n<P class=\"font-claude-response-body break-words whitespace-normal\">Toskania to \r\njeden z najbardziej rozpoznawalnych regionów winiarskich Europy, znany przede \r\nwszystkim z win na bazie szczepu Sangiovese – w tym Chianti, Brunello di \r\nMontalcino czy Vino Nobile di Montepulciano. Chianti Riserva Terre Natuzzi \r\nwpisuje się w tę tradycję, oferując autentyczny smak toskańskiej ziemi w \r\nprzystępnej cenie.</P>\r\n",
+  "description_short": "<p>Chianti Riserva DOCG – Terre Natuzzi<br/>Włochy | Toskania | 0,75 l<br/>Chianti Riserva od winiarni Terre Natuzzi to klasyczne czerwone wino z serca Toskanii, powstające niedaleko Florencji – regionu słynącego z upraw Sangiovese i wielowiekowej tradycji winiarski</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3032,
+  "id_product": 3032,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3032-wlochy-terre-natuzzi-chianti-riserva-075l-8019873578006",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.097561,
+  "price_without_reduction": 69,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Toskania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 426
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    },
+    {
+      "name": "Szczep",
+      "value": "Sangiovese",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 133
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4794,
+      "legend": "WŁOCHY Terre Natuzzi Chianti Riserva 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4794-small_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4794-small_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4794-medium_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4794-medium_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4794,
+    "legend": "WŁOCHY Terre Natuzzi Chianti Riserva 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4794-small_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-small_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4794-medium_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-medium_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4794-cart_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4794-home_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4794-large_default/wlochy-terre-natuzzi-chianti-riserva-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 69,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

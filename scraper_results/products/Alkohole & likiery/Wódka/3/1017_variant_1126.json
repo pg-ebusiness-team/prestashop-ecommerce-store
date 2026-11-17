@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010103916738",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-09-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1126,
+  "advanced_stock_management": "0",
+  "date_add": "2024-09-21 16:58:55",
+  "date_upd": "2024-10-11 15:36:36",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Ciroc",
+  "link_rewrite": "wodka-ciroc",
+  "name": "WÓDKA Ciroc",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Ciroc \r\nVodka to jedyna w swoim rodzaju francuska wódka wyprodukowana z winogron, \r\nprzeznaczona dla największych koneserów. Reklamuje ją amerykański producent \r\nmuzyczny i raper Sean Combes pseudonim artystyczny P. Diddy. Owoce, które \r\nużywane są do produkcji Ciroc, hodowane są w Gaillac – małym regionie w \r\npołudniowo- zachodniej Francji, między Roussillon i Pirenejami. Wódka wytwarzana \r\njest z dwóch typów winogron – Mauzac Blanc i Ugni Blanc. Zbierane są one ręcznie \r\nz pęków pozostawionych na przedłużony okres dojrzewania. Ciroc wykorzystuje \r\nzimna maceracje, zimną fermentacje i magazynowany jest też w zimnie. Do tej pory\r\n tylko najlepsi producenci wdrożyli te procesy. By wydobyć łagodny smak alkohol\r\n jest destylowany pięciokrotnie. Technika ta dalej zachowuje swoją świeżość i\r\n wydobywa unikalne aromatyczne połączenie owocowego charakteru . W wyniku\r\n destylacji cały smak winogron zanika pozostawiając niezwykle gładką \r\nkonsystencje. „Oni szukają czegoś, co smakuje jak ich styl życia. To taki trend, \r\nże ktoś, kto szuka luksusu szuka czegoś lepszego.” powiedział Sean Combes o \r\nfirmie CIROC.</SPAN></P>\r\n",
+  "description_short": "<p>Ciroc Vodka to jedyna w swoim rodzaju francuska wódka wyprodukowana z winogron, przeznaczona dla największych koneserów. Reklamuje ją amerykański producent muzyczny i raper Sean Combes pseudonim artystyczny P.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1017,
+  "id_product": 1017,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1126,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1017-wodka-ciroc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010103916738",
+      "ean13": "5010103916738",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1246,
+      "legend": "WÓDKA Ciroc",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1246-small_default/wodka-ciroc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1246-small_default/wodka-ciroc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1246-medium_default/wodka-ciroc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1246-medium_default/wodka-ciroc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1246,
+    "legend": "WÓDKA Ciroc",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1246-small_default/wodka-ciroc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-small_default/wodka-ciroc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1246-medium_default/wodka-ciroc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-medium_default/wodka-ciroc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1246-cart_default/wodka-ciroc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1246-home_default/wodka-ciroc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1246-large_default/wodka-ciroc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

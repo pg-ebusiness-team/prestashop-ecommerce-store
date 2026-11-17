@@ -1,0 +1,320 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "Zestaw VIP Męski I",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "535,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-13 13:23:22",
+  "date_upd": "2026-09-13 13:30:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "zestaw-vip-meski-i",
+  "name": "Zestaw VIP Męski I",
+  "description": "<ul>\n<li>Whisky Aberlour 12 YO – szlachetna whisky single malt<span class=\"PDq2pG_selectionAnchor\"></span></li>\n<li>Kawa Premium Blended 250 g – aromatyczna mieszanka premium</li>\n<li>Exclusive Collection Mini Czekoladki 240 g – elegancka kolekcja wykwintnych czekoladek</li>\n<li>Bombonierka marcepanowa Pistacja–Tiramisu 100 g</li>\n<li>Krówki rzemieślnicze kakaowe 220 g</li>\n<li>Eleganckie pudełko prezentowe na magnes</li>\n<li>Starannie dobrane ozdoby świąteczne</li>\n<li>Personalizowany bilecik z życzeniami</li>\n<li>Możliwość umieszczenia logo firmy</li>\n</ul>\n<p></p>\n<ul>\n<li>Profesjonalne konfekcjonowanie i przygotowanie zestawu do wręczenia</li>\n</ul>",
+  "description_short": "<h3>kskluzywny zestaw prezentowy z whisky</h3>\n<p>Elegancki <strong>zestaw prezentowy z whisky</strong> to doskonały wybór na świąteczny upominek dla klienta, pracownika lub partnera biznesowego. Szlachetna <strong>whisky Aberlour 12 YO</strong>, aromatyczna kawa Premium oraz wykwintne czekoladki, marcepan i rzemieślnicze krówki tworzą wyjątkową kompozycję dla miłośników dobrego smaku. Całość dopełnia eleganckie pudełko prezentowe z możliwością personalizacji logo firmy i bilecikiem z życzeniami.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3088,
+  "id_product": 3088,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/3088-zestaw-vip-meski-i",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 434.95935,
+  "price_without_reduction": 535.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4845,
+      "legend": "Zestaw VIP Męski I",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4845-small_default/zestaw-vip-meski-i.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4845-small_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4845-medium_default/zestaw-vip-meski-i.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4845-medium_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4846,
+      "legend": "Zestaw VIP Męski I",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4846-cart_default/zestaw-vip-meski-i.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4846-cart_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4846-small_default/zestaw-vip-meski-i.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4846-small_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4846-home_default/zestaw-vip-meski-i.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4846-home_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4846-medium_default/zestaw-vip-meski-i.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4846-medium_default/zestaw-vip-meski-i.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4846-large_default/zestaw-vip-meski-i.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4846-large_default/zestaw-vip-meski-i.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4846-cart_default/zestaw-vip-meski-i.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4846-cart_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4846-home_default/zestaw-vip-meski-i.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4846-home_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4846-large_default/zestaw-vip-meski-i.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4846-large_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4845,
+    "legend": "Zestaw VIP Męski I",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4845-small_default/zestaw-vip-meski-i.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-small_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4845-medium_default/zestaw-vip-meski-i.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-medium_default/zestaw-vip-meski-i.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4845-cart_default/zestaw-vip-meski-i.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4845-home_default/zestaw-vip-meski-i.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4845-large_default/zestaw-vip-meski-i.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 535,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

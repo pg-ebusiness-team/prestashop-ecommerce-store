@@ -1,0 +1,247 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "00013",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 43,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "65,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2263,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-28 10:09:54",
+  "date_upd": "2025-06-28 10:30:58",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "K-3 Kuferek",
+  "link_rewrite": "k-3-kuferek",
+  "name": "K-3 Kuferek",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Drewniana skrzynka Kuferek -3 na wino, kolor naturalny. Estetyczne i ekologiczne opakowanie prezentowe mieszczące trzy butelki wina. Wykonana z litego drewna sosnowego oraz sklejki brzozowej, skrzynka cechuje się naturalnym wykończeniem i surowym wyglądem, idealnym do własnej aranżacji (sprzedawana bez wypełnienia). </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Materiał: drewno sosnowe, sklejka brzozowa </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Kolor: naturalny (nielakierowany, niebarwiony) </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Wymiary: </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Wewnętrzne: wysokość 35,0 cm / szerokość 29,0 cm / głębokość 10,0 cm</span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\"> Zewnętrzne: wysokość 37,0 cm / szerokość 31,0 cm / głębokość 11,0 cm</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Drewniana skrzynka Kuferek -3 na wino, kolor naturalny.<br />Estetyczne i ekologiczne opakowanie prezentowe mieszczące trzy butelki wina.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2173,
+  "id_product": 2173,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2263,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "akcesoria",
+  "category_name": "Opakowania & Akcesoria",
+  "link": "https://luksusowealkohole.pl/akcesoria/2173-k-3-kuferek",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3067,
+      "legend": "K-3 Kuferek",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3067-small_default/k-3-kuferek.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3067-small_default/k-3-kuferek.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3067-medium_default/k-3-kuferek.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3067-medium_default/k-3-kuferek.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3067,
+    "legend": "K-3 Kuferek",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3067-small_default/k-3-kuferek.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-small_default/k-3-kuferek.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3067-medium_default/k-3-kuferek.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-medium_default/k-3-kuferek.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3067-cart_default/k-3-kuferek.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3067-home_default/k-3-kuferek.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3067-large_default/k-3-kuferek.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 65,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

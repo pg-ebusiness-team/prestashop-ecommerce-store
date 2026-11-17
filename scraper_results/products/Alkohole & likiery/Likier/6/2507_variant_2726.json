@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "90054662",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "23,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-25",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2726,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-25 14:14:55",
+  "date_upd": "2025-08-25 17:59:53",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA LIKIER Nannerl Curacao Blue",
+  "link_rewrite": "miniaturka-likier-nannerl-curacao-blue",
+  "name": "MINIATURKA LIKIER Nannerl Curacao Blue",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'>Curaçao \r\n\"Violin\" od Nannerl to prawdziwa perełka wśród likierów - miniaturowe dzieło \r\nsztuki, które łączy w sobie elegancję formy z wyjątkowym smakiem. Zachwyca \r\nintensywnie niebieską barwą oraz egzotycznym profilem smakowym, w którym \r\ngoryczka pomarańczy idealnie współgra z delikatną słodyczą. To nie tylko trunek, \r\nale i doświadczenie - idealne dla koneserów oraz kolekcjonerów ceniących \r\nwyrafinowane alkohole w unikalnym wydaniu. Likier Curaçao \"Violin\" to harmonijne \r\npołączenie tradycji, jakości i artystycznego kunsztu, zamknięte w urokliwej, \r\nnietuzinkowej butelce w kształcie skrzypiec.</SPAN></P>\r\n",
+  "description_short": "<p>Curaçao \"Violin\" od Nannerl to prawdziwa perełka wśród likierów - miniaturowe dzieło sztuki, które łączy w sobie elegancję formy z wyjątkowym smakiem. Zachwyca intensywnie niebieską barwą oraz egzotycznym profilem smakowym</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2507,
+  "id_product": 2507,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2726,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/2507-miniaturka-likier-nannerl-curacao-blue",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 18.699187,
+  "price_without_reduction": 23,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Austria",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 14
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Owocowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 549
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 40,
+      "id_attribute_group": 5,
+      "name": "0,04 l",
+      "group": "Pojemność",
+      "reference": "90054662",
+      "ean13": "90054662",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3528,
+      "legend": "MINIATURKA LIKIER Nannerl Curacao Blue",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3528-small_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3528-small_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3528-medium_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3528-medium_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3528,
+    "legend": "MINIATURKA LIKIER Nannerl Curacao Blue",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3528-small_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-small_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3528-medium_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-medium_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3528-cart_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3528-home_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3528-large_default/miniaturka-likier-nannerl-curacao-blue.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 23,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

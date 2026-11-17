@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 41,
+  "id_supplier": 0,
+  "reference": "5000267011202",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "450,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "301-category",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 132,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-17 18:47:25",
+  "date_upd": "2025-11-15 15:07:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Johnnie Walker",
+  "link_rewrite": "whisky-johnnie-walker",
+  "name": "WHISKY Johnnie Walker",
+  "description": "Johnnie Walker Red to najpopularniejsza whisky świata, przez ekspertów \r\nokreślana jako standardowa szkocka whisky wyborowa. Komponowana jest z \r\ntrzydziestu pięciu różnych odmian whisky słodowych (malt whisky) jak i z ziarna \r\nniesłodowanego (grain whisky). Wszystkie składowe Johnnie Walker Red Label są \r\ndestylowane w Szkocji, gdzie dojrzewają minimum trzy lata.\r\n",
+  "description_short": "<p>Johnnie Walker Red to najpopularniejsza whisky świata, przez ekspertów określana jako standardowa szkocka whisky wyborowa.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 96,
+  "id_product": 96,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 134,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/96-whisky-johnnie-walker",
+  "manufacturer_name": "Johnnie Walker",
+  "attribute_price": 317.073171,
+  "price_tax_exc": 365.853659,
+  "price_without_reduction": 450.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 36,
+      "id_attribute_group": 5,
+      "name": "3 l",
+      "group": "Pojemność",
+      "reference": "5000267129778",
+      "ean13": "5000267129778",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 561,
+      "legend": "WHISKY Johnnie Walker",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/561-small_default/whisky-johnnie-walker.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/561-small_default/whisky-johnnie-walker.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/561-medium_default/whisky-johnnie-walker.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/561-medium_default/whisky-johnnie-walker.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 561,
+    "legend": "WHISKY Johnnie Walker",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/561-small_default/whisky-johnnie-walker.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-small_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/561-medium_default/whisky-johnnie-walker.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-medium_default/whisky-johnnie-walker.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/561-cart_default/whisky-johnnie-walker.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/561-home_default/whisky-johnnie-walker.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/561-large_default/whisky-johnnie-walker.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 450,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępny produkt z innymi opcjami",
+  "availability_date": null,
+  "availability": "unavailable"
+}

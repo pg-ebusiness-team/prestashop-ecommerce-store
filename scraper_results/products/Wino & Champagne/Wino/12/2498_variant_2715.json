@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3760040421650",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "17,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2715,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-22 17:09:47",
+  "date_upd": "2025-08-22 18:41:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Paul Mas Sauvignon Blanc",
+  "link_rewrite": "wino-paul-mas-sauvignon-blanc",
+  "name": "WINO Paul Mas Sauvignon Blanc",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Paul \r\nMas Sauvignon Blanc to świeże, eleganckie białe wino stworzone w 100% z gron \r\nszczepu Sauvignon Blanc, pochodzących ze starych, ponad 20-letnich krzewów. \r\nWinifikacja odbywa się w kontrolowanej temperaturze, co pozwala w pełni zachować \r\nświeżość i intensywność aromatów. Gotowe wino dojrzewa przez 2 miesiące w \r\nstalowych zbiornikach, co dodatkowo podkreśla jego lekkość i rześki charakter. W \r\nkieliszku prezentuje się krystalicznie czyste, z zielonkawymi refleksami. Bukiet \r\njest typowy dla szczepu: agrest, cytrusy i owoce tropikalne, przełamane \r\nsubtelną, tostową nutą. W ustach wino jest intensywnie owocowe, lekkie i \r\nwytrawne, o aksamitnej strukturze i długim, czystym finiszu. Zawiera jedynie 3 \r\ngramy cukru resztkowego, co świadczy o jego wytrawnym stylu, ale jednocześnie \r\nświetnej równowadze smakowej. To doskonały wybór do potraw z ryb, sushi, \r\nsashimi, owoców morza, małży, a także sałatek i szparagów. Dzięki swojej żywej \r\nkwasowości i lekkości świetnie sprawdza się również jako \r\naperitif.</SPAN></P>\r\n",
+  "description_short": "<p>Paul Mas Sauvignon Blanc to świeże, eleganckie białe wino stworzone w 100% z gron szczepu Sauvignon Blanc, pochodzących ze starych, ponad 20-letnich krzewów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2498,
+  "id_product": 2498,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2715,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2498-wino-paul-mas-sauvignon-blanc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 13.821138,
+  "price_without_reduction": 17,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Langwedocja-Roussillon",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 433
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Sauvignon Blanc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 136
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 26,
+      "id_attribute_group": 5,
+      "name": "0,2 l",
+      "group": "Pojemność",
+      "reference": "3760040421650",
+      "ean13": "3760040421650",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3519,
+      "legend": "WINO Paul Mas Sauvignon Blanc",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3519-small_default/wino-paul-mas-sauvignon-blanc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3519-small_default/wino-paul-mas-sauvignon-blanc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3519-medium_default/wino-paul-mas-sauvignon-blanc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3519-medium_default/wino-paul-mas-sauvignon-blanc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3519,
+    "legend": "WINO Paul Mas Sauvignon Blanc",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3519-small_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-small_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3519-medium_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-medium_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3519-cart_default/wino-paul-mas-sauvignon-blanc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3519-home_default/wino-paul-mas-sauvignon-blanc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3519-large_default/wino-paul-mas-sauvignon-blanc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 17,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

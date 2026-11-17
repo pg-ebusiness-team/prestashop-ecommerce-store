@@ -1,0 +1,283 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3037900005443",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "590,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3276,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-14 23:40:41",
+  "date_upd": "2026-10-20 22:16:41",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Champagne Charles Heidsieck Blanc des Blancs",
+  "link_rewrite": "champagne-charles-heidsieck-blanc-des-blancs",
+  "name": "Champagne Charles Heidsieck Blanc des Blancs",
+  "description": "<div style=\"font-family:Georgia, 'Times New Roman', serif;color:#303830;font-size:14px;line-height:1.8;max-width:100%;\"><!-- WPROWADZENIE -->\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 24px;color:#303830;\"><strong style=\"color:#183b30;\">Champagne Charles Heidsieck Blanc des Blancs</strong> to wyrafinowany szampan z Francji, powstający wyłącznie ze szczepu Chardonnay. Łączy świeżość cytrusów z kremową teksturą i wielowymiarowym charakterem, z którego słynie dom Charles Heidsieck. Precyzyjna struktura, subtelna mineralność i długi, elegancki finisz czynią go propozycją dla miłośników szampanów o wyjątkowej klasie.</p>\n<!-- CHARAKTER SZAMPANA -->\n<div style=\"border-top:1px solid #d8c7a8;padding-top:22px;margin-top:24px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">CHARAKTER SZAMPANA</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:20px;line-height:1.4;font-weight:normal;color:#183b30;margin:0 0 14px;\">Chardonnay w wyrafinowanym wydaniu</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0 0 12px;\">Blanc des Blancs pokazuje elegancką stronę szczepu Chardonnay. Świeżość i cytrusowa precyzja harmonijnie łączą się z kremową strukturą oraz subtelnymi nutami wynikającymi z dojrzewania na osadzie drożdżowym. To szampan pełen finezji, a jednocześnie wyrazisty i złożony.</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Jego świeży, precyzyjny styl sprawia, że doskonale odnajduje się zarówno podczas degustacji, jak i w towarzystwie wykwintnych potraw. To propozycja dla osób ceniących szampany, w których lekkość spotyka się z głębią i elegancją.</p>\n</div>\n<!-- PROFIL SMAKOWY -->\n<div style=\"background:#faf8f3;border:1px solid #e7dcc9;padding:20px;margin:26px 0;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">PROFIL SMAKOWY</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:19px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 16px;\">Aromaty, które budują charakter</p>\n<table style=\"width:100%;border-collapse:collapse;font-family:Georgia, 'Times New Roman', serif;font-size:13px;line-height:1.6;\">\n<tbody>\n<tr>\n<td style=\"width:30%;padding:10px 8px 10px 0;border-bottom:1px solid #e7dcc9;color:#183b30;vertical-align:top;\">Aromat</td>\n<td style=\"padding:10px 0;border-bottom:1px solid #e7dcc9;vertical-align:top;\">Cytryna, grejpfrut, biała brzoskwinia, nuty kwiatowe i subtelna mineralność</td>\n</tr>\n<tr>\n<td style=\"padding:10px 8px 10px 0;border-bottom:1px solid #e7dcc9;color:#183b30;vertical-align:top;\">Smak</td>\n<td style=\"padding:10px 0;border-bottom:1px solid #e7dcc9;vertical-align:top;\">Cytrusowa świeżość, gruszka, prażone migdały i delikatne nuty brioche</td>\n</tr>\n<tr>\n<td style=\"padding:10px 8px 10px 0;color:#183b30;vertical-align:top;\">Finisz</td>\n<td style=\"padding:10px 0;vertical-align:top;\">Długi, świeży i mineralny, z eleganckim migdałowym akcentem</td>\n</tr>\n</tbody>\n</table>\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:11px;line-height:1.6;color:#77756d;margin:14px 0 0;\">Szczegółowy profil aromatyczny warto potwierdzić na podstawie informacji producenta dla konkretnej wersji szampana.</p>\n</div>\n<!-- AROMAT I SMAK -->\n<div style=\"border-top:1px solid #d8c7a8;padding-top:22px;margin-top:24px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">AROMAT I SMAK</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:19px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 14px;\">Cytrusowa świeżość i kremowa elegancja</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0 0 12px;\">W aromacie pojawiają się nuty cytryny, grejpfruta, białej brzoskwini i kwiatów. Towarzyszą im migdały, świeże pieczywo oraz delikatna mineralność, które nadają bukietowi głębi i złożoności.</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Na podniebieniu szampan jest rześki, harmonijny i kremowy. Żywa kwasowość podkreśla cytrusową owocowość, a delikatne bąbelki nadają mu lekkości. Nuty gruszki, prażonych migdałów i brioche prowadzą do długiego, świeżego finiszu.</p>\n</div>\n<!-- SZTUKA DEGUSTACJI -->\n<div style=\"background:#f7f4ed;padding:20px;margin-top:26px;border-left:2px solid #b69a6a;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">SZTUKA DEGUSTACJI</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:18px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 10px;\">Idealny do wykwintnych dań</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Charles Heidsieck Blanc des Blancs doskonale sprawdzi się jako aperitif. Warto zestawić go z ostrygami, owocami morza, przegrzebkami, delikatnymi rybami i wykwintnymi przystawkami. Jego świeżość i mineralny charakter pięknie podkreślają subtelne smaki kuchni, nie przytłaczając ich intensywnością.</p>\n</div>\n<!-- POMYSŁ NA PREZENT -->\n<div style=\"border-top:1px solid #d8c7a8;padding-top:22px;margin-top:26px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">POMYSŁ NA PREZENT</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:19px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 14px;\">Szampan dla miłośnika elegancji</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0 0 12px;\">Charles Heidsieck Blanc des Blancs to wyrafinowany prezent dla miłośnika szampana, osoby ceniącej klasyczne francuskie winiarstwo lub konesera poszukującego świeżych, precyzyjnych kompozycji.</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Sprawdzi się podczas jubileuszu, ważnej uroczystości, eleganckiej kolacji oraz jako prezent biznesowy. To wybór, który podkreśla rangę chwili i nadaje jej wyjątkową oprawę.</p>\n</div>\n<!-- PODSUMOWANIE -->\n<div style=\"border-top:1px solid #d8c7a8;border-bottom:1px solid #d8c7a8;padding:20px 0;margin-top:26px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">LUKSUSOWE ALKOHOLE</p>\n<p style=\"font-family:Georgia, 'Times New Roman', serif;font-size:18px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 10px;\">Odkryj francuską elegancję szampana</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Poznaj Champagne Charles Heidsieck Blanc des Blancs – szampana, w którym cytrusowa świeżość, kremowa struktura i mineralny finisz tworzą harmonijną kompozycję na wyjątkowe okazje.</p>\n</div>\n</div>",
+  "description_short": "<p>Champagne Charles Heidsieck Blanc des Blancs to elegancki szampan z Francji, produkowany wyłącznie ze szczepu Chardonnay. Łączy świeżość cytrusów z kremową teksturą i charakterystyczną dla domu Charles Heidsieck złożonością. To propozycja dla osób, które</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3125,
+  "id_product": 3125,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3276,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/3125-champagne-charles-heidsieck-blanc-des-blancs",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 479.674797,
+  "price_without_reduction": 590,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4911,
+      "legend": "Champagne Charles Heidsieck Blanc des Blancs",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4911-small_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4911-small_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4911-medium_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4911-medium_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4911,
+    "legend": "Champagne Charles Heidsieck Blanc des Blancs",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4911-small_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-small_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4911-medium_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-medium_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4911-cart_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4911-home_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4911-large_default/champagne-charles-heidsieck-blanc-des-blancs.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 590,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

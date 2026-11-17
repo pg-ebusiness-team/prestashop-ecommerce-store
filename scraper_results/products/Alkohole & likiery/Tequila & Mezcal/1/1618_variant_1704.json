@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8000040510004",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1704,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-22 11:54:01",
+  "date_upd": "2025-03-07 18:43:07",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "TEQUILA Espolon Reposado",
+  "link_rewrite": "tequila-espolon-reposado",
+  "name": "TEQUILA Espolon Reposado",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wytwarzana \r\nw Destiladora San Nicola. Powstaje z agawy Blue Weber, która wyróżnia się \r\nłagodnością i mocniejszą słodyczą. Jest uprawiana na wysokości 1800-2000 m. W \r\nzłotym Trójkącie w Meksyku, w sprzyjającym klimacie. Tequila starzeje się w \r\nbeczkach z amerykańskiego dębu. Czuć aromaty karmelu przypraw i agawy. W smaku \r\nzaskakują prażona agawa, tropikalne owoce oraz wanilia. Finalnie czuć długi, \r\npikantny, korzenny smak<SPAN style=\"mso-spacerun: yes;\">&nbsp; </SPAN>z nutą \r\nprażonego dębu.</SPAN></P>\r\n",
+  "description_short": "<p>Wytwarzana w Destiladora San Nicola. Powstaje z agawy Blue Weber, która wyróżnia się łagodnością i mocniejszą słodyczą.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1618,
+  "id_product": 1618,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1704,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/1618-tequila-espolon-reposado",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Reposado",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 533
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8000040510004",
+      "ean13": "8000040510004",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2104,
+      "legend": "TEQUILA Espolon Reposado",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2104-small_default/tequila-espolon-reposado.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2104-small_default/tequila-espolon-reposado.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2104-medium_default/tequila-espolon-reposado.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2104-medium_default/tequila-espolon-reposado.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2104,
+    "legend": "TEQUILA Espolon Reposado",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2104-small_default/tequila-espolon-reposado.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-small_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2104-medium_default/tequila-espolon-reposado.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-medium_default/tequila-espolon-reposado.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2104-cart_default/tequila-espolon-reposado.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2104-home_default/tequila-espolon-reposado.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2104-large_default/tequila-espolon-reposado.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

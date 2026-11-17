@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 10,
+  "id_supplier": 0,
+  "reference": "5903983406041",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "170,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1746,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-28 17:30:14",
+  "date_upd": "2025-03-26 10:36:28",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Dębowa Granat Rozrywkowy",
+  "link_rewrite": "wodka-debowa-granat-rozrywkowy",
+  "name": "WÓDKA Dębowa Granat Rozrywkowy",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wódka \r\nDębowa Granat Rozrywkowy to polska wódka, produkowana z wysokiej jakości \r\nspirytusu zbożowego. Produkowana jest na bazie unikalnej receptury, \r\nwykorzystując uzdatnioną, krystaliczną wodę oraz nalewy wyekstrahowane z \r\nwybranych roślin. Wódka leżakuje w wyselekcjonowanych dębowych beczkach, co \r\nnadaje jej oryginalnego, charakterystycznego smaku.<SPAN style=\"mso-spacerun: yes;\">&nbsp; \r\n</SPAN>Wódka Dębowa uwielbiana jest przez koneserów na całym świecie przez jej \r\nniezwykle łagodny i aksamitny smak.</SPAN></P>\r\n",
+  "description_short": "<p>Wódka Dębowa Granat Rozrywkowy to polska wódka, produkowana z wysokiej jakości spirytusu zbożowego. Produkowana jest na bazie unikalnej receptury, wykorzystując uzdatnioną, krystaliczną wodę oraz nalewy wyekstrahowane z wybranych roślin.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1659,
+  "id_product": 1659,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1746,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1659-wodka-debowa-granat-rozrywkowy",
+  "manufacturer_name": "Dębowa Polska",
+  "attribute_price": 0,
+  "price_tax_exc": 138.211382,
+  "price_without_reduction": 170,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5903983406041",
+      "ean13": "5903983406041",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2199,
+      "legend": "WÓDKA Dębowa Granat Rozrywkowy",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2199-small_default/wodka-debowa-granat-rozrywkowy.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2199-small_default/wodka-debowa-granat-rozrywkowy.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2199-medium_default/wodka-debowa-granat-rozrywkowy.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2199-medium_default/wodka-debowa-granat-rozrywkowy.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2199,
+    "legend": "WÓDKA Dębowa Granat Rozrywkowy",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2199-small_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-small_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2199-medium_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-medium_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2199-cart_default/wodka-debowa-granat-rozrywkowy.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2199-home_default/wodka-debowa-granat-rozrywkowy.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2199-large_default/wodka-debowa-granat-rozrywkowy.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 170,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

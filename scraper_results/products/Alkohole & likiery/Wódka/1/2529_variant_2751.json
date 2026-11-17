@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7312040552610",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2751,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-29 09:23:17",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Absolut Blue Movement Limited Ed.",
+  "link_rewrite": "wodka-absolut-blue-movement-limited-ed",
+  "name": "WÓDKA Absolut Blue Movement Limited Ed.",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Absolut Blue Movement Limited Edition Vodka to szwedzka wódka o charakterystycznym, aksamitnie gładkim smaku. W jej profilu smakowym dominują nuty zbożowe, a finisz wzbogacają delikatne akcenty suszonych owoców. Powstaje wyłącznie z naturalnych składników, bez dodatku cukru. Limitowana edycja butelki - Absolut Movement - czerpie inspirację z idei jedności i współpracy między różnymi środowiskami. To hołd dla siły wspólnego działania i tworzenia lepszego jutra. Ponadto, ponad 60% szkła użytego do produkcji butelki pochodzi z recyklingu, co czyni ją bardziej przyjazną dla środowiska. Historia marki sięga 1879 roku, kiedy Lars Olsson Smith wprowadził innowacyjną metodę ciągłej destylacji, dając początek Absolut Rent Brännvin. W przeciwieństwie do tradycyjnych, wieloetapowych procesów destylacji, ta technika pozwalała na nieprzerwaną produkcję wódki. W 1979 roku, dokładnie sto lat później, produkt ten powrócił na rynek pod nazwą Absolut. Do dziś wódka ta wytwarzana jest w Åhus - rodzinnym mieście założyciela marki - z lokalnych składników. Podstawę receptury stanowią czysta woda ze studni głębinowej oraz pszenica ozima, która wysiewana jest jesienią i dojrzewa pod warstwą śniegu. To właśnie dzięki temu zbożu, o twardych ziarnach i uprawianemu przy minimalnym użyciu nawozów, Absolut zyskuje swój niepowtarzalny charakter.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Absolut Blue Movement Limited Edition Vodka to szwedzka wódka o charakterystycznym, aksamitnie gładkim smaku. W jej profilu smakowym dominują nuty zbożowe, a finisz wzbogacają delikatne akcenty suszonych owoców. Powstaje wyłącznie z naturalnych składników</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2529,
+  "id_product": 2529,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2751,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2529-wodka-absolut-blue-movement-limited-ed",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szwecja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 45
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Charakter",
+      "value": "Zbożowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 301
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "7312040552610",
+      "ean13": "7312040552610",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3555,
+      "legend": "WÓDKA Absolut Blue Movement Limited Ed.",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3555-small_default/wodka-absolut-blue-movement-limited-ed.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3555-small_default/wodka-absolut-blue-movement-limited-ed.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3555-medium_default/wodka-absolut-blue-movement-limited-ed.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3555-medium_default/wodka-absolut-blue-movement-limited-ed.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3555,
+    "legend": "WÓDKA Absolut Blue Movement Limited Ed.",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3555-small_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-small_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3555-medium_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-medium_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3555-cart_default/wodka-absolut-blue-movement-limited-ed.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3555-home_default/wodka-absolut-blue-movement-limited-ed.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3555-large_default/wodka-absolut-blue-movement-limited-ed.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

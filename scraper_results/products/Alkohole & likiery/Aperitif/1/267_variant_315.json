@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3057230000253",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 21,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 315,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-22 15:41:12",
+  "date_upd": "2024-06-22 15:41:12",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "APERITIF Lillet Blanc",
+  "link_rewrite": "aperitif-lillet-blanc",
+  "name": "APERITIF Lillet Blanc",
+  "description": "<SPAN style='text-align: justify; color: rgb(102, 102, 102); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Lato, Helvetica, Arial, \"sans-serif\"; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Trunek \r\nbazuje na starannie dobranej mieszance win Bordeaux. W wariancie Blanc \r\nodnajdziemy szczepy Semillion oraz Sauvignon.</SPAN>\r\n",
+  "description_short": "<p>Trunek bazuje na starannie dobranej mieszance win Bordeaux. W wariancie Blanc odnajdziemy szczepy Semillion oraz Sauvignon.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 267,
+  "id_product": 267,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 315,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "aperitif",
+  "category_name": "Aperitif",
+  "link": "https://luksusowealkohole.pl/aperitif/267-aperitif-lillet-blanc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "17%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 290
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3057230000253",
+      "ean13": "3057230000253",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 146,
+      "legend": "APERITIF Lillet Blanc",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/146-cart_default/aperitif-lillet-blanc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/146-cart_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/146-small_default/aperitif-lillet-blanc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/146-small_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/146-home_default/aperitif-lillet-blanc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/146-home_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/146-medium_default/aperitif-lillet-blanc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/146-medium_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/146-large_default/aperitif-lillet-blanc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/146-large_default/aperitif-lillet-blanc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/146-cart_default/aperitif-lillet-blanc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/146-cart_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/146-home_default/aperitif-lillet-blanc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/146-home_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/146-large_default/aperitif-lillet-blanc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/146-large_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 147,
+      "legend": "APERITIF Lillet Blanc",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/147-small_default/aperitif-lillet-blanc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/147-small_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/147-medium_default/aperitif-lillet-blanc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/147-medium_default/aperitif-lillet-blanc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 147,
+    "legend": "APERITIF Lillet Blanc",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/147-small_default/aperitif-lillet-blanc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-small_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/147-medium_default/aperitif-lillet-blanc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-medium_default/aperitif-lillet-blanc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/147-cart_default/aperitif-lillet-blanc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/147-home_default/aperitif-lillet-blanc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/147-large_default/aperitif-lillet-blanc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

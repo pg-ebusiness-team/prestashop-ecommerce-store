@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "088320053371",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "389,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 628,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-15 14:42:42",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Pusser's 15 Y O",
+  "link_rewrite": "rum-pusser-s-15-y-o",
+  "name": "RUM Pusser's 15 Y O",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>15-letnia \r\nedycja to kompozycja starzona w dębowych beczkach. Destylaty to jej zestawienia \r\npochodzą z doliny Demerara. Dram zabutelkowany z mocą 40% alkoholu. Rum ten jest \r\ndestylowany w 300-letnich drewnianych destylatorach. Ekspresja nie ma ani \r\nsztucznych aromatów czy barwników, ani dodatku cukru.</SPAN></P>\r\n",
+  "description_short": "<p>15-letnia edycja to kompozycja starzona w dębowych beczkach. Destylaty to jej zestawienia pochodzą z doliny Demerara. Dram zabutelkowany z mocą 40% alkoholu. Rum ten jest destylowany w 300-letnich drewnianych destylatorach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 562,
+  "id_product": 562,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 628,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/562-rum-pusser-s-15-y-o",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 316.260163,
+  "price_without_reduction": 389,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Gujana",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 328
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Wiek",
+      "value": "15 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 186
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "088320053371",
+      "ean13": "088320053371",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 775,
+      "legend": "RUM Pusser's 15 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/775-small_default/rum-pusser-s-15-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/775-small_default/rum-pusser-s-15-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/775-medium_default/rum-pusser-s-15-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/775-medium_default/rum-pusser-s-15-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 775,
+    "legend": "RUM Pusser's 15 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/775-small_default/rum-pusser-s-15-y-o.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-small_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/775-medium_default/rum-pusser-s-15-y-o.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-medium_default/rum-pusser-s-15-y-o.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/775-cart_default/rum-pusser-s-15-y-o.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/775-home_default/rum-pusser-s-15-y-o.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/775-large_default/rum-pusser-s-15-y-o.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 389,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

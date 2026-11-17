@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7503002311394",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "339,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2820,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 16:01:11",
+  "date_upd": "2025-09-15 17:05:57",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MEZCAL Alipus San Andres DOP",
+  "link_rewrite": "mezcal-alipus-san-andres-dop",
+  "name": "MEZCAL Alipus San Andres DOP",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><STRONG><SPAN style='line-height: 115%; font-size: 12pt; font-weight: normal; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'><FONT \r\nface=\"Calibri\">Alipus San Andrés to rzemieślniczy mezcal produkowany z agaw \r\n Espadín oraz Bicuishe. Powstaje w regionie o wyjątkowych warunkach \r\n geograficznych - na wysokich, pagórkowatych płaskowyżach (około 1500 m n.p.m.), \r\n gdzie gleba składa się głównie z łupków. Choć nie jest to teren sprzyjający \r\n większości upraw, niektóre odmiany agawy doskonale się tam rozwijają, co nadaje \r\n mezcalowi niepowtarzalny charakter. Za produkcję odpowiada Don Valente Ángel i \r\n jego synowie z Santa María La Pila. Mezcal z ich palenque wyróżnia się \r\nbogactwem  smaków i aromatów, które są znakiem rozpoznawczym całej serii Alipús. \r\nNowsze  edycje tego trunku zawierają informację na etykiecie o wykorzystaniu \r\nmaguey  Bicuishe obok Espadín. Od wiosny 2019 roku Alipús wprowadził także \r\nmezcal San  Andrés wytwarzany przez Dona Atanasio Aragóna Martíneza, dodając \r\nnowy wymiar do  tej linii produktów. Projekt Alipús narodził się w 1999 roku \r\njako inicjatywa  Destilería Los Danzantes, mająca na celu wspieranie małych, \r\nrodzinnych plantacji  w różnych regionach Oaxaki. Pierwszym producentem był Don \r\nJoel Antonio z San  Juan del Río. Do projektu dołączyli także: Don Eduardo \r\nHernández z Santa Ana del  Río (Alipús Santa Ana), Don Cosme Hernández i jego \r\nsyn Cirilo z San Baltazar  Guelavila (Alipús San Baltazar), Don Valente Ángel z \r\nSanta María La Pila (Alipús  San Andrés), Don Baltazar Cruz i jego synowie z San \r\nLuis del Río (Alipús San  Luis, od 2013 roku), Don Felix García, Leonardo Rojas \r\ni Tío Jesús z Potrero Sola  de Vega (Alipús San Miguel). Każda z wersji Alipús \r\nto inna historia, inne  terroir i unikalna interpretacja mezcalu - wyraz \r\nlokalnej tradycji, ziemi i  kunsztu \r\ndestylatorów.</FONT></SPAN></STRONG></P>\r\n",
+  "description_short": "<p>Alipus San Andrés to rzemieślniczy mezcal produkowany z agaw Espadín oraz Bicuishe. Powstaje w regionie o wyjątkowych warunkach geograficznych - na wysokich, pagórkowatych płaskowyżach (około 1500 m n.p.m.), gdzie gleba składa się głównie z łupków.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2601,
+  "id_product": 2601,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2820,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/2601-mezcal-alipus-san-andres-dop",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 275.609756,
+  "price_without_reduction": 339,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "47,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 596
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7503002311394",
+      "ean13": "7503002311394",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3638,
+      "legend": "MEZCAL Alipus San Andres DOP",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3638-small_default/mezcal-alipus-san-andres-dop.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3638-small_default/mezcal-alipus-san-andres-dop.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3638-medium_default/mezcal-alipus-san-andres-dop.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3638-medium_default/mezcal-alipus-san-andres-dop.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3638,
+    "legend": "MEZCAL Alipus San Andres DOP",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3638-small_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-small_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3638-medium_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-medium_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3638-cart_default/mezcal-alipus-san-andres-dop.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3638-home_default/mezcal-alipus-san-andres-dop.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3638-large_default/mezcal-alipus-san-andres-dop.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 339,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8711114480696",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "16,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3236,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-04 23:37:19",
+  "date_upd": "2026-09-04 23:37:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA RUM Old Captain Carib. Rum White 0,05L",
+  "link_rewrite": "miniaturka-rum-old-captain-carib-rum-white-005l",
+  "name": "MINIATURKA RUM Old Captain Carib. Rum White 0,05L",
+  "description": "MINIATURKA RUM Old Captain Caribbean Rum White 0,05 L<BR>Old Captain \r\nCaribbean Rum White to klasyczny biały rum o lekkim i uniwersalnym charakterze, \r\ninspirowany klimatem karaibskich wysp oraz tradycją produkcji rumu. Jego \r\ndelikatny profil sprawia, że doskonale sprawdza się zarówno w degustacji, jak i \r\njako baza popularnych koktajli.<BR>W aromacie wyczuwalne są subtelne nuty \r\nwanilii, karmelu i delikatne akcenty cukrowej trzciny. Na podniebieniu rum jest \r\nlekki, łagodny i przyjemnie harmonijny, z delikatnie słodkim charakterem oraz \r\nświeżym finiszem.<BR>Miniaturowa butelka o pojemności 50 ml to doskonała \r\npropozycja dla osób, które lubią odkrywać różnorodne alkohole. Niewielki format \r\nsprawia, że rum świetnie nadaje się jako element zestawu prezentowego, drobny \r\nupominek lub ciekawy dodatek do kolekcji miniaturek.<BR>Old Captain Caribbean \r\nRum White doskonale sprawdzi się w klasycznych koktajlach, takich jak Mojito, \r\nDaiquiri czy Cuba Libre, a także jako niewielka degustacyjna porcja dla \r\nmiłośnika karaibskich trunków.\r\n",
+  "description_short": "<p>MINIATURKA RUM Old Captain Caribbean Rum White 0,05 L<br/>Old Captain Caribbean Rum White to klasyczny biały rum o lekkim i uniwersalnym charakterze, inspirowany klimatem karaibskich wysp oraz tradycją produkcji rumu. Jego delikatny profil sprawia, że doskon</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3061,
+  "id_product": 3061,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3236,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/3061-miniaturka-rum-old-captain-carib-rum-white-005l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 13.00813,
+  "price_without_reduction": 16,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Region",
+      "value": "Karabakh",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 569
+    },
+    {
+      "name": "Kolor",
+      "value": "White",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 529
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "8711114480696",
+      "ean13": "8711114480696",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4824,
+      "legend": "MINIATURKA RUM Old Captain Carib. Rum White 0,05L",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4824-small_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4824-small_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4824-medium_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4824-medium_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4824,
+    "legend": "MINIATURKA RUM Old Captain Carib. Rum White 0,05L",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4824-small_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-small_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4824-medium_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-medium_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4824-cart_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4824-home_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4824-large_default/miniaturka-rum-old-captain-carib-rum-white-005l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 16,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

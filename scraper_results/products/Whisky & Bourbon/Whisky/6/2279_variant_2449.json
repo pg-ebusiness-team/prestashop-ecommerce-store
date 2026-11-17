@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 26,
+  "id_supplier": 0,
+  "reference": "5060716145506",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "359,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2449,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-16 15:46:31",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glendronach Ode To The Dark PX",
+  "link_rewrite": "whisky-glendronach-ode-to-the-dark-px",
+  "name": "WHISKY Glendronach Ode To The Dark PX",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Kiedy \r\ndzień powoli ustępuje nocy, a mrok ogarnia świat, pojawia się zapowiedź \r\nintensywniejszych doznań. Smaki stają się głębsze i bardziej zmysłowe - to \r\nwłaśnie \"Oda do Ciemności\". </SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Nowość \r\nz 2024 roku od GlenDronach - Ode to the Dark - to wyrazista, głęboka whisky dla \r\nkoneserów ciemnych, intensywnych nut. Whisky dojrzewająca w wyjątkowych beczkach \r\npo sherry Pedro Ximénez i butelkowana z imponującą mocą ukazuje bogactwo, \r\njakiego można oczekiwać tylko od najlepszych edycji The Glendronach. Ta edycja \r\nto prawdziwa uczta - warstwy aromatów i smaków przenikają się, tworząc \r\nkompozycję pełną intensywności i elegancji. \"Ode to the Dark\" to najbardziej \r\nintensywna propozycja z kolekcji The Master's Anthology - ekskluzywnej serii \r\nsingle maltów, w której Master Blender zaprasza do odkrycia pełni aromatu i \r\ncharakteru wynikających z dojrzewania w beczkach po sherry. Każda whisky w tej \r\nserii została starannie skomponowana, by ukazać inny wymiar smaku. W tej wersji \r\nodnajdziemy aromaty mokki, czarnej wiśni i gorzkiej czekolady, które ustępują \r\nmiejsca nutom cr&#232;me br&#251;lée z rodzynkami, brązowym cukrem i delikatną \r\npikantnością imbiru. Na podniebieniu pojawiają się aksamitne nuty espresso, \r\nkarmelowego kremu, ganache z ciemnych winogron oraz subtelna nuta czekoladowej \r\nmięty. Barwa trunku zdradza intensywny wpływ aktywnych beczek po Pedro Ximénez, \r\nw których whisky dojrzewała. Jak inne edycje z tej linii, również ta nie posiada \r\ndeklaracji wieku (NAS - No Age Statement), ale wyróżnia się najwyższą mocą w \r\nserii - aż 50,8% alkoholu. </SPAN></P>\r\n",
+  "description_short": "<p>Kiedy dzień powoli ustępuje nocy, a mrok ogarnia świat, pojawia się zapowiedź intensywniejszych doznań. Smaki stają się głębsze i bardziej zmysłowe - to właśnie \"Oda do Ciemności\".</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2279,
+  "id_product": 2279,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2449,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2279-whisky-glendronach-ode-to-the-dark-px",
+  "manufacturer_name": "Glendronach",
+  "attribute_price": 0,
+  "price_tax_exc": 291.869919,
+  "price_without_reduction": 359,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "50,8%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 451
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5060716145506",
+      "ean13": "5060716145506",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3256,
+      "legend": "WHISKY Glendronach Ode To The Dark PX",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3256-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3256-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3256-small_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3256-small_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3256-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3256-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3256-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3256-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3256-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3256-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3256-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3256-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3256-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3256-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3256-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3256-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 3257,
+      "legend": "WHISKY Glendronach Ode To The Dark PX",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3257-small_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3257-small_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3257-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3257-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3257,
+    "legend": "WHISKY Glendronach Ode To The Dark PX",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3257-small_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-small_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3257-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-medium_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3257-cart_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3257-home_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3257-large_default/whisky-glendronach-ode-to-the-dark-px.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 359,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

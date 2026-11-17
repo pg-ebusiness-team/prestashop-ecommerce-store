@@ -1,0 +1,326 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 34,
+  "id_supplier": 0,
+  "reference": "3185370000021",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "249,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 921,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-31 11:10:52",
+  "date_upd": "2025-07-01 14:25:29",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Moet & Chandon Brut",
+  "link_rewrite": "champagne-moet-chandon-brut",
+  "name": "CHAMPAGNE Moet & Chandon Brut",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT face=\"Calibri\">Moët \r\n&amp; Chandon jest niekwestionowanym liderem kategorii na świecie. Marka ta to \r\nsynonim elegancji, luksusu, splendoru i przyjemności. Moët &amp; Chandon to \r\nnajbardziej pożądany szampan świata, uwielbiany przez gwiazdy światowego kina, \r\ncelebrytów. Jest wytrawną kompozycją win z winogron Chardonnay, Pinot Noir i \r\nPinot Meunier. Kompozycja zawiera 30% starannie dobranego wina z rezerwy. \r\nIdealnie pasuje do celebrowania w okresie świątecznym jak i do szalonej \r\nnoworocznej zabawy.</FONT></P>\r\n",
+  "description_short": "<p>Moët & Chandon jest niekwestionowanym liderem kategorii na świecie. Marka ta to synonim elegancji, luksusu, splendoru i przyjemności.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 843,
+  "id_product": 843,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 921,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/843-champagne-moet-chandon-brut",
+  "manufacturer_name": "Moet",
+  "attribute_price": 0,
+  "price_tax_exc": 202.439024,
+  "price_without_reduction": 249,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 24,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Meunier",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 122
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3185370000335",
+      "ean13": "3185370000335",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 893,
+      "legend": "CHAMPAGNE Moet & Chandon Brut",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/893-small_default/champagne-moet-chandon-brut.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/893-small_default/champagne-moet-chandon-brut.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/893-medium_default/champagne-moet-chandon-brut.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/893-medium_default/champagne-moet-chandon-brut.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 893,
+    "legend": "CHAMPAGNE Moet & Chandon Brut",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/893-small_default/champagne-moet-chandon-brut.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-small_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/893-medium_default/champagne-moet-chandon-brut.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-medium_default/champagne-moet-chandon-brut.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/893-cart_default/champagne-moet-chandon-brut.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/893-home_default/champagne-moet-chandon-brut.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/893-large_default/champagne-moet-chandon-brut.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 249,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

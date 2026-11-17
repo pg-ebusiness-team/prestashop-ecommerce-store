@@ -1,0 +1,297 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010327753003",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "229,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 998,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 13:03:00",
+  "date_upd": "2026-10-31 14:20:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Hendrick's Lunar",
+  "link_rewrite": "gin-hendrick-s-lunar",
+  "name": "GIN Hendrick's Lunar",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Hendrick’s Lunar to kolejne, spektakularne wydanie ginu od marki Hendrick's! Uznawany za najbardziej kwiatowy z całego portfolio trunek, którego twórcą jest Master Distiller, Leslie Gracie z Cabinet of Curiosities w Gin Palace, w Szkocji. Gin został pomyślany jako wydanie do degustacji po zachodzie słońca. Charakteryzuje się kuszącą złożonością oraz rozgrzewającym profilem. Gracie zaczerpnęła inspirację z terenów szkockiego wybrzeża Ayrshire. Z dala od świateł miast, gdzie gwiazdy są dobrze widoczne, a księżyc jest najbardziej intensywnym punktem na nocnym niebie - narodziła się nazwa dla tego ginu. Hendrick's Lunar charakteryzuje się delikatnym aromatem pieprzu, lawendy, hibiskusa i róży. Na podniebieniu odrobinę pikantny, w którym niuanse jałowca, trawy cytrynowej i wody różanej łączą się z orzeźwiającym, pomarańczowym miąższem. Finisz uwodzi akcentami wanilii, kardamonu, trawy cytrynowej i słodkiej pomarańczy. Producenci zalecają tradycyjne połączenie ginu z tonikiem. Doskonale smakuje także podawany solo. Wydanie ozdabia tematyczna etykieta.</span></p>",
+  "description_short": "<p>Hendrick's Lunar to kolejne, spektakularne wydanie ginu od marki Hendrick's! Uznawany za najbardziej kwiatowy z całego portfolio trunek, którego twórcą jest Master Distiller, Leslie Gracie z Cabinet of Curiosities w Gin Palace, w Szkocji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 910,
+  "id_product": 910,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 998,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/910-gin-hendrick-s-lunar",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.178837,
+  "price_without_reduction": 269,
+  "reduction": 40.000031,
+  "specific_prices": {
+    "id_specific_price": 153,
+    "id_specific_price_rule": 0,
+    "id_cart": 0,
+    "id_product": 910,
+    "id_shop": 0,
+    "id_shop_group": 0,
+    "id_currency": 0,
+    "id_country": 0,
+    "id_group": 0,
+    "id_customer": 0,
+    "id_product_attribute": 998,
+    "price": 218.699187,
+    "from_quantity": 1,
+    "reduction": "0.148699",
+    "reduction_tax": 1,
+    "reduction_type": "percentage",
+    "from": "0000-00-00 00:00:00",
+    "to": "0000-00-00 00:00:00",
+    "score": 32
+  },
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "43,4%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 385
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010327753003",
+      "ean13": "5010327753003",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1515,
+      "legend": "GIN Hendrick's Lunar",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1515-small_default/gin-hendrick-s-lunar.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1515-small_default/gin-hendrick-s-lunar.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1515-medium_default/gin-hendrick-s-lunar.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1515-medium_default/gin-hendrick-s-lunar.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1515,
+    "legend": "GIN Hendrick's Lunar",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1515-small_default/gin-hendrick-s-lunar.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-small_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1515-medium_default/gin-hendrick-s-lunar.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-medium_default/gin-hendrick-s-lunar.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1515-cart_default/gin-hendrick-s-lunar.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1515-home_default/gin-hendrick-s-lunar.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1515-large_default/gin-hendrick-s-lunar.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": true,
+  "discount_type": "percentage",
+  "discount_percentage": "-14,87%",
+  "discount_percentage_absolute": "14,87%",
+  "discount_amount": "40,00 zł",
+  "discount_amount_to_display": "-40,00 zł",
+  "price_amount": 229,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

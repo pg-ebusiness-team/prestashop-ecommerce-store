@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5060434135681",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-12-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3080,
+  "advanced_stock_management": "0",
+  "date_add": "2025-12-15 19:19:43",
+  "date_upd": "2025-12-21 14:40:14",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Ukiyo Dry",
+  "link_rewrite": "gin-ukiyo-dry",
+  "name": "GIN Ukiyo Dry",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">\"Ukiyo\", czyli \"unoszący się świat\", to pojęcie wywodzące się z japońskiej filozofii, która podkreśla wartość chwili obecnej i zachęca do oderwania się od codziennych zmartwień. Właśnie tą ideą inspirowany jest Ukiyo Tokyo Dry Gin - klasyczny, wytrawny gin pochodzący z prefektury Chiba, położonej na wschód od Tokio. Trunek ten stanowi wyraz szacunku dla wyjątkowego japońskiego terroir oraz lokalnych smaków. Gin powstaje na bazie regionalnego ryżu i jest wzbogacany starannie dobraną kompozycją tradycyjnych japońskich składników botanicznych, takich jak skórka yuzu i mikan, liście oraz kwiaty sakury, a także pieprz sansho. Dzięki nim zyskuje harmonijny profil smakowy, aksamitną teksturę i przyjemnie gładkie zakończenie. Ukiyo Tokyo Dry Gin nie tylko oddaje charakter Japonii, lecz także dostarcza wyjątkowych doznań, doskonale odzwierciedlających ducha Ukiyo. Klasyczna wersja Ukiyo Tokyo Dry Gin ma swoje korzenie w Kagoshimie, u stóp wulkanu Sakurajima. Produkowany jest na bazie tradycyjnego japońskiego alkoholu shōchū, który po ponownej destylacji nadaje ginowi delikatność oraz lekkość. W jego recepturze znajduje się 11 składników botanicznych, w tym japońskie cytrusy, sakura oraz przyprawy sansho, które wspólnie ukazują bogactwo smaków Japonii. W aromacie i smaku wyczuwalne są akcenty jałowca, sosny, mięty, ziół, kolendry oraz intensywnych cytrusów. Ukiyo Tokyo Dry Gin to elegancki i wyrafinowany gin o orzeźwiającym, cytrusowym charakterze i subtelnej pieprznej nucie. Wytwarzany z najwyższej jakości składników, doskonale sprawdzi się zarówno jako baza koktajli, jak i serwowany solo.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">\"Ukiyo\", czyli \"unoszący się świat\", to pojęcie wywodzące się z japońskiej filozofii, która podkreśla wartość chwili obecnej i zachęca do oderwania się od codziennych zmartwień. Właśnie tą ideą inspirowany jest Ukiyo Tokyo Dry Gin</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2877,
+  "id_product": 2877,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3080,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/2877-gin-ukiyo-dry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5060434135681",
+      "ean13": "5060434135681",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3988,
+      "legend": "GIN Ukiyo Dry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3988-small_default/gin-ukiyo-dry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3988-small_default/gin-ukiyo-dry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3988-medium_default/gin-ukiyo-dry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3988-medium_default/gin-ukiyo-dry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3988,
+    "legend": "GIN Ukiyo Dry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3988-small_default/gin-ukiyo-dry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-small_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3988-medium_default/gin-ukiyo-dry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-medium_default/gin-ukiyo-dry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3988-cart_default/gin-ukiyo-dry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3988-home_default/gin-ukiyo-dry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3988-large_default/gin-ukiyo-dry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

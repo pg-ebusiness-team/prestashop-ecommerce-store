@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5018066112433",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "269,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-06-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3206,
+  "advanced_stock_management": "0",
+  "date_add": "2026-06-06 17:24:43",
+  "date_upd": "2026-09-04 17:02:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glenfarclas 12yo",
+  "link_rewrite": "whisky-glenfarclas-12yo-0",
+  "name": "WHISKY Glenfarclas 12yo",
+  "description": "\r\n<P>WHISKY Glenfarclas 12YO – klasyczny szkocki single malt dojrzewający w \r\nbeczkach po sherry</P>\r\n<P>WHISKY Glenfarclas 12YO to ceniony szkocki single malt z regionu Speyside, \r\nprodukowany przez rodzinną destylarnię Glenfarclas Distillery. Dojrzewająca \r\nprzez 12 lat w beczkach po sherry whisky zachwyca bogatym aromatem, elegancką \r\nstrukturą oraz klasycznym charakterem stylu Speyside.</P>\r\n<P>Charakterystyka whisky</P>\r\n<P>WHISKY Glenfarclas 12YO prezentuje głęboką bursztynowo-złotą barwę. Aromat \r\njest bogaty i harmonijny – dominują nuty suszonych owoców, toffi, miodu oraz \r\nwanilii, którym towarzyszą akcenty sherry, przypraw korzennych i subtelnego \r\ndębu.</P>\r\n<P>Na podniebieniu whisky jest pełna, aksamitna i doskonale zbalansowana. \r\nWyczuwalne są smaki karmelu, rodzynek, suszonych śliwek oraz orzechów, \r\nprzełamane delikatną nutą przypraw, czekolady i drewna.</P>\r\n<P>Finisz jest długi, ciepły i elegancki, z wyraźnymi akcentami sherry, wanilii \r\noraz subtelnego dymu.</P>\r\n<P>Styl i dojrzewanie</P>\r\n<P>WHISKY Glenfarclas 12YO dojrzewa w tradycyjnych beczkach po sherry Oloroso, \r\nco nadaje jej charakterystyczną głębię, owocowość i bogaty profil smakowy. \r\nDestylarnia Glenfarclas od pokoleń pozostaje własnością rodziny Grant, słynąc z \r\ntradycyjnego stylu produkcji i wyjątkowej jakości swoich single maltów.</P>\r\n<P>Jak podawać?</P>\r\n<P>WHISKY Glenfarclas 12YO najlepiej smakuje:</P>\r\n<P>solo<BR>z odrobiną wody<BR>w kieliszku degustacyjnym<BR>podczas spokojnych \r\ndegustacji<BR>w towarzystwie gorzkiej czekolady i dojrzewających serów</P>\r\n<P>To doskonały wybór zarówno dla osób rozpoczynających przygodę ze szkockimi \r\nsingle maltami, jak i doświadczonych miłośników whisky dojrzewającej w beczkach \r\npo sherry.</P>\r\n",
+  "description_short": "<p>WHISKY Glenfarclas 12YO – klasyczny szkocki single malt dojrzewający w beczkach po sherry</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3016,
+  "id_product": 3016,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3206,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3016-whisky-glenfarclas-12yo-0",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 218.699187,
+  "price_without_reduction": 269,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "12 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 183
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5018066112433",
+      "ean13": "5018066112433",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4780,
+      "legend": "WHISKY Glenfarclas 12yo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4780-small_default/whisky-glenfarclas-12yo-0.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4780-small_default/whisky-glenfarclas-12yo-0.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4780-medium_default/whisky-glenfarclas-12yo-0.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4780-medium_default/whisky-glenfarclas-12yo-0.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4780,
+    "legend": "WHISKY Glenfarclas 12yo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4780-small_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-small_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4780-medium_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-medium_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4780-cart_default/whisky-glenfarclas-12yo-0.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4780-home_default/whisky-glenfarclas-12yo-0.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4780-large_default/whisky-glenfarclas-12yo-0.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 269,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

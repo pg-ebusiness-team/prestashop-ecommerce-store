@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8437008695822",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "69,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2790,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-13 12:01:26",
+  "date_upd": "2025-09-13 15:34:54",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Matsu El Picaro",
+  "link_rewrite": "wino-matsu-el-picaro",
+  "name": "WINO Matsu El Picaro",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Matsu \r\nEl Pícaro to wytrawne czerwone wino z hiszpańskiego regionu Toro, stworzone w \r\n100% ze szczepu Tinta de Toro (lokalna odmiana Tempranillo). Powstaje z winogron \r\npochodzących z ponad 70- i 80-letnich krzewów, uprawianych w sposób \r\nbiodynamiczny, bez użycia chemicznych środków ochrony roślin. To wino silne, \r\ncharakterne i ekspresyjne - idealnie oddające temperament najmłodszego pokolenia \r\nwiniarzy Matsu. W kieliszku zachwyca głęboką rubinową barwą z purpurowymi \r\nrefleksami. Bukiet aromatyczny jest intensywny i złożony - dominują w nim nuty \r\ndojrzałych jagód, jeżyn, borówek, z delikatnym akcentem mineralnym i \r\nlukrecjowym. Na podniebieniu pełne i soczyste, z wyraźną owocowością, miękkimi, \r\npysznymi taninami i długim, aksamitnym finiszem. Delikatna nuta lukrecji oraz \r\nkoncentracja smaku wynikają z dojrzałości gron i krótkiego leżakowania (minimum \r\n3 miesiące na osadzie). Nazwa \"Matsu\" w języku japońskim oznacza \"czekać\" - i \r\nwłaśnie ta filozofia przyświeca całej kolekcji: cierpliwość, szacunek do natury \r\noraz pokoleń winiarzy, którzy z pasją tworzą wina, łączące świeżość młodości z \r\ndojrzałością doświadczenia. Etykiety win Matsu przedstawiają trzy generacje \r\nwiniarzy - z El Pícaro jako symbolem młodej, dynamicznej siły. Matsu El Pícaro \r\nto wino idealne do dań z czerwonego mięsa, dojrzewających serów i kuchni \r\nśródziemnomorskiej. Młode, odważne, naturalne - dla tych, którzy szukają \r\ncharakteru, autentyczności i pasji w każdej butelce.</SPAN></P>\r\n",
+  "description_short": "<p>Matsu El Pícaro to wytrawne czerwone wino z hiszpańskiego regionu Toro, stworzone w 100% ze szczepu Tinta de Toro (lokalna odmiana Tempranillo). Powstaje z winogron pochodzących z ponad 70- i 80-letnich krzewów, uprawianych w sposób biodynamiczny</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2573,
+  "id_product": 2573,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2790,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2573-wino-matsu-el-picaro",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.097561,
+  "price_without_reduction": 69,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8437008695822",
+      "ean13": "8437008695822",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3607,
+      "legend": "WINO Matsu El Picaro",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3607-small_default/wino-matsu-el-picaro.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3607-small_default/wino-matsu-el-picaro.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3607-medium_default/wino-matsu-el-picaro.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3607-medium_default/wino-matsu-el-picaro.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3607,
+    "legend": "WINO Matsu El Picaro",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3607-small_default/wino-matsu-el-picaro.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-small_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3607-medium_default/wino-matsu-el-picaro.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-medium_default/wino-matsu-el-picaro.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3607-cart_default/wino-matsu-el-picaro.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3607-home_default/wino-matsu-el-picaro.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3607-large_default/wino-matsu-el-picaro.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 69,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

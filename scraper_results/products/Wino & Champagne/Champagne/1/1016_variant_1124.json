@@ -1,0 +1,319 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3052853075909",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "399,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-09-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1124,
+  "advanced_stock_management": "0",
+  "date_add": "2024-09-21 16:29:33",
+  "date_upd": "2025-03-13 23:48:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Bollinger Brut",
+  "link_rewrite": "champagne-bollinger-brut",
+  "name": "CHAMPAGNE Bollinger Brut",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Szampan \r\nBollinger Special Cuvee Brut leżakowane w butelkach przez minimum 3 lata. \r\nDoskonałe połączenie finezji aromatów i wyważonej struktury smaków o czystym i \r\neleganckim bukiecie. Soczyste i muskularne, z długim posmakie owoców \r\npołudniowych, wyraźne aromaty płatków róży, prażonych orzechów i cytrusów. \r\nPolecane jako aperitif, a także do ryb, białego mięsa, serów brie i \r\ngouda.</SPAN></P>\r\n",
+  "description_short": "<p>Szampan Bollinger Special Cuvee Brut leżakowane w butelkach przez minimum 3 lata. Doskonałe połączenie finezji aromatów i wyważonej struktury smaków o czystym i eleganckim bukiecie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1016,
+  "id_product": 1016,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1124,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/1016-champagne-bollinger-brut",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 324.390244,
+  "price_without_reduction": 399,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Meunier",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 122
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3052853075909",
+      "ean13": "3052853075909",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3078,
+      "legend": "CHAMPAGNE Bollinger Brut",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3078-small_default/champagne-bollinger-brut.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3078-small_default/champagne-bollinger-brut.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3078-medium_default/champagne-bollinger-brut.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3078-medium_default/champagne-bollinger-brut.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3078,
+    "legend": "CHAMPAGNE Bollinger Brut",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3078-small_default/champagne-bollinger-brut.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-small_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3078-medium_default/champagne-bollinger-brut.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-medium_default/champagne-bollinger-brut.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3078-cart_default/champagne-bollinger-brut.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3078-home_default/champagne-bollinger-brut.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3078-large_default/champagne-bollinger-brut.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 399,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

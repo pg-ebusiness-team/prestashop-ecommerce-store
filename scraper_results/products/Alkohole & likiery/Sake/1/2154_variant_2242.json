@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "728817199914",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 33,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2242,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 10:44:47",
+  "date_upd": "2025-06-16 18:53:53",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SAKE Gekkeikan",
+  "link_rewrite": "sake-gekkeikan",
+  "name": "SAKE Gekkeikan",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gekkeikan \r\nw języku japońskim oznacza \"wieniec laurowy\" - symbol doskonałości, który \r\nwidnieje na butelkach jednej z najsłynniejszych i najpopularniejszych sake na \r\nświecie. Gekkeikan Traditional to sake typu junmai, produkowane z ryżu, który \r\nzostał wypolerowany o 30%. Jest to produkt całkowicie naturalny, bez sztucznych \r\ndodatków smakowych i bez wzmacniania alkoholem. Dzięki temu sake jest również \r\nbezglutenowe i nie zawiera siarczynów, co czyni je idealnym wyborem dla osób z \r\nalergiami. W smaku Gekkeikan jest wytrawne, mineralne, a jednocześnie łagodne, o \r\nsubtelnej kwasowości - znacznie delikatniejszej niż w przypadku białych, \r\nwytrawnych win. Można je podawać schłodzone, w temperaturze pokojowej lub lekko \r\npodgrzane. Doskonale komponuje się z daniami kuchni japońskiej i \r\ndalekowschodniej, świetnie sprawdza się także jako dodatek do marynat czy baza \r\ndo oryginalnych koktajli. To także doskonały prezent dla miłośników \r\neksperymentów z egzotycznymi smakami. Marka Gekkeikan ma wielowiekową tradycję - \r\njej korzenie sięgają 1637 roku, kiedy w mieście Fushimi powstał pierwszy browar \r\no nazwie Kasagiya. Wybrana lokalizacja była idealna ze względu na dostęp do \r\ndoskonałej jakości wody i ryżu. Nazwa Gekkeikan pojawiła się w 1905 roku i od \r\ntego czasu marka zdobyła renomę na całym świecie.</SPAN></P>\r\n",
+  "description_short": "<p>Gekkeikan w języku japońskim oznacza \"wieniec laurowy\" - symbol doskonałości, który widnieje na butelkach jednej z najsłynniejszych i najpopularniejszych sake na świecie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2154,
+  "id_product": 2154,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2242,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "sake",
+  "category_name": "Sake",
+  "link": "https://luksusowealkohole.pl/sake/2154-sake-gekkeikan",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 49,
+      "id_attribute_group": 5,
+      "name": "0,72 l",
+      "group": "Pojemność",
+      "reference": "728817199914",
+      "ean13": "728817199914",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3012,
+      "legend": "SAKE Gekkeikan",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3012-small_default/sake-gekkeikan.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3012-small_default/sake-gekkeikan.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3012-medium_default/sake-gekkeikan.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3012-medium_default/sake-gekkeikan.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3012,
+    "legend": "SAKE Gekkeikan",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3012-small_default/sake-gekkeikan.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-small_default/sake-gekkeikan.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3012-medium_default/sake-gekkeikan.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-medium_default/sake-gekkeikan.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3012-cart_default/sake-gekkeikan.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3012-home_default/sake-gekkeikan.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3012-large_default/sake-gekkeikan.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5391523270144",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "40,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2704,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-19 10:26:09",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA WHISKY Teeling Small Batch",
+  "link_rewrite": "miniaturka-whisky-teeling-small-batch",
+  "name": "MINIATURKA WHISKY Teeling Small Batch",
+  "description": "Irlandzka whiskey blended klasy premium, butelkowana jako small batch, \r\nniefiltrowana na zimno i niebarwiona, o mocy 46%. Finiszowana w beczkach po \r\nrumie. Receptura pochodzi z końca XVIII wieku. Za jej sprawą jest słodka, \r\nwyraźnie rumowa, o zapachu wanilii, toffi, szarlotki, jeżyn, wody różanej i \r\npomarańczy. W smaku pikantna, ziołowo-cynamonowa, z kremową \r\nkońcówką.\r\n",
+  "description_short": "<p>Irlandzka whiskey blended klasy premium, butelkowana jako small batch, niefiltrowana na zimno i niebarwiona, o mocy 46%. Finiszowana w beczkach po rumie. Receptura pochodzi z końca XVIII wieku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2487,
+  "id_product": 2487,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2704,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2487-miniaturka-whisky-teeling-small-batch",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 32.520325,
+  "price_without_reduction": 40,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "5391523270144",
+      "ean13": "5391523270144",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3508,
+      "legend": "MINIATURKA WHISKY Teeling Small Batch",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3508-small_default/miniaturka-whisky-teeling-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3508-small_default/miniaturka-whisky-teeling-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3508-medium_default/miniaturka-whisky-teeling-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3508-medium_default/miniaturka-whisky-teeling-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3508,
+    "legend": "MINIATURKA WHISKY Teeling Small Batch",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3508-small_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-small_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3508-medium_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-medium_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3508-cart_default/miniaturka-whisky-teeling-small-batch.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3508-home_default/miniaturka-whisky-teeling-small-batch.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3508-large_default/miniaturka-whisky-teeling-small-batch.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 40,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

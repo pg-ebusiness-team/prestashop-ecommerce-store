@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4589858890897",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "269,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2897,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-02 14:09:22",
+  "date_upd": "2025-10-02 16:43:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Minoki Mizunara Cask Finish",
+  "link_rewrite": "rum-minoki-mizunara-cask-finish",
+  "name": "RUM Minoki Mizunara Cask Finish",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Minoki \r\nMizunara Cask Finished Rum to niezwykle oryginalny, limitowany rum, który \r\nstanowi harmonijne połączenie japońskiego rzemiosła i egzotyki Pacyfiku. \r\nInspirowany legendą o księżniczce-smoczycy mieszkającej na dnie oceanu w pałacu \r\nz koralowców, rum Minoki nawiązuje do mitologii i natury Japonii - zarówno w \r\nhistorii, jak i procesie produkcji. Powstał jako blend starannie \r\nwyselekcjonowanych rumów z Japonii, Karaibów i Ameryki Południowej, które \r\nzostały poddane unikalnemu procesowi finiszowania w beczkach z japońskiego dębu \r\nMizunara - drewna znanego z niezwykle subtelnego, ale wyrazistego wpływu na \r\naromat i strukturę alkoholu. Dodatkowo, do filtrowania rumu wykorzystano wodę \r\nprzepuszczoną przez koralowce, co jeszcze mocniej podkreśla jego morskie i \r\nmineralne pochodzenie. W aromacie Minoki Mizunara urzeka nutami karmelu, \r\nwanilii, toffi i suszonych owoców, delikatnie przeplatającymi się z ciepłym \r\ntonem miodu i japońskiego dębu. Na podniebieniu rum prezentuje się gładko, \r\nmiękko i bogato - na pierwszym planie pojawiają się słodkie owoce tropikalne, a \r\ntuż za nimi imbir, przyprawy korzenne i szlachetne nuty drewna. Finisz jest \r\ndługi, rozgrzewający, pełen wanilii, korzennych akcentów i subtelnej \r\ntaniczności, charakterystycznej dla beczek Mizunara. To rum pełen kontrastów i \r\nharmonii - egzotyczny, ale subtelny; słodki, ale złożony. Idealny do degustacji \r\nsolo - szczególnie podczas wyjątkowych okazji - ale równie dobrze odnajdzie się \r\nw koktajlach dla koneserów poszukujących nowych doznań. Minoki Mizunara Cask \r\nFinished Rum to hołd dla japońskiej precyzji, natury i legend, a zarazem trunek, \r\nktóry z łatwością zdobywa serca miłośników rumów na całym świecie. Wyjątkowy \r\nsmak, niezwykła historia i rzadko spotykany proces produkcji czynią z niego \r\npozycję absolutnie wartą odkrycia.</SPAN></P>\r\n",
+  "description_short": "<p>Minoki Mizunara Cask Finished Rum to niezwykle oryginalny, limitowany rum, który stanowi harmonijne połączenie japońskiego rzemiosła i egzotyki Pacyfiku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2709,
+  "id_product": 2709,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2897,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2709-rum-minoki-mizunara-cask-finish",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 218.699187,
+  "price_without_reduction": 269,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4589858890897",
+      "ean13": "4589858890897",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3777,
+      "legend": "RUM Minoki Mizunara Cask Finish",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3777-small_default/rum-minoki-mizunara-cask-finish.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3777-small_default/rum-minoki-mizunara-cask-finish.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3777-medium_default/rum-minoki-mizunara-cask-finish.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3777-medium_default/rum-minoki-mizunara-cask-finish.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3777,
+    "legend": "RUM Minoki Mizunara Cask Finish",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3777-small_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-small_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3777-medium_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-medium_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3777-cart_default/rum-minoki-mizunara-cask-finish.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3777-home_default/rum-minoki-mizunara-cask-finish.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3777-large_default/rum-minoki-mizunara-cask-finish.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 269,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

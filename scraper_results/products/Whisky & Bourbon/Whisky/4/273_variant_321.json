@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010696003808",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 321,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-22 16:26:27",
+  "date_upd": "2026-01-30 14:42:12",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Canadian Club 12 Y O Small Batch",
+  "link_rewrite": "whisky-canadian-club-12-y-o-small-batch",
+  "name": "WHISKY Canadian Club 12 Y O Small Batch",
+  "description": "<BR data-cke-eol=\"1\">\r\n<P>Aromat pełny i głęboki z nutami pikantnych przypraw, dębu, słodkiego kremu \r\nwaniliowego, melasy, gruszki, marcepanu i orzechów.&nbsp;<BR><SPAN style=\"line-height: 1.6em;\">W \r\nustach</SPAN><SPAN style=\"line-height: 1.6em;\">&nbsp;świeży i gładki z nutami \r\nmigdałów, orzechów, pieprzu, żyta, krwistej pomarańczy, żywicy sosnowej, jabłka \r\ni moreli</SPAN><BR><SPAN style=\"line-height: 1.6em;\">Finisz</SPAN><SPAN style=\"line-height: 1.6em;\">&nbsp;średnio \r\ndługi z akcentami żyta, cytrusów i dębu</SPAN><BR><BR></P>\r\n<HR>\r\n\r\n<P><BR><SPAN style=\"line-height: 20.79px; font-size: 13px;\">Twórcą whisky \r\nCanadian Club jest ojciec kanadyjskiej whisky Hiram Walker. Historia marki sięga \r\n1858 roku. Destylowana jest w gorzelni Hiram Walker, w mieście Walkerville, w \r\nprowincji Ontario. Whisky początkowo nosiła nazwę \"Club Whisky\". W latach 90' \r\nXIX wieku, rząd amerykański pod presją rodzimych destylatorów próbował \r\nograniczyć import wyśmienitej \"Club Whisky\", nakazując umieszczanie na etykiecie \r\nmiejsca produkcji trunku. Hiram Walker dodał do nazwy swojej whisky określenie \r\n\"Canadian\" i sprzedaż Canadian Club jeszcze wzrosła. Ta wersja komponowana jest \r\ngłównie z żytnich destylatów, starzonych 12 lat w dębowych beczkach. Edycja \r\nSmall Batch zastąpiła klasyczną 12 letnią wersję i wydawana jest w ograniczonych \r\npartiach.</SPAN></P>\r\n",
+  "description_short": "<p>Aromat pełny i głęboki z nutami pikantnych przypraw, dębu, słodkiego kremu waniliowego, melasy, gruszki, marcepanu i orzechów. </p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 273,
+  "id_product": 273,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 321,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/273-whisky-canadian-club-12-y-o-small-batch",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Kanada",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 44
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Wiek",
+      "value": "12 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 183
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010696003808",
+      "ean13": "5010696003808",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4200,
+      "legend": "WHISKY Canadian Club 12 Y O Small Batch",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4200-small_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4200-small_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4200-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4200-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4201,
+      "legend": "WHISKY Canadian Club 12 Y O Small Batch",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4201-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4201-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4201-small_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4201-small_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4201-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4201-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4201-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4201-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4201-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4201-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4201-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4201-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4201-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4201-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4201-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4201-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4200,
+    "legend": "WHISKY Canadian Club 12 Y O Small Batch",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4200-small_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-small_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4200-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-medium_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4200-cart_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4200-home_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4200-large_default/whisky-canadian-club-12-y-o-small-batch.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

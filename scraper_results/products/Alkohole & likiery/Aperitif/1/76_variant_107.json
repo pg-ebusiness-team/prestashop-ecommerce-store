@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010262070012",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 21,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 107,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-11 11:15:40",
+  "date_upd": "2024-06-11 11:15:40",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "APERITIF Pimm's No1",
+  "link_rewrite": "aperitif-pimm-s-no1",
+  "name": "APERITIF Pimm's No1",
+  "description": "\r\n<P>Pimm's No 1, to likier na bazie ginu, cytryn i chininy z dodatkiem mieszanki \r\nziół o zawartości alkoholu 25%. Receptura okryta jest wilką tajemnicą i zna ją \r\ntylko 6 osób na świecie. Likier ma barwę mocnej herbaty i jest dobarwiany \r\nkarmelem. Posiada delikatny posmak owoców cytrusowych i ziół.</P>\r\n<P>Historia powstania tego tajemniczego trunku wiąże się z osobą Jamesa Pimma, \r\nwłaściciel baru z ostrygami w londyńskiej dzielnicy finansowej, który ok.1840 \r\nroku zaczął sprzedawać mieszankę ginu z tonikiem i dodatkami nazwaną Pimm’s No 1 \r\nCup. Napój ten miał wspomagać trawienie. Podawano go w szklankach o objetości 1 \r\npinty (0,57 litra). Przez lata produkowano jescze 6 innych Pimms'ów na bazie \r\ninnych alkoholi, nazywanych kolejno Pimm's No2, Pimms No.3, Pimms No4 itd, \r\njednak ze względu na słabą sprzedaż zaprzestano ich produkcji. Obecnie w \r\nsprzedaży jest tylko Pimm's No1.</P>\r\n<P>Początkowo Pimm’s był produkowany w Londynie, obecnie jego produkcja została \r\nprzeniesiona do szkockiej Cameronbridge Distillery w Windygates w hrabstwie \r\nFife.</P>\r\n<P>Tradycyjnie podaje się go z lemoniadą w czasie przyjęć w ogrodach oraz \r\nwydarzeń sportowych. Oprócz tego w pubach podawany jest także drink zwany \r\nPimm's, który przygotowuje się umieszczając w szklance plasterek cytryny, \r\npomarańczy i zielonego ogórka. Te trzy składniki zalewane są likierem i \r\npozostawiane w celu „przegryzienia się”. Kiedy klient zamawia drinka, szklankę z \r\nlikierem i owocami wypełnia się lodem i dopełnia lemoniadą.</P>\r\n<P>Ciekawostką jest fakt iż Pimm’s zyskał sławę jako drink Wimbledonu. Podczas \r\nnocy poprzedzającej turniej tenisowy w Wimbledonie sprzedawanych jest około 80 \r\n000 drinków Pimm’s No 1 Cup.</P><BR data-cke-eol=\"1\">\r\n",
+  "description_short": "<p>Gorzki niskoprocentowy egzotyczny trunek, często określany jako ulubiony napój angielskich rodów królewskich, opracowany w XIX w. w Londynie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 76,
+  "id_product": 76,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 107,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "aperitif",
+  "category_name": "Aperitif",
+  "link": "https://luksusowealkohole.pl/aperitif/76-aperitif-pimm-s-no1",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wielka Brytania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 239
+    },
+    {
+      "name": "Alkohol",
+      "value": "25%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 238
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010262070012",
+      "ean13": "5010262070012",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 125,
+      "legend": "APERITIF Pimm's No1",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/125-small_default/aperitif-pimm-s-no1.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/125-small_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/125-medium_default/aperitif-pimm-s-no1.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/125-medium_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 126,
+      "legend": "APERITIF Pimm's No1",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/126-cart_default/aperitif-pimm-s-no1.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/126-cart_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/126-small_default/aperitif-pimm-s-no1.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/126-small_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/126-home_default/aperitif-pimm-s-no1.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/126-home_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/126-medium_default/aperitif-pimm-s-no1.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/126-medium_default/aperitif-pimm-s-no1.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/126-large_default/aperitif-pimm-s-no1.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/126-large_default/aperitif-pimm-s-no1.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/126-cart_default/aperitif-pimm-s-no1.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/126-cart_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/126-home_default/aperitif-pimm-s-no1.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/126-home_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/126-large_default/aperitif-pimm-s-no1.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/126-large_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 125,
+    "legend": "APERITIF Pimm's No1",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/125-small_default/aperitif-pimm-s-no1.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-small_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/125-medium_default/aperitif-pimm-s-no1.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-medium_default/aperitif-pimm-s-no1.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/125-cart_default/aperitif-pimm-s-no1.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/125-home_default/aperitif-pimm-s-no1.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/125-large_default/aperitif-pimm-s-no1.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

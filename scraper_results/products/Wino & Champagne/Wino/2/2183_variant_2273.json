@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3379810083099",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2273,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-30 13:51:09",
+  "date_upd": "2025-06-30 14:07:15",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "FRANCJA Chablis Domaine du Colombier",
+  "link_rewrite": "francja-chablis-domaine-du-colombier",
+  "name": "FRANCJA Chablis Domaine du Colombier",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Chablis \r\nDomaine du Colombier to eleganckie białe wino z północnej Burgundii, w pełni \r\noddające charakter regionu. Jego wytrawny profil, świeżość i kredowa mineralność \r\nczynią je idealnym wyborem do owoców morza i lekkich dań. Aromaty zielonych \r\njabłek, cytrusów i białych kwiatów łączą się z precyzyjną strukturą i czystym \r\nfiniszem. To klasyczne Chablis - subtelne, wyrafinowane i ponadczasowe.Zgrabne, \r\nbiałe wino wytrawne na bazie szczepu chardonnay. W smaku jest dynamiczne i \r\ndobrze skoncentrowane. Posiada wysoką i dobrze wtopioną kwasowość oraz długi, \r\nświeży i lekko pieprzny finisz. Wino było starzone w tanku ze stali nierdzewnej \r\nprzez min. 6 miesięcy. W bukiecie posiada klasyczne aromaty akacji, białej \r\nporzeczki, kandyzowanej skórki cytryn i limonek oraz świeżego soku z pomarańczy. \r\nWyczuwalny jest również zapach mokrych muszli oraz krzesiwa. Wino proponujemy \r\npodawać do klasycznego fish &amp; chips z purée z zielonego groszku i sosem \r\ntatarskim, pizzy z serem feta, brokułami, suszonymi pomidorkami cherry i oliwą \r\nbazyliową. Dobrze sprawdzi się w także w połączeniu z gotowanymi ślimakami \r\nmasłem ziołowym. Butelkę wina sugerujemy włożyć do lodówki 2,5 godziny przed \r\npodaniem i serwować w dużych kieliszkach napełnionych do 1/3 pojemności. Aby \r\ndoświadczyć pełni aromatu i smaku, należy zakręcić kieliszkiem, tak aby wino się \r\nnapowietrzyło.</SPAN></P>\r\n",
+  "description_short": "<p>Chablis Domaine du Colombier to eleganckie białe wino z północnej Burgundii, w pełni oddające charakter regionu.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2183,
+  "id_product": 2183,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2273,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2183-francja-chablis-domaine-du-colombier",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Burgundia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 452
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półwytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 16
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3379810083099",
+      "ean13": "3379810083099",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3112,
+      "legend": "FRANCJA Chablis Domaine du Colombier",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3112-small_default/francja-chablis-domaine-du-colombier.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3112-small_default/francja-chablis-domaine-du-colombier.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3112-medium_default/francja-chablis-domaine-du-colombier.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3112-medium_default/francja-chablis-domaine-du-colombier.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3112,
+    "legend": "FRANCJA Chablis Domaine du Colombier",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3112-small_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-small_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3112-medium_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-medium_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3112-cart_default/francja-chablis-domaine-du-colombier.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3112-home_default/francja-chablis-domaine-du-colombier.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3112-large_default/francja-chablis-domaine-du-colombier.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

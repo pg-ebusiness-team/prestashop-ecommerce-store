@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7594003621568",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 503,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-05 15:33:49",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Botucal Reserva Exclusiva",
+  "link_rewrite": "rum-botucal-reserva-exclusiva",
+  "name": "RUM Botucal Reserva Exclusiva",
+  "description": " \r\n<P style=\"text-align: justify;\">Oficjalnie na rynku pojawił się w 2004 roku,\r\n niezmiennie do tej pory etykietę zdobi podobizna Don Juancho Nieto Melendeza,\r\n cenionego i znanego entuzjastę rumów. Rum Diplomatico jest blendowany – w taki\r\n sam sposób jak szkocka whisky – z alkoholu destylowanego w miedzianych\r\n alembikach (ciężkie rumy) oraz destylowanego kolumnowo (lekkie rumy) w stosunku\r\n 80% pierwszych i 20% drugich. Tajemnicą niezwykłego smaku rumu Diplomatico jest\r\n między innymi dodanie przez Master Blendera odrobiny cukru z trzciny\r\n cukrowej&nbsp;przed finalnym blendowaniem.</P>\r\n<P style=\"text-align: justify;\">Charakteryzuje się ciemnym kolorem, aromatami \r\nświeżo zaparzonej kawy, skóry oraz drzewa sandałowego. Podniebienie odkrywa\r\n skórkę pomarańczową, karmel, mleczną czekoladę oraz syrop klonowy.</P>\r\n<P style=\"text-align: justify;\">Destylarnia istnieje od 1959 roku w bliskim\r\n sąsiedztwie plantacji trzciny cukrowej, dlatego używany surowiec jest zawsze \r\nświeży i najwyższej jakości. Rum powstaje w Wenezueli.</P>\r\n",
+  "description_short": "<p>Oficjalnie na rynku pojawił się w 2004 roku, niezmiennie do tej pory etykietę zdobi podobizna Don Juancho Nieto Melendeza, cenionego i znanego entuzjastę rumów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 442,
+  "id_product": 442,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 503,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/442-rum-botucal-reserva-exclusiva",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wenezuela",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 324
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Gold",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 537
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7594003625733",
+      "ean13": "7594003621568",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 501,
+      "legend": "RUM Botucal Reserva Exclusiva",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/501-small_default/rum-botucal-reserva-exclusiva.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/501-small_default/rum-botucal-reserva-exclusiva.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/501-medium_default/rum-botucal-reserva-exclusiva.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/501-medium_default/rum-botucal-reserva-exclusiva.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 501,
+    "legend": "RUM Botucal Reserva Exclusiva",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/501-small_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-small_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/501-medium_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-medium_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/501-cart_default/rum-botucal-reserva-exclusiva.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/501-home_default/rum-botucal-reserva-exclusiva.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/501-large_default/rum-botucal-reserva-exclusiva.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}
