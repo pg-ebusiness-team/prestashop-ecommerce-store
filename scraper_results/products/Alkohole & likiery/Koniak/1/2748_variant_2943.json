@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 35,
+  "id_supplier": 0,
+  "reference": "3245991291816",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "7 500,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-20",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2943,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-20 17:38:52",
+  "date_upd": "2025-10-22 10:24:55",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Hennessy Paradis CHINESE NEW YEAR 2026",
+  "link_rewrite": "koniak-hennessy-paradis-chinese-new-year-2026",
+  "name": "KONIAK Hennessy Paradis CHINESE NEW YEAR 2026",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Hennessy \r\nParadis Chinese New Year 2026 - Rok Konia to wyjątkowa, limitowana edycja \r\nluksusowego koniaku, stworzona z okazji obchodów Chińskiego Nowego Roku. Edycja \r\nta łączy w sobie mistrzostwo blendu Paradis z nowoczesną, artystyczną \r\ninterpretacją symboliki Roku Konia - znaku zodiaku, który uosabia wolność, siłę \r\ni nieustanny ruch naprzód. Inspiracją dla projektu oprawy graficznej stały się \r\nmotywy szczęścia, harmonii i nowego początku, głęboko zakorzenione w chińskiej \r\nkulturze. Stworzony przez Maurice'a Fillioux w 1979 roku, Hennessy Paradis to \r\nkoniak o zmysłowym, aksamitnym profilu, będący kompozycją starannie dobranych \r\neaux-de-vie, dojrzewających przez wiele lat w starych dębowych beczkach. Jego \r\ncharakter odzwierciedla lekkość i elegancję - jest giętki, subtelny i \r\nperfekcyjnie zbalansowany. W nosie wyczuwalne są nuty suszonych owoców, jaśminu, \r\nprzypraw i miodu, które łączą się w delikatną, harmonijną całość. Na \r\npodniebieniu zachwyca jedwabistą konsystencją i długim, głębokim finiszem. \r\nSzlachetna, miedziano-złota barwa koniaku świadczy o jego wieloletnim \r\ndojrzewaniu i niepowtarzalnym charakterze. W edycji na Rok Konia butelka i \r\nopakowanie zyskały nowoczesny, dynamiczny design, który oddaje energię i \r\nsymbolikę konia jako metafory elegancji, niezależności i siły. To nie tylko \r\ndoskonały wybór dla koneserów i miłośników sztuki życia, ale również idealny \r\nprezent na wyjątkową okazję - celebrację sukcesu, nowego początku lub rodzinnego \r\nświęta.</SPAN></P>\r\n",
+  "description_short": "<p>Produkt dostępny na zamówienie telefoniczne</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2748,
+  "id_product": 2748,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2943,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/2748-koniak-hennessy-paradis-chinese-new-year-2026",
+  "manufacturer_name": "Hennessy",
+  "attribute_price": 0,
+  "price_tax_exc": 6097.560976,
+  "price_without_reduction": 7500,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Koniak",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 378
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3245991291816",
+      "ean13": "3245991291816",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3824,
+      "legend": "KONIAK Hennessy Paradis CHINESE NEW YEAR 2026",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3824-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3824-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3824-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3824-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3825,
+      "legend": "KONIAK Hennessy Paradis CHINESE NEW YEAR 2026",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3825-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3825-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3825-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3825-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3825-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3825-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3825-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3825-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3825-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3825-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3825-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3825-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3825-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3825-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3825-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3825-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3824,
+    "legend": "KONIAK Hennessy Paradis CHINESE NEW YEAR 2026",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3824-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-small_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3824-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-medium_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3824-cart_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3824-home_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3824-large_default/koniak-hennessy-paradis-chinese-new-year-2026.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 7500,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

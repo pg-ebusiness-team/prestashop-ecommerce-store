@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "087000007321",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "149,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3191,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-18 22:29:18",
+  "date_upd": "2026-09-04 17:02:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKEY Seagrams 7 Crown 40% 1l",
+  "link_rewrite": "whiskey-seagrams-7-crown-40-1l",
+  "name": "WHISKEY Seagrams 7 Crown 40% 1l",
+  "description": "\r\n<P>WHISKEY Seagram’s 7 Crown American Blended Whiskey – klasyczna amerykańska \r\nwhiskey o łagodnym charakterze<BR>WHISKEY Seagram’s 7 Crown American Blended \r\nWhiskey to kultowa amerykańska whiskey blended produkowana w USA, ceniona za \r\nlekki, gładki profil smakowy i wyjątkową uniwersalność. Od dekad pozostaje \r\njednym z najbardziej rozpoznawalnych alkoholi w stylu American Blended Whiskey, \r\nidealnym zarówno do degustacji solo, jak i klasycznych koktajli.<BR>Pochodzenie \r\ni produkcja<BR>WHISKEY Seagram’s 7 Crown American Blended Whiskey powstaje z \r\nmieszanki około:<BR>25% whiskey zbożowej i słodowej<BR>75% neutralnych \r\nspirytusów zbożowych<BR>Takie proporcje nadają trunkowi łagodny, przystępny \r\ncharakter oraz stabilny profil smakowy. Whiskey dojrzewa w beczkach z \r\namerykańskiego białego dębu – zarówno nowych, jak i używanych – co wzbogaca ją o \r\nsubtelne nuty wanilii i drewna. Jest to whiskey typu NAS (No Age Statement), bez \r\ndeklaracji wieku.<BR>Charakterystyka whiskey<BR>WHISKEY Seagram’s 7 Crown \r\nAmerican Blended Whiskey prezentuje jasną bursztynową barwę ze złotymi \r\nrefleksami. Aromat jest przyjemny i klasyczny – dominują nuty wanilii, karmelu \r\noraz słodkiego zboża, którym towarzyszą delikatne akcenty dębowe.<BR>Na \r\npodniebieniu whiskey jest lekka, gładka i harmonijna. Wyczuwalna słodycz karmelu \r\noraz wanilii łączy się z delikatną przyprawowością i subtelnymi nutami drewna. \r\nProfil smakowy pozostaje prosty, przyjemny i bardzo łatwy w odbiorze.<BR>Finisz \r\njest łagodny, krótki do średniego, z lekkimi akcentami wanilii oraz \r\nzboża.<BR>Jak podawać?<BR>WHISKEY Seagram’s 7 Crown American Blended Whiskey \r\ndoskonale sprawdza się:<BR>solo<BR>na lodzie<BR>z colą&nbsp; </P>\r\n<P>w prostych koktajlach whiskey<BR>podczas spotkań towarzyskich<BR>To świetny \r\nwybór dla osób poszukujących lekkiej, klasycznej amerykańskiej whiskey o \r\nuniwersalnym charakterze.</P>\r\n",
+  "description_short": "<p>WHISKEY Seagram’s 7 Crown American Blended Whiskey – klasyczna amerykańska whiskey o łagodnym charakterze</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3001,
+  "id_product": 3001,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3191,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3001-whiskey-seagrams-7-crown-40-1l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 121.138211,
+  "price_without_reduction": 149,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "087000007321",
+      "ean13": "087000007321",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4754,
+      "legend": "WHISKEY Seagrams 7 Crown 40% 1l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4754-small_default/whiskey-seagrams-7-crown-40-1l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4754-small_default/whiskey-seagrams-7-crown-40-1l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4754-medium_default/whiskey-seagrams-7-crown-40-1l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4754-medium_default/whiskey-seagrams-7-crown-40-1l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4754,
+    "legend": "WHISKEY Seagrams 7 Crown 40% 1l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4754-small_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-small_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4754-medium_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-medium_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4754-cart_default/whiskey-seagrams-7-crown-40-1l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4754-home_default/whiskey-seagrams-7-crown-40-1l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4754-large_default/whiskey-seagrams-7-crown-40-1l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 149,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

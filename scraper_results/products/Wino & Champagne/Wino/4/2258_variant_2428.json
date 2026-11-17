@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3770000388046",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "109,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2428,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-14 16:25:23",
+  "date_upd": "2025-07-14 17:49:37",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Amirault Vignerons Les Quarterons",
+  "link_rewrite": "wino-amirault-vignerons-les-quarterons",
+  "name": "WINO Amirault Vignerons Les Quarterons",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Les \r\n Quarterons od Domaine Amirault to żywe i ekspresyjne czerwone wino z apelacji \r\n Saint-Nicolas-de-Bourgueil w Dolinie Loary, w 100% z odmiany Cabernet Franc. \r\nPowstaje z gron pochodzących z upraw ekologicznych i biodynamicznych, a proces \r\n winifikacji odbywa się z minimalną ingerencją, co pozwala zachować pełnię  \r\nnaturalnej ekspresji terroir. W aromacie dominuje czerwona porzeczka, dzika \r\n malina i świeże zioła, uzupełnione subtelnymi nutami grafitu i kwiatów. Wino \r\n jest czyste, jedwabiste i świeże, z miękkimi taninami i wyraźną, energetyzującą \r\n kwasowością, która dodaje mu lekkości i klarowności. To wino, które urzeka \r\n finezyjną strukturą i autentycznością, świetnie sprawdzając się zarówno w \r\n codziennej degustacji, jak i w towarzystwie szerokiej gamy potraw - od drobiu i \r\n pieczonych warzyw po dania kuchni wegetariańskiej.</SPAN></P>\r\n",
+  "description_short": "<p>Les Quarterons od Domaine Amirault to żywe i ekspresyjne czerwone wino z apelacji Saint-Nicolas-de-Bourgueil w Dolinie Loary, w 100% z odmiany Cabernet Franc.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2258,
+  "id_product": 2258,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2428,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2258-wino-amirault-vignerons-les-quarterons",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 88.617886,
+  "price_without_reduction": 109,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "13%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 262
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Franc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 59
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3770000388046",
+      "ean13": "3770000388046",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3229,
+      "legend": "WINO Amirault Vignerons Les Quarterons",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3229-small_default/wino-amirault-vignerons-les-quarterons.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3229-small_default/wino-amirault-vignerons-les-quarterons.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3229-medium_default/wino-amirault-vignerons-les-quarterons.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3229-medium_default/wino-amirault-vignerons-les-quarterons.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3229,
+    "legend": "WINO Amirault Vignerons Les Quarterons",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3229-small_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-small_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3229-medium_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-medium_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3229-cart_default/wino-amirault-vignerons-les-quarterons.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3229-home_default/wino-amirault-vignerons-les-quarterons.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3229-large_default/wino-amirault-vignerons-les-quarterons.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 109,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

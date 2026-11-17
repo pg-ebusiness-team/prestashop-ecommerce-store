@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902573008344",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "58,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3052,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-14 11:21:58",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Żołądkowa tradycyjna",
+  "link_rewrite": "wodka-zoladkowa-tradycyjna",
+  "name": "WÓDKA Żołądkowa tradycyjna",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Klasyczna \r\nŻołądkowa Gorzka wyróżnia się charakterystyczną, złocistą barwą, która od razu \r\nprzyciąga uwagę. Jej receptura opiera się na starannie dobranych ziołach, \r\nkorzeniach i owocach, dzięki czemu trunek posiada łagodny, słodko-gorzki smak \r\noraz subtelny aromat. Produkowana w Polsce od ponad pół wieku, zdobyła uznanie \r\nzarówno w kraju, jak i za granicą, stając się jedną z najbardziej \r\nrozpoznawalnych polskich wódek. Receptura Żołądkowej Gorzkiej wywodzi się z \r\ntradycyjnych, XIX-wiecznych przepisów na staropolskie nalewki ziołowe. Jej \r\npierwowzorem była wódka sporządzana od 1822 roku, przeznaczona do wspomagania \r\npracy żołądka. Początek XX wieku przyniósł kolejny przełom - w 1906 roku \r\nlubelski przemysłowiec Emil Plage otworzył zakład rektyfikacji spirytusu, który \r\nzasłynął właśnie z produkcji Żołądkowej Gorzkiej. W 2015 roku wprowadzono nową, \r\nodświeżoną etykietę, podkreślającą współczesny charakter tej klasycznej marki. \r\nTrunek wyróżnia się bogatym profilem smakowym, w którym wyczuwalne są nuty \r\ngorzkich pomarańczy, karmelu oraz ziół. Świetnie sprawdza się jako baza do \r\ndrinków i koktajli, ale równie dobrze smakuje podawana solo - koniecznie \r\nschłodzona. Choć dziś zawiera 34% alkoholu (dawniej 40%), wciąż stanowi unikalny \r\npunkt odniesienia wśród polskich wódek gorzkich. Najbardziej rozpoznawalnym \r\nelementem Żołądkowej Gorzkiej jest jej \"ruda\" barwa, uzyskana dzięki dodatkowi \r\nkarmelu, oraz wyrazisty, słodko-ziołowy posmak. W recepturze wykorzystuje się \r\nróżnorodne zioła, które odgrywają kluczową rolę podczas maceracji i procesu \r\nleżakowania. Mimo że marka oferuje wiele wariantów smakowych, to właśnie \r\ntradycyjna wersja cieszy się niezmiennie wysoką renomą. Żołądkowa Gorzka \r\nTradycyjna stanowi ikonę polskiego dziedzictwa destylacyjnego. Symbolizuje \r\nwieloletnią tradycję, kunszt i pasję, z jaką tworzy się ten wyjątkowy trunek. \r\nKażda butelka jest zaproszeniem do poznania bogactwa polskiej sztuki destylacji \r\n- docenianej i podziwianej przez koneserów na całym \r\nświecie.</SPAN></P>\r\n",
+  "description_short": "<p>Klasyczna Żołądkowa Gorzka wyróżnia się charakterystyczną, złocistą barwą, która od razu przyciąga uwagę. Jej receptura opiera się na starannie dobranych ziołach, korzeniach i owocach, dzięki czemu trunek posiada łagodny, słodko-gorzki smak</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2848,
+  "id_product": 2848,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3052,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2848-wodka-zoladkowa-tradycyjna",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 47.154472,
+  "price_without_reduction": 58.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "32,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 254
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5902573008344",
+      "ean13": "5902573008344",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3947,
+      "legend": "WÓDKA Żołądkowa tradycyjna",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3947-small_default/wodka-zoladkowa-tradycyjna.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3947-small_default/wodka-zoladkowa-tradycyjna.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3947-medium_default/wodka-zoladkowa-tradycyjna.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3947-medium_default/wodka-zoladkowa-tradycyjna.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3947,
+    "legend": "WÓDKA Żołądkowa tradycyjna",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3947-small_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-small_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3947-medium_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-medium_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3947-cart_default/wodka-zoladkowa-tradycyjna.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3947-home_default/wodka-zoladkowa-tradycyjna.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3947-large_default/wodka-zoladkowa-tradycyjna.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 58,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3558270014137",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 22,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "770,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3102,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-06 13:50:55",
+  "date_upd": "2026-02-06 13:55:06",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "ARMANIAK Baron Gaston Legrand 1976",
+  "link_rewrite": "armaniak-baron-gaston-legrand-1976",
+  "name": "ARMANIAK Baron Gaston Legrand 1976",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Armagnac \r\n Baron Gaston Legrand&nbsp;1976 to wyjątkowy destylat, w którym wieloletnie  \r\ndojrzewanie wydobywa pełnię aromatów i głębię smaku. Każdy łyk tego  \r\nrocznikowego  trunku odsłania harmonijnie złożone nuty, potrafiące oczarować  \r\nnawet najbardziej  wymagających miłośników szlachetnych alkoholi. To doskonały  \r\nwybór dla osób ceniących autentyczność, elegancję i charakter klasycznych  \r\narmagnaków. Każdy  rocznik tego producenta wyróżnia się niepowtarzalnym profilem \r\n smakowym i  aromatycznym, którego złożoność najlepiej odkryć osobiście - słowa  \r\nnie oddadzą w  pełni jego bogactwa. Edycja z roku&nbsp;1976 została wytworzona \r\nprzez  Barona Gastona  Legranda w regionie Bas Armagnac z odmian winogron Baco i \r\nUgni  Blanc,  dojrzewających w słonecznej południowo-zachodniej  \r\nFrancji.</SPAN></P>\r\n",
+  "description_short": "<p>ArmagnacBaron Gaston Legrand 1976 to wyjątkowy destylat, w którym wieloletniedojrzewanie wydobywa pełnię aromatów i głębię smaku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2905,
+  "id_product": 2905,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3102,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "armaniak",
+  "category_name": "Armaniak",
+  "link": "https://luksusowealkohole.pl/armaniak/2905-armaniak-baron-gaston-legrand-1976",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 626.01626,
+  "price_without_reduction": 770,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Baco",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 617
+    },
+    {
+      "name": "Szczep",
+      "value": "Ugni Blanc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 618
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3558270014137",
+      "ean13": "3558270014137",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4466,
+      "legend": "ARMANIAK Baron Gaston Legrand 1976",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4466-small_default/armaniak-baron-gaston-legrand-1976.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4466-small_default/armaniak-baron-gaston-legrand-1976.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4466-medium_default/armaniak-baron-gaston-legrand-1976.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4466-medium_default/armaniak-baron-gaston-legrand-1976.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4466,
+    "legend": "ARMANIAK Baron Gaston Legrand 1976",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4466-small_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-small_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4466-medium_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-medium_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4466-cart_default/armaniak-baron-gaston-legrand-1976.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4466-home_default/armaniak-baron-gaston-legrand-1976.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4466-large_default/armaniak-baron-gaston-legrand-1976.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 770,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

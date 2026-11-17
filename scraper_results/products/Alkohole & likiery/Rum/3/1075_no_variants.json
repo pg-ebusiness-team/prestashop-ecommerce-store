@@ -1,0 +1,276 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "766094230050",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "230,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-10-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2024-10-17 19:14:01",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Matusalem Insolito",
+  "link_rewrite": "rum-matusalem-insolito",
+  "name": "RUM Matusalem Insolito",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Matusalem \r\nInsolito przemierza nieznane trasy w przemyśle alkoholowym, tworząc rum \r\nstarzejący się w dębowych beczkach po winie Tempranillo. Dzięki unikatowemu \r\nprocesowi produkcji, Insolito posiada delikatny, maślany smak produktów typowych \r\ndla Matusalem Gran Reserva, połączony z charakterystycznym smakiem czerwonych \r\nowoców i wina. Oprócz wyjątkowego smaku, rum odznacza się także wyjątkowym \r\nodcieniem różu, który spowodowany jest filtracją aktywnym \r\nwęglem.</SPAN></P>\r\n",
+  "description_short": "<p>Matusalem Insolito przemierza nieznane trasy w przemyśle alkoholowym, tworząc rum starzejący się w dębowych beczkach po winie Tempranillo.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1075,
+  "id_product": 1075,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/1075-rum-matusalem-insolito-766094230050",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.99187,
+  "price_without_reduction": 230,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Dominikana",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 322
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Różowe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 21
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1756,
+      "legend": "RUM Matusalem Insolito",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1756-small_default/rum-matusalem-insolito.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1756-small_default/rum-matusalem-insolito.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1756-medium_default/rum-matusalem-insolito.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1756-medium_default/rum-matusalem-insolito.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1756,
+    "legend": "RUM Matusalem Insolito",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1756-small_default/rum-matusalem-insolito.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-small_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1756-medium_default/rum-matusalem-insolito.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-medium_default/rum-matusalem-insolito.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1756-cart_default/rum-matusalem-insolito.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1756-home_default/rum-matusalem-insolito.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1756-large_default/rum-matusalem-insolito.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 230,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

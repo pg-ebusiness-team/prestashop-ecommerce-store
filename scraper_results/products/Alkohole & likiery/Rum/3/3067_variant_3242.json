@@ -1,0 +1,270 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8028286000301",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3242,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-05 22:43:04",
+  "date_upd": "2026-09-05 22:43:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Pampero Seleccion",
+  "link_rewrite": "rum-pampero-seleccion",
+  "name": "RUM Pampero Seleccion",
+  "description": "Pampero Selección to wysokiej jakości rum pochodzący z Wenezueli, będący \r\ndoskonałym przykładem południowoamerykańskiej tradycji tworzenia szlachetnych \r\nrumów. Marka Pampero słynie z charakterystycznego, pełnego stylu i umiejętnego \r\nłączenia rumów o różnym stopniu dojrzałości.<BR>Rum wyróżnia się bogatym, \r\naromatycznym profilem, w którym można odnaleźć nuty karmelu, wanilii, suszonych \r\nowoców, przypraw oraz delikatnego drewna. Na podniebieniu jest pełny i \r\nharmonijny, z przyjemną słodyczą, subtelnymi akcentami korzennymi i łagodnym, \r\nrozgrzewającym finiszem.<BR>Pampero Selección doskonale sprawdza się zarówno \r\ndegustowany solo, jak i z lodem. Jego zrównoważony charakter pozwala również \r\nwykorzystać go do przygotowania klasycznych koktajli na bazie rumu.<BR>To \r\nciekawa propozycja dla osób, które cenią aromatyczne, dojrzałe rumy o łagodnym i \r\nwielowymiarowym charakterze. Sprawdzi się również jako elegancki prezent dla \r\nmiłośnika karaibskich i południowoamerykańskich trunków.<BR>\r\n",
+  "description_short": "<p>Pampero Selección to wysokiej jakości rum z Wenezueli, wyróżniający się pełnym i harmonijnym charakterem. W aromacie i smaku odnajdziemy nuty karmelu, wanilii, suszonych owoców, przypraw oraz delikatnego drewna.<br/>Na podniebieniu jest łagodny, aromatyczny i</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3067,
+  "id_product": 3067,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3242,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/3067-rum-pampero-seleccion",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wenezuela",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 324
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8028286000301",
+      "ean13": "8028286000301",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4818,
+      "legend": "RUM Pampero Seleccion",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4818-small_default/rum-pampero-seleccion.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4818-small_default/rum-pampero-seleccion.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4818-medium_default/rum-pampero-seleccion.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4818-medium_default/rum-pampero-seleccion.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4818,
+    "legend": "RUM Pampero Seleccion",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4818-small_default/rum-pampero-seleccion.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-small_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4818-medium_default/rum-pampero-seleccion.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-medium_default/rum-pampero-seleccion.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4818-cart_default/rum-pampero-seleccion.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4818-home_default/rum-pampero-seleccion.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4818-large_default/rum-pampero-seleccion.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

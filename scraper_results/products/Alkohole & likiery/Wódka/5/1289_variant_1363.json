@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8711574787465",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "680,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-12-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1363,
+  "advanced_stock_management": "0",
+  "date_add": "2024-12-14 12:34:50",
+  "date_upd": "2025-02-20 12:50:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Louers",
+  "link_rewrite": "wodka-louers",
+  "name": "WÓDKA Louers",
+  "description": "<SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: PL; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;'><SPAN \r\nstyle='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: PL; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;'>Destylowana \r\ni butelkowana w Holandii. &#8203;Produkowana z ręcznie wyselekcjonowanej pszenicy w \r\npołączeniu z krystalicznie czystą wodą. Filtrowana przez 12 warstw, bardzo \r\ndrobnego aktywnego węgla drzewnego, który wpływa na delikatność poprzez \r\neliminowanie wszelkie niedoskonałości. Logo symbolizuje Lwa Holenderskiego, \r\nktóry reprezentuje siłę i przywództwo</SPAN></SPAN>\r\n",
+  "description_short": "<p>Destylowana i butelkowana w Holandii. Produkowana z ręcznie wyselekcjonowanej pszenicy w połączeniu z krystalicznie czystą wodą.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1289,
+  "id_product": 1289,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1363,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1289-wodka-louers",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 552.845528,
+  "price_without_reduction": 679.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Holandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 381
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "8711574787465",
+      "ean13": "8711574787465",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1789,
+      "legend": "WÓDKA Louers",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1789-small_default/wodka-louers.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1789-small_default/wodka-louers.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1789-medium_default/wodka-louers.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1789-medium_default/wodka-louers.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1789,
+    "legend": "WÓDKA Louers",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1789-small_default/wodka-louers.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-small_default/wodka-louers.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1789-medium_default/wodka-louers.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-medium_default/wodka-louers.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1789-cart_default/wodka-louers.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1789-home_default/wodka-louers.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1789-large_default/wodka-louers.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 680,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

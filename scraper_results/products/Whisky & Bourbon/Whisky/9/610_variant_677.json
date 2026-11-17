@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 49,
+  "id_supplier": 0,
+  "reference": "5013967012523",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 677,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-16 17:42:00",
+  "date_upd": "2026-04-25 12:24:37",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Jura Seven Wood",
+  "link_rewrite": "whisky-jura-seven-wood",
+  "name": "WHISKY Jura Seven Wood",
+  "description": "Jura Seven Wood to nowatorska szkocka whisky single malt z wyspy Jura, \r\nnależąca do serii Signature tej destylarni. Jej wyjątkowość wynika z procesu \r\ndojrzewania w siedmiu różnych rodzajach dębu, co przekłada się na bogaty i \r\nwielowymiarowy profil smakowy. Całość zachowuje przy tym dobrą równowagę między \r\nnutami owocowymi i przyprawowymi, z bardzo delikatnym akcentem dymu. Whisky \r\nnajpierw dojrzewa w beczkach z amerykańskiego białego dębu po bourbonie, a \r\nnastępnie dzielona jest na sześć różnych typów beczek z francuskiego dębu, \r\npochodzących z regionów takich jak Limousin, Tronçais, Allier, Wogezy, Jupilles \r\ni Les Bertranges, które nadają jej ostateczny charakter. W aromacie dominują \r\nbogate nuty kawy, przypraw imbirowych, mlecznej czekolady oraz pieczonych \r\njabłek. Na podniebieniu whisky jest kremowa, z wyczuwalnymi akcentami \r\nkarmelizowanej brzoskwini, ciągnącej lukrecji i kandyzowanej pomarańczy. Finisz \r\njest średnio długi i rozgrzewający, z nutami dębu, subtelnego dymu oraz lekkim, \r\nmorskim akcentem.\r\n",
+  "description_short": "<p>Jura Seven Wood to nowatorska szkocka whisky single malt z wyspy Jura, należąca do serii Signature tej destylarni.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 610,
+  "id_product": 610,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 677,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/610-whisky-jura-seven-wood",
+  "manufacturer_name": "Jura",
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5013967012523",
+      "ean13": "5013967012523",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1086,
+      "legend": "WHISKY Jura Seven Wood",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1086-small_default/whisky-jura-seven-wood.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1086-small_default/whisky-jura-seven-wood.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1086-medium_default/whisky-jura-seven-wood.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1086-medium_default/whisky-jura-seven-wood.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1086,
+    "legend": "WHISKY Jura Seven Wood",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1086-small_default/whisky-jura-seven-wood.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-small_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1086-medium_default/whisky-jura-seven-wood.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-medium_default/whisky-jura-seven-wood.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1086-cart_default/whisky-jura-seven-wood.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1086-home_default/whisky-jura-seven-wood.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1086-large_default/whisky-jura-seven-wood.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

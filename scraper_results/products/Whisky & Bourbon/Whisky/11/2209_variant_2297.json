@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010509021067",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2297,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-05 16:59:09",
+  "date_upd": "2025-07-08 16:42:26",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Speyburn 10yo",
+  "link_rewrite": "whisky-speyburn-10yo",
+  "name": "WHISKY Speyburn 10yo",
+  "description": "Ta klasyczna whisky single malt ze Speyside dojrzewała powoli w starannie \r\ndobranych beczkach z amerykańskiego dębu - zarówno po bourbonie, jak i po \r\nsherry. Dzięki temu procesowi nabrała złożoności i głębi, zachowując przy tym \r\nłagodny, przystępny charakter. W aromacie dominują nuty słodowe i owocowe: \r\ngruszki, jabłka, dżem pomarańczowy, świeży piernik, wanilia, toffi oraz mleczna \r\nczekolada. Pojawiają się także subtelne akcenty trawy cytrynowej i igieł \r\nsosnowych. Smak jest gładki, z wyczuwalną morelą, jabłkiem, wanilią, krówkami, \r\nherbatnikami i delikatną obecnością pieprzu oraz imbiru. Całość uzupełnia lekka \r\ndębowa goryczka. Finisz średnio długi, przyjemnie zbalansowany, z nutami \r\nwanilii, prażonych orzechów, kandyzowanego imbiru, dojrzałego dębu i suszonych \r\nowoców. Trunek destylowany w trzech klasycznych, cebulastych alembikach \r\ndoskonale oddaje esencję stylu Speyside - to whisky o wysokiej jakości, bogata, \r\na jednocześnie wyjątkowo łatwa do picia.\r\n",
+  "description_short": "<p>Ta klasyczna whisky single malt ze Speyside dojrzewała powoli w starannie dobranych beczkach z amerykańskiego dębu - zarówno po bourbonie, jak i po sherry</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2209,
+  "id_product": 2209,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2297,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2209-whisky-speyburn-10yo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Charakter",
+      "value": "Dymna",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 241
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    },
+    {
+      "name": "Wiek",
+      "value": "10 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 178
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010509021067",
+      "ean13": "5010509021067",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3167,
+      "legend": "WHISKY Speyburn 10yo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3167-small_default/whisky-speyburn-10yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3167-small_default/whisky-speyburn-10yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3167-medium_default/whisky-speyburn-10yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3167-medium_default/whisky-speyburn-10yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3167,
+    "legend": "WHISKY Speyburn 10yo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3167-small_default/whisky-speyburn-10yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-small_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3167-medium_default/whisky-speyburn-10yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-medium_default/whisky-speyburn-10yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3167-cart_default/whisky-speyburn-10yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3167-home_default/whisky-speyburn-10yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3167-large_default/whisky-speyburn-10yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

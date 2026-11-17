@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000267165493",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "149,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2778,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-10 16:57:19",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Blended Malt Copper Dog",
+  "link_rewrite": "whisky-blended-malt-copper-dog",
+  "name": "WHISKY Blended Malt Copper Dog",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Copper Dog to wyjątkowa whisky typu blended malt, powstała z połączenia ośmiu single maltów pochodzących z różnych destylarni rozsianych po regionie Speyside - słynącym z produkcji łagodnych, owocowych whisky. Choć w tym regionie przeważa subtelny styl, zdarzają się również ciekawe wyjątki od tej reguły. Każda butelka opatrzona jest podpisem Master Blendera oraz indywidualnym numerem partii, co dodaje jej unikalnego charakteru. Destylaty wykorzystane w tej kompozycji dojrzewały w różnych typach beczek - z amerykańskiego i europejskiego dębu, w świeżych beczkach po bourbonie, regenerowanych beczkach oraz beczkach ponownego napełnienia. Ostateczne połączenie whisky miało miejsce w 250-litrowych beczkach typu hogshead. Trunek wyróżnia się eleganckim wyglądem - etykieta, wydrukowana na stylizowanym papierze czerpanym, zawiera odręcznie stylizowaną informację o pochodzeniu, podpis blendera i numer partii. Copper Dog to whisky o przyjemnym profilu smakowym - wyczuwalne są w niej nuty miodu i dojrzałych owoców, z delikatnym, lekko ziołowym finiszem. Dzięki swojej łagodności doskonale sprawdza się zarówno w czystej formie, jak i jako baza do koktajli. Historia powstania marki sięga kultowego hotelu Craigellachie, założonego w 1893 roku w samym sercu regionu Speyside. To miejsce stanowi prawdziwą mekkę dla miłośników whisky, oferując łatwy dostęp do znanych gorzelni takich jak Macallan, Glenlivet, Aberlour czy Cardhu. W przeszłości hotelowy bar był ulubionym miejscem spotkań pracowników okolicznych destylarni. To właśnie tam, przy kieliszku whisky, opowiadano historie z życia gorzelników - niekiedy z dodatkiem odrobiny nielegalnie zdobytego trunku, przemycanego w specjalnych miedzianych rurkach zwanych \"copper dogs\". Zainspirowani tą tradycją, twórcy whisky nadali swojemu produktowi nazwę Copper Dog, tworząc hołd dla tej wyjątkowej kultury i atmosfery Speyside.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Copper Dog to wyjątkowa whisky typu blended malt, powstała z połączenia ośmiu single maltów pochodzących z różnych destylarni rozsianych po regionie Speyside - słynącym z produkcji łagodnych, owocowych whisky.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2562,
+  "id_product": 2562,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2778,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2562-whisky-blended-malt-copper-dog",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 121.138211,
+  "price_without_reduction": 149,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000267165493",
+      "ean13": "5000267165493",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4150,
+      "legend": "WHISKY Blended Malt Copper Dog",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4150-small_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4150-small_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4150-medium_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4150-medium_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4151,
+      "legend": "WHISKY Blended Malt Copper Dog",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4151-cart_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4151-cart_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4151-small_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4151-small_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4151-home_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4151-home_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4151-medium_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4151-medium_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4151-large_default/whisky-blended-malt-copper-dog.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4151-large_default/whisky-blended-malt-copper-dog.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4151-cart_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4151-cart_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4151-home_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4151-home_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4151-large_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4151-large_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4150,
+    "legend": "WHISKY Blended Malt Copper Dog",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4150-small_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-small_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4150-medium_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-medium_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4150-cart_default/whisky-blended-malt-copper-dog.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4150-home_default/whisky-blended-malt-copper-dog.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4150-large_default/whisky-blended-malt-copper-dog.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 149,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

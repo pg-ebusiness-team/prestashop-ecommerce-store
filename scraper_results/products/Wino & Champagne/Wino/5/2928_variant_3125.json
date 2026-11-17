@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902241749852",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-03-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3125,
+  "advanced_stock_management": "0",
+  "date_add": "2026-03-11 10:46:29",
+  "date_upd": "2026-03-11 23:42:41",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Celeste Skyline Edition 2022 Warszawa",
+  "link_rewrite": "wino-celeste-skyline-edition-2022-warszawa",
+  "name": "WINO Celeste Skyline Edition 2022 Warszawa",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Limitowana odsłona wina Celeste Crianza przygotowana specjalnie z myślą o Warszawie. Wyjątkowa butelka została ozdobiona grafiką naniesioną bezpośrednio na szkło, przedstawiającą charakterystyczne budynki stolicy oraz październikowe, rozgwieżdżone niebo. Projekt nawiązuje do czasu zbiorów i podkreśla walencki charakter wina. Edycja ta należy do serii City Skyline i ma również wymiar charytatywny – z każdej sprzedanej butelki Fundacja Rodziny Torres wspiera projekt „La Mare Que Va” realizowany przez Fundację Asindown. Inicjatywa ta pomaga w szkoleniach zawodowych oraz integracji w miejscu pracy osób z zespołem Downa i niepełnosprawnością intelektualną w Marina de València. Wino ma intensywną, ciemnowiśniową barwę z granatowymi refleksami. W aromacie dominują nuty czarnych owoców, zwłaszcza dzikiej jeżyny, którym towarzyszą eleganckie akcenty wiśniowej konfitury oraz subtelna nuta palonej kawy. W ustach jest pełne, gęste i aksamitne, bogate w owocowy ekstrakt. Finisz jest długi i aromatyczny, z wyraźnie zaznaczoną, elegancką nutą dojrzewania w dębowej beczce.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Limitowana odsłona wina Celeste Crianza przygotowana specjalnie z myślą o Warszawie. Wyjątkowa butelka została ozdobiona grafiką naniesioną bezpośrednio na szkło, przedstawiającą charakterystyczne budynki stolicy oraz październikowe, rozgwieżdżone niebo.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2928,
+  "id_product": 2928,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3125,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2928-wino-celeste-skyline-edition-2022-warszawa",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5902241749852",
+      "ean13": "5902241749852",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4620,
+      "legend": "WINO Celeste Skyline Edition 2022 Warszawa",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4620-small_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4620-small_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4620-medium_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4620-medium_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4620,
+    "legend": "WINO Celeste Skyline Edition 2022 Warszawa",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4620-small_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-small_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4620-medium_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-medium_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4620-cart_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4620-home_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4620-large_default/wino-celeste-skyline-edition-2022-warszawa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

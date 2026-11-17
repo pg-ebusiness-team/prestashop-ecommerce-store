@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7350029669324",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "55,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-26",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2743,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-26 12:56:50",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA WHISKY Mackmyra Svensk Rok",
+  "link_rewrite": "miniaturka-whisky-mackmyra-svensk-rok",
+  "name": "MINIATURKA WHISKY Mackmyra Svensk Rok",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Mackmyra \r\nSvensk Rök Single Malt to szwedzka whisky, która wyróżnia się nietypowym, dymnym \r\nprofilem inspirowanym lokalnymi tradycjami wędzenia. Jej nazwa - \"Svensk Rök\", \r\nczyli \"szwedzki dym\" - doskonale oddaje charakter trunku, który powstał z \r\nwykorzystaniem dymu z jałowca, rzadko spotykanego w produkcji whisky. Ten \r\nunikalny składnik nadaje destylatowi surowy, skandynawski charakter i wyrazisty \r\naromat. Whisky dojrzewała głównie w beczkach po bourbonie oraz w mniejszych \r\nbeczkach z dębu szwedzkiego, co nadaje jej jasnozłoty kolor i subtelne nuty \r\ndrewna. W aromacie dominuje dym - torfowy i ziemisty - przełamany wyraźnymi \r\nakcentami jałowca i przypraw korzennych, takich jak pieprz i gałka muszkatołowa. \r\nW tle pojawiają się nuty wanilii, miodu i jabłek, które dodają zapachowi głębi i \r\nlekkiej słodyczy. Na podniebieniu whisky jest pełna, złożona i dobrze \r\nzbalansowana. Charakterystyczny torfowy dym i jałowiec tworzą intensywną bazę \r\nsmakową, którą uzupełniają nuty pieprzu, wanilii, karmelu oraz świeżych owoców - \r\nprzede wszystkim zielonych jabłek. Te owocowe akcenty nadają trunkowi świeżości \r\ni delikatnie łagodzą jego wyrazistość. Mackmyra Svensk Rök to wyjątkowa\r\n propozycja dla miłośników dymnych whisky, poszukujących nowych smaków o \r\nskandynawskim rodowodzie. Jej niecodzienny profil, łączący lokalne tradycje z\r\n nowoczesnym podejściem do destylacji, sprawia, że jest to trunek wyróżniający\r\n się na tle klasycznych whisky torfowych. Doskonale sprawdzi się jako wybór dla\r\n osób ceniących whisky ziemiste, aromatyczne i pełne \r\ncharakteru.</SPAN></P>\r\n",
+  "description_short": "<p>Mackmyra Svensk Rök Single Malt to szwedzka whisky, która wyróżnia się nietypowym, dymnym profilem inspirowanym lokalnymi tradycjami wędzenia. Jej nazwa - \"Svensk Rök\", czyli \"szwedzki dym\"</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2521,
+  "id_product": 2521,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2743,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2521-miniaturka-whisky-mackmyra-svensk-rok",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 44.715447,
+  "price_without_reduction": 55,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szwecja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 45
+    },
+    {
+      "name": "Alkohol",
+      "value": "46,1%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 585
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    },
+    {
+      "name": "Charakter",
+      "value": "Dymna",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 241
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "7350029669324",
+      "ean13": "7350029669324",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3550,
+      "legend": "MINIATURKA WHISKY Mackmyra Svensk Rok",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3550-small_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3550-small_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3550-medium_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3550-medium_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3550,
+    "legend": "MINIATURKA WHISKY Mackmyra Svensk Rok",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3550-small_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-small_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3550-medium_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-medium_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3550-cart_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3550-home_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3550-large_default/miniaturka-whisky-mackmyra-svensk-rok.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 55,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

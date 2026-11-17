@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 7,
+  "id_supplier": 0,
+  "reference": "5010327505046",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 170,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2450,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-16 15:58:00",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Balvenie 18YO Sherry PX Cask",
+  "link_rewrite": "whisky-balvenie-18yo-sherry-px-cask",
+  "name": "WHISKY Balvenie 18YO Sherry PX Cask",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Balvenie to destylarnia z długą tradycją eksperymentowania z dojrzewaniem whisky w beczkach po sherry. W przypadku tej osiemnastoletniej edycji, finisz przeprowadzono w beczkach po słodkim sherry Pedro Ximénez - to już druga propozycja z tej serii, w której użyto tego typu beczek. Balvenie Pedro Ximénez Cask 18 Years to klasyczny single malt ze Speyside, który przez wiele lat dojrzewał w beczkach z amerykańskiego dębu, nabierając charakterystycznych dla Balvenie nut miodu i wanilii. Zwieńczeniem procesu dojrzewania był okres spędzony w beczkach po Pedro Ximénez - hiszpańskim, deserowym winie produkowanym z naturalnie słodzonych białych winogron. Efektem jest whisky o bogatym i złożonym profilu smakowym: finisz w beczkach po PX wnosi akcenty słodkiej lawendy, dojrzałej mandarynki, fig i delikatnych przypraw, takich jak goździki. Na nosie wyczuwalne są aromaty rodzynek, porzeczek i ciepłego dębu, przełamane kremową, kwiatową słodyczą. W ustach pojawia się nowoczesna kompozycja smaków - nuty winogronowych skórek, cytrusów i suszonych fig łączą się z wyrazistym dębem, pozostawiając po sobie aksamitne, lekko oleiste wrażenie z długim, miodowym posmakiem.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Balvenie to destylarnia z długą tradycją eksperymentowania z dojrzewaniem whisky w beczkach po sherry. W przypadku tej osiemnastoletniej edycji, finisz przeprowadzono w beczkach po słodkim sherry Pedro Ximénez</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2280,
+  "id_product": 2280,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2450,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2280-whisky-balvenie-18yo-sherry-px-cask",
+  "manufacturer_name": "Balvenie",
+  "attribute_price": 0,
+  "price_tax_exc": 951.219512,
+  "price_without_reduction": 1170,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "48,7%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 559
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Wiek",
+      "value": "18 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 189
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010327505046",
+      "ean13": "5010327505046",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3258,
+      "legend": "WHISKY Balvenie 18YO Sherry PX Cask",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3258-small_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3258-small_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3258-medium_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3258-medium_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3258,
+    "legend": "WHISKY Balvenie 18YO Sherry PX Cask",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3258-small_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-small_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3258-medium_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-medium_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3258-cart_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3258-home_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3258-large_default/whisky-balvenie-18yo-sherry-px-cask.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1170,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,302 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "9013100062053",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "30,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2675,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-16 12:36:05",
+  "date_upd": "2025-08-16 15:17:13",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Mozart Gold Chocolate Cream",
+  "link_rewrite": "likier-mozart-gold-chocolate-cream",
+  "name": "LIKIER Mozart Gold Chocolate Cream",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Mozart Chocolate Cream Gold to wyjątkowy, kremowy likier czekoladowy, produkowany w Salzburgu - mieście narodzin wielkiego kompozytora Wolfganga Amadeusza Mozarta, od którego zaczerpnięto nazwę marki. To właśnie tutaj, w austriackiej destylarni z ponad 40-letnim doświadczeniem, powstają jedne z najlepszych likierów czekoladowych na świecie. Likier tworzony jest wyłącznie z naturalnych składników - mlecznej belgijskiej czekolady, świeżej śmietany, aromatycznej wanilii i kakao. Dzięki zastosowaniu unikalnego procesu zimnej maceracji kakao i wanilii, uzyskiwany jest niezwykle kremowy, aksamitny trunek o bogatej i wyrafinowanej strukturze smakowej. Mozart Chocolate Cream zachwyca delikatnie rozpływającą się w ustach konsystencją i głębokim, czekoladowym smakiem z subtelnymi nutami wanilii. To likier bezglutenowy, idealny do picia solo (najlepiej lekko schłodzony), jako dodatek do kawy, deserów lub koktajli. W 2020 roku marka Mozart została uhonorowana tytułem \"Producenta Likierów Roku\" przyznanym przez prestiżową organizację IWSC (International Wine &amp; Spirit Competition), a sam Mozart Chocolate Cream uznany został za wyjątkową austriacką specjalność. Ten luksusowy likier doskonale sprawdzi się jako słodka przyjemność na koniec dnia lub wyjątkowy akcent podczas wieczornego relaksu.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Mozart Chocolate Cream Gold to wyjątkowy, kremowy likier czekoladowy, produkowany w Salzburgu - mieście narodzin wielkiego kompozytora Wolfganga Amadeusza Mozarta, od którego zaczerpnięto nazwę marki.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2460,
+  "id_product": 2460,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2676,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/2460-likier-mozart-gold-chocolate-cream",
+  "manufacturer_name": null,
+  "attribute_price": -47.96748,
+  "price_tax_exc": 24.390244,
+  "price_without_reduction": 30,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Austria",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 14
+    },
+    {
+      "name": "Alkohol",
+      "value": "17%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 290
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czekoladowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 578
+    },
+    {
+      "name": "Charakter",
+      "value": "Kremowy",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 579
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "90131004",
+      "ean13": "90131004",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3474,
+      "legend": "LIKIER Mozart Gold Chocolate Cream",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3474-cart_default/likier-mozart-gold-chocolate-cream.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3474-cart_default/likier-mozart-gold-chocolate-cream.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3474-small_default/likier-mozart-gold-chocolate-cream.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3474-small_default/likier-mozart-gold-chocolate-cream.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3474-home_default/likier-mozart-gold-chocolate-cream.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3474-home_default/likier-mozart-gold-chocolate-cream.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3474-medium_default/likier-mozart-gold-chocolate-cream.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3474-medium_default/likier-mozart-gold-chocolate-cream.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3474-large_default/likier-mozart-gold-chocolate-cream.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3474-large_default/likier-mozart-gold-chocolate-cream.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3474-cart_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3474-cart_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3474-home_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3474-home_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3474-large_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3474-large_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "associatedVariants": [
+        2676
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3476,
+    "legend": "LIKIER Mozart Gold Chocolate Cream",
+    "position": 3,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3476-cart_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3476-cart_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3476-small_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3476-small_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3476-home_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3476-home_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3476-medium_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3476-medium_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3476-large_default/likier-mozart-gold-chocolate-cream.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3476-large_default/likier-mozart-gold-chocolate-cream.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3476-cart_default/likier-mozart-gold-chocolate-cream.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3476-cart_default/likier-mozart-gold-chocolate-cream.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3476-home_default/likier-mozart-gold-chocolate-cream.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3476-home_default/likier-mozart-gold-chocolate-cream.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3476-large_default/likier-mozart-gold-chocolate-cream.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3476-large_default/likier-mozart-gold-chocolate-cream.jpg"
+      }
+    },
+    "associatedVariants": [
+      2675
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 30,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

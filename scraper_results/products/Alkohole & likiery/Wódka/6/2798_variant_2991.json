@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5906952160371",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-27",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2991,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-27 14:14:30",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Podole Wielkie Okowita Żyto",
+  "link_rewrite": "wodka-podole-wielkie-okowita-zyto",
+  "name": "WÓDKA Podole Wielkie Okowita Żyto",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Okowita \r\nPodole Wielkie Żyto 2024 została zamknięta w eleganckim, prezentowym zestawie - \r\nw pudełku premium, które podkreśla wyjątkowość tego trunku. Każda butelka to \r\nhistoria, którą możesz podarować bliskiej osobie lub zapisać jej dalszy rozdział \r\nsam - w chwili celebracji, refleksji lub spotkania z przyjaciółmi. Rocznik 2024 \r\nzachwyca intensywnym, chlebowym aromatem i wyrazistym smakiem, w którym nuty \r\nzbożowe łączą się z długim, razowym finiszem. To destylat pełen mocy, \r\nautentyczności i rzemieślniczej precyzji, w którym każda kropla opowiada \r\nhistorię polskiego pola, pracy i pasji. Okowita Podole Wielkie Żyto 2024 to hołd \r\ndla bogatej tradycji polskiego gorzelnictwa, w której żytnie destylaty od wieków \r\nzajmują szczególne miejsce. To właśnie z okowity żytniej tworzono legendarną \r\nstarkę - zalewając nią beczki po węgierskim winie z regionu Tokaj, by po latach\r\n dojrzewania nabrała głębi i szlachetnego charakteru.</SPAN></P>\r\n",
+  "description_short": "<p>Okowita Podole Wielkie Żyto 2024 została zamknięta w eleganckim, prezentowym zestawie - w pudełku premium, które podkreśla wyjątkowość tego trunku. Każda butelka to historia, którą możesz podarować bliskiej osobie lub zapisać jej dalszy rozdział sam</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2798,
+  "id_product": 2798,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2991,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2798-wodka-podole-wielkie-okowita-zyto",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Żytnia",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 379
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5906952160371",
+      "ean13": "5906952160371",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3879,
+      "legend": "WÓDKA Podole Wielkie Okowita Żyto",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3879-small_default/wodka-podole-wielkie-okowita-zyto.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3879-small_default/wodka-podole-wielkie-okowita-zyto.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3879-medium_default/wodka-podole-wielkie-okowita-zyto.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3879-medium_default/wodka-podole-wielkie-okowita-zyto.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3879,
+    "legend": "WÓDKA Podole Wielkie Okowita Żyto",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3879-small_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-small_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3879-medium_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-medium_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3879-cart_default/wodka-podole-wielkie-okowita-zyto.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3879-home_default/wodka-podole-wielkie-okowita-zyto.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3879-large_default/wodka-podole-wielkie-okowita-zyto.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

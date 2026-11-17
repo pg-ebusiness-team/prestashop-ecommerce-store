@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5906681554762",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 31,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2975,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-24 18:33:34",
+  "date_upd": "2025-10-25 13:02:32",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Nalewka Staropolska Na Pędach Sosny",
+  "link_rewrite": "nalewka-staropolska-na-pedach-sosny",
+  "name": "Nalewka Staropolska Na Pędach Sosny",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><STRONG><SPAN style=\"line-height: 115%; font-size: 12pt; font-weight: normal; mso-bidi-font-weight: bold;\"><FONT \r\nface=\"Calibri\">Nalewka Staropolska na Pędach Sosny to wyjątkowy, rzemieślniczy \r\ntrunek, który oddaje pełnię aromatu polskiego lasu. Powstaje z młodych, \r\nwiosennych pędów sosny, ręcznie zbieranych w czystych, mazowieckich lasach nad \r\nWisłą. To właśnie one nadają jej charakterystyczny, żywiczny aromat i głęboki, \r\nnaturalny smak. Świeże pędy sosnowe macerowane są w wysokogatunkowym spirytusie, \r\ndzięki czemu uwalniają olejki eteryczne, tworząc bogaty, leśny bukiet z nutami \r\nziół i żywicy. W smaku nalewka jest harmonijna - delikatnie słodka, z subtelną \r\nziołowością i łagodnym, balsamicznym finiszem. Doskonale sprawdza się jako \r\ndigestif po posiłku lub w chłodniejsze wieczory, zwłaszcza podawana lekko \r\nschłodzona. Znakomicie komponuje się także w autorskich koktajlach, takich jak \r\nForest Old Fashioned czy Pine Martini, w których wnosi niepowtarzalny, leśny \r\nakcent. Tradycja wytwarzania tego trunku sięga dawnych czasów. W maju zbierano \r\npędy sosny - odpowiednio młode i soczyste - krojono je, układano warstwami w \r\ngąsiorze i przesypywano cukrem. Gąsior wystawiano na słońce aż do jesieni, by \r\npromienie ogrzewały jego zawartość i wydobywały z pędów naturalny syrop. \r\nNastępnie syrop łączono z alkoholem i pozostawiano na dojrzewanie - proces ten \r\ntrwał nawet kilka lat, aż do uzyskania idealnej równowagi między słodyczą a \r\ngłębią leśnych aromatów. Producent, Karol Majewski i Wspólnicy, od lat z pasją \r\nodtwarza staropolskie receptury, łącząc tradycyjne metody z nowoczesnym \r\npodejściem do jakości i detalu. Każda butelka \"Zapachu Lasu\" to efekt\r\n rzemieślniczej precyzji, cierpliwości i głębokiego szacunku dla natury - \r\nprawdziwy kunszt w kieliszku, który przenosi w serce polskiego \r\nlasu.</FONT></SPAN></STRONG></P>\r\n",
+  "description_short": "<p>Nalewka Staropolska na Pędach Sosny to wyjątkowy, rzemieślniczy trunek, który oddaje pełnię aromatu polskiego lasu. Powstaje z młodych, wiosennych pędów sosny, ręcznie zbieranych w czystych, mazowieckich lasach nad Wisłą.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2782,
+  "id_product": 2782,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2975,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "nalewka",
+  "category_name": "Nalewki",
+  "link": "https://luksusowealkohole.pl/nalewka/2782-nalewka-staropolska-na-pedach-sosny",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "25%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 238
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 37,
+      "id_attribute_group": 5,
+      "name": "0,35 L",
+      "group": "Pojemność",
+      "reference": "5906681554762",
+      "ean13": "5906681554762",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3860,
+      "legend": "Nalewka Staropolska Na Pędach Sosny",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3860-small_default/nalewka-staropolska-na-pedach-sosny.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3860-small_default/nalewka-staropolska-na-pedach-sosny.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3860-medium_default/nalewka-staropolska-na-pedach-sosny.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3860-medium_default/nalewka-staropolska-na-pedach-sosny.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3860,
+    "legend": "Nalewka Staropolska Na Pędach Sosny",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3860-small_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-small_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3860-medium_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-medium_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3860-cart_default/nalewka-staropolska-na-pedach-sosny.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3860-home_default/nalewka-staropolska-na-pedach-sosny.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3860-large_default/nalewka-staropolska-na-pedach-sosny.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

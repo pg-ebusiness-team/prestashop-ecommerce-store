@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3049197300231",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "525,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-03-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3115,
+  "advanced_stock_management": "0",
+  "date_add": "2026-03-06 13:29:02",
+  "date_upd": "2026-03-06 17:19:25",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Courvoisier Napoleon Fine Champagne",
+  "link_rewrite": "koniak-courvoisier-napoleon-fine-champagne",
+  "name": "KONIAK Courvoisier Napoleon Fine Champagne",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Courvoisier Napoleon Fine Champagne Cognac to wysokiej klasy francuski koniak, którego destylaty dojrzewają nawet ponad 20 lat. Powstaje z wyjątkowej mieszanki eaux-de-vie z regionów Grande Champagne i Petite Champagne, określanych wspólną nazwą Fine Champagne. Trunek wyróżnia się głęboką, ciemnobursztynową barwą z mosiężnymi refleksami. Jego aromat jest bogaty, subtelny i wielowarstwowy – pojawiają się w nim nuty tytoniu, wanilii oraz drzewa sandałowego, uzupełnione delikatną dębową strukturą. W tle można wyczuć charakterystyczny akcent suszonych grzybów, przywodzący na myśl chłodny mikroklimat piwnic, w których koniak dojrzewa przez wiele lat. W smaku jest elegancki, harmonijny i głęboki. Ziemiste oraz korzenne tony łączą się z subtelną słodyczą suszonych owoców – śliwek, rodzynek i przede wszystkim moreli. Wraz z rozwojem na podniebieniu powracają nuty drzewne, tytoniowe i lekko grzybowe. Finisz jest bardzo długi, powoli wygasający i niezwykle stylowy. Historia domu Courvoisier sięga początku XIX wieku. Emmanuel Courvoisier wraz ze swoim wspólnikiem Louisem Gallois prowadzili firmę handlującą winami i alkoholami na paryskich przedmieściach Bercy. W 1811 roku ich magazyny odwiedził Napoleon Bonaparte. Według legendy cesarz zabrał później ze sobą kilka beczek koniaku na wyspę Świętej Heleny, a trunek zyskał uznanie wśród angielskich oficerów na statku, którzy zaczęli nazywać go „koniakiem Napoleona”. Courvoisier Napoleon Fine Champagne jest dziś klasycznym przykładem stylu tego domu koniakowego – ponadczasową kompozycją destylatów z Grande i Petite Champagne, stanowiącą wzór dla wielu koniaków w tej kategorii.</span><!--?xml:namespace prefix = \"o\" ns = \n\"urn:schemas-microsoft-com:office:office\" ?--></p><p></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Courvoisier Napoleon Fine Champagne Cognac to wysokiej klasy francuski koniak, którego destylaty dojrzewają nawet ponad 20 lat. Powstaje z wyjątkowej mieszanki eaux-de-vie z regionów Grande Champagne i Petite Champagne</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2920,
+  "id_product": 2920,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3115,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/2920-koniak-courvoisier-napoleon-fine-champagne",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 426.829268,
+  "price_without_reduction": 525,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3049197300231",
+      "ean13": "3049197300231",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4603,
+      "legend": "KONIAK Courvoisier Napoleon Fine Champagne",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4603-small_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4603-small_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4603-medium_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4603-medium_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4603,
+    "legend": "KONIAK Courvoisier Napoleon Fine Champagne",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4603-small_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-small_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4603-medium_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-medium_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4603-cart_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4603-home_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4603-large_default/koniak-courvoisier-napoleon-fine-champagne.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 525,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

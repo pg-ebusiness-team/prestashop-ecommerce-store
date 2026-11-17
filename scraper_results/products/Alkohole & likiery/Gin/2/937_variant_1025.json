@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4901777305359",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "165,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1025,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-30 10:34:31",
+  "date_upd": "2024-08-30 10:34:31",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Suntory Roku",
+  "link_rewrite": "gin-suntory-roku",
+  "name": "GIN Suntory Roku",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gin \r\nSuntory Roku Select Edition&nbsp;to luksusowy Gin, który zawiera 6 tradycyjnych \r\nJapońskich roślin -kwiat Sakura, liść Sakura, skórka Yuzu, herbata Sencha – \r\nzielona herbata, herbata Gyokuro i pieprz Sansho. Sześć roślin uprawianych w \r\nciągu czterech sezonów, wszystkie zostały starannie dobrane do stworzenia ROKU, \r\nautentycznego japońskiego ginu rzemieślniczego. Każda roślina została zebrana w \r\nszczycie sezonu (zbiory czterech pór roku), aby uzyskać jak najlepszy smak, i\r\n destylowana, aby w pełni uosabiać błogosławieństwa \r\nnatury.</SPAN></P>\r\n",
+  "description_short": "<p>Gin Suntory Roku Select Edition to luksusowy Gin, który zawiera 6 tradycyjnych Japońskich roślin -kwiat Sakura, liść Sakura, skórka Yuzu, herbata Sencha - zielona herbata, herbata Gyokuro i pieprz Sansho.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 937,
+  "id_product": 937,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1025,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/937-gin-suntory-roku",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 134.146341,
+  "price_without_reduction": 164.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4901777305359",
+      "ean13": "4901777305359",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1507,
+      "legend": "GIN Suntory Roku",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1507-small_default/gin-suntory-roku.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1507-small_default/gin-suntory-roku.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1507-medium_default/gin-suntory-roku.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1507-medium_default/gin-suntory-roku.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1507,
+    "legend": "GIN Suntory Roku",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1507-small_default/gin-suntory-roku.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-small_default/gin-suntory-roku.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1507-medium_default/gin-suntory-roku.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-medium_default/gin-suntory-roku.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1507-cart_default/gin-suntory-roku.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1507-home_default/gin-suntory-roku.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1507-large_default/gin-suntory-roku.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 165,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

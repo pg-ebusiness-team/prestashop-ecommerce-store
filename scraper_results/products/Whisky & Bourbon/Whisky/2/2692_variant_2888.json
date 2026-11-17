@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5060044483790",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "249,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2888,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-01 13:47:03",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Arran Quarter Cask",
+  "link_rewrite": "whisky-arran-quarter-cask",
+  "name": "WHISKY Arran Quarter Cask",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Arran \r\nQuarter Cask \"The Bothy\" to wyjątkowy single malt whisky z wyspy Arran, która \r\nstanowi hołd dla tradycyjnych szkockich metod dojrzewania destylatu. Inspiracją \r\ndla tej edycji były dawne \"bothy\" - niewielkie, kamienne chaty, w których \r\nniegdyś odpoczywali szkoccy gorzelnicy. Właśnie tam używano mniejszych beczek \r\ntypu quarter cask, by uzyskać whisky o większej intensywności i głębi smaku. \r\nWhisky dojrzewa najpierw w beczkach po bourbonie pierwszego napełnienia, a \r\nnastępnie przez około dwa lata w beczkach typu quarter cask, które dzięki swojej \r\nmniejszej pojemności zapewniają intensywniejszy kontakt destylatu z drewnem. \r\nTaki proces przekłada się na bardziej złożony profil aromatyczny i smakowy. \r\nButelkowana z naturalną mocą 56,2%, bez filtracji na zimno i bez dodatku \r\nkarmelu, zachowuje autentyczny charakter destylarni Arran. W kieliszku ukazuje \r\nsię w bursztynowym odcieniu, oferując aromaty świeżych cytrusów, wanilii i dębu, \r\nprzechodzące w nuty kokosa, ananasa, moreli oraz delikatną słodycz zbożową. W \r\nsmaku wyrazista, pełna i zbalansowana - łączy soczystą owocowość z przyprawową \r\ngłębią oraz kremową teksturą. Długi, ciepły finisz z nutami miodu, drewna i \r\ntropikalnych owoców dopełnia całości. Arran Quarter Cask \"The Bothy\" to whisky \r\ndla koneserów poszukujących wyrazistego single malta, który łączy nowoczesność z\r\n tradycją w najczystszej formie.</SPAN></P>\r\n",
+  "description_short": "<p>Arran Quarter Cask \"The Bothy\" to wyjątkowy single malt whisky z wyspy Arran, która stanowi hołd dla tradycyjnych szkockich metod dojrzewania destylatu.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2692,
+  "id_product": 2692,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2888,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2692-whisky-arran-quarter-cask",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 202.439024,
+  "price_without_reduction": 249,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "56,2%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 363
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5060044483790",
+      "ean13": "5060044483790",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4101,
+      "legend": "WHISKY Arran Quarter Cask",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4101-small_default/whisky-arran-quarter-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4101-small_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4101-medium_default/whisky-arran-quarter-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4101-medium_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4102,
+      "legend": "WHISKY Arran Quarter Cask",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4102-cart_default/whisky-arran-quarter-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4102-cart_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4102-small_default/whisky-arran-quarter-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4102-small_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4102-home_default/whisky-arran-quarter-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4102-home_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4102-medium_default/whisky-arran-quarter-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4102-medium_default/whisky-arran-quarter-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4102-large_default/whisky-arran-quarter-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4102-large_default/whisky-arran-quarter-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4102-cart_default/whisky-arran-quarter-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4102-cart_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4102-home_default/whisky-arran-quarter-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4102-home_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4102-large_default/whisky-arran-quarter-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4102-large_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4101,
+    "legend": "WHISKY Arran Quarter Cask",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4101-small_default/whisky-arran-quarter-cask.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-small_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4101-medium_default/whisky-arran-quarter-cask.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-medium_default/whisky-arran-quarter-cask.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4101-cart_default/whisky-arran-quarter-cask.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4101-home_default/whisky-arran-quarter-cask.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4101-large_default/whisky-arran-quarter-cask.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 249,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

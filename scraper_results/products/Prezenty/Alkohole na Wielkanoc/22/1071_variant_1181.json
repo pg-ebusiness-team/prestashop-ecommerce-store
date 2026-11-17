@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410702057622",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "65,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-10-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1181,
+  "advanced_stock_management": "0",
+  "date_add": "2024-10-17 10:38:13",
+  "date_upd": "2024-10-17 10:38:13",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO The Guv'nor Blanco",
+  "link_rewrite": "wino-the-guv-nor-blanco",
+  "name": "WINO The Guv'nor Blanco",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>The \r\nGuv'nor White&nbsp;&nbsp;to wyjątkowe wino o subtelnym i wyrafinowanym \r\ncharakterze. To połączenie starannie wyselekcjonowanych białych winogron, \r\ntworzące niezapomniane doświadczenie smakowe. Delikatny bukiet aromatów obejmuje \r\nnuty świeżych owoców, a w ustach ujawniają się wyraziste smaki cytrusów, \r\nsoczystej gruszki i delikatnej marakui. Zrównoważona kwasowość nadaje temu winu \r\nświeżość, podczas gdy subtelne nuty kwiatowe dodają mu elegancji. \"The Guv'nor\r\n White\" to idealne wino na każdą okazję, które zachwyca wyrafinowanym smakiem i \r\ndelikatnym aromatem.&nbsp;Rozkoszuj się zmysłami tym wykwintnym winem. Pełne\r\n tropikalnych smaków owoców z nutą świeżego cytrusa, ten bogaty i\r\n satysfakcjonujący biały trunek, jak sam guv'nor, doskonale wie, jak dostarczyć \r\nniezapomnianych doznań. Dopasowanie do potraw Idealne jako aperitif, ale także\r\n doskonale komponuje się z makaronem, paellą i wszelkiego rodzaju tapas,\r\n zwłaszcza grillowaną rybą, wędzonymi szynkami i \r\nserami.</SPAN></P>\r\n",
+  "description_short": "<p>The Guv'nor White  to wyjątkowe wino o subtelnym i wyrafinowanym charakterze. To połączenie starannie wyselekcjonowanych białych winogron, tworzące niezapomniane doświadczenie smakowe.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1071,
+  "id_product": 1071,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1181,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1071-wino-the-guv-nor-blanco",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 101,
+  "quantity_all_versions": 101,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Verdejo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 155
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8410702057622",
+      "ean13": "8410702057622",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1745,
+      "legend": "WINO The Guv'nor Blanco",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1745-small_default/wino-the-guv-nor-blanco.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1745-small_default/wino-the-guv-nor-blanco.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1745-medium_default/wino-the-guv-nor-blanco.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1745-medium_default/wino-the-guv-nor-blanco.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1745,
+    "legend": "WINO The Guv'nor Blanco",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1745-small_default/wino-the-guv-nor-blanco.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-small_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1745-medium_default/wino-the-guv-nor-blanco.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-medium_default/wino-the-guv-nor-blanco.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1745-cart_default/wino-the-guv-nor-blanco.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1745-home_default/wino-the-guv-nor-blanco.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1745-large_default/wino-the-guv-nor-blanco.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 65,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

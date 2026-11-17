@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7451101210240",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "18,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-25",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2732,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-25 15:54:55",
+  "date_upd": "2025-08-25 18:29:26",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA RUM Abuelo Anejo 7Y",
+  "link_rewrite": "miniaturka-rum-abuelo-anejo-7y",
+  "name": "MINIATURKA RUM Abuelo Anejo 7Y",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'>Rum \r\nAbuelo 7 A&#241;os to wyrafinowany blend starannie dobranych rumów, dojrzewających \r\nprzez co najmniej 7 lat w małych beczkach z dębu, pod czujnym okiem \r\ndoświadczonego Master Blendera. Klasyfikowany jako Reserva Superior, ten średnio \r\nciężki (medium-bodied) rum wyróżnia się doskonałym balansem i głębią smaku. W \r\njego profilu odnajdziemy wyraźne nuty karmelu, mleka kokosowego i herbaty, które \r\nprzechodzą w długi finisz z wyczuwalnymi akcentami drzewnych przypraw i orzecha \r\nwłoskiego. Doskonały zarówno do picia na lodzie, jak i jako baza do koktajli \r\npremium. Abuelo 7 YO produkowany jest przez rodzinną firmę Varela Hermanos, \r\ndziałającą nieprzerwanie od 1908 roku. Cały proces - od uprawy trzciny po \r\nstarzenie - odbywa się w należącej do rodziny posiadłości San Isidro Hacienda w \r\nsercu Panamy. Destylarnia słynie z jednych z największych zapasów długo \r\nstarzonych rumów na świecie - w każdej butelce mogą znaleźć się nawet destylaty \r\nliczące ponad 40 lat.</SPAN></P>\r\n",
+  "description_short": "<p>Rum Abuelo 7 Anos to wyrafinowany blend starannie dobranych rumów, dojrzewających przez co najmniej 7 lat w małych beczkach z dębu, pod czujnym okiem doświadczonego Master Blendera. Klasyfikowany jako Reserva Superior, ten średnio ciężki (medium-bodied)</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2512,
+  "id_product": 2512,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2732,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2512-miniaturka-rum-abuelo-anejo-7y",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 14.634146,
+  "price_without_reduction": 18,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Panama",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 327
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Wiek",
+      "value": "7 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 175
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "7451101210240",
+      "ean13": "7451101210240",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3533,
+      "legend": "MINIATURKA RUM Abuelo Anejo 7Y",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3533-small_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3533-small_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3533-medium_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3533-medium_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3533,
+    "legend": "MINIATURKA RUM Abuelo Anejo 7Y",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3533-small_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-small_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3533-medium_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-medium_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3533-cart_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3533-home_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3533-large_default/miniaturka-rum-abuelo-anejo-7y.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 18,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

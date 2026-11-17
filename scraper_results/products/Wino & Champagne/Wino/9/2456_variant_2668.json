@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "KURNI",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 180,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2668,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-13 17:09:53",
+  "date_upd": "2025-08-13 17:29:27",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Kurni",
+  "link_rewrite": "wino-kurni",
+  "name": "WINO Kurni",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>To \r\nrzemieślnicze czerwone wino z regionu Marche powstało w 100% z winogron \r\nMontepulciano. Fermentacja przebiegała spontanicznie na naturalnych, miejscowych \r\ndrożdżach, a następnie wino dojrzewało przez 20 miesięcy w beczkach typu \r\nbarrique. W nosie wyczuwalne są eleganckie, złożone aromaty czerwonych owoców \r\nleśnych, czarnych oliwek, kawy i tytoniu, z subtelnymi nutami kredy i \r\nbalsamicznych pędów sosny. Na podniebieniu wino zachwyca wyjątkową koncentracją, \r\ngłębią i finezją aromatyczną. Choć jest intensywne i pełne, nie ma w nim ani \r\nśladu powierzchownej słodyczy - to trunek wyrafinowany i lekki zarazem, z \r\nobecnymi, ale szlachetnymi taninami. W długim finiszu pojawiają się akcenty \r\ntytoniu i gorzkiej czekolady. Mimo swojej skoncentrowanej, niemal konfiturowej \r\nstruktury, pozostaje świeże i soczyste, nieoczywiste, nieuchwytne, a jednak \r\nzapadające w pamięć. Winnica Oasi degli Angeli, założona przez pradziadka \r\nEleonory Rossi, znajduje się w malowniczym sercu Marche. Początkowo była to \r\nniewielka farma z winoroślami, oliwkami i drzewami owocowymi. W latach 90. \r\nEleonora i jej partner Marco Casolanetti skupili się wyłącznie na produkcji \r\nwina. Ich pierwszym wspólnym rocznikiem był Kurni z 1997 roku - nazwany od \r\nrodzinnego przezwiska Eleonory. Z biegiem lat Kurni zyskało status kultowego \r\nwina. Powstaje wyłącznie z winogron Montepulciano d'Abruzzo pochodzących ze \r\nstarych krzewów o bardzo niskiej wydajności. Wino emanuje intensywnymi aromatami \r\nwiśni, czarnej porzeczki i dojrzałej śliwki, wzbogaconymi nutami skóry, dymu i \r\ntytoniu. Dojrzewanie przez co najmniej 21 miesięcy w nowych beczkach z \r\nfrancuskiego dębu nadaje mu dodatkowej złożoności i wygładza taniny, dzięki \r\nczemu jest gotowe do picia już za młodu. To wino o pełnym ciele, głębokim \r\nowocowym charakterze i długim finiszu, które świetnie znosi długie leżakowanie - \r\nnawet przez dekadę lub dłużej. Idealnie komponuje się z treściwymi potrawami \r\nmięsnymi, jak na przykład rigatoni z ragu wołowym.</SPAN></P>\r\n",
+  "description_short": "<p>To rzemieślnicze czerwone wino z regionu Marche powstało w 100% z winogron Montepulciano. Fermentacja przebiegała spontanicznie na naturalnych, miejscowych drożdżach, a następnie wino dojrzewało przez 20 miesięcy w beczkach typu barrique.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2456,
+  "id_product": 2456,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2668,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2456-wino-kurni",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 959.349593,
+  "price_without_reduction": 1179.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Montepulciano",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 102
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "KURNI",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3467,
+      "legend": "WINO Kurni",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3467-small_default/wino-kurni.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3467-small_default/wino-kurni.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3467-medium_default/wino-kurni.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3467-medium_default/wino-kurni.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3467,
+    "legend": "WINO Kurni",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3467-small_default/wino-kurni.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-small_default/wino-kurni.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3467-medium_default/wino-kurni.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-medium_default/wino-kurni.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3467-cart_default/wino-kurni.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3467-home_default/wino-kurni.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3467-large_default/wino-kurni.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1180,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

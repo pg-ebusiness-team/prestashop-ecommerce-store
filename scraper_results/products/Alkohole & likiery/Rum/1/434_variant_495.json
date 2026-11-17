@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010677039093",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "75,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 495,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-05 15:02:47",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Bacardi Carta Negra",
+  "link_rewrite": "rum-bacardi-carta-negra",
+  "name": "RUM Bacardi Carta Negra",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 0pt; text-align: justify;\"><STRONG><SPAN style='padding: 0cm; border: 1pt windowtext; border-image: none; color: black; font-family: \"Open Sans\",\"serif\"; font-size: 10.5pt; font-weight: normal; mso-border-alt: none windowtext 0cm; mso-bidi-font-weight: bold;'>Bacardi \r\nCarta Negra Dark Rum</SPAN></STRONG><SPAN style='color: black; font-family: \"Open Sans\",\"serif\"; font-size: 10.5pt;'>&nbsp;jest\r\n blendowanym rumem, który kilka lat spędza w opalanych beczkach </SPAN><SPAN \r\nstyle=\"color: black;\">dębowych. Spośród innych rumów rodziny Bacardi wyróżnia go\r\n wyjątkowo wyrazisty smak z interesującymi nutami dymu, lukrecji i przypalonych\r\n migdałów.</SPAN></P>\r\n<P style=\"margin: 12pt 0cm; outline: 0px; text-align: justify; word-spacing: 0px; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><SPAN \r\nstyle=\"color: black;\">Pomimo tego jest dość słodki, nietrudny i bardzo przyjemny \r\nw odbiorze. Można pić go w shotach, jest także świetnym składnikiem cocktaili. \r\nDoskonale łączy się z owocowymi motywami, a najlepiej komponuje się z \r\npomarańczą. Odrobina cynamonu również doskonale pokreśli jego charakterystyczny \r\nsmak.</SPAN></P>\r\n",
+  "description_short": "<p>Bacardi Carta Negra Dark Rum jest blendowanym rumem, który kilka lat spędza w opalanych beczkach dębowych. Spośród innych rumów rodziny Bacardi wyróżnia go wyjątkowo wyrazisty smak z interesującymi nutami dymu, lukrecji i przypalonych migdałów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 434,
+  "id_product": 434,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 495,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/434-rum-bacardi-carta-negra",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 60.97561,
+  "price_without_reduction": 75,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Puerto Rico",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 321
+    },
+    {
+      "name": "Alkohol",
+      "value": "37,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 237
+    },
+    {
+      "name": "Kolor",
+      "value": "Black",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 547
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010677039093",
+      "ean13": "5010677039093",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 509,
+      "legend": "RUM Bacardi Carta Negra",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/509-small_default/rum-bacardi-carta-negra.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/509-small_default/rum-bacardi-carta-negra.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/509-medium_default/rum-bacardi-carta-negra.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/509-medium_default/rum-bacardi-carta-negra.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 509,
+    "legend": "RUM Bacardi Carta Negra",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/509-small_default/rum-bacardi-carta-negra.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-small_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/509-medium_default/rum-bacardi-carta-negra.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-medium_default/rum-bacardi-carta-negra.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/509-cart_default/rum-bacardi-carta-negra.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/509-home_default/rum-bacardi-carta-negra.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/509-large_default/rum-bacardi-carta-negra.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 75,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

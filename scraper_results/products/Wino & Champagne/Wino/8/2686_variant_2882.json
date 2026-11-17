@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7730951080280",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2882,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-01 11:47:02",
+  "date_upd": "2025-10-01 14:11:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Garzon Tannat Reserva",
+  "link_rewrite": "wino-garzon-tannat-reserva",
+  "name": "WINO Garzon Tannat Reserva",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Garzón \r\nTannat Reserva to wytrawne czerwone wino pochodzące z Urugwaju, stworzone w 100% \r\nz odmiany Tannat - szczepu, który stał się wizytówką tego kraju. Wino dojrzewało \r\nod 6 do 12 miesięcy na osadzie drożdżowym w beczkach i kadziach z francuskiego \r\ndębu, co nadało mu elegancji i głębi. W kieliszku prezentuje się intensywną, \r\npurpurową barwą. Bukiet zachwyca aromatami dojrzałych czerwonych i czarnych \r\nowoców - przede wszystkim śliwek i malin - wzbogaconych o subtelne nuty \r\nkorzenne. W ustach jest pełne, soczyste, świetnie zbudowane, z wyraźną \r\nmineralnością oraz dojrzałymi, aksamitnymi taninami. Wino w pełni oddaje \r\ncharakter unikalnego terroir regionu Garzón, gdzie winorośle rosną na \r\nstarożytnym, krystalicznym podłożu z rozdrobnionych skał (tzw. balast), co \r\nprzekłada się na jego strukturę i mineralność. Chłodzące wpływy bryzy znad \r\nAtlantyku sprzyjają zachowaniu świeżości w owocach, a winnica, podzielona na \r\nwiele mikroparceli, pozwala uzyskać niezwykłą różnorodność smaków. Winogrona \r\nzbierane są ręcznie, a proces winifikacji prowadzony jest w sposób jak najmniej \r\ninwazyjny. To wino idealnie sprawdzi się w duecie z pieczoną dziczyzną, duszoną \r\njagnięciną z czosnkiem, miętą i szałwią, a także z serami pleśniowymi i \r\nprażonymi orzechami włoskimi. Garzón Tannat Reserva to doskonały wybór dla \r\nmiłośników czerwonych win o wyrazistym charakterze i wysokiej jakości, cenionych \r\nrównież na arenie międzynarodowej.</SPAN></P>\r\n",
+  "description_short": "<p>Garzón Tannat Reserva to wytrawne czerwone wino pochodzące z Urugwaju, stworzone w 100% z odmiany Tannat - szczepu, który stał się wizytówką tego kraju.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2686,
+  "id_product": 2686,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2882,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2686-wino-garzon-tannat-reserva",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Urugwaj",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 37
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Tannat",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 303
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7730951080280",
+      "ean13": "7730951080280",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3748,
+      "legend": "WINO Garzon Tannat Reserva",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3748-small_default/wino-garzon-tannat-reserva.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3748-small_default/wino-garzon-tannat-reserva.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3748-medium_default/wino-garzon-tannat-reserva.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3748-medium_default/wino-garzon-tannat-reserva.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3748,
+    "legend": "WINO Garzon Tannat Reserva",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3748-small_default/wino-garzon-tannat-reserva.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-small_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3748-medium_default/wino-garzon-tannat-reserva.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-medium_default/wino-garzon-tannat-reserva.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3748-cart_default/wino-garzon-tannat-reserva.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3748-home_default/wino-garzon-tannat-reserva.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3748-large_default/wino-garzon-tannat-reserva.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

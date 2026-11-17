@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3558270001762",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 22,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "2 990,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 221,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-19 16:18:37",
+  "date_upd": "2026-02-06 13:28:30",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "ARMANIAK Baron Gaston Legrand 1961",
+  "link_rewrite": "armaniak-baron-gaston-legrand-1961",
+  "name": "ARMANIAK Baron Gaston Legrand 1961",
+  "description": "Armaniak Baron Gaston Legrand 1961&nbsp; posiada unikatowy charakter. \r\nKażdy rocznik jest inny, wyjątkowy.<BR>Aby ocenić trzeba spróbować – \r\npolecamy!\r\n",
+  "description_short": "<p>Armaniak Baron Gaston Legrand 1961  posiada unikatowy charakter. Każdy rocznik jest inny, wyjątkowy.<br/>Aby ocenić trzeba spróbować – polecamy!</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 176,
+  "id_product": 176,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 221,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "armaniak",
+  "category_name": "Armaniak",
+  "link": "https://luksusowealkohole.pl/armaniak/176-armaniak-baron-gaston-legrand-1961",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 2430.894309,
+  "price_without_reduction": 2990,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Bas Armagnac",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 272
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3558270001762",
+      "ean13": "3558270001762",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4458,
+      "legend": "ARMANIAK Baron Gaston Legrand 1961",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4458-small_default/armaniak-baron-gaston-legrand-1961.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4458-small_default/armaniak-baron-gaston-legrand-1961.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4458-medium_default/armaniak-baron-gaston-legrand-1961.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4458-medium_default/armaniak-baron-gaston-legrand-1961.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4458,
+    "legend": "ARMANIAK Baron Gaston Legrand 1961",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4458-small_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-small_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4458-medium_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-medium_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4458-cart_default/armaniak-baron-gaston-legrand-1961.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4458-home_default/armaniak-baron-gaston-legrand-1961.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4458-large_default/armaniak-baron-gaston-legrand-1961.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 2990,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

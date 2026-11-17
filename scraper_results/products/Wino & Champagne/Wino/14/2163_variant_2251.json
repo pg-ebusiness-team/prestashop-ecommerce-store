@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8435328701353",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2251,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 12:07:46",
+  "date_upd": "2025-06-16 17:55:01",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Rodriguez & Sanzo Whisky Barrel",
+  "link_rewrite": "wino-rodriguez-sanzo-whisky-barrel",
+  "name": "WINO Rodriguez & Sanzo Whisky Barrel",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><FONT face=\"Calibri\">Rodríguez Sanzo \r\nTempranillo to czerwone wino z hiszpańskiego regionu Toro. Powstaje z winogron \r\nTempranillo i przez 18 miesięcy dojrzewa w beczkach po whisky, dzięki czemu ma \r\nciekawy, dymny smak i aromat. W zapachu wyczuwalne są ciemne owoce, takie jak \r\nczarna porzeczka i jeżyna, a także wanilia, czekolada i przyprawy. Smak jest \r\npełny, bogaty i gładki, z nutami jeżyn, czarnych wiśni i wanilii, a także \r\ndelikatnym akcentem whisky. Wino ma około 15% alkoholu, co sprawia, że jest dość \r\nmocne i wyraziste. Doskonale pasuje do czerwonego mięsa, jak wołowina, dziczyzna \r\nczy jagnięcina, a także do twardych, dojrzewających serów. To świetny wybór dla \r\nosób, które lubią intensywne i oryginalne smaki.</FONT></P>\r\n",
+  "description_short": "<p>Rodríguez Sanzo Tempranillo to czerwone wino z hiszpańskiego regionu Toro. Powstaje z winogron Tempranillo i przez 18 miesięcy dojrzewa w beczkach po whisky, dzięki czemu ma ciekawy, dymny smak i aromat.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2163,
+  "id_product": 2163,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2251,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2163-wino-rodriguez-sanzo-whisky-barrel",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8435328701353",
+      "ean13": "8435328701353",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3000,
+      "legend": "WINO Rodriguez & Sanzo Whisky Barrel",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3000-small_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3000-small_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3000-medium_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3000-medium_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3000,
+    "legend": "WINO Rodriguez & Sanzo Whisky Barrel",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3000-small_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-small_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3000-medium_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-medium_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3000-cart_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3000-home_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3000-large_default/wino-rodriguez-sanzo-whisky-barrel.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 31,
+  "id_supplier": 0,
+  "reference": "5010327015859",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 790,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 507,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-08 13:43:59",
+  "date_upd": "2026-02-02 16:49:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glenfiddch 23 Y O Grand Cru",
+  "link_rewrite": "whisky-glenfiddch-23-y-o-grand-cru",
+  "name": "WHISKY Glenfiddch 23 Y O Grand Cru",
+  "description": "Grand Cru przez 23 lata leżakuje w beczkach z amerykańskiego i \r\neuropejskiego dębu. Przez pół roku finiszowany jest w French Cuvee casks – \r\nbeczkach z francuskiego dębu, wcześniej wykorzystanych do fermentacji wina, \r\nbędącego bazą najlepszych win musujących z regionu Szampanii. Jest to jedyny \r\nsingle malt, który został poddany tak wyjątkowemu wykończeniu. Oddaje ono \r\nniezwykły smak, ducha luksusu i kunszt marki Glenfiddich. To, co wyróżnia \r\nGlenfiddich Grand Cru, to przede wszystkich doskonale zbilansowany smak kremu \r\nwaniliowego i toffi, gruszkami oraz imbiru.. Wyczuwalny jest &nbsp;aromat \r\nmigdałowych croissantów, wanilii i marcepanu wraz z orzeźwiającą nutą kwiatu \r\njabłoni, cytryny i dojrzałych winogron.\r\n",
+  "description_short": "<p>Grand Cru przez 23 lata leżakuje w beczkach z amerykańskiego i europejskiego dębu. Przez pół roku finiszowany jest w French Cuvee casks – beczkach z francuskiego dębu, wcześniej wykorzystanych do fermentacji wina.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 446,
+  "id_product": 446,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 507,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/446-whisky-glenfiddch-23-y-o-grand-cru",
+  "manufacturer_name": "Glenfiddich",
+  "attribute_price": 0,
+  "price_tax_exc": 1455.284553,
+  "price_without_reduction": 1790,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Wiek",
+      "value": "23 lata",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 193
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010327015859",
+      "ean13": "5010327015859",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4363,
+      "legend": "WHISKY Glenfiddch 23 Y O Grand Cru",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4363-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4363-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4363-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4363-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4363-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4363-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4363-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4363-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4363-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4363-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4363-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4363-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4363-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4363-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4363-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4363-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4364,
+      "legend": "WHISKY Glenfiddch 23 Y O Grand Cru",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4364-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4364-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4364-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4364-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4364,
+    "legend": "WHISKY Glenfiddch 23 Y O Grand Cru",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4364-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-small_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4364-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-medium_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4364-cart_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4364-home_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4364-large_default/whisky-glenfiddch-23-y-o-grand-cru.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1790,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

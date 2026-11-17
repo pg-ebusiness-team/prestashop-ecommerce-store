@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3219521100060",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3192,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-18 22:29:18",
+  "date_upd": "2026-05-19 14:53:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK De Poursac VS 40% 0,7l",
+  "link_rewrite": "koniak-de-poursac-vs-40-07l",
+  "name": "KONIAK De Poursac VS 40% 0,7l",
+  "description": "COGNAC De Poursac VS – klasyczny francuski koniak o eleganckim \r\ncharakterze<BR>COGNAC De Poursac VS to stylowy francuski koniak o zawartości \r\nalkoholu 40%, stworzony z myślą o miłośnikach harmonijnych i eleganckich \r\ndestylatów. Oznaczenie VS (Very Special) potwierdza, że alkohol dojrzewał przez \r\nminimum dwa lata w dębowych beczkach, dzięki czemu zyskał odpowiednią \r\ndojrzałość, łagodność i głębię smaku.<BR>Charakterystyka alkoholu<BR>COGNAC De \r\nPoursac VS prezentuje ciepłą, złocistą barwę z bursztynowymi refleksami. Aromat \r\njest bogaty i harmonijny – dominują nuty suszonych owoców, wanilii oraz subtelne \r\nakcenty dębowe, które tworzą elegancką i klasyczną kompozycję.<BR>Na \r\npodniebieniu koniak jest gładki, miękki i doskonale zbalansowany. Wyczuwalne są \r\nowocowe tony, delikatny karmel oraz subtelne przyprawy, które harmonijnie łączą \r\nsię z lekką waniliową słodyczą i nutami drewna.<BR>Finisz pozostaje przyjemnie \r\ndługi, ciepły i elegancki, z delikatnymi akcentami owoców oraz dębu.<BR>Styl i \r\ndojrzewanie<BR>COGNAC De Poursac VS dojrzewa w dębowych beczkach, dzięki czemu \r\nzachowuje świeżość młodego koniaku, jednocześnie oferując elegancję i aksamitną \r\nstrukturę typową dla francuskich destylatów premium.<BR>Jak podawać?<BR>COGNAC \r\nDe Poursac VS najlepiej smakuje:<BR>solo<BR>na lodzie<BR>jako digestif po \r\nkolacji<BR>w klasycznych koktajlach premium<BR>w towarzystwie deserów i gorzkiej \r\nczekolady<BR>To doskonały wybór dla osób ceniących klasyczny francuski koniak o \r\nuniwersalnym i eleganckim charakterze.\r\n",
+  "description_short": "<p>COGNAC De Poursac VS to stylowy francuski koniak o zawartości alkoholu 40%, stworzony z myślą o miłośnikach harmonijnych i eleganckich destylatów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3002,
+  "id_product": 3002,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3192,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/3002-koniak-de-poursac-vs-40-07l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3219521100060",
+      "ean13": "3219521100060",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4753,
+      "legend": "KONIAK De Poursac VS 40% 0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4753-small_default/koniak-de-poursac-vs-40-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4753-small_default/koniak-de-poursac-vs-40-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4753-medium_default/koniak-de-poursac-vs-40-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4753-medium_default/koniak-de-poursac-vs-40-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4753,
+    "legend": "KONIAK De Poursac VS 40% 0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4753-small_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-small_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4753-medium_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-medium_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4753-cart_default/koniak-de-poursac-vs-40-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4753-home_default/koniak-de-poursac-vs-40-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4753-large_default/koniak-de-poursac-vs-40-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

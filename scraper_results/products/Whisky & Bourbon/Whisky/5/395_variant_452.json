@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 54,
+  "id_supplier": 0,
+  "reference": "5024720900001",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "159,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 452,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 15:54:26",
+  "date_upd": "2026-01-31 16:31:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Finlaggan Old Reserve",
+  "link_rewrite": "whisky-finlaggan-old-reserve",
+  "name": "WHISKY Finlaggan Old Reserve",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Finlaggan Old Reserve to bardzo interesująca whisky typu single malt ze znajdującej się na wyspie Islay destylarni o nieujawnionej nazwie. Zapach oferuje aromaty orzechów, miodu oraz biszkoptów. Smak natomiast, to połączenie słodkich zbóż, wanilii i karmelu w towarzystwie gałki muszkatołowej, imbiru i dymu. Długi, słodki finisz pozostawia za sobą dąb i miętę z łagodnym dodatkiem cytrusów i wanilii.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Finlaggan Old Reserve to bardzo interesująca whisky typu single malt ze znajdującej się na wyspie Islay destylarni o nieujawnionej nazwie.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 395,
+  "id_product": 395,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 452,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/395-whisky-finlaggan-old-reserve",
+  "manufacturer_name": "Finlaggan",
+  "attribute_price": 0,
+  "price_tax_exc": 129.268293,
+  "price_without_reduction": 159,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5024720900001",
+      "ean13": "5024720900001",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4304,
+      "legend": "WHISKY Finlaggan Old Reserve",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4304-small_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4304-small_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4304-medium_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4304-medium_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4305,
+      "legend": "WHISKY Finlaggan Old Reserve",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4305-cart_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4305-cart_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4305-small_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4305-small_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4305-home_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4305-home_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4305-medium_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4305-medium_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4305-large_default/whisky-finlaggan-old-reserve.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4305-large_default/whisky-finlaggan-old-reserve.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4305-cart_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4305-cart_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4305-home_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4305-home_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4305-large_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4305-large_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4304,
+    "legend": "WHISKY Finlaggan Old Reserve",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4304-small_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-small_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4304-medium_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-medium_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4304-cart_default/whisky-finlaggan-old-reserve.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4304-home_default/whisky-finlaggan-old-reserve.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4304-large_default/whisky-finlaggan-old-reserve.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 159,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

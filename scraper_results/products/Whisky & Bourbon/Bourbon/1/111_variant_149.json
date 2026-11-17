@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "096749472215",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 19,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "619,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 149,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-18 10:52:51",
+  "date_upd": "2025-05-15 13:58:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BOURBON Elijah Craig Barrel Proof",
+  "link_rewrite": "bourbon-elijah-craig-barrel-proof",
+  "name": "BOURBON Elijah Craig Barrel Proof",
+  "description": "<p>Elijah Craig Barrel Proof / 62,1% / 0,7l</p>\n<p>Whiskey przed rozlaniem do butelek nie jest rozcieńczana oraz nie jest filtrowana na zimno. Ta edycja butelkowana jest w naturalnej mocy 70,1%! jest to mocna i intensywna wersja bourbona .</p>\n<p>Degustując tego bourbona można poczuć się jak Master Distiller, który tworzy wyjątkowe mieszanki degustując destylaty bezpośrednio z beczek. Nazwany został na cześć wielebnego Elijaha Craiga, uważanego za twórcę bourbona. Pewnego razu palił się magazyn Craiga, w którym przechowywał puste beczki. Kiedy ugaszono ogień wielebny wykorzystał wypalone beczki do leżakowania swoich destylatów. Okazało się, że trunek jest doskonały i metodę wypalania beczek stosuje się do dziś. Whiskey produkowana jest w destylarni Heaven Hill, w mieście Bardstown, w Kentucky. Komponowana jest z destylatów starzonych co najmniej 12 lat. </p>\n<p>Charakteryzuje się  mocnymi nutami dębu, jabłka, pomarańczy, karmelu, cynamonu, imbiru, gałki muszkatołowej, wanilii, kremu maślanego i chili. W smaku głęboki i intensywny z nutami karmelu, wanilii, toffi, czarnego pieprzu, chili, cynamonu, jabłka, pomarańczy, palonego dębu, imbiru i melasy. Finisz długi i bardzo rozgrzewający z przewagą pikantnych przypraw, palonego dębu i suszonych owoców.</p>",
+  "description_short": "<p>Elijah Craig Barrel Proof / 67,1% / 0,7l<br />Charakteryzuje się mocnymi nutami dębu, jabłka, pomarańczy, karmelu, cynamonu, imbiru, gałki muszkatołowej.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 111,
+  "id_product": 111,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 149,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "bourbon",
+  "category_name": "Bourbon",
+  "link": "https://luksusowealkohole.pl/bourbon/111-bourbon-elijah-craig-barrel-proof",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 503.252033,
+  "price_without_reduction": 619.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "62,1%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 250
+    },
+    {
+      "name": "Wiek",
+      "value": "12 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 183
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "096749472215",
+      "ean13": "096749472215",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2818,
+      "legend": "BOURBON Elijah Craig Barrel Proof",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2818-small_default/bourbon-elijah-craig-barrel-proof.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2818-small_default/bourbon-elijah-craig-barrel-proof.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2818-medium_default/bourbon-elijah-craig-barrel-proof.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2818-medium_default/bourbon-elijah-craig-barrel-proof.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2818,
+    "legend": "BOURBON Elijah Craig Barrel Proof",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2818-small_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-small_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2818-medium_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-medium_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2818-cart_default/bourbon-elijah-craig-barrel-proof.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2818-home_default/bourbon-elijah-craig-barrel-proof.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2818-large_default/bourbon-elijah-craig-barrel-proof.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 619,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

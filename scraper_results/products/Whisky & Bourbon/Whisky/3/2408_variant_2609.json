@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5011166068815",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2609,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-06 09:28:04",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Bankhall British Single Malt",
+  "link_rewrite": "whisky-bankhall-british-single-malt",
+  "name": "WHISKY Bankhall British Single Malt",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bankhall \r\nBritish Single Malt to szlachetna, brytyjska whisky typu single malt, stworzona \r\nzarówno z myślą o samodzielnej degustacji, jak i jako składnik eleganckich \r\nkoktajli. Jej głęboka, bursztynowo-złota barwa i bogaty, wielowarstwowy aromat \r\nczynią ją doskonałym wyborem dla miłośników whisky, którzy cenią połączenie \r\nklasyki z nowoczesnym podejściem do rzemiosła destylacyjnego. Jest to pierwsza \r\nwhisky typu single malt stworzona przez destylarnię Bankhall, mieszczącą się w \r\nangielskim Blackpool. Do jej produkcji wykorzystywany jest lokalny, słodowany \r\njęczmień, a proces destylacji odbywa się w tradycyjnych miedzianych alembikach. \r\nW zapachu wyczuwalne są nuty wanilii, karmelu, kandyzowanych owoców cytrusowych \r\ni suszonych owoców, uzupełnione delikatnym akcentem goździków, który nadaje\r\n całości harmonii i zrównoważonego charakteru. Whisky Bankhall wyróżnia się \r\nwszechstronnością - doskonale smakuje zarówno czysta, podawana z lodem, jak i w\r\n formie składnika wyrafinowanych drinków. Dojrzewa w trzech rodzajach beczek: z\r\n nowego amerykańskiego dębu, po sherry z europejskiego dębu oraz po bourbonie,\r\n co nadaje jej wyjątkową głębię i złożoność smaku.</SPAN></P>\r\n",
+  "description_short": "<p>Bankhall British Single Malt to szlachetna, brytyjska whisky typu single malt, stworzona zarówno z myślą o samodzielnej degustacji, jak i jako składnik eleganckich koktajli.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2408,
+  "id_product": 2408,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2609,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2408-whisky-bankhall-british-single-malt",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 80,
+  "quantity_all_versions": 80,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wielka Brytania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 239
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Charakter",
+      "value": "Dymna",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 241
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5011166068815",
+      "ean13": "5011166068815",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3419,
+      "legend": "WHISKY Bankhall British Single Malt",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3419-small_default/whisky-bankhall-british-single-malt.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3419-small_default/whisky-bankhall-british-single-malt.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3419-medium_default/whisky-bankhall-british-single-malt.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3419-medium_default/whisky-bankhall-british-single-malt.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3419,
+    "legend": "WHISKY Bankhall British Single Malt",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3419-small_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-small_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3419-medium_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-medium_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3419-cart_default/whisky-bankhall-british-single-malt.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3419-home_default/whisky-bankhall-british-single-malt.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3419-large_default/whisky-bankhall-british-single-malt.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

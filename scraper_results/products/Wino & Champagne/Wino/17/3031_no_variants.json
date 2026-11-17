@@ -1,0 +1,283 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8032638932776",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "70,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-15 09:22:43",
+  "date_upd": "2026-07-22 00:00:52",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WŁOCHY Ciari Traminer IGT Venezia Giulia 13% 0,75l",
+  "link_rewrite": "wlochy-ciari-traminer-igt-venezia-giulia-13-075l",
+  "name": "WŁOCHY Ciari Traminer IGT Venezia Giulia 13% 0,75l",
+  "description": "<p>WŁOCHY Ciari Traminer IGT Venezia Giulia<br />Aromatyczne białe wino z Friuli-Venezia Giulia, wytwarzane w 100% ze szczepu Traminer Aromatico. Odznacza się słomkowożółtym kolorem oraz intensywnym, wyrazistym bukietem z nutami kwiatowymi, dzikiej róży i owoców egzotycznych.<br />W smaku wino jest doskonale zbalansowane, mocno aromatyczne, świeże, a jednocześnie długo utrzymujące się na podniebieniu, z lekką mineralnością. Zrównoważona kwasowość nadaje mu długi, intensywny finisz z nutami śródziemnomorskich przypraw.<br />Serwowanie: Doskonałe jako aperitif, świetnie komponuje się z ciepłymi i zimnymi przystawkami, sycącymi pierwszymi daniami, risotto z owocami morza, rybami z grilla i z pieca, białym mięsem oraz serami o średnim stopniu dojrzewania. Podawać w temperaturze 10-12°C.</p>",
+  "description_short": "<p>WŁOCHY Ciari Traminer IGT Venezia Giulia<br />Aromatyczne białe wino z Friuli-Venezia Giulia, wytwarzane w 100% ze szczepu Traminer Aromatico. Odznacza się słomkowożółtym kolorem oraz intensywnym, wyrazistym bukietem z nutami kwiatowymi, dzikiej róży i owoców</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3031,
+  "id_product": 3031,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3031-wlochy-ciari-traminer-igt-venezia-giulia-13-075l-8032638932776",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.910569,
+  "price_without_reduction": 70,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Veneto",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 409
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Traminer",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 639
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4797,
+      "legend": "WŁOCHY Ciari Traminer IGT Venezia Giulia 13% 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4797-small_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4797-small_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4797-medium_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4797-medium_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4797,
+    "legend": "WŁOCHY Ciari Traminer IGT Venezia Giulia 13% 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4797-small_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-small_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4797-medium_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-medium_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4797-cart_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4797-home_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4797-large_default/wlochy-ciari-traminer-igt-venezia-giulia-13-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 70,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

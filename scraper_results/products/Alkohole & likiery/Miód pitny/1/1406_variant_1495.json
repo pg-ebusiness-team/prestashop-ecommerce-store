@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5906750623023",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 30,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1495,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-03 13:41:13",
+  "date_upd": "2025-02-20 12:49:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MIÓD PITNY Jaros Czermszak Dwójniak Ceramika",
+  "link_rewrite": "miod-pitny-jaros-czermszak-dwojniak-ceramika",
+  "name": "MIÓD PITNY Jaros Czermszak Dwójniak Ceramika",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Dwójniak \r\nCzeremszak to jedna z wielu pereł w koronie Pasieki Jaros. Najwyższej jakości \r\nmiód pitny owocowy w edycji limitowanej, więc jeśli chcesz sprawdzić, jak \r\nsmakuje mistrzostwo miodosytnictwa, musisz się pośpieszyć. Do produkcji \r\nCzeremszaka wykorzystano wykorzystano sok z owoców czeremchy, zrywanych z \r\ndzikich krzewów. Mimo 16-procentowej zawartości alkoholu w smaku dominuje \r\nsłodycz miodu pszczelego, łagodzona szorstkością czeremchy i wyrazistością \r\nsprawnie skomponowanego zestawu przypraw. Istny rarytas wśród dwójniaków, czegoś \r\ntakiego nie znajdziesz nigdzie indziej.</SPAN></P>\r\n",
+  "description_short": "<p>Dwójniak Czeremszak to jedna z wielu pereł w koronie Pasieki Jaros. Najwyższej jakości miód pitny owocowy w edycji limitowanej, więc jeśli chcesz sprawdzić, jak smakuje mistrzostwo miodosytnictwa, musisz się pośpieszyć.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1406,
+  "id_product": 1406,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1495,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "miod-pitny",
+  "category_name": "Miód pitny",
+  "link": "https://luksusowealkohole.pl/miod-pitny/1406-miod-pitny-jaros-czermszak-dwojniak-ceramika",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 13,
+  "quantity_all_versions": 13,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "16,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 235
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5906750623023",
+      "ean13": "5906750623023",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1956,
+      "legend": "MIÓD PITNY Jaros Czermszak Dwójniak Ceramika",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1956-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1956-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1956-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1956-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 1957,
+      "legend": "MIÓD PITNY Jaros Czermszak Dwójniak Ceramika",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1957-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1957-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1957-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1957-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1957-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1957-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1957-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1957-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1957-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1957-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1957-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1957-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1957-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1957-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1957-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1957-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1956,
+    "legend": "MIÓD PITNY Jaros Czermszak Dwójniak Ceramika",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1956-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-small_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1956-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-medium_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1956-cart_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1956-home_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1956-large_default/miod-pitny-jaros-czermszak-dwojniak-ceramika.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

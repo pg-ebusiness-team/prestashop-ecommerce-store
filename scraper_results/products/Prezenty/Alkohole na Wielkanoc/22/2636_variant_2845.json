@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "TOKAJI ASZU 2013",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "339,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2845,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-18 15:17:00",
+  "date_upd": "2025-09-18 17:09:41",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Tokaji Aszu 6 Puttonyos",
+  "link_rewrite": "wino-tokaji-aszu-6-puttonyos",
+  "name": "WINO Tokaji Aszu 6 Puttonyos",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Tokaj \r\nAszú 6 Puttonyos - Orosz Gábor to jedno z najbardziej cenionych win regionu \r\nTokaj, stanowiące kwintesencję tradycji, rzemiosła i terroir. Wino powstaje ze \r\nstarannie wyselekcjonowanych gron, ręcznie zbieranych do tradycyjnych puttonów - \r\n25-kilogramowych pojemników. Następnie odpowiednia liczba tych pojemników (w tym \r\nprzypadku sześć) jest dodawana do młodego wina lub moszczu. Ilość puttonów \r\ndecyduje o intensywności i słodyczy gotowego wina - 6 Puttonyos to najwyższa \r\nkategoria dostępna w klasyfikacji Tokaj Aszú. Wino otwiera się umiarkowaną \r\nintensywnością, stopniowo odsłaniając złożone, głębokie aromaty. Złocista barwa \r\nzachęca do degustacji, a nos urzeka nutami kwiatów, muszkatu, szafranu, miodu, \r\nmandarynki i moreli. Na podniebieniu wino jest bogate, gęste, z wyraźną \r\nświeżością, którą zawdzięcza idealnie zachowanej kwasowości oraz lekkiej, \r\nszlachetnej nutce utlenienia, przywołującej na myśl dobre sherry - zgodnie z \r\ntradycyjnym stylem winiarza. Złożone warstwy słodkiej moreli, delikatnych \r\nprzypraw i intensywna długość finiszu czynią to wino wyjątkowym doznaniem. \r\nWinogrona pochodzą z crus pierwszej klasy, a wino produkowane jest wyłącznie w \r\nnajlepszych rocznikach. Twórcą tej etykiety jest Orosz Gábor, mały, niezależny \r\nwiniarz z doliny Mád. Jego winnice, obejmujące zaledwie 7 hektarów, położone są \r\nw jednym z najcieplejszych miejsc regionu - o 4°C cieplejszym niż inne \r\nlokalizacje. Bogate, żyzne gleby i mikroklimat sprzyjają produkcji win \r\nnajwyższej jakości. To wino to nie tylko dzieło natury, ale też rezultat pasji, \r\nprecyzji i szacunku dla tradycji. Idealne jako prezent, do celebracji lub jako \r\ntowarzysz wyrafinowanych deserów i serów pleśniowych.</SPAN></P>\r\n",
+  "description_short": "<p>Tokaj Aszú 6 Puttonyos - Orosz Gábor to jedno z najbardziej cenionych win regionu Tokaj, stanowiące kwintesencję tradycji, rzemiosła i terroir. Wino powstaje ze starannie wyselekcjonowanych gron, ręcznie zbieranych do tradycyjnych puttonów</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2636,
+  "id_product": 2636,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2845,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2636-wino-tokaji-aszu-6-puttonyos",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 275.609756,
+  "price_without_reduction": 339,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Węgry",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 39
+    },
+    {
+      "name": "Region",
+      "value": "Tokaj",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 493
+    },
+    {
+      "name": "Alkohol",
+      "value": "10,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 443
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Szczep",
+      "value": "Furmint",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 75
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Muscadelle",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 506
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "TOKAJI ASZU 2013",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3688,
+      "legend": "WINO Tokaji Aszu 6 Puttonyos",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3688-small_default/wino-tokaji-aszu-6-puttonyos.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3688-small_default/wino-tokaji-aszu-6-puttonyos.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3688-medium_default/wino-tokaji-aszu-6-puttonyos.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3688-medium_default/wino-tokaji-aszu-6-puttonyos.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3688,
+    "legend": "WINO Tokaji Aszu 6 Puttonyos",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3688-small_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-small_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3688-medium_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-medium_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3688-cart_default/wino-tokaji-aszu-6-puttonyos.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3688-home_default/wino-tokaji-aszu-6-puttonyos.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3688-large_default/wino-tokaji-aszu-6-puttonyos.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 339,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5900695070232",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "53,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-12-09",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1356,
+  "advanced_stock_management": "0",
+  "date_add": "2024-12-09 20:09:28",
+  "date_upd": "2025-02-20 12:50:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA  Nisskosher Gorzka Orzechowa",
+  "link_rewrite": "wodka-nisskosher-gorzka-orzechowa",
+  "name": "WÓDKA  Nisskosher Gorzka Orzechowa",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gorzka \r\nOrzechowa Nisskosher jest kompozycją nalewek z włoskiego orzecha zielonego, ziół \r\ni korzennych przypraw. Trunek został delikatnie dosłodzony i odpowiednio długo\r\n leżakowany.</SPAN></P>\r\n",
+  "description_short": "<p>Gorzka Orzechowa Nisskosher jest kompozycją nalewek z włoskiego orzecha zielonego, ziół i korzennych przypraw. Trunek został delikatnie dosłodzony i odpowiednio długo leżakowany.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1282,
+  "id_product": 1282,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1356,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1282-wodka-nisskosher-gorzka-orzechowa",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 43.089431,
+  "price_without_reduction": 53,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "36%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 372
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5900695070232",
+      "ean13": "5900695070232",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1781,
+      "legend": "WÓDKA  Nisskosher Gorzka Orzechowa",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1781-small_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1781-small_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1781-medium_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1781-medium_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1781,
+    "legend": "WÓDKA  Nisskosher Gorzka Orzechowa",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1781-small_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-small_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1781-medium_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-medium_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1781-cart_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1781-home_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1781-large_default/wodka-nisskosher-gorzka-orzechowa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 53,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3379974202008",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 20,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "230,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2828,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-18 10:26:59",
+  "date_upd": "2026-01-19 09:27:36",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "ABSYNT Sublime Absente",
+  "link_rewrite": "absynt-sublime-absente",
+  "name": "ABSYNT Sublime Absente",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Sublime \r\nAbsinthe 89% to wyjątkowy francuski trunek, którego receptura sięga XIX wieku i \r\nopiera się na tradycyjnych metodach destylacji. Produkowany przez renomowaną \r\nDistilleries et Domaines de Provence, absynt ten zachwyca niezwykle intensywnym, \r\nziołowo-korzennym profilem smakowym, w którym wyraźnie wyczuwalne są piołun \r\n(Artemisia absinthium), anyż gwiazdkowaty, melisa, mięta oraz koper włoski. Jego \r\npotężna moc - aż 89% alkoholu - czyni go najmocniejszym absyntem w ofercie tej \r\nprowansalskiej destylarni. W odróżnieniu od wielu innych producentów, twórcy \r\nSublime używają minimalnej ilości cukru, co pozwala na uzyskanie bardziej \r\nwyrazistego, surowego smaku ziół. Rezultatem jest trunek o głębokim, \r\ngorzko-słodkim smaku, z dominującym aromatem piołunu i wyraźnymi, ostrymi \r\nakcentami mięty, anyżu i przypraw. To propozycja dla doświadczonych miłośników \r\nabsyntu, którzy cenią autentyczność, intensywność oraz historyczne dziedzictwo \r\ntego legendarnego alkoholu. Historia absyntu sięga średniowiecza, kiedy to był \r\nstosowany głównie jako środek leczniczy. W XIX wieku towarzyszył żołnierzom \r\npodczas kampanii wojennych - zarówno jako środek dezynfekujący, jak i antidotum \r\nna melancholię. Później zdobył ogromną popularność w środowiskach artystycznych, \r\nstając się nieodłącznym elementem bohemy i inspiracją dla wielu twórców. Sublime \r\nto prawdziwa perełka w świecie absyntu - mocna, wyrazista i wierna \r\ntradycji.</SPAN></P>\r\n",
+  "description_short": "<p>Sublime Absinthe 89% to wyjątkowy francuski trunek, którego receptura sięga XIX wieku i opiera się na tradycyjnych metodach destylacji. Produkowany przez renomowaną Distilleries et Domaines de Provence</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2621,
+  "id_product": 2621,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2828,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "absynt",
+  "category_name": "Absynt",
+  "link": "https://luksusowealkohole.pl/absynt/2621-absynt-sublime-absente",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.99187,
+  "price_without_reduction": 230,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "89%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 597
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Zielona",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 593
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3379974202008",
+      "ean13": "3379974202008",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3923,
+      "legend": "ABSYNT Sublime Absente",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3923-small_default/absynt-sublime-absente.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3923-small_default/absynt-sublime-absente.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3923-medium_default/absynt-sublime-absente.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3923-medium_default/absynt-sublime-absente.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3923,
+    "legend": "ABSYNT Sublime Absente",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3923-small_default/absynt-sublime-absente.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-small_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3923-medium_default/absynt-sublime-absente.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-medium_default/absynt-sublime-absente.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3923-cart_default/absynt-sublime-absente.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3923-home_default/absynt-sublime-absente.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3923-large_default/absynt-sublime-absente.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 230,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

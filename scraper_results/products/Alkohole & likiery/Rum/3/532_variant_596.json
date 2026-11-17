@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7707180703013",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "239,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 596,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-13 17:49:14",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM La Hechicera Reserva Familiar",
+  "link_rewrite": "rum-la-hechicera-reserva-familiar",
+  "name": "RUM La Hechicera Reserva Familiar",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>La \r\nHechicera Reserva Familiar to wysokiej jakości rum kolumbijski typu Extra \r\nAnejo.&nbsp;Nazwa Hechicera oznacza po hiszpańsku \"Czarodziejka\". Dokładnie to\r\n dostarcza nam ten niezwykły trunek- czystą magię w kieliszku. Jest to mieszanka\r\n rumów, produkowanych z melasy przy wykorzystaniu metody Solera, dojrzewających \r\nod 12 do 21 lat w beczkach po bourbonie z białego, amerykańskiego dębu. \r\nDoskonały kolumbijski rum La Hechicera wspaniale łączy ze sobą nuty drewna \r\ndębowego, karmelu i skórki pomarańczowej. Jest to całkowicie naturalny trunek, \r\nniekoloryzowany i bez sztucznych aromatów czy cukrów. Zamknięty z mocą 40% abv w \r\nprzepiękną, zdobioną butelkę wraz z opakowaniem \r\nprezentowym.</SPAN></P>\r\n",
+  "description_short": "<p>La Hechicera Reserva Familiar to wysokiej jakości rum kolumbijski typu Extra Anejo. Nazwa Hechicera oznacza po hiszpańsku \"Czarodziejka\". Dokładnie to dostarcza nam ten niezwykły trunek- czystą magię w kieliszku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 532,
+  "id_product": 532,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 596,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/532-rum-la-hechicera-reserva-familiar",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 194.308943,
+  "price_without_reduction": 239,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Kolumbia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 331
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7707180703013",
+      "ean13": "7707180703013",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 803,
+      "legend": "RUM La Hechicera Reserva Familiar",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/803-small_default/rum-la-hechicera-reserva-familiar.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/803-small_default/rum-la-hechicera-reserva-familiar.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/803-medium_default/rum-la-hechicera-reserva-familiar.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/803-medium_default/rum-la-hechicera-reserva-familiar.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 803,
+    "legend": "RUM La Hechicera Reserva Familiar",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/803-small_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-small_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/803-medium_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-medium_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/803-cart_default/rum-la-hechicera-reserva-familiar.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/803-home_default/rum-la-hechicera-reserva-familiar.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/803-large_default/rum-la-hechicera-reserva-familiar.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 239,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

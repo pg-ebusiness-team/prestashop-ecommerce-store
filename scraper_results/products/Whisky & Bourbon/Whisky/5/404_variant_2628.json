@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000281005423",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "369,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 463,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 16:52:37",
+  "date_upd": "2026-01-31 13:34:10",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Dalwhinnie 15 Y O",
+  "link_rewrite": "whisky-dalwhinnie-15yo",
+  "name": "WHISKY Dalwhinnie 15YO",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Whisky Dalwhinnie pochodzi z powstałej w 1898 roku, najwyżej położonej wytwórni w Szkocji, na przełęczy Drumochter Pass, wśród rozległych torfowisk otoczonych czystymi jeziorami i rzekami. Jej najbardziej popularna odmiana, 15-letnia single malt to niezwykle łagodny, doskonale wyważony trunek o jasnej barwie i przyjemnym wrzosowo-miodowym aromacie, z domieszką wanilii.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Whisky Dalwhinnie pochodzi z powstałej w 1898 roku, najwyżej położonej wytwórni w Szkocji, na przełęczy Drumochter Pass, wśród rozległych torfowisk otoczonych czystymi jeziorami i rzekami.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 404,
+  "id_product": 404,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2628,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/404-whisky-dalwhinnie-15yo",
+  "manufacturer_name": null,
+  "attribute_price": 81.300813,
+  "price_tax_exc": 300,
+  "price_without_reduction": 369,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "15 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 186
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "5000281003603",
+      "ean13": "5000281003603",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4282,
+      "legend": "WHISKY Dalwhinnie 15 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4282-small_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4282-small_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4282-medium_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4282-medium_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4283,
+      "legend": "WHISKY Dalwhinnie 15 Y O",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4283-cart_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4283-cart_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4283-small_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4283-small_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4283-home_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4283-home_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4283-medium_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4283-medium_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4283-large_default/whisky-dalwhinnie-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4283-large_default/whisky-dalwhinnie-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4283-cart_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4283-cart_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4283-home_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4283-home_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4283-large_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4283-large_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4282,
+    "legend": "WHISKY Dalwhinnie 15 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4282-small_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-small_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4282-medium_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-medium_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4282-cart_default/whisky-dalwhinnie-15yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4282-home_default/whisky-dalwhinnie-15yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4282-large_default/whisky-dalwhinnie-15yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 369,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

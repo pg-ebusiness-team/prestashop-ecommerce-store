@@ -1,0 +1,343 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5099466178069",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 44,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "40,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2970,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-24 12:38:31",
+  "date_upd": "2025-10-24 13:05:05",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SŁODYCZE Czekoladki Butlers Whiskey",
+  "link_rewrite": "slodycze-czekoladki-butlers-whiskey",
+  "name": "SŁODYCZE Czekoladki Butlers Whiskey",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Trufle \r\nczekoladowe z irlandzką whiskey to wyjątkowe połączenie aksamitnej mlecznej \r\nczekolady z wyrazistym nadzieniem truflowym, wzbogaconym nutą autentycznej \r\nirlandzkiej whisky. Każdy kęs to harmonia słodyczy i subtelnie rozgrzewającego \r\naromatu alkoholu, który powoli rozwija się na podniebieniu, tworząc pełnię smaku \r\ni elegancji. To nie tylko deser, ale chwila prawdziwej przyjemności - \r\nintensywna, bogata i doskonale zbalansowana. Wspaniała kolekcja wykwintnych \r\ntrufli czekoladowych zachwyca połączeniem delikatnego, kremowego wnętrza z \r\nwyrafinowanym akcentem whisky, zamkniętym w przepysznych skorupkach z mlecznej i \r\ngorzkiej czekolady. Każda trufla stanowi małe dzieło sztuki cukierniczej, które \r\nzadowoli nawet najbardziej wymagających miłośników czekolady i whisky. To \r\nidealny wybór na wieczór z kieliszkiem ulubionego trunku, jako elegancki deser \r\nlub niebanalny prezent dla konesera.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>\r\n Składniki: miazga kakaowa, cukier, masło kakaowe, pełne mleko w proszku, syrop\r\n z cukru inwertowanego, irlandzka whisky (5%), słodzone mleko skondensowane\r\n (mleko, cukier), emulgator: lecytyna sojowa, naturalny aromat. Zawartość \r\nalkoholu: 2%. Czekolada gorzka zawiera minimum 58% suchej masy kakaowej,\r\n czekolada mleczna - minimum 32% suchej masy kakaowej i 20% suchej masy\r\n mlecznej. Produkt może zawierać śladowe ilości orzechów. Zestaw zawiera: 10\r\n czekoladek. Przechowywać w chłodnym, suchym i bezwonnym miejscu. Najlepiej\r\n spożyć przed: data na boku opakowania.</SPAN></P>\r\n",
+  "description_short": "<p>Trufle czekoladowe z irlandzką whiskey to wyjątkowe połączenie aksamitnej mlecznej czekolady z wyrazistym nadzieniem truflowym, wzbogaconym nutą autentycznej irlandzkiej whisky.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2775,
+  "id_product": 2775,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2970,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "slodycze",
+  "category_name": "Słodycze",
+  "link": "https://luksusowealkohole.pl/slodycze/2775-slodycze-czekoladki-butlers-whiskey",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 32.520325,
+  "price_without_reduction": 40,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 55,
+      "id_attribute_group": 7,
+      "name": "125g",
+      "group": "Gramatura",
+      "reference": "5099466178069",
+      "ean13": "5099466178069",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3853,
+      "legend": "SŁODYCZE Czekoladki Butlers Whiskey",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3853-small_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3853-small_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3853-medium_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3853-medium_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3854,
+      "legend": "SŁODYCZE Czekoladki Butlers Whiskey",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3854-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3854-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3854-small_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3854-small_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3854-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3854-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3854-medium_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3854-medium_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3854-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3854-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3854-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3854-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3854-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3854-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3854-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3854-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3853,
+    "legend": "SŁODYCZE Czekoladki Butlers Whiskey",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3853-small_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-small_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3853-medium_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-medium_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3853-cart_default/slodycze-czekoladki-butlers-whiskey.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3853-home_default/slodycze-czekoladki-butlers-whiskey.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3853-large_default/slodycze-czekoladki-butlers-whiskey.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 40,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

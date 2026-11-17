@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3269551455517",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3108,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-16 14:36:58",
+  "date_upd": "2026-02-16 15:31:40",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Gautier VSOP",
+  "link_rewrite": "koniak-gautier-vsop",
+  "name": "KONIAK Gautier VSOP",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 8pt;\"><SPAN style='line-height: 107%; font-family: \"Times New Roman\",serif; font-size: 12pt;'>Gautier \r\nVSOP to klasyczny przykład francuskiego rzemiosła koniakowego, tworzony przez \r\ndom Maison Gautier, działający nieprzerwanie od 1755 roku w regionie Cognac. \r\nPowstaje z wyselekcjonowanych eaux-de-vie dojrzewających co najmniej cztery lata \r\nw dębowych beczkach, w tym z dębu Limousin, co zapewnia mu wyraźną strukturę i \r\nharmonijne połączenie świeżości z dojrzałością. Koniak prezentuje ciepłą, \r\nbursztynowo-złotą barwę oraz elegancki, szlachetny aromat. W nosie pojawiają się \r\nnuty wanilii, moreli, gruszek i migdałów, którym towarzyszą akcenty miodu oraz \r\nwyraźnie zaznaczona, lecz subtelna dębina. Bukiet określany przez producenta \r\njako „gourmand” łączy w sobie słodycz kandyzowanych owoców z rozgrzewającymi, \r\nzimowymi przyprawami. Na podniebieniu Gautier VSOP jest aksamitny i dobrze \r\nzbalansowany. Owocowa słodycz przenika się tu z tonami karmelu, wanilii, \r\nsuszonych fig oraz lekką pikantnością przypraw. Obecność dębu jest wyczuwalna \r\nzarówno w aromacie, jak i w smaku, nadając trunkowi solidną strukturę i głębię. \r\nFinisz jest elegancki, średnio długi do długiego, z utrzymującymi się nutami \r\nsuszonych owoców, wanilii i delikatnej, korzennej dębiny. Najlepiej smakuje \r\ndegustowany solo w temperaturze pokojowej lub z kilkoma kroplami wody, choć \r\nrównie dobrze odnajduje się w klasycznych koktajlach na bazie koniaku. Jak na \r\nVSOP, wyróżnia się ponadprzeciętną złożonością i autentycznym charakterem, który \r\ndocenią zarówno początkujący, jak i doświadczeni miłośnicy \r\nkoniaku.</SPAN></P>\r\n",
+  "description_short": "<p>Gautier VSOP to klasyczny przykład francuskiego rzemiosła koniakowego, tworzony przez dom Maison Gautier, działający nieprzerwanie od 1755 roku w regionie Cognac.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2913,
+  "id_product": 2913,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3108,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/2913-koniak-gautier-vsop",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Koniak",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 378
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3269551455517",
+      "ean13": "3269551455517",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4520,
+      "legend": "KONIAK Gautier VSOP",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4520-small_default/koniak-gautier-vsop.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4520-small_default/koniak-gautier-vsop.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4520-medium_default/koniak-gautier-vsop.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4520-medium_default/koniak-gautier-vsop.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4520,
+    "legend": "KONIAK Gautier VSOP",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4520-small_default/koniak-gautier-vsop.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-small_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4520-medium_default/koniak-gautier-vsop.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-medium_default/koniak-gautier-vsop.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4520-cart_default/koniak-gautier-vsop.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4520-home_default/koniak-gautier-vsop.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4520-large_default/koniak-gautier-vsop.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

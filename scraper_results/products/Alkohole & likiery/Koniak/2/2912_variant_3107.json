@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3024480018284",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "950,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3107,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-16 14:36:58",
+  "date_upd": "2026-08-03 11:50:50",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Remy Martin XO Night",
+  "link_rewrite": "koniak-remy-martin-xo-night",
+  "name": "KONIAK Remy Martin XO Night",
+  "description": "<p style=\"margin:0cm 0cm 8pt;\"><span style=\"line-height:107%;font-family:'Times New Roman', serif;font-size:12pt;\">Rémy Martin XO Night Edition to wyjątkowa odsłona kultowego XO, zaprojektowana z myślą o energii nocnego życia i atmosferze świętowania. Klasyczny charakter koniaku został zamknięty w efektownej, lustrzanej czarnej karafce, która odbija światło i przyciąga uwagę z każdej strony. Holograficzne refleksy oraz detale UV podkreślają nowoczesny, odważny styl edycji, a minimalistyczna forma eksponuje kultowy symbol Centaura marki Rémy Martin. Wewnątrz znajduje się doskonale zbalansowany koniak XO stworzony wyłącznie z eaux-de-vie pochodzących z Grande i Petite Champagne. Oferuje on bogactwo dojrzałych owoców, subtelne nuty kwiatowe, akcenty miodu oraz ciepłe przyprawy korzenne. Gładka, aksamitna struktura i intensywny aromat nadają mu wyrafinowany, luksusowy charakter, łącząc wieloletnie rzemiosło z nowoczesną estetyką. Ta limitowana edycja doskonale odnajduje się zarówno podawana solo, z kostką lodu, jak i w eleganckich koktajlach. Mistrz Piwnicy domu Rémy Martin, Baptiste Loiseau, rekomenduje degustację jako aperitif – lekko schłodzonego lub na lodzie – co pozwala w pełni wydobyć jego złożone aromaty i głębię smaku. Rémy Martin XO Night Edition to harmonijne połączenie tradycji, designu i nocnej elegancji w najbardziej wyrafinowanym wydaniu.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Rémy Martin XO Night Edition to wyjątkowa odsłona kultowego XO, zaprojektowana z myślą o energii nocnego życia i atmosferze świętowania.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2912,
+  "id_product": 2912,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3107,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/2912-koniak-remy-martin-xo-night",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 772.357724,
+  "price_without_reduction": 950.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Koniak",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 378
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3024480018284",
+      "ean13": "3024480018284",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4518,
+      "legend": "KONIAK Remy Martin XO Night",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4518-small_default/koniak-remy-martin-xo-night.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4518-small_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4518-medium_default/koniak-remy-martin-xo-night.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4518-medium_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4519,
+      "legend": "KONIAK Remy Martin XO Night",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4519-cart_default/koniak-remy-martin-xo-night.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4519-cart_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4519-small_default/koniak-remy-martin-xo-night.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4519-small_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4519-home_default/koniak-remy-martin-xo-night.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4519-home_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4519-medium_default/koniak-remy-martin-xo-night.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4519-medium_default/koniak-remy-martin-xo-night.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4519-large_default/koniak-remy-martin-xo-night.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4519-large_default/koniak-remy-martin-xo-night.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4519-cart_default/koniak-remy-martin-xo-night.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4519-cart_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4519-home_default/koniak-remy-martin-xo-night.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4519-home_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4519-large_default/koniak-remy-martin-xo-night.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4519-large_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4518,
+    "legend": "KONIAK Remy Martin XO Night",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4518-small_default/koniak-remy-martin-xo-night.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-small_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4518-medium_default/koniak-remy-martin-xo-night.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-medium_default/koniak-remy-martin-xo-night.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4518-cart_default/koniak-remy-martin-xo-night.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4518-home_default/koniak-remy-martin-xo-night.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4518-large_default/koniak-remy-martin-xo-night.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 950,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

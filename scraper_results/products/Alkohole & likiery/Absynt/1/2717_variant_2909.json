@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4076700306878",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 20,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2909,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-08 09:50:08",
+  "date_upd": "2026-01-19 09:27:36",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA ZESTAW Absinth Tabu 3 Pack",
+  "link_rewrite": "miniaturka-zestaw-absinth-tabu-3-pack",
+  "name": "MINIATURKA ZESTAW Absinth Tabu 3 Pack",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wyjątkowy \r\nzestaw degustacyjny Tabu - idealny nie tylko dla fanów absyntu! Trzy odsłony \r\nklasycznego trunku w eleganckiej formie miniatur: Classic, Red i Dry, każda w \r\nbuteleczce o pojemności 0,04 l. To świetna propozycja zarówno do odkrywania \r\nróżnych stylów absyntu, jak i dla kolekcjonerów poszukujących unikalnych \r\npozycji. Absynt Tabu to marka o głęboko zakorzenionej tradycji, sięgającej aż \r\n1853 roku. Wybierając ten trunek, sięgasz po coś więcej niż alkohol - to smak \r\nhistorii, kunsztu i rzemiosła. Produkowany wyłącznie z naturalnych składników \r\noraz wysokiej klasy destylatu winnego z najlepszych odmian winogron, Tabu \r\nwyróżnia się bogactwem aromatów i eleganckim, złożonym profilem. Dzięki \r\nstarannie dobranym recepturom i wyjątkowej jakości składnikom, absynt ten \r\noferuje idealną równowagę pomiędzy intensywnością a subtelnością. To luksus \r\nzamknięty w małych butelkach - doskonały do degustacji, odkrywania różnic między \r\nstylami, a także jako gustowny prezent.</SPAN></P>\r\n",
+  "description_short": "<p>Wyjątkowy zestaw degustacyjny Tabu - idealny nie tylko dla fanów absyntu! Trzy odsłony klasycznego trunku w eleganckiej formie miniatur: Classic, Red i Dry, każda w buteleczce o pojemności 0,04 l.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2717,
+  "id_product": 2717,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2909,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "absynt",
+  "category_name": "Absynt",
+  "link": "https://luksusowealkohole.pl/absynt/2717-miniaturka-zestaw-absinth-tabu-3-pack",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Niemcy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 231
+    },
+    {
+      "name": "Alkohol",
+      "value": "55%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 230
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 40,
+      "id_attribute_group": 5,
+      "name": "0,04 l",
+      "group": "Pojemność",
+      "reference": "4076700306878",
+      "ean13": "4076700306878",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3785,
+      "legend": "MINIATURKA ZESTAW Absinth Tabu 3 Pack",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3785-small_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3785-small_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3785-medium_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3785-medium_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3785,
+    "legend": "MINIATURKA ZESTAW Absinth Tabu 3 Pack",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3785-small_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-small_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3785-medium_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-medium_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3785-cart_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3785-home_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3785-large_default/miniaturka-zestaw-absinth-tabu-3-pack.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

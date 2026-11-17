@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 15,
+  "id_supplier": 0,
+  "reference": "4969265727908",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "230,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 272,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-21 11:11:42",
+  "date_upd": "2026-01-21 13:18:26",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Akashi Takumi",
+  "link_rewrite": "whisky-akashi-takumi",
+  "name": "WHISKY Akashi Takumi",
+  "description": "<SPAN style=\"color: rgb(50, 55, 60); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Manrope, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; float: none; display: inline !important; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Akashi \r\nTakumi Sherry Cask Blended Japanese Whisky Eigashima to&nbsp;</SPAN><SPAN style=\"color: rgb(50, 55, 60); text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: Manrope, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">japońska \r\nwhisky typu blended.&nbsp;Whisky jest leżakowana&nbsp;przez około&nbsp;6 \r\nmiesięcy&nbsp;w beczkach po \r\nhiszpańskim&nbsp;sherry.<SPAN>&nbsp;</SPAN></SPAN>\r\n",
+  "description_short": "<p>Akashi Takumi Sherry Cask Blended Japanese Whisky Eigashima to japońska whisky typu blended. Whisky jest leżakowana przez około 6 miesięcy w beczkach po hiszpańskim sherry.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 223,
+  "id_product": 223,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 272,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/223-whisky-akashi-takumi",
+  "manufacturer_name": "AKASHI",
+  "attribute_price": 0,
+  "price_tax_exc": 186.99187,
+  "price_without_reduction": 230,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "4969265727908",
+      "ean13": "4969265727908",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4071,
+      "legend": "WHISKY Akashi Takumi",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4071-small_default/whisky-akashi-takumi.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4071-small_default/whisky-akashi-takumi.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4071-medium_default/whisky-akashi-takumi.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4071-medium_default/whisky-akashi-takumi.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4071,
+    "legend": "WHISKY Akashi Takumi",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4071-small_default/whisky-akashi-takumi.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-small_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4071-medium_default/whisky-akashi-takumi.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-medium_default/whisky-akashi-takumi.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4071-cart_default/whisky-akashi-takumi.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4071-home_default/whisky-akashi-takumi.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4071-large_default/whisky-akashi-takumi.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 230,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

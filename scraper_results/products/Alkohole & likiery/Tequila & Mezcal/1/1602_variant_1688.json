@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "75060643001844",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "349,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-20",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1688,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-20 19:13:29",
+  "date_upd": "2026-04-29 09:16:52",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "TEQUILA Don Julio Reposado",
+  "link_rewrite": "tequila-don-julio-reposado",
+  "name": "TEQUILA Don Julio Reposado",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Marka \r\nnosząca imię swojego twórcy i rewolucjonisty w świecie tequili - Don Julio \r\nGonzáleza. Postawił on bezkompromisowo na jakość - dbałość o plantacje agawy, o\r\n odpowiednią dojrzałość zbiorów, do tego wprowadził selekcję zbiorów (tylko\r\n najbardziej soczyste części pi&#241;a). Równie rygorystycznie przestrzegał procesów\r\n samego wytwarzania - oczyszczania z wosków, pieczenia agawy nie krócej niż 72\r\n godziny itd. Zerwał też z tradycyjnymi bardzo wysokimi butelkami i \r\nzaprojektował niską, która nie przeszkadzała na stole biesiadnikom. Don Julio \r\nReposado Tequila leżakuje przez osiem miesięcy w beczkach z amerykańskiego \r\nbiałego dębu, ma złoto-bursztynowy kolor. Roztacza zapraszający łagodny aromat \r\ncytrusów i przypraw z akcentami dojrzałych owoców pestkowych. W ustach miękkie i\r\n eleganckie nuty ciemnej czekolady, wanilii i cejlońskiego cynamonu. Jedwabiste,\r\n ciepłe wykończenie z koncentracją suszonych owoców, orzechów i nutą \r\nkarmelizowanego jabłka. Z łagodnym, eleganckim smakiem i aromatem najlepiej\r\n smakuje jako część orzeźwiającego koktajlu lub schłodzony na kostkach \r\nlodu.</SPAN></P>\r\n",
+  "description_short": "<p>Marka nosząca imię swojego twórcy i rewolucjonisty w świecie tequili - Don Julio Gonzáleza.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1602,
+  "id_product": 1602,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1688,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/1602-tequila-don-julio-reposado",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 283.739837,
+  "price_without_reduction": 349,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "38%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 233
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Reposado",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 533
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "75060643001844",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4714,
+      "legend": "TEQUILA Don Julio Reposado",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4714-small_default/tequila-don-julio-reposado.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4714-small_default/tequila-don-julio-reposado.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4714-medium_default/tequila-don-julio-reposado.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4714-medium_default/tequila-don-julio-reposado.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4714,
+    "legend": "TEQUILA Don Julio Reposado",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4714-small_default/tequila-don-julio-reposado.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-small_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4714-medium_default/tequila-don-julio-reposado.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-medium_default/tequila-don-julio-reposado.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4714-cart_default/tequila-don-julio-reposado.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4714-home_default/tequila-don-julio-reposado.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4714-large_default/tequila-don-julio-reposado.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 349,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

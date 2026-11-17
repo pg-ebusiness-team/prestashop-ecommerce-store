@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8500000918241",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3278,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-21 21:08:24",
+  "date_upd": "2026-10-29 09:45:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Santiago de Cuba 11yo Extra Anejo",
+  "link_rewrite": "rum-santiago-de-cuba-11yo-extra-anejo",
+  "name": "RUM Santiago de Cuba 11yo Extra Anejo",
+  "description": "\r\n<P \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\" \r\ndata-pm-slice=\"1 1 []\"><STRONG><SPAN>Santiago de Cuba 11YO Extra \r\nA&#241;ejo</SPAN></STRONG><SPAN><SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN>wyróżnia się głęboką, bursztynową \r\nbarwą. W aromacie pojawiają się<SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN></SPAN><STRONG><SPAN>wanilia, karmel, \r\ntoffi i suszone owoce</SPAN></STRONG><SPAN>, uzupełnione nutami prażonych \r\norzechów, przypraw korzennych oraz delikatnego dębu. Bukiet jest ciepły, \r\nharmonijny i wielowarstwowy.</SPAN></P>\r\n<P \r\nstyle=\"FONT-SIZE: medium; TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; caret-color: rgb(0, 0, 0); font-variant-caps: normal; -webkit-text-stroke-width: 0px\"><SPAN>Na \r\npodniebieniu<SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN></SPAN><STRONG><SPAN>rum Santiago de \r\nCuba 11YO</SPAN></STRONG><SPAN><SPAN \r\nclass=Apple-converted-space>&nbsp;</SPAN>jest gładki, pełny i przyjemnie \r\nzaokrąglony. Słodycz karmelu i wanilii łączy się z akcentami dojrzałych owoców, \r\nczekolady oraz subtelnych przypraw. Dębowe nuty nadają mu strukturę, a długi \r\nfinisz pozostawia przyjemne wrażenie z nutami toffi, wanilii i \r\ndrewna.</SPAN></P>\r\n",
+  "description_short": "<p>RUM Santiago de Cuba 11YO Extra Anejo 40% 0,7L to dojrzały kubański rum, który łączy tradycję karaibskiego rzemiosła z eleganckim, bogatym profilem smakowym. Powstaje w Santiago de Cuba, mieście uznawanym za jedno z najważniejszych miejsc w historii kubań</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3129,
+  "id_product": 3129,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3278,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/3129-rum-santiago-de-cuba-11yo-extra-anejo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Kuba",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 334
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Anejo",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 534
+    },
+    {
+      "name": "Wiek",
+      "value": "11 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 182
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8500000918241",
+      "ean13": "8500000918241",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4926,
+      "legend": "RUM Santiago de Cuba 11yo Extra Anejo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4926-small_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4926-small_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4926-medium_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4926-medium_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4926,
+    "legend": "RUM Santiago de Cuba 11yo Extra Anejo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4926-small_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-small_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4926-medium_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-medium_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4926-cart_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4926-home_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4926-large_default/rum-santiago-de-cuba-11yo-extra-anejo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

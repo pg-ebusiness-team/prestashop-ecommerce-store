@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7791203002108",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "55,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 381,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-01 12:08:20",
+  "date_upd": "2025-03-25 12:45:15",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO La Linda Sweet Viogner",
+  "link_rewrite": "wino-la-linda-sweet-viogner",
+  "name": "WINO La Linda Sweet Viogner",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Wyjątkowo delikatne wino pochodzące z Argentyny ze szczepu \r\nViogner. Słodycz&nbsp;która nie przytłacza, a daje wspaniałe doznania gdzie \r\nwyczujemy świeże zielone jabłko, melon i limonkę.</FONT></P>\r\n",
+  "description_short": "<p>Wyjątkowo delikatne wino pochodzące z Argentyny ze szczepu Viogner. Słodycz która nie przytłacza, a daje wspaniałe doznania gdzie wyczujemy świeże zielone jabłko, melon i limonkę.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 330,
+  "id_product": 330,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 381,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/330-wino-la-linda-sweet-viogner",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 44.715447,
+  "price_without_reduction": 55,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Argentyna",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 22
+    },
+    {
+      "name": "Region",
+      "value": "Mendoza",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 297
+    },
+    {
+      "name": "Alkohol",
+      "value": "7,6%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 305
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Szczep",
+      "value": "Viogner",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 306
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7791203002108",
+      "ean13": "7791203002108",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2617,
+      "legend": "WINO La Linda Sweet Viogner",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2617-small_default/wino-la-linda-sweet-viogner.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2617-small_default/wino-la-linda-sweet-viogner.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2617-medium_default/wino-la-linda-sweet-viogner.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2617-medium_default/wino-la-linda-sweet-viogner.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2617,
+    "legend": "WINO La Linda Sweet Viogner",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2617-small_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-small_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2617-medium_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-medium_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2617-cart_default/wino-la-linda-sweet-viogner.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2617-home_default/wino-la-linda-sweet-viogner.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2617-large_default/wino-la-linda-sweet-viogner.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 55,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

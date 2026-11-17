@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3052853084840",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "700,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-12",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3029,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-12 10:41:45",
+  "date_upd": "2026-06-08 14:31:53",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Bollinger PN AYC 18 Brut",
+  "link_rewrite": "champagne-bollinger-pn-ayc-18-brut",
+  "name": "CHAMPAGNE Bollinger PN AYC 18 Brut",
+  "description": "\r\n<P style=\"MARGIN: 0cm 0cm 10pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",\"serif\"; LINE-HEIGHT: 115%'>Bollinger \r\nPN AYC18 - Czwarta edycja limitowanej serii Bollinger PN to najbardziej \r\nwyraziste i fascynujące wcielenie tego projektu. W kieliszku prezentuje się \r\nzłotą barwą z bursztynowymi refleksami, zapowiadając niezwykłą głębię i \r\nelegancję. W aromacie dominują nuty suszonych gruszek i nektarynek, z akcentami \r\nmiodu, pigwy oraz świeżego ciasta. Z czasem pojawiają się wrażenia marcepanu, \r\nkrwistej pomarańczy, kandyzowanych owoców cytrusowych i delikatnych przypraw \r\nkorzennych, które ożywia lekka nuta mentolu. Na podniebieniu wino jest pełne, \r\nbogate i harmonijne, o niemal jedwabistej teksturze. Smak rozwija się stopniowo \r\n- od miodowej słodyczy, przez aromaty owocowych galaretek i konfitowanych \r\ncytrusów, aż po długi, świeży finisz. PN AYC18 łączy powagę, elegancję i \r\nekspresję, tworząc wrażenie wyjątkowej głębi. To wino stworzone z myślą o \r\nkoneserach poszukujących różnych odsłon Pinot Noir z Szampanii. Najlepiej \r\nsmakuje schłodzone do temperatury 10-11°C, co pozwala w pełni wydobyć jego \r\ncharakter i styl. Można cieszyć się nim już dziś lub pozostawić do dalszego \r\ndojrzewania w piwnicy. Pinot Noir stanowi fundament stylu Domu Bollinger, który \r\nzyskał światową renomę dzięki mistrzowskiemu ukazaniu potencjału tej odmiany. \r\nCuvée PN AYC18 składa się w ponad 50% z win pochodzących z gminy A&#255; (Grand Cru), \r\nuzupełnionych winami z Verzenay (Grand Cru) i Tauxi&#232;res (Premier Cru). \r\nNajstarsze wina rezerwowe w tej edycji pochodzą z 2009 roku. Produkcja Bollinger \r\nPN AYC18 opiera się w 100% na Pinot Noir, głównie z winnic należących do \r\nposiadłości w A&#255; - jednej z zaledwie 17 wiosek sklasyfikowanych jako Grand Cru w \r\nSzampanii. Podstawą cuvée jest znakomity rocznik 2018, uzupełniony o 50% win \r\nrezerwowych, w tym 25% leżakowanych w magnum z 2009 roku. Dzięki temu wino \r\nzyskuje wyjątkową złożoność i aromatyczną harmonię. Bollinger, słynący z \r\ndojrzewania win w dębowych beczkach typu foudre (50% fermentacji przebiega w \r\nbeczkach), nadaje temu szampanowi charakterystyczne nuty dymu, orzechów i \r\nkarmelu. Wina rezerwowe dodatkowo wzmacniają głębię i intensywność aromatu. Rok \r\n2018 zapisał się w historii Szampanii jako wyjątkowy - po deszczowej zimie i \r\nłagodnej wiośnie nadeszło bardzo ciepłe, suche i słoneczne lato, które \r\nprzekroczyło rekordy temperatur z 2003 roku. Ten rocznik stał się nowym punktem \r\nodniesienia dla regionu pod względem upałów, nasłonecznienia i dojrzałości \r\nowoców, co znajduje swoje odbicie w intensywnym, pełnym charakterze Bollinger PN \r\nAYC18.</SPAN></P>\r\n",
+  "description_short": "<p>Bollinger PN AYC18 - Czwarta edycja limitowanej serii Bollinger PN to najbardziej wyraziste i fascynujące wcielenie tego projektu. W kieliszku prezentuje się złotą barwą z bursztynowymi refleksami, zapowiadając niezwykłą głębię i elegancję.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2833,
+  "id_product": 2833,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3029,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/2833-champagne-bollinger-pn-ayc-18-brut",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 569.105691,
+  "price_without_reduction": 700,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3052853085700",
+      "ean13": "3052853085700",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4778,
+      "legend": "CHAMPAGNE Bollinger PN AYC 18 Brut",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4778-small_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4778-small_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4778-medium_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4778-medium_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4778,
+    "legend": "CHAMPAGNE Bollinger PN AYC 18 Brut",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4778-small_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-small_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4778-medium_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-medium_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4778-cart_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4778-home_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4778-large_default/champagne-bollinger-pn-ayc-18-brut.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 700,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

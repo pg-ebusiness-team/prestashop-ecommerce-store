@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8000060100247",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 23,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "112,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-25",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 897,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-25 14:21:20",
+  "date_upd": "2025-07-15 12:18:16",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BRANDY Vecchia Romagna",
+  "link_rewrite": "brandy-vecchia-romagna",
+  "name": "BRANDY Vecchia Romagna",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Brandy \r\nVecchia Romagna to włoska brandy charakteryzująca się bogatym aromatem \r\ndojrzałych owoców oraz migdałów. Na podniebieniu dobrze zbudowana, elegancka \r\nwręcz wspaniała!!! Powstała ze specjalnie wyselekcjonowanych białych winogron, \r\nnastępnie &nbsp;dojrzewa minimum 12 miesięcy w dębowych \r\nbeczkach.</SPAN></P>\r\n",
+  "description_short": "<p>Brandy Vecchia Romagna to włoska brandy charakteryzująca się bogatym aromatem dojrzałych owoców oraz migdałów. Na podniebieniu dobrze zbudowana, elegancka wręcz wspaniała!!</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 823,
+  "id_product": 823,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 897,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "brandy",
+  "category_name": "Brandy",
+  "link": "https://luksusowealkohole.pl/brandy/823-brandy-vecchia-romagna",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 91.056911,
+  "price_without_reduction": 112.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 9,
+  "quantity_all_versions": 12,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "38%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 233
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8000060100247",
+      "ean13": "8000060100247",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 933,
+      "legend": "BRANDY Vecchia Romagna",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/933-small_default/brandy-vecchia-romagna.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/933-small_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/933-medium_default/brandy-vecchia-romagna.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/933-medium_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 932,
+      "legend": "BRANDY Vecchia Romagna",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/932-cart_default/brandy-vecchia-romagna.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/932-cart_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/932-small_default/brandy-vecchia-romagna.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/932-small_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/932-home_default/brandy-vecchia-romagna.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/932-home_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/932-medium_default/brandy-vecchia-romagna.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/932-medium_default/brandy-vecchia-romagna.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/932-large_default/brandy-vecchia-romagna.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/932-large_default/brandy-vecchia-romagna.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/932-cart_default/brandy-vecchia-romagna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/932-cart_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/932-home_default/brandy-vecchia-romagna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/932-home_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/932-large_default/brandy-vecchia-romagna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/932-large_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 933,
+    "legend": "BRANDY Vecchia Romagna",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/933-small_default/brandy-vecchia-romagna.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-small_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/933-medium_default/brandy-vecchia-romagna.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-medium_default/brandy-vecchia-romagna.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/933-cart_default/brandy-vecchia-romagna.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/933-home_default/brandy-vecchia-romagna.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/933-large_default/brandy-vecchia-romagna.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 112,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

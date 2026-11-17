@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4006542018318",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "45,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "301-category",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1654,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-15 13:47:32",
+  "date_upd": "2025-12-06 17:07:12",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Rudolf Muller Riesling Kabinet",
+  "link_rewrite": "wino-rudolf-muller-riesling-kabinet",
+  "name": "WINO Rudolf Muller Riesling Kabinet",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Rudolf Muller Riesling Kabinett to jedna z niewielu najbardziej \r\ntradycyjnych i szanowanych niemieckich winiarskich rodzin, produkujących białe \r\nwina w Dolinie Moseli. Znana z przywiązania szczególnie uwagi do zdobytego \r\nlatami doświadczenia i jednocześnie wykorzystywania najnowszych osiągnięć \r\ntechniki. Kontrola jakości zaczyna się od selekcji winogron i jest kontynuowana \r\nw kolejnych etapach procesu produkcji. Wino z aromatami owoców cytrusowych i \r\nminerałów. Dobrze wyważone, o miękkim owocowym smaku. Klarowne w smaku, świeżo \r\nnarysowane i pysznie gronowe. Polecane do owoców morza, kurczaka, cielęciny i \r\nłagodnie przyprawionych potraw.</FONT></P>\r\n",
+  "description_short": "<p>Rudolf Muller Riesling Kabinett to jedna z niewielu najbardziej tradycyjnych i szanowanych niemieckich winiarskich rodzin, produkujących białe wina w Dolinie Moseli.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1562,
+  "id_product": 1562,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1654,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1562-wino-rudolf-muller-riesling-kabinet",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 36.585366,
+  "price_without_reduction": 45,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 51,
+  "quantity_all_versions": 51,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Niemcy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 231
+    },
+    {
+      "name": "Alkohol",
+      "value": "8,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 489
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półwytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 16
+    },
+    {
+      "name": "Szczep",
+      "value": "Riesling",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 130
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "4006542018318",
+      "ean13": "4006542018318",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2461,
+      "legend": "WINO Rudolf Muller Riesling Kabinet",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2461-small_default/wino-rudolf-muller-riesling-kabinet.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2461-small_default/wino-rudolf-muller-riesling-kabinet.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2461-medium_default/wino-rudolf-muller-riesling-kabinet.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2461-medium_default/wino-rudolf-muller-riesling-kabinet.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2461,
+    "legend": "WINO Rudolf Muller Riesling Kabinet",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2461-small_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-small_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2461-medium_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-medium_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2461-cart_default/wino-rudolf-muller-riesling-kabinet.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2461-home_default/wino-rudolf-muller-riesling-kabinet.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2461-large_default/wino-rudolf-muller-riesling-kabinet.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 45,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010677762106",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 21,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "100,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2308,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-08 15:32:11",
+  "date_upd": "2025-07-08 16:14:16",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Vermouth Noilly Prat Rouge",
+  "link_rewrite": "vermouth-noilly-prat-rouge",
+  "name": "Vermouth Noilly Prat Rouge",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Noilly \r\nPrat Rouge to wyrazisty, słodki wermut o głębokiej, ciemnobursztynowej barwie, \r\nstworzony na bazie dwóch szczepów białych winogron - Picpoul i Clairette - \r\npochodzących z regionu Hérault w południowo-wschodniej Francji. Winogrona są \r\nstarannie uprawiane i ręcznie zbierane, by zapewnić najwyższą jakość surowca. \r\nJego bogaty, aromatyczny profil to zasługa unikalnej mieszanki aż 29 ziół i \r\nprzypraw z różnych stron świata. Wśród nich znajdują się między innymi sewilskie \r\npomarańcze, cynamon ze Sri Lanki, kora chinowca z Ekwadoru, goździki z \r\nMadagaskaru oraz ziarna kakao z Wenezueli. Po fermentacji, trunek dojrzewa przez \r\nminimum rok w dębowych beczkach, z których część wystawiana jest na działanie \r\nsłońca, co pozwala na pogłębienie aromatów i nadanie wermutowi wyjątkowej głębi. \r\nW smaku i zapachu Noilly Prat Rouge zachwyca nutami szafranu, goździków oraz \r\ngorzkiego kakao, tworząc kompozycję o wyjątkowej intensywności i elegancji. \r\nDoskonale sprawdza się jako klasyczny aperitif, ale również znakomicie komponuje \r\nsię z francuskimi wędlinami czy czekoladowymi deserami. To trunek o bogatej \r\nhistorii i wyrafinowanym charakterze - idealny dla tych, którzy poszukują \r\ngłębokich, złożonych doznań smakowych.</SPAN></P>\r\n",
+  "description_short": "<p>Noilly Prat Rouge to wyrazisty, słodki wermut o głębokiej, ciemnobursztynowej barwie, stworzony na bazie dwóch szczepów białych winogron - Picpoul i Clairette - pochodzących z regionu Hérault w południowo-wschodniej Francji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2221,
+  "id_product": 2221,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2308,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "aperitif",
+  "category_name": "Aperitif",
+  "link": "https://luksusowealkohole.pl/aperitif/2221-vermouth-noilly-prat-rouge",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 81.300813,
+  "price_without_reduction": 100,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "16,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 235
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5010677762106",
+      "ean13": "5010677762106",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3164,
+      "legend": "Vermouth Noilly Prat Rouge",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3164-small_default/vermouth-noilly-prat-rouge.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3164-small_default/vermouth-noilly-prat-rouge.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3164-medium_default/vermouth-noilly-prat-rouge.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3164-medium_default/vermouth-noilly-prat-rouge.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3164,
+    "legend": "Vermouth Noilly Prat Rouge",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3164-small_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-small_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3164-medium_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-medium_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3164-cart_default/vermouth-noilly-prat-rouge.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3164-home_default/vermouth-noilly-prat-rouge.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3164-large_default/vermouth-noilly-prat-rouge.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 100,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

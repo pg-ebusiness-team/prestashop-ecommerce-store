@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5014271796161",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1800,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-08 12:13:49",
+  "date_upd": "2025-03-12 10:59:26",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER ST. Germain Elderflower",
+  "link_rewrite": "likier-st-germain-elderflower",
+  "name": "LIKIER ST. Germain Elderflower",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Wysokiej jakości francuski likier owocowy o intensywnym aromacie \r\nkwiatów bzu, zbieranych późną wiosną we francuskich Alpach. Twórcą niezwykłego \r\nlikieru jest pochodzący z USA Robert Cooper. Wyczuwalne są aromaty kwiatów \r\nczarnego bzu, słodkich owoców z dodatkiem cytrusów i mięty pieprzowej. W smaku \r\nkremowy, mocno owocowy. St. German do doskonały dodatek do drinków i koktajli. \r\nDoskonale smakuje z szampanem, winem oraz z wodą \r\ngazowaną.</FONT></P>\r\n",
+  "description_short": "<p>Wysokiej jakości francuski likier owocowy o intensywnym aromacie kwiatów bzu, zbieranych późną wiosną we francuskich Alpach. Twórcą niezwykłego likieru jest pochodzący z USA Robert Cooper.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1710,
+  "id_product": 1710,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1800,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1710-likier-st-germain-elderflower",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "20%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 455
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Owocowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 549
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5014271796161",
+      "ean13": "5014271796161",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2344,
+      "legend": "LIKIER ST. Germain Elderflower",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2344-small_default/likier-st-germain-elderflower.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2344-small_default/likier-st-germain-elderflower.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2344-medium_default/likier-st-germain-elderflower.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2344-medium_default/likier-st-germain-elderflower.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2344,
+    "legend": "LIKIER ST. Germain Elderflower",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2344-small_default/likier-st-germain-elderflower.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-small_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2344-medium_default/likier-st-germain-elderflower.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-medium_default/likier-st-germain-elderflower.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2344-cart_default/likier-st-germain-elderflower.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2344-home_default/likier-st-germain-elderflower.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2344-large_default/likier-st-germain-elderflower.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

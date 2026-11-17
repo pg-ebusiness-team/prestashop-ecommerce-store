@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "08273109",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-08-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-08-03 17:15:30",
+  "date_upd": "2026-08-03 17:15:30",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA TEQUILA Don Julio Anejo 1942 40% 0,05l",
+  "link_rewrite": "miniaturka-tequila-don-julio-anejo-1942-40-005l",
+  "name": "MINIATURKA TEQUILA Don Julio Anejo 1942 40% 0,05l",
+  "description": "Smak i aromat<BR>Don Julio A&#241;ejo zachwyca pełnym i harmonijnym profilem. W \r\naromacie można odnaleźć dojrzałą agawę, wanilię, karmel oraz delikatne nuty \r\ndębowe. Smak jest aksamitny, z wyraźnymi akcentami waniliowo-karmelowymi i \r\nsubtelną słodyczą, uzupełnionymi charakterystycznym ciepłem dojrzałej \r\ntequili.<BR>Don Julio A&#241;ejo 1942 – miniaturka 50 ml<BR>Niewielka butelka o \r\npojemności 50 ml świetnie sprawdzi się jako:<BR>elegancki prezent dla miłośnika \r\ntequili,<BR>element kolekcji miniaturek alkoholi,<BR>upominek na wyjątkową \r\nokazję,<BR>ciekawy dodatek do domowego barku,<BR>możliwość spróbowania tequili \r\npremium w niewielkiej pojemności.<BR>Don Julio A&#241;ejo 1942 0,05 l to propozycja \r\ndla osób ceniących wysoką jakość, charakterystyczny smak dojrzałej tequili i \r\nelegancką formę miniaturowej butelki.<BR>Najważniejsze informacje<BR>Marka: Don \r\nJulio<BR>Rodzaj: Tequila A&#241;ejo<BR>Zawartość alkoholu: 40%<BR>Pojemność: 0,05 l / \r\n50 ml<BR>Kraj pochodzenia: Meksyk\r\n",
+  "description_short": "<p>Tequila Don Julio Anejo 1942 40% 0,05 l – miniaturka<br/>Don Julio Anejo 1942 40% 0,05 l to elegancka miniaturka jednej z najbardziej rozpoznawalnych tequili premium marki Don Julio. Ta wyjątkowa tequila typu Anejo dojrzewa w beczkach, dzięki czemu zyskuje bo</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3040,
+  "id_product": 3040,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/3040-miniaturka-tequila-don-julio-anejo-1942-40-005l-08273109",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4812,
+      "legend": "MINIATURKA TEQUILA Don Julio Anejo 1942 40% 0,05l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4812-small_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4812-small_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4812-medium_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4812-medium_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4812,
+    "legend": "MINIATURKA TEQUILA Don Julio Anejo 1942 40% 0,05l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4812-small_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-small_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4812-medium_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-medium_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4812-cart_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4812-home_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4812-large_default/miniaturka-tequila-don-julio-anejo-1942-40-005l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

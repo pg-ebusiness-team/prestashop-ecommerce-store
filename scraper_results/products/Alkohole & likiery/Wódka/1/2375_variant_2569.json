@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8697530204675",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "157,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2569,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-22 11:56:46",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RAKI Tekirdag Gold",
+  "link_rewrite": "raki-tekirdag-gold",
+  "name": "RAKI Tekirdag Gold",
+  "description": "Seria Tekirda&#287; Raki Gold to ekskluzywna odsłona tureckiego trunku, która \r\nwyróżnia się starannie wyselekcjonowanymi winogronami oraz wyjątkowym anyżem \r\npochodzącym z regionu Çeşme. Po połączeniu składników mieszanina trafia do \r\nmiedzianych alembików, gdzie odbywa się proces destylacji. Następnie alkohol \r\ndojrzewa przez trzy miesiące w dębowych beczkach, co nadaje mu głębi oraz \r\ncharakterystyczną, złocistą barwę - żaden inny wariant raki nie lśni tak \r\nintensywnie złotem! Tekirda&#287; Raki Gold powstaje w limitowanych ilościach, co \r\nczyni go trunkiem dla koneserów. Jego smak to harmonijne połączenie delikatności \r\ni bogactwa aromatycznego - z łagodnym finiszem i subtelnym, długotrwałym \r\nposmakiem. Raki tę można podawać w czystej formie lub z wodą, również z \r\ndodatkiem lodu. Idealnie komponuje się z lekkimi przekąskami - szczególnie \r\nmelonem, rybami i różnymi rodzajami sera. Zalecana temperatura serwowania to \r\n8-10°C.\r\n",
+  "description_short": "<p>Seria Tekirdag Raki Gold to ekskluzywna odsłona tureckiego trunku, która wyróżnia się starannie wyselekcjonowanymi winogronami oraz wyjątkowym anyżem pochodzącym z regionu Çeşme.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2375,
+  "id_product": 2375,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2569,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2375-raki-tekirdag-gold",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 127.642276,
+  "price_without_reduction": 156.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Turcja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 565
+    },
+    {
+      "name": "Alkohol",
+      "value": "45%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 240
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8697530204675",
+      "ean13": "8697530204675",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3380,
+      "legend": "RAKI Tekirdag Gold",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3380-small_default/raki-tekirdag-gold.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3380-small_default/raki-tekirdag-gold.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3380-medium_default/raki-tekirdag-gold.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3380-medium_default/raki-tekirdag-gold.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3380,
+    "legend": "RAKI Tekirdag Gold",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3380-small_default/raki-tekirdag-gold.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-small_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3380-medium_default/raki-tekirdag-gold.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-medium_default/raki-tekirdag-gold.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3380-cart_default/raki-tekirdag-gold.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3380-home_default/raki-tekirdag-gold.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3380-large_default/raki-tekirdag-gold.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 157,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

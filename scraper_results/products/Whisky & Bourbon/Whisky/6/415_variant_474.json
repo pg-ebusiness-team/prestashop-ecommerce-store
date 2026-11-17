@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 26,
+  "id_supplier": 0,
+  "reference": "5060088791691",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 150,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 474,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 18:02:29",
+  "date_upd": "2026-02-02 15:45:24",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glendronach 18 Y O Allardice Oloroso",
+  "link_rewrite": "whisky-glendronach-18-y-o-allardice-oloroso",
+  "name": "WHISKY Glendronach 18 Y O Allardice Oloroso",
+  "description": " \r\n<P style=\"text-align: justify;\">Jest to wyjątkowa 18-to letnia edycja nazywana \r\nna cześć pierwszego właściciela destylarni Jamesa Allardice. Whisky przez \r\nminimum 18 lat dojrzewała w beczkach po znakomitej jakości hiszpańskim winie \r\nsherry Oloroso. Nie była filtrowana na zimno i barwiona karmelem.&nbsp;</P>\r\n<P style=\"text-align: justify;\"><STRONG>Zapach:</STRONG>&nbsp;Nuty pomarańczy,\r\n akcenty suchej ziemi. Mocno wyczuwalne nuty rumu, ananasa i brązowego \r\ncukru.<BR><STRONG>Smak:</STRONG>&nbsp;Slodki. Nuty kawy i mlecznej czekolady. \r\nWyczuwalne suszone czerwone owoce i przyprawy. Pojawia się również posmak ciasta\r\n bożonarodzeniowego, znowu rum, orzech laskowy pokryty czekoladą, mleko z\r\n miodem.&nbsp;<BR><STRONG>Finisz:</STRONG>&nbsp;Długi. Naleśniki z jagodami i \r\nsyropem klonowym.</P>\r\n",
+  "description_short": "<p>Jest to wyjątkowa 18-to letnia edycja nazywana na cześć pierwszego właściciela destylarni Jamesa Allardice. Whisky przez minimum 18 lat dojrzewała w beczkach po znakomitej jakości hiszpańskim winie sherry Oloroso.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 415,
+  "id_product": 415,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 474,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/415-whisky-glendronach-18-y-o-allardice-oloroso",
+  "manufacturer_name": "Glendronach",
+  "attribute_price": 0,
+  "price_tax_exc": 934.95935,
+  "price_without_reduction": 1150.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Wiek",
+      "value": "18 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 189
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5060088791691",
+      "ean13": "5060088791691",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4343,
+      "legend": "WHISKY Glendronach 18 Y O Allardice Oloroso",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4343-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4343-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4343-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4343-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4344,
+      "legend": "WHISKY Glendronach 18 Y O Allardice Oloroso",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4344-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4344-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4344-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4344-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4344-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4344-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4344-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4344-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4344-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4344-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4344-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4344-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4344-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4344-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4344-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4344-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4343,
+    "legend": "WHISKY Glendronach 18 Y O Allardice Oloroso",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4343-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-small_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4343-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-medium_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4343-cart_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4343-home_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4343-large_default/whisky-glendronach-18-y-o-allardice-oloroso.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1150,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

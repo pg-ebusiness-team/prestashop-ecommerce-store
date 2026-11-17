@@ -1,0 +1,270 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5099872013206",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 44,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "25,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2967,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-24 10:33:31",
+  "date_upd": "2025-10-24 12:56:40",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SŁODYCZE Baileys mini pralinki",
+  "link_rewrite": "slodycze-baileys-mini-pralinki",
+  "name": "SŁODYCZE Baileys mini pralinki",
+  "description": "\r\n<P>Czekoladki z płynnym nadzieniem z dodatkiem likieru Baileys.</P>\r\n<P>Skład: Cukier, masło kakaowe, suszone pełne mleko, masa kakaowa, oleje \r\nroślinne (olej palmowy, olej shea, olej sal, olej z mango, olej z ziaren \r\nbawełny, rzepakowy, słonecznikowy), Baileys oryginalny irlandzki likier (6%), \r\nwoda, odparowane mleko, suszone odtłuszczone mleko, syrop glukozowy, syrop \r\nsorbitolowy, dekstroza, emulgator (lecytyna sojowa), aromaty.Mleczna czekolada \r\nzawiera minimum 37% kakao.</P>\r\n",
+  "description_short": "<p>Czekoladki z płynnym nadzieniem z dodatkiem likieru Baileys.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2772,
+  "id_product": 2772,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2967,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "slodycze",
+  "category_name": "Słodycze",
+  "link": "https://luksusowealkohole.pl/slodycze/2772-slodycze-baileys-mini-pralinki",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 20.325203,
+  "price_without_reduction": 25,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 54,
+      "id_attribute_group": 7,
+      "name": "102g",
+      "group": "Gramatura",
+      "reference": "5099872013206",
+      "ean13": "5099872013206",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3848,
+      "legend": "SŁODYCZE Baileys mini pralinki",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3848-small_default/slodycze-baileys-mini-pralinki.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3848-small_default/slodycze-baileys-mini-pralinki.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3848-medium_default/slodycze-baileys-mini-pralinki.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3848-medium_default/slodycze-baileys-mini-pralinki.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3848,
+    "legend": "SŁODYCZE Baileys mini pralinki",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3848-small_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-small_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3848-medium_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-medium_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3848-cart_default/slodycze-baileys-mini-pralinki.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3848-home_default/slodycze-baileys-mini-pralinki.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3848-large_default/slodycze-baileys-mini-pralinki.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 25,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

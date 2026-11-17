@@ -1,0 +1,342 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "9120066431127",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "590,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3215,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-10 20:24:17",
+  "date_upd": "2026-07-10 20:42:38",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "TEQUILA Padre Azul Anejo Tasting Set 40% 0,7l",
+  "link_rewrite": "tequila-padre-azul-anejo-tasting-set-40-07l",
+  "name": "TEQUILA Padre Azul Anejo Tasting Set 40% 0,7l",
+  "description": "<p><span style=\"font-size:16px;font-family:'Times New Roman', serif;white-space:normal;word-spacing:0px;text-transform:none;float:none;font-weight:400;color:#121212;font-style:normal;text-align:justify;letter-spacing:normal;background-color:#ffffff;text-indent:0px;\">W świecie trunków luksusowych tequila Padre Azul Anejo wyróżnia się jako prawdziwa perełka. Ta super premium tequila o pojemności 0,7 litra to kwintesencja wyjątkowości i doskonałości. Wyprodukowana z najwyższej jakości agawy, dojrzewająca przez co najmniej 18 miesięcy w dębowych beczkach po bourbonie, zdobywa serca koneserów na całym świecie. W tym obszernym opisie przyjrzymy się bliżej unikalnym cechom produktu tequila Padre Azul Anejo i pomożemy Wam zrozumieć, dlaczego stała się ona symbolem elegancji w świecie tequili. Padre Azul Anejo to nie tylko tequila - to zbiór historii, tradycji i doskonałego rzemiosła. Jej unikalne cechy, wspaniała prezentacja i niezapomniany smak sprawiają, że stanowi ona kwintesencję luksusu i elegancji. Dla tych, którzy pragną doświadczyć niezwykłej podróży przez świat tych meksykańskich trunków, tequila Padre Azul Anejo jest bez wątpienia wyborem, który spełni najwyższe oczekiwania koneserów i estetów. Historia tequili Padre Azul sięga korzeni tradycji meksykańskich. Nazwa \"Padre Azul\" odzwierciedla zarówno głęboką meksykańską spuściznę, jak i związek z naturą. W zapachu tej tequili można wyczuć harmonię między słodyczą karmelu a nutami wanilii oraz delikatnym akcentem dębu. Jej smak to niezwykła podróż przez bogate nuty owoców tropikalnych, orzechów i przypraw korzennych, zakończona długim, przyjemnym finiszem.</span></p>",
+  "description_short": "<p>TEQUILA Padre Azul Anejo Tasting Set 40% 0,7 l to ekskluzywny zestaw prezentowy, który łączy wyjątkową tequilę klasy super premium z dwoma eleganckimi kieliszkami degustacyjnymi. Produkowana w sercu regionu Jalisco ze 100% błękitnej agawy, tequila Padre A</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3026,
+  "id_product": 3026,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3215,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/3026-tequila-padre-azul-anejo-tasting-set-40-07l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 479.674797,
+  "price_without_reduction": 590,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Anejo",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 534
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4791,
+      "legend": "TEQUILA Padre Azul Anejo Tasting Set 40% 0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4791-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4791-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4791-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4791-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4792,
+      "legend": "TEQUILA Padre Azul Anejo Tasting Set 40% 0,7l",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4792-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4792-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4792-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4792-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4792-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4792-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4792-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4792-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4792-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4792-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4792-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4792-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4792-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4792-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4792-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4792-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4791,
+    "legend": "TEQUILA Padre Azul Anejo Tasting Set 40% 0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4791-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-small_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4791-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-medium_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4791-cart_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4791-home_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4791-large_default/tequila-padre-azul-anejo-tasting-set-40-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 590,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}
