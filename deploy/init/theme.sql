@@ -102,8 +102,22 @@ VALUES (NULL, NULL, 'PS_SHOP_PHONE', '+48 123 456 789', NOW(), NOW());
 
 -- 6. Stopka jak w źródle (templates/_partials/footer.tpl)
 -- Bloki linków ps_linklist: polskie nazwy, w „Nasza firma” bez „Sklepy” (w źródle ich nie ma).
--- Linki do kategorii z kolumny „Produkty” w źródle dodamy po imporcie kategorii (D2).
 UPDATE ps_link_block_lang SET name = 'Produkty' WHERE id_link_block = 1 AND id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
+-- „Produkty” jak w źródle: strony produktów + kategorie z menu. Kategorie po nazwie, bo ID zmieniają się po imporcie (D2);
+-- przed importem zostają same strony produktów. „Miniatury i duże pojemności” to własny link (ps_linklist wstawia
+-- go przed kategoriami, jak w źródle), adres jak baner na stronie głównej.
+UPDATE ps_link_block SET content = CONCAT(
+  '{"cms":[false],"product":["prices-drop","new-products","best-sales"],"static":[false],"category":[',
+  IFNULL((
+    SELECT GROUP_CONCAT(CONCAT('"', c.id_category, '"') ORDER BY FIELD(cl.name,
+      'Opakowania & Słodycze', 'Alkohole & likiery', 'Kosze upominkowe', 'Whisky & Bourbon', 'Wino & Champagne'))
+    FROM ps_category c
+    JOIN ps_category_lang cl ON cl.id_category = c.id_category AND cl.id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl')
+    WHERE cl.name IN ('Opakowania & Słodycze', 'Alkohole & likiery', 'Kosze upominkowe', 'Whisky & Bourbon', 'Wino & Champagne')
+  ), 'false'), ']}')
+WHERE id_link_block = 1;
+UPDATE ps_link_block_lang SET custom_content = '[{"title":"Miniatury i duże pojemności","url":"/szukaj?s=miniatur"}]'
+WHERE id_link_block = 1 AND id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
 UPDATE ps_link_block_lang SET name = 'Nasza firma' WHERE id_link_block = 2 AND id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl');
 UPDATE ps_link_block
 SET content = '{"cms":["1","2","3","4","5"],"product":[false],"static":["contact","sitemap"],"category":[false]}'
