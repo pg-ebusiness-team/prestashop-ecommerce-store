@@ -448,6 +448,19 @@ def group_products(products):
 
         parent = grouped[source_id]
 
+        # Scalanie zdjęć ze wszystkich rekordów produktu i wariantów
+        existing_image_ids = {
+            image.get("id_image") or image.get("id")
+            for image in parent.get("images", [])
+        }
+
+        for image in product.get("images") or []:
+            image_id = image.get("id_image") or image.get("id")
+
+            if image_id is not None and image_id not in existing_image_ids:
+                parent.setdefault("images", []).append(image)
+                existing_image_ids.add(image_id)
+
         # Rekord wariantu z prawidłowymi atrybutami
         if attribute_id not in (None, 0) and attributes:
             existing_ids = {
