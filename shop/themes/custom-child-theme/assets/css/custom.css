@@ -269,8 +269,8 @@ body#checkout section.checkout-step .address-item.selected,
   display: none;
 }
 
-#header .header-actions .blockcart .header > span.hidden-sm-down {
-  display: none;
+#header .header-actions .blockcart {
+  white-space: nowrap; /* „Koszyk (n)” w jednej linii */
 }
 
 /* Menu: szary pasek na pełną szerokość, pozycje równo rozłożone */
