@@ -129,4 +129,17 @@ FROM (
 -- 8. „Podobne produkty” na stronie produktu: 4 jak w źródle (domyślnie 16)
 UPDATE ps_configuration SET value = '4', date_upd = NOW() WHERE name = 'CATEGORYPRODUCTS_DISPLAY_PRODUCTS';
 
+-- 9. Menu główne (ps_mainmenu) jak w źródle, zamiast demo CAT3,CAT6,CAT9 (Clothes, Accessories, Art).
+-- Kategorie po nazwie, bo ID zmieniają się po imporcie (D2) - dlatego `make theme` trzeba puścić po imporcie.
+-- Podkategorie w rozwijanym panelu moduł dokłada sam.
+SET @home = (SELECT value FROM ps_configuration WHERE name = 'PS_HOME_CATEGORY'); -- UPDATE niżej nie może czytać swojej tabeli
+UPDATE ps_configuration SET value = (
+  SELECT GROUP_CONCAT(CONCAT('CAT', c.id_category) ORDER BY FIELD(cl.name,
+    'Prezenty', 'Whisky & Bourbon', 'Alkohole & likiery', 'Wino & Champagne', 'Opakowania & Słodycze'))
+  FROM ps_category c
+  JOIN ps_category_lang cl ON cl.id_category = c.id_category AND cl.id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl')
+  WHERE c.id_parent = @home
+    AND cl.name IN ('Prezenty', 'Whisky & Bourbon', 'Alkohole & likiery', 'Wino & Champagne', 'Opakowania & Słodycze')
+), date_upd = NOW() WHERE name = 'MOD_BLOCKTOPMENU_ITEMS';
+
 COMMIT;
