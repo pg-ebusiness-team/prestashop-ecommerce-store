@@ -14,6 +14,7 @@ from scraper.importer.products_mapping import (
     save_mapping,
 )
 from scraper.importer.stock import import_stock
+from scraper.importer.weights import assign_product_weights
 
 LANGUAGE_ID = 1
 
@@ -258,6 +259,9 @@ def build_product_xml(
     # Grupa reguł podatkowych VAT
     ET.SubElement(product_element, "id_tax_rules_group").text = str(tax_rules_group_id)
 
+    # Waga bazowa produktu (kg)
+    ET.SubElement(product_element, "weight").text = str(product.get("weight", 1.5))
+
     # Podstawowe ustawienia produktu
     ET.SubElement(product_element, "active").text = "1"
     ET.SubElement(product_element, "available_for_order").text = "1"
@@ -475,4 +479,9 @@ def group_products(products):
         elif not attributes and not parent["combinations"]:
             parent["quantity"] = product.get("quantity")
 
-    return list(grouped.values())
+    grouped_products = list(grouped.values())
+
+    for product in grouped_products:
+        assign_product_weights(product)
+
+    return grouped_products
