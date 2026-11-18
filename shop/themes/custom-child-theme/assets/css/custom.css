@@ -18,6 +18,21 @@
   --color-border: #ddd;
   --font-body: "Lato", Arial, sans-serif;
   --font-heading: "Playfair Display", Georgia, serif;
+  --content-width: 1110px; /* szerokość treści w .container bez paddingu 2 x 15px */
+}
+
+/* Kontener szerszy na dużych ekranach jak w źródle (Classic kończy na 1140px) */
+@media (min-width: 1200px) {
+  :root { --content-width: 1140px; }
+  .container { width: calc(var(--content-width) + 30px); }
+}
+
+@media (min-width: 1460px) {
+  :root { --content-width: 1270px; }
+}
+
+@media (min-width: 1600px) {
+  :root { --content-width: 1370px; }
 }
 
 /* Typografia */
@@ -491,7 +506,7 @@ body#checkout section.checkout-step .address-item.selected,
 #carousel .carousel-item .caption {
   top: 50%;
   bottom: auto;
-  left: max(15px, calc(50% - 555px));
+  left: max(15px, calc(50% - var(--content-width) / 2));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
