@@ -97,3 +97,28 @@
   if (!read()) open(false);
   else openAgeGate();
 })();
+
+/*
+ * Menu przyklejone do góry ekranu na desktopie, jak w źródle: po przewinięciu za baner (slider na stronie głównej,
+ * na innych stronach za pasek z logo) wsuwa się z góry. Samo position: sticky nie działa, bo menu leży w #header,
+ * a sticky trzyma się tylko w obrębie rodzica. Dajemy mu position: fixed (.is-stuck w custom.css), a pasek nad nim
+ * dostaje margines = wysokość menu, żeby treść nie skoczyła.
+ */
+(function () {
+  var menu = document.querySelector('#header .header-menu');
+  var above = document.querySelector('#header .header-top');
+  if (!menu || !above) return;
+  var trigger = document.getElementById('carousel') || above;
+  var desktop = window.matchMedia('(min-width: 768px)'); // na telefonie menu jest w wysuwanym panelu Classic
+
+  function update() {
+    var stuck = desktop.matches && trigger.getBoundingClientRect().bottom <= 0;
+    if (stuck === menu.classList.contains('is-stuck')) return;
+    above.style.marginBottom = stuck ? menu.offsetHeight + 'px' : '';
+    menu.classList.toggle('is-stuck', stuck);
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();

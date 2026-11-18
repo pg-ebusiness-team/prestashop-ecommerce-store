@@ -293,6 +293,29 @@ body#checkout section.checkout-step .address-item.selected,
   background: var(--color-grey-100);
 }
 
+/* Przyklejone do góry po przewinięciu za baner (custom.js), wsuwa się z góry */
+#header .header-menu.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .11);
+  animation: menu-slide-down .4s ease-out;
+}
+
+@keyframes menu-slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #header .header-menu.is-stuck {
+    animation: none;
+  }
+}
+
 #header .header-menu .container {
   position: relative; /* punkt odniesienia dla rozwijanego panelu */
 }
