@@ -9,7 +9,7 @@
   --color-black: #121212;
   --color-graphite: #414141;
   --color-text: #6f6f6f;        /* oryginał #777 ma kontrast 4.48:1, poniżej WCAG AA */
-  --color-muted: #767676;       /* oryginał #888, przyciemniony z tego samego powodu */
+  --color-muted: #6b6b6b;       /* oryginał #888; ciemniej, bo #767676 ma tylko ~4.0:1 na szarych tłach #f1f1f1/#f8f8f8 */
   --color-brand-100: #e6ded7;
   --color-brand-200: #ddd1c5;
   --color-brand-500: #a48d66;
@@ -42,6 +42,46 @@ body {
   line-height: 1.85;
   letter-spacing: .5px;
   color: var(--color-text);
+}
+
+/* Szary #7a7a7a z Classic ma 4.29:1 na białym (poniżej WCAG AA) - tekst, pola i podpowiedzi w kolorze treści.
+   Bardziej szczegółowe reguły niżej (np. biały tekst na sliderze) nadal wygrywają. */
+p,
+.page-content.page-cms ul,
+.form-control,
+.form-control-comment,
+.nav-item .nav-link,
+.dropdown,
+.btn-tertiary,
+.top-menu a:not([data-depth="0"]),
+body#checkout section.checkout-step small {
+  color: var(--color-text);
+}
+
+.text-muted {
+  color: var(--color-text) !important; /* w Classic też z !important */
+}
+
+/* Przyciski formularzy z Classic: biały tekst na #24b9d7 (2.33:1) i #7a7a7a (4.29:1) */
+.group-span-filestyle .btn-default,
+.input-group .input-group-btn > .btn[data-action="show-password"] {
+  background: var(--color-graphite);
+}
+
+/* Nagłówek formularza kontaktu: h1 (dostępność, contactform.tpl) wyglądający jak h3 z Classic */
+.contact-form h1 {
+  text-transform: uppercase;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-muted);
+}
+
+/* Link w akapicie nie może różnić się od tekstu samym kolorem */
+.page-content.page-cms a,
+#content p a {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -252,6 +292,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 #header #search_widget form input[type="text"] {
   padding: 10px 40px 10px 10px;
+  color: var(--color-text); /* #9b9b9b z Classic: 2.77:1 */
   background: #fff;
   border: 1px solid var(--color-border);
 }
@@ -420,6 +461,12 @@ body#checkout section.checkout-step .address-item.selected,
 .breadcrumb {
   background: none;
   padding-left: 0;
+  color: var(--color-muted);
+}
+
+/* #7a7a7a z Classic ma 4.29:1 na białym, poniżej WCAG AA */
+#wrapper .breadcrumb li:last-child,
+.products-selection .sort-by {
   color: var(--color-muted);
 }
 
@@ -1815,6 +1862,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 .footer-description {
   margin-bottom: 1.75rem;
+  color: var(--color-muted); /* #7a7a7a z Classic: 4.04:1 na tle stopki */
   font-size: .9375rem;
   line-height: 1.6;
 }

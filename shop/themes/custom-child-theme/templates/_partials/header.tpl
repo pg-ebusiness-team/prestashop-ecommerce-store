@@ -10,7 +10,7 @@
 {/block}
 
 {block name='header_nav'}
-  <nav class="header-nav">
+  <nav class="header-nav" aria-label="Górny pasek">
     <div class="container">
       <div class="row">
         <div class="hidden-sm-down">

@@ -26,7 +26,7 @@
     <ul class="nav nav-tabs home-tabs" role="tablist">
       {foreach $offer_tabs as $tab}
         {if $tab.html}
-          <li class="nav-item">
+          <li class="nav-item" role="presentation">
             <a class="nav-link{if !$offer_active} active{/if}" data-toggle="tab" href="#{$tab.id}" id="{$tab.id}-tab" role="tab" aria-controls="{$tab.id}" aria-selected="{if !$offer_active}true{else}false{/if}">{$tab.label}</a>
           </li>
           {if !$offer_active}{$offer_active = $tab.id}{/if}

@@ -122,3 +122,25 @@
   window.addEventListener('resize', update);
   update();
 })();
+
+/*
+ * Kontrolki tworzone przez JS Classic i modułów bez nazw dla czytników ekranu: przyciski +/- przy ilości (same ikony),
+ * pole z nazwą pliku w formularzu kontaktu i suwaki ceny w filtrach. Powstają w różnych momentach i od nowa po AJAX
+ * (wariant, koszyk, filtry), więc nadajemy nazwy przy każdej zmianie DOM.
+ */
+(function () {
+  var LABELS = [
+    ['.bootstrap-touchspin-up', 'Zwiększ ilość'],
+    ['.bootstrap-touchspin-down', 'Zmniejsz ilość'],
+    ['.bootstrap-filestyle input[type="text"]', 'Wybrany plik'],
+    ['.ui-slider-handle:first-of-type', 'Cena od'],
+    ['.ui-slider-handle:last-of-type', 'Cena do']
+  ];
+  function label() {
+    LABELS.forEach(function (l) {
+      document.querySelectorAll(l[0] + ':not([aria-label])').forEach(function (el) { el.setAttribute('aria-label', l[1]); });
+    });
+  }
+  label();
+  new MutationObserver(label).observe(document.body, { childList: true, subtree: true });
+})();
