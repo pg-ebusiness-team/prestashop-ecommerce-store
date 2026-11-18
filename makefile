@@ -66,14 +66,14 @@ theme:
 	  'mkdir -p img/cms/home && while read name url; do curl -fsS -o "img/cms/home/$$name" "$$url" || { echo "Nie udalo sie pobrac $$name"; exit 1; }; done'
 	@$(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"' < deploy/init/theme.sql
 	@# Strony CMS (treść w shop/cms/, metadane w deploy/init/cms.sql):
-	@# 1. Sprawdzamy, czy jest plik dla każdej strony 1-5. Bez tego brakująca strona dostałaby pustą treść (NULL).
+	@# 1. Sprawdzamy, czy jest plik dla każdej strony 1-6. Bez tego brakująca strona dostałaby pustą treść (NULL).
 	@#    Sprawdzenie jest osobno, bo błąd wewnątrz potoku (|) niżej nie zatrzymałby make.
 	@# 2. Dla każdego pliku wypisujemy linię SQL: SET @cms_<id> = FROM_BASE64('<treść pliku w base64>');
 	@#    <id> to numer z początku nazwy pliku (= id_cms w PrestaShop). Base64 zawiera tylko A-Z, a-z, 0-9, +, / i =,
 	@#    więc apostrofy, cudzysłowy i backslashe z HTML nie psują zapytania i nie trzeba ich escapować.
 	@# 3. Za tymi liniami doklejamy cms.sql, który wpisuje @cms_<id> do ps_cms_lang. Całość idzie jednym połączeniem
 	@#    do mysql, bo zmienne @ żyją tylko w obrębie jednej sesji.
-	@for id in 1 2 3 4 5; do ls shop/cms/$$id-*.html >/dev/null 2>&1 || { echo "Brak pliku shop/cms/$$id-*.html"; exit 1; }; done
+	@for id in 1 2 3 4 5 6; do ls shop/cms/$$id-*.html >/dev/null 2>&1 || { echo "Brak pliku shop/cms/$$id-*.html"; exit 1; }; done
 	@{ for f in shop/cms/*.html; do id=$$(basename "$$f"); id=$${id%%-*}; \
 	    printf "SET @cms_%s = FROM_BASE64('%s');\n" "$$id" "$$(base64 < "$$f" | tr -d '\n')"; done; \
 	  cat deploy/init/cms.sql; } \

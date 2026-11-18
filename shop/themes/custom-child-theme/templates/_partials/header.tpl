@@ -15,7 +15,7 @@
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-6 col-xs-12">
-            <a class="header-b2b" href="{$urls.pages.contact}">Poznaj specjalną ofertę dla firm i restauracji »</a>
+            <a class="header-b2b" href="{$link->getCMSLink(6)}">Poznaj specjalną ofertę dla firm i restauracji »</a>
           </div>
           <div class="col-md-6 header-contact">
             {if $shop.phone}

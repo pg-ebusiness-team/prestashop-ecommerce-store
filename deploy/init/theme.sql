@@ -134,8 +134,8 @@ UPDATE ps_configuration SET value = '4', date_upd = NOW() WHERE name = 'CATEGORY
 -- Podkategorie w rozwijanym panelu moduł dokłada sam.
 SET @home = (SELECT value FROM ps_configuration WHERE name = 'PS_HOME_CATEGORY'); -- UPDATE niżej nie może czytać swojej tabeli
 UPDATE ps_configuration SET value = (
-  SELECT GROUP_CONCAT(CONCAT('CAT', c.id_category) ORDER BY FIELD(cl.name,
-    'Prezenty', 'Whisky & Bourbon', 'Alkohole & likiery', 'Wino & Champagne', 'Opakowania & Słodycze'))
+  SELECT CONCAT(GROUP_CONCAT(CONCAT('CAT', c.id_category) ORDER BY FIELD(cl.name,
+    'Prezenty', 'Whisky & Bourbon', 'Alkohole & likiery', 'Wino & Champagne', 'Opakowania & Słodycze')), ',CMS6') -- strona z cms.sql
   FROM ps_category c
   JOIN ps_category_lang cl ON cl.id_category = c.id_category AND cl.id_lang = (SELECT id_lang FROM ps_lang WHERE iso_code = 'pl')
   WHERE c.id_parent = @home
