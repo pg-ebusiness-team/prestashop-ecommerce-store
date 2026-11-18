@@ -423,6 +423,29 @@ body#checkout section.checkout-step .address-item.selected,
   animation: slide-in-right .8s ease-out .5s both;
 }
 
+/* Kwadraciki slajdów na dole pośrodku, jak .flex-control-paging w źródle (Classic je ukrywa) */
+#carousel .carousel-indicators {
+  display: block;
+  bottom: 10px;
+  z-index: 3; /* nad slajdem wchodzącym (.next/.prev ma 2) */
+}
+
+#carousel .carousel-indicators li,
+#carousel .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  transition: background-color .5s ease;
+}
+
+#carousel .carousel-indicators li:hover,
+#carousel .carousel-indicators .active {
+  background: #bd515f;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

@@ -3,14 +3,15 @@
 # Format: <nazwa-pliku> <URL>; wersje .webp, kolejność slajdów jak w źródle.
 
 # Slider (cz_imageslider), tekst slajdów jest w HTML, nie na grafice
-slide-1.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/9a4699a893c32f7cd6b5b005377a3f79d198271c_Ardbeg%20Dolce%20dolce-2.webp
-slide-2.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/604d8f3d8eadbea5468049060ddc623efed1a006_Arcturus%20slider.webp
-slide-3.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/8e9544d7c0c212f3e38a1e38a592ef937562f836_chopin%20cask%209%20(1).webp
-slide-4.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/36160c723d63f1fa5999fe54e89582be351ec807_A%20Harrison%20Ford.webp
-slide-5.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/d1c2df30b182b2e6708e53db92423632c2877bb1_The%20Balvenie14.webp
-slide-6.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/401c322492c7963c6735bbc4f3dab1efd9b2b478_Chivas%20Regal%2012-letni%20z%20whisky.webp
-slide-7.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/c817f3a7a8a23f287dce0f2d236e8c3bb944857f_The%20Balvenie16.webp
-slide-8.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/0a0c12c56ca2a04a1121ba878077f3f7b05da78b_The%20Balvenie21.webp
+slide-1.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/273868573053a9e108b41b9acbb000c9eafef201_slider_luksusowealkohole_1290x540.webp
+slide-2.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/9a4699a893c32f7cd6b5b005377a3f79d198271c_Ardbeg%20Dolce%20dolce-2.webp
+slide-3.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/fb4068fb07eb4c29d2fd6c0d4d7a380dd4d94f5a_bellbomba.webp
+slide-4.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/d1c2df30b182b2e6708e53db92423632c2877bb1_The%20Balvenie14.webp
+slide-5.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/36160c723d63f1fa5999fe54e89582be351ec807_A%20Harrison%20Ford.webp
+slide-6.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/604d8f3d8eadbea5468049060ddc623efed1a006_Arcturus%20slider.webp
+slide-7.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/8e9544d7c0c212f3e38a1e38a592ef937562f836_chopin%20cask%209%20(1).webp
+slide-8.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/401c322492c7963c6735bbc4f3dab1efd9b2b478_Chivas%20Regal%2012-letni%20z%20whisky.webp
+slide-9.webp https://luksusowealkohole.pl/modules/cz_imageslider/views/img/0a0c12c56ca2a04a1121ba878077f3f7b05da78b_The%20Balvenie21.webp
 
 # Kafelki "Polecamy w szczególności" (cz_categoryimagelist), 540x540
 tile-whisky.webp https://luksusowealkohole.pl/modules/cz_categoryimagelist/views/img/15-cz_categoryimagelist.webp

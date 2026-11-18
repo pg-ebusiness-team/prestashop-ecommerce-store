@@ -7,8 +7,8 @@ SET NAMES utf8mb4; -- bez tego polskie znaki zapisałyby się błędnie
 START TRANSACTION;
 
 -- 1. Slider (ps_imageslider)
--- Zmiana baneru co 10 s jak w źródle (animacja w custom.css)
-UPDATE ps_configuration SET value = '10000', date_upd = NOW() WHERE name = 'HOMESLIDER_SPEED';
+-- Zmiana baneru co 8 s jak w źródle (data-interval flexslidera) (animacja w custom.css)
+UPDATE ps_configuration SET value = '8000', date_upd = NOW() WHERE name = 'HOMESLIDER_SPEED';
 -- Moduł składa adres jako /modules/ps_imageslider/images/<image>, a grafiki leżą w /img/cms/home/ - stąd ../../../
 SET @img = '../../../img/cms/home/';
 
@@ -17,28 +17,38 @@ DELETE FROM ps_homeslider;
 DELETE FROM ps_homeslider_slides;
 
 INSERT INTO ps_homeslider_slides (id_homeslider_slides, position, active)
-VALUES (1, 1, 1), (2, 2, 1), (3, 3, 1), (4, 4, 1), (5, 5, 1), (6, 6, 1), (7, 7, 1), (8, 8, 1);
+VALUES (1, 1, 1), (2, 2, 1), (3, 3, 1), (4, 4, 1), (5, 5, 1), (6, 6, 1), (7, 7, 1), (8, 8, 1), (9, 9, 1);
 INSERT INTO ps_homeslider (id_homeslider_slides, id_shop)
-VALUES (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1);
+VALUES (1, 1), (2, 1), (3, 1), (4, 1), (5, 1), (6, 1), (7, 1), (8, 1), (9, 1);
 
 -- Linki przez wyszukiwarkę: ID kategorii i produktów zmienią się po imporcie (D2).
 -- Bez prefiksu /pl/: sklep ma jeden aktywny język (cms.sql), więc PrestaShop nie dodaje go do adresów.
+-- Slajd 1 w źródle nie ma nadtytułu i ma inny tekst przycisku.
 INSERT INTO ps_homeslider_slides_lang (id_homeslider_slides, id_lang, title, description, legend, url, image)
 SELECT s.id, l.id_lang, s.title,
-  CONCAT('<p class="slide-kicker">', s.kicker, '</p><p>', s.subtitle, '</p><span class="slide-btn">sprawdź naszą ofertę</span>'),
+  CONCAT(IF(s.kicker = '', '', CONCAT('<p class="slide-kicker">', s.kicker, '</p>')),
+         '<p>', s.subtitle, '</p><span class="slide-btn">', s.btn, '</span>'),
   s.legend, s.url, CONCAT(@img, 'slide-', s.id, '.webp')
 FROM (
-            SELECT 1 AS id, 'gwarantujemy każdemu' AS kicker, 'Luksus Wyboru' AS title,
-                   'ARDBEG DOLCE Ekskluzywna Whisky Single Malt' AS subtitle, 'Ardbeg Dolce' AS legend, '/szukaj?s=ardbeg' AS url
-  UNION ALL SELECT 2, 'gwarantujemy każdemu', 'Luksus Wyboru',
-                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/szukaj?s=arcturus'
-  UNION ALL SELECT 3, 'luksus wyboru', 'Chopin Oak Cask No 9', '9 Lat starzenia', 'Chopin Vodka 9', '/szukaj?s=chopin'
-  UNION ALL SELECT 4, 'A HARRISON FORD', 'Limited Edition', 'Glenmorangie 16 YO', 'A Harrison Ford', '/szukaj?s=glenmo'
-  UNION ALL SELECT 5, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 14 YO Single Malt', 'The Balvenie 14 YO', '/szukaj?s=balvenie'
-  UNION ALL SELECT 6, 'gwarantujemy każdemu', 'Luksus Wyboru',
-                   'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów', 'Luksus Wyboru', '/szukaj?s=chivas'
-  UNION ALL SELECT 7, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 16 YO Single Malt', 'The Balvenie 16 YO', '/szukaj?s=balvenie'
-  UNION ALL SELECT 8, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 21 YO Single Malt', 'The Balvenie 21 YO', '/szukaj?s=balvenie'
+            SELECT 1 AS id, '' AS kicker, 'Zestawy Prezentowe' AS title,
+                   'Zaglądaj do nas często i sprawdzaj nasze wyjątkowe ceny' AS subtitle, 'SPRAWDŹ OFERTĘ' AS btn,
+                   'Zestaw Upominkowy' AS legend, '/szukaj?s=kosz' AS url
+  UNION ALL SELECT 2, 'gwarantujemy każdemu', 'Luksus Wyboru', 'ARDBEG DOLCE Ekskluzywna Whisky Single Malt',
+                   'sprawdź naszą ofertę', 'Ardbeg Dolce', '/szukaj?s=ardbeg'
+  UNION ALL SELECT 3, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 16 YO Single Malt',
+                   'sprawdź naszą ofertę', 'The Balvenie 16 YO', '/szukaj?s=balvenie'
+  UNION ALL SELECT 4, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 14 YO Single Malt',
+                   'sprawdź naszą ofertę', 'The Balvenie 14 YO', '/szukaj?s=balvenie'
+  UNION ALL SELECT 5, 'A HARRISON FORD', 'Limited Edition', 'Glenmorangie 16 YO',
+                   'sprawdź naszą ofertę', 'A Harrison Ford', '/szukaj?s=glenmo'
+  UNION ALL SELECT 6, 'gwarantujemy każdemu', 'Luksus Wyboru', 'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów',
+                   'sprawdź naszą ofertę', 'Luksus Wyboru', '/szukaj?s=arcturus'
+  UNION ALL SELECT 7, 'luksus wyboru', 'Chopin Oak Cask No 9', '9 Lat starzenia',
+                   'sprawdź naszą ofertę', 'Chopin Vodka 9', '/szukaj?s=chopin'
+  UNION ALL SELECT 8, 'gwarantujemy każdemu', 'Luksus Wyboru', 'Oferujemy ponad 5 tysięcy starannie wyselekcjonowanych produktów',
+                   'sprawdź naszą ofertę', 'Luksus Wyboru', '/szukaj?s=chivas'
+  UNION ALL SELECT 9, 'gwarantujemy każdemu', 'Luksus Wyboru', 'The Balvenie 21 YO Single Malt',
+                   'sprawdź naszą ofertę', 'The Balvenie 21 YO', '/szukaj?s=balvenie'
 ) s
 CROSS JOIN ps_lang l;
 
