@@ -403,6 +403,46 @@ body#checkout section.checkout-step .address-item.selected,
   height: auto;
 }
 
+/* Jak w źródle: nowy baner przenika się z poprzednim, podpis wjeżdża z prawej 0.5s po nim.
+   Zamiast przesuwania Classic (left); grafika 0.6s, bo Bootstrap kończy przejście po 600 ms. */
+#carousel .carousel-inner > .carousel-item {
+  left: 0;
+  transition: none;
+}
+
+#carousel .carousel-inner > .next,
+#carousel .carousel-inner > .prev {
+  z-index: 2; /* nowy nad starym także przy cofaniu */
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) img {
+  animation: fade-in .6s ease-out both;
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) .caption {
+  animation: slide-in-right .8s ease-out .5s both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    translate: 60px 0; /* translate, nie transform - podpis ma już transform: translateY(-50%) */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #carousel .carousel-item:is(.active, .next, .prev) img,
+  #carousel .carousel-item:is(.active, .next, .prev) .caption {
+    animation: none;
+  }
+}
+
 #carousel .carousel-item figure {
   position: relative;
   display: block;

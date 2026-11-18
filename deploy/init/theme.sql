@@ -7,6 +7,8 @@ SET NAMES utf8mb4; -- bez tego polskie znaki zapisałyby się błędnie
 START TRANSACTION;
 
 -- 1. Slider (ps_imageslider)
+-- Zmiana baneru co 10 s jak w źródle (animacja w custom.css)
+UPDATE ps_configuration SET value = '10000', date_upd = NOW() WHERE name = 'HOMESLIDER_SPEED';
 -- Moduł składa adres jako /modules/ps_imageslider/images/<image>, a grafiki leżą w /img/cms/home/ - stąd ../../../
 SET @img = '../../../img/cms/home/';
 
