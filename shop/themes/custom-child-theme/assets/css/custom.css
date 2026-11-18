@@ -567,9 +567,38 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 .home-tile {
+  position: relative;
   display: block;
   background: var(--color-grey-200);
   text-align: center;
+}
+
+/* Po najechaniu szara nakładka na zdjęciu z „Zobacz produkty”, jak .see__more w źródle.
+   CSS zamiast znacznika w theme.sql: napis tylko dekoracyjny, link ma nazwę kategorii. */
+.home-tile::before {
+  content: "Zobacz produkty";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1; /* tylko na kwadratowym zdjęciu, bez nazwy pod nim */
+  padding: 20px;
+  background: rgba(65, 65, 65, .8);
+  font-family: var(--font-heading);
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--color-grey-100);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.home-tile:hover::before,
+.home-tile:focus-visible::before {
+  opacity: 1;
 }
 
 #custom-text .home-tile img,
@@ -599,8 +628,18 @@ body#checkout section.checkout-step .address-item.selected,
 .home-banner {
   position: relative;
   display: block;
+  overflow: hidden; /* przycina powiększone zdjęcie */
   background: var(--color-black); /* tło pod tekstem, zanim wczyta się zdjęcie */
   color: #fff;
+}
+
+/* Po najechaniu lekki zoom tła */
+#custom-text .home-banner img {
+  transition: transform .5s ease;
+}
+
+#custom-text .home-banner:hover img {
+  transform: scale(1.05);
 }
 
 .home-banner-content {
@@ -666,6 +705,10 @@ body#checkout section.checkout-step .address-item.selected,
 
   .home-tile-name {
     font-size: 1.125rem;
+  }
+
+  .home-tile::before {
+    font-size: 22px; /* 48px nie mieści się w kafelku w 2 kolumnach */
   }
 
   .home-banners {
