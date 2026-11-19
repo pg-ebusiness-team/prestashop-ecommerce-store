@@ -75,7 +75,8 @@ test.describe('Koszyk', () => {
       const start = Math.floor(Math.random() * wyniki.length);
       let dodano = false;
       // od losowego wyniku w kółko, aż trafi się dostępny produkt
-      for (let i = 0; i < wyniki.length && !dodano; i++) {
+      for (let i = 0; i < wyniki.length; i++) {
+        if( dodano ) break;
         await page.goto(wyniki[(start + i) % wyniki.length]);
         dodano = await dodajDoKoszyka(1);
       }
