@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "088004144678",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1314,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-19 19:23:59",
+  "date_upd": "2024-11-19 19:23:59",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Fireball Cinnamon",
+  "link_rewrite": "likier-fireball-cinnamon",
+  "name": "LIKIER Fireball Cinnamon",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Likier \r\nFireball zwany ognistym, skomponowany został na bazie kanadyjskiej whisky oraz \r\ncynamonu. Na podniebieniu bogaty, mocno złożony na pograniczu słodyczy i \r\nostrości. Mocno cynamonowy, słodki oraz pikantny – to wszystko kryje w sobie ten \r\nwspaniały likier. Doskonały do picia na kostkach lodu.</SPAN></P>\r\n",
+  "description_short": "<p>Likier Fireball zwany ognistym, skomponowany został na bazie kanadyjskiej whisky oraz cynamonu. Na podniebieniu bogaty, mocno złożony na pograniczu słodyczy i ostrości.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1236,
+  "id_product": 1236,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1314,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1236-likier-fireball-cinnamon",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "33%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 448
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7048352046904",
+      "ean13": "7048352046904",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1566,
+      "legend": "LIKIER Fireball Cinnamon",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1566-small_default/likier-fireball-cinnamon.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1566-small_default/likier-fireball-cinnamon.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1566-medium_default/likier-fireball-cinnamon.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1566-medium_default/likier-fireball-cinnamon.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1566,
+    "legend": "LIKIER Fireball Cinnamon",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1566-small_default/likier-fireball-cinnamon.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-small_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1566-medium_default/likier-fireball-cinnamon.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-medium_default/likier-fireball-cinnamon.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1566-cart_default/likier-fireball-cinnamon.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1566-home_default/likier-fireball-cinnamon.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1566-large_default/likier-fireball-cinnamon.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

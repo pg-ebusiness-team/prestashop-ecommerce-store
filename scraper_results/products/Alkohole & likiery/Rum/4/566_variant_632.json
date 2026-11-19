@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010327405223",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "109,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 632,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-15 14:55:42",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Sailor Jerry",
+  "link_rewrite": "rum-sailor-jerry",
+  "name": "RUM Sailor Jerry",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Rum \r\nSailor Jerry Spiced posiada wspaniały aromat słodkiej wanilii przeplatanej z \r\nmaślaną nutą tofii i cynamonu. Na podniebieniu wyraźnie wyczuwalna gałka \r\nmuszkatołowa, długi finisz z&nbsp; akcentem wanilii i palonego tofii. Sailor \r\nJerry jest kompozycją rumów z Karaibów stworzoną według starej receptury \r\nColinsa.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Kim \r\nbył Collins?</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Norman \r\nCollins&nbsp; nazywany „Jerry” pochodzi z Reno, miejscowości która mieści się u \r\nwzgórz Sierra Nevada. Niesforny chłopak, szukający przygód. Nie umiejący \r\nsiedzieć w jednym miejscu postanowił wyruszyć w podróż życia. Zakradając się do \r\npociągu towarowego, wyruszył w podróż na Alaskę do Palmer. To tam poznał swego \r\nmistrza od tatuaży, znanego jako „Big Mike’a”. W tym miejscu zaczyna się legedna \r\no Sailor Jerry który zaczął podróże po Ameryce aby udoskonalać swoje \r\numiejętności w sztuce tatuażu. Kończąc 19 lat wstepuje do U.S.NAVY i wyrusza na \r\nOcean Spokojny, następnie dociera na Daleki Wschód gdzie osiedla się na wyspie \r\nOaku-Hawaje. To właśnie tu, w Honolulu otwiera swój zakład w bocznej uliczce, \r\ngdzie czerwony neon z napisem „Sailor Jerry – tattoo shop” kieruję wychodzących \r\nna ląd marynarzy. Dzięki swoim podróżą Colins ulega fascynacji&nbsp; historią \r\nazjatyckiej kultury, sztuki i obrazów. Zaczyna od dopracowywać do granic \r\nperfekcji własny styl zaczyn idzie&nbsp; kolor, technika kreski i nakłuć. Po \r\njego śmierni tatuaże na ramionach marynarzy są jak dzieła sztuki niczym \r\nPicasso.</SPAN></P>\r\n",
+  "description_short": "<p>Rum Sailor Jerry Spiced posiada wspaniały aromat słodkiej wanilii przeplatanej z maślaną nutą tofii i cynamonu. Na podniebieniu wyraźnie wyczuwalna gałka muszkatołowa, długi finisz z  akcentem wanilii i palonego tofii.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 566,
+  "id_product": 566,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 632,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/566-rum-sailor-jerry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 88.617886,
+  "price_without_reduction": 109,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Jamajka",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 318
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Spiced",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 567
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010327405223",
+      "ean13": "5010327405223",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 771,
+      "legend": "RUM Sailor Jerry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/771-small_default/rum-sailor-jerry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/771-small_default/rum-sailor-jerry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/771-medium_default/rum-sailor-jerry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/771-medium_default/rum-sailor-jerry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 771,
+    "legend": "RUM Sailor Jerry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/771-small_default/rum-sailor-jerry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-small_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/771-medium_default/rum-sailor-jerry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-medium_default/rum-sailor-jerry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/771-cart_default/rum-sailor-jerry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/771-home_default/rum-sailor-jerry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/771-large_default/rum-sailor-jerry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 109,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

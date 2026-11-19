@@ -1,0 +1,349 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010494993776",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "349,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-03 14:03:16",
+  "date_upd": "2026-05-22 20:43:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glenmorangie Lasanta 15YO",
+  "link_rewrite": "whisky-glenmorangie-lasanta-15yo",
+  "name": "WHISKY Glenmorangie Lasanta 15YO",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie Lasanta 15YO to elegancka szkocka whisky single malt z regionu Highland, dojrzewająca przez 15 lat. Najpierw leżakuje w beczkach po bourbonie, by następnie zyskać głębię i charakter podczas finiszu w beczkach po sherry Oloroso. Jej profil jest bogaty i aksamitny, pełen nut suszonych owoców, miodu, toffi, czekolady oraz korzennych przypraw. W aromacie pojawiają się akcenty miodu pitnego, plastra miodu i orzecha włoskiego, przełamane subtelną nutą zwęglonego drewna. Kropla wody otwiera bukiet, odsłaniając bardziej kwiatowe i owocowe tony, takie jak goździki, kwitnąca porzeczka, rodzynki w czekoladzie, świeżo pieczony chleb oraz karmelowe toffi. Na podniebieniu początkowa, lekko gorzka pikantność szybko ustępuje miejsca intensywnym smakom orzechów brazylijskich w karmelu, melasy, cynamonu i goździków, którym towarzyszą nuty skóry, dębowych tanin i gorzkiej czekolady. Finisz jest długi, ciepły i wyrazisty, z wyczuwalnymi akcentami marmolady z pomarańczy sewilskich, daktyli oraz melasy. Nazwa „Lasanta”, pochodząca z języka gaelickiego, oznacza ciepło i namiętność – i dokładnie te cechy odnaleźć można w charakterze tej whisky.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie Lasanta 15YO to elegancka szkocka whisky single malt z regionu Highland, dojrzewająca przez 15 lat. Najpierw leżakuje w beczkach po bourbonie, by następnie zyskać głębię i charakter podczas finiszu w beczkach po sherry Oloroso.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2899,
+  "id_product": 2899,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2899-whisky-glenmorangie-lasanta-15yo-5010494993776",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 283.739837,
+  "price_without_reduction": 349,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4416,
+      "legend": "WHISKY Glenmorangie Lasanta 15YO",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4416-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4416-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4416-small_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4416-small_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4416-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4416-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4416-medium_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4416-medium_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4416-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4416-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4416-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4416-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4416-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4416-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4416-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4416-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4417,
+      "legend": "WHISKY Glenmorangie Lasanta 15YO",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4417-small_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4417-small_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4417-medium_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4417-medium_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4417,
+    "legend": "WHISKY Glenmorangie Lasanta 15YO",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4417-small_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-small_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4417-medium_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-medium_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4417-cart_default/whisky-glenmorangie-lasanta-15yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4417-home_default/whisky-glenmorangie-lasanta-15yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4417-large_default/whisky-glenmorangie-lasanta-15yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 349,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

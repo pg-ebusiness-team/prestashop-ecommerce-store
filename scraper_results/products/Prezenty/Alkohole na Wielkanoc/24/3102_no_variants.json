@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8000905003771",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-16 13:49:29",
+  "date_upd": "2026-09-17 23:48:16",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WŁOCHY E.Walch Lagrein Alto Adige DOC 13% 0,75L",
+  "link_rewrite": "wlochy-ewalch-lagrein-alto-adige-doc-13-075l",
+  "name": "WŁOCHY E.Walch Lagrein Alto Adige DOC 13% 0,75L",
+  "description": "<p>Wino E. Walch Lagrein Alto Adige DOC 13% 0,75 l to charakterne czerwone wino z Włoch, pochodzące z regionu Alto Adige. Powstaje ze szczepu Lagrein, typowego dla północnych Włoch i cenionego za głęboki kolor, wyrazisty owocowy charakter oraz przyjemną strukturę. To dobry wybór dla osób, które szukają włoskiego czerwonego wina o pełniejszym smaku, pasującego zarówno do codziennej kolacji, jak i bardziej uroczystych spotkań.<br />Charakterystyka i walory smakowe<br />E. Walch Lagrein zachwyca intensywną barwą i aromatem dojrzałych ciemnych owoców, w którym można odnaleźć nuty czarnej wiśni, śliwek i jagód, uzupełnione delikatnymi akcentami przypraw. W ustach jest soczyste, dobrze zbudowane i przyjemnie owocowe, z wyczuwalną, ale dobrze zintegrowaną taniną. Finisz pozostaje świeży, lekko korzenny i owocowy.<br />Wino dobrze komponuje się z czerwonym mięsem, dziczyzną, grillowanymi potrawami, makaronami z intensywnymi sosami oraz dojrzewającymi serami. Najlepiej podawać je lekko schłodzone, w temperaturze około 16–18°C.</p>",
+  "description_short": "<p>Wino E. Walch Lagrein Alto Adige DOC 13% 0,75 l to charakterne czerwone wino z Włoch, pochodzące z regionu Alto Adige</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3102,
+  "id_product": 3102,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3102-wlochy-ewalch-lagrein-alto-adige-doc-13-075l-8000905003771",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4892,
+      "legend": "WŁOCHY E.Walch Lagrein Alto Adige DOC 13% 0,75L",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4892-small_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4892-small_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4892-medium_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4892-medium_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4892,
+    "legend": "WŁOCHY E.Walch Lagrein Alto Adige DOC 13% 0,75L",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4892-small_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-small_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4892-medium_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-medium_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4892-cart_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4892-home_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4892-large_default/wlochy-ewalch-lagrein-alto-adige-doc-13-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

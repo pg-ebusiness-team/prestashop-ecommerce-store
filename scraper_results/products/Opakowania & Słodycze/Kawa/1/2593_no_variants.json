@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8001685122355",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 46,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "36,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2812,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 15:06:12",
+  "date_upd": "2025-09-15 16:44:37",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KAWA Pellini No2 Vellutato 250g",
+  "link_rewrite": "kawa-pellini-no2-vellutato-250g",
+  "name": "KAWA Pellini No2 Vellutato 250g",
+  "description": "Pellini Espresso Vellutato No 2 to klasyczna włoska mieszanka składająca \r\nsię w 95% z wyselekcjonowanych ziaren Arabiki pochodzących z Ameryki Południowej \r\noraz 5% dodatku Robusty, która dodaje naparowi odrobiny mocy. Kawa jest ciemno \r\npalona i mielona, dzięki czemu idealnie sprawdzi się w ekspresach ciśnieniowych, \r\nkawiarkach, a nawet french pressach. W filiżance odkryjesz bogaty, \r\nczekoladowo-orzechowy smak, niską kwasowość, dużą kremowość i intensywny aromat. \r\nDzięki przewadze arabiki i niewielkiej zawartości kofeiny, kawa ta jest łagodna \r\ndla organizmu i może być spożywana o dowolnej porze dnia - zarówno rano, jak i \r\npopołudniu. Proces ciemnego palenia nadaje kawie głęboki charakter - naturalna \r\nkwasowość zostaje zredukowana, a na pierwszy plan wysuwają się nuty czekolady, \r\norzechów oraz pełne body, widoczne szczególnie w kremowym espresso. Pellini \r\nVellutato to doskonała propozycja dla miłośników klasycznego włoskiego espresso, \r\nale równie dobrze sprawdzi się jako baza do americano, cappuccino czy \r\nlatte.\r\n",
+  "description_short": "<p>Pellini Espresso Vellutato No 2 to klasyczna włoska mieszanka składająca się w 95% z wyselekcjonowanych ziaren Arabiki pochodzących z Ameryki Południowej oraz 5% dodatku Robusty</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2593,
+  "id_product": 2593,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2812,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "kawa",
+  "category_name": "Kawa",
+  "link": "https://luksusowealkohole.pl/kawa/2593-kawa-pellini-no2-vellutato-250g",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 29.268293,
+  "price_without_reduction": 36,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Mielona",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 592
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3630,
+      "legend": "KAWA Pellini No2 Vellutato 250g",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3630-small_default/kawa-pellini-no2-vellutato-250g.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3630-small_default/kawa-pellini-no2-vellutato-250g.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3630-medium_default/kawa-pellini-no2-vellutato-250g.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3630-medium_default/kawa-pellini-no2-vellutato-250g.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3630,
+    "legend": "KAWA Pellini No2 Vellutato 250g",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3630-small_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-small_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3630-medium_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-medium_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3630-cart_default/kawa-pellini-no2-vellutato-250g.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3630-home_default/kawa-pellini-no2-vellutato-250g.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3630-large_default/kawa-pellini-no2-vellutato-250g.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 36,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

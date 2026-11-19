@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3831002404018",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "98,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2881,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-01 11:42:02",
+  "date_upd": "2025-10-01 14:09:14",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Bagueri Rebula",
+  "link_rewrite": "wino-bagueri-rebula",
+  "name": "WINO Bagueri Rebula",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bagueri \r\nRebula to wybitne wino, będące doskonałym połączeniem dziedzictwa winiarskiego i \r\nwspółczesnych technik produkcji. Powstaje z ręcznie zbieranych gron odmiany \r\nRebula, rosnących na tarasowych zboczach w słoweńskim regionie Goriška Brda. \r\nSpecyficzny mikroklimat tego obszaru - gdzie ścierają się wpływy ciepłego \r\npowietrza znad morza i chłodnych alpejskich mas powietrza - sprzyja uzyskaniu \r\nwinogron o skoncentrowanym smaku i wyraźnej mineralności. Wino dojrzewa przez \r\nrok w dużych beczkach z francuskiego dębu, co wzbogaca je o nuty elegancji i \r\ngłębi. W aromacie dominują cytrusy, cedr i grejpfrut, przeplatające się z \r\nsubtelnymi akcentami wanilii i świeżo upieczonego chleba. Na podniebieniu wino \r\njest złożone, świeże i harmonijne, z łagodnym finiszem i lekkim muśnięciem \r\ntanin. Ma złocistą, słoneczną barwę i zawartość alkoholu na poziomie 13,5%. \r\nCharakteryzuje się znakomitym potencjałem dojrzewania - może rozwijać się przez \r\nponad 10 lat. Doskonale komponuje się z lekkimi daniami, takimi jak sałatki, \r\nbiałe ryby, owoce morza, risotto warzywne czy makarony z warzywnymi sosami. To \r\nwyjątkowe, kultowe wino z odmiany Rebula zachwyca już od pierwszego kieliszka - \r\nzarówno aromatem, jak i długim, wielowymiarowym posmakiem. Jego struktura i \r\nfinezja czynią je prawdziwą perełką słoweńskiego \r\nwiniarstwa.</SPAN></P>\r\n",
+  "description_short": "<p>Bagueri Rebula to wybitne wino, będące doskonałym połączeniem dziedzictwa winiarskiego i współczesnych technik produkcji. Powstaje z ręcznie zbieranych gron odmiany Rebula, rosnących na tarasowych zboczach w słoweńskim regionie Goriška Brda</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2685,
+  "id_product": 2685,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2881,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2685-wino-bagueri-rebula",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 79.674797,
+  "price_without_reduction": 98,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Słowenia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 607
+    },
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wegańskie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 624
+    },
+    {
+      "name": "Szczep",
+      "value": "Rebula",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 606
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3831002404018",
+      "ean13": "3831002404018",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3747,
+      "legend": "WINO Bagueri Rebula",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3747-small_default/wino-bagueri-rebula.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3747-small_default/wino-bagueri-rebula.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3747-medium_default/wino-bagueri-rebula.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3747-medium_default/wino-bagueri-rebula.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3747,
+    "legend": "WINO Bagueri Rebula",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3747-small_default/wino-bagueri-rebula.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-small_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3747-medium_default/wino-bagueri-rebula.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-medium_default/wino-bagueri-rebula.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3747-cart_default/wino-bagueri-rebula.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3747-home_default/wino-bagueri-rebula.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3747-large_default/wino-bagueri-rebula.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 98,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

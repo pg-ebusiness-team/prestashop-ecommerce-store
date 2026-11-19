@@ -1,0 +1,289 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5021944129102",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3281,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-24 10:33:16",
+  "date_upd": "2026-10-24 10:33:16",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Edradour 10yo Oloroso Sherry",
+  "link_rewrite": "whisky-edradour-10yo-oloroso-sherry",
+  "name": "WHISKY Edradour 10yo Oloroso Sherry",
+  "description": "",
+  "description_short": "<p></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3132,
+  "id_product": 3132,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3281,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3132-whisky-edradour-10yo-oloroso-sherry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.048766,
+  "price_without_reduction": 249,
+  "reduction": 30.000018,
+  "specific_prices": {
+    "id_specific_price": 154,
+    "id_specific_price_rule": 0,
+    "id_cart": 0,
+    "id_product": 3132,
+    "id_shop": 0,
+    "id_shop_group": 0,
+    "id_currency": 0,
+    "id_country": 0,
+    "id_group": 0,
+    "id_customer": 0,
+    "id_product_attribute": 3281,
+    "price": 202.439024,
+    "from_quantity": 1,
+    "reduction": "0.120482",
+    "reduction_tax": 1,
+    "reduction_type": "percentage",
+    "from": "0000-00-00 00:00:00",
+    "to": "0000-00-00 00:00:00",
+    "score": 32
+  },
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4929,
+      "legend": "WHISKY Edradour 10yo Oloroso Sherry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4929-small_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4929-small_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4929-medium_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4929-medium_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4929,
+    "legend": "WHISKY Edradour 10yo Oloroso Sherry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4929-small_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-small_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4929-medium_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-medium_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4929-cart_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4929-home_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4929-large_default/whisky-edradour-10yo-oloroso-sherry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": true,
+  "discount_type": "percentage",
+  "discount_percentage": "-12,05%",
+  "discount_percentage_absolute": "12,05%",
+  "discount_amount": "30,00 zł",
+  "discount_amount_to_display": "-30,00 zł",
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

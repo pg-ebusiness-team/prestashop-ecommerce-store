@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "NURIAGRAND RES",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 82,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-05-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2151,
+  "advanced_stock_management": "0",
+  "date_add": "2025-05-19 13:30:23",
+  "date_upd": "2025-05-19 17:17:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CAVA Nuria Claverol Homenatge",
+  "link_rewrite": "cava-nuria-claverol-homenatge",
+  "name": "CAVA Nuria Claverol Homenatge",
+  "description": " \r\n<P><STRONG><SPAN \r\nstyle=\"font-weight: normal; mso-bidi-font-weight: bold;\">Wyjątkowa cava \r\nstworzona jako hołd dla żony założyciela winiarni, Carlesa \r\nSumarroca.</SPAN></STRONG> Dedykowana przez trzech synów ich matce – kobiecie \r\ngłęboko związanej z ziemią i naturą – ta cava jest wyrazem miłości, szacunku i \r\nrodzinnej tradycji:<BR data-end=\"308\" data-start=\"305\"><EM data-end=\"388\" \r\ndata-start=\"308\"><SPAN \r\nstyle=\"font-style: normal; mso-bidi-font-style: italic;\">\"To hołd dla naszej \r\nmatki; miłość do ziemi jest jedną ze stałych w jej życiu.\"</SPAN></EM> </P>\r\n<P>Wino powstało z wyselekcjonowanych gron szczepu <STRONG data-end=\"450\" \r\ndata-start=\"438\"><SPAN \r\nstyle=\"font-weight: normal; mso-bidi-font-weight: bold;\">Xarello</SPAN></STRONG>, \r\npochodzących z najlepszych parceli, wyróżniających się wyjątkową jakością i\r\n charakterem. Butelka, inspirowana kształtem starożytnych greckich amfor,\r\n podkreśla unikalność tej cavy. <STRONG><SPAN style=\"font-weight: normal; mso-bidi-font-weight: bold;\">Dojrzewająca \r\nprzez 45 miesięcy</SPAN></STRONG>, cava ta zachwyca jasnozłotą barwą i kremowym, \r\neleganckim musowaniem. W aromacie wyczuwalne są złożone nuty białych kwiatów i \r\nmoreli, wzbogacone o niuanse brioszki, ciasta drożdżowego i subtelnych tonów \r\nmaślanych. Na podniebieniu <STRONG data-end=\"931\" data-start=\"900\"><SPAN style=\"font-weight: normal; mso-bidi-font-weight: bold;\">wytrawna, \r\nśrednio zbudowana</SPAN></STRONG>, o zaokrąglonej strukturze i dobrze \r\nzbalansowanej kwasowości. Lekko kremowa tekstura prowadzi do długiego,\r\n harmonijnego finiszu. To cava o wyjątkowej osobowości – elegancka, głęboka i\r\n stworzona z pasją. <STRONG data-end=\"1204\" data-start=\"1137\"><SPAN style=\"font-weight: normal; mso-bidi-font-weight: bold;\">Nie \r\ndo przeoczenia dla miłośników musujących win klasy \r\npremium.</SPAN></STRONG></P>\r\n",
+  "description_short": "<p>Wyjątkowa cava stworzona jako hołd dla żony założyciela winiarni, Carlesa Sumarroca.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2058,
+  "id_product": 2058,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2151,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino-musujace",
+  "category_name": "Wino Musujące",
+  "link": "https://luksusowealkohole.pl/wino-musujace/2058-cava-nuria-claverol-homenatge",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 13,
+  "quantity_all_versions": 13,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "NURIAGRAND RES",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2887,
+      "legend": "CAVA Nuria Claverol Homenatge",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2887-small_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2887-small_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2887-medium_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2887-medium_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 2888,
+      "legend": "CAVA Nuria Claverol Homenatge",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2888-cart_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2888-cart_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2888-small_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2888-small_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2888-home_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2888-home_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2888-medium_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2888-medium_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2888-large_default/cava-nuria-claverol-homenatge.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2888-large_default/cava-nuria-claverol-homenatge.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2888-cart_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2888-cart_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2888-home_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2888-home_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2888-large_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2888-large_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2887,
+    "legend": "CAVA Nuria Claverol Homenatge",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2887-small_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-small_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2887-medium_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-medium_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2887-cart_default/cava-nuria-claverol-homenatge.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2887-home_default/cava-nuria-claverol-homenatge.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2887-large_default/cava-nuria-claverol-homenatge.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

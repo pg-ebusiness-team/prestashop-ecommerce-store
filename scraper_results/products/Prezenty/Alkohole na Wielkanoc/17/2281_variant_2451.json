@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3147690035008",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "65,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2451,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-18 09:52:21",
+  "date_upd": "2025-07-18 12:41:14",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Malaga Cruz",
+  "link_rewrite": "wino-malaga-cruz",
+  "name": "WINO Malaga Cruz",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Malaga \r\nto jedno z najbardziej rozpoznawalnych win deserowych na świecie, pochodzące z \r\npołudniowej Hiszpanii, a dokładnie z regionu Andaluzji. Produkowane jest w \r\nokolicach miasta Malaga, od którego pochodzi jego nazwa, na terenie objętym \r\napelacją Malaga DO. To słodkie, hiszpańskie wino wytwarzane jest z podsuszanych \r\nwinogron szczepów Pedro Ximénez, Muscat de Alexandria, Malvasia i Muscadelle. \r\nDzięki tej metodzie Malaga zyskuje intensywnie słodki smak i gęstą konsystencję. \r\nW jego aromacie i smaku dominują nuty dojrzałych winogron, karmelizowanych \r\nrodzynek oraz delikatna goryczka orzechów. Wino to charakteryzuje się \r\nciemnobrązową barwą, przypominającą kolor orzechów. Idealnie komponuje się \r\nzarówno z daniami głównymi, jak i deserami. Można je serwować w temperaturze \r\npokojowej lub schłodzone z lodem. Malaga Cruz leżakuje przez trzy lata w \r\nbeczkach z dębu, osiągając zawartość alkoholu na poziomie \r\n15%.</SPAN></P>\r\n",
+  "description_short": "<p>Malaga to jedno z najbardziej rozpoznawalnych win deserowych na świecie, pochodzące z południowej Hiszpanii, a dokładnie z regionu Andaluzji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2281,
+  "id_product": 2281,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2451,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2281-wino-malaga-cruz",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Szczep",
+      "value": "Malvasia",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 97
+    },
+    {
+      "name": "Szczep",
+      "value": "Pedro Ximenez",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 118
+    },
+    {
+      "name": "Szczep",
+      "value": "Muscadelle",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 506
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3147690035008",
+      "ean13": "3147690035008",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3267,
+      "legend": "WINO Malaga Cruz",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3267-small_default/wino-malaga-cruz.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3267-small_default/wino-malaga-cruz.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3267-medium_default/wino-malaga-cruz.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3267-medium_default/wino-malaga-cruz.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3267,
+    "legend": "WINO Malaga Cruz",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3267-small_default/wino-malaga-cruz.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-small_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3267-medium_default/wino-malaga-cruz.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-medium_default/wino-malaga-cruz.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3267-cart_default/wino-malaga-cruz.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3267-home_default/wino-malaga-cruz.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3267-large_default/wino-malaga-cruz.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 65,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

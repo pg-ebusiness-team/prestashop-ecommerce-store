@@ -1,0 +1,320 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "PUD.ZŁOTY",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 43,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2998,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-28 12:56:24",
+  "date_upd": "2025-10-28 13:08:34",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Pudełko Ozdobne ze Złotym Środkiem",
+  "link_rewrite": "pudelko-ozdobne-ze-zlotym-srodkiem",
+  "name": "Pudełko Ozdobne ze Złotym Środkiem",
+  "description": "",
+  "description_short": "",
+  "available_now": "",
+  "available_later": "",
+  "id": 2805,
+  "id_product": 2805,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2998,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "akcesoria",
+  "category_name": "Opakowania & Akcesoria",
+  "link": "https://luksusowealkohole.pl/akcesoria/2805-pudelko-ozdobne-ze-zlotym-srodkiem",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3888,
+      "legend": "Pudełko Ozdobne ze Złotym Środkiem",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3888-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3888-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3888-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3888-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3889,
+      "legend": "Pudełko Ozdobne ze Złotym Środkiem",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3889-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3889-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3889-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3889-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3889-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3889-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3889-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3889-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3889-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3889-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3889-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3889-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3889-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3889-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3889-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3889-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3888,
+    "legend": "Pudełko Ozdobne ze Złotym Środkiem",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3888-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-small_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3888-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-medium_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3888-cart_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3888-home_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3888-large_default/pudelko-ozdobne-ze-zlotym-srodkiem.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000329002193",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "95,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 975,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 11:02:42",
+  "date_upd": "2024-08-29 11:02:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Beefeater",
+  "link_rewrite": "gin-beefeater",
+  "name": "GIN Beefeater",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT face=\"Calibri\">Gin \r\n Beefeater jest jednym z najbardziej cenionych ginów na świecie określany często \r\n jako numer 1 w swojej klasie. Sekretem wybornego smaku jest odpowiednia \r\n kompozycja ziaren dzikiego jałowca, ostrej kolendry z subtelną słodyczą skórek \r\n cytrusów. <SPAN style=\"mso-spacerun: yes;\">&nbsp;</SPAN>Beefeater jest obecnie \r\n jedynym produkowanym w Londynie - miejscu narodzin większości znanych marek \r\ntego  typu alkoholu . Receptura tego ginu jest niezmienna od czasu narodzin \r\nmarki,  czyli&nbsp; 1820 roku. Gin ten stanowi niezastąpioną podstawę różnego \r\nrodzaju  drinków. Sama nazwa trunku nawiązuję do nazwy żołnierza przybocznej \r\ngwardii  królewskiej.</FONT></P>\r\n",
+  "description_short": "<p>Gin Beefeater jest jednym z najbardziej cenionych ginów na świecie określany często jako numer 1 w swojej klasie. Sekretem wybornego smaku jest odpowiednia kompozycja ziaren dzikiego jałowca, ostrej kolendry z subtelną słodyczą skórek cytrusów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 888,
+  "id_product": 888,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 975,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/888-gin-beefeater",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 77.235772,
+  "price_without_reduction": 95,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Anglia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 353
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000329002193",
+      "ean13": "5000329002193",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1524,
+      "legend": "GIN Beefeater",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1524-small_default/gin-beefeater.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1524-small_default/gin-beefeater.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1524-medium_default/gin-beefeater.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1524-medium_default/gin-beefeater.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1524,
+    "legend": "GIN Beefeater",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1524-small_default/gin-beefeater.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-small_default/gin-beefeater.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1524-medium_default/gin-beefeater.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-medium_default/gin-beefeater.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1524-cart_default/gin-beefeater.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1524-home_default/gin-beefeater.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1524-large_default/gin-beefeater.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 95,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

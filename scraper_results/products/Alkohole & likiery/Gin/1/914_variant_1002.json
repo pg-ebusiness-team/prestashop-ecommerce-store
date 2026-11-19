@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5904463312104",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1002,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 15:11:26",
+  "date_upd": "2024-08-29 15:11:26",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Heritage Magnolia",
+  "link_rewrite": "gin-heritage-magnolia",
+  "name": "GIN Heritage Magnolia",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Heritage \r\nMagnolia to Polski gin rzemieślniczy stworzony z połączenia kwiatów, ziół, \r\nprzypraw i owoców. Gin Macerowany na zimno w najwyzszej jakości spirytusie przez \r\n24 godziny. Poddany powolnej destylacji metodami pot-still i infuzji parwoej w\r\n miedzianym alembiku. Dodany kwiat Magnoli sprawia, że Heritage ma niespotykane\r\n smak. Aromaty świeżości, czerwonych owoców i ziół. Heritage Magnolia Gin to\r\n najczęściej nagradzany polski gin rzemieślniczy na świecie. Smak&nbsp;ginu jest\r\n inspirowany Kresami Wschodnimi, skąd pochodzą przodkowie twórców i ich\r\n rodzinnym&nbsp;miastem. Jego sercem są kwiaty magnolii, absolutnie unikalny\r\n składnik w świecie ginu. Butelka&nbsp;skrywa łącznie 19 wyszukanych, głównie\r\n regionalnych składników botanicznych, jak przytulia&nbsp;wonna, irys florencki,\r\n jabłko, imbir, czarna porzeczka, żurawina, pieprz kubeba, mięta, szałwia czy \r\nfundament receptury - włoski jałowiec.&nbsp;W aromacie słodka kwiatowość i \r\nrześkość z wyrazistym jałowcem. W smaku gin jest&nbsp;złożony, delikatnie \r\nsłodki, ziołowy i owocowy z łagodną mineralną, ziemistą nutą. Nad \r\nwyraz&nbsp;gładki finisz z wyraźnym imbirem i pieprzem na języku.&nbsp; Heritage \r\nMagnolia Gin to polski kraftowy gin, który powstaje w limitowanych partiach \r\nliczących&nbsp;około 300 butelek. Każda z nich jest ręcznie numerowana. W \r\nprocesie produkcji część składników macerowana jest przez 24 godziny w \r\nnajwyższej jakości&nbsp;neutralnym spirytusie zbożowym, następnie całość \r\npoddawana jest destylacji pot-still i infuzji&nbsp;parą w miedzianym alembiku \r\nprzez około 16-18 godzin.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>NAGRODY \r\nHERITAGE MAGNOLIA GIN:</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>World's \r\nBest Contemporary Style Gin, World Gin Awards 2023, Wielka Brytania</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Master, \r\nGlobal Gin Masters 2022, Wielka Brytania</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gold, \r\nWorld Gin Awards 2023, Wielka Brytania</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gold, \r\nCWSA 2023, Wielka Brytania/Hong Kong</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gold, \r\nConcours International de Lyon 2023, Francja</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gold, \r\nEuropean Spirits Challenge 2023, Wielka Brytania</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Best \r\nSpirits from Poland in the Competition, Concours International de Lyon 2023, \r\nFrancja</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Double \r\nGold, World Spirits Trophy 2022, Luksemburg</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Double \r\nGold, Berlin International Spirits Competition 2022</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gin \r\nof the Year, Berlin International Spirits Competition 2022</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grand \r\nGold, Europe Wine &amp; Spirits Trophy 2022, Luksemburg</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Great \r\nGold, CWWSC 2022 w Hiszpanii</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grand \r\nGold, Frankfurt International Trophy 2022</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gold \r\nMedal, Warsaw Spirits Competition 2022</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Best \r\nSpirits from Poland in the Competition, Frankfurt International Trophy \r\n2022</SPAN></P>\r\n",
+  "description_short": "<p>Heritage Magnolia to Polski gin rzemieślniczy stworzony z połączenia kwiatów, ziół, przypraw i owoców. Gin Macerowany na zimno w najwyzszej jakości spirytusie przez 24 godziny.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 914,
+  "id_product": 914,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1002,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/914-gin-heritage-magnolia",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "45%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 240
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5904463312104",
+      "ean13": "5904463312104",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1504,
+      "legend": "GIN Heritage Magnolia",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1504-small_default/gin-heritage-magnolia.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1504-small_default/gin-heritage-magnolia.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1504-medium_default/gin-heritage-magnolia.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1504-medium_default/gin-heritage-magnolia.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1504,
+    "legend": "GIN Heritage Magnolia",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1504-small_default/gin-heritage-magnolia.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-small_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1504-medium_default/gin-heritage-magnolia.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-medium_default/gin-heritage-magnolia.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1504-cart_default/gin-heritage-magnolia.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1504-home_default/gin-heritage-magnolia.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1504-large_default/gin-heritage-magnolia.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

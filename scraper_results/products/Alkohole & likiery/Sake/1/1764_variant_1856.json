@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4970860775003",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 33,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "255,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1856,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-10 18:24:05",
+  "date_upd": "2026-07-02 13:07:58",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SAKE Akashi-tai junmai Daiginjo Genshu",
+  "link_rewrite": "sake-akashi-tai-junmai-daiginjo-genshu",
+  "name": "SAKE Akashi-tai junmai Daiginjo Genshu",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Subtelnie \nwytrawne w smaku sake, którego marka Akashi opisuje jako - najbardziej kultowe \nsake w portfolio. Wytwarza się je z ryżu Yamadanishiki, uprawianego w \nprefekturze Hyogo. Podczas procesów fermentacyjnych, do których wykorzystywane \nsą grzyby koji, Mistrz Gorzelnictwa czuwa bez wytchnienia i odpoczynku na sen \nprzez 72 godziny przy powstającym trunku, żeby zapewnić miłośnikom sake \nnajwyższą jakość i doskonałe wrażenia. Daiginjo Akashi-Tai charakteryzuje się \nbogatym i przyjemnym profilem, w którym wyczuwalne są nuty sody, słodkiej \nwanilii, mokrej ziemi, suszonej papai, plastrów miodu oraz szczypty różowego \npieprzu.</span></p>",
+  "description_short": "<p>Subtelnie wytrawne w smaku sake, którego marka Akashi opisuje jako - najbardziej kultowe sake w portfolio. Wytwarza się je z ryżu Yamadanishiki, uprawianego w prefekturze Hyogo.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1764,
+  "id_product": 1764,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1856,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "sake",
+  "category_name": "Sake",
+  "link": "https://luksusowealkohole.pl/sake/1764-sake-akashi-tai-junmai-daiginjo-genshu",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 207.317073,
+  "price_without_reduction": 255,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "16,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 235
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 49,
+      "id_attribute_group": 5,
+      "name": "0,72 l",
+      "group": "Pojemność",
+      "reference": "4970860775003",
+      "ean13": "4970860775003",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4790,
+      "legend": "SAKE Akashi-tai junmai Daiginjo Genshu",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4790-small_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4790-small_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4790-medium_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4790-medium_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4790,
+    "legend": "SAKE Akashi-tai junmai Daiginjo Genshu",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4790-small_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-small_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4790-medium_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-medium_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4790-cart_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4790-home_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4790-large_default/sake-akashi-tai-junmai-daiginjo-genshu.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 255,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

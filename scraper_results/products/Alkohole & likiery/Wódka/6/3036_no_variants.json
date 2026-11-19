@@ -1,0 +1,342 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907484523139",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 97,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-24 11:26:27",
+  "date_upd": "2026-07-29 22:41:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Paderewski + klieliszki 40% 0,7l PROMO",
+  "link_rewrite": "wodka-paderewski-klieliszki-40-07l-promo",
+  "name": "WÓDKA Paderewski + klieliszki 40% 0,7l PROMO",
+  "description": "Paderewski to polska wódka klasy premium, stworzona jako hołd dla Ignacego \r\nJana Paderewskiego – wybitnego pianisty, kompozytora i męża stanu. Powstaje z \r\nwysokiej jakości spirytusu zbożowego pochodzącego z polskich upraw oraz \r\nkrystalicznie czystej wody. Czterokrotna destylacja i starannie dopracowany \r\nproces produkcji zapewniają jej wyjątkową czystość, aksamitną strukturę i \r\nharmonijny charakter.<BR>Barwa:<BR>Krystalicznie czysta i idealnie \r\nprzejrzysta.<BR>Aromat:<BR>Delikatny i elegancki, z subtelnymi nutami świeżego \r\nzboża, lekką słodyczą oraz dyskretnym akcentem białego \r\npieprzu.<BR>Smak:<BR>Łagodny, aksamitny i doskonale zbalansowany. Wyczuwalne \r\nnuty zbożowe harmonijnie łączą się z delikatną mineralnością, tworząc czysty i \r\nszlachetny profil.<BR>Finisz:<BR>Długi, czysty i miękki, z przyjemnym, lekko \r\npieprznym zakończeniem.<BR>Rekomendacja sommeliera:<BR>Najlepiej podawać \r\nschłodzoną do temperatury 5–8°C. Doskonale komponuje się z klasycznymi polskimi \r\nprzekąskami, tatarem wołowym, wędzonymi rybami, śledziami, pieczonymi mięsami \r\noraz deską dojrzewających serów. Elegancki zestaw z kieliszkami sprawia, że jest \r\nrównież doskonałym pomysłem na prezent lub wyjątkowy upominek \r\nokolicznościowy\r\n",
+  "description_short": "<p>Paderewski to polska wódka klasy premium, stworzona jako hołd dla Ignacego Jana Paderewskiego – wybitnego pianisty, kompozytora i męża stanu. Powstaje z wysokiej jakości spirytusu zbożowego pochodzącego z polskich upraw oraz krystalicznie czystej wody</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3036,
+  "id_product": 3036,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka-czysta",
+  "category_name": "Wódka czysta",
+  "link": "https://luksusowealkohole.pl/wodka-czysta/3036-wodka-paderewski-klieliszki-40-07l-promo-5907484523139",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 11,
+  "quantity_all_versions": 11,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4804,
+      "legend": "WÓDKA Paderewski + klieliszki 40% 0,7l PROMO",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4804-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4804-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4804-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4804-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4805,
+      "legend": "WÓDKA Paderewski + klieliszki 40% 0,7l PROMO",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4805-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4805-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4805-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4805-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4805-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4805-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4805-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4805-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4805-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4805-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4805-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4805-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4805-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4805-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4805-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4805-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4804,
+    "legend": "WÓDKA Paderewski + klieliszki 40% 0,7l PROMO",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4804-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-small_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4804-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-medium_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4804-cart_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4804-home_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4804-large_default/wodka-paderewski-klieliszki-40-07l-promo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,357 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3103821704007",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 24,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "259,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-25",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 907,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-25 17:13:14",
+  "date_upd": "2026-02-18 17:52:01",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CALVADOS Chateau De Breuil 8 Ans",
+  "link_rewrite": "calvados-chateau-de-breuil-8-ans",
+  "name": "CALVADOS Chateau De Breuil 8 Ans",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Calvados \r\nChateau du Breuil Reserve 8 Ans d'Age Pays d'Auge&nbsp;&nbsp;w wieku co najmniej \r\n8 lat, dojrzewający w dębowych beczkach. Subtelna mieszanka mocnych aromatów \r\nNormandii i smaków „starego” Calvadosa o silnej przewadze orzechów takich jak \r\norzechy włoskie, laskowe i migdały, przełamanych świeżą \r\nwanilią.</SPAN></P>\r\n",
+  "description_short": "<p>Calvados Chateau du Breuil Reserve 8 Ans d'Age Pays d'Auge  w wieku co najmniej 8 lat, dojrzewający w dębowych beczkach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 832,
+  "id_product": 832,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 907,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "calvados",
+  "category_name": "Calvados",
+  "link": "https://luksusowealkohole.pl/calvados/832-calvados-chateau-de-breuil-8-ans",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 210.569106,
+  "price_without_reduction": 259,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "41,3%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 333
+    },
+    {
+      "name": "Wiek",
+      "value": "8 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 176
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3103821704007",
+      "ean13": "3103821704007",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4554,
+      "legend": "CALVADOS Chateau De Breuil 8 Ans",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4554-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4554-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4554-small_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4554-small_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4554-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4554-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4554-medium_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4554-medium_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4554-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4554-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4554-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4554-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4554-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4554-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4554-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4554-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4555,
+      "legend": "CALVADOS Chateau De Breuil 8 Ans",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4555-small_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4555-small_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4555-medium_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4555-medium_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4555,
+    "legend": "CALVADOS Chateau De Breuil 8 Ans",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4555-small_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-small_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4555-medium_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-medium_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4555-cart_default/calvados-chateau-de-breuil-8-ans.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4555-home_default/calvados-chateau-de-breuil-8-ans.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4555-large_default/calvados-chateau-de-breuil-8-ans.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 259,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

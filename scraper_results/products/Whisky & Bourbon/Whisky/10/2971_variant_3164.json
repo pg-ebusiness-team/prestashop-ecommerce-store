@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5013967012035",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-04-25",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3164,
+  "advanced_stock_management": "0",
+  "date_add": "2026-04-25 12:17:40",
+  "date_upd": "2026-09-04 17:02:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Mackinlay's Shackleton Blended Malt",
+  "link_rewrite": "whisky-mackinlay-s-shackleton-blended-malt",
+  "name": "WHISKY Mackinlay's Shackleton Blended Malt",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Mackinlay's Shackleton Blended Malt Scotch Whisky to współczesna interpretacja trunku, który towarzyszył brytyjskiej wyprawie antarktycznej sir Ernesta Shackletona w 1907 roku. Za jej stworzenie odpowiada mistrz kupażu Richard Paterson, który oparł się na analizie oryginalnych butelek odnalezionych po ponad stu latach w antarktycznym lodzie. W 2007 roku odkryto trzy skrzynie whisky Mackinlay’s Rare Old Highland Malt ukryte pod podłogą chaty ekspedycyjnej. Zachowane w doskonałym stanie próbki zostały przewiezione do Szkocji i poddane szczegółowym badaniom chemicznym, co pozwoliło odtworzyć ich pierwotny profil. Do rekonstrukcji wykorzystano różne słody z regionu Highland, w tym m.in. z nieistniejącej już destylarni Glen Mhor oraz Dalmore. W aromacie dominują nuty wanilii, często przywodzące na myśl lody waniliowe, a także miód, słodki sok jabłkowy i bardzo subtelny akcent dymu. Na podniebieniu whisky prezentuje harmonijne połączenie toffi, owoców sadowniczych — głównie jabłek i gruszek — oraz rozgrzewających przypraw, takich jak cynamon i imbir. Jej konsystencja jest średnio lekka, lekko oleista. Finisz pozostaje raczej krótki i czysty, z utrzymującą się delikatną słodyczą i ledwie wyczuwalną nutą dymu. Producent sugeruje nietypowy sposób podania — z lodem — co stanowi nawiązanie do polarnego rodowodu whisky i według niektórych dodatkowo podkreśla jej kwiatowo-owocowy charakter.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Mackinlay's Shackleton Blended Malt Scotch Whisky to współczesna interpretacja trunku, który towarzyszył brytyjskiej wyprawie antarktycznej sir Ernesta Shackletona w 1907 roku</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2971,
+  "id_product": 2971,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3164,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2971-whisky-mackinlay-s-shackleton-blended-malt",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 12,
+  "quantity_all_versions": 12,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5013967012035",
+      "ean13": "5013967012035",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4704,
+      "legend": "WHISKY Mackinlay's Shackleton Blended Malt",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4704-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4704-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4704-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4704-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4705,
+      "legend": "WHISKY Mackinlay's Shackleton Blended Malt",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4705-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4705-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4705-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4705-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4705-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4705-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4705-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4705-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4705-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4705-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4705-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4705-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4705-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4705-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4705-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4705-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4704,
+    "legend": "WHISKY Mackinlay's Shackleton Blended Malt",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4704-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-small_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4704-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-medium_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4704-cart_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4704-home_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4704-large_default/whisky-mackinlay-s-shackleton-blended-malt.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

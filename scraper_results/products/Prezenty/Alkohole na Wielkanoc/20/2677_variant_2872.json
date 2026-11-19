@@ -1,0 +1,333 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5601034000506",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "67,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2872,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-29 13:21:45",
+  "date_upd": "2025-09-29 15:40:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Porto Offley Ruby",
+  "link_rewrite": "wino-porto-offley-ruby",
+  "name": "WINO Porto Offley Ruby",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Offley \r\n Porto Ruby to klasyczne, portugalskie wino wzmacniane, które zachwyca \r\n intensywnym, rubinowym kolorem i świeżym, owocowym aromatem. W nosie dominują  \r\ndojrzałe czerwone owoce - wiśnie, śliwki, truskawki i jagody - wzbogacone \r\n subtelnymi nutami korzennymi, pochodzącymi z dojrzewania w dużych beczkach \r\n dębowych (tzw. balseiros). W ustach wino jest słodkie, gładkie i dobrze \r\n zbudowane, z delikatnie cierpkimi taninami oraz przyjemnym ciepłem alkoholu \r\n (19,5%). Balans między naturalną słodyczą a strukturą tanin tworzy harmonijny, \r\n pełen charakteru smak, który kończy się długim i satysfakcjonującym finiszem. \r\n Offley Ruby powstaje z tradycyjnych portugalskich szczepów - m.in. Touriga \r\n Nacional, Tinta Roriz i Bastardo - które po częściowej fermentacji są \r\nwzmacniane  spirytusem winnym. Następnie kupaż dojrzewa w drewnianych beczkach \r\nprzez co  najmniej 3 lata, aby zachować świeżość i młodzieńczy charakter trunku. \r\nTo porto  idealne zarówno do codziennej degustacji, jak i wyjątkowych chwil. \r\nŚwietnie  smakuje solo (najlepiej lekko schłodzone do 12-14°C), z kostkami lodu \r\nlub jako  składnik drinków - np. klasycznego Porto Tonic. Doskonale łączy się z \r\ndeserami czekoladowymi, serami pleśniowymi jak stilton czy gorgonzola, a także \r\nsprawdza  się jako elegancki digestif po posiłku. Offley Porto Ruby to świeże, \r\nżywe i  przystępne porto - idealne dla miłośników młodych, owocowych win o \r\nintensywnym  charakterze.</SPAN></P>\r\n",
+  "description_short": "<p>Offley Porto Ruby to klasyczne, portugalskie wino wzmacniane, które zachwyca intensywnym, rubinowym kolorem i świeżym, owocowym aromatem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2677,
+  "id_product": 2677,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2872,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2677-wino-porto-offley-ruby",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 54.471545,
+  "price_without_reduction": 67,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Portugalia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 33
+    },
+    {
+      "name": "Region",
+      "value": "Douro",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 456
+    },
+    {
+      "name": "Alkohol",
+      "value": "19,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 467
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wzmacniane",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 405
+    },
+    {
+      "name": "Szczep",
+      "value": "Tinta Roriz",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 148
+    },
+    {
+      "name": "Szczep",
+      "value": "Touriga Nacional",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 152
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Bastardo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 604
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5601034000506",
+      "ean13": "5601034000506",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3739,
+      "legend": "WINO Porto Offley Ruby",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3739-small_default/wino-porto-offley-ruby.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3739-small_default/wino-porto-offley-ruby.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3739-medium_default/wino-porto-offley-ruby.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3739-medium_default/wino-porto-offley-ruby.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3739,
+    "legend": "WINO Porto Offley Ruby",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3739-small_default/wino-porto-offley-ruby.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-small_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3739-medium_default/wino-porto-offley-ruby.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-medium_default/wino-porto-offley-ruby.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3739-cart_default/wino-porto-offley-ruby.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3739-home_default/wino-porto-offley-ruby.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3739-large_default/wino-porto-offley-ruby.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 67,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

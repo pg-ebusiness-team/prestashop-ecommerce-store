@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8437009805633",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "230,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2237,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 10:19:46",
+  "date_upd": "2025-06-16 19:33:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN MARE LANTERN",
+  "link_rewrite": "gin-mare-lantern",
+  "name": "GIN MARE LANTERN",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gin \r\nMare - edycja limitowana w metalowej latarni to wyjątkowa i pomysłowo \r\nzaprezentowana odsłona słynnego śródziemnomorskiego ginu. Trunek oparty jest na \r\nunikalnej kompozycji botanicznych składników, takich jak oliwki Arbequina, \r\nrozmaryn, tymianek, bazylia oraz mandarynka, co nadaje mu charakterystyczny, \r\nziołowo-cytrusowy profil smakowy. Cały proces produkcji wyróżnia się dbałością o \r\nszczegóły - zioła są macerowane przez około 36 godzin w wysokiej jakości \r\nspirytusie zbożowym, natomiast skórki owoców cytrusowych poddawane są nawet \r\n300-dniowej maceracji. Następnie wszystkie maceraty są starannie mieszane i \r\ndestylowane w tradycyjnych miedzianych alembikach, co pozwala wydobyć pełnię \r\naromatu i głębi smaku. Gin Mare doskonale łączy nuty jałowca z cytrusową \r\nświeżością i śródziemnomorską elegancją, oferując wyrafinowany smak, który z \r\npewnością zachwyci zarówno miłośników klasyki, jak i poszukiwaczy nowych \r\ndoświadczeń. Butelka została umieszczona w metalowej latarni, która - po \r\nopróżnieniu - może służyć jako stylowy lampion ogrodowy, wystarczy zastąpić ją \r\nświeczką. To limitowane wydanie to idealne połączenie wyjątkowego ginu z \r\ndesignerską formą, które zachwyca zarówno smakiem, jak i\r\n wyglądem.</SPAN></P>\r\n",
+  "description_short": "<p>Gin Mare - edycja limitowana w metalowej latarni to wyjątkowa i pomysłowo zaprezentowana odsłona słynnego śródziemnomorskiego ginu.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2149,
+  "id_product": 2149,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2237,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/2149-gin-mare-lantern",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.99187,
+  "price_without_reduction": 230,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "42,7%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 389
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8437009805633",
+      "ean13": "8437009805633",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3017,
+      "legend": "GIN MARE LANTERN",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3017-small_default/gin-mare-lantern.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3017-small_default/gin-mare-lantern.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3017-medium_default/gin-mare-lantern.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3017-medium_default/gin-mare-lantern.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3017,
+    "legend": "GIN MARE LANTERN",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3017-small_default/gin-mare-lantern.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-small_default/gin-mare-lantern.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3017-medium_default/gin-mare-lantern.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-medium_default/gin-mare-lantern.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3017-cart_default/gin-mare-lantern.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3017-home_default/gin-mare-lantern.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3017-large_default/gin-mare-lantern.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 230,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

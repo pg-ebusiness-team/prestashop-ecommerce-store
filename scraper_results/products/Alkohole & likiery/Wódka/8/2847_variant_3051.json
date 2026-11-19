@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902573004261",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "34,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3051,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-14 11:16:58",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Żołądkowa Gorzka De Luxe",
+  "link_rewrite": "wodka-zoladkowa-gorzka-de-luxe",
+  "name": "WÓDKA Żołądkowa Gorzka De Luxe",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Żołądkowa de Luxe to wyjątkowo czysta i gładka wódka, której niezwykle łagodny, neutralny smak jest efektem zaawansowanego, sześciostopniowego procesu destylacji. Jej krystaliczna przejrzystość i doskonale zbalansowany profil były wielokrotnie nagradzane na prestiżowych konkursach międzynarodowych, potwierdzając jej wysoką jakość. Tak właśnie powinna smakować klasyczna, czysta wódka. Żołądkowa Gorzka Czysta de Luxe należy do najbardziej rozpoznawalnych polskich marek na świecie. Swoją klarowność, subtelny aromat i wyjątkowo neutralny smak zawdzięcza starannie opracowanej, sześciofazowej destylacji. Produkowana jest z wyselekcjonowanych zbóż oraz krystalicznie czystej wody głębinowej, czerpanej z kredowych pokładów w regionie Lublina. W 2018 roku marka zaprezentowała odświeżoną odsłonę - nowoczesną, ergonomiczną butelkę, która świetnie leży w dłoni i podkreśla premiumowy charakter trunku. Żołądkowa de Luxe to idealny wybór na wesela, rodzinne uroczystości, a także spotkania w gronie przyjaciół. Jej łagodny, czysty smak z pewnością przypadnie do gustu miłośnikom klasycznych polskich wódek. Żołądkowa Gorzka de Luxe stanowi nowoczesną interpretację jednej z najbardziej znanych, tradycyjnych polskich marek. Choć wywodzi się z ziołowych receptur, wersja de Luxe to wódka czysta - stworzona dla osób ceniących delikatność, przejrzystość i uniwersalny, harmonijny charakter. Dzięki dopracowanej recepturze oraz zaawansowanym metodom filtracji wyróżnia się wyjątkową łagodnością i wysoką jakością, czyniąc ją doskonałym wyborem na każdą okazję.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Żołądkowa de Luxe to wyjątkowo czysta i gładka wódka, której niezwykle łagodny, neutralny smak jest efektem zaawansowanego, sześciostopniowego procesu destylacji.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2847,
+  "id_product": 2847,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3051,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2847-wodka-zoladkowa-gorzka-de-luxe",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 27.642276,
+  "price_without_reduction": 33.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5902573004261",
+      "ean13": "5902573004261",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3946,
+      "legend": "WÓDKA Żołądkowa Gorzka De Luxe",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3946-small_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3946-small_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3946-medium_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3946-medium_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3946,
+    "legend": "WÓDKA Żołądkowa Gorzka De Luxe",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3946-small_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-small_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3946-medium_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-medium_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3946-cart_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3946-home_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3946-large_default/wodka-zoladkowa-gorzka-de-luxe.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 34,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

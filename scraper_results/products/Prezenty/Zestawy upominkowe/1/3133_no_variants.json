@@ -1,0 +1,320 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 2,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 2,
+  "low_stock_alert": "1",
+  "price": "550,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-11-02 17:30:16",
+  "date_upd": "2026-11-04 16:55:30",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "kosz-prezentowy-selection-black",
+  "name": "Kosz prezentowy – Selection Black",
+  "description": "<p>Kosz prezentowy – Selection Black Zawartość zestawu: 1. Selection Black – elegancko zapakowane czekoladki. 2. Falcone Amaretti – tradycyjne włoskie ciasteczka migdałowe. 3. Nougat – delikatny nugat z dodatkami. 4. Wild Fields Original Single Malt Polish Whisky 46,5% 700ml 5. ORTAS – produkt delikatesowy w ciemnym opakowaniu ze złotymi detalami. 6. Dodatkowy produkt delikatesowy – starannie dobrany element zestawu. 7. Produkt w biało-zielonym opakowaniu – uzupełniający kompozycję zestawu. Elegancka oprawa prezentowa: - Stylowy kosz wiklinowy z ozdobnym uchwytem. - Dekoracyjna folia celofanowa. - Efektowne kokardy w odcieniach brązu i złota.</p>",
+  "description_short": "",
+  "available_now": "",
+  "available_later": "",
+  "id": 3133,
+  "id_product": 3133,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "strona-glowna",
+  "category_name": "Strona główna",
+  "link": "https://luksusowealkohole.pl/strona-glowna/3133-kosz-prezentowy-selection-black",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 447.154472,
+  "price_without_reduction": 550.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 100,
+  "quantity_all_versions": 100,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4932,
+      "legend": "Kosz prezentowy – Selection Black",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4932-cart_default/kosz-prezentowy-selection-black.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4932-cart_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4932-small_default/kosz-prezentowy-selection-black.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4932-small_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4932-home_default/kosz-prezentowy-selection-black.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4932-home_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4932-medium_default/kosz-prezentowy-selection-black.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4932-medium_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4932-large_default/kosz-prezentowy-selection-black.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4932-large_default/kosz-prezentowy-selection-black.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4932-cart_default/kosz-prezentowy-selection-black.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4932-cart_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4932-home_default/kosz-prezentowy-selection-black.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4932-home_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4932-large_default/kosz-prezentowy-selection-black.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4932-large_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4933,
+      "legend": "Kosz prezentowy – Selection Black",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4933-small_default/kosz-prezentowy-selection-black.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4933-small_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4933-medium_default/kosz-prezentowy-selection-black.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4933-medium_default/kosz-prezentowy-selection-black.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4933,
+    "legend": "Kosz prezentowy – Selection Black",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4933-small_default/kosz-prezentowy-selection-black.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-small_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4933-medium_default/kosz-prezentowy-selection-black.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-medium_default/kosz-prezentowy-selection-black.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4933-cart_default/kosz-prezentowy-selection-black.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4933-home_default/kosz-prezentowy-selection-black.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4933-large_default/kosz-prezentowy-selection-black.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 550,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

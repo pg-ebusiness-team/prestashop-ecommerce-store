@@ -1,0 +1,270 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4017871800031",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 33,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "69,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2244,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 10:54:05",
+  "date_upd": "2025-06-16 18:37:01",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SAKE CHOYA",
+  "link_rewrite": "sake-choya",
+  "name": "SAKE CHOYA",
+  "description": "<p style=\"margin:0cm 0cm 0pt;line-height:normal;\"><span style=\"font-family:'Times New Roman', serif;font-size:12pt;\">Choya Sake to tradycyjne japońskie wino ryżowe, produkowane metodą fermentacji ryżu, który wcześniej został zaszczepiony kulturą pleśni Aspergillus oryzae - niezbędną w klasycznym procesie warzenia sake. Ten lekko słodkawy trunek wyróżnia się łagodnym i harmonijnym smakiem, z delikatnymi aromatami ryżu. Najlepiej smakuje serwowane w temperaturze pokojowej lub lekko podgrzane do 38-40°C, kiedy jego subtelny charakter i ciepłe nuty najlepiej się ujawniają. CHOYA, założona przez rodzinę Kondo w 1914 roku, początkowo zajmowała się uprawą winorośli. W 1959 roku firma podjęła przełomową decyzję o rozpoczęciu produkcji Umeshu - japońskiego likieru śliwkowego, z którego dziś słynie na całym świecie jako jego największy producent. W toku lat zmieniała się baza alkoholowa używana do maceracji owocu ume - od dojrzałego sake (koshu), przez pojedynczo destylowane shochu, aż po jego wielokrotnie destylowaną wersję. Warto wspomnieć, że ume, choć często mylone ze śliwką, to owoc o odmiennych właściwościach - przede wszystkim o wyższej kwasowości (4-5%) w porównaniu do śliwek (1-2%). Choya Sake to świetny wybór dla osób ceniących klasyczne japońskie smaki, idealne zarówno do spokojnej degustacji, jak i jako dodatek do dań kuchni azjatyckiej.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 0pt;line-height:normal;\"><span style=\"font-family:'Times New Roman', serif;font-size:12pt;\">Choya Sake to tradycyjne japońskie wino ryżowe, produkowane metodą fermentacji ryżu, który wcześniej został zaszczepiony kulturą pleśni Aspergillus oryzae - niezbędną w klasycznym procesie warzenia sake.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2156,
+  "id_product": 2156,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2244,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "sake",
+  "category_name": "Sake",
+  "link": "https://luksusowealkohole.pl/sake/2156-sake-choya",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.097561,
+  "price_without_reduction": 69,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 9,
+  "quantity_all_versions": 9,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4017871800031",
+      "ean13": "4017871800031",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3009,
+      "legend": "SAKE CHOYA",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3009-small_default/sake-choya.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3009-small_default/sake-choya.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3009-medium_default/sake-choya.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3009-medium_default/sake-choya.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3009,
+    "legend": "SAKE CHOYA",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3009-small_default/sake-choya.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-small_default/sake-choya.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3009-medium_default/sake-choya.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-medium_default/sake-choya.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3009-cart_default/sake-choya.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3009-home_default/sake-choya.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3009-large_default/sake-choya.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 69,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 10,
+  "id_supplier": 0,
+  "reference": "5903983407352",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "230,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1757,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-28 18:45:14",
+  "date_upd": "2025-03-26 10:36:28",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Dębowa Soczewka",
+  "link_rewrite": "wodka-debowa-soczewka",
+  "name": "WÓDKA Dębowa Soczewka",
+  "description": "\r\n<P style=\"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",\"serif\"; LINE-HEIGHT: 115%'>Wódka \r\nDębowa Soczewka to polska wódka, produkowana z wysokiej jakości spirytusu \r\nzbożowego. Produkowana jest na bazie unikalnej receptury, wykorzystując \r\nuzdatnioną, krystaliczną wodę oraz nalewy wyekstrahowane z wybranych roślin. \r\nWódka leżakuje w wyselekcjonowanych dębowych beczkach, co nadaje jej \r\noryginalnego, charakterystycznego smaku.<SPAN style=\"mso-spacerun: yes\">&nbsp; \r\n</SPAN>Wódka Dębowa uwielbiana jest przez koneserów na całym świecie przez jej \r\nniezwykle łagodny i aksamitny smak.</SPAN></P>\r\n",
+  "description_short": "<p>Wódka Dębowa Soczewka to polska wódka, produkowana z wysokiej jakości spirytusu zbożowego. Produkowana jest na bazie unikalnej receptury, wykorzystując uzdatnioną, krystaliczną wodę oraz nalewy wyekstrahowane z wybranych roślin.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1670,
+  "id_product": 1670,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1757,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1670-wodka-debowa-soczewka",
+  "manufacturer_name": "Dębowa Polska",
+  "attribute_price": 0,
+  "price_tax_exc": 186.99187,
+  "price_without_reduction": 230,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5903983407352",
+      "ean13": "5903983407352",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2192,
+      "legend": "WÓDKA Dębowa Soczewka",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2192-small_default/wodka-debowa-soczewka.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2192-small_default/wodka-debowa-soczewka.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2192-medium_default/wodka-debowa-soczewka.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2192-medium_default/wodka-debowa-soczewka.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2192,
+    "legend": "WÓDKA Dębowa Soczewka",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2192-small_default/wodka-debowa-soczewka.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-small_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2192-medium_default/wodka-debowa-soczewka.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-medium_default/wodka-debowa-soczewka.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2192-cart_default/wodka-debowa-soczewka.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2192-home_default/wodka-debowa-soczewka.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2192-large_default/wodka-debowa-soczewka.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 230,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4860013086233",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "109,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-03-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3138,
+  "advanced_stock_management": "0",
+  "date_add": "2026-03-30 10:49:25",
+  "date_upd": "2026-03-30 11:20:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Khvanchkara Limited Red Półsłodkie",
+  "link_rewrite": "wino-khvanchkara-limited-red-polslodkie",
+  "name": "WINO Khvanchkara Limited Red Półsłodkie",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Khvanchkara Limited to czerwone, półsłodkie wino z Gruzji, pochodzące z regionu Racha-Lechkhumi, wytwarzane z lokalnych szczepów Aleksandrouli i Mujuretuli. Wyróżnia się głęboką, rubinową barwą oraz bogatym aromatem malin, jeżyn i truskawek. Jego bukiet jest intensywny i wielowymiarowy — oprócz nut dojrzałych owoców można wyczuć akcenty kandyzowanych owoców, dzikiej róży, a także delikatne tony kwiatowe i korzenne. Wino ma jedwabistą, aksamitną strukturę i naturalną słodycz, która pozostaje w doskonałej równowadze ze świeżą kwasowością, dzięki czemu smak jest harmonijny i nienachalny. Zawartość alkoholu wynosi zazwyczaj około 11,5%, co nadaje mu lekkości i sprawia, że jest przyjemne w odbiorze.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Khvanchkara Limited to czerwone, półsłodkie wino z Gruzji, pochodzące z regionu Racha-Lechkhumi, wytwarzane z lokalnych szczepów Aleksandrouli i Mujuretuli.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2955,
+  "id_product": 2955,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3138,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2955-wino-khvanchkara-limited-red-polslodkie",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 88.617886,
+  "price_without_reduction": 109,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Gruzja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 13
+    },
+    {
+      "name": "Alkohol",
+      "value": "11,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 291
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Aleksandreuli",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 576
+    },
+    {
+      "name": "Szczep",
+      "value": "Mujuretuli",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 577
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "4860013086233",
+      "ean13": "4860013086233",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4670,
+      "legend": "WINO Khvanchkara Limited Red Półsłodkie",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4670-small_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4670-small_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4670-medium_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4670-medium_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4670,
+    "legend": "WINO Khvanchkara Limited Red Półsłodkie",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4670-small_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-small_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4670-medium_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-medium_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4670-cart_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4670-home_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4670-large_default/wino-khvanchkara-limited-red-polslodkie.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 109,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

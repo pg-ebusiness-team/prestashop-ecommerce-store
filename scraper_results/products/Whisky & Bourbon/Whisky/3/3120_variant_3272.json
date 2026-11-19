@@ -1,0 +1,357 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3770005053116",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "255,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3272,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-14 23:22:00",
+  "date_upd": "2026-10-30 19:17:57",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Bellevoye Sauternes Finish",
+  "link_rewrite": "whisky-bellevoye-sauternes-finish",
+  "name": "WHISKY Bellevoye Sauternes Finish",
+  "description": "\r\n<P>Whisky Bellevoye Sauternes Finish to francuska whisky typu single malt, która \r\nwyróżnia się dojrzewaniem w beczkach po winie Sauternes, słynnym słodkim winie z \r\nregionu Bordeaux. To właśnie finisz w takich beczkach nadaje jej \r\ncharakterystyczną owocowość, delikatną słodycz i elegancki, deserowy akcent.</P>\r\n<P>Charakterystyka i walory smakowe</P>\r\n<P>W aromacie można odnaleźć nuty miodu, dojrzałych owoców, moreli, brzoskwiń i \r\nwanilii, którym towarzyszą subtelne akcenty przypraw oraz suszonych owoców. W \r\nsmaku whisky jest pełna, łagodna i harmonijna. Owocowa słodycz łączy się z \r\nnutami karmelu, wanilii i delikatnego dębu, tworząc przyjemnie zaokrąglony \r\nprofil.</P>\r\n<P>Finisz jest ciepły, elegancki i owocowy, z charakterystycznym akcentem \r\nsłodyczy pochodzącej z beczek po Sauternes.</P>\r\n<P>Bellevoye Sauternes Finish to ciekawa propozycja dla miłośników whisky o \r\nbogatym aromacie i łagodniejszym, bardziej deserowym charakterze. Sprawdzi się \r\npodczas degustacji, jako elegancki prezent oraz w towarzystwie gorzkiej \r\nczekolady, deserów na bazie owoców i delikatnych serów.</P>\r\n",
+  "description_short": "<p>Whisky Bellevoye Sauternes Finish to francuska whisky typu single malt, która wyróżnia się dojrzewaniem w beczkach po winie Sauternes, słynnym słodkim winie z regionu Bordeaux. To właśnie finisz w takich beczkach nadaje jej charakterystyczną owocowość, de</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3120,
+  "id_product": 3120,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3272,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3120-whisky-bellevoye-sauternes-finish",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 207.317073,
+  "price_without_reduction": 255,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3770005053116",
+      "ean13": "3770005053116",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4916,
+      "legend": "WHISKY Bellevoye Sauternes Finish",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4916-small_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4916-small_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4916-medium_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4916-medium_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4917,
+      "legend": "WHISKY Bellevoye Sauternes Finish",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4917-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4917-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4917-small_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4917-small_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4917-home_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4917-home_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4917-medium_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4917-medium_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4917-large_default/whisky-bellevoye-sauternes-finish.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4917-large_default/whisky-bellevoye-sauternes-finish.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4917-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4917-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4917-home_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4917-home_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4917-large_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4917-large_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4916,
+    "legend": "WHISKY Bellevoye Sauternes Finish",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4916-small_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-small_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4916-medium_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-medium_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4916-cart_default/whisky-bellevoye-sauternes-finish.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4916-home_default/whisky-bellevoye-sauternes-finish.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4916-large_default/whisky-bellevoye-sauternes-finish.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 255,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

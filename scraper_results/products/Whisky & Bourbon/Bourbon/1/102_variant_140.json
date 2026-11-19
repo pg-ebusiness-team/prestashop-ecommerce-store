@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "080244002039",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 19,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "330,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 140,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-18 09:52:34",
+  "date_upd": "2025-07-15 11:17:46",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BOURBON Blanton's Original Single Barrel",
+  "link_rewrite": "bourbon-blanton-s-original-single-barrel",
+  "name": "BOURBON Blanton's Original Single Barrel",
+  "description": "\r\n<P>Blanton's Single Barrel jest Bourbonem, który był kiedyś przeznaczony tylko i \r\nwyłącznie dla najważniejszych dygnitarzy i przyjaciół twórcy marki - pułkownika \r\nBlantons’a. Dziś wyznaczając standardy bourbona Single Barrel dostępny jest dla \r\nwszystkich na świecie. Trunek przechodzi proces leżakowania, który trwa pomiędzy \r\n6-8 lat i jest butelkowany z mocą 46,5%. Bourbon ten jest dość słodki, z \r\nbukietem śmietanowo - karmelowym i nutą pomarańczy i przypraw. W smaku \r\nwyczuwalne akcenty rodzynek, karmelu, moreli, pomarańczy, goździków i \r\nprzypraw.&nbsp; Finisz jest długi z cynamonowym niuansem. Polecamy serwować solo \r\nlub na lodzie.</P><BR data-cke-eol=\"1\">\r\n",
+  "description_short": "<p>Blanton's Single Barrel jest Bourbonem, który był kiedyś przeznaczony tylko i wyłącznie dla najważniejszych dygnitarzy i przyjaciół twórcy marki - pułkownika Blantons’a.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 102,
+  "id_product": 102,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 140,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "bourbon",
+  "category_name": "Bourbon",
+  "link": "https://luksusowealkohole.pl/bourbon/102-bourbon-blanton-s-original-single-barrel",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 268.292683,
+  "price_without_reduction": 330,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "46,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 246
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "080244002039",
+      "ean13": "080244002039",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2806,
+      "legend": "BOURBON Blanton's Original Single Barrel",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2806-small_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2806-small_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2806-medium_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2806-medium_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 2807,
+      "legend": "BOURBON Blanton's Original Single Barrel",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2807-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2807-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2807-small_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2807-small_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2807-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2807-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2807-medium_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2807-medium_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2807-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2807-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2807-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2807-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2807-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2807-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2807-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2807-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2806,
+    "legend": "BOURBON Blanton's Original Single Barrel",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2806-small_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-small_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2806-medium_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-medium_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2806-cart_default/bourbon-blanton-s-original-single-barrel.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2806-home_default/bourbon-blanton-s-original-single-barrel.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2806-large_default/bourbon-blanton-s-original-single-barrel.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 330,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

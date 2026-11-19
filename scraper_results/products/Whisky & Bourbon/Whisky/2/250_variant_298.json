@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 12,
+  "id_supplier": 0,
+  "reference": "5010496004357",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "415,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 298,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-22 12:54:46",
+  "date_upd": "2026-01-21 17:25:52",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Auchentoshan Blood Oak",
+  "link_rewrite": "whisky-auchentoshan-blood-oak",
+  "name": "WHISKY Auchentoshan Blood Oak",
+  "description": "Whisky Auchentoshan Blood Oak to limitowana seria która swą premierę \r\nodbyła w 2015 roku. Leżakowana w beczkach po Bourbonie z amerykańskiego dębu \r\noraz w beczkach po czerwonym winie dzięki któremu whisky nabrała wiśniowej \r\nbarwy.<BR>Auchentoshan Blood Oak charakteryzuje się bogatym aromatem słodkich \r\nmalin, soczystej mandarynki z nutą dębu i wanilii.<BR>Na podniebieniu delikatna \r\nz wyraźnym akcentem konfitur, słodkich czerwonych pomarańczy z akcentem gałki \r\nmuszkatołowej i dębu.&nbsp;\r\n",
+  "description_short": "<p>Whisky Auchentoshan Blood Oak to limitowana seria która swą premierę odbyła w 2015 roku. Leżakowana w beczkach po Bourbonie z amerykańskiego dębu oraz w beczkach po czerwonym winie dzięki któremu whisky nabrała wiśniowej barwy.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 250,
+  "id_product": 250,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 298,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/250-whisky-auchentoshan-blood-oak",
+  "manufacturer_name": "Auchentoshan",
+  "attribute_price": 0,
+  "price_tax_exc": 337.398374,
+  "price_without_reduction": 415,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Lowland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 283
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010496004357",
+      "ean13": "5010496004357",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4109,
+      "legend": "WHISKY Auchentoshan Blood Oak",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4109-small_default/whisky-auchentoshan-blood-oak.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4109-small_default/whisky-auchentoshan-blood-oak.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4109-medium_default/whisky-auchentoshan-blood-oak.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4109-medium_default/whisky-auchentoshan-blood-oak.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4109,
+    "legend": "WHISKY Auchentoshan Blood Oak",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4109-small_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-small_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4109-medium_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-medium_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4109-cart_default/whisky-auchentoshan-blood-oak.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4109-home_default/whisky-auchentoshan-blood-oak.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4109-large_default/whisky-auchentoshan-blood-oak.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 415,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

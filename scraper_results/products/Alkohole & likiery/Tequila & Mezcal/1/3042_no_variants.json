@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "9354596005989",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "139,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-08-12",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-08-12 14:14:45",
+  "date_upd": "2026-09-01 23:51:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "TEQUILA Lyre's Agava Blanco 0,7l bezalkoholowa",
+  "link_rewrite": "tequila-lyre-s-agava-blanco-07l-bezalkoholowa",
+  "name": "TEQUILA Lyre's Agava Blanco 0,7l bezalkoholowa",
+  "description": "<p>Bezalkoholowe Tequila Lyre's Agave Blanco 0,7 l<br />Lyre's Agave Blanco 0,7 l to bezalkoholowa alternatywa dla klasycznej tequili, stworzona z myślą o osobach, które chcą cieszyć się charakterystycznym, agawowym profilem drinków bez alkoholu. To doskonała baza do bezalkoholowych koktajli inspirowanych meksykańskimi klasykami, takich jak Margarita czy Paloma.<br />Smak i aromat<br />Lyre's Agave Blanco wyróżnia się wyrazistym aromatem agawy z cytrusowymi akcentami i delikatnie pieprznym charakterem. W smaku można wyczuć świeże nuty agawy, cytrusów oraz subtelne ziołowo-korzenne akcenty. Całość została skomponowana tak, aby dobrze sprawdzać się zarówno w koktajlach, jak i podczas serwowania solo z dodatkiem lodu.<br />Jak pić bezalkoholową tequilę Lyre's?<br />Lyre's Agave Blanco 0,7 l świetnie sprawdzi się jako baza do bezalkoholowych drinków. Możesz wykorzystać ją do przygotowania:<br />bezalkoholowej Margarity,<br />bezalkoholowej Palomy,<br />drinków z limonką i grejpfrutem,<br />koktajli z tonikiem lub wodą gazowaną,<br />orzeźwiających miksów z sokami cytrusowymi.<br />Najlepiej podawać schłodzoną, z lodem i świeżą limonką.<br />Dlaczego warto wybrać Lyre's Agave Blanco?<br />bezalkoholowa alternatywa dla tequili,<br />pojemność 0,7 l,<br />wyrazisty profil agawy i cytrusów,<br />idealna do bezalkoholowych koktajli,<br />świetna propozycja na imprezy, spotkania i wieczory bez alkoholu,<br />pozwala przygotować klasyczne drinki w wersji 0%.<br />Lyre's Agave Blanco 0,7 l to propozycja dla miłośników koktajli, którzy nie chcą rezygnować z charakterystycznego smaku inspirowanego tequilą. Doskonale sprawdzi się jako bezalkoholowa baza do domowego barku oraz podczas każdej okazji, gdy liczy się smak, a nie procenty.</p>",
+  "description_short": "<p>Bezalkoholowe Tequila Lyre's Agave Blanco 0,7 l<br />Lyre's Agave Blanco 0,7 l to bezalkoholowa alternatywa dla klasycznej tequili,</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3042,
+  "id_product": 3042,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/3042-tequila-lyre-s-agava-blanco-07l-bezalkoholowa-9354596005989",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 113.00813,
+  "price_without_reduction": 139,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "0%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 521
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blanco",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 536
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4816,
+      "legend": "TEQUILA Lyre's Agava Blanco 0,7l bezalkoholowa",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4816-small_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4816-small_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4816-medium_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4816-medium_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4816,
+    "legend": "TEQUILA Lyre's Agava Blanco 0,7l bezalkoholowa",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4816-small_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-small_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4816-medium_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-medium_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4816-cart_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4816-home_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4816-large_default/tequila-lyre-s-agava-blanco-07l-bezalkoholowa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 139,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

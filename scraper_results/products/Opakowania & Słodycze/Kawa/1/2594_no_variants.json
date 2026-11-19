@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8001685093228",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 46,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "50,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2813,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 15:11:12",
+  "date_upd": "2025-09-15 16:45:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KAWA Pellini Top Puszka",
+  "link_rewrite": "kawa-pellini-top-puszka",
+  "name": "KAWA Pellini Top Puszka",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Pellini \r\nTop to flagowa mieszanka renomowanej włoskiej palarni Pellini, stworzona \r\nwyłącznie z wyselekcjonowanych, wysokogórskich ziaren Arabiki (100%), \r\npochodzących z Ameryki Południowej i Środkowej. Składa się z 6-8 odmian, z \r\nktórych każda jest palona osobno, w małych partiach, powoli i w precyzyjnie \r\nkontrolowanej temperaturze. Dzięki tak starannemu procesowi powstaje kawa o \r\ndelikatnym, eleganckim smaku, pozbawiona nadmiernej goryczy, z bogatym, złożonym \r\naromatem i aksamitną konsystencją. Charakteryzuje się niską zawartością kofeiny, \r\ndlatego można się nią cieszyć wielokrotnie w ciągu dnia, bez obaw o nadmierne \r\npobudzenie. Każdy etap produkcji - od selekcji ziaren po ich palenie - podlega \r\nrygorystycznej kontroli, co gwarantuje najwyższą jakość i powtarzalność smaku. \r\nKawa jest pakowana w estetyczną i praktyczną puszkę, która nie tylko świetnie \r\nsię prezentuje, ale również chroni świeżość i aromat produktu po otwarciu. \r\nPellini Top to propozycja dla najbardziej wymagających kawoszy, którzy szukają \r\nelegancji, lekkości i głębi smaku w każdej filiżance.</SPAN></P>\r\n",
+  "description_short": "<p>Pellini Top to flagowa mieszanka renomowanej włoskiej palarni Pellini, stworzona wyłącznie z wyselekcjonowanych, wysokogórskich ziaren Arabiki (100%), pochodzących z Ameryki Południowej i Środkowej.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2594,
+  "id_product": 2594,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2813,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "kawa",
+  "category_name": "Kawa",
+  "link": "https://luksusowealkohole.pl/kawa/2594-kawa-pellini-top-puszka",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 40.650407,
+  "price_without_reduction": 50.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Mielona",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 592
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3631,
+      "legend": "KAWA Pellini Top Puszka",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3631-small_default/kawa-pellini-top-puszka.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3631-small_default/kawa-pellini-top-puszka.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3631-medium_default/kawa-pellini-top-puszka.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3631-medium_default/kawa-pellini-top-puszka.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3631,
+    "legend": "KAWA Pellini Top Puszka",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3631-small_default/kawa-pellini-top-puszka.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-small_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3631-medium_default/kawa-pellini-top-puszka.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-medium_default/kawa-pellini-top-puszka.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3631-cart_default/kawa-pellini-top-puszka.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3631-home_default/kawa-pellini-top-puszka.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3631-large_default/kawa-pellini-top-puszka.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 50,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

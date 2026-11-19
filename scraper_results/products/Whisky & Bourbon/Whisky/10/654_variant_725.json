@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000299625002",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 350,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 725,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-19 09:48:33",
+  "date_upd": "2025-03-10 10:40:54",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Longmorn 23 Y O",
+  "link_rewrite": "whisky-longmorn-23-y-o",
+  "name": "WHISKY Longmorn 23 Y O",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><BR></P><FONT face=\"Calibri\">\r\n<P style=\"margin: 0cm 0cm 10pt;\"><FONT face=\"Times New Roman\"><BR></FONT></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='font-family: \"Calibri\",\"sans-serif\";'>Niezwykła\r\n słodycz z&nbsp;nutami mlecznej czekolady&nbsp;i wyraźnym owocowym charakterem\r\n gruszek, nutami deseru cytrynowego i odrobiną imbiru. Zmysłowy finisz z\r\n rozgrzewającą pikantnością. Numerowane butelki, brak filtracji na zimno,\r\n zawartość alkoholu: 48%.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><FONT face=\"Times New Roman\"><BR></FONT></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='font-family: \"Calibri\",\"sans-serif\";'>23-letni\r\n single malt Longmorn poddano podwójnemu procesowi leżakowania w beczkach z dębu\r\n amerykańskiego (typu hogshead).Destylarmię Longmorn zaprojektowano w\r\n przypadającym na szczyt rewolucji przemysłowej roku 1984. Jej założycielem był \r\nJohn Duff, który marzył o stworzeniu wyjątkowej<SPAN \r\nstyle=\"mso-spacerun: yes;\">&nbsp;</SPAN>whisky – a posiadał rozległą wiedzę z \r\npogranicza technologii rzemiosła. Wyprzedzający swoją epokę Duff wybudował \r\nstację kolejową obok destylarni, aby usprawnić proces dostaw do destylarni i \r\nprzyśpieszyć dostawy gotowego produktu do miłośników whisky. Między innymi z \r\ntego powodu Longmorn uznaje się za pionierską destylarnię, która dorobiła się \r\nstatusu jednego z najlepiej strzeżonych sekretów Szkocji. Destylarnia od dawna \r\ncieszy się olbrzymim uznaniem koneserów, blenderów i w szczególności \r\ngorzelników, którzy kochają Longmorn prawie tak samo jak własną \r\nwhisky.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><FONT \r\nface=\"Times New Roman\"><BR></FONT></P></FONT>\r\n<P style=\"margin: 0cm 0cm 10pt;\"><BR></P>\r\n",
+  "description_short": "<p>Niezwykła słodycz z nutami mlecznej czekolady i wyraźnym owocowym charakterem gruszek, nutami deseru cytrynowego i odrobiną imbiru. Zmysłowy finisz z rozgrzewającą pikantnością. Numerowane butelki, brak filtracji na zimno, zawartość alkoholu: 48%.<br/></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 654,
+  "id_product": 654,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 725,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/654-whisky-longmorn-23-y-o",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 1097.560976,
+  "price_without_reduction": 1350,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "48,3%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 285
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "23 lata",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 193
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000299625002",
+      "ean13": "5000299625002",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2266,
+      "legend": "WHISKY Longmorn 23 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2266-small_default/whisky-longmorn-23-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2266-small_default/whisky-longmorn-23-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2266-medium_default/whisky-longmorn-23-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2266-medium_default/whisky-longmorn-23-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2266,
+    "legend": "WHISKY Longmorn 23 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2266-small_default/whisky-longmorn-23-y-o.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-small_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2266-medium_default/whisky-longmorn-23-y-o.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-medium_default/whisky-longmorn-23-y-o.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2266-cart_default/whisky-longmorn-23-y-o.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2266-home_default/whisky-longmorn-23-y-o.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2266-large_default/whisky-longmorn-23-y-o.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1350,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

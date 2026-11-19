@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 43,
+  "id_supplier": 0,
+  "reference": "3460410529053",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "115,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 617,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-15 13:55:32",
+  "date_upd": "2025-07-01 18:53:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Plantation 3 Stars Silver",
+  "link_rewrite": "rum-plantation-3-stars-silver",
+  "name": "RUM Plantation 3 Stars Silver",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Plantation \r\n3 Stars Silver to wyjątkowy biały rum stworzony przez Maision Ferrand, który \r\nwykorzystał starsze destylaty z 3 różnych wysp: Trynidad [destylat 2-3 lata], \r\nBarbados [młody destylat] oraz Jamaica [stary destylat]. Jest to starannie \r\nprzemyślana mieszanka. Każda z wysp cechuje się własnym, nietuzinkowym aromatem \r\nktóry został zamknięty butelce „3 Stars”. Plantation 3 Stars Silver \r\ncharakteryzuje się delikatnym aromatem brązowego cukru, miodu, ziaren kawy oraz \r\nziaren kakaowca. Po dłuższym napowietrzeniu odkrywamy nuty przypraw do \r\npieczenia, biszkopty, słodkie ciasto drożdżowe. Na podniebieniu &nbsp;posmak \r\ngorzkiej czekolady, korzennego piwa, oraz ptasiego mleczka. Finisz krótki i\r\n wyrafinowany.</SPAN></P>\r\n",
+  "description_short": "<p>Plantation 3 Stars Silver to wyjątkowy biały rum stworzony przez Maision Ferrand, który wykorzystał starsze destylaty z 3 różnych wysp: Trynidad [destylat 2-3 lata], Barbados [młody destylat] oraz Jamaica [stary destylat].</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 551,
+  "id_product": 551,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 617,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/551-rum-plantation-3-stars-silver",
+  "manufacturer_name": "Plantation",
+  "attribute_price": 0,
+  "price_tax_exc": 93.495935,
+  "price_without_reduction": 115,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Barbados",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 320
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Jasny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 531
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Silver",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 535
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blanco",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 536
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3460410529053",
+      "ean13": "3460410529053",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 787,
+      "legend": "RUM Plantation 3 Stars Silver",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/787-small_default/rum-plantation-3-stars-silver.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/787-small_default/rum-plantation-3-stars-silver.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/787-medium_default/rum-plantation-3-stars-silver.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/787-medium_default/rum-plantation-3-stars-silver.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 787,
+    "legend": "RUM Plantation 3 Stars Silver",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/787-small_default/rum-plantation-3-stars-silver.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-small_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/787-medium_default/rum-plantation-3-stars-silver.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-medium_default/rum-plantation-3-stars-silver.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/787-cart_default/rum-plantation-3-stars-silver.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/787-home_default/rum-plantation-3-stars-silver.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/787-large_default/rum-plantation-3-stars-silver.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 115,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,378 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 60,
+  "id_supplier": 0,
+  "reference": "5000299613955",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "2 750,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 312,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-22 15:22:11",
+  "date_upd": "2026-03-20 09:24:07",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Braes Of Glenlivet 30 Y O",
+  "link_rewrite": "whisky-braes-of-glenlivet-30-y-o",
+  "name": "WHISKY Braes Of Glenlivet 30 Y O",
+  "description": "\r\n<H2>PADAJĄCY W TYCH OKOLICACH ŚNIEG NAJPIERW OSIADA NA WZGÓRZACH OTACZAJĄCYCH \r\nBRAES OF GLENLIVET – JEDNEJ Z NAJWYŻEJ POŁOŻONYCH DESTYLARNI W SZKOCJI.</H2>\r\n<P>Do pilnowania destylarni wystarczył kiedyś jeden strażnik. Żeby rolnicy mogli \r\nsię do niej dostać, wcześniej trzeba było odśnieżyć drogę. Miejscowa whisky \r\npowstaje na bazie najczystszej wody z ujęcia Preenie, znajdującego się ponad \r\ntrzy kilometry w głąb wzgórz Braes. To tam, w surowym otoczeniu posępnych wzgórz \r\nSzkocji, zaczyna się proces tworzenia niezwykłego single malt o zrównoważonym, \r\ngładkim smaku.</P>\r\n<P><BR></P>\r\n<H2><STRONG>BRAES OF GLENLIVENT 30YO</STRONG></H2>\r\n<P>W zapachu nuty tropikalne z&nbsp;<STRONG>mango</STRONG>&nbsp;i imbirem na \r\nczele. Owocowe posmaki na podniebieniu – z wyczuwalną soczystą \r\npomarańczą,&nbsp;<STRONG>dżemem jeżynowym</STRONG>&nbsp;i marcepanem. Finisz \r\ndługi i słodkawy.</P>\r\n<P>Numerowane butelki, brak filtracji na zimno, zawartość alkoholu: cask \r\nstrength.<BR>Unikatowy 30-letni single malt Braes of Glenlivet dojrzewał w \r\nbeczkach z dębu amerykańskiego (typu hogshead).</P>\r\n<P><STRONG>Nuty smakowe</STRONG><BR>Aromat: mango i imbir<BR>Smak: soczysta \r\npomarańcza, konfitura jeżynowa i marcepan<BR>Finisz: długi i słodki</P>\r\n<P><STRONG>Produkcja</STRONG><BR>Beczka: beczka z dębu amerykańskiego i \r\nhogsheads<BR>ABV: moc beczki*<BR>Pojemność: 700 ml<BR>*Moc % poszczególnych \r\nproduktów może się różnić</P>\r\n",
+  "description_short": "<p>PADAJĄCY W TYCH OKOLICACH ŚNIEG NAJPIERW OSIADA NA WZGÓRZACH OTACZAJĄCYCH BRAES OF GLENLIVET – JEDNEJ Z NAJWYŻEJ POŁOŻONYCH DESTYLARNI W SZKOCJI.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 264,
+  "id_product": 264,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 312,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/264-whisky-braes-of-glenlivet-30-y-o",
+  "manufacturer_name": "The Glenlivet",
+  "attribute_price": 0,
+  "price_tax_exc": 2235.772358,
+  "price_without_reduction": 2750,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "53,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 245
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Wiek",
+      "value": "30 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 196
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000299613955",
+      "ean13": "5000299613955",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4167,
+      "legend": "WHISKY Braes Of Glenlivet 30 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4167-small_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4167-small_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4167-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4167-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4168,
+      "legend": "WHISKY Braes Of Glenlivet 30 Y O",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4168-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4168-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4168-small_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4168-small_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4168-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4168-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4168-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4168-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4168-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4168-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4168-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4168-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4168-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4168-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4168-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4168-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4167,
+    "legend": "WHISKY Braes Of Glenlivet 30 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4167-small_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-small_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4167-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-medium_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4167-cart_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4167-home_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4167-large_default/whisky-braes-of-glenlivet-30-y-o.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 2750,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

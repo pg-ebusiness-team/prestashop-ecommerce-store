@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "088004022570",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "149,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 499,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-05 15:13:49",
+  "date_upd": "2025-07-22 11:00:29",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Black Magic Spiced",
+  "link_rewrite": "rum-black-magic-spiced",
+  "name": "RUM Black Magic Spiced",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Black \r\nMagic Spiced Rum powstał dzięki zmieszaniu jasnego i ciemnego (starzonego) rumu \r\nz tajemniczą kompozycją przypraw. Smakując trunek oprócz charakterystycznego \r\nsmaku rumu wyczujemy goździki, kokos, cynamon i maślany aromat. Bogata \r\nkompozycja zachęca do próbowania Black Magic solo, jak również daje szerokie \r\npole do popisu przy opracowywaniu koktajli.</SPAN></P>\r\n",
+  "description_short": "<p>Black Magic Spiced Rum powstał dzięki zmieszaniu jasnego i ciemnego (starzonego) rumu z tajemniczą kompozycją przypraw</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 438,
+  "id_product": 438,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 499,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/438-rum-black-magic-spiced",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 121.138211,
+  "price_without_reduction": 149,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 11,
+  "quantity_all_versions": 11,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "088004022570",
+      "ean13": "088004022570",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3354,
+      "legend": "RUM Black Magic Spiced",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3354-small_default/rum-black-magic-spiced.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3354-small_default/rum-black-magic-spiced.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3354-medium_default/rum-black-magic-spiced.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3354-medium_default/rum-black-magic-spiced.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3354,
+    "legend": "RUM Black Magic Spiced",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3354-small_default/rum-black-magic-spiced.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-small_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3354-medium_default/rum-black-magic-spiced.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-medium_default/rum-black-magic-spiced.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3354-cart_default/rum-black-magic-spiced.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3354-home_default/rum-black-magic-spiced.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3354-large_default/rum-black-magic-spiced.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 149,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

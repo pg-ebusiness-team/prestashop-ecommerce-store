@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5014218776256",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "289,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 115,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-17 17:00:28",
+  "date_upd": "2026-01-28 17:30:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Big Peat Douglas Laing",
+  "link_rewrite": "whisky-big-peat-douglas-laing",
+  "name": "WHISKY Big Peat Douglas Laing",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Big \r\nPeat to whisky typu blended malt bez deklaracji wieku, która łączy przyjemną \r\nsłodycz z wyrazistym, torfowym charakterem typowym dla wyspy Islay. W jej skład \r\nwchodzą wyłącznie whisky single malt pochodzące z tej legendarnej szkockiej \r\nwyspy. Caol Ila odpowiada za delikatną słodycz, Bowmore wnosi harmonię, Ardbeg \r\ndostarcza nut ziemistych i medycznych, natomiast Port Ellen dodaje całości \r\nelegancji i głębi. Big Peat jest esencją Islay zamkniętą w butelce. Trunek \r\nnależy do cenionej serii Remarkable Regional Malts i jest butelkowany w \r\nniewielkich partiach, bez filtracji na zimno oraz bez dodatku barwników, dzięki \r\nczemu zachowuje naturalny kolor i pełnię aromatów. Aromat otwiera się świeżymi, \r\nczystymi i lekko słonymi akcentami, które stopniowo przechodzą w słodkie nuty \r\ntorfowego dymu i wędzonego jęczmienia. Na podniebieniu pojawia się wyraźna \r\nsłodycz, połączona z akcentami popiołu, smoły, morskiej bryzy oraz dymu z \r\npaleniska. Finisz jest długi i intensywny, z wyczuwalnymi nutami soli morskiej, \r\nprzypraw, lukrecji, dymu i ogniskowego popiołu. Big Peat to propozycja stworzona \r\nz myślą o miłośnikach torfowych whisky — starannie skomponowana mieszanka single \r\nmaltów z czterech kultowych destylarni Islay, w tym legendarnej, nieistniejącej \r\njuż Port Ellen. Charakteryzuje się świeżym, słodowym profilem, w którym torfowy \r\ndym doskonale współgra z nutami morskiej soli i popiołu. Butelkowana z mocą 46%, \r\noferuje intensywne i autentyczne doznania smakowe, doceniane zarówno przez\r\n doświadczonych koneserów, jak i fanów wyrazistych whisky. W 2011 roku Big Peat\r\n został uhonorowany tytułem Scottish Vatted Malt of the Year w przewodniku Jim\r\n Murray’s Whisky Bible, zdobywając znakomitą ocenę 96 na 100 \r\npunktów.</SPAN></P>\r\n",
+  "description_short": "<p>Big Peat to whisky typu blended malt bez deklaracji wieku, która łączy przyjemną słodycz z wyrazistym, torfowym charakterem typowym dla wyspy Islay. W jej skład wchodzą wyłącznie whisky single malt pochodzące z tej legendarnej szkockiej wyspy.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 81,
+  "id_product": 81,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 115,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/81-whisky-big-peat-douglas-laing",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 234.95935,
+  "price_without_reduction": 289.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Charakter",
+      "value": "Dymna",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 241
+    },
+    {
+      "name": "Wiek",
+      "value": "Bez deklaracji wieku",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 621
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5014218776256",
+      "ean13": "5014218776256",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4146,
+      "legend": "WHISKY Big Peat Douglas Laing",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4146-small_default/whisky-big-peat-douglas-laing.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4146-small_default/whisky-big-peat-douglas-laing.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4146-medium_default/whisky-big-peat-douglas-laing.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4146-medium_default/whisky-big-peat-douglas-laing.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4146,
+    "legend": "WHISKY Big Peat Douglas Laing",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4146-small_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-small_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4146-medium_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-medium_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4146-cart_default/whisky-big-peat-douglas-laing.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4146-home_default/whisky-big-peat-douglas-laing.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4146-large_default/whisky-big-peat-douglas-laing.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 289,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

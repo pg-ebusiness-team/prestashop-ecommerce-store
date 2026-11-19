@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410337047036",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "60,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2453,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-18 10:52:19",
+  "date_upd": "2025-07-18 12:41:50",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO SHERRY FINO OSBORNE",
+  "link_rewrite": "wino-sherry-fino-osborne",
+  "name": "WINO SHERRY FINO OSBORNE",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Osborne Sherry Fino to wytrawne wino wzmacniane, pochodzące z południowej Hiszpanii. Charakteryzuje się jasnobursztynową barwą i łagodnym smakiem, w którym wyczuwalne są intensywne aromaty migdałów oraz charakterystyczna, lekko gorzkawa końcówka. Najlepiej smakuje dobrze schłodzone, szczególnie w towarzystwie oliwek, orzechów, owoców morza, takich jak homary, krewetki czy kraby. Nazwa \"sherry\" wywodzi się od hiszpańskiego miasta Jerez, które dało początek tej kategorii win. Winogrona używane do produkcji sherry dojrzewają na białych, wapiennych glebach typu albariza, występujących w słynnym \"trójkącie sherry\" - pomiędzy Jerez de la Frontera, El Puerto de Santa María i Sanlúcar de Barrameda. Po fermentacji w stalowych zbiornikach i wzmocnieniu winem destylowanym do ok. 15% alkoholu, wino trafia do dębowych beczek (tzw. buttów) o pojemności 600 litrów. Beczki napełniane są tylko w dwóch trzecich, co pozwala na rozwój naturalnej warstwy drożdży zwanej flor. Ta biologiczna osłona chroni wino przed utlenianiem i odpowiada za unikalne aromaty oraz charakterystyczny profil sherry typu Fino. Proces dojrzewania przebiega w systemie Solera, polegającym na cyklicznym uzupełnianiu beczek młodszym winem po częściowym zlewaniu starszego. Dzięki temu powstaje harmonijny, dojrzały trunek o spójnym stylu, w którym łączą się cechy wielu roczników.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Osborne Sherry Fino to wytrawne wino wzmacniane, pochodzące z południowej Hiszpanii. Charakteryzuje się jasnobursztynową barwą i łagodnym smakiem, w którym wyczuwalne są intensywne aromaty migdałów oraz charakterystyczna, lekko gorzkawa końcówka.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2283,
+  "id_product": 2283,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2453,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2283-wino-sherry-fino-osborne",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 48.780488,
+  "price_without_reduction": 60,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wzmacniane",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 405
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8410337047036",
+      "ean13": "8410337047036",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3269,
+      "legend": "WINO SHERRY FINO OSBORNE",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3269-small_default/wino-sherry-fino-osborne.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3269-small_default/wino-sherry-fino-osborne.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3269-medium_default/wino-sherry-fino-osborne.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3269-medium_default/wino-sherry-fino-osborne.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3269,
+    "legend": "WINO SHERRY FINO OSBORNE",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3269-small_default/wino-sherry-fino-osborne.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-small_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3269-medium_default/wino-sherry-fino-osborne.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-medium_default/wino-sherry-fino-osborne.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3269-cart_default/wino-sherry-fino-osborne.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3269-home_default/wino-sherry-fino-osborne.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3269-large_default/wino-sherry-fino-osborne.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 60,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

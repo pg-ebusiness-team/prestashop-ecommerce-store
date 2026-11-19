@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7804303321229",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "75,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1991,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-31 09:30:12",
+  "date_upd": "2025-04-26 18:42:37",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Montes Limited Selection Pinot Noir",
+  "link_rewrite": "wino-montes-limited-selection-pinot-noir",
+  "name": "WINO Montes Limited Selection Pinot Noir",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Montes \r\nLimited Selection Pinot Noir, to czerwone, chilijskie, wytrawne wino o żywym \r\nrubinowo czerwonym kolorze. Dominują aromaty świeżych, czerwonych jagód, jeżyny, \r\nśliwek, poprzeplatane akcentami kwiatów z nutami czekolady, mięty i cynamonu w \r\ntle. Wyczuwalne również subtelne nuty prażone. Na podniebieniu wino jest \r\ngładkie, o średniej budowie z długim, bardzo owocowym finiszem. Podawać do \r\nmakaronów z grzybami, kremowych zup czy kotletów cielęcych. Wino spędziło 10 \r\nmiesięcy w dębowych beczkach. Pinot Noir 100%.</SPAN></P>\r\n",
+  "description_short": "<p>Montes Limited Selection Pinot Noir, to czerwone, chilijskie, wytrawne wino o żywym rubinowo czerwonym kolorze.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1902,
+  "id_product": 1902,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1991,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1902-wino-montes-limited-selection-pinot-noir",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 60.97561,
+  "price_without_reduction": 75,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Chile",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 24
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7804303321229",
+      "ean13": "7804303321229",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2789,
+      "legend": "WINO Montes Limited Selection Pinot Noir",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2789-small_default/wino-montes-limited-selection-pinot-noir.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2789-small_default/wino-montes-limited-selection-pinot-noir.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2789-medium_default/wino-montes-limited-selection-pinot-noir.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2789-medium_default/wino-montes-limited-selection-pinot-noir.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2789,
+    "legend": "WINO Montes Limited Selection Pinot Noir",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2789-small_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-small_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2789-medium_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-medium_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2789-cart_default/wino-montes-limited-selection-pinot-noir.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2789-home_default/wino-montes-limited-selection-pinot-noir.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2789-large_default/wino-montes-limited-selection-pinot-noir.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 75,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

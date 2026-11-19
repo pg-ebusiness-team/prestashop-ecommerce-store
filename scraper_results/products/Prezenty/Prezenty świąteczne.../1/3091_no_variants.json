@@ -1,0 +1,393 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "Prezent Indywidualny UNISEX",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "315,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-13 13:53:03",
+  "date_upd": "2026-09-13 13:58:45",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "prezent-indywidualny-unisex-",
+  "name": "Prezent Indywidualny UNISEX",
+  "description": "<ul>\n<li>Wino Włoskie czerwone  Puglia Sangiovese–Merlot  – 1 butelka<span class=\"PDq2pG_selectionAnchor\"></span></li>\n<li>Niederegger – Marzipan Classics – wykwintne praliny marcepanowe w czekoladzie</li>\n<li>Niederegger – Marc de Champagne Trüffel – delikatne trufle marcepanowe</li>\n<li>Exclusive Collection 90% Extra Fine – wysokiej jakości gorzka czekolada</li>\n<li>Exclusive Collection 52% – aksamitna czekolada mleczna</li>\n<li>Salty Caramel – wykwintne czekoladki o smaku słonego karmelu</li>\n<li>Viba Nougat Espresso – delikatny nugat z nutą espresso</li>\n<li>Kawa 100% Arabica – Świeżo Palona – 100 g</li>\n<li>Herbata czarna liściasta Premium – 100 g</li>\n<li>Eleganckie pudełko prezentowe na magnes</li>\n<li>Starannie dobrane ozdoby świąteczne – gałązki, bombki i subtelne elementy dekoracyjne</li>\n<li>Personalizowany bilecik z życzeniami</li>\n<li>Możliwość umieszczenia logo firmy</li>\n<li>Profesjonalne konfekcjonowanie i przygotowanie zestawu do wręczenia</li>\n</ul>",
+  "description_short": "<h3>Elegancki zestaw prezentowy z winem</h3>\n<p>Wyjątkowy <strong>zestaw prezentowy z winem</strong> to harmonijne połączenie włoskiego wina Primo Puglia Sangiovese–Merlot z wykwintnymi marcepanami, czekoladami, nugatem, świeżo paloną kawą i aromatyczną herbatą. Starannie dobrane produkty tworzą elegancki <strong>prezent świąteczny dla klienta, pracownika lub partnera biznesowego</strong>, który zachwyca różnorodnością smaków. Całość dopełnia stylowe pudełko na magnes, świąteczna dekoracja oraz możliwość personalizacji logo firmy i bilecika z życzeniami.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3091,
+  "id_product": 3091,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/3091-prezent-indywidualny-unisex-",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 256.097561,
+  "price_without_reduction": 315,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 100,
+  "quantity_all_versions": 100,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4853,
+      "legend": "Prezent Indywidualny UNISEX",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4853-small_default/prezent-indywidualny-unisex-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4853-small_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4853-medium_default/prezent-indywidualny-unisex-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4853-medium_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4854,
+      "legend": "Prezent Indywidualny UNISEX",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4854-cart_default/prezent-indywidualny-unisex-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4854-cart_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4854-small_default/prezent-indywidualny-unisex-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4854-small_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4854-home_default/prezent-indywidualny-unisex-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4854-home_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4854-medium_default/prezent-indywidualny-unisex-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4854-medium_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4854-large_default/prezent-indywidualny-unisex-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4854-large_default/prezent-indywidualny-unisex-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4854-cart_default/prezent-indywidualny-unisex-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4854-cart_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4854-home_default/prezent-indywidualny-unisex-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4854-home_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4854-large_default/prezent-indywidualny-unisex-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4854-large_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4855,
+      "legend": "Prezent Indywidualny UNISEX",
+      "position": 3,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4855-cart_default/prezent-indywidualny-unisex-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4855-cart_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4855-small_default/prezent-indywidualny-unisex-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4855-small_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4855-home_default/prezent-indywidualny-unisex-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4855-home_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4855-medium_default/prezent-indywidualny-unisex-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4855-medium_default/prezent-indywidualny-unisex-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4855-large_default/prezent-indywidualny-unisex-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4855-large_default/prezent-indywidualny-unisex-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4855-cart_default/prezent-indywidualny-unisex-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4855-cart_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4855-home_default/prezent-indywidualny-unisex-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4855-home_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4855-large_default/prezent-indywidualny-unisex-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4855-large_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4853,
+    "legend": "Prezent Indywidualny UNISEX",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4853-small_default/prezent-indywidualny-unisex-.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-small_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4853-medium_default/prezent-indywidualny-unisex-.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-medium_default/prezent-indywidualny-unisex-.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4853-cart_default/prezent-indywidualny-unisex-.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4853-home_default/prezent-indywidualny-unisex-.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4853-large_default/prezent-indywidualny-unisex-.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 315,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

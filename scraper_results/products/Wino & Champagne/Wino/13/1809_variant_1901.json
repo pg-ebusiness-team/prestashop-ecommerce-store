@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3274550565761",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1901,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-22 17:02:47",
+  "date_upd": "2025-03-24 13:10:40",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Preiss Zimmer Riesling",
+  "link_rewrite": "wino-preiss-zimmer-riesling",
+  "name": "WINO Preiss Zimmer Riesling",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Wino \r\nwykonane ze 100% winogron Riesling. Dojrzewa w stalowych zbiornikach, aby \r\nzachować jak najwięcej owoców, jak to jest możliwe. Wino o jasnym kolorze \r\nzielonkawym, świeży zapach cytrusów, grejpfruta i innych owoców tropikalnych, \r\ndelikatne, świeże i dobrze wyważone. Owoce z dobrą kwasowością i delikatnym i \r\nprzyjemnym posmakiem.</SPAN></P>\r\n",
+  "description_short": "<p>Wino wykonane ze 100% winogron Riesling. Dojrzewa w stalowych zbiornikach, aby zachować jak najwięcej owoców, jak to jest możliwe.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1809,
+  "id_product": 1809,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1901,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1809-wino-preiss-zimmer-riesling",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 8,
+  "quantity_all_versions": 8,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Alzacja",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 490
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Riesling",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 130
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3274550565761",
+      "ean13": "3274550565761",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2562,
+      "legend": "WINO Preiss Zimmer Riesling",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2562-small_default/wino-preiss-zimmer-riesling.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2562-small_default/wino-preiss-zimmer-riesling.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2562-medium_default/wino-preiss-zimmer-riesling.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2562-medium_default/wino-preiss-zimmer-riesling.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2562,
+    "legend": "WINO Preiss Zimmer Riesling",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2562-small_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-small_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2562-medium_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-medium_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2562-cart_default/wino-preiss-zimmer-riesling.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2562-home_default/wino-preiss-zimmer-riesling.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2562-large_default/wino-preiss-zimmer-riesling.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

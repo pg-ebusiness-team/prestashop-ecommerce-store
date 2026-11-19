@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8019873924858",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "229,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1225,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-04 20:02:39",
+  "date_upd": "2026-10-30 17:07:57",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Il Teo Primitivo Di Manduria",
+  "link_rewrite": "wino-il-teo-primitivo-di-manduria",
+  "name": "WINO Il Teo Primitivo Di Manduria",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Wino Il Teo Primitivo di Manduria produkowane z winogron które rosną na niemal 100-letnich krzewach. Zbierane ręcznie oraz macerowane przez 18 dni. Il Teo Primitivo di Manduria to eleganckie oraz potężne wino. Charakteryzuje się aromatem oraz smakiem dojrzałych ciemnych, słodkich owoców z nutą wanilii w tle. Mistrzem który stworzył wino Il Teo to Teo D’Apolito, jeden z największych ekspertów w winifikacji odmiany Primitivo</span></p>\n<p><span style=\"color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;\">Wino medalowe:</span><br style=\"margin:0px;padding:0px;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;\" /><img width=\"35\" height=\"20\" src=\"https://domwina.pl/data/include/cms/o_nas/butelka_piktogram_MEDLA.png\" alt=\"&gt;\" title=\"\" style=\"margin:0px;padding:0px;border:none;height:auto;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;float:left;\" /><span style=\"margin:0px;padding:0px;font-weight:600;\">DOUBLE GOLD Medal &amp; Best Wine of the Show – Mundus Vini Meininger 2018</span> (rocznik 2016)<br style=\"margin:0px;padding:0px;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;\" /><img width=\"35\" height=\"20\" src=\"https://domwina.pl/data/include/cms/o_nas/butelka_piktogram_MEDLA.png\" alt=\"&gt;\" title=\"\" style=\"margin:0px;padding:0px;border:none;height:auto;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;float:left;\" /><span style=\"margin:0px;padding:0px;font-weight:600;\">GOLD Medal – Berlin Wine Trophy 2018</span> (rocznik 2016)<br style=\"margin:0px;padding:0px;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;\" /><img width=\"35\" height=\"20\" src=\"https://domwina.pl/data/include/cms/o_nas/butelka_piktogram_MEDLA.png\" alt=\"&gt;\" title=\"\" style=\"margin:0px;padding:0px;border:none;height:auto;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;float:left;\" /><span style=\"margin:0px;padding:0px;font-weight:600;\">SILVER Medal – AWC Vienna 2017</span> (rocznik 2016)<br style=\"margin:0px;padding:0px;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;\" /><img width=\"35\" height=\"20\" src=\"https://domwina.pl/data/include/cms/o_nas/butelka_piktogram_MEDLA.png\" alt=\"&gt;\" title=\"\" style=\"margin:0px;padding:0px;border:none;height:auto;color:#3d3d3d;font-family:Montserrat, sans-serif;font-size:14px;background-color:#ffffff;float:left;\" /><span style=\"margin:0px;padding:0px;font-weight:600;\">GOLD Medal – AWC Vienna 2016</span> (rocznik 2013)</p>",
+  "description_short": "<p>Wino Il Teo Primitivo di Manduria produkowane z winogron które rosną na niemal 100-letnich krzewach. Zbierane ręcznie oraz macerowane przez 18 dni.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1148,
+  "id_product": 1148,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1225,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1148-wino-il-teo-primitivo-di-manduria",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.178862,
+  "price_without_reduction": 229,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Apulia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 416
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Primitivo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 125
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8019873924858",
+      "ean13": "8019873924858",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4025,
+      "legend": "WINO Il Teo Primitivo Di Manduria",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4025-small_default/wino-il-teo-primitivo-di-manduria.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4025-small_default/wino-il-teo-primitivo-di-manduria.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4025-medium_default/wino-il-teo-primitivo-di-manduria.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4025-medium_default/wino-il-teo-primitivo-di-manduria.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4025,
+    "legend": "WINO Il Teo Primitivo Di Manduria",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4025-small_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-small_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4025-medium_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-medium_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4025-cart_default/wino-il-teo-primitivo-di-manduria.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4025-home_default/wino-il-teo-primitivo-di-manduria.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4025-large_default/wino-il-teo-primitivo-di-manduria.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 229,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

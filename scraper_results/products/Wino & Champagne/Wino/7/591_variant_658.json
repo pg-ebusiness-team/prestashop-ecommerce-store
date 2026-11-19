@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8436532090448",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 658,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-16 09:29:04",
+  "date_upd": "2024-07-16 09:29:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Emina Crianza",
+  "link_rewrite": "wino-emina-crianza",
+  "name": "WINO Emina Crianza",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Winnica \r\no wielusetletniej tradycji, której początki sięgają XII wieku – czasów, kiedy\r\n należała do zakonu Cystersów, uprawiających w regionie Ribera del Duero\r\n winorośl i produkujących z niej wino na własne potrzeby. W połowie lat\r\n dziewięćdziesiątych ubiegłego wieku, Winiarnia została w pełni zmodernizowana\r\n przez Carlosa Moro, który stworzył nowoczesną wytwórnię, produkującą tradycyjne\r\n wina crianza oraz tzw. Semicrianza. Uprawia się tu uprawy lokalne, jak równiesz\r\n szczepy międzynarodowe: tinta del pais, cabernet sauvignon oraz \r\ngarnacha.</SPAN></P>\r\n",
+  "description_short": "<p>Winnica o wielusetletniej tradycji, której początki sięgają XII wieku - czasów, kiedy należała do zakonu Cystersów, uprawiających w regionie Ribera del Duero winorośl i produkujących z niej wino na własne potrzeby.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 591,
+  "id_product": 591,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 658,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/591-wino-emina-crianza",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Ribera Del Duero",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 311
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8436532090448",
+      "ean13": "8436532090448",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 997,
+      "legend": "WINO Emina Crianza",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/997-small_default/wino-emina-crianza.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/997-small_default/wino-emina-crianza.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/997-medium_default/wino-emina-crianza.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/997-medium_default/wino-emina-crianza.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 997,
+    "legend": "WINO Emina Crianza",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/997-small_default/wino-emina-crianza.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-small_default/wino-emina-crianza.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/997-medium_default/wino-emina-crianza.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-medium_default/wino-emina-crianza.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/997-cart_default/wino-emina-crianza.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/997-home_default/wino-emina-crianza.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/997-large_default/wino-emina-crianza.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

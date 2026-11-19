@@ -1,0 +1,302 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4905846123646",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "60,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2797,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-13 12:26:26",
+  "date_upd": "2025-09-13 15:57:59",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "JAPONIA CHOYA Original",
+  "link_rewrite": "japonia-choya-original",
+  "name": "WINO CHOYA Original",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Choya Original to tradycyjne, półsłodkie wino owocowe, wytwarzane według oryginalnej japońskiej receptury z zielonych owoców ume, cukru oraz japońskiej wódki shōchū. Choć często określane jako \"wino śliwkowe\", w rzeczywistości powstaje z owoców ume, będących odmianą moreli, które nadają trunkowi charakterystyczny słodko-kwaśny smak oraz wyjątkową głębię aromatyczną. Proces produkcji polega na moczeniu całych, niedojrzałych owoców ume - wraz z pestką - w shōchū, co pozwala wydobyć naturalne, owocowe nuty, uzupełnione lekkimi akcentami kwiatowymi. W rezultacie powstaje wino o gładkiej fakturze, delikatnej słodyczy i subtelnej kwasowości, które doskonale łączy tradycję z nowoczesnym smakiem. Choya Original najlepiej smakuje lekko schłodzona lub serwowana z lodem, jako aperitif, element orzeźwiających koktajli lub w towarzystwie dań z ryb, owoców morza oraz deserów. To uniwersalny trunek, który sprawdzi się zarówno podczas kolacji w japońskim stylu, jak i przy spotkaniach towarzyskich.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Choya Original to tradycyjne, półsłodkie wino owocowe, wytwarzane według oryginalnej japońskiej receptury z zielonych owoców ume, cukru oraz japońskiej wódki shochu.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2579,
+  "id_product": 2579,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2797,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2579-japonia-choya-original",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 48.780488,
+  "price_without_reduction": 60,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "10,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 443
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Owocowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 549
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "4905846134093",
+      "ean13": "4905846134093",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3613,
+      "legend": "JAPONIA CHOYA Original",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3613-small_default/japonia-choya-original.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3613-small_default/japonia-choya-original.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3613-medium_default/japonia-choya-original.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3613-medium_default/japonia-choya-original.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg"
+        }
+      },
+      "associatedVariants": [
+        2797
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3613,
+    "legend": "JAPONIA CHOYA Original",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3613-small_default/japonia-choya-original.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-small_default/japonia-choya-original.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3613-medium_default/japonia-choya-original.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-medium_default/japonia-choya-original.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3613-cart_default/japonia-choya-original.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3613-home_default/japonia-choya-original.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3613-large_default/japonia-choya-original.jpg"
+      }
+    },
+    "associatedVariants": [
+      2797
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 60,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

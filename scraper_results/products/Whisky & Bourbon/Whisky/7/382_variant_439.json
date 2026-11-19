@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 28,
+  "id_supplier": 0,
+  "reference": "5010494979640",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "389,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 439,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 14:20:15",
+  "date_upd": "2026-02-05 13:01:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glenmorangie A Tail Of The Forest",
+  "link_rewrite": "whisky-glenmorangie-a-tale-of-the-forest",
+  "name": "WHISKY Glenmorangie A Tale Of The Forest",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie A Tale of the Forest butelkowana jest w mocy 46%. </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Kolor: Głęboki bursztyn </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Nos: Słodowy, biszkoptowy, kremowy z odległym ostrzejszym, botanicznym aromatem jałowca i ziaren kolendry. Kropla wody ujawnia nuty ziołowe, jałowca, kolendry, ściółki leśnej, igliwia sosnowego, pokrzywy i mięty. Odnajdziesz w niej również wiśnie koktajlowe, słodkie jadalne kasztany i delikatny dym drzewny. </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Smak: Cytrusowy, pieprzny, musujący na podniebieniu wybucha eksplozją smaków: mięty pieprzowej, mentolu, eukaliptusa, sosny, żywicy, arcydzięgla, gorzkiej pomarańczy i aromatycznego dymu drzewnego. Karuzela smaków nabiera tempa słodko-gorzkimi nutami tanin dębowych, wanilią i anyżem.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie A Tale of the Forest butelkowana jest w mocy 46%.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 382,
+  "id_product": 382,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 439,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/382-whisky-glenmorangie-a-tale-of-the-forest",
+  "manufacturer_name": "Glenmorangie",
+  "attribute_price": 0,
+  "price_tax_exc": 316.260163,
+  "price_without_reduction": 389,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010494979640",
+      "ean13": "5010494979640",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4434,
+      "legend": "WHISKY Glenmorangie A Tail Of The Forest",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4434-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4434-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4434-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4434-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4435,
+      "legend": "WHISKY Glenmorangie A Tail Of The Forest",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4435-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4435-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4435-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4435-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4435-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4435-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4435-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4435-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4435-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4435-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4435-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4435-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4435-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4435-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4435-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4435-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4434,
+    "legend": "WHISKY Glenmorangie A Tail Of The Forest",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4434-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-small_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4434-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-medium_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4434-cart_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4434-home_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4434-large_default/whisky-glenmorangie-a-tale-of-the-forest.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 389,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,399 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3185370778388",
+  "is_virtual": 0,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": 0,
+  "online_only": 0,
+  "ecotax": "0.000000",
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": 0,
+  "price": "3 250,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": 1,
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": 1,
+  "available_date": "2024-10-16",
+  "show_condition": 0,
+  "condition": "new",
+  "show_price": 1,
+  "indexed": 1,
+  "visibility": "both",
+  "cache_default_attribute": 1179,
+  "advanced_stock_management": 0,
+  "date_add": "2024-10-16 19:21:15",
+  "date_upd": "2026-04-25 20:56:28",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Dom Perignon 2008 Plenitude 2",
+  "link_rewrite": "champagne-dom-perignon-2008-plenitude-2",
+  "name": "CHAMPAGNE Dom Perignon 2008 Plenitude 2",
+  "description": "\r\n<P style=\"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt\"><FONT face=Calibri>Cała \r\nhistoria Dom Perignon zaczęła się 1668 roku. Młody benedyktyński mnich, Dom \r\nPierre Perignon, został wysłany przez swój zakon do opactwa Saint Pierre \r\nd’Hautvillers, aby zająć stanowisko kwestora. Jego wizjonerstwo, twórczy umysł, \r\nwysokie standardy, bezkompromisowość oraz chęć podejmowania ryzyka, pozwoliły mu \r\nstworzyć nową kategorię wina – szampan, która do dziś należy do najbardziej \r\ncenionych i pożądanych alkoholi na świecie. Dom Pierre Perignon jest uważany za \r\nduchowego ojca szampana. Do dziś Dom Szampański jest wierny wartościom i ideom, \r\nktórym hołdował Dom Pierre Perignon. Szampan Dom Perignon jest wyłącznie winem \r\nrocznikowym – Vintage, powstającym tylko z wybranych winogron najlepszych \r\nroczników. W przypadku, gdy wino z danego rocznika nie spełnia wysokich \r\nstandardów i w ocenie szefa piwnic Domu Szampańskiego Richarda Geoffroy nie ma \r\npotencjału, nie zostaje wykorzystane – taka praktyka stosowana jest od \r\ndziesięcioleci tylko w odniesieniu do szampana Dom Perignon. Styl Dom Perignon \r\njest wyjątkowy, dlatego nie łatwo jest podsumować go w kilku słowach. Przede \r\nwszystkim jest to szampan niezwykle lekki i eteryczny, zachowujący równowagę – \r\nzarówno między świeżością i dojrzałością, jak i miedzy szczepami winogron \r\nChardonnay i Pinot Noir, użytymi przy jego produkcji. Ta równowaga i \r\nuzupełnienie się smaków skutkuje jedwabistą, satynową strukturą, cenioną przez \r\nsmakoszy na całym świecie od wielu lat. Dom Perignon należy obecnie do grona \r\ndziesięciu najbardziej pożądanych luksusowych marek na świecie. Wielbiciele tego \r\nszamana są zgodni – ma on w sobie moc i charyzmę. Nic dziwnego, skoro sam proces \r\njego tworzenia jest już sztuką. Sztuką dlatego, wiąże się z ryzykiem, a z \r\nryzkiem dlatego, że napięcie między unikalną osobowością rocznika, a stylem Dom \r\nPerignon zawsze jest tworzone od nowa. Wyjątkowość tego wina oddaje dewiza Domu \r\nSzampańskiego, przyświecająca wytwarzaniu Dom Perignon, która doskonale pokazuje \r\nnie tylko charakter, ale i wartości, którymi kierują się w życiu wielbiciele \r\ntego wina „The Power of Creation”.</FONT></P>\r\n",
+  "description_short": "<p>Cała historia Dom Perignon zaczęła się 1668 roku. Młody benedyktyński mnich, Dom Pierre Perignon, został wysłany przez swój zakon do opactwa Saint Pierre d'Hautvillers, aby zająć stanowisko kwestora.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1068,
+  "id_product": 1068,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1179,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "quantity": 1,
+  "id_image": "1068-4711",
+  "manufacturer_name": null,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/1068-champagne-dom-perignon-2008-plenitude-2",
+  "attribute_price": 0,
+  "price_tax_exc": 2642.276423,
+  "price_without_reduction": 3250,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity_all_versions": 1,
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Brut",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 541
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3185370778388",
+      "ean13": "3185370778388",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4711,
+      "legend": "CHAMPAGNE Dom Perignon 2008 Plenitude 2",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4711-small_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4711-small_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4711-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4711-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4712,
+      "legend": "CHAMPAGNE Dom Perignon 2008 Plenitude 2",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4712-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4712-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4712-small_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4712-small_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4712-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4712-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4712-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4712-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4712-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4712-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4712-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4712-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4712-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4712-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4712-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4712-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4711,
+    "legend": "CHAMPAGNE Dom Perignon 2008 Plenitude 2",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4711-small_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-small_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4711-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-medium_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4711-cart_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4711-home_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4711-large_default/champagne-dom-perignon-2008-plenitude-2.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 3250,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7503023842068",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 56,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 210,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2644,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-11 15:03:37",
+  "date_upd": "2025-08-11 18:03:05",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "TEQUILA Volcan XA",
+  "link_rewrite": "tequila-volcan-xa",
+  "name": "TEQUILA Volcan XA",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Volcan \r\nX.A. Luminous to wyjątkowa tequila klasy ultra-premium, stworzona z myślą o \r\nnajbardziej wymagających koneserach. Powstaje w sercu regionu Jalisco w Meksyku, \r\nz 100% niebieskiej agawy, bez dodatku jakichkolwiek sztucznych składników. To \r\ninnowacyjna kompozycja trzech stylów: Reposado, A&#241;ejo i Extra-A&#241;ejo, która \r\nprzenosi sztukę kupażu na zupełnie nowy poziom. Efektem kilku lat pracy, badań i \r\neksperymentów w destylarni Volcan jest trunek o niespotykanej gładkości i \r\nwyjątkowym aromacie. Receptura Volcan X.A pozostaje ściśle strzeżoną tajemnicą \r\ngłównego Master Tequilero, a każda butelka stanowi uosobienie rzemieślniczego \r\nkunsztu i pasji. Dojrzewanie odbywa się w specjalnie zaprojektowanej, podziemnej \r\npiwnicy, której grube mury chronią beczki przed skrajnymi temperaturami, \r\npozwalając na powolne i harmonijne starzenie się trunku w różnych typach dębu. \r\nVolcan X.A. Luminous przyciąga uwagę nie tylko smakiem, ale również unikalną, \r\nręcznie wykonaną czarną butelką ze złotymi detalami i efektem podświetlenia, \r\nktóry podkreśla jej luksusowy charakter. To tequila, która równie pięknie \r\nprezentuje się w barku, jak smakuje w kieliszku. W nosie pojawiają się nuty \r\npieczonej agawy, wanilii, przypraw i suszonych owoców. W smaku tequila jest \r\njedwabista, zbalansowana, z aksamitną słodyczą i głębokim, długim finiszem. To \r\ntrunek stworzony do powolnego delektowania się - bez dodatków, ewentualnie na \r\nkostce lodu. Volcan X.A. Luminous została zaprezentowana w czerwcu 2022 roku i \r\ndostępna jest wyłącznie w limitowanych ilościach. Jej powstanie to hołd dla \r\nmeksykańskiego terroir - mineralnej gleby wulkanicznej i tradycji, która łączy \r\nnaturę, innowację i rzemiosło w jedno, niezapomniane \r\ndoświadczenie.</SPAN></P>\r\n",
+  "description_short": "<p>Volcan X.A. Luminous to wyjątkowa tequila klasy ultra-premium, stworzona z myślą o najbardziej wymagających koneserach. Powstaje w sercu regionu Jalisco w Meksyku, z 100% niebieskiej agawy, bez dodatku jakichkolwiek sztucznych składników.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2433,
+  "id_product": 2433,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2644,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "tequila",
+  "category_name": "Tequila & Mezcal",
+  "link": "https://luksusowealkohole.pl/tequila/2433-tequila-volcan-xa",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 983.739837,
+  "price_without_reduction": 1210,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Meksyk",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 330
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Reposado",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 533
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Anejo",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 534
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Gold",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 537
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7503023842068",
+      "ean13": "7503023842068",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3444,
+      "legend": "TEQUILA Volcan XA",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3444-small_default/tequila-volcan-xa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3444-small_default/tequila-volcan-xa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3444-medium_default/tequila-volcan-xa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3444-medium_default/tequila-volcan-xa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3444,
+    "legend": "TEQUILA Volcan XA",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3444-small_default/tequila-volcan-xa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-small_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3444-medium_default/tequila-volcan-xa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-medium_default/tequila-volcan-xa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3444-cart_default/tequila-volcan-xa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3444-home_default/tequila-volcan-xa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3444-large_default/tequila-volcan-xa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1210,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

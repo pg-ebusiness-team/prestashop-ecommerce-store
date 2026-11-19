@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3257150061925",
+  "is_virtual": 0,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 28,
+  "on_sale": 0,
+  "online_only": 0,
+  "ecotax": "0.000000",
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": 0,
+  "price": "89,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": 1,
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": 1,
+  "available_date": "2026-06-19",
+  "show_condition": 0,
+  "condition": "new",
+  "show_price": 1,
+  "indexed": 1,
+  "visibility": "both",
+  "cache_default_attribute": 3210,
+  "advanced_stock_management": 0,
+  "date_add": "2026-06-19 23:26:16",
+  "date_upd": "2026-06-20 19:32:43",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Meukow RTS Vanilla Punch",
+  "link_rewrite": "likier-meukow-rts-vanilla-punch",
+  "name": "LIKIER Meukow RTS Vanilla Punch",
+  "description": "<p>Meukow Vanilla Punch to wyjątkowy likier premium, który łączy aksamitną \nsłodycz wanilii z egzotyczną świeżością ananasa i wyrazistymi akcentami \ncytrusów. Ta oryginalna kompozycja smakowa została stworzona dla miłośników \nniebanalnych trunków, poszukujących harmonii pomiędzy słodyczą a orzeźwiającą \nlekkością.</p>\n<p>Już od pierwszego kontaktu zachwyca intensywnym aromatem wanilii, wzbogaconym \nnutami egzotycznych owoców, soczystego ananasa oraz subtelnymi akcentami \npomarańczy i yuzu. W smaku Meukow Vanilla Punch oferuje ciepłe, przyjemne \notwarcie, które płynnie przechodzi w delikatną, odświeżającą kwasowość. \nJedwabista tekstura i pełne body prowadzą do długiego, żywego finiszu, w którym \ndominują nuty ananasa oraz skórki cytrusowej.</p>\n<p>Charakterystyczna, jasnopomarańczowa barwa z naturalną opalizacją podkreśla \ntropikalny charakter tego wyjątkowego trunku. Meukow Vanilla Punch powstaje na \nbazie likieru waniliowego Meukow, wzbogaconego sokiem ananasowym i naturalnymi \nnutami pomarańczy, tworząc doskonałą propozycję zarówno do degustacji solo, jak \ni jako składnik oryginalnych koktajli.<br />Meukow Vanilla Punch to idealny wybór \ndla osób ceniących wysokiej jakości likiery owocowe, egzotyczne smaki oraz \nnowoczesne interpretacje klasycznych receptur.</p>",
+  "description_short": "<p>Meukow Vanilla Punch – likier waniliowy z ananasem i nutą cytrusów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3021,
+  "id_product": 3021,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3210,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "quantity": 1,
+  "id_image": "3021-4785",
+  "manufacturer_name": null,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/3021-likier-meukow-rts-vanilla-punch",
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity_all_versions": 1,
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Koniak",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 378
+    },
+    {
+      "name": "Alkohol",
+      "value": "18,4%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 464
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "3257150061925",
+      "ean13": "3257150061925",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4785,
+      "legend": "LIKIER Meukow RTS Vanilla Punch",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4785-small_default/likier-meukow-rts-vanilla-punch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4785-small_default/likier-meukow-rts-vanilla-punch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4785-medium_default/likier-meukow-rts-vanilla-punch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4785-medium_default/likier-meukow-rts-vanilla-punch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4785,
+    "legend": "LIKIER Meukow RTS Vanilla Punch",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4785-small_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-small_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4785-medium_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-medium_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4785-cart_default/likier-meukow-rts-vanilla-punch.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4785-home_default/likier-meukow-rts-vanilla-punch.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4785-large_default/likier-meukow-rts-vanilla-punch.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5998835032172",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "129,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1741,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-28 16:50:14",
+  "date_upd": "2025-03-21 15:23:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Tokaj Szamorodni Oremus",
+  "link_rewrite": "wino-tokaj-szamorodni-oremus",
+  "name": "WINO Tokaj Szamorodni Oremus",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Zachwycająca \r\nbarwa łącząca odcienie bursztynu, pomarańczy i starego złota .W tym eterycznym\r\n bukiecie odnajdujemy stężone, lecz niezwykle subtelne akcenty moreli,\r\n brzoskwini, cytrusów, miodu i orzechów laskowych. Wino jest tak harmonijne i\r\n aksamitne, że wprost rozpływa się w ustach.</SPAN></P>\r\n",
+  "description_short": "<p>Zachwycająca barwa łącząca odcienie bursztynu, pomarańczy i starego złota .W tym eterycznym bukiecie odnajdujemy stężone, lecz niezwykle subtelne akcenty moreli, brzoskwini, cytrusów, miodu i orzechów laskowych.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1655,
+  "id_product": 1655,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1741,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1655-wino-tokaj-szamorodni-oremus",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 104.878049,
+  "price_without_reduction": 129,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Węgry",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 39
+    },
+    {
+      "name": "Region",
+      "value": "Tokaj",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 493
+    },
+    {
+      "name": "Alkohol",
+      "value": "12%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 264
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Szczep",
+      "value": "Furmint",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 75
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5998835032172",
+      "ean13": "5998835032172",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2178,
+      "legend": "WINO Tokaj Szamorodni Oremus",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2178-small_default/wino-tokaj-szamorodni-oremus.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2178-small_default/wino-tokaj-szamorodni-oremus.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2178-medium_default/wino-tokaj-szamorodni-oremus.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2178-medium_default/wino-tokaj-szamorodni-oremus.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2178,
+    "legend": "WINO Tokaj Szamorodni Oremus",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2178-small_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-small_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2178-medium_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-medium_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2178-cart_default/wino-tokaj-szamorodni-oremus.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2178-home_default/wino-tokaj-szamorodni-oremus.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2178-large_default/wino-tokaj-szamorodni-oremus.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 129,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

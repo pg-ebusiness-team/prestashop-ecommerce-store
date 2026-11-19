@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907777419057",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "179,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1788,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-04 19:50:54",
+  "date_upd": "2025-03-21 15:23:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Dom Jantoń Blanc De Blancs",
+  "link_rewrite": "wino-dom-janton-blanc-de-blancs",
+  "name": "WINO Dom Jantoń Blanc De Blancs",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Blanc \r\nde Blancs, flagowe wino musujące z Domu Jantoń, które urzeka swą elegancją i \r\nzbalansowaną intensywnością smaku. Wykonane w 100% z odmiany Seyval Blanc jest \r\nprzykładem rzemieślniczej perfekcji. Dzięki eleganckiemu opakowaniu sprawdzi się \r\nw wielu sytuacjach.</SPAN></P>\r\n",
+  "description_short": "<p>Blanc de Blancs, flagowe wino musujące z Domu Jantoń, które urzeka swą elegancją i zbalansowaną intensywnością smaku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1698,
+  "id_product": 1698,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1788,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1698-wino-dom-janton-blanc-de-blancs",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 145.528455,
+  "price_without_reduction": 179,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 11,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "11,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 291
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Seyval Blanc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 139
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5907777419057",
+      "ean13": "5907777419057",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2228,
+      "legend": "WINO Dom Jantoń Blanc De Blancs",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2228-small_default/wino-dom-janton-blanc-de-blancs.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2228-small_default/wino-dom-janton-blanc-de-blancs.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2228-medium_default/wino-dom-janton-blanc-de-blancs.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2228-medium_default/wino-dom-janton-blanc-de-blancs.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2228,
+    "legend": "WINO Dom Jantoń Blanc De Blancs",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2228-small_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-small_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2228-medium_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-medium_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2228-cart_default/wino-dom-janton-blanc-de-blancs.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2228-home_default/wino-dom-janton-blanc-de-blancs.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2228-large_default/wino-dom-janton-blanc-de-blancs.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 179,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

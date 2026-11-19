@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3043700103814",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "160,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2157,
+  "advanced_stock_management": "0",
+  "date_add": "2025-05-19 18:53:18",
+  "date_upd": "2025-05-19 19:39:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Mumm Brut Cordon Rouge PROMO",
+  "link_rewrite": "champagne-mumm-brut-cordon-rouge-promo",
+  "name": "CHAMPAGNE Mumm Brut Cordon Rouge PROMO",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>G.H. \r\nMumm Cordon Rouge to prawdziwa legenda wśród szampanów, będąca symbolem \r\nfrancuskiej elegancji i doskonałego smaku. Od ponad dwóch stuleci marka ta \r\nzaskakuje miłośników wyrafinowanych trunków nie tylko swoim niepowtarzalnym \r\nstylem, ale także wyjątkową jakością, która zdobyła uznanie na całym świecie. \r\nSzampan ten wyróżnia się intensywnym, złotym kolorem oraz subtelnymi bąbelkami, \r\nktóre delikatnie unoszą się na powierzchni wina, tworząc niezapomnianą atmosferę \r\nprzy każdym łyku. Cordon Rouge to wino, które łączy w sobie bogate dziedzictwo \r\noraz nowoczesne podejście do produkcji, będąc prawdziwą ikoną szampańskiego \r\nrzemiosła. W jego aromatycznym bukiecie wyczuwalne są owocowe nuty, delikatne \r\nakcenty drożdżowe oraz subtelna mineralność, które razem tworzą harmonijną \r\ncałość. Świeżość, intensywność i elegancja sprawiają, że G.H. Mumm Cordon Rouge \r\nto idealny wybór na każdą okazję - od eleganckich bankietów po kameralne \r\nspotkania z przyjaciółmi. Z wyjątkowym charakterem, który podkreśla szczególność \r\nkażdej chwili, ten szampan doskonale komponuje się z wyjątkowymi wydarzeniami, \r\nnadając im niezapomnianego blasku.</SPAN></P>\r\n",
+  "description_short": "<p>G.H. Mumm Cordon Rouge to prawdziwa legenda wśród szampanów, będąca symbolem francuskiej elegancji i doskonałego smaku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2064,
+  "id_product": 2064,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2612,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/2064-champagne-mumm-brut-cordon-rouge-promo",
+  "manufacturer_name": null,
+  "attribute_price": -47.967479,
+  "price_tax_exc": 130.081301,
+  "price_without_reduction": 160,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 9,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 42,
+      "id_attribute_group": 5,
+      "name": "0,375 l",
+      "group": "Pojemność",
+      "reference": "3043700103821",
+      "ean13": "3043700103821",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2895,
+      "legend": "CHAMPAGNE Mumm Brut Cordon Rouge PROMO",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2895-small_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2895-small_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2895-medium_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2895-medium_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2895,
+    "legend": "CHAMPAGNE Mumm Brut Cordon Rouge PROMO",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2895-small_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-small_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2895-medium_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-medium_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2895-cart_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2895-home_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2895-large_default/champagne-mumm-brut-cordon-rouge-promo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 160,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

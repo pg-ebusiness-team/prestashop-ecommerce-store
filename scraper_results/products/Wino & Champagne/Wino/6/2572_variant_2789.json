@@ -1,0 +1,319 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "SENEJAC",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "139,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2789,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-13 11:36:26",
+  "date_upd": "2025-09-13 15:36:06",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Chateau Senejac Haut-Medoc",
+  "link_rewrite": "wino-chateau-senejac-haut-medoc",
+  "name": "WINO Chateau Senejac Haut-Medoc",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Château \r\nSénéjac Haut-Médoc to wyraziste, czerwone wino z francuskiego Bordeaux, \r\npochodzące z apelacji Haut-Médoc, słynącej z produkcji szlachetnych i \r\ndługowiecznych win. Powstaje na bazie klasycznych bordoskich szczepów: Cabernet \r\nSauvignon, Merlot i Petit Verdot, które nadają mu strukturę, elegancję i \r\npotencjał dojrzewania. W młodości wino zachwyca głęboką, niemal czarną barwą i \r\nintensywnym aromatem ciemnych owoców, czarnej śliwki i przypraw. Na podniebieniu \r\njest pełne, skoncentrowane i zrównoważone, z obecnymi, ale delikatnymi taninami, \r\nktóre nadają mu aksamitną strukturę. Subtelne nuty dębowe, pochodzące z \r\ndojrzewania w beczce, wnoszą dodatkowe akcenty korzenne i głębię. To wino łączy \r\nmoc i finezję - doskonale smakuje zarówno młode, w pełni owocowe, jak i po kilku \r\nlatach dojrzewania, kiedy ukazuje pełnię swojego terroir. Dzięki dobrze \r\nzbalansowanej kwasowości i strukturze tanin, Château Sénéjac idealnie nadaje się \r\ndo długiego starzenia, zyskując z czasem na złożoności i elegancji. Winnica \r\nobejmuje 96 akrów i ma długą historię sięgającą XVII wieku. Od 1999 roku należy \r\ndo rodziny Cordier, która wniosła do majątku nową energię i niepodważalne \r\nknow-how. Dziś posiadłością zarządzają dzieci - Filipine, Marguerite i Gustave - \r\nwspierani przez rodziców: Nancy Bignon-Cordier i Jean-Paul Bignon, również \r\nwłaścicieli prestiżowego Cru w Bordeaux. Château Sénéjac to doskonały wybór dla \r\nmiłośników klasycznego Bordeaux - wina eleganckiego, pełnego charakteru, o \r\nświetnym potencjale dojrzewania i wyjątkowym \r\npochodzeniu.</SPAN></P>\r\n",
+  "description_short": "<p>Château Sénéjac Haut-Médoc to wyraziste, czerwone wino z francuskiego Bordeaux, pochodzące z apelacji Haut-Médoc, słynącej z produkcji szlachetnych i długowiecznych win.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2572,
+  "id_product": 2572,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2789,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2572-wino-chateau-senejac-haut-medoc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 113.00813,
+  "price_without_reduction": 139,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    },
+    {
+      "name": "Szczep",
+      "value": "Merlot",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 100
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Petit Verdot",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 302
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "SENEJAC",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3606,
+      "legend": "WINO Chateau Senejac Haut-Medoc",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3606-small_default/wino-chateau-senejac-haut-medoc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3606-small_default/wino-chateau-senejac-haut-medoc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3606-medium_default/wino-chateau-senejac-haut-medoc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3606-medium_default/wino-chateau-senejac-haut-medoc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3606,
+    "legend": "WINO Chateau Senejac Haut-Medoc",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3606-small_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-small_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3606-medium_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-medium_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3606-cart_default/wino-chateau-senejac-haut-medoc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3606-home_default/wino-chateau-senejac-haut-medoc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3606-large_default/wino-chateau-senejac-haut-medoc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 139,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

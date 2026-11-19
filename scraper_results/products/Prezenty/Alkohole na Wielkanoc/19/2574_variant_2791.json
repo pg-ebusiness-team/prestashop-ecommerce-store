@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410337046039",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "70,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2791,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-13 12:11:26",
+  "date_upd": "2025-09-13 15:33:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Osborne Sherry Medium",
+  "link_rewrite": "wino-osborne-sherry-medium",
+  "name": "WINO Osborne Sherry Medium",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bodegas \r\nOsborne Medium Sherry to klasyczna hiszpańska sherry pochodząca z regionu Jerez, \r\nktóra zachwyca głęboką bursztynowo-mahoniową barwą i doskonale zbalansowanym \r\nsmakiem. To wino o średniej słodyczy, w którym harmonijnie łączą się aromaty \r\nmigdałów, rodzynek i orzechów, tworząc złożony i przyjemny bukiet. Na \r\npodniebieniu jest pełne, aksamitne i eleganckie, a delikatna struktura tanin i \r\nsubtelna słodycz sprawiają, że stanowi wyjątkową przyjemność przy każdej okazji. \r\nZawartość alkoholu na poziomie 15% czyni je idealnym wyborem zarówno dla \r\nkoneserów, jak i osób, które dopiero zaczynają swoją przygodę z winami \r\nwzmacnianymi. Wino to najlepiej smakuje lekko schłodzone, świetnie komponując \r\nsię z deserami, owocami suszonymi, dojrzałymi serami pleśniowymi, a także jako \r\noryginalny aperitif. Jego charakter oparty jest na dwóch wyjątkowych szczepach \r\nwinorośli, które od wieków stanowią fundament produkcji sherry w Andaluzji. \r\nPalomino Fino, najważniejsza odmiana w regionie Jerez, znana jest z tworzenia \r\nwytrawnych, świeżych i eleganckich win o jasnozłotej barwie oraz delikatnych \r\nnutach suszonego jabłka, orzechów i drożdży. Dzięki swojej naturalnej kwasowości \r\ni mineralności, idealnie nadaje się do produkcji sherry takich jak Fino czy\r\n Manzanilla. Z kolei Pedro Ximénez (PX) to odmiana słynąca z intensywnej \r\nsłodyczy. Jej małe, bardzo słodkie grona są tradycyjnie suszone na słońcu, co \r\nnadaje winom gęstą, niemal syropową konsystencję oraz bogaty aromat rodzynek, \r\nfig, daktyli, miodu i karmelu. Sherry z PX doskonale sprawdza się jako wino\r\n deserowe, idealnie pasujące do czekoladowych ciast, lodów i wyrazistych serów z\r\n niebieską pleśnią. Bodegas Osborne Medium Sherry to hołd dla wielowiekowej\r\n tradycji, połączenie doświadczenia i pasji do winiarstwa. To wino, które łączy\r\n w sobie hiszpański temperament, andaluzyjskie słońce i winorośl opartą na\r\n szacunku do natury - obowiązkowa pozycja dla każdego miłośnika \r\nsherry.</SPAN></P>\r\n",
+  "description_short": "<p>Bodegas Osborne Medium Sherry to klasyczna hiszpańska sherry pochodząca z regionu Jerez, która zachwyca głęboką bursztynowo-mahoniową barwą i doskonale zbalansowanym smakiem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2574,
+  "id_product": 2574,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2791,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2574-wino-osborne-sherry-medium",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 56.910569,
+  "price_without_reduction": 70,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Szczep",
+      "value": "Pedro Ximenez",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 118
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Szczep",
+      "value": "Palomino Fino",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 589
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8410337046039",
+      "ean13": "8410337046039",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3608,
+      "legend": "WINO Osborne Sherry Medium",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3608-small_default/wino-osborne-sherry-medium.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3608-small_default/wino-osborne-sherry-medium.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3608-medium_default/wino-osborne-sherry-medium.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3608-medium_default/wino-osborne-sherry-medium.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3608,
+    "legend": "WINO Osborne Sherry Medium",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3608-small_default/wino-osborne-sherry-medium.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-small_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3608-medium_default/wino-osborne-sherry-medium.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-medium_default/wino-osborne-sherry-medium.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3608-cart_default/wino-osborne-sherry-medium.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3608-home_default/wino-osborne-sherry-medium.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3608-large_default/wino-osborne-sherry-medium.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 70,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

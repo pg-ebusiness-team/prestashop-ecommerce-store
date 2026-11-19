@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8033413430036",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-03-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1942,
+  "advanced_stock_management": "0",
+  "date_add": "2025-03-24 18:43:57",
+  "date_upd": "2025-03-24 19:18:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Limoncello Villa Massa",
+  "link_rewrite": "likier-limoncello-villa-massa",
+  "name": "LIKIER Limoncello Villa Massa",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Limoncello \r\nVilla Massa to tradycyjny włoski likier wytwarzany z cytryn Sorrento według \r\nrodzinnej receptury sięgającej 1890 roku. Cytryny Sorrento to rodzaj, który \r\nposiada Chronione Oznaczenie Geograficzne i charakteryzuje się dość grubą \r\nskórką, pokrywającą ponad 50% powierzchni zewnętrznej. Villa Massa to pierwsza \r\nwłoska firma produkująca i sprzedająca limoncello. Została założona przez dwóch \r\nbraci: Sergio i Stefano w 1991 roku.</SPAN></P>\r\n",
+  "description_short": "<p>Limoncello Villa Massa to tradycyjny włoski likier wytwarzany z cytryn Sorrento według rodzinnej receptury sięgającej 1890 roku.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1853,
+  "id_product": 1853,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1942,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/1853-likier-limoncello-villa-massa",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "30%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 282
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8033413430036",
+      "ean13": "8033413430036",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2600,
+      "legend": "LIKIER Limoncello Villa Massa",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2600-small_default/likier-limoncello-villa-massa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2600-small_default/likier-limoncello-villa-massa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2600-medium_default/likier-limoncello-villa-massa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2600-medium_default/likier-limoncello-villa-massa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2600,
+    "legend": "LIKIER Limoncello Villa Massa",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2600-small_default/likier-limoncello-villa-massa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-small_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2600-medium_default/likier-limoncello-villa-massa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-medium_default/likier-limoncello-villa-massa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2600-cart_default/likier-limoncello-villa-massa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2600-home_default/likier-limoncello-villa-massa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2600-large_default/likier-limoncello-villa-massa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

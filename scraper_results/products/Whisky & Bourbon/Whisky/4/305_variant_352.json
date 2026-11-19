@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 20,
+  "id_supplier": 0,
+  "reference": "5000281028026",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "269,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-27",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 352,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-27 18:12:15",
+  "date_upd": "2026-01-30 15:23:55",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Caol Ila Moch",
+  "link_rewrite": "whisky-caol-ila-moch",
+  "name": "WHISKY Caol Ila Moch",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Moch w języku galeickim (szkockim) nawiązuje do świtu, a to wydanie z Caol Ila jest znacznie lżejszą propozycją aniżeli również doskonała 12 letnia Caol Ila do której pryzwyczaiła nas destylarnia z Islay. Aromat: sorbet cytrynowy i jabłecznk z kremem. Trawiasty bez wskazania na dym.  Smak: Miękki, słodka beza cytrynowa.W jednej trzeciej drogi odczuwalny torf ale jako kojący dym zamiast drewna i gorącego asfaltu, zachowuje słodycz przez cały czas. Wykończenie: Miękki oraz lekki dymny posmak.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Moch w języku galeickim (szkockim) nawiązuje do świtu, a to wydanie z Caol Ila jest znacznie lżejszą propozycją aniżeli również doskonała 12 letnia Caol Ila do której pryzwyczaiła nas destylarnia z Islay.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 305,
+  "id_product": 305,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 352,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/305-whisky-caol-ila-moch",
+  "manufacturer_name": "Caol Ila",
+  "attribute_price": 0,
+  "price_tax_exc": 218.699187,
+  "price_without_reduction": 269,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000281028026",
+      "ean13": "5000281028026",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4211,
+      "legend": "WHISKY Caol Ila Moch",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4211-cart_default/whisky-caol-ila-moch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4211-cart_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4211-small_default/whisky-caol-ila-moch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4211-small_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4211-home_default/whisky-caol-ila-moch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4211-home_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4211-medium_default/whisky-caol-ila-moch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4211-medium_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4211-large_default/whisky-caol-ila-moch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4211-large_default/whisky-caol-ila-moch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4211-cart_default/whisky-caol-ila-moch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4211-cart_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4211-home_default/whisky-caol-ila-moch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4211-home_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4211-large_default/whisky-caol-ila-moch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4211-large_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4212,
+      "legend": "WHISKY Caol Ila Moch",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4212-small_default/whisky-caol-ila-moch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4212-small_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4212-medium_default/whisky-caol-ila-moch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4212-medium_default/whisky-caol-ila-moch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4212,
+    "legend": "WHISKY Caol Ila Moch",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4212-small_default/whisky-caol-ila-moch.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-small_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4212-medium_default/whisky-caol-ila-moch.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-medium_default/whisky-caol-ila-moch.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4212-cart_default/whisky-caol-ila-moch.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4212-home_default/whisky-caol-ila-moch.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4212-large_default/whisky-caol-ila-moch.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 269,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}
