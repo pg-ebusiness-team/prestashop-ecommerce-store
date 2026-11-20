@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8006725100256",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "95,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2935,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-16 14:44:01",
+  "date_upd": "2025-10-17 10:23:11",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Sella&Mosca Cannonau Riserva",
+  "link_rewrite": "wino-sellamosca-cannonau-riserva",
+  "name": "WINO Sella&Mosca Cannonau Riserva",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Sella \r\n&amp; Mosca Cannonau Riserva to wytrawne czerwone wino klasy premium, pochodzące \r\nz serca Sardynii. Powstaje w 100% z odmiany Cannonau, która uchodzi za wizytówkę \r\nwyspy i jedną z najważniejszych odmian w całym basenie Morza Śródziemnego. \r\nWinnica Sella &amp; Mosca otacza tę odmianę szczególną troską, czego efektem \r\njest trunek o głębokim charakterze i złożonym aromacie. Wino urzeka intensywnym \r\nrubinowym kolorem i bogatym bukietem, w którym wyczuwalne są dojrzałe owoce - \r\nśliwka, czarna porzeczka, wiśnia, przełamane nutami fiołków, orientalnych \r\nprzypraw oraz subtelnym aromatem dębiny, pochodzącym z leżakowania w beczkach. \r\nProces dojrzewania obejmuje co najmniej 6 miesięcy w dębie oraz 2 lata w \r\nbutelce, co nadaje winu elegancję, głębię i klasę. Na podniebieniu wino \r\nprezentuje się jako pełne, zaokrąglone i gładkie, z wyraźnymi, ale szlachetnymi \r\ntaninami. W strukturze odnajdziemy ciepło alkoholu, doskonale zrównoważone \r\nświeżością i ziołowym balsamicznym tonem, który nadaje winu harmonii i długiego, \r\nprzyjemnego finiszu. Cannonau Riserva to doskonały wybór do potraw z czerwonego \r\nmięsa, twardych serów, makaronów z sosem pomidorowym czy pizzy. To wino, które z \r\npowodzeniem sprawdzi się zarówno podczas codziennego posiłku, jak i wyjątkowej \r\nokazji. Winnica Sella &amp; Mosca, założona w 1899 roku przez inżyniera \r\nGiovanniego Sellę i prawnika Edgarda Mosca, należy dziś do najbardziej cenionych \r\nproducentów na Sardynii. Zlokalizowana na północny zachód od Alghero, obejmuje \r\n520 hektarów upraw prowadzonych zgodnie z zasadami zrównoważonego rolnictwa. \r\nDzięki zróżnicowanym glebom - od nadmorskich piasków po skaliste zbocza - \r\nwinnica oferuje szerokie spektrum win, doskonale oddających bogactwo lokalnego \r\nterroir. Od 2016 roku Sella &amp; Mosca należy do grupy Terra Moretti Vino, co \r\notworzyło przed nią nowe możliwości rozwoju i innowacji, przy jednoczesnym \r\nzachowaniu silnego związku z naturą i lokalną \r\ntożsamością.</SPAN></P>\r\n",
+  "description_short": "<p>Sella & Mosca Cannonau Riserva to wytrawne czerwone wino klasy premium, pochodzące z serca Sardynii. Powstaje w 100% z odmiany Cannonau, która uchodzi za wizytówkę wyspy i jedną z najważniejszych odmian w całym basenie Morza Śródziemnego.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2740,
+  "id_product": 2740,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2935,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2740-wino-sellamosca-cannonau-riserva",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 77.235772,
+  "price_without_reduction": 95,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Sardynia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 415
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cannonau",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 61
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8006725100256",
+      "ean13": "8006725100256",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3812,
+      "legend": "WINO Sella&Mosca Cannonau Riserva",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3812-small_default/wino-sellamosca-cannonau-riserva.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3812-small_default/wino-sellamosca-cannonau-riserva.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3812-medium_default/wino-sellamosca-cannonau-riserva.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3812-medium_default/wino-sellamosca-cannonau-riserva.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3812,
+    "legend": "WINO Sella&Mosca Cannonau Riserva",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3812-small_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-small_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3812-medium_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-medium_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3812-cart_default/wino-sellamosca-cannonau-riserva.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3812-home_default/wino-sellamosca-cannonau-riserva.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3812-large_default/wino-sellamosca-cannonau-riserva.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 95,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

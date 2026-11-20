@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "9001700090620",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "100,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2694,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-16 14:36:05",
+  "date_upd": "2025-08-16 17:24:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Stroh Jagertee",
+  "link_rewrite": "rum-stroh-jagertee",
+  "name": "RUM Stroh Jagertee",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Stroh \r\nJagertee to wyjątkowy austriacki likier, który wywodzi się z rodziny Stroh, \r\nznanej z produkcji rumu od 1832 roku. Ten trunek powstał na bazie czarnej \r\nherbaty, rumu Stroh oraz ekstraktów ziół i przypraw takich jak wanilia, anyż i \r\ncynamon. Zawiera 40% alkoholu, dzięki czemu jest łagodniejszy i łatwiejszy do \r\npicia niż jego mocniejszy brat - Stroh 80, który ma aż 80% alkoholu. Jego smak \r\njest delikatny i harmonijny, łącząc ziołowe i waniliowe nuty z intensywnym \r\naromatem czarnej herbaty oraz korzennych przypraw. Stroh Jagertee powstał już w \r\n1864 roku jako tradycyjny trunek myśliwski w domu rodziny Stroh i od tamtej pory \r\njest synonimem austriackiej specjalności. Rum Stroh, używany w likierze, to rum \r\ntypu Inländer - unikalny dla Austrii, produkowany z melasy trzciny cukrowej \r\nlokalnie w Austrii. Rumy Inländer mają ponad 180-letnią tradycję sięgającą \r\nczasów monarchii austro-węgierskiej. Stroh Jagertee jest idealny na chłodne \r\njesienno-zimowe wieczory - rozcieńczony ciepłą wodą doskonale rozgrzewa i pomaga \r\nsię zrelaksować. Latem natomiast poleca się podawać go nierozcieńczonego, z \r\nkostkami lodu w szklance pokrytej szronem, co świetnie orzeźwia. \r\nCharakterystyczna pomarańczowa etykieta butelki Stroh jest powszechnie \r\nrozpoznawalna i stała się symbolem \"Ducha Austrii\".</SPAN></P>\r\n",
+  "description_short": "<p>Stroh Jagertee to wyjątkowy austriacki likier, który wywodzi się z rodziny Stroh, znanej z produkcji rumu od 1832 roku. Ten trunek powstał na bazie czarnej herbaty, rumu Stroh oraz ekstraktów ziół i przypraw takich jak wanilia, anyż i cynamon.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2477,
+  "id_product": 2477,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2694,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2477-rum-stroh-jagertee",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 81.300813,
+  "price_without_reduction": 100,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Austria",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 14
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Spiced",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 567
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "9001700090620",
+      "ean13": "9001700090620",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3491,
+      "legend": "RUM Stroh Jagertee",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3491-small_default/rum-stroh-jagertee.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3491-small_default/rum-stroh-jagertee.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3491-medium_default/rum-stroh-jagertee.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3491-medium_default/rum-stroh-jagertee.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3491,
+    "legend": "RUM Stroh Jagertee",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3491-small_default/rum-stroh-jagertee.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-small_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3491-medium_default/rum-stroh-jagertee.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-medium_default/rum-stroh-jagertee.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3491-cart_default/rum-stroh-jagertee.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3491-home_default/rum-stroh-jagertee.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3491-large_default/rum-stroh-jagertee.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 100,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

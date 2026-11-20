@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4603928005490",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "450,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2501,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-19 12:15:00",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA BELUGA ALLURE",
+  "link_rewrite": "wodka-beluga-allure",
+  "name": "WÓDKA BELUGA ALLURE",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Beluga \r\nAllure Russian Vodka powstaje w destylarni Marininsk, usytuowanej w sercu \r\nSyberii. Ta limitowana edycja została stworzona na cześć sukcesów rosyjskiej \r\ndrużyny polo - Team Polo Beluga. Charakterystyczna butelka marki Beluga, \r\nozdobiona symbolem ryby, jest tutaj opakowana w brązową naturalną skórę z \r\nefektownymi, złotymi zdobieniami, co nadaje jej wyjątkowej elegancji. Beluga\r\n Allure to luksusowa, rosyjska wódka premium, która zachwyca nieskazitelną \r\nczystością oraz aksamitnym, delikatnym smakiem. Jej subtelny charakter, z\r\n wyczuwalnymi nutami wanilii, przypraw oraz świeżo pieczonego chleba, jest\r\n efektem skrupulatnej produkcji, wieloetapowej filtracji oraz 60-dniowego okresu\r\n leżakowania. Stylowe opakowanie nawiązuje do świata polo, podkreślając\r\n ekskluzywny charakter tego trunku, który świetnie sprawdzi się zarówno podczas\r\n degustacji, jak i jako baza wyrafinowanych koktajli. Aromat oferuje subtelne\r\n nuty migdałów i przypraw, smak jest lekki i zrównoważony, z akcentami pieprzu,\r\n orzechów i wanilii. Finisz jest gładki, pozostawiając delikatne wrażenie\r\n przypraw i świeżo upieczonego chleba.</SPAN></P>\r\n",
+  "description_short": "<p>Beluga Allure Russian Vodka powstaje w destylarni Marininsk, usytuowanej w sercu Syberii. Ta limitowana edycja została stworzona na cześć sukcesów rosyjskiej drużyny polo - Team Polo Beluga.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2317,
+  "id_product": 2317,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2501,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2317-wodka-beluga-allure",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 365.853659,
+  "price_without_reduction": 450.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Rosja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 487
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Charakter",
+      "value": "Zbożowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 301
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4603928005490",
+      "ean13": "4603928005490",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3324,
+      "legend": "WÓDKA BELUGA ALLURE",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3324-small_default/wodka-beluga-allure.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3324-small_default/wodka-beluga-allure.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3324-medium_default/wodka-beluga-allure.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3324-medium_default/wodka-beluga-allure.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3324,
+    "legend": "WÓDKA BELUGA ALLURE",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3324-small_default/wodka-beluga-allure.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-small_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3324-medium_default/wodka-beluga-allure.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-medium_default/wodka-beluga-allure.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3324-cart_default/wodka-beluga-allure.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3324-home_default/wodka-beluga-allure.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3324-large_default/wodka-beluga-allure.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 450,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

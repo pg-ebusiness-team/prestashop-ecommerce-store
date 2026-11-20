@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5011013934546",
+  "is_virtual": 0,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 29,
+  "on_sale": 0,
+  "online_only": 0,
+  "ecotax": "0.000000",
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": 0,
+  "price": "95,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": 1,
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": 1,
+  "available_date": "2026-05-11",
+  "show_condition": 0,
+  "condition": "new",
+  "show_price": 1,
+  "indexed": 1,
+  "visibility": "both",
+  "cache_default_attribute": 3175,
+  "advanced_stock_management": 0,
+  "date_add": "2026-05-11 19:44:44",
+  "date_upd": "2026-05-13 21:49:51",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "LIKIER Baileys Salted Caramel 17% 0,7L",
+  "link_rewrite": "likier-baileys-salted-caramel-17-07l",
+  "name": "LIKIER Baileys Salted Caramel 17% 0,7L",
+  "description": "Baileys Salted Caramel – kremowy likier z nutą słonego karmelu<BR>Baileys \r\nSalted Caramel to wyjątkowo aksamitny likier irlandzki, który łączy kultową \r\nkremowość Baileys z modnym i niezwykle apetycznym smakiem słonego karmelu. To \r\npropozycja dla miłośników deserowych alkoholi premium, którzy cenią bogaty smak, \r\ndelikatną słodycz i elegancką, kremową strukturę.<BR>Połączenie świeżej \r\nirlandzkiej śmietanki, wysokiej jakości whiskey oraz wyrafinowanych nut karmelu \r\ntworzy harmonijną kompozycję idealną zarówno do degustacji solo, jak i jako \r\ndodatek do deserów czy kawowych koktajli. Baileys Salted Caramel zachwyca \r\nnowoczesnym charakterem i doskonale wpisuje się w trendy alkoholi smakowych \r\nklasy premium.<BR>Aromat<BR>Bogaty i kuszący aromat otwiera się nutami kremowego \r\nkarmelu, toffi i mlecznej czekolady. W tle pojawiają się delikatne akcenty \r\nwanilii, śmietanki oraz subtelna słona nuta, która nadaje całości wyjątkowej \r\ngłębi i elegancji.<BR>Smak<BR>Na podniebieniu likier jest niezwykle gładki i \r\nkremowy. Dominują słodkie nuty karmelu, śmietanki i wanilii, przełamane \r\ndelikatnym akcentem soli morskiej, który doskonale równoważy słodycz trunku. \r\nCałość uzupełniają subtelne nuty irlandzkiej whiskey, nadające likierowi \r\nszlachetny charakter i aksamitne wykończenie.<BR>Finisz<BR>Długi, deserowy i \r\nwyjątkowo przyjemny. Pozostawia na podniebieniu nuty słonego karmelu, kremowej \r\nśmietanki oraz lekkie akcenty kakao i wanilii.<BR>Jak podawać?<BR>Baileys Salted \r\nCaramel najlepiej smakuje schłodzony, podawany solo lub na lodzie. Doskonale \r\nsprawdza się również jako dodatek do kawy, gorącej czekolady, deserów lodowych \r\noraz koktajli deserowych. Świetnie komponuje się z brownie, sernikiem, lodami \r\nwaniliowymi i deserami karmelowymi.<BR>Dlaczego warto wybrać Baileys Salted \r\nCaramel?<BR>kultowy irlandzki likier śmietankowy premium<BR>modny smak słonego \r\nkarmelu<BR>kremowa i aksamitna konsystencja<BR>idealny do deserów i \r\nkoktajli<BR>doskonały pomysł na elegancki prezent<BR>harmonijne połączenie \r\nśmietanki, whiskey i karmelu\r\n",
+  "description_short": "<p>Baileys Salted Caramel to wyjątkowo aksamitny likier irlandzki, który łączy kultową kremowość Baileys z modnym i niezwykle apetycznym smakiem słonego karmelu. To propozycja dla miłośników deserowych alkoholi premium, którzy cenią bogaty smak, delikatną sł</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2985,
+  "id_product": 2985,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3175,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "quantity": 3,
+  "id_image": "2985-4731",
+  "manufacturer_name": null,
+  "category": "likier",
+  "category_name": "Likier",
+  "link": "https://luksusowealkohole.pl/likier/2985-likier-baileys-salted-caramel-17-07l",
+  "attribute_price": 0,
+  "price_tax_exc": 77.235772,
+  "price_without_reduction": 95,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity_all_versions": 3,
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    },
+    {
+      "name": "Alkohol",
+      "value": "17%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 290
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5011013934546",
+      "ean13": "5011013934546",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4731,
+      "legend": "LIKIER Baileys Salted Caramel 17% 0,7L",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4731-small_default/likier-baileys-salted-caramel-17-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4731-small_default/likier-baileys-salted-caramel-17-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4731-medium_default/likier-baileys-salted-caramel-17-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4731-medium_default/likier-baileys-salted-caramel-17-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4731,
+    "legend": "LIKIER Baileys Salted Caramel 17% 0,7L",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4731-small_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-small_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4731-medium_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-medium_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4731-cart_default/likier-baileys-salted-caramel-17-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4731-home_default/likier-baileys-salted-caramel-17-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4731-large_default/likier-baileys-salted-caramel-17-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 95,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

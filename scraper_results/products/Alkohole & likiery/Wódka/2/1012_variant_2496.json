@@ -1,0 +1,445 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4603928000976",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "479,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1112,
+  "advanced_stock_management": "0",
+  "date_add": "2024-09-21 15:14:21",
+  "date_upd": "2025-07-11 17:35:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Beluga Noble Export",
+  "link_rewrite": "wodka-beluga-noble-export",
+  "name": "WÓDKA Beluga Noble Export",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bieługa \r\n to marka numer jeden w Rosji zarówno w segmencie Premium jak i super Premium. \r\n Wytwarzana jest w zacisznym zakątku Syberii, gdzie brak jakichkolwiek obiektów \r\n przemysłowych w promieniu 300 km sprawia, że finalny produkt jest wyjątkowo \r\n czysty i bezpieczny. Produkcja jest unikatowa, ... zbliżona bardzo sposobem do \r\n whisky. Wykorzystuje się tu bowiem słód, czyli pełne ziarna zbóż, a konkretnie \r\npszenicy, które uprzednio namoczone zaczynają kiełkować, otwierając tym samym \r\ndostęp do magazynu skrobi. Dalej następuje ich suszenie , aby proces kiełkowania \r\nzatrzymać, mielenie, zalewanie gorącą wodą w celu uaktywnienia enzymów, które \r\nzamieniają skrobię w cukier. Po fermentacji i destylacji  otrzymujemy naturalny \r\nprzyjazny środowisku produkt, pozbawiony jakichkolwiek syntetycznych czy \r\nmodyfikowanych genetycznie dodatków. Użycie do produkcji właśnie słodu sprawia, \r\nże wódka posiada miękki, pełen harmonii smak, pozbawiony uczucia palenia, bogaty \r\nw aromaty i słodki finisz. Dodatkowymi składnikami używanymi do produkcji, \r\nsprawiającymi, że Bieługa tak gładko smakuje są:  ekstrakt ostu, syrop cukrowy, \r\nmiód, wanilia oraz płatki owsiane. Te ziołowe ekstrakty używane są dla obniżenia \r\nszkodliwego oddziaływania wódki na organizm człowieka, zniwelowania uczucia \r\npieczenia oraz złagodzenia finalnego smaku. Gotowy produkt przed butelkowaniem \r\nzostaje poddany leżakowaniu przez okres 30 dni , aby wódka „uspokoiła się” i \r\nodpoczęła, dając pełną satysfakcję  konsumentom. Obecnie eksportowana do \r\nniemalże 50 krajów na świecie.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Oferowana&nbsp;Beluga&nbsp;została \r\nrozlana w Czarnogórze</SPAN></P>\r\n",
+  "description_short": "<p>Bieługa to marka numer jeden w Rosji zarówno w segmencie Premium jak i super Premium.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1012,
+  "id_product": 1012,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2496,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1012-wodka-beluga-noble-export",
+  "manufacturer_name": null,
+  "attribute_price": 227.642276,
+  "price_tax_exc": 389.430894,
+  "price_without_reduction": 479,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 43,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Czarnogóra",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 398
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 35,
+      "id_attribute_group": 5,
+      "name": "1,5 l",
+      "group": "Pojemność",
+      "reference": "4603928004042",
+      "ean13": "4603928004042",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1627,
+      "legend": "WÓDKA Beluga Noble Export",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1627-small_default/wodka-beluga-noble-export.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1627-small_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1627-medium_default/wodka-beluga-noble-export.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1627-medium_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "associatedVariants": [
+        1112
+      ]
+    },
+    {
+      "cover": null,
+      "id_image": 3193,
+      "legend": "WÓDKA Beluga Noble Export",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3193-cart_default/wodka-beluga-noble-export.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3193-cart_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3193-small_default/wodka-beluga-noble-export.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3193-small_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3193-home_default/wodka-beluga-noble-export.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3193-home_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3193-medium_default/wodka-beluga-noble-export.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3193-medium_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3193-large_default/wodka-beluga-noble-export.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3193-large_default/wodka-beluga-noble-export.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3193-cart_default/wodka-beluga-noble-export.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3193-cart_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3193-home_default/wodka-beluga-noble-export.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3193-home_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3193-large_default/wodka-beluga-noble-export.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3193-large_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "associatedVariants": [
+        2343
+      ]
+    },
+    {
+      "cover": null,
+      "id_image": 3194,
+      "legend": "WÓDKA Beluga Noble Export",
+      "position": 3,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3194-cart_default/wodka-beluga-noble-export.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3194-cart_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3194-small_default/wodka-beluga-noble-export.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3194-small_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3194-home_default/wodka-beluga-noble-export.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3194-home_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3194-medium_default/wodka-beluga-noble-export.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3194-medium_default/wodka-beluga-noble-export.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3194-large_default/wodka-beluga-noble-export.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3194-large_default/wodka-beluga-noble-export.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3194-cart_default/wodka-beluga-noble-export.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3194-cart_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3194-home_default/wodka-beluga-noble-export.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3194-home_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3194-large_default/wodka-beluga-noble-export.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3194-large_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "associatedVariants": [
+        1113
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1627,
+    "legend": "WÓDKA Beluga Noble Export",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1627-small_default/wodka-beluga-noble-export.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-small_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1627-medium_default/wodka-beluga-noble-export.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-medium_default/wodka-beluga-noble-export.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1627-cart_default/wodka-beluga-noble-export.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1627-home_default/wodka-beluga-noble-export.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1627-large_default/wodka-beluga-noble-export.jpg"
+      }
+    },
+    "associatedVariants": [
+      1112
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 479,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

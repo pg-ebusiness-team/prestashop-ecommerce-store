@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8388766552127",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "77,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3114,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-18 15:48:11",
+  "date_upd": "2026-02-18 16:05:45",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Centanni Passerina",
+  "link_rewrite": "wino-centanni-passerina",
+  "name": "WINO Centanni Passerina",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 8pt;\"><SPAN style='line-height: 107%; font-family: \"Times New Roman\",serif; font-size: 12pt;'>Centanni \r\nPasserina to pełne, dobrze zbudowane i lekko oleiste wino o intensywnej, \r\njasnożółtej barwie. W aromacie dominują nuty świeżego jabłka i ananasa, \r\nwzbogacone subtelnymi akcentami przypraw oraz kwiatów. Świetnie komponuje się z \r\nróżnymi rodzajami mięs, daniami makaronowymi, sałatkami oraz słonymi \r\nprzekąskami. Jego charakter podkreśla oryginalne zamknięcie w postaci szklanego \r\nkorka. Winogrona zbierane są ręcznie w momencie optymalnej dojrzałości, \r\nwyłącznie do niewielkich pojemników, które natychmiast trafiają do winnicy. \r\nZbiory odbywają się w chłodniejszych porach dnia – wcześnie rano lub późnym \r\npopołudniem – aby uniknąć wysokich temperatur. W trakcie zbiorów stosuje się \r\nsuchy lód, który ogranicza kontakt z tlenem i obniża temperaturę owoców. \r\nNajczęściej przypadają one na pierwszą połowę października. Po dokładnej \r\nselekcji winogrona trafiają do piwnicy, gdzie poddawane są delikatnemu tłoczeniu \r\npo uprzednim schłodzeniu. Proces ten ułatwia klarowanie moszczu i usunięcie \r\nzanieczyszczeń. Fermentacja przebiega w zbiornikach ze stali nierdzewnej w \r\nstałej temperaturze 10°C. Po jej zakończeniu wino oddziela się od grubego osadu, \r\npozostawiając drobne cząsteczki, które wpływają na jego strukturę i aromat. \r\nDojrzewanie odbywa się w stalowych tankach, z regularnym mieszaniem osadu w celu \r\nwydobycia jego korzystnych właściwości. W lutym wino jest klarowane, filtrowane \r\ni rozlewane do butelek. Do sprzedaży trafia już w marcu, kilka miesięcy po \r\nzbiorach.</SPAN></P>\r\n",
+  "description_short": "<p>Centanni Passerina to pełne, dobrze zbudowane i lekko oleiste wino o intensywnej, jasnożółtej barwie. W aromacie dominują nuty świeżego jabłka i ananasa, wzbogacone subtelnymi akcentami przypraw oraz kwiatów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2919,
+  "id_product": 2919,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3114,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2919-wino-centanni-passerina",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 62.601626,
+  "price_without_reduction": 77,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Veneto",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 409
+    },
+    {
+      "name": "Alkohol",
+      "value": "13%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 262
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Organiczne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 628
+    },
+    {
+      "name": "Szczep",
+      "value": "Passerina",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 629
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8388766552127",
+      "ean13": "8388766552127",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4545,
+      "legend": "WINO Centanni Passerina",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4545-small_default/wino-centanni-passerina.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4545-small_default/wino-centanni-passerina.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4545-medium_default/wino-centanni-passerina.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4545-medium_default/wino-centanni-passerina.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4545,
+    "legend": "WINO Centanni Passerina",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4545-small_default/wino-centanni-passerina.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-small_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4545-medium_default/wino-centanni-passerina.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-medium_default/wino-centanni-passerina.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4545-cart_default/wino-centanni-passerina.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4545-home_default/wino-centanni-passerina.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4545-large_default/wino-centanni-passerina.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 77,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

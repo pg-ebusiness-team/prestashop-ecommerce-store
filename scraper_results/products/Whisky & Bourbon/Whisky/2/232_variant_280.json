@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 6,
+  "id_supplier": 0,
+  "reference": "5010494975307",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "599,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 280,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-21 17:27:36",
+  "date_upd": "2026-01-21 14:32:09",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Ardbeg Ardcore",
+  "link_rewrite": "whisky-ardbeg-ardcore",
+  "name": "WHISKY Ardbeg Ardcore",
+  "description": "<p align=\"left\"><strong>Ardbeg Ardcore</strong>, whisky bez deklaracji wieku, \nprzygotowana na bazie ciemno palonego słodu jęczmiennego. Jak to jest w zwyczaju \nw Ardbeg, jest to whisky butelkowana z pominięciem procesu filtracji na zimno, w \ncelu zachowania jak największego spektrum nut aromatycznych i smakowych. Nie \nużyto też barwiącego karmelu, a więc barwę trunek zawdzięcza tylko i wyłącznie \nbeczkom, w których dojrzewał.</p>\n<p align=\"left\"><br /></p>\n<p align=\"left\"><strong>Zapach:</strong> Mocne akcenty marmite (słynny \nbrytyjski ekstrakt drożdżowy), przypalone tosty, palona cykoria i mielona \nkawa.</p>\n<p align=\"left\"><strong>Smak:</strong> Na podniebieniu możemy spodziewać \nsię nut kakao, gorzkiej czekolady, toffi z orzeszkami ziemnymi i wędzonej \nlimonki.</p>\n<p align=\"left\"><strong>Finisz: Długi, gorzka czekolada, mocna kawa i \ndym.</strong></p>\n<p align=\"left\"><strong>Edycja limitowana</strong></p>",
+  "description_short": "<p>Ardbeg Ardcore, whisky bez deklaracji wieku, przygotowana na bazie ciemno palonego słodu jęczmiennego.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 232,
+  "id_product": 232,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 280,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/232-whisky-ardbeg-ardcore",
+  "manufacturer_name": "Ardbeg",
+  "attribute_price": 0,
+  "price_tax_exc": 486.99187,
+  "price_without_reduction": 599,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010494975307",
+      "ean13": "5010494975307",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4081,
+      "legend": "WHISKY Ardbeg Ardcore",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4081-small_default/whisky-ardbeg-ardcore.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4081-small_default/whisky-ardbeg-ardcore.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4081-medium_default/whisky-ardbeg-ardcore.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4081-medium_default/whisky-ardbeg-ardcore.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4081,
+    "legend": "WHISKY Ardbeg Ardcore",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4081-small_default/whisky-ardbeg-ardcore.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-small_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4081-medium_default/whisky-ardbeg-ardcore.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-medium_default/whisky-ardbeg-ardcore.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4081-cart_default/whisky-ardbeg-ardcore.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4081-home_default/whisky-ardbeg-ardcore.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4081-large_default/whisky-ardbeg-ardcore.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 599,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,326 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3258064108416",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "1 550,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 934,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-31 12:49:45",
+  "date_upd": "2024-07-31 12:49:45",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Krug Grand Cuvee",
+  "link_rewrite": "champagne-krug-grand-cuvee",
+  "name": "CHAMPAGNE Krug Grand Cuvee",
+  "description": "\r\n<P>Krug Grande Cuvee został stworzony ze starannie wyselekcjonowanych winogron. \r\nOd pokoleń winogrona dostarczane są od tych samych plantatorów.<BR>Dzięki \r\nminimum 6 letniemu dojrzewaniu w piwnicach, Krug Grande Cuvee ukazuje nam \r\nodpowiednią harmonię oraz głębię.<BR>Od wielu, wielu lat szampan&nbsp; Krug jest \r\nsynonimem bogactwa, subtelności oraz świeżości.<BR>Aby stworzyć tak wspaniały \r\nszampan używa się do jego produkcji 3 odmian winogron;<BR>Chardonnay, Pinot Noir \r\noraz Pinot Meunier.<BR>Całość fermentuję w małych beczkach dębowych, dzięki temu \r\nszampan zyskuję długowieczność.</P>\r\n<P>Znany magazyn Forbes w swoim rankingu najdroższych i najlepszych szampanów \r\nwyłonił na pierwsze miejsce trunek z marki Krug.<BR>Jest to najdoskonalsza \r\nwersja stylu Domu Szampańskiego Krug.&nbsp;</P>\r\n<P>Krug Grance Cuvee zaskakuje nas świeżym lecz mocnym aromatem dojrzałych \r\nowoców z nutą miodu.<BR>Według wielu znawców po spróbowaniu szampana Krug \r\nodpowiedziało:<BR>„Nigdy nie zapomnisz pierwszego razu, kiedy kosztowałeś \r\nszampana Krug”.</P>\r\n<P>Parker ocenił Kruga 90/100.<BR>Zdobywca 2 gwiazdek w Guide Hachette des \r\nVins.<BR>Bettane &amp; Desseauve ocenil go na 19/20.<BR>W Revue du Vin de France \r\nzdobył 17/20.<BR>W konkursie Le Point special Champagne zdobył 18/20.<BR>Oraz w \r\nWine Spectator osiągnął wysoką notę 95/100.</P>\r\n",
+  "description_short": "<p>Krug Grande Cuvee został stworzony ze starannie wyselekcjonowanych winogron. Od pokoleń winogrona dostarczane są od tych samych plantatorów.<br/></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 852,
+  "id_product": 852,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 934,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/852-champagne-krug-grand-cuvee",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 1260.162602,
+  "price_without_reduction": 1550,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Brut",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 541
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Meunier",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 122
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3258064108416",
+      "ean13": "3258064108416",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 878,
+      "legend": "CHAMPAGNE Krug Grand Cuvee",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/878-small_default/champagne-krug-grand-cuvee.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/878-small_default/champagne-krug-grand-cuvee.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/878-medium_default/champagne-krug-grand-cuvee.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/878-medium_default/champagne-krug-grand-cuvee.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 878,
+    "legend": "CHAMPAGNE Krug Grand Cuvee",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/878-small_default/champagne-krug-grand-cuvee.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-small_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/878-medium_default/champagne-krug-grand-cuvee.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-medium_default/champagne-krug-grand-cuvee.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/878-cart_default/champagne-krug-grand-cuvee.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/878-home_default/champagne-krug-grand-cuvee.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/878-large_default/champagne-krug-grand-cuvee.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1550,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

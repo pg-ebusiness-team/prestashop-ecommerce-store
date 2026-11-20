@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5906681554380",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 31,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-01-30",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1464,
+  "advanced_stock_management": "0",
+  "date_add": "2025-01-30 19:43:38",
+  "date_upd": "2025-02-03 11:23:28",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "NALEWKA Staropolska z Mniszka Lekarskiego",
+  "link_rewrite": "nalewka-staropolska-z-mniszka-lekarskiego",
+  "name": "NALEWKA Staropolska z Mniszka Lekarskiego",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Czy \r\nwyobrażasz sobie, jak smakuje tradycja w płynnej formie? Mniszek lekarski ma \r\nwyjątkowy, słodkawy smak, a zrobiona z niego nalewka to subtelna natura \r\nzamknięta w każdej kropli. Oto trunek, którego korzenie sięgają XIII wieku! Z \r\nwykorzystywanej przez nas receptury korzystały również nasze babcie i prababcie, \r\na te były przecież prawdziwymi znawczyniami w zielarstwie – przygotowywały małe \r\ncuda natury w buteleczkach. Przepis nie zmienił się od pokoleń. Stworzona z \r\nnajwyższej jakości składników, pachnąca nalewka z kwiatów mniszka lekarskiego \r\nzachwyca delikatnym aromatem, który wypełnia każdą chwilę wyjątkowym ciepłem. \r\nJest idealna na wieczorne rozmowy lub jako podarunek. Nalewka z kwiatu mniszka \r\nodkryje przed Tobą magię natury. Pozwól sobie na chwilę zapomnienia i przekonaj \r\nsię, dlaczego tak bardzo cenią</SPAN></P>\r\n",
+  "description_short": "<p>Czy wyobrażasz sobie, jak smakuje tradycja w płynnej formie? Mniszek lekarski ma wyjątkowy, słodkawy smak, a zrobiona z niego nalewka to subtelna natura zamknięta w każdej kropli.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1378,
+  "id_product": 1378,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1464,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "nalewka",
+  "category_name": "Nalewki",
+  "link": "https://luksusowealkohole.pl/nalewka/1378-nalewka-staropolska-z-mniszka-lekarskiego",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "25%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 238
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 37,
+      "id_attribute_group": 5,
+      "name": "0,35 L",
+      "group": "Pojemność",
+      "reference": "5906681554380",
+      "ean13": "5906681554380",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1915,
+      "legend": "NALEWKA Staropolska z Mniszka Lekarskiego",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1915-small_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1915-small_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1915-medium_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1915-medium_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1915,
+    "legend": "NALEWKA Staropolska z Mniszka Lekarskiego",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1915-small_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-small_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1915-medium_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-medium_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1915-cart_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1915-home_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1915-large_default/nalewka-staropolska-z-mniszka-lekarskiego.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

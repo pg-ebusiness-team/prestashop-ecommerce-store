@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907346662044",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-03-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3126,
+  "advanced_stock_management": "0",
+  "date_add": "2026-03-16 18:58:42",
+  "date_upd": "2026-03-16 19:02:43",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Pałac Mała Wieś Souvignier Gris",
+  "link_rewrite": "wino-palac-mala-wies-souvignier-gris",
+  "name": "WINO Pałac Mała Wieś Souvignier Gris",
+  "description": "\r\n<P class=MsoNormal style=\"MARGIN: 0cm 0cm 8pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",serif; LINE-HEIGHT: 107%; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL'>Winnica \r\nPałac Mała Souvignier Gris Wieś to eleganckie białe wino o harmonijnym i \r\nwyrafinowanym charakterze. W aromacie pojawiają się nuty dojrzałych jabłek i \r\ngruszek, subtelnie uzupełnione akcentami wanilii oraz lekką nutą dymu. Na \r\npodniebieniu wino jest zrównoważone i aksamitne, z delikatną kremowością \r\nwynikającą z dojrzewania w beczkach dębowych. Finisz pozostaje długi i \r\nmineralny, z subtelnymi tonami tostów i wanilii, które nadają całości elegancji \r\ni głębi. To propozycja dla osób ceniących w winie strukturę, harmonię i \r\ndelikatny wpływ beczki. Doskonale sprawdzi się w towarzystwie dań z drobiu, ryb \r\no białym mięsie, kremowych risotto czy dojrzewających serów. Może być również \r\nidealnym winem degustacyjnym, pozwalającym powoli odkrywać jego złożony bukiet \r\naromatów. Wino powstaje w Winnica Pałac Mała Wieś – miejscu znanym z dbałości o \r\njakość i tworzenia win oddających charakter lokalnego terroir. Najlepiej smakuje \r\npodczas spokojnych chwil: przy eleganckiej kolacji, spotkaniu z przyjaciółmi lub \r\nwieczornej degustacji, gdy można w pełni docenić jego subtelność i \r\nklasę</SPAN><?xml:namespace prefix = \"o\" ns = \r\n\"urn:schemas-microsoft-com:office:office\" /><o:p></o:p></P>\r\n",
+  "description_short": "<p>Winnica Pałac Mała Souvignier Gris Wieś to eleganckie białe wino o harmonijnym i wyrafinowanym charakterze.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2943,
+  "id_product": 2943,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3126,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2943-wino-palac-mala-wies-souvignier-gris",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Souvignier Gris",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 463
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5907346662044",
+      "ean13": "5907346662044",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4645,
+      "legend": "WINO Pałac Mała Wieś Souvignier Gris",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4645-small_default/wino-palac-mala-wies-souvignier-gris.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4645-small_default/wino-palac-mala-wies-souvignier-gris.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4645-medium_default/wino-palac-mala-wies-souvignier-gris.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4645-medium_default/wino-palac-mala-wies-souvignier-gris.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4645,
+    "legend": "WINO Pałac Mała Wieś Souvignier Gris",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4645-small_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-small_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4645-medium_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-medium_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4645-cart_default/wino-palac-mala-wies-souvignier-gris.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4645-home_default/wino-palac-mala-wies-souvignier-gris.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4645-large_default/wino-palac-mala-wies-souvignier-gris.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

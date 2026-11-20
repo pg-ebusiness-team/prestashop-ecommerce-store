@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410023094146",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2460,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-18 12:12:19",
+  "date_upd": "2025-07-18 13:22:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO SHERRY Manzanilla Domecq",
+  "link_rewrite": "wino-sherry-manzanilla-domecq",
+  "name": "WINO SHERRY Manzanilla Domecq",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Manzanilla \r\nto wyjątkowe białe, wytrawne wino wzmacniane z południowej Hiszpanii, \r\nprodukowane wyłącznie w nadmorskim mieście Sanlúcar de Barrameda, w regionie \r\nJerez-Xér&#232;s-Sherry. Powstaje z odmiany Palomino Fino i dojrzewa biologicznie pod \r\nwarstwą drożdży (flor), w pełni odcięte od kontaktu z tlenem - co nadaje mu \r\nniezwykle charakterystyczny styl. Wino ma bladozłoty kolor i intensywny, złożony \r\naromat. W nosie wyczuwalne są zielone jabłka, rumianek, orzechy, chlebowe nuty \r\ndrożdżowe oraz delikatna morska słoność, będąca efektem unikalnego klimatu \r\nSanlúcar. Na podniebieniu jest lekkie, rześkie i zdecydowanie wytrawne, z \r\nsubtelną goryczką i bardzo długim, mineralnym finiszem. To jedno z najbardziej \r\nwyrafinowanych win w stylu Fino, o wyjątkowej elegancji i świeżości. Manzanilla \r\ndoskonale komponuje się z oliwkami, solonymi migdałami, wędlinami \r\ndojrzewającymi, marynowanymi warzywami, a także rybami, owocami morza i \r\norientalnymi potrawami. Nazwa wina nawiązuje do rumianku (manzanilla po \r\nhiszpańsku), którego aromaty często można odnaleźć w bukiecie tego trunku. \r\nSerwować dobrze schłodzone - najlepiej w temperaturze około \r\n6-8°C.</SPAN></P>\r\n",
+  "description_short": "<p>Manzanilla to wyjątkowe białe, wytrawne wino wzmacniane z południowej Hiszpanii, produkowane wyłącznie w nadmorskim mieście Sanlúcar de Barrameda, w regionie Jerez-Xéres-Sherry.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2290,
+  "id_product": 2290,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2460,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2290-wino-sherry-manzanilla-domecq",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Jerez",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 408
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wzmacniane",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 405
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8410023094146",
+      "ean13": "8410023094146",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3260,
+      "legend": "WINO SHERRY Manzanilla Domecq",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3260-small_default/wino-sherry-manzanilla-domecq.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3260-small_default/wino-sherry-manzanilla-domecq.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3260-medium_default/wino-sherry-manzanilla-domecq.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3260-medium_default/wino-sherry-manzanilla-domecq.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3260,
+    "legend": "WINO SHERRY Manzanilla Domecq",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3260-small_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-small_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3260-medium_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-medium_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3260-cart_default/wino-sherry-manzanilla-domecq.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3260-home_default/wino-sherry-manzanilla-domecq.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3260-large_default/wino-sherry-manzanilla-domecq.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

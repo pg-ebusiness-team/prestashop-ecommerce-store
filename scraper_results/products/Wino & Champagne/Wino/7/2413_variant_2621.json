@@ -1,0 +1,319 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410061015295",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "47,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2621,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-06 13:58:05",
+  "date_upd": "2025-08-06 15:59:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Don Benigno NV Cream Sherry",
+  "link_rewrite": "wino-don-benigno-nv-cream-sherry",
+  "name": "WINO Don Benigno NV Cream Sherry",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Don Benigno Cream Sherry to hiszpańskie, słodkie wino wzmacniane o głębokiej bursztynowej barwie i aromacie delikatnie prażonych migdałów. W smaku bogate i kremowe, z wyraźnymi nutami karmelu i orzechów, zachowuje idealną równowagę pomiędzy słodyczą a świeżością, dzięki czemu nie jest przesadnie ciężkie ani mdłe. To deserowe sherry doskonale komponuje się z sernikiem, tartami orzechowymi oraz innymi słodkościami - idealne na zakończenie posiłku lub jako słodki akcent przy wieczornej degustacji.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Don Benigno Cream Sherry to hiszpańskie, słodkie wino wzmacniane o głębokiej bursztynowej barwie i aromacie delikatnie prażonych migdałów.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2413,
+  "id_product": 2413,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2621,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2413-wino-don-benigno-nv-cream-sherry",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 38.211382,
+  "price_without_reduction": 47,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Jerez",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 408
+    },
+    {
+      "name": "Alkohol",
+      "value": "17,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 555
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wzmacniane",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 405
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8410061015295",
+      "ean13": "8410061015295",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3423,
+      "legend": "WINO Don Benigno NV Cream Sherry",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3423-small_default/wino-don-benigno-nv-cream-sherry.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3423-small_default/wino-don-benigno-nv-cream-sherry.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3423-medium_default/wino-don-benigno-nv-cream-sherry.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3423-medium_default/wino-don-benigno-nv-cream-sherry.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3423,
+    "legend": "WINO Don Benigno NV Cream Sherry",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3423-small_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-small_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3423-medium_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-medium_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3423-cart_default/wino-don-benigno-nv-cream-sherry.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3423-home_default/wino-don-benigno-nv-cream-sherry.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3423-large_default/wino-don-benigno-nv-cream-sherry.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 47,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

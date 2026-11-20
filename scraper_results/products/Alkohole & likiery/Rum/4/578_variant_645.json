@@ -1,0 +1,304 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 32,
+  "id_supplier": 0,
+  "reference": "74010050086340",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "379,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 645,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-15 15:38:25",
+  "date_upd": "2026-11-04 16:55:30",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Zacapa Edicion Negra",
+  "link_rewrite": "rum-zacapa-edicion-negra",
+  "name": "RUM Zacapa Edicion Negra",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Rum Zacapa Edicion Negra od zawsze kojarzona jest z wysokojakościowy rumem klasy premium, który powstał w 1976 roku dla uczczenia setnej rocznicy powstania miasta w Gwatemalii o tej samej nazwie. Od dnia premiery stopniowo zaczął zyskiwać coraz to większe uznanie koneserów na całym świecie, czego dowodem są bardzo wysokie noty zdobywane w wielu międzynarodowych konkursach. Cieszący się popularnością rum nowej odsłonie Zacapa Edición Negra. Rum ten starzona jest w dwukrotnie wypalanych beczkach z amerykańskiego dębu dzięki czemu zyskuje nieco dymnych nut aromatycznych oraz pikanterii. Niesamowicie wyrazisty trunek o karmelowo-czekoladowym profilu, pełen ciekawych niuansów. Finisz z intensywnie słodkim aromatem wanilii karmelu i suszonych egzotycznych owoców, domieszka kakao, czekolady deserowej, opalanego drewna i dymu. W smaku wyczuwalne nuty  przypraw: cynamon, gałka muszkatołowa i goździki, a także akcenty mocnej kawy ustępują niuansom dymnym i pikantnym. Bursztynowa barwa ze złotymi akcentami dopełnia całość.</span></p>",
+  "description_short": "<p>Rum Zacapa Edicion Negra od zawsze kojarzona jest z wysokojakościowy rumem klasy premium, który powstał w 1976 roku dla uczczenia setnej rocznicy powstania miasta w Gwatemalii o tej samej nazwie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 578,
+  "id_product": 578,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 645,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/578-rum-zacapa-edicion-negra",
+  "manufacturer_name": "Zacapa",
+  "attribute_price": 0,
+  "price_tax_exc": 308.129952,
+  "price_without_reduction": 435.000001,
+  "reduction": 56.00016,
+  "specific_prices": {
+    "id_specific_price": 152,
+    "id_specific_price_rule": 0,
+    "id_cart": 0,
+    "id_product": 578,
+    "id_shop": 0,
+    "id_shop_group": 0,
+    "id_currency": 0,
+    "id_country": 0,
+    "id_group": 0,
+    "id_customer": 0,
+    "id_product_attribute": 645,
+    "price": 353.658537,
+    "from_quantity": 1,
+    "reduction": "0.128736",
+    "reduction_tax": 1,
+    "reduction_type": "percentage",
+    "from": "0000-00-00 00:00:00",
+    "to": "0000-00-00 00:00:00",
+    "score": 32
+  },
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Gwatemala",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 323
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "74010050086340",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 755,
+      "legend": "RUM Zacapa Edicion Negra",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/755-small_default/rum-zacapa-edicion-negra.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/755-small_default/rum-zacapa-edicion-negra.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/755-medium_default/rum-zacapa-edicion-negra.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/755-medium_default/rum-zacapa-edicion-negra.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 755,
+    "legend": "RUM Zacapa Edicion Negra",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/755-small_default/rum-zacapa-edicion-negra.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-small_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/755-medium_default/rum-zacapa-edicion-negra.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-medium_default/rum-zacapa-edicion-negra.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/755-cart_default/rum-zacapa-edicion-negra.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/755-home_default/rum-zacapa-edicion-negra.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/755-large_default/rum-zacapa-edicion-negra.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": true,
+  "discount_type": "percentage",
+  "discount_percentage": "-12,87%",
+  "discount_percentage_absolute": "12,87%",
+  "discount_amount": "56,00 zł",
+  "discount_amount_to_display": "-56,00 zł",
+  "price_amount": 379,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

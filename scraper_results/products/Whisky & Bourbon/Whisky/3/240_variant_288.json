@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 4,
+  "id_supplier": 0,
+  "reference": "5010106110065",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "1 590,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-22",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 288,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-22 12:06:03",
+  "date_upd": "2026-01-21 18:53:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Ballantines 30 Y O",
+  "link_rewrite": "whisky-ballantines-30-y-o",
+  "name": "WHISKY Ballantines 30 Y O",
+  "description": "Barwa starego złota, aromaty słodkiej wanilii przenikające się z nutami \r\ndębowymi. W ustach złożona, pełna lecz delikatna, bogata, o nutach sherry, \r\nkwiatów i wanilii. Końcówka długa i wytworna.\r\n",
+  "description_short": "<p>Barwa starego złota, aromaty słodkiej wanilii przenikające się z nutami dębowymi. W ustach złożona, pełna lecz delikatna, bogata, o nutach sherry, kwiatów i wanilii. Końcówka długa i wytworna.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 240,
+  "id_product": 240,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 288,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/240-whisky-ballantines-30-y-o",
+  "manufacturer_name": "Ballantine's",
+  "attribute_price": 0,
+  "price_tax_exc": 1292.682927,
+  "price_without_reduction": 1590,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    },
+    {
+      "name": "Wiek",
+      "value": "30 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 196
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010106110065",
+      "ean13": "5010106110065",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4115,
+      "legend": "WHISKY Ballantines 30 Y O",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4115-small_default/whisky-ballantines-30-y-o.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4115-small_default/whisky-ballantines-30-y-o.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4115-medium_default/whisky-ballantines-30-y-o.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4115-medium_default/whisky-ballantines-30-y-o.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4115,
+    "legend": "WHISKY Ballantines 30 Y O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4115-small_default/whisky-ballantines-30-y-o.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-small_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4115-medium_default/whisky-ballantines-30-y-o.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-medium_default/whisky-ballantines-30-y-o.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4115-cart_default/whisky-ballantines-30-y-o.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4115-home_default/whisky-ballantines-30-y-o.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4115-large_default/whisky-ballantines-30-y-o.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 1590,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

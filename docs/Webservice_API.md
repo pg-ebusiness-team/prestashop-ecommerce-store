@@ -6,7 +6,7 @@ Konfiguracja PrestaShop Webservice API, z którego korzysta skrypt importu danyc
 
 - włącza Webservice API (`PS_WEBSERVICE = 1`),
 - rejestruje jeden klucz API pobierany z `.env` (`PS_API_KEY`),
-- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
+- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
 
 Wszystko dzieje się skryptem — bez klikania w panelu administracyjnym, bo wymagania zakładają jedną komendę inicjalizacji (`make init`), a w etapie 2 inicjalizację bez ręcznych kroków.
 

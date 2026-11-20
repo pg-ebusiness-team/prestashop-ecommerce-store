@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3760405600072",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "229,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-10-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3279,
+  "advanced_stock_management": "0",
+  "date_add": "2026-10-21 21:18:24",
+  "date_upd": "2026-10-31 14:20:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Talisker 10yo 45,8% 0,7l + kubek",
+  "link_rewrite": "whisky-talisker-10yo-458-07l-kubek",
+  "name": "WHISKY Talisker 10yo 45,8% 0,7l + kubek",
+  "description": "<div style=\"font-family:Georgia, 'Times New Roman', serif;color:#303830;font-size:14px;line-height:1.8;max-width:100%;\">\n<p style=\"font-size:16px;line-height:1.8;margin:0 0 24px;color:#303830;\"><strong style=\"color:#183b30;\">Talisker 10YO 45,8% 0,7 l + kubek</strong> to charakterystyczna szkocka whisky single malt pochodząca z wyspy Skye, ceniona za wyrazisty, morski styl. Łączy dymne akcenty, słoną mineralność i rozgrzewającą pikantność, tworząc kompozycję, której trudno pomylić z jakąkolwiek inną whisky.</p>\n<div style=\"border-top:1px solid #d8c7a8;padding-top:22px;margin-top:24px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">CHARAKTER WHISKY</p>\n<p style=\"font-size:20px;line-height:1.4;font-weight:normal;color:#183b30;margin:0 0 14px;\">Morski charakter szkockiej wyspy Skye</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0 0 12px;\">Talisker 10YO powstaje w destylarni Talisker, położonej na surowym, zachodnim wybrzeżu wyspy Skye. To miejsce, w którym morski klimat i szkocka tradycja tworzą wyjątkowy charakter trunku. Whisky dojrzewa przez 10 lat w dębowych beczkach, zyskując głębię, wyrazistość i harmonijne połączenie słodowych, dymnych oraz pieprznych nut.</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Jej znakiem rozpoznawczym jest intensywny profil, w którym subtelna słodycz przeplata się z dymem, morską słonością i charakterystycznym, rozgrzewającym finiszem. To propozycja dla osób, które szukają whisky z wyraźną osobowością.</p>\n</div>\n<div style=\"background:#faf8f3;border:1px solid #e7dcc9;padding:20px;margin:26px 0;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">PROFIL SMAKOWY</p>\n<p style=\"font-size:19px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 16px;\">Dym, morze i pieprzna głębia</p>\n<table style=\"width:100%;border-collapse:collapse;font-family:Georgia, 'Times New Roman', serif;font-size:13px;line-height:1.6;\">\n<tbody>\n<tr>\n<td style=\"width:30%;padding:10px 8px 10px 0;border-bottom:1px solid #e7dcc9;color:#183b30;vertical-align:top;\">Aromat</td>\n<td style=\"padding:10px 0;border-bottom:1px solid #e7dcc9;vertical-align:top;\">Dym torfowy, morska bryza, słód, delikatna słodycz i świeże nuty cytrusowe.</td>\n</tr>\n<tr>\n<td style=\"width:30%;padding:10px 8px 10px 0;border-bottom:1px solid #e7dcc9;color:#183b30;vertical-align:top;\">Smak</td>\n<td style=\"padding:10px 0;border-bottom:1px solid #e7dcc9;vertical-align:top;\">Wyrazisty i pełny, z akcentami dymu, soli morskiej, słodu oraz intensywnego czarnego pieprzu.</td>\n</tr>\n<tr>\n<td style=\"width:30%;padding:10px 8px 10px 0;color:#183b30;vertical-align:top;\">Finisz</td>\n<td style=\"padding:10px 0;vertical-align:top;\">Długi, rozgrzewający i pieprzny, z utrzymującymi się nutami dymnymi oraz subtelną słonością.</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div style=\"background:#f7f4ed;padding:20px;margin-top:26px;border-left:2px solid #b69a6a;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">SZTUKA DEGUSTACJI</p>\n<p style=\"font-size:18px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 10px;\">Najlepiej smakować bez pośpiechu</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Talisker 10YO warto podawać w temperaturze pokojowej, w kieliszku typu tulipanowym, który pozwala w pełni docenić aromat whisky. Kilka kropel wody może pomóc odkryć kolejne warstwy zapachu i smaku. To dobry wybór do spokojnej degustacji, zarówno dla miłośników whisky torfowych, jak i osób poznających morski styl szkockich single malt.</p>\n</div>\n<div style=\"border-top:1px solid #d8c7a8;padding-top:22px;margin-top:26px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">POMYSŁ NA PREZENT</p>\n<p style=\"font-size:19px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 14px;\">Talisker 10YO z dołączonym kubkiem</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Zestaw zawierający butelkę whisky Talisker 10YO o pojemności 0,7 l oraz kubek to praktyczny i atrakcyjny pomysł na prezent dla miłośnika szkockich trunków. Sprawdzi się na urodziny, święta, jubileusz lub jako upominek dla osoby ceniącej wyraziste smaki i autentyczny charakter whisky single malt.</p>\n</div>\n<div style=\"border-top:1px solid #d8c7a8;border-bottom:1px solid #d8c7a8;padding:20px 0;margin-top:26px;\">\n<p style=\"font-family:Arial, Helvetica, sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#987747;margin:0 0 8px;\">PODSUMOWANIE</p>\n<p style=\"font-size:18px;line-height:1.5;font-weight:normal;color:#183b30;margin:0 0 10px;\">Szkocka whisky o niepowtarzalnym charakterze</p>\n<p style=\"font-size:14px;line-height:1.8;margin:0;\">Talisker 10YO 45,8% 0,7 l + kubek to propozycja dla osób, które cenią intensywne aromaty, torfowy dym, morskie akcenty i długi, pieprzny finisz. Wyrazisty styl oraz praktyczny dodatek sprawiają, że zestaw doskonale nadaje się zarówno do własnej kolekcji, jak i na elegancki prezent.</p>\n</div>\n</div>",
+  "description_short": "<p><strong style=\"color:#183b30;\">Talisker 10YO 45,8% 0,7 l + kubek</strong><span style=\"color:#303830;font-family:Georgia, 'Times New Roman', serif;font-size:16px;\"> to charakterystyczna szkocka whisky single malt pochodząca z wyspy Skye, ceniona za wyrazisty, morski styl. Łączy dymne akcenty, słoną mineralność i rozgrzewającą pikantność, tworząc kompozycję, której trudno pomylić z jakąkolwiek inną whisky.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3130,
+  "id_product": 3130,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3279,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3130-whisky-talisker-10yo-458-07l-kubek",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.178862,
+  "price_without_reduction": 229,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "45,8%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 369
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3760405600072",
+      "ean13": "3760405600072",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4924,
+      "legend": "WHISKY Talisker 10yo 45,8% 0,7l + kubek",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4924-small_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4924-small_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4924-medium_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4924-medium_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4924,
+    "legend": "WHISKY Talisker 10yo 45,8% 0,7l + kubek",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4924-small_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-small_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4924-medium_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-medium_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4924-cart_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4924-home_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4924-large_default/whisky-talisker-10yo-458-07l-kubek.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 229,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

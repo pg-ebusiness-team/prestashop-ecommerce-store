@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5901867820778",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 97,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "179,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-14 13:54:02",
+  "date_upd": "2026-07-29 19:49:01",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Belvedere Formula 1 Limited Edition",
+  "link_rewrite": "wodka-belvedere-formula-1-limited-edition",
+  "name": "WÓDKA Belvedere Formula 1 Limited Edition",
+  "description": "\r\n<P>Belvedere Organic Vodka F1 Limited Edition – nowoczesna elegancja inspirowana \r\nświatem Formuły 1<BR>Belvedere Organic Vodka F1 Limited Edition to ekskluzywna, \r\nlimitowana edycja polskiej wódki premium, stworzona z myślą o miłośnikach \r\nluksusu, nowoczesnego designu i motorsportu. Powstała we współpracy ze światem \r\nFormuły 1, łącząc wieloletnią tradycję marki Belvedere z innowacyjnością, \r\nprecyzją oraz dynamiką najbardziej prestiżowej serii wyścigowej na \r\nświecie.<BR>Polska wódka premium z certyfikowanego organicznego \r\nżyta<BR>Belvedere Organic Vodka F1 Limited Edition produkowana jest wyłącznie z \r\ncertyfikowanego organicznego żyta pochodzącego z Polski – kraju od wieków \r\nuznawanego za kolebkę najwyższej jakości wódek. Dzięki starannie \r\nwyselekcjonowanym składnikom oraz dbałości o każdy etap produkcji powstaje \r\ntrunek o wyjątkowo czystym, harmonijnym i aksamitnym smaku.<BR>Tradycja \r\npolskiego rzemiosła w nowoczesnym wydaniu<BR>Jednym z fundamentów marki \r\nBelvedere jest jej autentyczne pochodzenie. Wódka produkowana jest w \r\nhistorycznej destylarni w Żyrardowie, będącej symbolem polskiego rzemiosła \r\ngorzelniczego i wieloletniej tradycji destylacji. To właśnie tutaj powstaje \r\nlimitowana edycja F1, inspirowana wartościami wspólnymi dla marki Belvedere i \r\nświata Formuły 1 – precyzją, innowacyjnością oraz nieustannym dążeniem do \r\ndoskonałości.<BR>Naturalny skład i tradycyjny proces destylacji<BR>Proces \r\nprodukcji Belvedere Organic Vodka F1 Limited Edition opiera się na \r\nrygorystycznej kontroli jakości oraz wykorzystaniu wyłącznie naturalnych \r\nskładników. Wódka nie zawiera sztucznych dodatków, aromatów ani ulepszaczy, \r\ndzięki czemu zachowuje swój autentyczny charakter. Tradycyjna metoda destylacji \r\npozwala w pełni wydobyć subtelne nuty organicznego żyta, zapewniając wyjątkową \r\nczystość oraz doskonale zbalansowany profil smakowy.<BR>Limitowana edycja dla \r\nkolekcjonerów i koneserów<BR>Belvedere Organic Vodka F1 Limited Edition wyróżnia \r\nsię nie tylko wyjątkową jakością, ale również efektowną butelką nawiązującą do \r\nestetyki Formuły 1. To propozycja dla kolekcjonerów, fanów motorsportu oraz osób \r\nposzukujących luksusowej wódki premium na wyjątkowe okazje. Limitowany charakter \r\nedycji sprawia, że stanowi również doskonały pomysł na elegancki prezent dla \r\nmiłośników ekskluzywnych alkoholi.</P>\r\n",
+  "description_short": "<p>Belvedere Organic Vodka F1 Limited Edition – nowoczesna elegancja inspirowana światem Formuły 1<br/>Belvedere Organic Vodka F1 Limited Edition to ekskluzywna, limitowana edycja polskiej wódki premium, stworzona z myślą o miłośnikach luksusu, nowoczesnego desi</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3027,
+  "id_product": 3027,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka-czysta",
+  "category_name": "Wódka czysta",
+  "link": "https://luksusowealkohole.pl/wodka-czysta/3027-wodka-belvedere-formula-1-limited-edition-5901867820778",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 145.528455,
+  "price_without_reduction": 179,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4809,
+      "legend": "WÓDKA Belvedere Formula 1 Limited Edition",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4809-small_default/wodka-belvedere-formula-1-limited-edition.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4809-small_default/wodka-belvedere-formula-1-limited-edition.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4809-medium_default/wodka-belvedere-formula-1-limited-edition.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4809-medium_default/wodka-belvedere-formula-1-limited-edition.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4809,
+    "legend": "WÓDKA Belvedere Formula 1 Limited Edition",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4809-small_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-small_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4809-medium_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-medium_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4809-cart_default/wodka-belvedere-formula-1-limited-edition.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4809-home_default/wodka-belvedere-formula-1-limited-edition.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4809-large_default/wodka-belvedere-formula-1-limited-edition.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 179,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

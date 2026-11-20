@@ -23,7 +23,7 @@ VALUES (@ws_key, @ws_desc, 'WebserviceRequest', 0, 1);
 SET @ws_id = LAST_INSERT_ID();
 INSERT INTO ps_webservice_account_shop (id_webservice_account, id_shop) VALUES (@ws_id, 1);
 
--- 4. Uprawnienia: iloczyn kartezjański zasobów i metod = 20 wierszy
+-- 4. Uprawnienia: iloczyn kartezjański zasobów i metod = 28 wierszy
 INSERT INTO ps_webservice_permission (resource, method, id_webservice_account)
 SELECT r.res, m.meth, @ws_id
 FROM (SELECT 'categories' AS res UNION ALL SELECT 'products' UNION ALL SELECT 'combinations'

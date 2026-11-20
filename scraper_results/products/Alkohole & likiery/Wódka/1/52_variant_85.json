@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5900685005107",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "49,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-05-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 83,
+  "advanced_stock_management": "0",
+  "date_add": "2024-05-21 14:55:31",
+  "date_upd": "2025-02-20 12:47:34",
+  "pack_stock_type": 3,
+  "meta_description": "ABSOLUT VODKA produkowana jest w Ahus w południowej Szwecji, z najwyższej jakości składników: krystalicznej czystej wody oraz pszenicy ozimej.",
+  "meta_keywords": "",
+  "meta_title": "Absolut Blue",
+  "link_rewrite": "absolut-blue",
+  "name": "Absolut Blue",
+  "description": "\r\n<P>Historia ABSOLUT VODKA sięga XIX wieku i związana jest z Larsem Olssonem \r\nSmithem, który został okrzyknięty „Królem Wódki”. Już w wieku 14 lat kontrolował \r\n1/3 sprzedaży tego alkoholu w Szwecji. W 1879 roku Smith rozpoczął produkcję \r\nswojego największego dzieła – “Absolut rent Bränvin” (szw. absolutnie czysta \r\nwódka). Kluczem do sukcesu była rewolucyjna metoda destylacji ciągłej. ABSOLUT \r\nwykorzystuję ją do dzisiaj. Wódka jest oczyszczana z wszelkich zanieczyszczeń, \r\nale zachowywane są wszystkie charakterystyczne aromaty doskonałych surowców.</P>\r\n<P>ABSOLUT jest urzeczywistnieniem idei \"Jedno Źródło\" („One Source”). Dla \r\nzapewnienia niezmiennie wysokiej jakości, każda kropla wódki pochodzi z jednego \r\ngatunku pszenicy, jednego źródła wody oraz produkowana jest tylko w jednym \r\nmiejscu – szwedzkim miasteczku &#197;hus. ABSOLUT jest również pionierem i liderem w \r\nprodukcji wódek smakowych.</P>\r\n",
+  "description_short": "<p>ABSOLUT VODKA produkowana jest w Ahus w południowej Szwecji, z najwyższej jakości składników: krystalicznej czystej wody oraz pszenicy ozimej, która nadaje trunkowi charakterystyczny, ziarnisty smak.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 52,
+  "id_product": 52,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 85,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/52-absolut-blue",
+  "manufacturer_name": null,
+  "attribute_price": -13.00813,
+  "price_tax_exc": 39.837398,
+  "price_without_reduction": 49,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 16,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szwecja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 45
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "7312040017072",
+      "ean13": "7312040017072",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1850,
+      "legend": "Absolut Blue",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1850-small_default/absolut-blue.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1850-small_default/absolut-blue.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1850-medium_default/absolut-blue.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1850-medium_default/absolut-blue.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1850,
+    "legend": "Absolut Blue",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1850-small_default/absolut-blue.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-small_default/absolut-blue.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1850-medium_default/absolut-blue.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-medium_default/absolut-blue.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1850-cart_default/absolut-blue.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1850-home_default/absolut-blue.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1850-large_default/absolut-blue.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 49,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

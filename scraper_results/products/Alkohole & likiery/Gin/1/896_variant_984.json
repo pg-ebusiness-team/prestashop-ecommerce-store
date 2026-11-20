@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410028900794",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "239,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 984,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 12:00:54",
+  "date_upd": "2026-01-29 12:14:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Botanic Ultra Premium +",
+  "link_rewrite": "gin-botanic-ultra-premium-",
+  "name": "GIN Botanic Ultra Premium +",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Gin \r\nwyprodukowany z wysoko jakościowego angielskiego zboża, przedestylowany \r\n4-krotnie w ponad 100 letnich angielskich kolumnach destylacyjnych. Do jego \r\nprodukcji wykorzystano wysokiej jakości rośliny takie jak m.in. cytrus nazywany \r\n„Ręką Buddy”, jałowiec, kolendra, skórka pomarańczy i cytryny, korzeń irysa i \r\nlukrecji, kwiat pomarańczy. Rozlewany do wyjątkowych kwadratowych \r\nbutelek.</SPAN></P>\r\n",
+  "description_short": "<p>Gin wyprodukowany z wysoko jakościowego angielskiego zboża, przedestylowany 4-krotnie w ponad 100 letnich angielskich kolumnach destylacyjnych.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 896,
+  "id_product": 896,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 984,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/896-gin-botanic-ultra-premium-",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 194.308943,
+  "price_without_reduction": 239,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Anglia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 353
+    },
+    {
+      "name": "Alkohol",
+      "value": "45%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 240
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8410028900794",
+      "ean13": "8410028900794",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4019,
+      "legend": "GIN Botanic Ultra Premium +",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4019-cart_default/gin-botanic-ultra-premium-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4019-cart_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4019-small_default/gin-botanic-ultra-premium-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4019-small_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4019-home_default/gin-botanic-ultra-premium-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4019-home_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4019-medium_default/gin-botanic-ultra-premium-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4019-medium_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4019-large_default/gin-botanic-ultra-premium-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4019-large_default/gin-botanic-ultra-premium-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4019-cart_default/gin-botanic-ultra-premium-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4019-cart_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4019-home_default/gin-botanic-ultra-premium-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4019-home_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4019-large_default/gin-botanic-ultra-premium-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4019-large_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4020,
+      "legend": "GIN Botanic Ultra Premium +",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4020-small_default/gin-botanic-ultra-premium-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4020-small_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4020-medium_default/gin-botanic-ultra-premium-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4020-medium_default/gin-botanic-ultra-premium-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4020,
+    "legend": "GIN Botanic Ultra Premium +",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4020-small_default/gin-botanic-ultra-premium-.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-small_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4020-medium_default/gin-botanic-ultra-premium-.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-medium_default/gin-botanic-ultra-premium-.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4020-cart_default/gin-botanic-ultra-premium-.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4020-home_default/gin-botanic-ultra-premium-.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4020-large_default/gin-botanic-ultra-premium-.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 239,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

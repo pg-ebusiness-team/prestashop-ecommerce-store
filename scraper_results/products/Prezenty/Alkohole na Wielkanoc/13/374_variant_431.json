@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "MONTBLANC",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "179,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 431,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 13:33:45",
+  "date_upd": "2024-07-03 13:33:45",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Clos Montblanc Inici",
+  "link_rewrite": "wino-clos-montblanc-inici",
+  "name": "WINO Clos Montblanc Inici",
+  "description": " \r\n<P style=\"text-align: justify;\">Wino organiczne z zachodniej Katalonii. Powstaje\r\n w jednej z&nbsp;nowocześniejszych winiarni, a jego twórcą jest doświadczony\r\n enolog Josep Vadrí. Fermentacja jest naturalna i zachodzi w historycznych,\r\n kamiennych kadziach. Przed zabutelkowaniem wino dojrzewa w&nbsp;beczkach z\r\n francuskiego dębu przez 18 do 24 miesięcy.</P>\r\n<P style=\"text-align: justify;\">Barwa ciemnopurpurowa, aromat intensywny i\r\n wielowymiarowy z&nbsp;dominującymi nutami czarnych owoców i ciepłych przypraw\r\n korzennych. W ustach wino jest bogate, gęste, beczkowe; ma świetną strukturę z\r\n dobrą podbudową kwasową i mineralną oraz długi, trwały finisz. Doskonale\r\n komponuje się z wybornymi mięsami, pasztetami, szynką dojrzewającą i pikantnymi\r\n serami.</P>\r\n",
+  "description_short": "<p>Wino organiczne z zachodniej Katalonii. Powstaje w jednej z nowocześniejszych winiarni, a jego twórcą jest doświadczony enolog Josep Vadrí. Fermentacja jest naturalna i zachodzi w historycznych, kamiennych kadziach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 374,
+  "id_product": 374,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 431,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/374-wino-clos-montblanc-inici",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 145.528455,
+  "price_without_reduction": 179,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Tarragona",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 315
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    },
+    {
+      "name": "Szczep",
+      "value": "Garnacha",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 78
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "MONTBLANC",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 454,
+      "legend": "WINO Clos Montblanc Inici",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/454-small_default/wino-clos-montblanc-inici.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/454-small_default/wino-clos-montblanc-inici.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/454-medium_default/wino-clos-montblanc-inici.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/454-medium_default/wino-clos-montblanc-inici.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 454,
+    "legend": "WINO Clos Montblanc Inici",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/454-small_default/wino-clos-montblanc-inici.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-small_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/454-medium_default/wino-clos-montblanc-inici.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-medium_default/wino-clos-montblanc-inici.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/454-cart_default/wino-clos-montblanc-inici.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/454-home_default/wino-clos-montblanc-inici.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/454-large_default/wino-clos-montblanc-inici.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 179,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

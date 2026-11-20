@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907213520255",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "49,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-02 16:48:21",
+  "date_upd": "2026-09-02 16:48:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Old Barrey Handy Flask 40% 0,35l puszka",
+  "link_rewrite": "whisky-old-barrey-handy-flask-40-035l-puszka",
+  "name": "WHISKY Old Barrey Handy Flask 40% 0,35l puszka",
+  "description": "WHISKY Old Barrey Handy Flask 40% 0,35 L [Puszka]<BR>Old Barrey Handy \r\nFlask to whisky o klasycznym, wyrazistym charakterze, zamknięta w wyjątkowej \r\nbutelce inspirowanej tradycyjną piersiówką (flask). Kompaktowa forma nadaje jej \r\noryginalny, męski charakter i sprawia, że doskonale sprawdzi się jako prezent \r\ndla miłośnika mocnych alkoholi.<BR>Whisky oferuje harmonijny profil smakowy, \r\nłączący delikatne nuty zbożowe z przyjemnymi akcentami wanilii, karmelu i \r\nsubtelną dębową nutą. Na podniebieniu jest łagodna i dobrze zbalansowana, z \r\nprzyjemnie rozgrzewającym finiszem.<BR>Pojemność 0,35 litra sprawia, że jest to \r\nidealny format na wyjątkową okazję, spotkanie w gronie przyjaciół lub jako \r\nelegancki dodatek do zestawu prezentowego.<BR>Całość została umieszczona w \r\ndekoracyjnej puszce, która podkreśla prezentowy charakter produktu i czyni z \r\nniego atrakcyjny upominek. Old Barrey Handy Flask to propozycja dla osób, które \r\ncenią klasyczne alkohole podane w nietuzinkowej formie.<BR>\r\n",
+  "description_short": "<p>WHISKY Old Barrey Handy Flask 40% 0,35 L [Puszka]<br/>Old Barrey Handy Flask to whisky o klasycznym, wyrazistym charakterze, zamknięta w wyjątkowej butelce inspirowanej tradycyjną piersiówką (flask). Kompaktowa forma nadaje jej oryginalny, męski charakter i</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3055,
+  "id_product": 3055,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3055-whisky-old-barrey-handy-flask-40-035l-puszka-5907213520255",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 39.837398,
+  "price_without_reduction": 49,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4831,
+      "legend": "WHISKY Old Barrey Handy Flask 40% 0,35l puszka",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4831-small_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4831-small_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4831-medium_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4831-medium_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4831,
+    "legend": "WHISKY Old Barrey Handy Flask 40% 0,35l puszka",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4831-small_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-small_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4831-medium_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-medium_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4831-cart_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4831-home_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4831-large_default/whisky-old-barrey-handy-flask-40-035l-puszka.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 49,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

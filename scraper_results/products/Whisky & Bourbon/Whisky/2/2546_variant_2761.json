@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010494996456",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "239,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-09",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2761,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-09 10:52:09",
+  "date_upd": "2026-05-31 18:31:56",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Ardbeg 10yo + szklanki",
+  "link_rewrite": "whisky-ardbeg-10yo-szklanki",
+  "name": "WHISKY Ardbeg 10yo + szklanki",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Ardbeg, \n jedna z najbardziej rozpoznawalnych destylarni na szkockiej wyspie Islay, od \nlat  uznawana jest za producenta jednej z najbardziej torfowych i złożonych \nwhisky na  świecie. W ciągu ostatnich lat zdobyła więcej prestiżowych nagród niż \n jakakolwiek inna destylarnia z regionu, umacniając swój status legendy wśród \n fanów dymnych single maltów. Choć historia Ardbega sięga roku 1815, dopiero od \n 1997 roku destylarnia działa stabilnie, po dekadach burzliwych losów i licznych \n przestojów. Właśnie wtedy rozpoczął się nowy rozdział, którego symbolem jest \n klasyczna i kultowa whisky - Ardbeg 10 YO. Ten 10-letni single malt to esencja \n stylu Ardbega - intensywnie torfowy, pełen głębi i wyraźnego charakteru, a \n zarazem doskonale zbalansowany. Dojrzewa wyłącznie w beczkach po bourbonie, \n które były wcześniej napełniane maksymalnie dwa razy, co pozwala wydobyć  \nmaksimum aromatów z dębu. Whisky jest butelkowana bez filtracji na zimno (non \n chill-filtered) z mocą 46% ABV, co dodatkowo podkreśla jej strukturę i \n aromatyczną złożoność. Zawartość fenoli w Ardbeg 10YO sięga aż 55 ppm (parts \nper  million) - to właśnie ten wskaźnik odpowiada za intensywnie dymny profil, \nktóry  na długo pozostaje w pamięci degustatora. W 2008 roku whisky ta zdobyła \ntytuł  \"Whisky of the Year\" wg Jima Murray'a, a dziś uznawana jest za jedną z \n najlepszych i najbardziej rozpoznawalnych torfowych whisky dostępnych na rynku. \n Ardbeg Ten to bezdyskusyjna klasyka i obowiązkowa pozycja dla każdego miłośnika \n wyspiarskiego single malta.</span></p>",
+  "description_short": "<p>Ardbeg, jedna z najbardziej rozpoznawalnych destylarni na szkockiej wyspie Islay, od lat uznawana jest za producenta jednej z najbardziej torfowych i złożonych whisky na świecie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2546,
+  "id_product": 2546,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2761,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2546-whisky-ardbeg-10yo-szklanki",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 194.308943,
+  "price_without_reduction": 239,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Edycja limitowana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 605
+    },
+    {
+      "name": "Charakter",
+      "value": "Dymna",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 241
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    },
+    {
+      "name": "Wiek",
+      "value": "10 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 178
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010494996456",
+      "ean13": "5010494996456",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4763,
+      "legend": "WHISKY Ardbeg 10yo + szklanki",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4763-small_default/whisky-ardbeg-10yo-szklanki.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4763-small_default/whisky-ardbeg-10yo-szklanki.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4763-medium_default/whisky-ardbeg-10yo-szklanki.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4763-medium_default/whisky-ardbeg-10yo-szklanki.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4763,
+    "legend": "WHISKY Ardbeg 10yo + szklanki",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4763-small_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-small_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4763-medium_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-medium_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4763-cart_default/whisky-ardbeg-10yo-szklanki.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4763-home_default/whisky-ardbeg-10yo-szklanki.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4763-large_default/whisky-ardbeg-10yo-szklanki.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 239,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

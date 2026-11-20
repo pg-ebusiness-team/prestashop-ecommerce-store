@@ -1,0 +1,385 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8420347000051",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "60,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 414,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-02 10:44:42",
+  "date_upd": "2025-02-20 12:49:27",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Baron De Ley Semi Dulce",
+  "link_rewrite": "wino-baron-de-ley-semi-dulce",
+  "name": "WINO Baron De Ley Semi Dulce",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Znakomite, białe wino półsłodkie z bajecznym aromatem owoców \r\negzotycznych oraz akcentami ziół. Producent przedstawia bardzo atrakcyjne, \r\nprzyjemne i ciepłe hiszpańskie wino ze szczepów viura oraz sauvignon blanc z \r\napelacji Rioja. Na podniebieniu zderzają się słodycz z owocową kwasowością \r\ncytryny, ananasa, gruszki oraz jabłka oraz wyczuwalne są świeże zioła. Idealnie \r\nsprawdzi się schłodzone w ciepłe, letnie dni.</FONT></P>\r\n",
+  "description_short": "<p>Znakomite, białe wino półsłodkie z bajecznym aromatem owoców egzotycznych oraz akcentami ziół. Producent przedstawia bardzo atrakcyjne, przyjemne i ciepłe hiszpańskie wino ze szczepów viura oraz sauvignon blanc z apelacji Rioja.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 361,
+  "id_product": 361,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 414,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/361-wino-baron-de-ley-semi-dulce",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 48.780488,
+  "price_without_reduction": 60,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Rioja",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 310
+    },
+    {
+      "name": "Alkohol",
+      "value": "11%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 234
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Szczep",
+      "value": "Sauvignon Blanc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 136
+    },
+    {
+      "name": "Szczep",
+      "value": "Viura",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 158
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8420347000051",
+      "ean13": "8420347000051",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1875,
+      "legend": "WINO Baron De Ley Semi Dulce",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1875-small_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1875-small_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1875-medium_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1875-medium_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 1874,
+      "legend": "WINO Baron De Ley Semi Dulce",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1874-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1874-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1874-small_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1874-small_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1874-home_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1874-home_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1874-medium_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1874-medium_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1874-large_default/wino-baron-de-ley-semi-dulce.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1874-large_default/wino-baron-de-ley-semi-dulce.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1874-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1874-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1874-home_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1874-home_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1874-large_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1874-large_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1875,
+    "legend": "WINO Baron De Ley Semi Dulce",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1875-small_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-small_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1875-medium_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-medium_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1875-cart_default/wino-baron-de-ley-semi-dulce.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1875-home_default/wino-baron-de-ley-semi-dulce.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1875-large_default/wino-baron-de-ley-semi-dulce.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 60,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

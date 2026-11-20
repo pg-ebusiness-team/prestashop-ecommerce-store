@@ -1,0 +1,337 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3043700373811",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 37,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "229,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2803,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 10:16:09",
+  "date_upd": "2025-09-15 11:41:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE Mumm Brut Grand Cordon",
+  "link_rewrite": "champagne-mumm-brut-grand-cordon",
+  "name": "CHAMPAGNE Mumm Brut Grand Cordon",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Mumm \r\nGrand Cordon to sztandarowy szampan renomowanego domu G.H. Mumm, stworzony \r\nzgodnie z mottem jego założycieli: \"Tylko to, co najlepsze\". Właśnie dlatego do \r\njego produkcji wykorzystuje się starannie wyselekcjonowane winogrona pochodzące \r\nz ponad stu różnych winnic. Głównym szczepem w tej kompozycji jest Pinot Noir, \r\nktóry nadaje trunkowi wyrazisty charakter i szlachetne nuty aromatyczne. Butelka \r\nprzyciąga uwagę nowoczesnym designem - kultowa czerwona wstęga została \r\nwkomponowana bezpośrednio w szkło. Dodatkowego uroku dodaje zaawansowana \r\ntechnika nanoszenia grafik i napisów, która podkreśla wyjątkowość opakowania. W \r\nkieliszku szampan zachwyca złocistym kolorem z połyskującymi refleksami. W \r\naromacie wyczuwalne są dojrzałe owoce, przeplatane akcentami wanilii, pieczonego \r\nbiszkoptu, suszonych owoców i miodu. Na podniebieniu prezentuje się jako wino \r\nharmonijne, łączące świeżość struktury z intensywnością smaku. Mumm Grand Cordon \r\ndoskonale komponuje się z ostygami, krewetkami, delikatnymi rybami i drobiem. \r\nRównie dobrze sprawdzi się w towarzystwie łagodnych serów oraz lekkich deserów \r\nowocowych. Najlepiej serwować go w temperaturze \r\n10-12°C.</SPAN></P>\r\n",
+  "description_short": "<p>Mumm Grand Cordon to sztandarowy szampan renomowanego domu G.H. Mumm, stworzony zgodnie z mottem jego założycieli: \"Tylko to, co najlepsze\".</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2585,
+  "id_product": 2585,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2803,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "champagne",
+  "category_name": "Champagne",
+  "link": "https://luksusowealkohole.pl/champagne/2585-champagne-mumm-brut-grand-cordon",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 186.178862,
+  "price_without_reduction": 229,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 30,
+  "quantity_all_versions": 30,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Szampania",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 377
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Meunier",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 122
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Szczep",
+      "value": "Wieloszczepowe",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 159
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3043700373811",
+      "ean13": "3043700373811",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3622,
+      "legend": "CHAMPAGNE Mumm Brut Grand Cordon",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3622-small_default/champagne-mumm-brut-grand-cordon.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3622-small_default/champagne-mumm-brut-grand-cordon.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3622-medium_default/champagne-mumm-brut-grand-cordon.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3622-medium_default/champagne-mumm-brut-grand-cordon.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "associatedVariants": [
+        2803
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3622,
+    "legend": "CHAMPAGNE Mumm Brut Grand Cordon",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3622-small_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-small_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3622-medium_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-medium_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3622-cart_default/champagne-mumm-brut-grand-cordon.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3622-home_default/champagne-mumm-brut-grand-cordon.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3622-large_default/champagne-mumm-brut-grand-cordon.jpg"
+      }
+    },
+    "associatedVariants": [
+      2803
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 229,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

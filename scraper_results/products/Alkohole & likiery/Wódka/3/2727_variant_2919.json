@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5032482000044",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2919,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-11 11:56:57",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Blavod Black Vodka",
+  "link_rewrite": "wodka-blavod-black-vodka",
+  "name": "WÓDKA Blavod Black Vodka",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Blavod \r\nBlack Vodka to wyjątkowa, czarna wódka, która przyciąga uwagę nie tylko \r\nnietypową barwą, ale i zaskakująco łagodnym smakiem. Stworzona z myślą o tych, \r\nktórzy poszukują czegoś więcej niż klasycznej czystości, łączy w sobie \r\nnowoczesny charakter i rzemieślniczą precyzję. Trzykrotnie destylowana i \r\ndwukrotnie filtrowana, wyróżnia się aksamitną strukturą i delikatnością, która \r\nzaskakuje w kontraście do jej intensywnego wyglądu. Pomysł na stworzenie czarnej \r\nwódki narodził się w San Francisco, a jego autorem był Mark Dorman. Kluczowym \r\nskładnikiem, który nadaje Blavod charakterystyczną barwę, jest naturalny \r\nekstrakt z kory drzewa Blach Catechu, rosnącego w Azji Południowo-Wschodniej \r\noraz w Afryce. Choć ekstrakt jest bogaty w taniny, nie wpływa na smak wódki - \r\njego obecność ma za to podkreślać jej wyjątkową gładkość. W aromacie Blavod \r\nzachwyca intensywnymi nutami czarnej porzeczki i jagód, które subtelnie łączą \r\nsię z wanilią i przyprawami, tworząc niezwykle intrygujące pierwsze wrażenie. W \r\nsmaku wódka jest głęboka i wyrazista - dominują w niej owocowe akcenty, \r\nprzeplatane słodyczą wanilii i ciepłem przypraw. Finisz jest długi, gładki, z \r\ndelikatnym posmakiem czarnych owoców i lekką, rozgrzewającą słodyczą. Blavod to \r\ndoskonały wybór nie tylko do degustacji solo, ale przede wszystkim jako \r\nefektowny składnik koktajli. Jej czarna barwa pozwala tworzyć kreatywne i \r\nwizualnie zachwycające kompozycje, które wyróżnią się na każdej imprezie czy w \r\neleganckim barze. To wódka, która odważnie łączy tradycję z innowacją - dla \r\ntych, którzy oczekują więcej niż klasycznego smaku i szukają alkoholu z \r\ncharakterem.</SPAN></P>\r\n",
+  "description_short": "<p>Blavod Black Vodka to wyjątkowa, czarna wódka, która przyciąga uwagę nie tylko nietypową barwą, ale i zaskakująco łagodnym smakiem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2727,
+  "id_product": 2727,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2919,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2727-wodka-blavod-black-vodka",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wielka Brytania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 239
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czarna",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 594
+    },
+    {
+      "name": "Charakter",
+      "value": "Zbożowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 301
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "5032482000044",
+      "ean13": "5032482000044",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3796,
+      "legend": "WÓDKA Blavod Black Vodka",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3796-small_default/wodka-blavod-black-vodka.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3796-small_default/wodka-blavod-black-vodka.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3796-medium_default/wodka-blavod-black-vodka.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3796-medium_default/wodka-blavod-black-vodka.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3796,
+    "legend": "WÓDKA Blavod Black Vodka",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3796-small_default/wodka-blavod-black-vodka.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-small_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3796-medium_default/wodka-blavod-black-vodka.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-medium_default/wodka-blavod-black-vodka.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3796-cart_default/wodka-blavod-black-vodka.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3796-home_default/wodka-blavod-black-vodka.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3796-large_default/wodka-blavod-black-vodka.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

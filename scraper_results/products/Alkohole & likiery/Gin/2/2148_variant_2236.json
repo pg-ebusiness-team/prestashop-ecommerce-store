@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "698929000395",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-06-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2236,
+  "advanced_stock_management": "0",
+  "date_add": "2025-06-16 10:19:46",
+  "date_upd": "2025-06-16 19:38:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Martin Millers",
+  "link_rewrite": "gin-martin-millers",
+  "name": "GIN Martin Millers",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Martin \r\nMiller's Dry Gin to wyjątkowy trunek powstający w Anglii, destylowany \r\ntradycyjnymi metodami w renomowanej gorzelni w Langley. Produkowany jest z \r\nmieszanki dziewięciu starannie wyselekcjonowanych składników botanicznych, \r\ntakich jak: jałowiec, kolendra, korzeń arcydzięgla, skórki cytryny i pomarańczy, \r\nolejek z limonki, korzeń irysa, cynamon, gałka muszkatołowa, lukrecja oraz \r\nogórek. Gin poddawany jest dwukrotnej destylacji, co nadaje mu wyjątkową \r\nczystość i świeżość. Po zakończeniu procesu w Anglii, destylat trafia na \r\nIslandię, gdzie jest mieszany z krystalicznie czystą wodą, uważaną za jedną z \r\nnajczystszych na świecie. To właśnie ta unikalna kombinacja tradycji i \r\nislandzkiej natury nadaje ginowi niesamowitą świeżość oraz doskonale\r\n zbalansowany profil smakowy, w którym dominują cytrusy i jałowiec. Martin\r\n Miller's Gin zdobył uznanie na całym świecie - The Beverage Tasting Institute\r\n przyznał mu imponujące 97 na 100 punktów, uznając go za najlepszy gin na \r\nświecie.</SPAN></P>\r\n",
+  "description_short": "<p>Martin Miller's Dry Gin to wyjątkowy trunek powstający w Anglii, destylowany tradycyjnymi metodami w renomowanej gorzelni w Langley.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2148,
+  "id_product": 2148,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2236,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/2148-gin-martin-millers",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Anglia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 353
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "698929000395",
+      "ean13": "698929000395",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3018,
+      "legend": "GIN Martin Millers",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3018-small_default/gin-martin-millers.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3018-small_default/gin-martin-millers.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3018-medium_default/gin-martin-millers.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3018-medium_default/gin-martin-millers.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3018,
+    "legend": "GIN Martin Millers",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3018-small_default/gin-martin-millers.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-small_default/gin-martin-millers.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3018-medium_default/gin-martin-millers.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-medium_default/gin-martin-millers.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3018-cart_default/gin-martin-millers.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3018-home_default/gin-martin-millers.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3018-large_default/gin-martin-millers.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

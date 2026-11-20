@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5901549817645",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "87,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-02 16:53:21",
+  "date_upd": "2026-09-02 16:53:21",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Szelment Polskie Żyto 40% 0,7l [tuba]",
+  "link_rewrite": "wodka-szelment-polskie-zyto-40-07l-tuba-",
+  "name": "WÓDKA Szelment Polskie Żyto 40% 0,7l [tuba]",
+  "description": "WÓDKA Szelment Polskie Żyto 40% 0,7 L [Tuba]<BR>Szelment Polskie Żyto to \r\nklasyczna polska wódka, której charakter opiera się na wykorzystaniu wysokiej \r\njakości polskiego żyta. Tradycyjny surowiec oraz staranny proces produkcji \r\npozwalają uzyskać trunek o czystym, harmonijnym i wyrazistym profilu.<BR>Wódka \r\nwyróżnia się delikatnym aromatem zbożowym oraz łagodnym, dobrze zbalansowanym \r\nsmakiem. Na podniebieniu jest czysta i przyjemna, z subtelnymi nutami \r\ncharakterystycznymi dla żyta oraz eleganckim, lekko rozgrzewającym \r\nfiniszem.<BR>Szelment Polskie Żyto doskonale sprawdzi się zarówno podczas \r\nspotkań towarzyskich i rodzinnych uroczystości, jak i jako klasyczny polski \r\ntrunek serwowany schłodzony.<BR>Butelka o pojemności 0,7 litra została \r\numieszczona w eleganckiej tubie prezentowej, dzięki czemu produkt nabiera \r\nwyjątkowego charakteru i świetnie sprawdzi się jako upominek dla miłośnika \r\npolskich alkoholi.<BR>Kraj: Polska<BR>Typ: wódka czysta<BR>Surowiec: polskie \r\nżyto<BR>Zawartość alkoholu: 40%<BR>Pojemność: 0,7 L<BR>Opakowanie: tuba \r\nprezentowa<BR>Charakter: czysty, łagodny, harmonijny, zbożowy<BR>Sposób podania: \r\nnajlepiej dobrze schłodzona<BR>Idealna jako: prezent, element zestawu \r\nupominkowego lub trunek na wyjątkowe okazje \r\n",
+  "description_short": "<p>WÓDKA Szelment Polskie Żyto 40% 0,7 L [Tuba]<br/>Szelment Polskie Żyto to klasyczna polska wódka, której charakter opiera się na wykorzystaniu wysokiej jakości polskiego żyta.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3056,
+  "id_product": 3056,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/3056-wodka-szelment-polskie-zyto-40-07l-tuba--5901549817645",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 70.731707,
+  "price_without_reduction": 87,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4830,
+      "legend": "WÓDKA Szelment Polskie Żyto 40% 0,7l [tuba]",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4830-small_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4830-small_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4830-medium_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4830-medium_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4830,
+    "legend": "WÓDKA Szelment Polskie Żyto 40% 0,7l [tuba]",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4830-small_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-small_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4830-medium_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-medium_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4830-cart_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4830-home_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4830-large_default/wodka-szelment-polskie-zyto-40-07l-tuba-.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 87,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

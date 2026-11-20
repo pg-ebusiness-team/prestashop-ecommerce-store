@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410113556929",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 36,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "45,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3171,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-11 18:53:02",
+  "date_upd": "2026-05-13 21:55:31",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BEZALKOHOLOWE Torres Natureo Sparkling 0% 0,75l",
+  "link_rewrite": "bezalkoholowe-torres-natureo-sparkling-0-075l",
+  "name": "BEZALKOHOLOWE Torres Natureo Sparkling 0% 0,75l",
+  "description": "Torres Natureo Sparkling 0% – eleganckie bezalkoholowe wino musujące o \r\nświeżym charakterze<BR>Torres Natureo Sparkling 0% to nowoczesne bezalkoholowe \r\nwino musujące stworzone przez renomowaną hiszpańską winiarnię Torres, cenioną na \r\nświecie za jakość i innowacyjne podejście do produkcji win. To doskonała \r\npropozycja dla osób poszukujących eleganckiej alternatywy dla klasycznego \r\nprosecco lub szampana – bez alkoholu, ale z zachowaniem wyjątkowego charakteru i \r\nprzyjemności degustacji.<BR>Powstaje z wyselekcjonowanych szczepów winogron, a \r\ndzięki nowoczesnemu procesowi dealkoholizacji zachowuje naturalną świeżość, \r\naromatyczność oraz subtelne musowanie. Torres Natureo Sparkling 0% doskonale \r\nwpisuje się w rosnącą popularność win bezalkoholowych premium, oferując lekki, \r\nowocowy i niezwykle uniwersalny profil smakowy.<BR>Aromat<BR>W aromacie dominują \r\nświeże nuty zielonych jabłek, cytrusów i białych owoców, uzupełnione delikatnymi \r\nakcentami kwiatowymi oraz subtelną nutą brzoskwini. Całość jest lekka, świeża i \r\nbardzo przyjemna.<BR>Smak<BR>Na podniebieniu wino prezentuje harmonijny, owocowy \r\ncharakter z wyraźnie zaznaczoną świeżością i delikatnymi bąbelkami. Wyczuwalne \r\nsą nuty jabłka, gruszki oraz cytrusów, które nadają trunkowi lekkości i \r\nrześkiego stylu. Przyjemna kwasowość sprawia, że wino pozostaje doskonale \r\nzbalansowane i wyjątkowo orzeźwiające.<BR>Finisz<BR>Lekki, świeży i elegancki. \r\nPozostawia subtelne owocowe nuty oraz przyjemne musowanie, które zachęca do \r\nkolejnego kieliszka.<BR>Z czym podawać?<BR>Torres Natureo Sparkling 0% świetnie \r\nsprawdzi się jako aperitif, podczas spotkań towarzyskich, rodzinnych \r\nuroczystości oraz letnich przyjęć. Doskonale komponuje się z lekkimi sałatkami, \r\nowocami morza, sushi, deserami owocowymi oraz kuchnią \r\nśródziemnomorską.<BR>Dlaczego warto wybrać Torres Natureo Sparkling \r\n0%?<BR>bezalkoholowe wino musujące premium<BR>lekki i świeży profil \r\nsmakowy<BR>elegancka alternatywa dla prosecco i szampana<BR>subtelne, naturalne \r\nmusowanie<BR>idealne na przyjęcia, kolacje i spotkania rodzinne<BR>renomowana \r\nhiszpańska marka Torres<BR>\r\n",
+  "description_short": "<p>Torres Natureo Sparkling 0% to nowoczesne bezalkoholowe wino musujące stworzone przez renomowaną hiszpańską winiarnię Torres, cenioną na świecie za jakość i innowacyjne podejście do produkcji win. To doskonała propozycja dla osób poszukujących eleganckiej</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2981,
+  "id_product": 2981,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3171,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino-bezalkoholowe",
+  "category_name": "Wino bezalkoholowe",
+  "link": "https://luksusowealkohole.pl/wino-bezalkoholowe/2981-bezalkoholowe-torres-natureo-sparkling-0-075l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 36.585366,
+  "price_without_reduction": 45,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 8,
+  "quantity_all_versions": 8,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "0%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 521
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8410113556929",
+      "ean13": "8410113556929",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4736,
+      "legend": "BEZALKOHOLOWE Torres Natureo Sparkling 0% 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4736-small_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4736-small_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4736-medium_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4736-medium_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4736,
+    "legend": "BEZALKOHOLOWE Torres Natureo Sparkling 0% 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4736-small_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-small_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4736-medium_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-medium_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4736-cart_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4736-home_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4736-large_default/bezalkoholowe-torres-natureo-sparkling-0-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 45,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

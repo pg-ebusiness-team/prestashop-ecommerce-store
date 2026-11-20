@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5000299603017",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 19,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "219,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 154,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-18 11:05:01",
+  "date_upd": "2025-03-12 18:24:43",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BOURBON Four Roses Single Barrel",
+  "link_rewrite": "bourbon-four-roses-single-barrel",
+  "name": "BOURBON Four Roses Single Barrel",
+  "description": "\r\n<P>Bourbon Four Roses Single Barrel pełny&nbsp;i zaskakująco gładki&nbsp;z \r\ndelikatnym długim wykończeniem. Zawiera niuansy dojrzałych śliwek i wiśni smaki \r\nowocowe, korzenne aromaty w tym syrop klonowy i kakao. Zadowoli wytrawnych \r\nsmakoszy jak i początkujących koneserów.</P>\r\n<P>2005 Gold Medal - Best American Whiskey Under 10 Years Old - WHISKY MAGAZINE \r\nBest of the Best Awards</P>\r\n<P>2006 Judges’ Best Award – Taste of the Bluegrass</P>\r\n<P>2007 Best Bourbon Whiskey: No age – WHISKY MAGAZINE World Whiskies Award</P>\r\n<P>2007 Five Star Rating – F. Paul Pacult’s, SPIRIT JOURNAL</P>\r\n<P>2007 Gold Award – Whiskies of the World – International spirits Challenge</P>\r\n<P><SPAN style=\"line-height: 1.6em;\">2008 Best Bourbon Whiskey: No age – WHISKY \r\nMAGAZINE World Whiskies Award</SPAN></P>\r\n",
+  "description_short": "<p>Bourbon Four Roses Single Barrel pełny i zaskakująco gładki z delikatnym długim wykończeniem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 115,
+  "id_product": 115,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 154,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "bourbon",
+  "category_name": "Bourbon",
+  "link": "https://luksusowealkohole.pl/bourbon/115-bourbon-four-roses-single-barrel",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 178.04878,
+  "price_without_reduction": 218.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "50%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 251
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5000299603017",
+      "ean13": "5000299603017",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2385,
+      "legend": "BOURBON Four Roses Single Barrel",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2385-small_default/bourbon-four-roses-single-barrel.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2385-small_default/bourbon-four-roses-single-barrel.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2385-medium_default/bourbon-four-roses-single-barrel.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2385-medium_default/bourbon-four-roses-single-barrel.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2385,
+    "legend": "BOURBON Four Roses Single Barrel",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2385-small_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-small_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2385-medium_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-medium_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2385-cart_default/bourbon-four-roses-single-barrel.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2385-home_default/bourbon-four-roses-single-barrel.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2385-large_default/bourbon-four-roses-single-barrel.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 219,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

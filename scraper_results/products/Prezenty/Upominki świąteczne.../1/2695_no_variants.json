@@ -1,0 +1,320 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "210,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-01 22:44:25",
+  "date_upd": "2026-06-03 00:02:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem",
+  "name": "Prezent Premium – Hiszpańskie Wino w Pudełku z Okienkiem",
+  "description": "<ul class=\"product-list\">\n<li>Pudełko faliste z okienkiem</li>\n<li>Wino hiszpańskie</li>\n<li>Daktyle nadziewane migdałami 120g</li>\n<li>Pierniki nadziewane w deserowej czekoladzie 145g</li>\n<li>Blok miodowy o smaku waniliowym 100g</li>\n<li>Prażone orzeszki ziemne o smaku bekonu 60g</li>\n<li>Wafelki kakaowe 100g</li>\n<li>Dodatki, Konfekcjonowanie</li>\n</ul>\n<p style=\"margin-top:0px;margin-bottom:20px;font-family:Lato;font-size:18px;line-height:20px;letter-spacing:0px;color:#121212;background-color:#ffffff;\"><span style=\"font-weight:600;color:#414141;\">Szanowni Państwo,</span></p>\n<p style=\"margin-top:0px;margin-bottom:20px;font-family:Lato;font-size:18px;line-height:20px;letter-spacing:0px;color:#121212;background-color:#ffffff;\"><span style=\"font-weight:600;color:#414141;\">uprzejmie informujemy, że zdjęcia mają charakter poglądowy. Zastrzegamy sobie prawo do modyfikacji asortymentu w zależności od jego dostępności. Dziękujemy za wyrozumiałość!</span></p>",
+  "description_short": "<p>Pudełko faliste z okienkiem z winem hiszpańskim to elegancki zestaw upominkowy, który łączy styl i dobry smak. Wysokiej jakości wino hiszpańskie, znane z wyrazistego aromatu i pełnego charakteru, zostało zaprezentowane w estetycznym opakowaniu, które subtelnie eksponuje zawartość. To doskonały wybór na prezent zarówno dla bliskiej osoby, jak i w formie podarunku biznesowego. Zestaw z winem świetnie sprawdzi się na święta, jubileusz, urodziny czy inne ważne okazje. Faliste pudełko z okienkiem podkreśla wyjątkowość upominku, czyniąc go gustownym i efektownym. Jeśli szukasz pomysłu na prezent z winem, który zachwyci elegancją i uniwersalnym charakterem – ten zestaw będzie idealnym rozwiązaniem.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2695,
+  "id_product": 2695,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/2695-prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 170.731707,
+  "price_without_reduction": 210,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 50,
+  "quantity_all_versions": 50,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3758,
+      "legend": "Prezent Premium – Hiszpańskie Wino w Pudełku z Okienkiem",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3758-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3758-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3758-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3758-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3759,
+      "legend": "Prezent Premium – Hiszpańskie Wino w Pudełku z Okienkiem",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3759-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3759-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3759-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3759-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3759-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3759-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3759-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3759-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3759-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3759-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3759-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3759-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3759-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3759-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3759-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3759-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3758,
+    "legend": "Prezent Premium – Hiszpańskie Wino w Pudełku z Okienkiem",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3758-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-small_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3758-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-medium_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3758-cart_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3758-home_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3758-large_default/prezent-premium-hiszpanskie-wino-w-pudelku-z-okienkiem.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 210,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

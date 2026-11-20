@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010677633550",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 21,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "95,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2307,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-08 15:32:11",
+  "date_upd": "2025-07-08 16:16:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "VERMOUTH Martini Riserva Speciale Ambrato",
+  "link_rewrite": "vermouth-martini-riserva-speciale-ambrato",
+  "name": "VERMOUTH Martini Riserva Speciale Ambrato",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><STRONG><SPAN style='line-height: 115%; font-size: 12pt; font-weight: normal; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'><FONT \r\nface=\"Calibri\">Martini Riserva Speciale Ambrato to wyrafinowany włoski wermut, \r\nktóry oddaje ducha rzemieślniczej tradycji aperitifów rodem z Turynu. Powstały w \r\n2015 roku, inspirowany oryginalnymi recepturami z archiwum marki Martini, łączy \r\nw sobie starannie wyselekcjonowane białe wina - w tym słynne Moscato d'Asti DOCG \r\n- z wyjątkową kompozycją ziół, kwiatów i przypraw. Wermut ten dojrzewa w \r\ndębowych beczkach z Piemontu, co nadaje mu złożoności i elegancji. Jego profil \r\nsmakowy wyróżnia się wytrawnym charakterem, delikatną goryczką piołunu oraz \r\nnutami pikantnych przypraw i aromatycznych ziół. Subtelne akcenty miodu, \r\nczarnego bzu i owoców doskonale równoważą intensywnie roślinne tony, tworząc \r\nharmonijną i pełną głębi całość. Za selekcję win odpowiada mistrz blenderów \r\nBeppe Musso, a ekstrakty roślinne przygotowuje znany zielarz Ivano Tonutti, \r\nktóry bazuje na historycznych notatkach współzałożyciela firmy - Luigi Rossiego. \r\nRoślinny macerat dojrzewa przez ponad dwa miesiące, a proces maturacji, niegdyś \r\npowszechny, dziś zarezerwowany jest wyłącznie dla linii Riserva Speciale. \r\nMartini Riserva Speciale Ambrato najlepiej smakuje schłodzony, serwowany solo \r\nlub w towarzystwie wyrazistych, dojrzewających serów, takich jak stilton czy \r\ngorgonzola. Jest również doskonałą bazą dla koktajli, którym dodaje głębi, \r\ngoryczki i elegancji.</FONT></SPAN></STRONG></P>\r\n",
+  "description_short": "<p>Martini Riserva Speciale Ambrato to wyrafinowany włoski wermut, który oddaje ducha rzemieślniczej tradycji aperitifów rodem z Turynu.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2220,
+  "id_product": 2220,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2307,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "aperitif",
+  "category_name": "Aperitif",
+  "link": "https://luksusowealkohole.pl/aperitif/2220-vermouth-martini-riserva-speciale-ambrato",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 77.235772,
+  "price_without_reduction": 95,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "18,4%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 464
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "5010677633550",
+      "ean13": "5010677633550",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3163,
+      "legend": "VERMOUTH Martini Riserva Speciale Ambrato",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3163-small_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3163-small_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3163-medium_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3163-medium_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3163,
+    "legend": "VERMOUTH Martini Riserva Speciale Ambrato",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3163-small_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-small_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3163-medium_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-medium_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3163-cart_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3163-home_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3163-large_default/vermouth-martini-riserva-speciale-ambrato.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 95,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

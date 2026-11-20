@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3258431000008",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 82,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "299,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-05-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2163,
+  "advanced_stock_management": "0",
+  "date_add": "2025-05-19 18:53:19",
+  "date_upd": "2026-05-16 23:51:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "CHAMPAGNE L-P Brut Laurent-Perrier",
+  "link_rewrite": "champagne-l-p-brut-laurent-perrier",
+  "name": "CHAMPAGNE L-P Brut Laurent-Perrier",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Brut \r\nLP od Maison Laurent-Perrier to klasyczny szampan non-vintage, który doskonale \r\noddaje ducha i styl domu - świeżość, elegancję i doskonałą harmonię smaków. \r\nWyróżnia się dominującym udziałem Chardonnay (45%), uzupełnionym o 40% Pinot \r\nNoir i 15% Pinot Meunier, co nadaje mu lekkości i subtelnej finezji. Do \r\nprodukcji tego cuvée wykorzystuje się winogrona z ponad 55 starannie \r\nwyselekcjonowanych winnic, a całość wzbogacana jest o 10-20% win rezerwowych z \r\npoprzednich roczników. Ten zabieg pozwala zachować spójność i rozpoznawalny \r\ncharakter szampanów Laurent-Perrier. Dom założony w 1812 roku zdobył światowe \r\nuznanie dzięki połączeniu rygorystycznych standardów jakości z pasją tworzenia \r\nwin o wyrazistym, ale przystępnym charakterze. Brut LP lśni bladozłotym kolorem, \r\na w kieliszku zachwyca drobnoziarnistym, długotrwałym musowaniem. Aromat jest \r\nzłożony - dominują cytrusy oraz białe owoce, takie jak jabłka czy gruszki. Na \r\npodniebieniu wino jest żywe i rześkie, a jego miękka, zaokrąglona struktura \r\npięknie uwydatnia owocowe nuty znane z aromatu. Finisz długi, lekki i niezwykle \r\nprzyjemny. To szampan idealny zarówno jako aperitif, jak i do lekkich dań - \r\nstanowi kwintesencję stylu Laurent-Perrier: świeżość, finezja i ponadczasowa \r\nelegancja.</SPAN></P>\r\n",
+  "description_short": "<p>Brut LP od Maison Laurent-Perrier to klasyczny szampan non-vintage, który doskonale oddaje ducha i styl domu - świeżość, elegancję i doskonałą harmonię smaków.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2070,
+  "id_product": 2070,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2163,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino-musujace",
+  "category_name": "Wino Musujące",
+  "link": "https://luksusowealkohole.pl/wino-musujace/2070-champagne-l-p-brut-laurent-perrier",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 243.089431,
+  "price_without_reduction": 299,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "12%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 264
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Brut",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 541
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3258431000008",
+      "ean13": "3258431000008",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4742,
+      "legend": "CHAMPAGNE L-P Brut Laurent-Perrier",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4742-small_default/champagne-l-p-brut-laurent-perrier.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4742-small_default/champagne-l-p-brut-laurent-perrier.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4742-medium_default/champagne-l-p-brut-laurent-perrier.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4742-medium_default/champagne-l-p-brut-laurent-perrier.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4742,
+    "legend": "CHAMPAGNE L-P Brut Laurent-Perrier",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4742-small_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-small_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4742-medium_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-medium_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4742-cart_default/champagne-l-p-brut-laurent-perrier.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4742-home_default/champagne-l-p-brut-laurent-perrier.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4742-large_default/champagne-l-p-brut-laurent-perrier.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 299,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

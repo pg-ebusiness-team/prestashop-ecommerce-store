@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5203819007207",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 21,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3059,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-21 12:24:43",
+  "date_upd": "2025-11-21 13:54:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "APERITIF Ouzo Ammos",
+  "link_rewrite": "aperitif-ouzo-ammos",
+  "name": "APERITIF Ouzo Ammos",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Ammos \r\nOuzo to klasyczny grecki trunek anyżowy o wyrazistym aromacie i \r\ncharakterystycznym smaku, głęboko zakorzeniony w tradycji i kulturze Grecji. \r\nIdealnie sprawdza się jako aperitif lub digestif, szczególnie w towarzystwie \r\ntypowych greckich przekąsek meze, które podkreślają jego południowy charakter. \r\nProdukowane w malowniczej Macedonii, Ammos Ouzo oddaje ducha regionu - jego \r\nbogate dziedzictwo, śródziemnomorski klimat i naturalny urok. Marka korzysta \r\nwyłącznie z najwyższej jakości składników, tworząc harmonijną mieszankę, która \r\nprzenosi degustatora na słoneczne greckie wybrzeża. Jakość i czystość trunku \r\nzapewnia tradycyjny, wieloetapowy proces destylacji. Łączy on spirytus \r\nwinogronowy z anyżem, wyselekcjonowanymi ziołami oraz krystaliczną wodą \r\nźródlaną. Ta metoda pozwala zachować naturalną intensywność aromatów i \r\ngwarantuje smak, który sprosta oczekiwaniom nawet najbardziej wymagających \r\nmiłośników ouzo. W Grecji ouzo to nie tylko alkohol - to symbol spotkań, \r\nwspólnego świętowania i celebracji chwili. Najczęściej podaje się je z meze, \r\nktóre wzbogacają doznania kulinarne i tworzą charakterystyczną, radosną \r\natmosferę. Destylarnia Gatsios stworzyła lżejszą, lecz nadal wysokiej jakości \r\nwersję - Ouzo Ammos. Powstaje ono z precyzyjnie wybranych składników, tworząc \r\nharmonijną kompozycję o subtelnym, eleganckim aromacie. Dominujący zapach anyżu \r\nuzupełniają delikatne nuty kminku i cytrusów. To klarowne, dobrze zbalansowane \r\nouzo, zakończone przyjemnie słodkim finiszem.</SPAN></P>\r\n",
+  "description_short": "<p>Ammos Ouzo to klasyczny grecki trunek anyżowy o wyrazistym aromacie i charakterystycznym smaku, głęboko zakorzeniony w tradycji i kulturze</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2855,
+  "id_product": 2855,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3059,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "aperitif",
+  "category_name": "Aperitif",
+  "link": "https://luksusowealkohole.pl/aperitif/2855-aperitif-ouzo-ammos",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Grecja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 26
+    },
+    {
+      "name": "Alkohol",
+      "value": "37,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 237
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5203819007207",
+      "ean13": "5203819007207",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3957,
+      "legend": "APERITIF Ouzo Ammos",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3957-small_default/aperitif-ouzo-ammos.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3957-small_default/aperitif-ouzo-ammos.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3957-medium_default/aperitif-ouzo-ammos.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3957-medium_default/aperitif-ouzo-ammos.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3957,
+    "legend": "APERITIF Ouzo Ammos",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3957-small_default/aperitif-ouzo-ammos.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-small_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3957-medium_default/aperitif-ouzo-ammos.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-medium_default/aperitif-ouzo-ammos.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3957-cart_default/aperitif-ouzo-ammos.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3957-home_default/aperitif-ouzo-ammos.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3957-large_default/aperitif-ouzo-ammos.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

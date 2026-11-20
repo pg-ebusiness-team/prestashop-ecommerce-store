@@ -1,0 +1,357 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "082301420022",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "19,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 417,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-02 17:22:47",
+  "date_upd": "2026-01-31 12:07:09",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Cutty Sark",
+  "link_rewrite": "whisky-cutty-sark",
+  "name": "WHISKY Cutty Sark",
+  "description": "Cutty Sark to jedna z najbardziej rozpoznawalnych whisky typu blended na \r\nświecie powstaje ze starannie wyselekcjonowanych whisky single malt, głownie z \r\nregionu Speyside oraz z najlepszych destylatów zbożowych. Leżakowane są one w \r\nbeczkach dębowych, głównie z amerykańskiego dębu co nadaje whisky kolor bladego \r\nzłota. Bukiet świeży, trawiasty, w smaku wyczuwalna wanilia i dębowe drewno. \r\nFinisz długi, owocowy, wytrawny.\r\n",
+  "description_short": "<p>Cutty Sark to jedna z najbardziej rozpoznawalnych whisky typu blended na świecie powstaje ze starannie wyselekcjonowanych whisky single malt.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 363,
+  "id_product": 363,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2404,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/363-whisky-cutty-sark",
+  "manufacturer_name": null,
+  "attribute_price": -65.040651,
+  "price_tax_exc": 15.447154,
+  "price_without_reduction": 18.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "5060116323948",
+      "ean13": "5060116323948",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4264,
+      "legend": "WHISKY Cutty Sark",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4264-small_default/whisky-cutty-sark.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4264-small_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4264-medium_default/whisky-cutty-sark.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4264-medium_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4265,
+      "legend": "WHISKY Cutty Sark",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4265-cart_default/whisky-cutty-sark.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4265-cart_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4265-small_default/whisky-cutty-sark.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4265-small_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4265-home_default/whisky-cutty-sark.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4265-home_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4265-medium_default/whisky-cutty-sark.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4265-medium_default/whisky-cutty-sark.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4265-large_default/whisky-cutty-sark.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4265-large_default/whisky-cutty-sark.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4265-cart_default/whisky-cutty-sark.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4265-cart_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4265-home_default/whisky-cutty-sark.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4265-home_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4265-large_default/whisky-cutty-sark.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4265-large_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4264,
+    "legend": "WHISKY Cutty Sark",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4264-small_default/whisky-cutty-sark.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-small_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4264-medium_default/whisky-cutty-sark.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-medium_default/whisky-cutty-sark.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4264-cart_default/whisky-cutty-sark.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4264-home_default/whisky-cutty-sark.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4264-large_default/whisky-cutty-sark.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 19,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

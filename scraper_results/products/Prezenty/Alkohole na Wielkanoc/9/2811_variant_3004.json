@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5906681554601",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 31,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "89,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3004,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-31 09:23:58",
+  "date_upd": "2025-10-31 11:19:37",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "Nalewka Staropolska Wiśniowa tradycyjna",
+  "link_rewrite": "nalewka-staropolska-wisniowa-tradycyjna",
+  "name": "Nalewka Staropolska Wiśniowa tradycyjna",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Nalewka \r\nStaropolska to kwintesencja dojrzałych wiśni, które oddały cały swój aromat i \r\ngłębię smaku, by powstał ten szlachetny, rubinowy trunek. Jego ciemnoczerwony \r\nkolor i intensywny zapach przywołują wspomnienia letnich przetworów z domowej \r\nspiżarni babci. To nie tylko alkohol - to opowieść zamknięta w butelce. Na \r\netykiecie widnieje elegancki, tradycyjny herb oraz oznaczenie rocznika, \r\npodkreślające unikalny charakter trunku. Każda edycja jest limitowana, co czyni \r\ntę nalewkę wyjątkowym pomysłem na prezent dla konesera. W smaku dominuje \r\nsoczysta wiśnia, uzupełniona migdałową nutą i delikatną pestkowością, które \r\nrazem tworzą harmonijną całość. Nie znajdziesz tu sztucznych aromatów - to \r\nczysty, naturalny smak owoców i tradycji. Najlepiej smakuje serwowana w \r\ntemperaturze pokojowej, w małych kieliszkach, jako aromatyczny digestif po sytym \r\nposiłku. A jeśli chcesz po prostu zatrzymać czas i rozkoszować się chwilą - pij \r\nją solo, bez pośpiechu.</SPAN></P>\r\n",
+  "description_short": "<p>Nalewka Staropolska to kwintesencja dojrzałych wiśni, które oddały cały swój aromat i głębię smaku, by powstał ten szlachetny, rubinowy trunek.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2811,
+  "id_product": 2811,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3004,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "nalewka",
+  "category_name": "Nalewki",
+  "link": "https://luksusowealkohole.pl/nalewka/2811-nalewka-staropolska-wisniowa-tradycyjna",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 72.357724,
+  "price_without_reduction": 89.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "25%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 238
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półwytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 16
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 37,
+      "id_attribute_group": 5,
+      "name": "0,35 L",
+      "group": "Pojemność",
+      "reference": "5906681554601",
+      "ean13": "5906681554601",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3897,
+      "legend": "Nalewka Staropolska Wiśniowa tradycyjna",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3897-small_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3897-small_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3897-medium_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3897-medium_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3897,
+    "legend": "Nalewka Staropolska Wiśniowa tradycyjna",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3897-small_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-small_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3897-medium_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-medium_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3897-cart_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3897-home_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3897-large_default/nalewka-staropolska-wisniowa-tradycyjna.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 89,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

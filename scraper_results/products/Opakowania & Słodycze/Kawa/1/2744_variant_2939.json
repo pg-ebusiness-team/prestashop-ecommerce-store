@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8437001559060",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 46,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "40,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-20",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2939,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-20 16:38:52",
+  "date_upd": "2025-10-22 10:39:06",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KAWA Cafe Natural Gener ziarno",
+  "link_rewrite": "kawa-cafe-natural-gener-ziarno",
+  "name": "KAWA Cafe Natural Gener ziarno",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>To \r\nstarannie skomponowana mieszanka ziaren najwyższej jakości pochodzących z \r\nAmeryki Południowej, Azji i Afryki. Składa się w 90% z delikatnej Arabiki i 10% \r\nz intensywniejszej Robusty. Ziarna są średnio palone, co pozwala zachować ich \r\nnaturalny charakter i wydobyć głębię aromatu. Kawa charakteryzuje się \r\nharmonijnym smakiem, łagodnością, pełnym ciałem i przyjemnym, długim posmakiem. \r\nWyczuwalne są naturalne aromaty prażonych orzechów laskowych i rodzynek, a w \r\nsmaku dominują nuty orzechowe oraz miodowe. Nasza kawa zawdzięcza swoją \r\nwyjątkową jakość hiszpańskiej, rodzinnej palarni Cafés Gener z Barcelony, która \r\ndziała nieprzerwanie od 1950 roku, koncentrując się głównie na rynku \r\nkatalońskim. To rzemieślnicza marka, specjalizująca się w produktach \r\nekologicznych. Dzięki ich doświadczeniu i unikalnemu procesowi produkcji, \r\nmożliwe jest zachowanie pełni walorów smakowych oraz aromatu ziaren. Wszystkie \r\nkawy posiadają certyfikat przyznany przez Katalońską Radę ds. Ekologicznej \r\nProdukcji Rolnej. Ziarna pozyskiwane są bezpośrednio z tropikalnych plantacji i \r\npochodzą z dwóch głównych odmian: Arabica i Robusta. Arabica, wywodząca się z \r\nEtiopii, uprawiana jest na wysokościach od 600 do 1700 m n.p.m. i cechuje się \r\ndużą wrażliwością na zmienne warunki atmosferyczne i szkodniki. Robusta \r\nnatomiast pochodzi z Afryki Zachodniej, rośnie na niższych wysokościach (200-800 \r\nm n.p.m.) i zawiera dwa razy więcej kofeiny niż Arabica. Historia Cafés Gener \r\nsięga 1950 roku, kiedy Ton Vi&#241;as, właściciel kawiarni Café Colón w Cardonie, \r\npodzielił się wiedzą na temat palenia kawy z Josepem Generem, znanym jako \"el \r\nBonany\" - rolnikiem z pobliskiej wioski. Zainspirowany tą wiedzą Josep rozpoczął \r\nwłasną przygodę z kawą, szybko zdobywając uznanie w regionie dzięki pasji i \r\npracowitości, wspieranej przez żonę Finę. Dziś jego synowie, Toni i Joan Gener, \r\nkontynuują rodzinne dziedzictwo, oferując kawy najwyższej \r\njakości.</SPAN></P>\r\n",
+  "description_short": "<p>To starannie skomponowana mieszanka ziaren najwyższej jakości pochodzących z Ameryki Południowej, Azji i Afryki. Składa się w 90% z delikatnej Arabiki i 10% z intensywniejszej Robusty.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2744,
+  "id_product": 2744,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2939,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "kawa",
+  "category_name": "Kawa",
+  "link": "https://luksusowealkohole.pl/kawa/2744-kawa-cafe-natural-gener-ziarno",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 32.520325,
+  "price_without_reduction": 40,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziarnista",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 591
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czarna",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 594
+    },
+    {
+      "name": "Szczep",
+      "value": "Arabika",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 608
+    },
+    {
+      "name": "Szczep",
+      "value": "Robusta",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 609
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 50,
+      "id_attribute_group": 7,
+      "name": "250g",
+      "group": "Gramatura",
+      "reference": "8437001559060",
+      "ean13": "8437001559060",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3832,
+      "legend": "KAWA Cafe Natural Gener ziarno",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3832-small_default/kawa-cafe-natural-gener-ziarno.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3832-small_default/kawa-cafe-natural-gener-ziarno.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3832-medium_default/kawa-cafe-natural-gener-ziarno.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3832-medium_default/kawa-cafe-natural-gener-ziarno.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3832,
+    "legend": "KAWA Cafe Natural Gener ziarno",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3832-small_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-small_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3832-medium_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-medium_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3832-cart_default/kawa-cafe-natural-gener-ziarno.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3832-home_default/kawa-cafe-natural-gener-ziarno.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3832-large_default/kawa-cafe-natural-gener-ziarno.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 40,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

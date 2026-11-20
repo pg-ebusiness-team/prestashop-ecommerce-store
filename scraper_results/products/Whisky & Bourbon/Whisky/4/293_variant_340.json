@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 21,
+  "id_supplier": 0,
+  "reference": "5055966800022",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-26",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 340,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-26 18:45:03",
+  "date_upd": "2026-01-30 14:32:33",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Bushmills Original",
+  "link_rewrite": "whisky-bushmills-original",
+  "name": "WHISKY Bushmills Original",
+  "description": " \r\n<P style=\"text-align: justify;\">To podstawowa i najbardziej rozpoznawalna \r\nwhiskey mieszana z destylarni Bushmills, położonej na północy Irlandii.<BR> Ze \r\nwzględu na białą etykietę często nazywana jest \"White Bush\".<BR> Jest to \r\ntrzykrotnie destylowana whiskey, komponowana z 6-7 letnich whiskey słodowych z \r\nBushmills oraz z 4-5 letnich whiskey zbożowych wytwarzanych w destylarni \r\nMidleton z południa wyspy.<BR> Bushmills Original posiada wszystkie podstawowe \r\ncechy charakterystyczne dla irlandzkiej whiskey mieszanej.</P>\r\n<P style=\"text-align: justify;\">Aromat lekki i gładki z nutami kwiatów, miodu,\r\n wanilii, karmelu, ziół, cytrusów, winogron, moreli i gruszki.&nbsp;<BR>\r\n Subtelny smak i gładki z akcentami wanilii, karmelu, miodu, wrzosu, \r\nherbatników, suszonej moreli i pikantnych przypraw.<BR> Finisz&nbsp;krótki i \r\nlekki z akcentami wanilii i zimowych przypraw.</P>\r\n",
+  "description_short": "<p>To podstawowa i najbardziej rozpoznawalna whiskey mieszana z destylarni Bushmills, położonej na północy Irlandii.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 293,
+  "id_product": 293,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 340,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/293-whisky-bushmills-original",
+  "manufacturer_name": "Bushmills",
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5055966800022",
+      "ean13": "5055966800022",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4196,
+      "legend": "WHISKY Bushmills Original",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4196-small_default/whisky-bushmills-original.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4196-small_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4196-medium_default/whisky-bushmills-original.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4196-medium_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4197,
+      "legend": "WHISKY Bushmills Original",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4197-cart_default/whisky-bushmills-original.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4197-cart_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4197-small_default/whisky-bushmills-original.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4197-small_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4197-home_default/whisky-bushmills-original.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4197-home_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4197-medium_default/whisky-bushmills-original.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4197-medium_default/whisky-bushmills-original.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4197-large_default/whisky-bushmills-original.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4197-large_default/whisky-bushmills-original.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4197-cart_default/whisky-bushmills-original.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4197-cart_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4197-home_default/whisky-bushmills-original.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4197-home_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4197-large_default/whisky-bushmills-original.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4197-large_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4196,
+    "legend": "WHISKY Bushmills Original",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4196-small_default/whisky-bushmills-original.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-small_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4196-medium_default/whisky-bushmills-original.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-medium_default/whisky-bushmills-original.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4196-cart_default/whisky-bushmills-original.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4196-home_default/whisky-bushmills-original.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4196-large_default/whisky-bushmills-original.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

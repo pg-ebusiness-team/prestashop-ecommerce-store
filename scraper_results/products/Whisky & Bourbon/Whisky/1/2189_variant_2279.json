@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 3,
+  "id_supplier": 0,
+  "reference": "5000299620144",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "649,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2279,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-04 16:22:24",
+  "date_upd": "2026-03-11 16:17:13",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Aberlour 18yo 0.5L 43%",
+  "link_rewrite": "whisky-aberlour-18yo-05l-43",
+  "name": "WHISKY Aberlour 18yo 0.5L 43%",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Aberlour 18-letnia to wyrafinowana szkocka whisky single malt pochodząca z serca regionu Speyside. Leżakuje w dwóch typach beczek - po bourbonie oraz po hiszpańskim sherry Oloroso - co pozwala uzyskać głębszy, bardziej złożony profil smakowy. Gdy destylaty osiągną odpowiednią dojrzałość, są starannie łączone, tworząc harmonijną całość pełną bogactwa aromatów. Ta edycja to doskonały wybór zarówno dla koneserów, jak i jako elegancki prezent. W zapachu dominują kremowe nuty wanilii, przełamane świeżymi pomarańczami, słodyczą miodu i subtelnym akcentem drewna. Na podniebieniu pojawiają się soczyste cytrusy i jabłka, którym towarzyszy wanilia, wiśnie oraz delikatna czekolada. Finisz długi i rozgrzewający - z wyraźnymi tonami czekolady, karmelu i orzechów - zostawia przyjemne, eleganckie wrażenie.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Aberlour 18-letnia to wyrafinowana szkocka whisky single malt pochodząca z serca regionu Speyside. Leżakuje w dwóch typach beczek - po bourbonie oraz po hiszpańskim sherry Oloroso - co pozwala uzyskać głębszy, bardziej złożony profil smakowy.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2189,
+  "id_product": 2189,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2279,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/2189-whisky-aberlour-18yo-05l-43",
+  "manufacturer_name": "Aberlour",
+  "attribute_price": 0,
+  "price_tax_exc": 527.642276,
+  "price_without_reduction": 648.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Wiek",
+      "value": "18 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 189
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5000299620144",
+      "ean13": "5000299620144",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4058,
+      "legend": "WHISKY Aberlour 18yo 0.5L 43%",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4058-small_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4058-small_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4058-medium_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4058-medium_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4616,
+      "legend": "WHISKY Aberlour 18yo 0.5L 43%",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4616-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4616-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4616-small_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4616-small_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4616-home_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4616-home_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4616-medium_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4616-medium_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4616-large_default/whisky-aberlour-18yo-05l-43.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4616-large_default/whisky-aberlour-18yo-05l-43.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4616-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4616-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4616-home_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4616-home_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4616-large_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4616-large_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4058,
+    "legend": "WHISKY Aberlour 18yo 0.5L 43%",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4058-small_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-small_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4058-medium_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-medium_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4058-cart_default/whisky-aberlour-18yo-05l-43.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4058-home_default/whisky-aberlour-18yo-05l-43.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4058-large_default/whisky-aberlour-18yo-05l-43.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 649,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

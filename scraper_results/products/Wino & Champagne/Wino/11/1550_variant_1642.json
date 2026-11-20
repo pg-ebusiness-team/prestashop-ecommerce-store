@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3399235800200",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "119,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1642,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-14 16:07:15",
+  "date_upd": "2025-03-21 15:23:02",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Olivier Tricon Chablis",
+  "link_rewrite": "wino-olivier-tricon-chablis",
+  "name": "WINO Olivier Tricon Chablis",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Petit \r\nChablis Olivier Tricon to świeże i mineralne białe wino pochodzące z \r\nprestiżowego regionu Chablis w Burgundii, we Francji. Wytworzone w 100% ze \r\nszczepu Chardonnay, to wino charakteryzuje się bladożółtą barwą z delikatnymi \r\nzielonkawymi refleksami. Bukiet aromatyczny jest intensywnie cytrusowy, z nutami \r\nzielonych jabłek, białych kwiatów i subtelną mineralnością, typową dla terroir \r\nChablis. Na podniebieniu jest rześkie, lekkie i dobrze zbalansowane, z wyraźną \r\nkwasowością i delikatnymi nutami kredowymi, co czyni je doskonałym wyborem do \r\nlekkich dań, owoców morza i sałatek.</SPAN></P>\r\n",
+  "description_short": "<p>Petit Chablis Olivier Tricon to świeże i mineralne białe wino pochodzące z prestiżowego regionu Chablis w Burgundii, we Francji. Wytworzone w 100% ze szczepu Chardonnay, to wino charakteryzuje się bladożółtą barwą z delikatnymi zielonkawymi refleksami.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1550,
+  "id_product": 1550,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1642,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1550-wino-olivier-tricon-chablis",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 96.747967,
+  "price_without_reduction": 118.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 14,
+  "quantity_all_versions": 14,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Burgundia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 452
+    },
+    {
+      "name": "Alkohol",
+      "value": "12,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 266
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3399235800200",
+      "ean13": "3399235800200",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2473,
+      "legend": "WINO Olivier Tricon Chablis",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2473-small_default/wino-olivier-tricon-chablis.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2473-small_default/wino-olivier-tricon-chablis.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2473-medium_default/wino-olivier-tricon-chablis.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2473-medium_default/wino-olivier-tricon-chablis.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2473,
+    "legend": "WINO Olivier Tricon Chablis",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2473-small_default/wino-olivier-tricon-chablis.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-small_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2473-medium_default/wino-olivier-tricon-chablis.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-medium_default/wino-olivier-tricon-chablis.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2473-cart_default/wino-olivier-tricon-chablis.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2473-home_default/wino-olivier-tricon-chablis.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2473-large_default/wino-olivier-tricon-chablis.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 119,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

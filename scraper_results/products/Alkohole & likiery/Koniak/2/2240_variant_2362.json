@@ -1,0 +1,295 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3257150100822",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2360,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-11 13:44:25",
+  "date_upd": "2025-07-11 13:44:25",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Meukow X.O",
+  "link_rewrite": "koniak-meukow-xo",
+  "name": "KONIAK Meukow X.O",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Meukow \r\nXO to jeden z czołowych koniaków klasy XO dostępnych na rynku, mogący poszczycić \r\nsię długą i bogatą historią. Marka Meukow narodziła się pod koniec XIX wieku, \r\nkiedy car Aleksander II wysłał do Francji braci Augusta-Christophe'a i Gustava \r\nMeukow, by zaopatrywali rosyjski dwór w najlepsze koniaki. Niezwykła jakość \r\ntrunków Meukow to efekt wieloletniego doświadczenia twórców, starannej podwójnej \r\ndestylacji oraz długiego leżakowania w beczkach z dębu. To właśnie te elementy \r\nnadają koniakowi jego wyjątkowy charakter i perfekcyjną równowagę smaków. Meukow \r\nXO został nagrodzony srebrnym medalem na prestiżowym konkursie International \r\nVinalies Challenge w Paryżu w 2004 roku. Ma głęboki, ogniście mahoniowy kolor i\r\n krystaliczną klarowność. W aromacie dominują nuty kwiatowe - jaśmin i irys - \r\noraz owoce, takie jak suszone śliwki i brzoskwinie. W smaku wyczuwalna jest\r\n czekolada, wanilia i delikatna nuta kandyzowanych owoców. Finisz wzbogacony\r\n jest o akcenty gałki muszkatołowej, przypraw korzennych i szlachetnych \r\ncygar.</SPAN></P>\r\n",
+  "description_short": "<p>Meukow XO to jeden z czołowych koniaków klasy XO dostępnych na rynku, mogący poszczycić się długą i bogatą historią.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2240,
+  "id_product": 2240,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2362,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/2240-koniak-meukow-xo",
+  "manufacturer_name": null,
+  "attribute_price": -333.333334,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Koniak",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 378
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "3257150101027",
+      "ean13": "3257150101027",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3179,
+      "legend": "KONIAK Meukow X.O",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3179-cart_default/koniak-meukow-xo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3179-cart_default/koniak-meukow-xo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3179-small_default/koniak-meukow-xo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3179-small_default/koniak-meukow-xo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3179-home_default/koniak-meukow-xo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3179-home_default/koniak-meukow-xo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3179-medium_default/koniak-meukow-xo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3179-medium_default/koniak-meukow-xo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3179-large_default/koniak-meukow-xo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3179-large_default/koniak-meukow-xo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3179-cart_default/koniak-meukow-xo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3179-cart_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3179-home_default/koniak-meukow-xo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3179-home_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3179-large_default/koniak-meukow-xo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3179-large_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "associatedVariants": [
+        2362
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3177,
+    "legend": "KONIAK Meukow X.O",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3177-cart_default/koniak-meukow-xo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3177-cart_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3177-small_default/koniak-meukow-xo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3177-small_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3177-home_default/koniak-meukow-xo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3177-home_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3177-medium_default/koniak-meukow-xo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3177-medium_default/koniak-meukow-xo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3177-large_default/koniak-meukow-xo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3177-large_default/koniak-meukow-xo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3177-cart_default/koniak-meukow-xo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3177-cart_default/koniak-meukow-xo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3177-home_default/koniak-meukow-xo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3177-home_default/koniak-meukow-xo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3177-large_default/koniak-meukow-xo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3177-large_default/koniak-meukow-xo.jpg"
+      }
+    },
+    "associatedVariants": [
+      2360
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

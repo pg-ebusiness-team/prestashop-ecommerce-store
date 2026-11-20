@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5900718330893",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "430,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-28",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1767,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-28 19:25:14",
+  "date_upd": "2025-11-14 14:26:15",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Czarna Olcha Ziemniak",
+  "link_rewrite": "wodka-czarna-olcha-ziemniak",
+  "name": "WÓDKA Czarna Olcha Ziemniak",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wódka \r\nKraftowa Czarna Olcha - to kwintesencja polskiej sztuki destylacji. Swój \r\nwyjątkowy, delikatny smak zawdzięcza wielopokoleniowym metodom produkcji. \r\nRęcznie rozlewana w limitowanych partiach produkcyjnych na polskim Podlasiu ze \r\nspirytusu z polskiego żyta oraz ziemniaka. Czysta, w nosie wyczuwalna delikatna \r\nnuta bazy fermentacyjnej, w smaku łagodna i delikatna. Moc to 40%. \r\nCharakterystyczny i unikatowy design butelki podkreśla szczególny charakter \r\nproduktu, a złota oraz srebrna etykieta nawiązuje do koloru zboża oraz nadaje \r\nproduktowi niezwykłej elegancji i jakości. Dbałość o każdy detal, odwzorowanie \r\nlinii lasu oraz efekt skalowania symbolu drzewa zachwycą każdego konsumenta, \r\nktóry weźmie Wódkę Kraftową Czarna Olcha do ręki.</SPAN></P>\r\n",
+  "description_short": "<p>Wódka Kraftowa Czarna Olcha - to kwintesencja polskiej sztuki destylacji. Swój wyjątkowy, delikatny smak zawdzięcza wielopokoleniowym metodom produkcji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1677,
+  "id_product": 1677,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1767,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1677-wodka-czarna-olcha-ziemniak",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 349.593496,
+  "price_without_reduction": 430,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziemniaczana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 397
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 33,
+      "id_attribute_group": 5,
+      "name": "1,75 l",
+      "group": "Pojemność",
+      "reference": "5900718330893",
+      "ean13": "5900718330893",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2207,
+      "legend": "WÓDKA Czarna Olcha Ziemniak",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2207-small_default/wodka-czarna-olcha-ziemniak.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2207-small_default/wodka-czarna-olcha-ziemniak.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2207-medium_default/wodka-czarna-olcha-ziemniak.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2207-medium_default/wodka-czarna-olcha-ziemniak.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2207,
+    "legend": "WÓDKA Czarna Olcha Ziemniak",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2207-small_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-small_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2207-medium_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-medium_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2207-cart_default/wodka-czarna-olcha-ziemniak.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2207-home_default/wodka-czarna-olcha-ziemniak.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2207-large_default/wodka-czarna-olcha-ziemniak.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 430,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

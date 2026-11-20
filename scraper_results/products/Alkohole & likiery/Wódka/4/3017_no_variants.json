@@ -1,0 +1,276 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907080638053",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "79,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-06-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-06-08 11:32:35",
+  "date_upd": "2026-06-08 20:44:01",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Dwór Sieraków Pszenica 40% 0,5l [bez kart.]",
+  "link_rewrite": "wodka-dwor-sierakow-pszenica-40-05l-bez-kart-",
+  "name": "WÓDKA Dwór Sieraków Pszenica 40% 0,5l [bez kart.]",
+  "description": "Folwark Dwór Sieraków to wyjątkowa wódka pszeniczna, stworzona z myślą o \nmiłośnikach klasycznych, szlachetnych trunków. Zachwyca niezwykłą łagodnością, \naksamitną strukturą oraz doskonale zbalansowanym charakterem, który podkreśla \nnajwyższą jakość użytych składników.<br />W aromacie wyczuwalne są subtelne nuty \nświeżo zmielonego zboża i delikatnego ciasta drożdżowego, nadające trunkowi \nnaturalnej głębi. Smak jest harmonijny i lekko słodkawy, z wyraźnymi akcentami \npszenicy oraz świeżego jasnego pieczywa. Całość dopełnia dyskretna, kremowa nuta \nśmietanowa, która nadaje kompozycji wyjątkowej miękkości. Finisz pozostaje \nczysty, gładki i przyjemnie rozgrzewający, pozbawiony ostrej alkoholowej \ndominacji.<br />Inspiracją dla powstania Folwarku Dwór Sieraków była polska \ntradycja gospodarstw, w których jakość surowców, cierpliwość pracy i dbałość o \nkażdy detal stanowiły fundament codziennego rzemiosła. Wódka produkowana jest z \nwyselekcjonowanego ziarna pszenicy oraz krystalicznie czystej wody, co przekłada \nsię na jej subtelny, lekko kremowy profil smakowy i wyjątkową czystość.<br />To \npropozycja dla osób ceniących autentyczność, tradycję i najwyższą jakość \nwykonania. Folwark Dwór Sieraków doskonale sprawdzi się zarówno podczas \nwyjątkowych okazji, jak i w gronie osób, które potrafią docenić kunszt polskiego \ngorzelnictwa.",
+  "description_short": "<p>Folwark Dwór Sieraków to wyjątkowa wódka pszeniczna, stworzona z myślą o miłośnikach klasycznych, szlachetnych trunków. Zachwyca niezwykłą łagodnością, aksamitną strukturą oraz doskonale zbalansowanym charakterem, który podkreśla najwyższą jakość użytych</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3017,
+  "id_product": 3017,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/3017-wodka-dwor-sierakow-pszenica-40-05l-bez-kart--5907080638053",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 10,
+  "quantity_all_versions": 10,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Pszeniczna",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 399
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4779,
+      "legend": "WÓDKA Dwór Sieraków Pszenica 40% 0,5l [bez kart.]",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4779-small_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4779-small_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4779-medium_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4779-medium_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4779,
+    "legend": "WÓDKA Dwór Sieraków Pszenica 40% 0,5l [bez kart.]",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4779-small_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-small_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4779-medium_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-medium_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4779-cart_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4779-home_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4779-large_default/wodka-dwor-sierakow-pszenica-40-05l-bez-kart-.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 79,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

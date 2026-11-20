@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8003753900520",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 46,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "55,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-09-15",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2809,
+  "advanced_stock_management": "0",
+  "date_add": "2025-09-15 14:56:10",
+  "date_upd": "2025-09-15 16:33:50",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KAWA Illy Grani Ziarnista [ puszka ]",
+  "link_rewrite": "kawa-illy-grani-ziarnista-puszka-",
+  "name": "KAWA Illy Grani Ziarnista [ puszka ]",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Illy \r\n Classico to starannie skomponowana mieszanka dziewięciu odmian najwyższej  \r\njakości ziaren Arabiki, pochodzących z renomowanych plantacji. Kawa jest  \r\nwypalana przez znaną włoską palarnię Illy i pakowana w hermetycznie zamknięte  \r\npuszki, które doskonale zachowują jej świeżość. Już po otwarciu puszki roztacza  \r\nsię intensywny, zachęcający aromat. Illy Classico to w  100% Arabika o niskiej \r\nzawartości kofeiny (około 1,5%), co sprawia, że świetnie  sprawdzi się zarówno \r\njako poranna pobudka, jak i popołudniowy relaksujący  rytuał. Kawa ziarnista \r\nIlly Grani to średnio palona kompozycja, inspirowana  północnowłoską tradycją. \r\nCechuje ją unikalny, wyrazisty aromat oraz delikatna,  naturalna słodycz. To \r\nprodukt klasy premium, który spełni oczekiwania nawet  najbardziej wymagających \r\nmiłośników kawy.</SPAN></P>\r\n",
+  "description_short": "<p>Illy Classico to starannie skomponowana mieszanka dziewięciu odmian najwyższej jakości ziaren Arabiki, pochodzących z renomowanych plantacji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2590,
+  "id_product": 2590,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2809,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "kawa",
+  "category_name": "Kawa",
+  "link": "https://luksusowealkohole.pl/kawa/2590-kawa-illy-grani-ziarnista-puszka-",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 44.715447,
+  "price_without_reduction": 55,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziarnista",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 591
+    },
+    {
+      "name": "Szczep",
+      "value": "Arabika",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 608
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 50,
+      "id_attribute_group": 7,
+      "name": "250g",
+      "group": "Gramatura",
+      "reference": "8003753900520",
+      "ean13": "8003753900520",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3627,
+      "legend": "KAWA Illy Grani Ziarnista [ puszka ]",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3627-small_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3627-small_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3627-medium_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3627-medium_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3627,
+    "legend": "KAWA Illy Grani Ziarnista [ puszka ]",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3627-small_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-small_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3627-medium_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-medium_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3627-cart_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3627-home_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3627-large_default/kawa-illy-grani-ziarnista-puszka-.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 55,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

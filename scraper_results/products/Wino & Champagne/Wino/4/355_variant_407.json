@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8429077149016",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "115,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-01",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 407,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-01 17:09:47",
+  "date_upd": "2024-07-01 17:09:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Arzuaga Pago Florentino",
+  "link_rewrite": "wino-arzuaga-pago-florentino",
+  "name": "WINO Arzuaga Pago Florentino",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='background: white; color: black; line-height: 115%; font-family: \"Arial\",\"sans-serif\"; font-size: 11.5pt;'>Głęboko\r\n rubinowy kolor z odcieniami granatu. Intensywny zapach z aromatem kakao, cedru\r\n i dojrzałych czarnych porzeczek.&nbsp;</SPAN><FONT face=\"Calibri\"><SPAN style=\"word-spacing: 0px; min-height: 1px; box-sizing: inherit; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Okrągłe \r\ni aksamitne na podniebieniu, dobrze zbudowane, eleganckie z balsamicznym i lekko \r\nmineralnym posmakiem, czarna porzeczka i czekolada. Niezwykle wyważone o \r\ngładkim, długim zakończeniu. 12 miesięcy w beczkach z francuskiego i \r\namerykańskiego dębu.&nbsp;</SPAN><SPAN style=\"word-spacing: 0px; min-height: 1px; box-sizing: inherit; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Sugestie \r\nkulinarne: Mięsa z grilla - dzikie ptactwo, dziczyzna, steki z wołowiny i \r\njagnięciny; pasztety, sery.</SPAN></FONT></P>\r\n",
+  "description_short": "<p>Głęboko rubinowy kolor z odcieniami granatu. Intensywny zapach z aromatem kakao, cedru i dojrzałych czarnych porzeczek.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 355,
+  "id_product": 355,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 407,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/355-wino-arzuaga-pago-florentino",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 93.495935,
+  "price_without_reduction": 115,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Region",
+      "value": "Ribera Del Duero",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 311
+    },
+    {
+      "name": "Alkohol",
+      "value": "14,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 287
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Tempranillo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 145
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8429077149016",
+      "ean13": "8429077149016",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 464,
+      "legend": "WINO Arzuaga Pago Florentino",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/464-small_default/wino-arzuaga-pago-florentino.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/464-small_default/wino-arzuaga-pago-florentino.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/464-medium_default/wino-arzuaga-pago-florentino.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/464-medium_default/wino-arzuaga-pago-florentino.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 464,
+    "legend": "WINO Arzuaga Pago Florentino",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/464-small_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-small_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/464-medium_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-medium_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/464-cart_default/wino-arzuaga-pago-florentino.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/464-home_default/wino-arzuaga-pago-florentino.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/464-large_default/wino-arzuaga-pago-florentino.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 115,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

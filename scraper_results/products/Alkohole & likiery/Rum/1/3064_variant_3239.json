@@ -1,0 +1,284 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7461323129695",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "113,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3239,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-05 21:38:04",
+  "date_upd": "2026-09-05 21:38:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Barcelo Gran Anejo Dark",
+  "link_rewrite": "rum-barcelo-gran-anejo-dark",
+  "name": "RUM Barcelo Gran Anejo Dark",
+  "description": "RUM Barceló Gran A&#241;ejo Dark 37,5% 0,7 L<BR>Barceló Gran A&#241;ejo Dark to \r\ndojrzały rum z Dominikany, będący propozycją dla miłośników ciemnych, \r\naromatycznych i harmonijnych rumów. Powstaje w renomowanej destylarni Barceló, \r\nwykorzystującej wieloletnie doświadczenie w tworzeniu charakterystycznych \r\nkaraibskich trunków.<BR>Rum wyróżnia się głęboką barwą oraz bogatym aromatem, w \r\nktórym można odnaleźć nuty karmelu, wanilii, toffi, prażonego drewna i \r\ndelikatnych przypraw. Na podniebieniu jest miękki, pełny i przyjemnie \r\nzaokrąglony, z wyraźnymi akcentami karmelowymi i subtelną słodyczą. Finisz jest \r\nciepły, harmonijny i lekko korzenny.<BR>Barceló Gran A&#241;ejo Dark doskonale \r\nsprawdza się zarówno w degustacji solo, jak i z lodem. Jego wyrazisty charakter \r\npozwala również wykorzystać go jako bazę do klasycznych koktajli na bazie \r\nciemnego rumu.<BR>To uniwersalna propozycja dla osób, które cenią karaibski \r\ncharakter rumu, łagodną słodycz i bogaty profil aromatyczny. Elegancka butelka o \r\npojemności 0,7 litra sprawia, że produkt świetnie nadaje się również na prezent. \r\n\r\n",
+  "description_short": "<p>RUM Barceló Gran Anejo Dark 37,5% 0,7 L<br/>Barceló Gran Anejo Dark to dojrzały rum z Dominikany, będący propozycją dla miłośników ciemnych, aromatycznych i harmonijnych rumów. Powstaje w renomowanej destylarni Barceló, wykorzystującej wieloletnie doświadcze</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3064,
+  "id_product": 3064,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3239,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/3064-rum-barcelo-gran-anejo-dark",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 91.869919,
+  "price_without_reduction": 113,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Dominikana",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 322
+    },
+    {
+      "name": "Alkohol",
+      "value": "37,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 237
+    },
+    {
+      "name": "Kolor",
+      "value": "Black",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 547
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7461323129695",
+      "ean13": "7461323129695",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4822,
+      "legend": "RUM Barcelo Gran Anejo Dark",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4822-small_default/rum-barcelo-gran-anejo-dark.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4822-small_default/rum-barcelo-gran-anejo-dark.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4822-medium_default/rum-barcelo-gran-anejo-dark.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4822-medium_default/rum-barcelo-gran-anejo-dark.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4822,
+    "legend": "RUM Barcelo Gran Anejo Dark",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4822-small_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-small_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4822-medium_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-medium_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4822-cart_default/rum-barcelo-gran-anejo-dark.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4822-home_default/rum-barcelo-gran-anejo-dark.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4822-large_default/rum-barcelo-gran-anejo-dark.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 113,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

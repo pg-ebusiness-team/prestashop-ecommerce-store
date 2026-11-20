@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8711114472202",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "16,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3235,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-04 23:37:19",
+  "date_upd": "2026-09-04 23:37:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA WHISKY Glen Talloch 40% 0,05L",
+  "link_rewrite": "miniaturka-whisky-glen-talloch-40-005l",
+  "name": "MINIATURKA WHISKY Glen Talloch 40% 0,05L",
+  "description": "MINIATURKA WHISKY Glen Talloch 40% 0,05 L<BR>Glen Talloch to klasyczna \r\nszkocka whisky typu blended, ceniona za swój łagodny, harmonijny i przystępny \r\ncharakter. To propozycja dla osób, które poszukują tradycyjnego smaku szkockiej \r\nwhisky w lekkiej i uniwersalnej odsłonie.<BR>W aromacie można odnaleźć delikatne \r\nnuty zbożowe, wanilię, subtelny karmel oraz lekkie akcenty dębowe. Na \r\npodniebieniu whisky jest miękka i dobrze zbalansowana, z przyjemną słodyczą oraz \r\ndelikatnie rozgrzewającym finiszem.<BR>Miniaturowa butelka o pojemności 50 ml \r\ndoskonale sprawdzi się jako oryginalny upominek, element zestawu prezentowego \r\nlub ciekawy dodatek do kolekcji miniaturek whisky. Niewielki format pozwala \r\nrównież poznać charakter Glen Talloch bez konieczności sięgania po \r\npełnowymiarową butelkę.\r\n",
+  "description_short": "<p>MINIATURKA WHISKY Glen Talloch 40% 0,05 L<br/>Glen Talloch to klasyczna szkocka whisky typu blended, ceniona za swój łagodny, harmonijny i przystępny charakter. To propozycja dla osób, które poszukują tradycyjnego smaku szkockiej whisky w lekkiej i uniwersal</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3060,
+  "id_product": 3060,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3235,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3060-miniaturka-whisky-glen-talloch-40-005l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 13.00813,
+  "price_without_reduction": 16,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blended",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 165
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "8711114472202",
+      "ean13": "8711114472202",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4825,
+      "legend": "MINIATURKA WHISKY Glen Talloch 40% 0,05L",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4825-small_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4825-small_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4825-medium_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4825-medium_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4825,
+    "legend": "MINIATURKA WHISKY Glen Talloch 40% 0,05L",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4825-small_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-small_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4825-medium_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-medium_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4825-cart_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4825-home_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4825-large_default/miniaturka-whisky-glen-talloch-40-005l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 16,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,291 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8410023000314",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 23,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3056,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-21 11:29:43",
+  "date_upd": "2025-11-21 13:50:46",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BRANDY Soberano Nectar",
+  "link_rewrite": "brandy-soberano-nectar",
+  "name": "BRANDY Soberano Nectar",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Soberano \r\n Brandy Nectar to delikatna, a jednocześnie bogata w smaku hiszpańska brandy, \r\n tworzona przez renomowaną destylarnię Gonzalez Byass. Zawiera 36% alkoholu i \r\n dojrzewa w dębowych beczkach z regionu Limousin, dzięki czemu wyróżnia się  \r\neleganckim profilem smakowym z wyraźnymi owocowymi akcentami oraz subtelną nutą  \r\nwanilii. To trunek, który dobrze sprawdza się przy wyjątkowych okazjach. Jej \r\n aromat jest intensywny i przyciągający, z dominującymi tonami dojrzałych owoców \r\n i delikatną waniliową słodyczą. Już pierwszy łyk odsłania pełny, aksamitny \r\nsmak,  który stopniowo przechodzi w długi, przyjemnie rozgrzewający finisz. \r\nPołączenie  aromatów drewna i owoców nadaje tej brandy szlachetny, wyrafinowany \r\ncharakter.  Soberano Nectar powstaje w tradycyjnym procesie destylacji \r\nkolumnowej. Starannie wyselekcjonowane winogrona są fermentowane, a następnie \r\ndestylowane i dojrzewane w wysokiej jakości beczkach z dębu Limousin, co pozwala \r\nuzyskać  wyjątkową głębię smaku i aromatu. Dzięki temu trunek wyróżnia się \r\nbogatym, złożonym profilem. Brandy ta jest ceniona za gładką, dobrze \r\nzbalansowaną  strukturę oraz przyjemną, podkreślającą jej charakter słodycz. \r\nMożna delektować  się nią zarówno solo, jak i w koktajlach - to propozycja dla \r\nosób, które lubią  harmonijne połączenie słodyczy i klasycznej \r\nbrandy.</SPAN></P>\r\n",
+  "description_short": "<p>Soberano Brandy Nectar to delikatna, a jednocześnie bogata w smaku hiszpańska brandy, tworzona przez renomowaną destylarnię Gonzalez Byass.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2853,
+  "id_product": 2853,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3056,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "brandy",
+  "category_name": "Brandy",
+  "link": "https://luksusowealkohole.pl/brandy/2853-brandy-soberano-nectar",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Hiszpania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 27
+    },
+    {
+      "name": "Alkohol",
+      "value": "36%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 372
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Słodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 17
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8410023000314",
+      "ean13": "8410023000314",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3955,
+      "legend": "BRANDY Soberano Nectar",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3955-small_default/brandy-soberano-nectar.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3955-small_default/brandy-soberano-nectar.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3955-medium_default/brandy-soberano-nectar.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3955-medium_default/brandy-soberano-nectar.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3955,
+    "legend": "BRANDY Soberano Nectar",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3955-small_default/brandy-soberano-nectar.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-small_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3955-medium_default/brandy-soberano-nectar.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-medium_default/brandy-soberano-nectar.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3955-cart_default/brandy-soberano-nectar.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3955-home_default/brandy-soberano-nectar.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3955-large_default/brandy-soberano-nectar.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

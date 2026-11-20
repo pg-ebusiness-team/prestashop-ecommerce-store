@@ -1,0 +1,437 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 14,
+  "id_supplier": 0,
+  "reference": "5010496002902",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "298,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 326,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-24 20:01:36",
+  "date_upd": "2026-01-30 12:01:23",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Bowmore Small Batch",
+  "link_rewrite": "whisky-bowmore-small-batch",
+  "name": "WHISKY Bowmore Small Batch",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">Dojrzewa wyłącznie w beczkach pierwszego i drugiego napełnienia \r\npo burbonie, jest następnie mieszana, eksponując największe zalety obu \r\nnapełnień. Pierwsze napełnienie przywołuje pyszną słodycz, subtelne cynamonowe \r\nprzyprawy i nuty burbonowego dębu. Drugie wzmacnia świeże, owocowe bogactwo \r\npalety i eksponuje charakterystyczny miodowo-kremowy charakter \r\nBowmore.</FONT></P>\r\n",
+  "description_short": "<p>Dojrzewa wyłącznie w beczkach pierwszego i drugiego napełnienia po burbonie, jest następnie mieszana, eksponując największe zalety obu napełnień</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 278,
+  "id_product": 278,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 326,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/278-whisky-bowmore-small-batch",
+  "manufacturer_name": "Bowmore",
+  "attribute_price": 0,
+  "price_tax_exc": 242.276423,
+  "price_without_reduction": 298,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Islay",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 166
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Charakter",
+      "value": "Torfowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 242
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010496002902",
+      "ean13": "5010496002902",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 4160,
+      "legend": "WHISKY Bowmore Small Batch",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4160-cart_default/whisky-bowmore-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4160-cart_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4160-small_default/whisky-bowmore-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4160-small_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4160-home_default/whisky-bowmore-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4160-home_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4160-medium_default/whisky-bowmore-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4160-medium_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4160-large_default/whisky-bowmore-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4160-large_default/whisky-bowmore-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4160-cart_default/whisky-bowmore-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4160-cart_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4160-home_default/whisky-bowmore-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4160-home_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4160-large_default/whisky-bowmore-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4160-large_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4161,
+      "legend": "WHISKY Bowmore Small Batch",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4161-cart_default/whisky-bowmore-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4161-cart_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4161-small_default/whisky-bowmore-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4161-small_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4161-home_default/whisky-bowmore-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4161-home_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4161-medium_default/whisky-bowmore-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4161-medium_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4161-large_default/whisky-bowmore-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4161-large_default/whisky-bowmore-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4161-cart_default/whisky-bowmore-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4161-cart_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4161-home_default/whisky-bowmore-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4161-home_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4161-large_default/whisky-bowmore-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4161-large_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": 1,
+      "id_image": 4162,
+      "legend": "WHISKY Bowmore Small Batch",
+      "position": 3,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4162-small_default/whisky-bowmore-small-batch.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4162-small_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4162-medium_default/whisky-bowmore-small-batch.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4162-medium_default/whisky-bowmore-small-batch.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4162,
+    "legend": "WHISKY Bowmore Small Batch",
+    "position": 3,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4162-small_default/whisky-bowmore-small-batch.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-small_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4162-medium_default/whisky-bowmore-small-batch.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-medium_default/whisky-bowmore-small-batch.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4162-cart_default/whisky-bowmore-small-batch.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4162-home_default/whisky-bowmore-small-batch.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4162-large_default/whisky-bowmore-small-batch.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 298,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

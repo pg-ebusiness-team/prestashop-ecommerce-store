@@ -1,0 +1,343 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5099466178045",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 44,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "40,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-24",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2969,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-24 12:33:31",
+  "date_upd": "2025-10-24 12:59:19",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SŁODYCZE Czekoladki Butlers Irish Cream",
+  "link_rewrite": "slodycze-czekoladki-butlers-irish-cream",
+  "name": "SŁODYCZE Czekoladki Butlers Irish Cream",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Od 1932 roku czekoladki Butler's są znane i uwielbiane w całej Irlandii za swój wyśmienity smak i doskonałą jakość. Te czekoladowe trufle z likierem Irish Cream Liquer to celebracja irlandzkiej doskonałości, łącząca smak czekolady Butler's ze słynnym aromatem likieru Irish Cream Liquer. </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Składniki: Cukier, pełne mleko w proszku, masło kakaowe, likier Irish Cream (10%), miazga kakaowa, słodzone mleko skondensowane ( mleko , cukier), syrop glukozowy, syrop z cukru inwertowanego, irlandzka whisky (2%), emulgator: lecytyna sojowa , naturalny aromat. (Czekolada mleczna zawiera: minimum 32% suchej masy kakaowej, minimum 20% suchej masy mleka. Biała czekolada zawiera: minimum 26% suchej masy kakaowej, minimum 20% suchej masy mleka). Przechowywać w chłodnym, suchym i bezwonnym miejscu. Najlepiej spożyć przed: patrz bok/spód opakowania. Zawiera 10 czekoladek. Produkt może zawierać śladowe ilości orzechów. Zawartość alkoholu: 2,5%.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Od 1932 roku czekoladki Butler's są znane i uwielbiane w całej Irlandii za swój wyśmienity smak i doskonałą jakość.</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2774,
+  "id_product": 2774,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2969,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "slodycze",
+  "category_name": "Słodycze",
+  "link": "https://luksusowealkohole.pl/slodycze/2774-slodycze-czekoladki-butlers-irish-cream",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 32.520325,
+  "price_without_reduction": 40,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Irlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 43
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 55,
+      "id_attribute_group": 7,
+      "name": "125g",
+      "group": "Gramatura",
+      "reference": "5099466178045",
+      "ean13": "5099466178045",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3851,
+      "legend": "SŁODYCZE Czekoladki Butlers Irish Cream",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3851-small_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3851-small_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3851-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3851-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3852,
+      "legend": "SŁODYCZE Czekoladki Butlers Irish Cream",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3852-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3852-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3852-small_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3852-small_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3852-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3852-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3852-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3852-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3852-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3852-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3852-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3852-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3852-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3852-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3852-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3852-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3851,
+    "legend": "SŁODYCZE Czekoladki Butlers Irish Cream",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3851-small_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-small_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3851-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-medium_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3851-cart_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3851-home_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3851-large_default/slodycze-czekoladki-butlers-irish-cream.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 40,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

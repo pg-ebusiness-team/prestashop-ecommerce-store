@@ -1,0 +1,350 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3219820004830",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 28,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "6 500,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-31",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1071,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-31 15:02:47",
+  "date_upd": "2024-08-31 15:02:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "KONIAK Martell Assemblage Exclusif se 3 Millesimes",
+  "link_rewrite": "koniak-martell-assemblage-exclusif-se-3-millesimes",
+  "name": "KONIAK Martell Assemblage Exclusif se 3 Millesimes",
+  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='color: black; line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Martell \r\n Assemblage Exclusif de 3 Millesimes Cognac prezentowany jest w pięknym \r\n drewnianym pudełku, które samo jest ozdobione intarsją w trzech odcieniach. To \r\n symbolizuje harmonię 3 eaux-de-vie, które tworzą mieszankę. A sama butelka jest \r\n powieleniem tradycyjnych „montre flasks” używanych w piwnicy Mistrza do \r\n testowania próbek eaux-de-vie. Jest to mieszanka trzech eaux-de-vie z Grande \r\n Champagne, Borderies i Fins Bois. Każdy z nich przywołuje inny okres w historii \r\n tego domu, w zależności od jego profilu aromatycznego. Fins Bois eaux-de-vie \r\n dodaje lekkości do mieszanki. Zapewnia sprawny i subtelny smak i stanowi \r\ndodatek  Martell Cognac z XIX wieku. Oczywiście, koniak Grande Champagne dodaje \r\npotężny  znak do mieszanki, a jest on z początków marki z XVIII wieku. \r\nSymbolizuje to  silny fundament domu koniaku i wszystko, co zbudował od tego \r\nczasu. Wreszcie Borderies eaux-de-vie zapewnia niezrównany smak swojej \r\n„jedwabistej okrągłości”. Ten region uprawy Cognac to najmniejsza część i jest \r\nznakiem rozpoznawczym wszystkich koniaków Martell. Dodanie go do mieszanki \r\noznacza początki XX wieku, w czasie, gdy został stworzony słynny koniak Martell \r\nCordon Bleu.</SPAN></P>\r\n",
+  "description_short": "<p>Martell Assemblage Exclusif de 3 Millesimes Cognac prezentowany jest w pięknym drewnianym pudełku, które samo jest ozdobione intarsją w trzech odcieniach. To symbolizuje harmonię 3 eaux-de-vie, które tworzą mieszankę.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 978,
+  "id_product": 978,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1071,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "koniak",
+  "category_name": "Koniak",
+  "link": "https://luksusowealkohole.pl/koniak/978-koniak-martell-assemblage-exclusif-se-3-millesimes",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 5284.552846,
+  "price_without_reduction": 6500.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "3219820004830",
+      "ean13": "3219820004830",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1299,
+      "legend": "KONIAK Martell Assemblage Exclusif se 3 Millesimes",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1299-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1299-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1299-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1299-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 1298,
+      "legend": "KONIAK Martell Assemblage Exclusif se 3 Millesimes",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1298-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1298-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1298-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1298-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1298-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1298-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1298-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1298-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1298-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1298-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1298-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1298-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1298-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1298-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1298-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1298-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1299,
+    "legend": "KONIAK Martell Assemblage Exclusif se 3 Millesimes",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1299-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-small_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1299-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-medium_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1299-cart_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1299-home_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1299-large_default/koniak-martell-assemblage-exclusif-se-3-millesimes.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 6500,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4589633900155",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 26,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "259,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-08-29",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1008,
+  "advanced_stock_management": "0",
+  "date_add": "2024-08-29 15:34:42",
+  "date_upd": "2024-08-29 15:34:42",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GIN Ki No Tea",
+  "link_rewrite": "gin-ki-no-tea",
+  "name": "GIN Ki No Tea",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>W \r\nwyniku wielu degustacji tzw. dekonstrukcji 6 Elementów Ki No Bi okazało się, że \r\ndla wielu Japońskich barmanów element Herbaty jest tym najważniejszym. \r\nRezultatem tych testów i opinii jest nasz KI NO BI Tea - inspirowany właśnie \r\nherbatą. Horii Shichimeien, jest hodowcą herbaty od 140 lat, i stworzył unikalną \r\nmieszankę Gyokuro i Tencha specjalnie na potrzeby The Kyoto Distillery. Efektem \r\njest gin o słodkawej i kremowej nucie smakowej. Ki NO Tea posiada opakowanie\r\n zaprojektowane z nowej hengi specjalnie stworzone dla ginu przez Kira Karacho.\r\n Zawartość alkoholu: 45,1%.</SPAN></P>\r\n",
+  "description_short": "<p>W wyniku wielu degustacji tzw. dekonstrukcji 6 Elementów Ki No Bi okazało się, że dla wielu Japońskich barmanów element Herbaty jest tym najważniejszym. Rezultatem tych testów i opinii jest nasz KI NO BI Tea - inspirowany właśnie herbatą.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 920,
+  "id_product": 920,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1008,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "gin",
+  "category_name": "Gin",
+  "link": "https://luksusowealkohole.pl/gin/920-gin-ki-no-tea",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 210.569106,
+  "price_without_reduction": 259,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Japonia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 29
+    },
+    {
+      "name": "Alkohol",
+      "value": "45,1%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 388
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "4589633900155",
+      "ean13": "4589633900155",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1497,
+      "legend": "GIN Ki No Tea",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1497-small_default/gin-ki-no-tea.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1497-small_default/gin-ki-no-tea.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1497-medium_default/gin-ki-no-tea.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1497-medium_default/gin-ki-no-tea.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1497,
+    "legend": "GIN Ki No Tea",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1497-small_default/gin-ki-no-tea.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-small_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1497-medium_default/gin-ki-no-tea.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-medium_default/gin-ki-no-tea.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1497-cart_default/gin-ki-no-tea.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1497-home_default/gin-ki-no-tea.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1497-large_default/gin-ki-no-tea.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 259,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

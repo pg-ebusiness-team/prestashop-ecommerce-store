@@ -1,0 +1,262 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8684568302022",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 44,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "40,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-02-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1683,
+  "advanced_stock_management": "0",
+  "date_add": "2025-02-18 09:02:32",
+  "date_upd": "2025-04-06 15:51:59",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SŁODYCZE Dubai Chocolate pralinki 96g",
+  "link_rewrite": "slodycze-dubai-chocolate-pralinki-96g",
+  "name": "SŁODYCZE Dubai Chocolate pralinki 96g",
+  "description": "\r\n<P>Czekolada Dubajska Bolci o wadze 100 g to wyjątkowa propozycja dla miłośników \r\nwyrafinowanych słodyczy. Ta mleczna czekolada zawiera 40% kakao, co nadaje jej \r\ngłęboki i bogaty smak. Wzbogacona jest kremowym nadzieniem pistacjowym oraz \r\nchrupiącymi nitkami kadayif, tradycyjnego ciasta używanego w deserach Bliskiego \r\nWschodu. Połączenie delikatnej słodyczy czekolady z orzechowym aromatem pistacji \r\ni unikalną teksturą kadayif tworzy niezapomniane doznania \r\nsmakowe.</P>\r\n",
+  "description_short": "<p>Czekolada Dubajska Bolci o wadze 100 g to wyjątkowa propozycja dla miłośników wyrafinowanych słodyczy. Ta mleczna czekolada zawiera 40% kakao</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1591,
+  "id_product": 1591,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1683,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "slodycze",
+  "category_name": "Słodycze",
+  "link": "https://luksusowealkohole.pl/slodycze/1591-slodycze-dubai-chocolate-pralinki-96g",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 32.520325,
+  "price_without_reduction": 40,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 0,
+  "quantity_all_versions": 0,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "7": {
+      "id_attribute": 48,
+      "id_attribute_group": 7,
+      "name": "96g",
+      "group": "Gramatura",
+      "reference": "8684568302022",
+      "ean13": "8684568302022",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2055,
+      "legend": "SŁODYCZE Dubai Chocolate pralinki 96g",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2055-small_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2055-small_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2055-medium_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2055-medium_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2055,
+    "legend": "SŁODYCZE Dubai Chocolate pralinki 96g",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2055-small_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-small_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2055-medium_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-medium_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2055-cart_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2055-home_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2055-large_default/slodycze-dubai-chocolate-pralinki-96g.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 40,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Czekamy na dostawę",
+  "availability_date": null,
+  "availability": "unavailable"
+}

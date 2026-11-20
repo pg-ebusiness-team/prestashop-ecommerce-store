@@ -1,0 +1,295 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5900343001892",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "70,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2504,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-19 12:25:00",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Żubrówka Biała",
+  "link_rewrite": "wodka-zubrowka-biala",
+  "name": "WÓDKA Żubrówka Biała",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Żubrówka \r\nBiała ceniona za łagodny smak i lekką konsystencję. To polska wódka powstająca z \r\nwysokiej jakości zboża oraz naturalnych ekstraktów trawy żubrowej, produkowana \r\ntradycyjnymi metodami w polskich destylarniach. Każda partia jest starannie \r\nkontrolowana, by zapewnić doskonałą jakość. W smaku Żubrówka Biała jest \r\nsubtelnie słodkawa, z wyczuwalnymi nutami trawy żubrowej i delikatną waniliową \r\nnutą, co nadaje jej przyjemny, łagodny aromat. Sprawdzi się zarówno do picia na \r\nczysto, jak i jako wyjątkowy składnik koktajli, wprowadzając do nich \r\nniepowtarzalny smak. To ponadczasowa propozycja dla osób ceniących klasykę i \r\nwysoką jakość, idealna na różne okazje - od prywatnych spotkań po uroczystości \r\nczy zastosowanie w branży gastronomicznej i\r\n hotelarskiej.</SPAN></P>\r\n",
+  "description_short": "<p>Żubrówka Biała ceniona za łagodny smak i lekką konsystencję. To polska wódka powstająca z wysokiej jakości zboża oraz naturalnych ekstraktów trawy żubrowej, produkowana tradycyjnymi metodami w polskich destylarniach.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2319,
+  "id_product": 2319,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2505,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2319-wodka-zubrowka-biala",
+  "manufacturer_name": null,
+  "attribute_price": 12.195122,
+  "price_tax_exc": 56.910569,
+  "price_without_reduction": 70,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 10,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    },
+    {
+      "name": "Charakter",
+      "value": "Zbożowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 301
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 29,
+      "id_attribute_group": 5,
+      "name": "1 l",
+      "group": "Pojemność",
+      "reference": "5900343001939",
+      "ean13": "5900343001939",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": "",
+      "available_later": ""
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": null,
+      "id_image": 3320,
+      "legend": "WÓDKA Żubrówka Biała",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3320-cart_default/wodka-zubrowka-biala.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3320-cart_default/wodka-zubrowka-biala.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3320-small_default/wodka-zubrowka-biala.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3320-small_default/wodka-zubrowka-biala.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3320-home_default/wodka-zubrowka-biala.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3320-home_default/wodka-zubrowka-biala.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3320-medium_default/wodka-zubrowka-biala.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3320-medium_default/wodka-zubrowka-biala.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3320-large_default/wodka-zubrowka-biala.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3320-large_default/wodka-zubrowka-biala.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3320-cart_default/wodka-zubrowka-biala.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3320-cart_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3320-home_default/wodka-zubrowka-biala.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3320-home_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3320-large_default/wodka-zubrowka-biala.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3320-large_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "associatedVariants": [
+        2505
+      ]
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3321,
+    "legend": "WÓDKA Żubrówka Biała",
+    "position": 2,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3321-cart_default/wodka-zubrowka-biala.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3321-cart_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3321-small_default/wodka-zubrowka-biala.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3321-small_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3321-home_default/wodka-zubrowka-biala.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3321-home_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3321-medium_default/wodka-zubrowka-biala.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3321-medium_default/wodka-zubrowka-biala.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3321-large_default/wodka-zubrowka-biala.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3321-large_default/wodka-zubrowka-biala.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3321-cart_default/wodka-zubrowka-biala.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3321-cart_default/wodka-zubrowka-biala.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3321-home_default/wodka-zubrowka-biala.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3321-home_default/wodka-zubrowka-biala.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3321-large_default/wodka-zubrowka-biala.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3321-large_default/wodka-zubrowka-biala.jpg"
+      }
+    },
+    "associatedVariants": [
+      2504
+    ]
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 70,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

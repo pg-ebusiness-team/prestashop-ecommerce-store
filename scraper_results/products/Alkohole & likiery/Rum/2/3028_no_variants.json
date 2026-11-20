@@ -1,0 +1,269 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "813497006406",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-07-14",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-07-14 17:24:03",
+  "date_upd": "2026-07-29 22:41:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Bumbu XO 40% 0,7l TUBA",
+  "link_rewrite": "rum-bumbu-xo-40-07l-tuba",
+  "name": "RUM Bumbu XO 40% 0,7l TUBA",
+  "description": "RUM Bumbu XO 40% 0,7 L [Tuba]<BR>Bumbu XO to wyjątkowy rum premium o \r\ngłębokim, bogatym i niezwykle aromatycznym charakterze. Dojrzewa w beczkach po \r\nbourbonie, a następnie jest finiszowany w beczkach po sherry, co nadaje mu \r\nwyjątkową złożoność i elegancję.<BR>W aromacie i smaku dominują nuty wanilii, \r\nkarmelu, dębu, suszonych owoców oraz delikatnych przypraw. Na podniebieniu jest \r\naksamitny, pełny i harmonijny, z przyjemnie słodkim charakterem oraz długim, \r\nrozgrzewającym finiszem.<BR>Elegancka butelka w tubie prezentowej sprawia, że \r\nBumbu XO doskonale sprawdzi się jako luksusowy prezent dla miłośnika \r\nrumu.\r\n",
+  "description_short": "<p>RUM Bumbu XO 40% 0,7 L [Tuba]<br/>Bumbu XO to wyjątkowy rum premium o głębokim, bogatym i niezwykle aromatycznym charakterze. Dojrzewa w beczkach po bourbonie, a następnie jest finiszowany w beczkach po sherry, co nadaje mu wyjątkową złożoność i elegancję.<br/></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3028,
+  "id_product": 3028,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/3028-rum-bumbu-xo-40-07l-tuba-813497006406",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Barbados",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 320
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4808,
+      "legend": "RUM Bumbu XO 40% 0,7l TUBA",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4808-small_default/rum-bumbu-xo-40-07l-tuba.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4808-small_default/rum-bumbu-xo-40-07l-tuba.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4808-medium_default/rum-bumbu-xo-40-07l-tuba.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4808-medium_default/rum-bumbu-xo-40-07l-tuba.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4808,
+    "legend": "RUM Bumbu XO 40% 0,7l TUBA",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4808-small_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-small_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4808-medium_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-medium_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4808-cart_default/rum-bumbu-xo-40-07l-tuba.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4808-home_default/rum-bumbu-xo-40-07l-tuba.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4808-large_default/rum-bumbu-xo-40-07l-tuba.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

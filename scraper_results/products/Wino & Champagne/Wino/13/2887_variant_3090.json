@@ -1,0 +1,312 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8050762461627",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "65,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-01-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3090,
+  "advanced_stock_management": "0",
+  "date_add": "2026-01-17 12:19:48",
+  "date_upd": "2026-01-17 13:33:58",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Primo Primitivo di Manduria DOC",
+  "link_rewrite": "wino-primo-primitivo-di-manduria-doc",
+  "name": "WINO Primo Primitivo di Manduria DOC",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Primo \r\n1 Primitivo di Manduria to wyraziste czerwone wino z południa Włoch, \r\nzachwycające głęboką, rubinową barwą oraz intensywnym bukietem aromatów. W nosie \r\npojawiają się dojrzałe czereśnie, wiśnie i jeżyny, wzbogacone akcentami dżemu \r\nowocowego, kakao, kawy, wanilii oraz delikatnych przypraw i dębu. W ustach wino \r\njest pełne, gładkie i aksamitne, z dobrze zaznaczoną, lecz miękką taniną oraz \r\nsubtelną kwasowością w finiszu. Wino pochodzi z gorącej Apulii, a dokładniej z \r\napelacji Primitivo di Manduria DOC, gdzie śródziemnomorski klimat i zróżnicowane \r\ngleby sprzyjają powstawaniu win o intensywnym smaku, wysokiej koncentracji owocu \r\ni harmonijnej strukturze. Produkowane w 100% ze szczepu Primitivo, uprawianego \r\ntradycyjną metodą alberello, powstaje z ręcznie zbieranych, w pełni dojrzałych \r\ngron. Długie maceracje oraz kilkumiesięczne dojrzewanie w dębowych beczkach \r\nnadają mu głębię, elegancję i bogaty charakter. Na podniebieniu wino prezentuje \r\nnuty śliwek, wiśniowego dżemu i jagód, uzupełnione akcentami czekolady, kawy i\r\n wanilii. Finisz jest długi, lekko pikantny i przyjemnie rozgrzewający. To wino\r\n idealne na wyjątkowe okazje, doskonale komponujące się z dziczyzną, pieczonymi\r\n i grillowanymi mięsami, wołowiną, jagnięciną, makaronami z mięsnymi sosami oraz\r\n dojrzałymi serami. Najlepiej podawać w temperaturze 16-18°C, po wcześniejszej\r\n dekantacji. Primo 1 Primitivo di Manduria to propozycja dla miłośników\r\n intensywnych, pełnych i eleganckich win, które w pełni oddają charakter regionu\r\n Manduria.</SPAN></P>\r\n",
+  "description_short": "<p>Primo 1 Primitivo di Manduria to wyraziste czerwone wino z południa Włoch, zachwycające głęboką, rubinową barwą oraz intensywnym bukietem aromatów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2887,
+  "id_product": 2887,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3090,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2887-wino-primo-primitivo-di-manduria-doc",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Apulia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 416
+    },
+    {
+      "name": "Region",
+      "value": "Puglia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 552
+    },
+    {
+      "name": "Alkohol",
+      "value": "14%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 267
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Primitivo",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 125
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8050762461627",
+      "ean13": "8050762461627",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4029,
+      "legend": "WINO Primo Primitivo di Manduria DOC",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4029-small_default/wino-primo-primitivo-di-manduria-doc.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4029-small_default/wino-primo-primitivo-di-manduria-doc.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4029-medium_default/wino-primo-primitivo-di-manduria-doc.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4029-medium_default/wino-primo-primitivo-di-manduria-doc.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4029,
+    "legend": "WINO Primo Primitivo di Manduria DOC",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4029-small_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-small_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4029-medium_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-medium_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4029-cart_default/wino-primo-primitivo-di-manduria-doc.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4029-home_default/wino-primo-primitivo-di-manduria-doc.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4029-large_default/wino-primo-primitivo-di-manduria-doc.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 65,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

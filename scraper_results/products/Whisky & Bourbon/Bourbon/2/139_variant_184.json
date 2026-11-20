@@ -1,0 +1,277 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "080686021988",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 19,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-18",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 184,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-18 14:25:35",
+  "date_upd": "2025-03-12 18:36:06",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BOURBON Jim Beam Red Stag",
+  "link_rewrite": "bourbon-jim-beam-red-stag",
+  "name": "BOURBON Jim Beam Red Stag",
+  "description": "Red Stag Black Cherry to absolutny hit sezonu! Jim Beam to jeden z \r\nnajbardziej znanych bourbonów na świecie. Wytwarzany od 1795 roku, w 1933 roku \r\nzmienił nazwe na obecną. Charakterystyczna , kwadratowa butelka, ta sama od lat \r\netykieta, to elementy rozpoznawalne przez wielbicieli (i nie tylko) burbona na \r\ncałym świecie. Zupełnie świeżym produktem z Kentucky jest Red Stag czyli \r\nnajnowszy bourbon z destylarni Jim Beam. Do jego produkcji używa się 4-letniego \r\nBourbona Jim Beam, do którego następnie powoli dodaje się naturalny aromat \r\nczarnej wiśni, po to, aby uzyskać łagodny i wyjątkowy smak. Łatwo wyczuwalna \r\nowocowa nuta, nie przytłacza jednak typowego dla burbona zapachu. Na języku \r\nsłodki z łagodnymi dębowymi niuansami podkreślonymi przez aromat czarnej wiśni. \r\nFinisz nienachalnie słodki pełny prawdziwego ciepła bourbona.\r\n",
+  "description_short": "<p>Red Stag Black Cherry to absolutny hit sezonu! Jim Beam to jeden z najbardziej znanych bourbonów na świecie.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 139,
+  "id_product": 139,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 184,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "bourbon",
+  "category_name": "Bourbon",
+  "link": "https://luksusowealkohole.pl/bourbon/139-bourbon-jim-beam-red-stag",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Alkohol",
+      "value": "32,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 254
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "080686021988",
+      "ean13": "5060045582485",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2388,
+      "legend": "BOURBON Jim Beam Red Stag",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2388-small_default/bourbon-jim-beam-red-stag.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2388-small_default/bourbon-jim-beam-red-stag.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2388-medium_default/bourbon-jim-beam-red-stag.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2388-medium_default/bourbon-jim-beam-red-stag.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2388,
+    "legend": "BOURBON Jim Beam Red Stag",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2388-small_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-small_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2388-medium_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-medium_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2388-cart_default/bourbon-jim-beam-red-stag.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2388-home_default/bourbon-jim-beam-red-stag.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2388-large_default/bourbon-jim-beam-red-stag.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

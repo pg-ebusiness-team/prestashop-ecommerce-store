@@ -1,0 +1,298 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5021692000982",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "145,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2894,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-02 10:04:22",
+  "date_upd": "2025-10-02 16:33:18",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Bush Rum Original Spiced",
+  "link_rewrite": "rum-bush-rum-original-spiced",
+  "name": "RUM Bush Rum Original Spiced",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Bush \r\nRum Original Spiced to wyjątkowy rum przyprawowy z Gujany, który łączy w sobie \r\nkaraibską tradycję, intensywny smak i nowoczesne podejście do zrównoważonej \r\nprodukcji. Powstaje na bazie wysokiej jakości destylatu rumowego, wzbogaconego \r\nnaturalnymi przyprawami i owocami. Starannie wyselekcjonowane składniki - takie \r\njak imbir, cynamon i słodka wanilia - nadają trunkowi złożony, tropikalny \r\ncharakter i gładki, harmonijny smak. Już w aromacie Bush Rum uwodzi nutami \r\nwanilii, przypraw korzennych i delikatnych owoców tropikalnych. Na podniebieniu \r\nrozwija się bogato - odnajdziemy tu kremową wanilię, brązowy cukier, cynamon i \r\nnuty egzotycznych przypraw, przeplatające się z lekkim akcentem cytrusowym. \r\nFinisz jest umiarkowanie długi, przyjemnie rozgrzewający i słodki, z wyczuwalnym \r\nechem wanilii i przypraw. To nie tylko smaczny trunek, ale też rum z misją. Bush \r\nRum Original Spiced to pierwszy na świecie rum przyprawowy produkowany w sposób \r\nw pełni zrównoważony. Powstaje z wykorzystaniem zielonej energii, a jego butelka\r\n wykonana jest w 100% z przetworzonego szkła. Etykieta stworzona została z\r\n przetworzonej trzciny cukrowej, a całe opakowanie nadaje się do recyklingu.\r\n Bush Rum doskonale smakuje zarówno solo, na lodzie, jak i w koktajlach - \r\nświetnie łączy się z colą, a także sprawdzi się w drinkach takich jak Mai Tai\r\n czy Pina Colada, dodając im głębi i egzotycznego charakteru. Bush Rum Original\r\n Spiced to idealna propozycja dla miłośników rumów poszukujących czegoś więcej - \r\nautentycznego smaku Karaibów, zamkniętego w nowoczesnej, odpowiedzialnej formie. \r\nKażdy łyk to podróż w stronę słońca, morza i beztroskiego klimatu\r\n tropików.</SPAN></P>\r\n",
+  "description_short": "<p>Bush Rum Original Spiced to wyjątkowy rum przyprawowy z Gujany, który łączy w sobie karaibską tradycję, intensywny smak i nowoczesne podejście do zrównoważonej produkcji.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2706,
+  "id_product": 2706,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2894,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2706-rum-bush-rum-original-spiced",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 117.886179,
+  "price_without_reduction": 145,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Wielka Brytania",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 239
+    },
+    {
+      "name": "Kraj",
+      "value": "Gujana",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 328
+    },
+    {
+      "name": "Alkohol",
+      "value": "37,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 237
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Spiced",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 567
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5021692000982",
+      "ean13": "5021692000982",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3774,
+      "legend": "RUM Bush Rum Original Spiced",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3774-small_default/rum-bush-rum-original-spiced.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3774-small_default/rum-bush-rum-original-spiced.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3774-medium_default/rum-bush-rum-original-spiced.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3774-medium_default/rum-bush-rum-original-spiced.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3774,
+    "legend": "RUM Bush Rum Original Spiced",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3774-small_default/rum-bush-rum-original-spiced.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-small_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3774-medium_default/rum-bush-rum-original-spiced.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-medium_default/rum-bush-rum-original-spiced.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3774-cart_default/rum-bush-rum-original-spiced.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3774-home_default/rum-bush-rum-original-spiced.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3774-large_default/rum-bush-rum-original-spiced.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 145,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

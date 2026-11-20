@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8033237520456",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1226,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-06 17:20:57",
+  "date_upd": "2024-11-06 17:20:57",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Impari Nero D'avola",
+  "link_rewrite": "wino-impari-nero-d-avola",
+  "name": "WINO Impari Nero D'avola",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Vigneti \r\nZabu została założona w 2007 roku w Sambuca di Sicilia na Sycylii przez Farnese \r\nGroup. Winnica została założona w celu zaprezentowania rodzimych odmian Sycylii, \r\na mianowicie Nerello Mascalese i Nero d'Avola, i wprowadzenia ich na rynek\r\n międzynarodowy. Dziś okolica jest usiana artefaktami archeologicznymi, które\r\n wskazują na pokolenia rolników, którzy mieszkali tu przez wieki. Ci mężczyźni z\r\n tej ziemi mają silną tradycję rolniczą, zachowując przy tym\r\n szacunek.&nbsp;Jednak Vigneti Zabu stosuje również najbardziej zaawansowaną \r\ntechnologię produkcji wina, która ma kluczowe znaczenie dla umożliwienia\r\n przeniesienia cech winogron w postaci nienaruszonej do butelki. Wino to\r\n starzone jest&nbsp;&nbsp;w beczkach z francuskiego i amerykańskiego dębu przez\r\n 18 miesięcy . Głęboki rubinowo czerwony kolor z granatowymi refleksami. Aromaty\r\n lukrecji, czarnego pieprzu, tytoniu i jeżyn, korzenny posmak z długim finiszem\r\n i słodkimi nutami.</SPAN></P>\r\n",
+  "description_short": "<p>Vigneti Zabu została założona w 2007 roku w Sambuca di Sicilia na Sycylii przez Farnese Group.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1152,
+  "id_product": 1152,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1226,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1152-wino-impari-nero-d-avola",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 5,
+  "quantity_all_versions": 5,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Sycylia",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 420
+    },
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Nero D avola",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 419
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8033237520456",
+      "ean13": "8033237520456",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1626,
+      "legend": "WINO Impari Nero D'avola",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1626-small_default/wino-impari-nero-d-avola.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1626-small_default/wino-impari-nero-d-avola.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1626-medium_default/wino-impari-nero-d-avola.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1626-medium_default/wino-impari-nero-d-avola.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1626,
+    "legend": "WINO Impari Nero D'avola",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1626-small_default/wino-impari-nero-d-avola.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-small_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1626-medium_default/wino-impari-nero-d-avola.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-medium_default/wino-impari-nero-d-avola.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1626-cart_default/wino-impari-nero-d-avola.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1626-home_default/wino-impari-nero-d-avola.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1626-large_default/wino-impari-nero-d-avola.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

@@ -1,0 +1,319 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 36,
+  "id_supplier": 0,
+  "reference": "5024576207101",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 490,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-05 14:38:11",
+  "date_upd": "2025-06-30 12:53:41",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Appleton Estate Reserve Blend",
+  "link_rewrite": "rum-appleton-estate-reserve-blend",
+  "name": "RUM Appleton Estate Reserve Blend",
+  "description": " \r\n<P style=\"background: white; margin-top: 0cm;\"><SPAN><SPAN style=\"color: rgb(102, 102, 102);\">Appleton \r\nEstate Resreve</SPAN></SPAN><SPAN style=\"color: rgb(102, 102, 102);\">&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>jest wytwarzany</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>z wykorzystaniem</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>miedzianych i stalowych \r\nalembików</SPAN></SPAN>. Rum&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>jest</SPAN></SPAN>&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>następnie</SPAN></SPAN>&nbsp;starzony&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>w beczkach</SPAN></SPAN>&nbsp;po&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>whiskey</SPAN></SPAN>&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>Jack</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>Daniel's</SPAN></SPAN>&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>i \r\nręcznie</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>mieszany</SPAN></SPAN>.</SPAN></P>\r\n<P style=\"background: white; margin-top: 0cm; word-spacing: 0px; box-sizing: inherit; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><SPAN><SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN style=\"color: rgb(102, 102, 102);\"><SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN style=\"word-spacing: 0px; float: none; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><SPAN \r\nstyle=\"box-sizing: inherit;\">Mówi się, że Appleton \r\nEstate&nbsp;Resrve&nbsp;Gold</SPAN></SPAN></SPAN></SPAN></SPAN><SPAN style=\"color: rgb(102, 102, 102);\">&nbsp;pow<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>stał po raz pierwszy</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>w czasie II</SPAN></SPAN>&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>wojny \r\nświatowej</SPAN></SPAN>&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>jako \r\nsubstytut</SPAN></SPAN>&nbsp;<SPAN \r\nstyle=\"box-sizing: inherit;\"><SPAN>whisky</SPAN></SPAN>, która była \r\nwtedy&nbsp;<SPAN style=\"box-sizing: inherit;\"><SPAN>trudno \r\ndostępna</SPAN></SPAN>.</SPAN></SPAN></P>\r\n",
+  "description_short": "<p>Appleton Estate Resreve jest wytwarzany z wykorzystaniem miedzianych i stalowych alembików. Rum jest następnie starzony w beczkach po whiskey Jack Daniel's i ręcznie mieszany.<br/></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 430,
+  "id_product": 430,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 490,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/430-rum-appleton-estate-reserve-blend",
+  "manufacturer_name": "Appleton Estate",
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Jamajka",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 318
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Gold",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 537
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Wiek",
+      "value": "8 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 176
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5024576207101",
+      "ean13": "5024576207101",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 2484,
+      "legend": "RUM Appleton Estate Reserve Blend",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/2484-small_default/rum-appleton-estate-reserve-blend.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2484-small_default/rum-appleton-estate-reserve-blend.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/2484-medium_default/rum-appleton-estate-reserve-blend.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2484-medium_default/rum-appleton-estate-reserve-blend.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 2484,
+    "legend": "RUM Appleton Estate Reserve Blend",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/2484-small_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-small_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/2484-medium_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-medium_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2484-cart_default/rum-appleton-estate-reserve-blend.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2484-home_default/rum-appleton-estate-reserve-blend.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/2484-large_default/rum-appleton-estate-reserve-blend.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

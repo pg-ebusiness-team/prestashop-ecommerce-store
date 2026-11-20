@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "811538012454",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "25,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-13",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 595,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-13 17:46:42",
+  "date_upd": "2025-05-05 15:37:17",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Kraken",
+  "link_rewrite": "rum-kraken",
+  "name": "RUM Kraken",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Kraken \r\nto legendarny stwór morski – coś pomiędzy ośmiornicą, a olbrzymią kałamarnicą – \r\nżyjący w otchłaniach oceanu i lubujący się w zatapianiu statków – ponoć \r\nszczególnie tych transportujących na pokładzie rum. The Kraken Black Spiced Rum \r\njest mieszanką rumów z Trynidadu i Tobago i z Wysp Dziewiczych – ale producent – \r\nKraken Rum Co. z siedzibą w Lynsburgu, Indiana, U.S.A. ( gdzie jest mieszany ) \r\nnie specjalnie się kwapi z dookreśleniem miejsca jego pochodzenia, plasując go \r\njako trunek z Wysp Karaibskich. Rum otrzymywany jest z melasy, następnie \r\ndojrzewa w dębowych beczkach przez okres od 12 do 24 miesięcy – czyli należy do \r\nkategorii No Age Statement – po czym do alkoholu dodawanych jest 13 różnych \r\nprzypraw – jawne są jedynie cynamon, goździki oraz imbir – pozostałe 10 dodatków \r\njest tajemnicą producenta. Efektem końcowym wszystkich tych procesów jest niemal\r\n czarny trunek – swoim kolorem nawiązujący do „atramentu” wydzielanego przez\r\n kałamarnice, o 40% zawartości alkoholu, zamknięty w unikatowej, inspirowanej\r\n epoką wiktoriańską butelce.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Paleta \r\nKrakena rozpoczyna się wanilią i cynamonem, następnie wyczuwalna jest czekolada,\r\n brązowy cukier, karmel oraz kawa. Z nut owocowych jest skórka pomarańczowa oraz\r\n bardzo delikatny niuans kokosowy. W ustach niemalże brak dysonansu pomiędzy tym\r\n co przed chwilą czuliśmy wąchając ten ciemny rum. Na pierwszy smak wychodzą \r\nwanilia, cynamon oraz czekolada, następnie pojawiają się lekkie nuty pomarańczy\r\n oraz ponownie kokosa, kończy się zaś karmelem i lekkim posmakiem drewna. Warto\r\n jeszcze zaznaczyć, że pomimo znacznej zawartości alkoholu, ten nie jest\r\n elementem dominującym. Dodatkową ciekawostką jest fakt dodawania tego ciemnego\r\n rumu do kawy – podobno tak przyrządzona kawa ma zupełnie inny wymiar ( ciekawe\r\n jak zakończyłby się pojedynek takiej właśnie kawy z dobrym Espresso Martini ).\r\n The Kraken doskonale nadaje się do picia „neat”, choć część specjalistów optuje\r\n za „otwarciem” rumu kilkoma kroplami zimnej wody.</SPAN></P>\r\n",
+  "description_short": "<p>Kraken to legendarny stwór morski - coś pomiędzy ośmiornicą, a olbrzymią kałamarnicą - żyjący w otchłaniach oceanu i lubujący się w zatapianiu statków - ponoć szczególnie tych transportujących na pokładzie rum.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 531,
+  "id_product": 531,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 594,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/531-rum-kraken",
+  "manufacturer_name": null,
+  "attribute_price": -84.552846,
+  "price_tax_exc": 20.325203,
+  "price_without_reduction": 25,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 12,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Trynidad i Tobago",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 329
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Black",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 547
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ciemny",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 530
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Spiced",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 567
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "811538012454",
+      "ean13": "811538012454",
+      "isbn": "",
+      "upc": "1",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 805,
+      "legend": "RUM Kraken",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/805-small_default/rum-kraken.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/805-small_default/rum-kraken.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/805-medium_default/rum-kraken.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/805-medium_default/rum-kraken.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 805,
+    "legend": "RUM Kraken",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/805-small_default/rum-kraken.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-small_default/rum-kraken.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/805-medium_default/rum-kraken.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-medium_default/rum-kraken.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/805-cart_default/rum-kraken.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/805-home_default/rum-kraken.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/805-large_default/rum-kraken.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 25,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

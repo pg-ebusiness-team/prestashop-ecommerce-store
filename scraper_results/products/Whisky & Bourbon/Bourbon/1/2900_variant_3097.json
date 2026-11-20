@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5099873010570",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 19,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "239,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-02-05",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3097,
+  "advanced_stock_management": "0",
+  "date_add": "2026-02-05 09:27:35",
+  "date_upd": "2026-02-05 10:10:44",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "BOURBON Jack Daniel's Red Dog Saloon",
+  "link_rewrite": "bourbon-jack-daniel-s-red-dog-saloon",
+  "name": "BOURBON Jack Daniel's Red Dog Saloon",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Jack \r\nDaniel’s Red Dog to jubileuszowa edycja whisky wydana z okazji 125. rocznicy \r\notwarcia legendarnego Red Dog Saloon – baru mieszczącego się na rynku w \r\nmiasteczku Lynchburg, gdzie Jack Daniel serwował swój charakterystyczny trunek. \r\nWłaśnie tam narodziła się atmosfera, która na stałe wpisała się w historię \r\nmarki. Edycja ta została zabutelkowana z podwyższoną mocą 43%, co dodatkowo \r\npodkreśla jej wyjątkowy charakter. Lynchburg, siedziba destylarni Jack Daniel’s, \r\nod ponad stu lat pozostaje miastem objętym prohibicją, choć pod koniec XIX wieku \r\nsytuacja wyglądała zupełnie inaczej – w 1892 roku na 300 mieszkańców przypadały \r\ntam aż dwa bary. W tym samym roku Jack Daniel otworzył na miejskim rynku własny \r\nRed Dog Saloon, znany jako Bar pod Rudym Psiskiem. Inspirację czerpał z \r\ntętniącego życiem Nashville i jego głośnych, zatłoczonych saloonów, a \r\njednocześnie dostrzegał ogromny potencjał biznesowy w prowadzeniu baru przy \r\ndestylarni, co naturalnie sprzyjało popularyzacji jego whisky. Jack Daniel był \r\nwłaścicielem dwóch lokali – bardziej eleganckiego White Rabbit Saloon oraz \r\nznacznie bardziej swobodnego i „przytulnego” Red Dog Saloon. Ten drugi niemal \r\nzawsze był wypełniony gośćmi, muzyką i energią, stając się ważnym miejscem \r\nspotkań lokalnej społeczności. We wrześniu 2017 roku firma Brown-Forman \r\nCorporation, obecny właściciel marki Jack Daniel’s, wprowadziła na rynek \r\nlimitowaną edycję Red Dog, upamiętniającą 125 lat istnienia tego kultowego baru. \r\nWhisky zachowuje wszystkie klasyczne cechy stylu Jack Daniel’s, a zwiększona \r\nzawartość alkoholu do 43% nadaje jej jeszcze bardziej wyrazisty i niepowtarzalny \r\ncharakter.</SPAN></P>\r\n",
+  "description_short": "<p>Jack Daniel's Red Dog to jubileuszowa edycja whisky wydana z okazji 125. rocznicy otwarcia legendarnego Red Dog Saloon - baru mieszczącego się na rynku w miasteczku Lynchburg, gdzie Jack Daniel serwował swój charakterystyczny trunek.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2900,
+  "id_product": 2900,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3097,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "bourbon",
+  "category_name": "Bourbon",
+  "link": "https://luksusowealkohole.pl/bourbon/2900-bourbon-jack-daniel-s-red-dog-saloon",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 194.308943,
+  "price_without_reduction": 239,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Stany Zjednoczone",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 244
+    },
+    {
+      "name": "Region",
+      "value": "Tennessee",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 568
+    },
+    {
+      "name": "Alkohol",
+      "value": "43%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 248
+    },
+    {
+      "name": "Wiek",
+      "value": "Nieokreślony",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 626
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5099873010570",
+      "ean13": "5099873010570",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4414,
+      "legend": "BOURBON Jack Daniel's Red Dog Saloon",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4414-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4414-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4414-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4414-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4415,
+      "legend": "BOURBON Jack Daniel's Red Dog Saloon",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4415-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4415-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4415-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4415-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4415-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4415-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4415-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4415-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4415-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4415-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4415-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4415-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4415-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4415-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4415-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4415-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4414,
+    "legend": "BOURBON Jack Daniel's Red Dog Saloon",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4414-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-small_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4414-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-medium_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4414-cart_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4414-home_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4414-large_default/bourbon-jack-daniel-s-red-dog-saloon.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 239,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

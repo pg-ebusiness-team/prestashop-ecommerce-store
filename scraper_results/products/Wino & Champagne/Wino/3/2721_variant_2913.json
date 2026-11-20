@@ -1,0 +1,319 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7790975197456",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "99,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-10-08",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2913,
+  "advanced_stock_management": "0",
+  "date_add": "2025-10-08 10:40:07",
+  "date_upd": "2025-10-11 10:46:03",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "SPRITZ Chandon Garden",
+  "link_rewrite": "spritz-chandon-garden",
+  "name": "SPRITZ Chandon Garden",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Chandon \r\nGarden Spritz to nowoczesny i gotowy do podania aperitif, który łączy w sobie \r\neleganckie musujące wino z argentyńskiego regionu Mendoza z naturalnym likierem \r\nna bazie goryczkowych pomarańczy, ziół i przypraw korzennych. Inspirowany \r\nklasycznym koktajlem Spritz, stanowi doskonałą alternatywę dla tradycyjnych \r\nmieszanek, oferując wyrafinowany smak bez konieczności dodatkowego miksowania. \r\nWino bazowe, stworzone z wyselekcjonowanych szczepów Chardonnay, Pinot Noir i \r\nSémillon, poddawane jest oddzielnej fermentacji, a następnie łączone i drugą \r\nfermentację przechodzi metodą Charmat - tę samą stosowaną przy produkcji \r\nProsecco - co pozwala uzyskać delikatne, trwałe bąbelki i subtelną strukturę. \r\nLikier \"Garden\", dodawany tuż przed butelkowaniem, tworzony jest poprzez \r\nmacerację skórek pomarańczy, kardamonu, czarnego pieprzu i rumianku w alkoholu \r\netylowym. Wszystkie składniki pochodzą z lokalnych upraw, co przekłada się na \r\nautentyczność i wyjątkową świeżość smaku. W kieliszku Chandon Garden Spritz \r\nzachwyca złocisto-pomarańczową barwą, drobnym musowaniem oraz aromatem pełnym \r\nświeżych cytrusów, pomarańczy, ziół, przypraw i kwiatowych niuansów. W smaku \r\nharmonijnie łączy subtelną słodycz, cytrusową świeżość, lekką goryczkę oraz \r\nkorzenne tło, tworząc niezwykle orzeźwiającą, dobrze zbalansowaną kompozycję. To \r\ngotowy do podania aperitif, idealny na letnie popołudnia, spotkania z \r\nprzyjaciółmi, garden party czy relaks na tarasie. Najlepiej smakuje schłodzony, \r\nserwowany na lodzie, z dodatkiem plasterka pomarańczy i gałązki \r\nrozmarynu.</SPAN></P>\r\n",
+  "description_short": "<p>Chandon Garden Spritz to nowoczesny i gotowy do podania aperitif, który łączy w sobie eleganckie musujące wino z argentyńskiego regionu Mendoza z naturalnym likierem na bazie goryczkowych pomarańczy, ziół i przypraw korzennych.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2721,
+  "id_product": 2721,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2913,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2721-spritz-chandon-garden",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 80.487805,
+  "price_without_reduction": 99,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 7,
+  "quantity_all_versions": 7,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Argentyna",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 22
+    },
+    {
+      "name": "Alkohol",
+      "value": "11,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 291
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    },
+    {
+      "name": "Szczep",
+      "value": "Pinot Noir",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 123
+    },
+    {
+      "name": "Szczep",
+      "value": "Semillon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 138
+    },
+    {
+      "name": "Charakter",
+      "value": "Musujące",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 350
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7790975197456",
+      "ean13": "7790975197456",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3790,
+      "legend": "SPRITZ Chandon Garden",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3790-small_default/spritz-chandon-garden.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3790-small_default/spritz-chandon-garden.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3790-medium_default/spritz-chandon-garden.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3790-medium_default/spritz-chandon-garden.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3790,
+    "legend": "SPRITZ Chandon Garden",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3790-small_default/spritz-chandon-garden.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-small_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3790-medium_default/spritz-chandon-garden.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-medium_default/spritz-chandon-garden.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3790-cart_default/spritz-chandon-garden.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3790-home_default/spritz-chandon-garden.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3790-large_default/spritz-chandon-garden.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 99,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

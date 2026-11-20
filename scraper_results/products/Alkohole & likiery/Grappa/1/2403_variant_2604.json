@@ -1,0 +1,371 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "80104193",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 27,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "189,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2604,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-04 12:47:36",
+  "date_upd": "2025-08-04 16:11:44",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "GRAPPA Nonino Chardonnay Barrique",
+  "link_rewrite": "grappa-nonino-chardonnay-barrique",
+  "name": "GRAPPA Nonino Chardonnay Barrique",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grappa \r\nNonino Chardonnay Barrique to destylat powstały z selekcjonowanych wytłoków \r\nwinogron Chardonnay z najlepszych włoskich regionów winiarskich. Proces \r\nfermentacji odbywa się w stalowych kadziach pod próżnią i kontrolowaną \r\ntemperaturą, co zapobiega niepożądanym fermentacjom, a następnie następuje \r\nrzemieślnicza, nieciągła destylacja w miedzianych alembikach parowych. Dzięki \r\nunikalnej metodzie Benito Nonino, eliminującej główki i ogony, do butelek trafia \r\nnajczystsza część destylatu. Po destylacji grappa dojrzewa przez 12 miesięcy w \r\nbeczkach z francuskiego dębu, co nadaje jej jasnozłoty kolor i złożony \r\ncharakter. W aromacie wyczuwalne są nuty świeżo pieczonego chleba, wanilii i \r\nmaślanego ciasta, a w smaku bogactwo gorzkiej czekolady i świeżo zmielonych \r\nmigdałów. Destylat charakteryzuje się gładką konsystencją i pełnią smaku. Grappę \r\nnajlepiej podawać lekko schłodzoną (około 12°C) w kieliszku typu tulipan, aby w \r\npełni docenić jej delikatny bukiet po kilku minutach \"oddychania\". Doskonale \r\nsprawdza się jako digestif, a także w towarzystwie deserów z gorzką czekoladą, \r\norzechowych i kremowych słodkości oraz dojrzałych serów. Sprawdzi się również \r\njako baza wyrafinowanych koktajli. Nonino Grappa Chardonnay Barrique to \r\nkwintesencja włoskiego rzemiosła - idealna zarówno dla miłośników klasycznych \r\ntrunków, jak i tych, którzy dopiero zaczynają odkrywać świat \r\ngrapp.</SPAN></P>\r\n",
+  "description_short": "<p>Grappa Nonino Chardonnay Barrique to destylat powstały z selekcjonowanych wytłoków winogron Chardonnay z najlepszych włoskich regionów winiarskich.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2403,
+  "id_product": 2403,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2604,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "grappa",
+  "category_name": "Grappa",
+  "link": "https://luksusowealkohole.pl/grappa/2403-grappa-nonino-chardonnay-barrique",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 153.658537,
+  "price_without_reduction": 189.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Alkohol",
+      "value": "41,3%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 333
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "80104193",
+      "ean13": "80104193",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3412,
+      "legend": "GRAPPA Nonino Chardonnay Barrique",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3412-small_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3412-small_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3412-medium_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3412-medium_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 3413,
+      "legend": "GRAPPA Nonino Chardonnay Barrique",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3413-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3413-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3413-small_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3413-small_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3413-home_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3413-home_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3413-medium_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3413-medium_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3413-large_default/grappa-nonino-chardonnay-barrique.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3413-large_default/grappa-nonino-chardonnay-barrique.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3413-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3413-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3413-home_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3413-home_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3413-large_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3413-large_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3412,
+    "legend": "GRAPPA Nonino Chardonnay Barrique",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3412-small_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-small_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3412-medium_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-medium_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3412-cart_default/grappa-nonino-chardonnay-barrique.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3412-home_default/grappa-nonino-chardonnay-barrique.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3412-large_default/grappa-nonino-chardonnay-barrique.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 189,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8851707000563",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 32,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "169,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-11-06",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3017,
+  "advanced_stock_management": "0",
+  "date_add": "2025-11-06 09:11:21",
+  "date_upd": "2025-11-06 10:58:57",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "RUM Phraya 8yo",
+  "link_rewrite": "rum-phraya-8yo",
+  "name": "RUM Phraya 8yo",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Phraya \r\n8-letnia to wyjątkowy rum klasy super premium, dojrzewający przez osiem lat w \r\nręcznie dobieranych, opalanych beczkach z amerykańskiego dębu po bourbonie. \r\nPowstaje w Tajlandii, w destylarni SangSom, która może poszczycić się ponad \r\n80-letnią tradycją. Do jego produkcji wykorzystuje się najwyższej jakości melasę \r\nz trzciny cukrowej z regionu Kanchanaburi oraz krystalicznie czystą wodę z rzeki \r\nTa Chin. Nazwa \"Phraya\", oznaczająca po tajsku \"szlachetnego władcę\", doskonale \r\noddaje majestatyczny charakter tego trunku. Rum destylowany jest metodą \r\nkolumnową z lokalnej trzciny cukrowej, uprawianej w żyznych dolinach południowej \r\nTajlandii. Proces starzenia przebiega w magazynach położonych nad wodą, gdzie \r\npanują idealne warunki wilgotności i temperatury. Dzięki temu Phraya dojrzewa \r\npowoli i harmonijnie, nabierając wyjątkowej głębi i elegancji. W rezultacie \r\npowstaje rum o bogatym, aksamitnym aromacie z nutami wanilii, miodu, karmelu, \r\norzechów, dębiny i cynamonu. W smaku jest zrównoważony i gładki, z akcentami \r\nprażonych migdałów, toffi, banana i przypraw korzennych. Finisz długi, ciepły i \r\nlekko pikantny, z delikatną nutą dymnego drewna. Tajski klimat znacząco wpływa \r\nna charakter trunku - wysoka temperatura i wilgotność sprawiają, że dojrzewanie \r\nprzebiega szybciej, a aromaty i smaki intensywnie się rozwijają. Dzięki temu, \r\nmimo \"zaledwie\" ośmiu lat, Phraya oferuje głębię i złożoność porównywalną z \r\nkilkunastoletnimi rumami pochodzącymi z chłodniejszych regionów \r\nświata.</SPAN></P>\r\n",
+  "description_short": "<p>Phraya 8-letnia to wyjątkowy rum klasy super premium, dojrzewający przez osiem lat w ręcznie dobieranych, opalanych beczkach z amerykańskiego dębu po bourbonie. Powstaje w Tajlandii, w destylarni SangSom, która może poszczycić się ponad 80-letnią tradycją</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2824,
+  "id_product": 2824,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3017,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "rum",
+  "category_name": "Rum",
+  "link": "https://luksusowealkohole.pl/rum/2824-rum-phraya-8yo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 137.398374,
+  "price_without_reduction": 169,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Tajlandia",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 619
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Wiek",
+      "value": "8 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 176
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "8851707000563",
+      "ean13": "8851707000563",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3912,
+      "legend": "RUM Phraya 8yo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3912-small_default/rum-phraya-8yo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3912-small_default/rum-phraya-8yo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3912-medium_default/rum-phraya-8yo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3912-medium_default/rum-phraya-8yo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3912,
+    "legend": "RUM Phraya 8yo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3912-small_default/rum-phraya-8yo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-small_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3912-medium_default/rum-phraya-8yo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-medium_default/rum-phraya-8yo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3912-cart_default/rum-phraya-8yo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3912-home_default/rum-phraya-8yo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3912-large_default/rum-phraya-8yo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 169,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

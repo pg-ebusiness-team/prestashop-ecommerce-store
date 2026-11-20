@@ -1,0 +1,364 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 28,
+  "id_supplier": 0,
+  "reference": "5010494990997",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "140,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-07-03",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 432,
+  "advanced_stock_management": "0",
+  "date_add": "2024-07-03 13:43:03",
+  "date_upd": "2026-02-06 17:06:04",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Glenmorangie Triple Cask",
+  "link_rewrite": "whisky-glenmorangie-triple-cask",
+  "name": "WHISKY Glenmorangie Triple Cask",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie Triple Cask Reserve to nowa edycja szkockiej whisky Single Malt. Stworzone przez wielokrotnie nagradzanego mistrza destylacji Dr Bill'a Lumsden'a. Starzona w trzech rodzajach beczek: po bourbonie, w nowych, wypalanych beczkach z amerykańskiego dębu oraz w beczce po whisky żytniej. Po osiągnięciu dojrzałości whisky jest ze sobą łączona, tworząc doskonale zbalansowaną całość. Wynikiem jest trunek pełen owocowych niuansów z delikatnym korzennym akcentem. Początkowo wyczuwalne są nuty akacji, gruszki i kandyzowanej skórki pomarańczy. Następnie wyczuwalne są akcenty przypraw i dębu, finisz słodki i bogaty. Doskonała whisky, która przypadnie do gustu każdemu koneserowi jak i początkującym smakoszom szkockiej. Whisky Glenmorangie Triple Cask Reserve- noty degustacyjne</span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Aromat: Bogaty, owoce egzotyczne, gruszki, akacje, kandyzowana skórka pomarańczy, grejpfrut, cukierki pudrowe. W tle niuanse cynamonu, goździków i gałki muszkatołowej. Następnie syrop klonowy. creme brulee. Po dodaniu kropelki wody wyczuwalne są wanilia, biała czekolada, śmietana, gruszka, melon i nuta dębu. </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Smak: Kremowy, oleisty i zbalansowany. Creme Brulee, wiśnie, czekolada, karmel, sorbet pomarańczowy, nuta goździków, chili, dojrzałe owoce tropikalne. Następnie marcepan, syrop klonowy, niuanse przypraw korzennych. </span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Finisz: Bogaty, słodki z nutą przypraw korzennych.</span></p>",
+  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Glenmorangie Triple Cask Reserve to nowa edycja szkockiej whisky Single Malt. Stworzone przez wielokrotnie nagradzanego mistrza destylacji Dr Bill'a Lumsden'a</span></p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 375,
+  "id_product": 375,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 432,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/375-whisky-glenmorangie-triple-cask",
+  "manufacturer_name": "Glenmorangie",
+  "attribute_price": 0,
+  "price_tax_exc": 113.821138,
+  "price_without_reduction": 140,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 9,
+  "quantity_all_versions": 9,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Highland",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 273
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010494990997",
+      "ean13": "5010494990997",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4485,
+      "legend": "WHISKY Glenmorangie Triple Cask",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4485-small_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4485-small_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4485-medium_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4485-medium_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4486,
+      "legend": "WHISKY Glenmorangie Triple Cask",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4486-cart_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4486-cart_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4486-small_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4486-small_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4486-home_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4486-home_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4486-medium_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4486-medium_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4486-large_default/whisky-glenmorangie-triple-cask.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4486-large_default/whisky-glenmorangie-triple-cask.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4486-cart_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4486-cart_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4486-home_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4486-home_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4486-large_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4486-large_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4485,
+    "legend": "WHISKY Glenmorangie Triple Cask",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4485-small_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-small_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4485-medium_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-medium_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4485-cart_default/whisky-glenmorangie-triple-cask.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4485-home_default/whisky-glenmorangie-triple-cask.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4485-large_default/whisky-glenmorangie-triple-cask.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 140,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available"
+}

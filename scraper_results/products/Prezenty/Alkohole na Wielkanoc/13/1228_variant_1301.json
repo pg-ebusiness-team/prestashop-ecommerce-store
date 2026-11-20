@@ -1,0 +1,326 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "3284399028181",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "530,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1301,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-19 17:56:15",
+  "date_upd": "2024-11-19 17:56:15",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Chateau Lafon Rochet",
+  "link_rewrite": "wino-chateau-lafon-rochet",
+  "name": "WINO Chateau Lafon Rochet",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wino \r\nChateau Lafon Rochet St.Estephe mieszanka różnych szczepów, takich jak: Cabernet \r\nSauvignon, Merlot, Cabernet Franc oraz Petit Verdot. Charakteryzuje się rubinową \r\nbarwą z czerwonymi refleksami, wino dojrzewało 16-22 miesiące w dębowych \r\nbeczkach.Piękny i subtelny nos, rozwijający aromaty czarnych owoców jagodowych, \r\nw tle pojawiają się nuty kwiatowo-korzenne. Usta pełne uroczej wytrawności, \r\ngładkich tanin i świeżej owocowości. Eleganckie, o bardzo przyjemnym \r\nfiniszu.Wino najlepiej pasuje do dań z grillowanego czerwonego mięsa, tłustych \r\nryb oraz twardych serów.</SPAN></P>\r\n",
+  "description_short": "<p>Wino Chateau Lafon Rochet St.Estephe mieszanka różnych szczepów, takich jak: Cabernet Sauvignon, Merlot, Cabernet Franc oraz Petit Verdot.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1228,
+  "id_product": 1228,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1301,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1228-wino-chateau-lafon-rochet",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 430.894309,
+  "price_without_reduction": 530,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Region",
+      "value": "Bordeaux",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 446
+    },
+    {
+      "name": "Alkohol",
+      "value": "13,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 265
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Franc",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 59
+    },
+    {
+      "name": "Szczep",
+      "value": "Cabernet Sauvignon",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 60
+    },
+    {
+      "name": "Szczep",
+      "value": "Merlot",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 100
+    },
+    {
+      "name": "Szczep",
+      "value": "Petit Verdot",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 302
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "3284399028181",
+      "ean13": "3284399028181",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1574,
+      "legend": "WINO Chateau Lafon Rochet",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1574-small_default/wino-chateau-lafon-rochet.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1574-small_default/wino-chateau-lafon-rochet.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1574-medium_default/wino-chateau-lafon-rochet.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1574-medium_default/wino-chateau-lafon-rochet.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1574,
+    "legend": "WINO Chateau Lafon Rochet",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1574-small_default/wino-chateau-lafon-rochet.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-small_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1574-medium_default/wino-chateau-lafon-rochet.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-medium_default/wino-chateau-lafon-rochet.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1574-cart_default/wino-chateau-lafon-rochet.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1574-home_default/wino-chateau-lafon-rochet.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1574-large_default/wino-chateau-lafon-rochet.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 530,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

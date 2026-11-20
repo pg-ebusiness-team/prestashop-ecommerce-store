@@ -1,0 +1,305 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7804330003402",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "37,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "301-category",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-04",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2598,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-04 11:02:36",
+  "date_upd": "2025-12-11 09:08:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WINO Santa Rita Heroes Chardonnay",
+  "link_rewrite": "wino-santa-rita-heroes-chardonnay",
+  "name": "WINO Santa Rita Heroes Chardonnay",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Heroes \r\nReserva Chardonnay to eleganckie, chilijskie wino powstające z ręcznie \r\nzbieranych gron. Winogrona pochodzą z regionu Valle Central, gdzie \r\nśródziemnomorski klimat - z ciepłymi, suchymi latami i chłodnymi, wilgotnymi \r\nzimami - w połączeniu z chłodzącym wpływem Oceanu Spokojnego pozwala uzyskać \r\nwina o świeżej kwasowości i złożonych aromatach. Wino zachwyca jasną, \r\nzłocistożółtą barwą i aromatycznym bukietem, w którym odnajdziemy świeże jabłka, \r\ncytrusy, brzoskwinie, mango, marakuję i ananasa. Całość uzupełniają nuty miodu, \r\nwanilii, karmelu oraz delikatna pikantność, będąca efektem dojrzewania w \r\nbeczkach z dębu francuskiego i amerykańskiego. Na podniebieniu soczyste i \r\nrześkie - dobrze zbalansowane pomiędzy owocową świeżością a kremową strukturą. \r\nTropikalne nuty idealnie łączą się z delikatną słodyczą i szczyptą przypraw, \r\ntworząc elegancki, gładki profil z lekkim dębowym akcentem w tle. Santa Rita \r\nHeroes Chardonnay doskonale sprawdza się w towarzystwie ryb - zwłaszcza łososia \r\n- oraz owoców morza, kremowych serów i dań kuchni śródziemnomorskiej. To świeże \r\ni przyjemne wino codzienne o klasie, które oddaje ducha chilijskich \r\nwinnic.</SPAN></P>\r\n",
+  "description_short": "<p>Heroes Reserva Chardonnay to eleganckie, chilijskie wino powstające z ręcznie zbieranych gron. Winogrona pochodzą z regionu Valle Central, gdzie śródziemnomorski klimat - z ciepłymi, suchymi latami i chłodnymi, wilgotnymi zimami</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2397,
+  "id_product": 2397,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2598,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/2397-wino-santa-rita-heroes-chardonnay",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 30.081301,
+  "price_without_reduction": 37,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Chile",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 24
+    },
+    {
+      "name": "Alkohol",
+      "value": "13%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 262
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Blanco",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 536
+    },
+    {
+      "name": "Szczep",
+      "value": "Chardonnay",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 66
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "7804330003402",
+      "ean13": "7804330003402",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3407,
+      "legend": "WINO Santa Rita Heroes Chardonnay",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3407-small_default/wino-santa-rita-heroes-chardonnay.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3407-small_default/wino-santa-rita-heroes-chardonnay.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3407-medium_default/wino-santa-rita-heroes-chardonnay.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3407-medium_default/wino-santa-rita-heroes-chardonnay.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3407,
+    "legend": "WINO Santa Rita Heroes Chardonnay",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3407-small_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-small_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3407-medium_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-medium_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3407-cart_default/wino-santa-rita-heroes-chardonnay.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3407-home_default/wino-santa-rita-heroes-chardonnay.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3407-large_default/wino-santa-rita-heroes-chardonnay.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 37,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items"
+}

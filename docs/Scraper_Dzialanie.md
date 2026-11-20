@@ -47,7 +47,7 @@ Dane produktu nie pochodzą z HTML strony produktu, tylko z AJAX-a PrestaShopa:
 
 1. Strona produktu → lista wariantów z selecta (`.product-variants select`).
 2. Dla każdego wariantu (albo raz, gdy wariantów nie ma) zapytanie POST `index.php?controller=product` z `action=refresh`.
-3. Z odpowiedzi brany jest atrybut `data-product` (JSON z nazwą, ceną, opisem, atrybutami i zdjęciami) i zapisywany jako `<id>_variant_<id_wariantu>.json` lub `<id>_no_variants.json`.
+3. Z odpowiedzi brany jest atrybut `data-product` (JSON z nazwą, ceną, opisem, atrybutami i zdjęciami) i zapisywany jako `<id>_variant_<id_wariantu>.json` lub `<id>_no_variants.json`. Do tego JSON-a dopisywane są pola `lowest_price_30d` i `lowest_price_30d_amount` (najniższa cena z 30 dni, tekst i liczba) z bloku cen `product_prices` tej samej odpowiedzi.
 
 ### 4. Zdjęcia
 
