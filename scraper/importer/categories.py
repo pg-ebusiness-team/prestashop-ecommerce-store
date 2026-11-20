@@ -232,10 +232,6 @@ def import_categories():
         except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
             print(f"Błąd importu kategorii '{name}': {e}")
             report["rejected"] += 1
-
-        except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
-            print(f"Błąd importu kategorii '{name}': {e}")
-            report["rejected"] += 1
             
         if get_prestashop_id(mapping, main_category["url"]) is None:
             skipped = len(category_group["subcategories"])
@@ -251,8 +247,6 @@ def import_categories():
             name = subcategory["name"]
             url = subcategory["url"]
 
-            prestashop_id = get_prestashop_id(mapping, url)
-
             try:
                 _, created = sync_category(
                     api,
@@ -264,10 +258,6 @@ def import_categories():
                 )
 
                 report["created" if created else "updated"] += 1
-
-            except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
-                print(f"Błąd importu podkategorii '{name}': {e}")
-                report["rejected"] += 1
 
             except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
                 print(f"Błąd importu podkategorii '{name}': {e}")

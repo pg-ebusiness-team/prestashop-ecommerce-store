@@ -480,12 +480,11 @@ def main() -> int:
     from scraper.importer.products import (
         group_products,
         import_product,
-        load_products,
         normalize_product,
         validate_product,
     )
-    from scraper.importer.selection import run_selection, PHOTOS_DIR
     from scraper.importer.products_mapping import load_mapping as load_products_mapping
+    from scraper.importer.selection import PHOTOS_DIR, run_selection
 
     selected_products, selected_categories = run_selection(
         source_dir=products_dir,

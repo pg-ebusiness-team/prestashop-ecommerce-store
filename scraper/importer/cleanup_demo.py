@@ -2,9 +2,8 @@ import argparse
 import os
 import xml.etree.ElementTree as ET
 
-from scraper.importer.main import load_env_file
 from scraper.importer.api_client import PrestaShopAPI
-
+from scraper.importer.main import load_env_file
 
 DEMO_CATEGORIES = {
     "clothes",

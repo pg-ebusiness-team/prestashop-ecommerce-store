@@ -1,6 +1,5 @@
 import re
-from decimal import Decimal, ROUND_HALF_UP
-
+from decimal import ROUND_HALF_UP, Decimal
 
 DEFAULT_WEIGHT = 1.5
 PACKAGE_WEIGHT = 0.05

@@ -45,3 +45,5 @@ blob-report/
 
 # Lokalne mapowanie ID kategorii PrestaShop
 scraper/importer/categories_mapping.json
+scraper/importer/attributes_mapping.json
+scraper/importer/products_mapping.json
