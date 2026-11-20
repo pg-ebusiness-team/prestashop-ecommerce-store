@@ -73,12 +73,6 @@ def get_prestashop_id(mapping: list, url: str) -> int | None:
 def _update_category_id(category: dict, prestashop_id: int) -> bool:
     current_id = category["prestashop_id"]
 
-    if current_id is not None and current_id != prestashop_id:
-        raise ValueError(
-            f"Kategoria ma już przypisane ID {current_id}, "
-            f"nie można przypisać ID {prestashop_id}."
-        )
-
     category["prestashop_id"] = prestashop_id
     return current_id != prestashop_id
         

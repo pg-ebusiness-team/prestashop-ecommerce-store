@@ -98,26 +98,28 @@ def import_all_categories(
             if current_id is not None:
                 counts["updated"] += 1
                 return int(current_id)
+
             counts["created"] += 1
             placeholder = dry_id
             dry_id -= 1
             return placeholder
 
-        if current_id is None:
-            current_id = cat.find_existing_category(api, name, parent_id)
-            if current_id is not None:
-                add_mapping(mapping, url, current_id, cat.MAPPING_PATH)
+        # Zawsze szukamy kategorii po stabilnym kluczu:
+        # link_rewrite + id_parent.
+        existing_id = cat.find_existing_category(api, name, parent_id)
 
-        if current_id is None:
-            current_id = cat.create_category(
-                api, mapping, name, url, root_id, language_id
-            )
-            counts["created"] += 1
-        else:
+        if existing_id is not None:
+            add_mapping(mapping, url, existing_id, cat.MAPPING_PATH)
             cat.update_category(
                 api, mapping, name, url, root_id, language_id
             )
             counts["updated"] += 1
+            return int(existing_id)
+
+        current_id = cat.create_category(
+            api, mapping, name, url, root_id, language_id
+        )
+        counts["created"] += 1
         return int(current_id)
 
     selected_category_keys = {
@@ -170,6 +172,62 @@ def import_all_categories(
         save_mapping(mapping, cat.MAPPING_PATH)
     return counts, url_to_id, name_to_id
 
+def load_category_name_map(selected_categories: dict) -> dict[str, int]:
+    """Wczytuje ID wcześniej zaimportowanych kategorii."""
+    from scraper.importer import categories as cat
+    from scraper.importer.categories_mapping import load_mapping
+
+    mapping = load_mapping(cat.SOURCE_PATH, cat.MAPPING_PATH)
+
+    selected_category_keys = {
+        (
+            cat.generate_link_rewrite(main_name),
+            cat.generate_link_rewrite(sub_name)
+        )
+        for main_name, sub_name in selected_categories
+    }
+
+    name_to_id: dict[str, int] = {}
+    missing: list[str] = []
+
+    for group in mapping:
+        main = group["main_category"]
+
+        selected_subcategories = [
+            sub
+            for sub in group.get("subcategories", [])
+            if (
+                cat.generate_link_rewrite(main["name"]),
+                cat.generate_link_rewrite(sub["name"])
+            ) in selected_category_keys
+        ]
+
+        if not selected_subcategories:
+            continue
+
+        main_id = main.get("prestashop_id")
+
+        if main_id is None:
+            missing.append(main["name"])
+        else:
+            name_to_id[cat.generate_link_rewrite(main["name"])] = int(main_id)
+
+        for sub in selected_subcategories:
+            sub_id = sub.get("prestashop_id")
+
+            if sub_id is None:
+                missing.append(sub["name"])
+            else:
+                name_to_id[cat.generate_link_rewrite(sub["name"])] = int(sub_id)
+
+    if missing:
+        raise RuntimeError(
+            "Brak ID zaimportowanych kategorii: "
+            + ", ".join(missing)
+            + ". Najpierw wykonaj make import-categories."
+        )
+
+    return name_to_id
 
 def collect_attributes(
     source_records: list[dict]
@@ -387,6 +445,17 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--execute", action="store_true", help="Wykonaj import do PrestaShop.")
     mode.add_argument("--dry-run", action="store_true", help="Podgląd bez zmian (domyślnie).")
+    scope = parser.add_mutually_exclusive_group()
+    scope.add_argument(
+        "--categories-only",
+        action="store_true",
+        help="Importuj wyłącznie kategorie."
+    )
+    scope.add_argument(
+        "--products-only",
+        action="store_true",
+        help="Importuj atrybuty, produkty i warianty bez importowania kategorii."
+    )
     parser.add_argument("--products-dir", default=None, help="Katalog źródłowych JSON-ów.")
     parser.add_argument("--tax-rules-group-id", type=int, default=None)
     args = parser.parse_args()
@@ -422,6 +491,25 @@ def main() -> int:
         source_dir=products_dir,
         photos_dir=PHOTOS_DIR
     )
+
+    if args.categories_only:
+        api = PrestaShopAPI(shop_url, api_key) if not dry_run else None
+
+        category_counts, _, _ = import_all_categories(
+            api, dry_run, selected_categories
+        )
+
+        report_section("KATEGORIE", category_counts)
+
+        elapsed = time.perf_counter() - start_time
+        minutes, seconds = divmod(int(elapsed), 60)
+        print(f"\nCzas wykonania: {minutes} min {seconds} s")
+        print(
+            "\nPodgląd nie modyfikował sklepu."
+            if dry_run else "\nImport kategorii zakończony."
+        )
+
+        return 1 if category_counts["rejected"] else 0
 
     raw_products = [
         {
@@ -468,15 +556,32 @@ def main() -> int:
 
     api = PrestaShopAPI(shop_url, api_key) if not dry_run else None
 
-    # Dopiero po walidacji źródła i kompletności VAT wykonujemy jakiekolwiek zapisy.
-    category_counts, _category_ids, category_names = import_all_categories(
-        api, dry_run, selected_categories
-    )
+    # Kategorie importujemy tylko wtedy, gdy nie wybrano trybu products-only.
+    if args.products_only:
+        category_counts: Counter[str] = Counter()
+        category_names = load_category_name_map(selected_categories)
+        print("\nUżywam istniejącego mapowania kategorii.")
+    else:
+        category_counts, _category_ids, category_names = import_all_categories(
+            api, dry_run, selected_categories
+        )
+
     attribute_counts, _ = import_all_attributes(
         api, dry_run, raw_products
     )
 
+    if not dry_run and attribute_counts["rejected"] > 0:
+        print(
+            "\nBŁĄD: Import atrybutów zakończył się błędami "
+            f"({attribute_counts['rejected']} odrzuconych). "
+            "Przerywam import produktów, aby nie tworzyć "
+            "produktów bez poprawnych kombinacji.",
+            file=sys.stderr,
+        )
+        return 1
+
     grouped = group_products(normalized)
+
     product_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
 

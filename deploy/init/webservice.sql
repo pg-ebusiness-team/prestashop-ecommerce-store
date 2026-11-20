@@ -27,7 +27,8 @@ INSERT INTO ps_webservice_account_shop (id_webservice_account, id_shop) VALUES (
 INSERT INTO ps_webservice_permission (resource, method, id_webservice_account)
 SELECT r.res, m.meth, @ws_id
 FROM (SELECT 'categories' AS res UNION ALL SELECT 'products' UNION ALL SELECT 'combinations'
-      UNION ALL SELECT 'stock_availables' UNION ALL SELECT 'images') r
+      UNION ALL SELECT 'stock_availables' UNION ALL SELECT 'images'
+      UNION ALL SELECT 'product_options' UNION ALL SELECT 'product_option_values') r
 CROSS JOIN (SELECT 'GET' AS meth UNION ALL SELECT 'POST' UNION ALL SELECT 'PUT' UNION ALL SELECT 'DELETE') m;
 
 COMMIT;

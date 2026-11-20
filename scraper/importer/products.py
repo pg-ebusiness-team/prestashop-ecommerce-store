@@ -13,7 +13,10 @@ from scraper.importer.products_mapping import (
     get_product_mapping,
     save_mapping,
 )
-from scraper.importer.stock import import_stock
+from scraper.importer.stock import (
+    import_stock,
+    limit_combination_stock,
+)
 from scraper.importer.weights import assign_product_weights
 
 LANGUAGE_ID = 1
@@ -264,6 +267,7 @@ def build_product_xml(
 
     # Podstawowe ustawienia produktu
     ET.SubElement(product_element, "active").text = "1"
+    ET.SubElement(product_element, "state").text = "1"
     ET.SubElement(product_element, "available_for_order").text = "1"
     ET.SubElement(product_element, "show_price").text = "1"
     ET.SubElement(product_element, "visibility").text = "both"
@@ -380,7 +384,9 @@ def import_product(
     
     # Import kombinacji produktu i ich stanów magazynowych
     attributes_mapping = load_attributes_mapping()
-    combinations = product.get("combinations", [])
+    combinations = limit_combination_stock(
+        product.get("combinations") or []
+    )
 
     if not combinations:
         # Produkt prosty

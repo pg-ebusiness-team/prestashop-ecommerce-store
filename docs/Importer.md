@@ -53,6 +53,7 @@ Importer:
 - Tworzy kategorie główne pod kategorią `Home`.
 - Tworzy podkategorie we właściwych kategoriach nadrzędnych.
 - Wykorzystuje lokalne mapowanie identyfikatorów.
+- Weryfikuje istniejące kategorie i aktualizuje mapowanie, aby ponowne uruchomienie nie tworzyło duplikatów.
 - Aktualizuje istniejące kategorie zamiast tworzyć duplikaty.
 
 ### Produkty (BACK-3)
@@ -63,10 +64,12 @@ Importer:
 
 - Normalizuje i waliduje dane.
 - Grupuje rekordy dotyczące tego samego produktu.
+- Ogranicza import do maksymalnie 1100 produktów oraz pomija produkty bez dostępnych zdjęć.
 - Przypisuje produkty do zaimportowanych kategorii.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
 - Tworzy grupy atrybutów, wartości i kombinacje wariantów.
-- Ustawia stany magazynowe produktów i ich kombinacji.
+- Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
+- Ustawia stany magazynowe produktów i ich kombinacji w zakresie 0–10 sztuk. Udział produktów ze stanem 0 jest utrzymywany w zakresie 5–20%.
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
 
 ## 5. Mapowanie i idempotencja
@@ -75,7 +78,7 @@ Importer wykorzystuje pliki mapowania w `scraper/importer/`, które przechowują
 
 Mapowania pozwalają rozpoznawać wcześniej zaimportowane kategorie, produkty, atrybuty i warianty.
 
-Pliki mapowania są zależne od konkretnej instancji sklepu i powinny pozostać lokalne. Nie należy zastępować ich mapowaniami pochodzącymi z innej instancji PrestaShop.
+Pliki mapowania są zależne od konkretnej instancji sklepu i powinny pozostać lokalne. Nie należy zastępować ich mapowaniami pochodzącymi z innej instancji PrestaShop. Przy synchronizacji kategorii importer weryfikuje je również na podstawie istniejącej kategorii i jej kategorii nadrzędnej, dzięki czemu może odbudować nieaktualne lokalne mapowanie.
 
 ## 6. Uruchomienie
 
@@ -91,6 +94,14 @@ python -m scraper.importer.main --dry-run
 
 ```bash
 python -m scraper.importer.main --execute
+```
+
+**Import przez Makefile:**
+
+```bash
+make import-categories  # import kategorii
+make import-products    # import produktów
+make import             # pełny import
 ```
 
 Dry-run sprawdza dane wejściowe, ich poprawność, grupowanie oraz przewidywane operacje. Nie wykonuje zapisów w PrestaShop.

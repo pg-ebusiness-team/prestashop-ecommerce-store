@@ -1,4 +1,114 @@
 {
-    "groups": {},
-    "attributes": {}
+    "groups": {
+        "5": {
+            "prestashop_id": 5,
+            "name": "Pojemność"
+        },
+        "7": {
+            "prestashop_id": 6,
+            "name": "Gramatura"
+        }
+    },
+    "attributes": {
+        "26": {
+            "prestashop_id": 26,
+            "group_source_id": 5,
+            "name": "0,2 l"
+        },
+        "27": {
+            "prestashop_id": 27,
+            "group_source_id": 5,
+            "name": "0,5 l"
+        },
+        "28": {
+            "prestashop_id": 28,
+            "group_source_id": 5,
+            "name": "0,7 l"
+        },
+        "29": {
+            "prestashop_id": 29,
+            "group_source_id": 5,
+            "name": "1 l"
+        },
+        "31": {
+            "prestashop_id": 30,
+            "group_source_id": 5,
+            "name": "0,75 l"
+        },
+        "32": {
+            "prestashop_id": 31,
+            "group_source_id": 5,
+            "name": "0,05 l"
+        },
+        "33": {
+            "prestashop_id": 32,
+            "group_source_id": 5,
+            "name": "1,75 l"
+        },
+        "34": {
+            "prestashop_id": 33,
+            "group_source_id": 5,
+            "name": "4,5 l"
+        },
+        "35": {
+            "prestashop_id": 34,
+            "group_source_id": 5,
+            "name": "1,5 l"
+        },
+        "36": {
+            "prestashop_id": 35,
+            "group_source_id": 5,
+            "name": "3 l"
+        },
+        "37": {
+            "prestashop_id": 36,
+            "group_source_id": 5,
+            "name": "0,35 L"
+        },
+        "40": {
+            "prestashop_id": 37,
+            "group_source_id": 5,
+            "name": "0,04 l"
+        },
+        "41": {
+            "prestashop_id": 38,
+            "group_source_id": 5,
+            "name": "0,02 l"
+        },
+        "43": {
+            "prestashop_id": 39,
+            "group_source_id": 5,
+            "name": "6 l"
+        },
+        "44": {
+            "prestashop_id": 40,
+            "group_source_id": 5,
+            "name": "0,01 l"
+        },
+        "45": {
+            "prestashop_id": 41,
+            "group_source_id": 5,
+            "name": "0,25 l"
+        },
+        "46": {
+            "prestashop_id": 42,
+            "group_source_id": 5,
+            "name": "0,1 l"
+        },
+        "47": {
+            "prestashop_id": 43,
+            "group_source_id": 7,
+            "name": "100g"
+        },
+        "49": {
+            "prestashop_id": 44,
+            "group_source_id": 5,
+            "name": "0,72 l"
+        },
+        "50": {
+            "prestashop_id": 45,
+            "group_source_id": 7,
+            "name": "250g"
+        }
+    }
 }

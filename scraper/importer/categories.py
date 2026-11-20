@@ -165,6 +165,34 @@ def update_category(api: PrestaShopAPI, mapping: list, name: str, url: str, root
 
     return prestashop_id
 
+def sync_category(
+    api: PrestaShopAPI,
+    mapping: list,
+    name: str,
+    url: str,
+    root_category_id: int,
+    language_id: int
+) -> tuple[int, bool]:
+
+    parent_id = get_parent_id(mapping, url, root_category_id)
+
+    prestashop_id = find_existing_category(api, name, parent_id)
+
+    if prestashop_id is None:
+        prestashop_id = create_category(
+            api, mapping, name, url, root_category_id, language_id
+        )
+        return prestashop_id, True
+
+    add_mapping(mapping, url, prestashop_id, MAPPING_PATH)
+
+
+    update_category(
+        api, mapping, name, url, root_category_id, language_id
+    )
+
+    return prestashop_id, False
+
 def import_categories():
 
     if not API_KEY:
@@ -189,40 +217,21 @@ def import_categories():
         name = main_category["name"]
         url = main_category["url"]
 
-        prestashop_id = get_prestashop_id(mapping, url)
-
         try:
-            if prestashop_id is None:
-                prestashop_id = find_existing_category(
-                    api,
-                    name,
-                    root_category_id
-                )
+            _, created = sync_category(
+                api,
+                mapping,
+                name,
+                url,
+                root_category_id,
+                language_id
+            )
 
-                if prestashop_id is not None:
-                    add_mapping(mapping, url, prestashop_id, MAPPING_PATH)
+            report["created" if created else "updated"] += 1
 
-            if prestashop_id is None:
-                create_category(
-                    api,
-                    mapping,
-                    name,
-                    url,
-                    root_category_id,
-                    language_id
-                )
-                report["created"] += 1
-
-            else:
-                update_category(
-                    api,
-                    mapping,
-                    name,
-                    url,
-                    root_category_id,
-                    language_id
-                )
-                report["updated"] += 1
+        except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
+            print(f"Błąd importu kategorii '{name}': {e}")
+            report["rejected"] += 1
 
         except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
             print(f"Błąd importu kategorii '{name}': {e}")
@@ -245,40 +254,20 @@ def import_categories():
             prestashop_id = get_prestashop_id(mapping, url)
 
             try:
-                
-                parent_id = get_parent_id(mapping, url, root_category_id)
-                
-                if prestashop_id is None:
-                    prestashop_id = find_existing_category(
-                        api,
-                        name,
-                        parent_id
-                    )
+                _, created = sync_category(
+                    api,
+                    mapping,
+                    name,
+                    url,
+                    root_category_id,
+                    language_id
+                )
 
-                    if prestashop_id is not None:
-                        add_mapping(mapping, url, prestashop_id, MAPPING_PATH)
+                report["created" if created else "updated"] += 1
 
-                if prestashop_id is None:
-                    create_category(
-                        api,
-                        mapping,
-                        name,
-                        url,
-                        root_category_id,
-                        language_id
-                    )
-                    report["created"] += 1
-
-                else:
-                    update_category(
-                        api,
-                        mapping,
-                        name,
-                        url,
-                        root_category_id,
-                        language_id
-                    )
-                    report["updated"] += 1
+            except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
+                print(f"Błąd importu podkategorii '{name}': {e}")
+                report["rejected"] += 1
 
             except (RuntimeError, ValueError, ET.ParseError, OSError) as e:
                 print(f"Błąd importu podkategorii '{name}': {e}")
