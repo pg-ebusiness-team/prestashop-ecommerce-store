@@ -78,6 +78,14 @@ make facets
 
 Polecenie zakłada w module `ps_facetedsearch` zestawy filtrów dla grup kategorii, tak jak w sklepie źródłowym (lista w `deploy/init/facets.php`), i przebudowuje indeks filtrów. Kategorie i cechy dopasowuje po nazwie, więc przed importem zgłosi ich brak. Uruchom je ponownie po każdym imporcie. Filtry ustawione w panelu zostaną nadpisane wersją z repo.
 
+Po imporcie wgraj też opisy kategorii:
+
+```bash
+make categories
+```
+
+Polecenie wpisuje opisy kategorii z plików HTML w `shop/categories/` (lista kategorii w `deploy/init/categories.sql`). Część pliku po znaczniku `<!-- więcej -->` jest zwinięta pod przyciskiem „Pokaż więcej”. Kategorie dopasowuje po nazwie, więc przed importem zgłosi ich brak. Opisy ustawione w panelu zostaną nadpisane wersją z repo.
+
 ### 5. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:

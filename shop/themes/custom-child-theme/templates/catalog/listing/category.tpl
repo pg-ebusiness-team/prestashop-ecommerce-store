@@ -15,3 +15,5 @@
 
 {block name='product_list_header'}{/block}
 {block name='subcategory_list'}{/block}
+{* Classic pokazuje tu additional_description pod produktami; u nas jest w nagłówku pod „Pokaż więcej” *}
+{block name='product_list_footer'}{/block}

@@ -6,7 +6,7 @@ COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check theme facets test-e2e
+.PHONY: help up down reset logs ps shell build init api-check theme facets categories test-e2e
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -20,6 +20,7 @@ help:
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
 	@echo "make facets  - ustaw filtry w lewej kolumnie list produktow i przebuduj ich indeks (po imporcie danych)"
+	@echo "make categories - wgraj opisy kategorii z shop/categories/ (po imporcie danych)"
 	@echo "make test-e2e - uruchom testy E2E Playwright (raport: tests/playwright-report)"
 
 
@@ -85,6 +86,17 @@ theme:
 # Skrypt idzie przez stdin, więc nie trzeba przebudowywać obrazu; -u www-data jak przy theme (pliki cache).
 facets:
 	$(COMPOSE) exec -T -u www-data shop php < deploy/init/facets.php
+
+# Opisy kategorii po imporcie - jak strony CMS w theme: każdy plik shop/categories/<plik>.html idzie jako
+# SET @`cat_<plik>` = FROM_BASE64('...'), a categories.sql wpisuje je do kategorii o nazwach z listy.
+# Raport braków z categories.sql (linie „categories: BLAD”) zatrzymuje make.
+categories:
+	@out=$$({ for f in shop/categories/*.html; do name=$$(basename "$$f" .html); \
+	    printf "SET @\`cat_%s\` = FROM_BASE64('%s');\n" "$$name" "$$(base64 < "$$f" | tr -d '\n')"; done; \
+	  cat deploy/init/categories.sql; } \
+	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -N -u"$$MYSQL_USER" "$$MYSQL_DATABASE"') || exit 1; \
+	if [ -n "$$out" ]; then echo "$$out"; exit 1; fi
+	@echo "categories: gotowe"
 
 # Testy E2E: instalacja zależności i Chromium, potem testy na adresie SHOP_URL
 test-e2e:
