@@ -70,6 +70,14 @@ make theme
 
 Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo), treści stron CMS (Dostawa, Polityka prywatności, Regulamin, O nas, Płatności) z plików HTML w `shop/cms/` (metadane w `deploy/init/cms.sql`) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera, bloku tekstowego i stron CMS zostaną nadpisane wersją z repo.
 
+Po imporcie danych ustaw filtry w lewej kolumnie list produktów:
+
+```bash
+make facets
+```
+
+Polecenie zakłada w module `ps_facetedsearch` zestawy filtrów dla grup kategorii, tak jak w sklepie źródłowym (lista w `deploy/init/facets.php`), i przebudowuje indeks filtrów. Kategorie i cechy dopasowuje po nazwie, więc przed importem zgłosi ich brak. Uruchom je ponownie po każdym imporcie. Filtry ustawione w panelu zostaną nadpisane wersją z repo.
+
 ### 5. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:

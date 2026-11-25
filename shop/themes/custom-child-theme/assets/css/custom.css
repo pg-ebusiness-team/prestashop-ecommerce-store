@@ -1216,6 +1216,15 @@ body#checkout section.checkout-step .address-item.selected,
   text-transform: none;
 }
 
+/* Długie listy wartości (np. Kraj: 65 pozycji) przewijane wewnątrz filtra, ok. 15 pozycji na raz.
+   Bez suwaka ceny - jego lista to jeden element ze slidebarem. */
+#search_filters .facet ul:not(.faceted-slider) {
+  max-height: 22rem;
+  padding-right: .5rem; /* odstęp liczników od paska przewijania */
+  overflow-y: auto;
+  overscroll-behavior: contain; /* koniec listy nie przewija dalej całej strony */
+}
+
 #search_filters .facet .facet-label {
   display: flex;
   align-items: center;
