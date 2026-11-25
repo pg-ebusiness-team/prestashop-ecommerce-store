@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Koszyk', () => {
   test('dodanie 10 produktów, wyszukanie produktu i usunięcie 3 pozycji', async ({ page }) => {
+    test.setTimeout(120_000); // ok. 30 s na danych demo, domyślny limit 30 s nie zostawiał zapasu
     // Bez tych wpisów baner cookies i okno 18+ zasłaniają stronę (docs/adr/0002-baner-cookies.md)
     await page.addInitScript(() => {
       localStorage.setItem('cookie-consent', JSON.stringify({ analytics: false, marketing: false }));
@@ -18,7 +19,15 @@ test.describe('Koszyk', () => {
     async function dodajDoKoszyka(ilosc: number): Promise<boolean> {
       await expect(przyciskDodaj).toBeVisible();
       if (await przyciskDodaj.isDisabled()) return false;
-      await page.locator('#quantity_wanted').fill(String(ilosc));
+      const pole = page.locator('#quantity_wanted');
+      if ((await pole.inputValue()) !== String(ilosc)) {
+        const odswiezenie = page.waitForResponse((r) => r.request().postData()?.includes('action=refresh') ?? false);
+        await pole.fill(String(ilosc));
+        await pole.press('End'); // sklep sprawdza stan dopiero po keyup, samo fill go nie wywołuje
+        // odpowiedź zawiera nowy HTML przycisku; disabled = stan nie wystarcza na tę ilość
+        const { product_add_to_cart: przycisk } = await (await odswiezenie).json();
+        if (/\sdisabled/.test(przycisk)) return false;
+      }
       await przyciskDodaj.click();
       await expect(page.locator('#blockcart-modal')).toBeVisible();
       sztuki += ilosc;
