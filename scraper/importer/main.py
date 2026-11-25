@@ -69,7 +69,8 @@ def report_section(title: str, counts: Counter[str]) -> None:
 
 def import_all_categories(
     api: Any,
-    dry_run: bool
+    dry_run: bool,
+    selected_categories: dict
 ) -> tuple[Counter[str], dict[str, int], dict[str, int]]:
     """Importuje kategorie główne i podkategorie."""
     from scraper.importer import categories as cat
@@ -97,47 +98,72 @@ def import_all_categories(
             if current_id is not None:
                 counts["updated"] += 1
                 return int(current_id)
+
             counts["created"] += 1
             placeholder = dry_id
             dry_id -= 1
             return placeholder
 
-        if current_id is None:
-            current_id = cat.find_existing_category(api, name, parent_id)
-            if current_id is not None:
-                add_mapping(mapping, url, current_id, cat.MAPPING_PATH)
+        # Zawsze szukamy kategorii po stabilnym kluczu:
+        # link_rewrite + id_parent.
+        existing_id = cat.find_existing_category(api, name, parent_id)
 
-        if current_id is None:
-            current_id = cat.create_category(
-                api, mapping, name, url, root_id, language_id
-            )
-            counts["created"] += 1
-        else:
+        if existing_id is not None:
+            add_mapping(mapping, url, existing_id, cat.MAPPING_PATH)
             cat.update_category(
                 api, mapping, name, url, root_id, language_id
             )
             counts["updated"] += 1
+            return int(existing_id)
+
+        current_id = cat.create_category(
+            api, mapping, name, url, root_id, language_id
+        )
+        counts["created"] += 1
         return int(current_id)
+
+    selected_category_keys = {
+    (
+        cat.generate_link_rewrite(main_name),
+        cat.generate_link_rewrite(sub_name)
+    )
+    for main_name, sub_name in selected_categories
+}
 
     for group in mapping:
         main = group["main_category"]
+
+        selected_subcategories = [
+            sub
+            for sub in group.get("subcategories", [])
+            if (
+                cat.generate_link_rewrite(main["name"]),
+                cat.generate_link_rewrite(sub["name"])
+            ) in selected_category_keys
+        ]
+
+        if not selected_subcategories:
+            continue
+
         try:
             main_id = process(main, root_id)
             main["prestashop_id"] = main_id
             url_to_id[main["url"]] = main_id
             name_to_id[cat.generate_link_rewrite(main["name"])] = main_id
+
         except Exception as exc:  # noqa: BLE001
             counts["rejected"] += 1
             print(f"[KATEGORIA] {main.get('name')}: {exc}")
-            counts["rejected"] += len(group.get("subcategories", []))
+            counts["rejected"] += len(selected_subcategories)
             continue
 
-        for sub in group.get("subcategories", []):
+        for sub in selected_subcategories:
             try:
                 sub_id = process(sub, main_id)
                 sub["prestashop_id"] = sub_id
                 url_to_id[sub["url"]] = sub_id
                 name_to_id[cat.generate_link_rewrite(sub["name"])] = sub_id
+
             except Exception as exc:  # noqa: BLE001
                 counts["rejected"] += 1
                 print(f"[PODKATEGORIA] {sub.get('name')}: {exc}")
@@ -146,38 +172,112 @@ def import_all_categories(
         save_mapping(mapping, cat.MAPPING_PATH)
     return counts, url_to_id, name_to_id
 
+def load_category_name_map(selected_categories: dict) -> dict[str, int]:
+    """Wczytuje ID wcześniej zaimportowanych kategorii."""
+    from scraper.importer import categories as cat
+    from scraper.importer.categories_mapping import load_mapping
 
-def collect_attributes(source_dir: Path) -> tuple[dict[int, str], dict[int, tuple[int, str]], int]:
+    mapping = load_mapping(cat.SOURCE_PATH, cat.MAPPING_PATH)
+
+    selected_category_keys = {
+        (
+            cat.generate_link_rewrite(main_name),
+            cat.generate_link_rewrite(sub_name)
+        )
+        for main_name, sub_name in selected_categories
+    }
+
+    name_to_id: dict[str, int] = {}
+    missing: list[str] = []
+
+    for group in mapping:
+        main = group["main_category"]
+
+        selected_subcategories = [
+            sub
+            for sub in group.get("subcategories", [])
+            if (
+                cat.generate_link_rewrite(main["name"]),
+                cat.generate_link_rewrite(sub["name"])
+            ) in selected_category_keys
+        ]
+
+        if not selected_subcategories:
+            continue
+
+        main_id = main.get("prestashop_id")
+
+        if main_id is None:
+            missing.append(main["name"])
+        else:
+            name_to_id[cat.generate_link_rewrite(main["name"])] = int(main_id)
+
+        for sub in selected_subcategories:
+            sub_id = sub.get("prestashop_id")
+
+            if sub_id is None:
+                missing.append(sub["name"])
+            else:
+                name_to_id[cat.generate_link_rewrite(sub["name"])] = int(sub_id)
+
+    if missing:
+        raise RuntimeError(
+            "Brak ID zaimportowanych kategorii: "
+            + ", ".join(missing)
+            + ". Najpierw wykonaj make import-categories."
+        )
+
+    return name_to_id
+
+def collect_attributes(
+    source_records: list[dict]
+) -> tuple[dict[int, str], dict[int, tuple[int, str]], int]:
+
     groups: dict[int, str] = {}
     values: dict[int, tuple[int, str]] = {}
     rejected_files = 0
 
-    for file_path in sorted(source_dir.rglob("*.json")):
+    for raw in source_records:
+        file_path = raw.get("source_file", "<nieznany plik>")
+
         try:
-            data = json.loads(file_path.read_text(encoding="utf-8"))
+            data = raw["data"]
             attrs = data.get("attributes") or {}
+
             if not isinstance(attrs, dict):
                 raise TypeError("Pole attributes nie jest obiektem.")
+
             for attr in attrs.values():
                 if not isinstance(attr, dict):
                     raise TypeError("Nieprawidłowy rekord atrybutu.")
+
                 group_id = int(attr["id_attribute_group"])
                 attr_id = int(attr["id_attribute"])
                 group_name = str(attr["group"])
                 attr_name = str(attr["name"])
+
                 if group_id in groups and groups[group_id] != group_name:
                     raise ValueError(f"Konflikt nazwy grupy {group_id}.")
+
                 if attr_id in values and values[attr_id] != (group_id, attr_name):
                     raise ValueError(f"Konflikt wartości atrybutu {attr_id}.")
+
                 groups[group_id] = group_name
                 values[attr_id] = (group_id, attr_name)
-        except (OSError, json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
+
+        except (KeyError, TypeError, ValueError) as exc:
             rejected_files += 1
-            print(f"[ATRYBUTY — PLIK] {file_path}: {exc}")
+            print(f"[ATRYBUTY — REKORD] {file_path}: {exc}")
+
     return groups, values, rejected_files
 
 
-def import_all_attributes(api: Any, dry_run: bool, source_dir: Path) -> tuple[Counter[str], dict]:
+def import_all_attributes(
+    api: Any,
+    dry_run: bool,
+    source_records: list[dict]
+) -> tuple[Counter[str], dict]:
+
     from scraper.importer.attributes import (
         import_attribute_group,
         import_attribute_value,
@@ -186,31 +286,53 @@ def import_all_attributes(api: Any, dry_run: bool, source_dir: Path) -> tuple[Co
 
     mapping = load_mapping()
     counts: Counter[str] = Counter()
-    groups, values, bad_files = collect_attributes(source_dir)
+
+    groups, values, bad_files = collect_attributes(source_records)
     counts["rejected"] += bad_files
 
     if dry_run:
-        counts["created"] = sum(str(k) not in mapping["groups"] for k in groups)
-        counts["updated"] = sum(str(k) in mapping["groups"] for k in groups)
-        counts["created"] += sum(str(k) not in mapping["attributes"] for k in values)
-        counts["updated"] += sum(str(k) in mapping["attributes"] for k in values)
-        print(f"Atrybuty źródłowe: {len(groups)} grup, {len(values)} wartości.")
+        counts["created"] = sum(
+            str(k) not in mapping["groups"] for k in groups
+        )
+        counts["updated"] = sum(
+            str(k) in mapping["groups"] for k in groups
+        )
+        counts["created"] += sum(
+            str(k) not in mapping["attributes"] for k in values
+        )
+        counts["updated"] += sum(
+            str(k) in mapping["attributes"] for k in values
+        )
+
+        print(
+            f"Atrybuty wybranych produktów: "
+            f"{len(groups)} grup, {len(values)} wartości."
+        )
+
         return counts, mapping
 
     for source_group_id, group_name in sorted(groups.items()):
         try:
-            import_attribute_group(api, source_group_id, group_name, mapping)
+            import_attribute_group(
+                api, source_group_id, group_name, mapping
+            )
             counts["updated"] += 1
+
         except Exception as exc:  # noqa: BLE001
             counts["rejected"] += 1
             print(f"[GRUPA ATRYBUTÓW] {group_name}: {exc}")
 
     for source_attribute_id, (source_group_id, name) in sorted(values.items()):
         group_mapping = mapping["groups"].get(str(source_group_id))
+
         if not group_mapping:
             counts["rejected"] += 1
-            print(f"[ATRYBUT] {name}: brak mapowania grupy {source_group_id}.")
+            print(
+                f"[ATRYBUT] {name}: "
+                f"brak mapowania grupy {source_group_id}."
+            )
             continue
+
         try:
             import_attribute_value(
                 api,
@@ -221,9 +343,11 @@ def import_all_attributes(api: Any, dry_run: bool, source_dir: Path) -> tuple[Co
                 mapping,
             )
             counts["updated"] += 1
+
         except Exception as exc:  # noqa: BLE001
             counts["rejected"] += 1
             print(f"[ATRYBUT] {name}: {exc}")
+
     return counts, mapping
 
 
@@ -321,6 +445,17 @@ def main() -> int:
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--execute", action="store_true", help="Wykonaj import do PrestaShop.")
     mode.add_argument("--dry-run", action="store_true", help="Podgląd bez zmian (domyślnie).")
+    scope = parser.add_mutually_exclusive_group()
+    scope.add_argument(
+        "--categories-only",
+        action="store_true",
+        help="Importuj wyłącznie kategorie."
+    )
+    scope.add_argument(
+        "--products-only",
+        action="store_true",
+        help="Importuj atrybuty, produkty i warianty bez importowania kategorii."
+    )
     parser.add_argument("--products-dir", default=None, help="Katalog źródłowych JSON-ów.")
     parser.add_argument("--tax-rules-group-id", type=int, default=None)
     args = parser.parse_args()
@@ -345,13 +480,49 @@ def main() -> int:
     from scraper.importer.products import (
         group_products,
         import_product,
-        load_products,
         normalize_product,
         validate_product,
     )
     from scraper.importer.products_mapping import load_mapping as load_products_mapping
+    from scraper.importer.selection import PHOTOS_DIR, run_selection
 
-    raw_products = load_products(products_dir)
+    selected_products, selected_categories = run_selection(
+        source_dir=products_dir,
+        photos_dir=PHOTOS_DIR
+    )
+
+    if args.categories_only:
+        api = PrestaShopAPI(shop_url, api_key) if not dry_run else None
+
+        category_counts, _, _ = import_all_categories(
+            api, dry_run, selected_categories
+        )
+
+        report_section("KATEGORIE", category_counts)
+
+        elapsed = time.perf_counter() - start_time
+        minutes, seconds = divmod(int(elapsed), 60)
+        print(f"\nCzas wykonania: {minutes} min {seconds} s")
+        print(
+            "\nPodgląd nie modyfikował sklepu."
+            if dry_run else "\nImport kategorii zakończony."
+        )
+
+        return 1 if category_counts["rejected"] else 0
+
+    raw_products = [
+        {
+            "data": record,
+            "source_file": record["_source_file"]
+        }
+        for records in selected_products.values()
+        for record in records
+    ]
+
+    print(f"\nSelektor wybrał {len(selected_products)} unikalnych produktów.")
+    print(f"Wybrane rekordy źródłowe: {len(raw_products)}")
+    print(f"Zachowane podkategorie: {len(selected_categories)}")
+
     normalized: list[dict] = []
     rejected_records = 0
 
@@ -384,13 +555,32 @@ def main() -> int:
 
     api = PrestaShopAPI(shop_url, api_key) if not dry_run else None
 
-    # Dopiero po walidacji źródła i kompletności VAT wykonujemy jakiekolwiek zapisy.
-    category_counts, _category_ids, category_names = import_all_categories(
-        api, dry_run
+    # Kategorie importujemy tylko wtedy, gdy nie wybrano trybu products-only.
+    if args.products_only:
+        category_counts: Counter[str] = Counter()
+        category_names = load_category_name_map(selected_categories)
+        print("\nUżywam istniejącego mapowania kategorii.")
+    else:
+        category_counts, _category_ids, category_names = import_all_categories(
+            api, dry_run, selected_categories
+        )
+
+    attribute_counts, _ = import_all_attributes(
+        api, dry_run, raw_products
     )
-    attribute_counts, _ = import_all_attributes(api, dry_run, products_dir)
+
+    if not dry_run and attribute_counts["rejected"] > 0:
+        print(
+            "\nBŁĄD: Import atrybutów zakończył się błędami "
+            f"({attribute_counts['rejected']} odrzuconych). "
+            "Przerywam import produktów, aby nie tworzyć "
+            "produktów bez poprawnych kombinacji.",
+            file=sys.stderr,
+        )
+        return 1
 
     grouped = group_products(normalized)
+
     product_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
 

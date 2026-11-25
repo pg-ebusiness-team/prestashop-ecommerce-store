@@ -68,6 +68,12 @@ def build_combination_xml(
         "minimal_quantity"
     ).text = "1"
 
+    # Różnica wagi wariantu względem produktu bazowego (kg)
+    ET.SubElement(
+        combination_element,
+        "weight"
+    ).text = str(combination.get("weight_delta", 0.0))
+
     ean13 = combination.get("ean13")
 
     if ean13 and len(str(ean13)) == 13 and str(ean13).isdigit():
@@ -198,7 +204,7 @@ def update_combination(
     if new_combination is None:
         raise RuntimeError("Nieprawidłowy XML kombinacji.")
 
-    for field in ["ean13", "minimal_quantity"]:
+    for field in ["ean13", "minimal_quantity", "weight"]:
         new_value = new_combination.find(field)
         old_value = existing.find(field)
 

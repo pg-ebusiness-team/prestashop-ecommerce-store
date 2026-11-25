@@ -2,6 +2,62 @@
 import os
 import xml.etree.ElementTree as ET
 
+MAX_STOCK_QUANTITY = 10
+
+
+def limit_combination_stock(combinations: list[dict]) -> list[dict]:
+    """Ogranicza łączny stan wszystkich kombinacji produktu do 10 sztuk."""
+    normalized = []
+    quantities = []
+
+    for combination in combinations:
+        quantity = combination.get("quantity")
+
+        if (
+            not isinstance(quantity, int)
+            or isinstance(quantity, bool)
+            or quantity < 0
+        ):
+            raise ValueError(
+                f"Nieprawidłowy stan kombinacji: {quantity}"
+            )
+
+        normalized.append(dict(combination))
+        quantities.append(quantity)
+
+    total = sum(quantities)
+
+    if total <= MAX_STOCK_QUANTITY:
+        return normalized
+
+    # Proporcjonalny podział dostępnych 10 sztuk.
+    allocations = [
+        divmod(quantity * MAX_STOCK_QUANTITY, total)
+        for quantity in quantities
+    ]
+
+    remaining = MAX_STOCK_QUANTITY - sum(
+        allocated for allocated, _ in allocations
+    )
+
+    # Pozostałe sztuki przydzielamy wariantom z największą resztą.
+    priority = sorted(
+        range(len(quantities)),
+        key=lambda i: (
+            -allocations[i][1],
+            -quantities[i],
+            i
+        )
+    )
+
+    for i in priority[:remaining]:
+        allocated, remainder = allocations[i]
+        allocations[i] = (allocated + 1, remainder)
+
+    for combination, (allocated, _) in zip(normalized, allocations):
+        combination["quantity"] = allocated
+
+    return normalized
 
 def _shop_scope() -> tuple[int, int]:
     return (
@@ -68,6 +124,8 @@ def update_stock(api, product_id: int, quantity: int, combination_id: int = 0) -
         or quantity < 0
     ):
         raise ValueError(f"Nieprawidłowa ilość produktu: {quantity}")
+
+    quantity = min(quantity, MAX_STOCK_QUANTITY)
 
     stock_id = find_stock_available(api, product_id, combination_id)
     if stock_id is None:
