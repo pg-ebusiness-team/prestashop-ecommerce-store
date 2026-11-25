@@ -21,6 +21,7 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `categories_mapping.py` | Mapowanie kategorii                        |
 | `attributes.py`         | Import grup i wartości atrybutów           |
 | `attributes_mapping.py` | Mapowanie atrybutów                        |
+| `features.py`           | Import cech produktów (zakładka „Szczegóły”) |
 | `products.py`           | Normalizacja, walidacja i import produktów |
 | `products_mapping.py`   | Mapowanie produktów i wariantów            |
 | `combinations.py`       | Import kombinacji produktów                |
@@ -66,6 +67,7 @@ Importer:
 - Przypisuje produkty do zaimportowanych kategorii.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
 - Tworzy grupy atrybutów, wartości i kombinacje wariantów.
+- Tworzy cechy produktów (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) i ich wartości, a następnie przypisuje je produktom — sklep pokazuje je w sekcji „Szczegóły” karty produktu. Cechy i wartości są rozpoznawane po nazwie (bez pliku mapowania), kolejność cech odpowiada źródłu.
 - Ustawia stany magazynowe produktów i ich kombinacji.
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
 

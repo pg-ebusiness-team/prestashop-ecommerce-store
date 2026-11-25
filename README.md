@@ -54,7 +54,7 @@ Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! St
 make init
 ```
 
-Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values`. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
 
 Poprawność konfiguracji API sprawdzisz poleceniem:
 

@@ -342,6 +342,11 @@ def main() -> int:
         return 2
 
     from scraper.importer.api_client import PrestaShopAPI
+    from scraper.importer.features import (
+        count_features_dry_run,
+        import_features,
+        product_feature_ids,
+    )
     from scraper.importer.products import (
         group_products,
         import_product,
@@ -391,6 +396,20 @@ def main() -> int:
     attribute_counts, _ = import_all_attributes(api, dry_run, products_dir)
 
     grouped = group_products(normalized)
+
+    # Cechy (zakładka „Szczegóły”) po nazwie, przed produktami - produkt dostaje je w tym samym zapytaniu
+    resolved_features: dict | None = None
+    if dry_run:
+        feature_counts = Counter(count_features_dry_run(grouped))
+    else:
+        try:
+            counts, resolved_features = import_features(api, grouped)
+            feature_counts = Counter(counts)
+        except Exception as exc:  # noqa: BLE001
+            # Bez cech import produktów idzie dalej, a ich obecne cechy w sklepie zostają nietknięte
+            feature_counts = Counter({"rejected": 1})
+            print(f"[CECHY] Pominięto import cech: {type(exc).__name__}: {exc}")
+
     product_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
 
@@ -407,8 +426,12 @@ def main() -> int:
         else:
             try:
                 tax_group_id = tax_map[normalize_vat_rate(product["vat_rate"])]
+                feature_ids = (
+                    product_feature_ids(product, resolved_features)
+                    if resolved_features is not None else None
+                )
                 _, operation = import_product(
-                    api, product, mapping, category_id, tax_group_id
+                    api, product, mapping, category_id, tax_group_id, feature_ids
                 )
                 product_counts[operation] += 1
             except Exception as exc:  # noqa: BLE001
@@ -420,9 +443,14 @@ def main() -> int:
 
     report_section("KATEGORIE", category_counts)
     report_section("ATRYBUTY", attribute_counts)
+    if not dry_run:
+        report_section("CECHY (nazwy i wartości)", feature_counts)
     report_section("PRODUKTY", product_counts)
 
-    total_rejected = rejected_records + category_counts["rejected"] + attribute_counts["rejected"] + product_counts["rejected"]
+    total_rejected = (
+        rejected_records + category_counts["rejected"] + attribute_counts["rejected"]
+        + feature_counts["rejected"] + product_counts["rejected"]
+    )
     print("\nPODSUMOWANIE")
     print(f"  Pliki produktów:       {len(raw_products)}")
     print(f"  Poprawne rekordy:      {len(normalized)}")
