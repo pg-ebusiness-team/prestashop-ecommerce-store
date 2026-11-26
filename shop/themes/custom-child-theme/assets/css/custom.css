@@ -303,7 +303,7 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #header #search_widget form i.clear {
-  display: none;
+  display: none !important; /* ps_searchbar.js na telefonie pokazuje X stylem inline, w miejscu lupy */
 }
 
 #header .header-actions {
@@ -1020,18 +1020,12 @@ body#checkout section.checkout-step .address-item.selected,
 .product-miniature .thumbnail-container:hover .quick-view,
 .product-miniature .thumbnail-container:hover .miniature-cart-btn,
 .product-miniature .thumbnail-container:focus-within .quick-view,
-.product-miniature .thumbnail-container:focus-within .miniature-cart-btn {
+.product-miniature .thumbnail-container:focus-within .miniature-cart-btn,
+.product-miniature .thumbnail-top.is-tapped .quick-view,
+.product-miniature .thumbnail-top.is-tapped .miniature-cart-btn {
+  /* .is-tapped: ekran dotykowy, pierwsze tapnięcie w zdjęcie (custom.js) */
   opacity: 1;
   transform: none;
-}
-
-/* Ekrany dotykowe nie mają hovera - przyciski widoczne zawsze */
-@media (hover: none) {
-  .product-miniature .quick-view,
-  .product-miniature .miniature-cart-btn {
-    opacity: 1;
-    transform: none;
-  }
 }
 
 /* Serce ulubionych (blockwishlist) wstawiane przez JS - w źródle go nie ma, zostaje na stronie produktu */
@@ -1353,6 +1347,52 @@ body#checkout section.checkout-step .address-item.selected,
   color: var(--color-graphite);
   background: #fff;
   border: 1px solid var(--color-border);
+}
+
+/* Telefon jak w źródle: bez sortowania, „Filtruj” jako pionowa zakładka przy prawej krawędzi ekranu */
+@media (max-width: 767px) {
+  .products-selection .products-sort-order {
+    display: none;
+  }
+
+  .products-selection .filter-button {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 10;
+    width: auto;
+    padding: 0;
+  }
+
+  #category #search_filter_toggler {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    width: auto;
+    padding: 1rem .5rem;
+    font-size: 0; /* chowa „Filtr” z tłumaczenia Classic; napis jak w źródle daje ::after */
+    color: var(--color-graphite);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    writing-mode: vertical-rl;
+    background: var(--color-brand-100);
+    border: 0;
+    box-shadow: none;
+    transform: rotate(180deg); /* tekst czytany od dołu do góry */
+  }
+
+  #search_filter_toggler::before {
+    font-family: "Material Icons";
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    content: "\E152"; /* filter_list */
+    transform: rotate(180deg); /* ikona prosto mimo obróconego przycisku */
+  }
+
+  #search_filter_toggler::after {
+    font-size: .8125rem;
+    content: "Filtruj";
+  }
 }
 
 /* Paginacja: numery w kwadratach, aktualna strona beżowa (templates/_partials/pagination.tpl) */

@@ -155,3 +155,20 @@
     if (open) document.querySelector('#search_widget input[type="text"]').focus();
   });
 })();
+
+/*
+ * Ekran dotykowy, jak w źródle: pierwsze tapnięcie w zdjęcie produktu tylko odsłania oko i „Dodaj do koszyka”
+ * (.is-tapped w custom.css), dopiero następne otwiera produkt albo naciska przycisk.
+ */
+(function () {
+  if (!window.matchMedia('(hover: none)').matches) return;
+  document.addEventListener('click', function (e) {
+    var card = e.target.closest('.product-miniature .thumbnail-top');
+    var open = document.querySelector('.thumbnail-top.is-tapped');
+    if (open && open !== card) open.classList.remove('is-tapped');
+    if (!card || card === open) return;
+    card.classList.add('is-tapped');
+    e.preventDefault();
+    e.stopPropagation(); // core.js (koszyk, szybki podgląd) słucha na body, a ukryty przycisk też łapie tapnięcie
+  }, true); // capture: przed handlerami Classic
+})();
