@@ -470,8 +470,24 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #search-toggle button {
+  display: flex;
+  align-items: center;
+  height: 50px; /* jak #menu-icon w Classic */
   padding: 0 .5rem;
-  line-height: 50px; /* jak #menu-icon w Classic */
+}
+
+/* Górny pasek na telefonie: konto, lupa i koszyk w jednej linii z ikoną menu.
+   Classic daje ikonom line-height wyższy niż ich ramka, więc rysowały się za nisko. */
+#header .header-nav .mobile .float-xs-right .material-icons {
+  line-height: 1;
+}
+
+#header .header-nav #_mobile_user_info .user-info {
+  margin-top: 13px;
+}
+
+#header .header-nav #_mobile_cart .blockcart {
+  padding-top: 11px;
 }
 
 .breadcrumb {
