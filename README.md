@@ -171,7 +171,16 @@ Polecenie instaluje zależności i przeglądarkę Chromium, a następnie urucham
 
 Raport HTML zapisuje się w `tests/playwright-report/` (podgląd: `cd tests && npx playwright show-report`), a zrzuty ekranu nieudanych testów w `tests/test-results/`.
 
-Na razie jest tylko test dymny strony głównej (`tests/e2e/smoke.spec.ts`). Scenariusz zakupowy z wymagania W4 nie jest jeszcze napisany.
+Jeden plik lub jeden test: `cd tests && BASE_URL=https://localhost:8443 npx playwright test e2e/koszyk.spec.ts` (filtr po nazwie: `-g "Koszyk"`, podgląd przeglądarki: `--headed`).
+
+| Plik | Co sprawdza |
+|---|---|
+| `tests/e2e/smoke.spec.ts` | strona główna się ładuje |
+| `tests/e2e/koszyk.spec.ts` | kroki 1–3 scenariusza W4: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka |
+
+Kroki 4–10 scenariusza W4 (rejestracja, zamówienie, płatność, przewoźnik, status, faktura) nie są jeszcze napisane. Cały scenariusz musi trwać ≤5 min.
+
+Test koszyka wymaga zaimportowanych produktów (`make import`) i kategorii w górnym menu, bo z menu wybiera kategorie. Produkty bez wystarczającego stanu pomija. Test, który klika po stronie, musi przed wejściem ustawić w `localStorage` `cookie-consent` i `age-confirmed` (jak w `koszyk.spec.ts`), inaczej baner cookies i okno 18+ zasłaniają stronę ([ADR 0002](docs/adr/0002-baner-cookies.md)).
 
 ## Testy jednostkowe i linter
 

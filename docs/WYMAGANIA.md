@@ -26,7 +26,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [x] Docker Compose v2: plik `compose.yaml`, komenda `docker compose`, **bez** klucza `version:`
 - [x] Obrazy budowane dla `linux/amd64` (lub multi-arch) — uwaga na Apple Silicon (domyślnie arm64)
 - [ ] Repozytorium na GitHub (zalecany) lub GitLab (GitLab Free: prywatna grupa maks. 5 osób łącznie z prowadzącym)
-- [ ] Testy E2E w **Playwright** (TS/JS, Python, Java lub C#), headless — **Selenium niedopuszczalny**
+- [x] Testy E2E w **Playwright** (TS/JS, Python, Java lub C#), headless — **Selenium niedopuszczalny**
 - [x] Scraper w dowolnym języku/bibliotece
 - [x] Poczta testowa: Mailpit lub MailHog jako kontener
 - Płatne moduły PrestaShop dozwolone, ale żadne wymaganie ich nie zakłada
@@ -153,9 +153,9 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 Skrypt Playwright w trybie headless wykonuje w całości w **≤5 min**:
 
-- [ ] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii
-- [ ] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników
-- [ ] 3. Usunięcie z koszyka 3 produktów
+- [ ] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
+- [ ] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
+- [ ] 3. Usunięcie z koszyka 3 produktów — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
 - [ ] 4. Rejestracja nowego konta
 - [ ] 5. Złożenie zamówienia na zawartość koszyka
 - [ ] 6. Wybór płatności przy odbiorze
