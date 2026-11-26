@@ -39,6 +39,7 @@ down:
 
 reset:
 	$(COMPOSE) down -v
+	rm -f scraper/importer/*_mapping.json
 
 logs:
 	$(COMPOSE) logs -f $(SERVICE)
