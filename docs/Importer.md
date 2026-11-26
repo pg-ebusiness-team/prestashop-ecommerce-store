@@ -21,6 +21,7 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `categories_mapping.py` | Mapowanie kategorii                        |
 | `attributes.py`         | Import grup i wartości atrybutów           |
 | `attributes_mapping.py` | Mapowanie atrybutów                        |
+| `features.py`           | Import cech produktów (zakładka „Szczegóły”) |
 | `products.py`           | Normalizacja, walidacja i import produktów |
 | `products_mapping.py`   | Mapowanie produktów i wariantów            |
 | `combinations.py`       | Import kombinacji produktów                |
@@ -73,6 +74,10 @@ Importer:
 - Przypisuje produkty do zaimportowanych kategorii.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
 - Tworzy grupy atrybutów, wartości i kombinacje wariantów.
+- Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
+- Ustawia stany magazynowe produktów i ich kombinacji w zakresie 0–10 sztuk. Udział produktów ze stanem 0 jest utrzymywany w zakresie 5–20%.
+- Tworzy cechy produktów (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) i ich wartości, a następnie przypisuje je produktom — sklep pokazuje je w sekcji „Szczegóły” karty produktu. Cechy i wartości są rozpoznawane po nazwie (bez pliku mapowania), kolejność cech odpowiada źródłu.
+- Ustawia stany magazynowe produktów i ich kombinacji.
 - Szacuje wagę (w kg) z pojemności (1,5 × litry + 0,25), a gdy jej brak — z gramatury (+ 0,05 na opakowanie). Gdy nie da się ustalić żadnej, przyjmuje 1,5 kg.
 - Ustawia stany magazynowe ze źródła. Przy produktach z wariantami ogranicza łączny stan do 10 sztuk. Udziału produktów ze stanem 0 (wymagane 5–20%) importer nie wymusza, wynika on z danych źródłowych. Zakres i udział sprawdza `docs/stock_validation.sql` (ostatni pomiar: 10,45%, wpis z 2026-11-20 w `AI_LOG.md`).
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.

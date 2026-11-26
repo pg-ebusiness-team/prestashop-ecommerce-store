@@ -2,7 +2,7 @@
  * Ścieżka jak w Classic, ale bez wewnętrznego {block name='breadcrumb'}: ma tę samą nazwę co blok layoutu,
  * więc catalog/listing/category.tpl, nadpisując blok layoutu, nadpisywałby też ten (podwójny nagłówek kategorii).
  *}
-<nav data-depth="{$breadcrumb.count}" class="breadcrumb">
+<nav data-depth="{$breadcrumb.count}" class="breadcrumb" aria-label="Ścieżka nawigacji">
   <ol>
     {foreach from=$breadcrumb.links item=path name=breadcrumb}
       {block name='breadcrumb_item'}

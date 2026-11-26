@@ -63,8 +63,7 @@ Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! St
 ```bash
 make init
 ```
-
-Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Na końcu usuwa przez API kategorie i produkty demonstracyjne z instalatora. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values`. Na końcu usuwa przez API kategorie i produkty demonstracyjne z instalatora. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
 
 Poprawność konfiguracji API sprawdzisz poleceniem:
 
@@ -93,6 +92,15 @@ make import
 ```
 
 Import tworzy kategorie, atrybuty, 1100 produktów z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
+
+Po imporcie ustaw filtry w lewej kolumnie list produktów i wgraj opisy kategorii:
+
+```bash
+make facets
+make categories
+```
+
+`make facets` zakłada w module `ps_facetedsearch` zestawy filtrów dla grup kategorii, tak jak w sklepie źródłowym (lista w `deploy/init/facets.php`), i przebudowuje indeks filtrów. `make categories` wpisuje opisy kategorii z plików HTML w `shop/categories/` (lista kategorii w `deploy/init/categories.sql`). Część pliku po znaczniku `<!-- więcej -->` jest zwinięta pod przyciskiem „Pokaż więcej”. Oba polecenia dopasowują kategorie (i cechy) po nazwie, więc przed importem zgłoszą ich brak. Uruchom je ponownie po każdym imporcie. Filtry i opisy ustawione w panelu zostaną nadpisane wersją z repo.
 
 ### 6. Sprawdź status kontenerów
 

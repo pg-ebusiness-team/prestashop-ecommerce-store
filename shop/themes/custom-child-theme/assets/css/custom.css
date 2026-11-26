@@ -9,7 +9,7 @@
   --color-black: #121212;
   --color-graphite: #414141;
   --color-text: #6f6f6f;        /* oryginał #777 ma kontrast 4.48:1, poniżej WCAG AA */
-  --color-muted: #767676;       /* oryginał #888, przyciemniony z tego samego powodu */
+  --color-muted: #6b6b6b;       /* oryginał #888; ciemniej, bo #767676 ma tylko ~4.0:1 na szarych tłach #f1f1f1/#f8f8f8 */
   --color-brand-100: #e6ded7;
   --color-brand-200: #ddd1c5;
   --color-brand-500: #a48d66;
@@ -18,6 +18,21 @@
   --color-border: #ddd;
   --font-body: "Lato", Arial, sans-serif;
   --font-heading: "Playfair Display", Georgia, serif;
+  --content-width: 1110px; /* szerokość treści w .container bez paddingu 2 x 15px */
+}
+
+/* Kontener szerszy na dużych ekranach jak w źródle (Classic kończy na 1140px) */
+@media (min-width: 1200px) {
+  :root { --content-width: 1140px; }
+  .container { width: calc(var(--content-width) + 30px); }
+}
+
+@media (min-width: 1460px) {
+  :root { --content-width: 1270px; }
+}
+
+@media (min-width: 1600px) {
+  :root { --content-width: 1370px; }
 }
 
 /* Typografia */
@@ -27,6 +42,46 @@ body {
   line-height: 1.85;
   letter-spacing: .5px;
   color: var(--color-text);
+}
+
+/* Szary #7a7a7a z Classic ma 4.29:1 na białym (poniżej WCAG AA) - tekst, pola i podpowiedzi w kolorze treści.
+   Bardziej szczegółowe reguły niżej (np. biały tekst na sliderze) nadal wygrywają. */
+p,
+.page-content.page-cms ul,
+.form-control,
+.form-control-comment,
+.nav-item .nav-link,
+.dropdown,
+.btn-tertiary,
+.top-menu a:not([data-depth="0"]),
+body#checkout section.checkout-step small {
+  color: var(--color-text);
+}
+
+.text-muted {
+  color: var(--color-text) !important; /* w Classic też z !important */
+}
+
+/* Przyciski formularzy z Classic: biały tekst na #24b9d7 (2.33:1) i #7a7a7a (4.29:1) */
+.group-span-filestyle .btn-default,
+.input-group .input-group-btn > .btn[data-action="show-password"] {
+  background: var(--color-graphite);
+}
+
+/* Nagłówek formularza kontaktu: h1 (dostępność, contactform.tpl) wyglądający jak h3 z Classic */
+.contact-form h1 {
+  text-transform: uppercase;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-muted);
+}
+
+/* Link w akapicie nie może różnić się od tekstu samym kolorem */
+.page-content.page-cms a,
+#content p a {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -237,6 +292,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 #header #search_widget form input[type="text"] {
   padding: 10px 40px 10px 10px;
+  color: var(--color-text); /* #9b9b9b z Classic: 2.77:1 */
   background: #fff;
   border: 1px solid var(--color-border);
 }
@@ -269,13 +325,36 @@ body#checkout section.checkout-step .address-item.selected,
   display: none;
 }
 
-#header .header-actions .blockcart .header > span.hidden-sm-down {
-  display: none;
+#header .header-actions .blockcart {
+  white-space: nowrap; /* „Koszyk (n)” w jednej linii */
 }
 
 /* Menu: szary pasek na pełną szerokość, pozycje równo rozłożone */
 #header .header-menu {
   background: var(--color-grey-100);
+}
+
+/* Przyklejone do góry po przewinięciu za baner (custom.js), wsuwa się z góry */
+#header .header-menu.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .11);
+  animation: menu-slide-down .4s ease-out;
+}
+
+@keyframes menu-slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #header .header-menu.is-stuck {
+    animation: none;
+  }
 }
 
 #header .header-menu .container {
@@ -385,6 +464,12 @@ body#checkout section.checkout-step .address-item.selected,
   color: var(--color-muted);
 }
 
+/* #7a7a7a z Classic ma 4.29:1 na białym, poniżej WCAG AA */
+#wrapper .breadcrumb li:last-child,
+.products-selection .sort-by {
+  color: var(--color-muted);
+}
+
 /* Strona główna: białe tło, slider przylega do paska korzyści */
 #index #wrapper {
   padding-top: 0;
@@ -401,6 +486,69 @@ body#checkout section.checkout-step .address-item.selected,
 
 #carousel .carousel-inner {
   height: auto;
+}
+
+/* Jak w źródle: nowy baner przenika się z poprzednim, podpis wjeżdża z prawej 0.5s po nim.
+   Zamiast przesuwania Classic (left); grafika 0.6s, bo Bootstrap kończy przejście po 600 ms. */
+#carousel .carousel-inner > .carousel-item {
+  left: 0;
+  transition: none;
+}
+
+#carousel .carousel-inner > .next,
+#carousel .carousel-inner > .prev {
+  z-index: 2; /* nowy nad starym także przy cofaniu */
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) img {
+  animation: fade-in .6s ease-out both;
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) .caption {
+  animation: slide-in-right .8s ease-out .5s both;
+}
+
+/* Kwadraciki slajdów na dole pośrodku, jak .flex-control-paging w źródle (Classic je ukrywa) */
+#carousel .carousel-indicators {
+  display: block;
+  bottom: 10px;
+  z-index: 3; /* nad slajdem wchodzącym (.next/.prev ma 2) */
+}
+
+#carousel .carousel-indicators li,
+#carousel .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  transition: background-color .5s ease;
+}
+
+#carousel .carousel-indicators li:hover,
+#carousel .carousel-indicators .active {
+  background: #bd515f;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    translate: 60px 0; /* translate, nie transform - podpis ma już transform: translateY(-50%) */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #carousel .carousel-item:is(.active, .next, .prev) img,
+  #carousel .carousel-item:is(.active, .next, .prev) .caption {
+    animation: none;
+  }
 }
 
 #carousel .carousel-item figure {
@@ -428,7 +576,7 @@ body#checkout section.checkout-step .address-item.selected,
 #carousel .carousel-item .caption {
   top: 50%;
   bottom: auto;
-  left: max(15px, calc(50% - 555px));
+  left: max(15px, calc(50% - var(--content-width) / 2));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -489,9 +637,38 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 .home-tile {
+  position: relative;
   display: block;
   background: var(--color-grey-200);
   text-align: center;
+}
+
+/* Po najechaniu szara nakładka na zdjęciu z „Zobacz produkty”, jak .see__more w źródle.
+   CSS zamiast znacznika w theme.sql: napis tylko dekoracyjny, link ma nazwę kategorii. */
+.home-tile::before {
+  content: "Zobacz produkty";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1; /* tylko na kwadratowym zdjęciu, bez nazwy pod nim */
+  padding: 20px;
+  background: rgba(65, 65, 65, .8);
+  font-family: var(--font-heading);
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--color-grey-100);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.home-tile:hover::before,
+.home-tile:focus-visible::before {
+  opacity: 1;
 }
 
 #custom-text .home-tile img,
@@ -521,8 +698,18 @@ body#checkout section.checkout-step .address-item.selected,
 .home-banner {
   position: relative;
   display: block;
+  overflow: hidden; /* przycina powiększone zdjęcie */
   background: var(--color-black); /* tło pod tekstem, zanim wczyta się zdjęcie */
   color: #fff;
+}
+
+/* Po najechaniu lekki zoom tła */
+#custom-text .home-banner img {
+  transition: transform .5s ease;
+}
+
+#custom-text .home-banner:hover img {
+  transform: scale(1.05);
 }
 
 .home-banner-content {
@@ -588,6 +775,10 @@ body#checkout section.checkout-step .address-item.selected,
 
   .home-tile-name {
     font-size: 1.125rem;
+  }
+
+  .home-tile::before {
+    font-size: 22px; /* 48px nie mieści się w kafelku w 2 kolumnach */
   }
 
   .home-banners {
@@ -933,10 +1124,47 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #category-description,
-#category-description p {
+#category-description p,
+#category-additional-description,
+#category-additional-description p,
+#category-additional-description li {
   font-size: 1.125rem;
   line-height: 1.4;
   color: var(--color-graphite);
+}
+
+#category-additional-description ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+/* „Pokaż więcej”: pogrubiony tekst ze strzałką, która po rozwinięciu obraca się w górę */
+.category-more {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  margin-bottom: 1.25rem;
+  padding: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-graphite);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.category-more:hover,
+.category-more:focus-visible {
+  color: var(--color-brand-500);
+}
+
+.category-more .material-icons {
+  font-size: 1.5rem;
+  transition: transform .2s;
+}
+
+.category-more[aria-expanded="true"] .material-icons {
+  transform: rotate(180deg);
 }
 
 /* Podkategorie: same nazwy w ramkach */
@@ -1023,6 +1251,15 @@ body#checkout section.checkout-step .address-item.selected,
   font-weight: 700;
   color: var(--color-graphite);
   text-transform: none;
+}
+
+/* Długie listy wartości (np. Kraj: 65 pozycji) przewijane wewnątrz filtra, ok. 15 pozycji na raz.
+   Bez suwaka ceny - jego lista to jeden element ze slidebarem. */
+#search_filters .facet ul:not(.faceted-slider) {
+  max-height: 22rem;
+  padding-right: .5rem; /* odstęp liczników od paska przewijania */
+  overflow-y: auto;
+  overscroll-behavior: contain; /* koniec listy nie przewija dalej całej strony */
 }
 
 #search_filters .facet .facet-label {
@@ -1187,7 +1424,11 @@ body#checkout section.checkout-step .address-item.selected,
   }
 
   #category-description,
-  #category-description p {
+  #category-description p,
+  #category-additional-description,
+  #category-additional-description p,
+  #category-additional-description li,
+  .category-more {
     font-size: 1rem;
   }
 
@@ -1671,6 +1912,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 .footer-description {
   margin-bottom: 1.75rem;
+  color: var(--color-muted); /* #7a7a7a z Classic: 4.04:1 na tle stopki */
   font-size: .9375rem;
   line-height: 1.6;
 }

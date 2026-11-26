@@ -216,10 +216,14 @@ def build_product_xml(
     product: dict,
     category_id: int,
     tax_rules_group_id: int,
-    product_id: int | None = None
+    product_id: int | None = None,
+    feature_ids: list[tuple[int, int]] | None = None
 ) -> str:
     """
     Buduje XML produktu zgodny z formatem PrestaShop Webservice.
+
+    feature_ids: pary (ID cechy, ID wartości) do zakładki „Szczegóły”. PUT zastępuje cechy produktu
+    tą listą; None pomija powiązanie, żeby nieudany import cech nie wyczyścił ich w sklepie.
     """
 
     root = ET.Element("prestashop")
@@ -277,6 +281,14 @@ def build_product_xml(
     categories = ET.SubElement(associations, "categories")
     category = ET.SubElement(categories, "category")
     ET.SubElement(category, "id").text = str(category_id)
+
+    # Cechy produktu (zakładka „Szczegóły”)
+    if feature_ids is not None:
+        product_features = ET.SubElement(associations, "product_features")
+        for feature_id, value_id in feature_ids:
+            product_feature = ET.SubElement(product_features, "product_feature")
+            ET.SubElement(product_feature, "id").text = str(feature_id)
+            ET.SubElement(product_feature, "id_feature_value").text = str(value_id)
 
     return ET.tostring(root, encoding="unicode")
 
@@ -337,7 +349,8 @@ def import_product(
     product: dict,
     mapping: dict,
     category_id: int,
-    tax_rules_group_id: int
+    tax_rules_group_id: int,
+    feature_ids: list[tuple[int, int]] | None = None
 ) -> tuple[int, str]:
     """
     Tworzy lub aktualizuje produkt oraz jego kombinacje.
@@ -366,7 +379,8 @@ def import_product(
         product,
         category_id,
         tax_rules_group_id,
-        existing_product_id
+        existing_product_id,
+        feature_ids
     )
 
     if existing_product_id is not None:
