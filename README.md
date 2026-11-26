@@ -94,12 +94,6 @@ make import
 
 Import tworzy kategorie, atrybuty, 1100 produktów z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
 
-Po `make reset` usuń przed importem lokalne mapowania ID, bo opisują poprzednią bazę:
-
-```bash
-rm -f scraper/importer/*_mapping.json
-```
-
 ### 6. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
@@ -244,7 +238,7 @@ make reset
 make up
 ```
 
-Uwaga: `make reset` kasuje bazę danych oraz wygenerowany certyfikat. Potem wykonaj ponownie kroki 4 i 5 (razem z usunięciem lokalnych mapowań).
+Uwaga: `make reset` kasuje bazę danych, wygenerowany certyfikat i lokalne mapowania importu (`scraper/importer/*_mapping.json`). Potem wykonaj ponownie kroki 4 i 5.
 
 ### Przeglądarka ostrzega o niezaufanym certyfikacie
 

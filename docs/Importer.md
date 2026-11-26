@@ -86,7 +86,7 @@ Mapowania pozwalają rozpoznawać wcześniej zaimportowane kategorie, produkty, 
 Gdy produktu nie ma w mapowaniu albo wskazane ID już nie istnieje, importer szuka go w sklepie po polu `reference` (`SRC<id źródłowe>`). Zdjęcia są rozpoznawane wyłącznie po mapowaniu, dlatego:
 
 - przy działającym sklepie **nie usuwaj** `products_mapping.json` — ponowny import wgra zdjęcia drugi raz,
-- po `make reset` **usuń** mapowania (`rm -f scraper/importer/*_mapping.json`) — stare ID mogłyby trafić na inne produkty w nowej bazie.
+- `make reset` sam usuwa mapowania — stare ID mogłyby trafić na inne produkty w nowej bazie. Jeśli bazę czyścisz inaczej (np. `docker compose down -v`), usuń je ręcznie: `rm -f scraper/importer/*_mapping.json`.
 
 Pliki mapowania są zależne od konkretnej instancji sklepu i powinny pozostać lokalne. Nie należy zastępować ich mapowaniami pochodzącymi z innej instancji PrestaShop. Przy synchronizacji kategorii importer weryfikuje je również na podstawie istniejącej kategorii i jej kategorii nadrzędnej, dzięki czemu może odbudować nieaktualne lokalne mapowanie.
 
