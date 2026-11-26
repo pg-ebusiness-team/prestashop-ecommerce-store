@@ -144,3 +144,14 @@
   label();
   new MutationObserver(label).observe(document.body, { childList: true, subtree: true });
 })();
+
+/* Telefon: lupa w górnym pasku (#search-toggle w header.tpl) pokazuje/ukrywa wyszukiwarkę, jak w źródle. */
+(function () {
+  var btn = document.querySelector('#search-toggle button');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var open = document.getElementById('header').classList.toggle('search-open');
+    btn.setAttribute('aria-expanded', open);
+    if (open) document.querySelector('#search_widget input[type="text"]').focus();
+  });
+})();

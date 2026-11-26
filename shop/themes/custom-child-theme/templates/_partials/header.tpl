@@ -31,6 +31,11 @@
             <i class="material-icons d-inline">&#xE5D2;</i>
           </div>
           <div class="float-xs-right" id="_mobile_cart"></div>
+          <div class="float-xs-right" id="search-toggle">
+            <button type="button" class="btn-unstyle" aria-label="Szukaj" aria-expanded="false" aria-controls="search_widget">
+              <i class="material-icons" aria-hidden="true">&#xE8B6;</i>
+            </button>
+          </div>
           <div class="float-xs-right" id="_mobile_user_info"></div>
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>

@@ -446,16 +446,32 @@ body#checkout section.checkout-step .address-item.selected,
 
 @media (max-width: 767px) {
   .header-benefits {
-    flex-direction: column;
+    display: none; /* jak w źródle: na telefonie bez paska korzyści */
   }
 
   #header .header-top-right {
     align-items: stretch;
   }
 
-  #header #search_widget {
-    max-width: none;
+  /* Jak w źródle: wyszukiwarka schowana pod ikoną lupy (#search-toggle w header.tpl, custom.js) */
+  #header .header-top {
+    padding: 0;
   }
+
+  #header #search_widget {
+    display: none;
+    max-width: none;
+    margin-top: .75rem;
+  }
+
+  #header.search-open #search_widget {
+    display: block;
+  }
+}
+
+#search-toggle button {
+  padding: 0 .5rem;
+  line-height: 50px; /* jak #menu-icon w Classic */
 }
 
 .breadcrumb {
@@ -482,6 +498,7 @@ body#checkout section.checkout-step .address-item.selected,
   left: 0; /* Classic <992px przesuwa slider przez left: 50% */
   width: 100vw;
   margin: 0 0 1rem calc(50% - 50vw);
+  padding-bottom: 0; /* Classic <992px dodaje szary pasek pod sliderem */
 }
 
 #carousel .carousel-inner {
@@ -556,12 +573,10 @@ body#checkout section.checkout-step .address-item.selected,
   display: block;
 }
 
-/* Jak w źródle: zawsze 700px wysokości, zdjęcie przybliża się/przycina do tej ramki */
-@media (min-width: 768px) {
-  #carousel .carousel-item img {
-    height: 700px;
-    object-fit: cover;
-  }
+/* Jak w źródle: stała wysokość (480px na telefonie, niżej), zdjęcie przybliża się/przycina do tej ramki */
+#carousel .carousel-item img {
+  height: 700px;
+  object-fit: cover;
 }
 
 /* Przyciemnienie od lewej, jak .cover w źródle - biały tekst musi być czytelny na jasnych grafikach */
@@ -574,8 +589,11 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #carousel .carousel-item .caption {
+  position: absolute; /* Classic <992px: static, wyśrodkowany podpis pod zdjęciem */
   top: 50%;
   bottom: auto;
+  margin: 0;
+  text-align: left;
   left: max(15px, calc(50% - var(--content-width) / 2));
   display: flex;
   flex-direction: column;
@@ -598,6 +616,10 @@ body#checkout section.checkout-step .address-item.selected,
   line-height: 1.1;
   text-transform: none !important; /* slider.tpl daje .text-uppercase z !important */
   color: #fff;
+}
+
+#carousel .carousel-item .caption .caption-description p {
+  color: #fff; /* Classic <992px: #7a7a7a */
 }
 
 #carousel .caption-description .slide-kicker {
@@ -746,26 +768,12 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 @media (max-width: 767px) {
-  /* Classic pokazuje tu podpis pod zdjęciem, a nasz biały tekst potrzebuje ciemnego tła */
-  #carousel .carousel-item figure::after {
-    display: none; /* podpis jest pod zdjęciem, na własnym tle */
-  }
-
-  #carousel .carousel-item .caption {
-    align-items: center;
-    max-width: none;
-    margin: 0;
-    padding: 1.5rem 1rem;
-    transform: none;
-    background: var(--color-graphite);
-  }
-
-  #carousel .carousel-item .caption .caption-description p {
-    color: #fff;
+  #carousel .carousel-item img {
+    height: 480px;
   }
 
   #carousel .carousel-item .caption .display-1 {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 
   .home-tiles {
