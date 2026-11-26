@@ -4,6 +4,8 @@ Zestawienie wymagań z opisów etapu 1/2 i 2/2 (eNauczanie PG). Progi z tabel me
 
 **Legenda:** **[K]** — warunek krytyczny; jego niespełnienie oznacza 0 pkt za całe wymaganie.
 
+**Stan (2026-11-25):** `[x]` — spełnione i sprawdzone w repozytorium lub na uruchomionym sklepie; `[ ]` — niespełnione albo jeszcze niesprawdzone (znane braki dopisane jako *stan*). Przy PR, który spełnia wymaganie, zaznacz je tutaj.
+
 ## Spis treści
 
 - [Etap 1 — sklep PrestaShop w kontenerach](#etap-1--sklep-prestashop-w-kontenerach)
@@ -18,15 +20,15 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 ### Stack i zasady ogólne
 
-- [ ] PrestaShop 8.x (zalecany najnowszy 8.2.x); można bazować na obrazie `prestashop/prestashop:8.x`
-- [ ] PHP 8.1, MySQL 8.0 lub MariaDB 10.6+
-- [ ] Wyłącznie kontenery Docker — wariant z VM niedopuszczalny
-- [ ] Docker Compose v2: plik `compose.yaml`, komenda `docker compose`, **bez** klucza `version:`
-- [ ] Obrazy budowane dla `linux/amd64` (lub multi-arch) — uwaga na Apple Silicon (domyślnie arm64)
+- [x] PrestaShop 8.x (zalecany najnowszy 8.2.x); można bazować na obrazie `prestashop/prestashop:8.x`
+- [x] PHP 8.1, MySQL 8.0 lub MariaDB 10.6+
+- [x] Wyłącznie kontenery Docker — wariant z VM niedopuszczalny
+- [x] Docker Compose v2: plik `compose.yaml`, komenda `docker compose`, **bez** klucza `version:`
+- [x] Obrazy budowane dla `linux/amd64` (lub multi-arch) — uwaga na Apple Silicon (domyślnie arm64)
 - [ ] Repozytorium na GitHub (zalecany) lub GitLab (GitLab Free: prywatna grupa maks. 5 osób łącznie z prowadzącym)
-- [ ] Testy E2E w **Playwright** (TS/JS, Python, Java lub C#), headless — **Selenium niedopuszczalny**
-- [ ] Scraper w dowolnym języku/bibliotece
-- [ ] Poczta testowa: Mailpit lub MailHog jako kontener
+- [x] Testy E2E w **Playwright** (TS/JS, Python, Java lub C#), headless — **Selenium niedopuszczalny**
+- [x] Scraper w dowolnym języku/bibliotece
+- [x] Poczta testowa: Mailpit lub MailHog jako kontener
 - Płatne moduły PrestaShop dozwolone, ale żadne wymaganie ich nie zakłada
 
 ### Wymagana struktura repozytorium
@@ -42,10 +44,10 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 ### Zdjęcia produktów
 
-- [ ] Zdjęcia **nie** w repozytorium ani w Git LFS
-- [ ] Scraper zapisuje zdjęcia w katalogu wykluczonym w `.gitignore`
-- [ ] Pełny zbiór publikowany jako jedno archiwum (zip/tar.gz, ≤1 GB) w zakładce **Releases**
-- [ ] Skrypt inicjalizacji pobiera archiwum z Releases, a gdy jest niedostępne — ponownie pobiera zdjęcia z URL-i z wyników scrapowania
+- [x] Zdjęcia **nie** w repozytorium ani w Git LFS
+- [x] Scraper zapisuje zdjęcia w katalogu wykluczonym w `.gitignore`
+- [ ] Pełny zbiór publikowany jako jedno archiwum (zip/tar.gz, ≤1 GB) w zakładce **Releases** — *stan: jest tag `photos_v0.1`; zawartość wydania do sprawdzenia*
+- [ ] Skrypt inicjalizacji pobiera archiwum z Releases, a gdy jest niedostępne — ponownie pobiera zdjęcia z URL-i z wyników scrapowania — *stan: brak skryptu, zdjęcia pobiera się ręcznie*
 - [ ] Dłuższy bok 800–1600 px, JPEG lub WebP, ≤300 KB na plik
 
 ### Narzędzia AI i dziennik AI
@@ -53,7 +55,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [ ] Kod wygenerowany przez AI trafia do `main` wyłącznie przez PR z merytorycznym review człowieka
 - [ ] PR z istotnymi fragmentami od AI ma etykietę `ai-assisted` i opis, jak zweryfikowano poprawność
 - [ ] Do narzędzi AI nie trafiają hasła, klucze API ani dane dostępowe do klastra
-- [ ] `docs/AI_LOG.md` prowadzony jako tabela z kolumnami:
+- [x] `docs/AI_LOG.md` prowadzony jako tabela z kolumnami:
 
   | Kolumna | Co wpisać |
   |---|---|
@@ -65,8 +67,8 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
   | Weryfikacja | test, dokumentacja, ręczne uruchomienie |
 
 - [ ] Wpis dodaje osoba korzystająca z narzędzia, w tym samym PR co kod
-- [ ] Minimum **2 wpisy na osobę** w etapie
-- [ ] Na końcu refleksja zespołu (≤1 strona): gdzie AI przyspieszyło pracę, gdzie wprowadziło w błąd, czego trzeba było nauczyć się samemu
+- [ ] Minimum **2 wpisy na osobę** w etapie — *stan: Jakub Romanowski ma 1 wpis*
+- [ ] Na końcu refleksja zespołu (≤1 strona): gdzie AI przyspieszyło pracę, gdzie wprowadziło w błąd, czego trzeba było nauczyć się samemu — *stan: do napisania*
 - Zespół bez AI opisuje to w refleksji i nie traci punktów
 - Podczas obrony nie można zasłaniać się tym, że kod napisało AI
 
@@ -75,55 +77,55 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [ ] **[K]** Repo na GitHub/GitLab z dostępem dla wszystkich członków zespołu i prowadzącego
 - [ ] **[K]** Brak bezpośrednich commitów/pushy do `main` (poza inicjalnym) — 100% zmian przez scalony PR/MR zaakceptowany przez inną osobę; brak force push (weryfikacja ręczna; ochrona gałęzi niewymagana)
 - [ ] **[K]** Brak sekretów w repo (hasła, klucze webservice, klucze prywatne) — konfiguracja przez `.env`, w repo tylko `.env.example`; **gitleaks na całej historii: 0 znalezisk**
-- [ ] `.gitignore` wyklucza cache, uploady, logi, `vendor/`, `node_modules/`
-- [ ] `README.md`: opis projektu, wersja PrestaShop, uruchomienie krok po kroku, skład zespołu
+- [x] `.gitignore` wyklucza cache, uploady, logi, `vendor/`, `node_modules/`
+- [x] `README.md`: opis projektu, wersja PrestaShop, uruchomienie krok po kroku, skład zespołu
 - [ ] `main` zawiera wersję prezentowaną na odbiorze; prace robocze w gałęziach pobocznych
 - [ ] Zadania jako issues z przypisaną osobą; każde issue kończy się PR
 - [ ] Recenzje zawierają merytoryczne komentarze, nie tylko akceptację
-- [ ] Struktura katalogów zgodna z tabelą powyżej
+- [ ] Struktura katalogów zgodna z tabelą powyżej — *stan: jest `scraper_results/` zamiast `scraper-results/`*
 - [ ] Każda osoba jest **autorem ≥3** i **recenzentem ≥3** scalonych PR
-- [ ] Repo ≤200 MB, brak plików >10 MB, brak pełnego zbioru zdjęć
+- [x] Repo ≤200 MB, brak plików >10 MB, brak pełnego zbioru zdjęć
 
 ### W2. Scraper (4 pkt)
 
-- [ ] **[K]** Kod scrapera i wyniki (UTF-8) w repozytorium
+- [x] **[K]** Kod scrapera i wyniki (UTF-8) w repozytorium
 - [ ] **[K]** Wyniki obejmują kategorie, podkategorie i produkty z polami:
-  - [ ] nazwa
-  - [ ] opis
-  - [ ] cena brutto
-  - [ ] stawka VAT (jeśli dostępna)
-  - [ ] atrybuty (np. kolor, materiał, rozmiar)
+  - [x] nazwa
+  - [ ] opis — *stan: brak w 63 z 2397 zebranych produktów (54 z nich mają krótki opis)*
+  - [x] cena brutto
+  - [x] stawka VAT (jeśli dostępna)
+  - [x] atrybuty (np. kolor, materiał, rozmiar)
   - [ ] waga (jeśli dostępna)
-  - [ ] zdjęcia: ≥1 na każdy produkt, ≥2 dla 50 wybranych produktów, w rozdzielczości pozwalającej na ostre powiększenie (miniatury nieakceptowane)
-- [ ] Ograniczenie tempa: **≤2 zapytania/s** (weryfikacja w kodzie i logach)
-- [ ] Respektowanie `robots.txt`
-- [ ] Identyfikacja nagłówkiem User-Agent
-- [ ] Możliwość przerwania i wznowienia bez ponownego pobierania zapisanych danych
-- [ ] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu
-- [ ] 0 produktów bez nazwy, ceny, opisu lub zdjęć
-- [ ] Testy jednostkowe parsowania na zapisanych lokalnie stronach HTML
+  - [ ] zdjęcia: ≥1 na każdy produkt, ≥2 dla 50 wybranych produktów, w rozdzielczości pozwalającej na ostre powiększenie (miniatury nieakceptowane) — *stan: 34 zebrane produkty bez zdjęć; importer je pomija*
+- [x] Ograniczenie tempa: **≤2 zapytania/s** (weryfikacja w kodzie i logach)
+- [x] Respektowanie `robots.txt`
+- [x] Identyfikacja nagłówkiem User-Agent
+- [x] Możliwość przerwania i wznowienia bez ponownego pobierania zapisanych danych
+- [ ] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu — *stan: brak schematu w scraperze*
+- [ ] 0 produktów bez nazwy, ceny, opisu lub zdjęć — *stan: 63 bez pełnego opisu, 34 bez zdjęć*
+- [x] Testy jednostkowe parsowania na zapisanych lokalnie stronach HTML
 - Dane wyłącznie do celów dydaktycznych — sklep nie może być publicznie dostępny w internecie
 
 ### W3. Sklep na PrestaShop 8.x (8 pkt)
 
 **Środowisko**
 
-- [ ] **[K]** Sklep działa w zestawie kontenerów zarządzanych przez Docker Compose v2
-- [ ] **[K]** Uruchomienie z czystego klona według README: jedna komenda startowa + jedna komenda inicjalizacji danych (np. `docker compose up -d` i `make init`); **≤15 min** do działającego sklepu z danymi
-- [ ] **[K]** Ruch wyłącznie przez HTTPS z self-signed certyfikatem; HTTP → **301** na HTTPS
+- [x] **[K]** Sklep działa w zestawie kontenerów zarządzanych przez Docker Compose v2
+- [ ] **[K]** Uruchomienie z czystego klona według README: jedna komenda startowa + jedna komenda inicjalizacji danych (np. `docker compose up -d` i `make init`); **≤15 min** do działającego sklepu z danymi — *stan: brak jednej komendy inicjalizacji: potrzebne `make init`, `make theme`, ręczne pobranie zdjęć i `make import`*
+- [x] **[K]** Ruch wyłącznie przez HTTPS z self-signed certyfikatem; HTTP → **301** na HTTPS
 - [ ] E-maile trafiają do Mailpit/MailHog: wiadomość po rejestracji i po złożeniu zamówienia
 
 **Funkcjonalność**
 
 - [ ] **[K]** Bez błędów działają: menu górne, stopka, wyszukiwarka, rejestracja, logowanie, lista produktów, karta produktu, koszyk, zakup, historia zamówień
 - [ ] **[K]** Interfejs klienta po polsku, poprawne polskie znaki
-- [ ] Strony CMS z treściami dostosowanymi do sklepu (bez tekstów z instalatora i lorem ipsum):
-  - [ ] O sklepie
-  - [ ] Regulamin
-  - [ ] Polityka prywatności
-  - [ ] Dostawa
-  - [ ] Formy płatności
-- [ ] Informacja o plikach cookies
+- [x] Strony CMS z treściami dostosowanymi do sklepu (bez tekstów z instalatora i lorem ipsum):
+  - [x] O sklepie
+  - [x] Regulamin
+  - [x] Polityka prywatności
+  - [x] Dostawa
+  - [x] Formy płatności
+- [x] Informacja o plikach cookies
 
 **Dane**
 
@@ -135,11 +137,11 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 **Konfiguracja sprzedaży**
 
-- [ ] ≥2 metody płatności stosowane w Polsce, w tym **przelew tradycyjny** i **płatność przy odbiorze**, bez integracji z operatorami płatności
-- [ ] Brak metod płatności niestosowanych w Polsce
-- [ ] 2 nowych przewoźników o różnych opłatach
-- [ ] Darmowa dostawa dla zamówień powyżej **2000 zł brutto**
-- [ ] Dostawa niemożliwa dla zamówień o wadze powyżej **50 kg**
+- [x] ≥2 metody płatności stosowane w Polsce, w tym **przelew tradycyjny** i **płatność przy odbiorze**, bez integracji z operatorami płatności
+- [x] Brak metod płatności niestosowanych w Polsce
+- [x] 2 nowych przewoźników o różnych opłatach
+- [x] Darmowa dostawa dla zamówień powyżej **2000 zł brutto**
+- [x] Dostawa niemożliwa dla zamówień o wadze powyżej **50 kg**
 
 **Metryki**
 
@@ -151,9 +153,9 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 Skrypt Playwright w trybie headless wykonuje w całości w **≤5 min**:
 
-- [ ] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii
-- [ ] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników
-- [ ] 3. Usunięcie z koszyka 3 produktów
+- [ ] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
+- [ ] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
+- [ ] 3. Usunięcie z koszyka 3 produktów — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
 - [ ] 4. Rejestracja nowego konta
 - [ ] 5. Złożenie zamówienia na zawartość koszyka
 - [ ] 6. Wybór płatności przy odbiorze
@@ -165,7 +167,7 @@ Skrypt Playwright w trybie headless wykonuje w całości w **≤5 min**:
 Warunki dodatkowe:
 
 - [ ] **[K]** Testy uruchamia jedna komenda opisana w README; adres sklepu przekazywany parametrem lub zmienną środowiskową (w etapie 2 te same testy idą na klaster)
-- [ ] Każdy krok ma asercję sprawdzającą efekt, nie tylko wykonanie kliknięcia
+- [ ] Każdy krok ma asercję sprawdzającą efekt, nie tylko wykonanie kliknięcia — *stan: jest tylko test dymny*
 - [ ] Raport (JUnit XML lub HTML) i zrzut ekranu przy błędzie
 - [ ] Brak `sleep` jako głównego mechanizmu synchronizacji
 - [ ] Stabilność: 3 z 3 kolejnych uruchomień zakończone sukcesem
@@ -179,40 +181,40 @@ Oceniane tylko po zaliczeniu W1–W4; możliwe punkty częściowe.
 - [ ] Wybrany wariant:
   - Wariant A: układ identyczny/zbliżony do sklepu źródłowego (bez wymogu kolorystyki)
   - Wariant B: autorski, estetyczny wygląd dopasowany do asortymentu
-- [ ] Na stronie głównej ≥1 działający baner w tematyce sklepu
+- [x] Na stronie głównej ≥1 działający baner w tematyce sklepu
 - [ ] Poprawne działanie przy szerokości ekranu 360 px
 - [ ] Lighthouse Accessibility ≥85
-- [ ] Zmiany jako **motyw potomny (child theme)**, bez edycji plików motywu Classic
+- [x] Zmiany jako **motyw potomny (child theme)**, bez edycji plików motywu Classic
 
 #### D2. Import danych przez API (4 pkt)
 
 - [ ] Skrypt tworzy przez Webservice API kategorie, podkategorie i produkty (zdjęcia, ceny, VAT, stany, waga) z wyników scrapowania
 - [ ] Idempotentność: ponowne uruchomienie aktualizuje rekordy, 0 duplikatów
-- [ ] Klucz API w zmiennej środowiskowej, uprawnienia ograniczone do potrzebnych zasobów
-- [ ] Raport liczby utworzonych, zaktualizowanych i odrzuconych rekordów
+- [x] Klucz API w zmiennej środowiskowej, uprawnienia ograniczone do potrzebnych zasobów
+- [x] Raport liczby utworzonych, zaktualizowanych i odrzuconych rekordów
 - [ ] Import 1000 produktów ze zdjęciami ≤30 min (log skryptu)
 
 #### D3. Promocje i warianty produktów (3 pkt)
 
-- [ ] ≥20 produktów z promocją cenową (stara cena, rabat, nowa cena)
+- [ ] ≥20 produktów z promocją cenową (stara cena, rabat, nowa cena) — *stan: importer nie tworzy `specific_prices`*
 - [ ] Przy każdej promocji najniższa cena z 30 dni przed obniżką (**dyrektywa Omnibus**) — gotowy moduł lub własny
 - [ ] ≥5 produktów z ≥2 wariantami, każdy wariant z osobnym stanem magazynowym
 
 #### D4. Backup i odtwarzanie (3 pkt)
 
-- [ ] Skrypty w `deploy/` tworzą kopię (zrzut bazy, zdjęcia, pliki konfiguracyjne) i odtwarzają z niej sklep
+- [ ] Skrypty w `deploy/` tworzą kopię (zrzut bazy, zdjęcia, pliki konfiguracyjne) i odtwarzają z niej sklep — *stan: brak skryptów*
 - [ ] Eksport ustawień w repo pozwala przywrócić konfigurację; bez danych osobowych i sekretów
 - [ ] Demonstracja odtworzenia na czystym środowisku na odbiorze w **≤10 min**
 
 #### D5. Ciągła integracja jakości kodu (2 pkt)
 
-- [ ] Pipeline (GitHub Actions / GitLab CI) dla każdego PR: linter (np. ruff, eslint) + testy jednostkowe scrapera
+- [x] Pipeline (GitHub Actions / GitLab CI) dla każdego PR: linter (np. ruff, eslint) + testy jednostkowe scrapera
 - [ ] Żaden PR nie scalony przy nieudanym pipeline (weryfikacja ręczna)
 
 #### D6. Dziennik AI i decyzje architektoniczne (3 pkt)
 
-- [ ] Dziennik AI zgodny z formatem, zakończony refleksją zespołu
-- [ ] ≥3 ADR w `docs/adr/`: kontekst, rozważane opcje, decyzja, konsekwencje (np. biblioteka scrapera, sposób importu, architektura kontenerów, przechowywanie zdjęć)
+- [ ] Dziennik AI zgodny z formatem, zakończony refleksją zespołu — *stan: brak refleksji*
+- [x] ≥3 ADR w `docs/adr/`: kontekst, rozważane opcje, decyzja, konsekwencje (np. biblioteka scrapera, sposób importu, architektura kontenerów, przechowywanie zdjęć)
 
 ### Odbiór etapu 1
 

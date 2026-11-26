@@ -1869,7 +1869,7 @@ body#checkout section.checkout-step .address-item.selected,
   }
 }
 
-/* Baner cookies (FRONT-4, wzór: docs/cookies.png): biały panel na środku ekranu, przyciemnione tło */
+/* Baner cookies (FRONT-4, ADR 0002): biały panel na środku ekranu, przyciemnione tło */
 .cookie-banner {
   width: calc(100% - 2rem);
   max-width: 62rem;

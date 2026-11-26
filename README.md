@@ -1,6 +1,6 @@
 # prestashop-ecommerce-store
 
-Sklep internetowy oparty na PrestaShop 8.2.8, uruchamiany w kontenerach Docker, wyposażony w automatyczny import danych ze scrapera oraz testy E2E w Playwright. Projekt obejmuje pełną obsługę zamówień, płatności i dostaw, analitykę GA4 oraz integrację z klastrem Docker Swarm.
+Sklep internetowy oparty na PrestaShop 8.2.8, uruchamiany w kontenerach Docker, wyposażony w automatyczny import danych ze scrapera oraz testy E2E w Playwright. Etap 1 obejmuje sklep w Docker Compose, scraper, import danych i konfigurację sprzedaży. Wdrożenie na klaster Docker Swarm i analityka GA4 są planowane w etapie 2. Wymagania i ich stan: [docs/WYMAGANIA.md](docs/WYMAGANIA.md).
 
 Autorzy:
 Bartosz Pacyga
@@ -9,6 +9,8 @@ Michał Kaźmierowski
 Kacper Trznadel
 
 ## Uruchomienie projektu
+
+Wymagania: Docker z Compose v2, `make`, `openssl`, `curl` i Python 3.12 (`make init` i `make import` uruchamiają skrypty Pythona na hoście). Testy E2E wymagają dodatkowo Node.js 18+.
 
 ### 1. Sklonuj repozytorium
 
@@ -34,6 +36,14 @@ Klucz Webservice API (`PS_API_KEY`) musi mieć dokładnie 32 znaki `A-Z0-9`. Wyg
 openssl rand -hex 16 | tr a-f A-F
 ```
 
+Zainstaluj też zależności Pythona w środowisku wirtualnym. Środowisko musi być aktywne przy `make init` i `make import`:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r scraper/requirements.txt
+```
+
 ### 3. Uruchom sklep
 
 Z poziomu głównego katalogu projektu wykonaj polecenie:
@@ -54,7 +64,7 @@ Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! St
 make init
 ```
 
-Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Na końcu usuwa przez API kategorie i produkty demonstracyjne z instalatora. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
 
 Poprawność konfiguracji API sprawdzisz poleceniem:
 
@@ -70,7 +80,21 @@ make theme
 
 Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo), treści stron CMS (Dostawa, Polityka prywatności, Regulamin, O nas, Płatności) z plików HTML w `shop/cms/` (metadane w `deploy/init/cms.sql`) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera, bloku tekstowego i stron CMS zostaną nadpisane wersją z repo.
 
-### 5. Sprawdź status kontenerów
+### 5. Zaimportuj produkty
+
+Produkty i kategorie pochodzą z `scraper_results/` (w repo), ale zdjęć w repo nie ma. Bez nich `make import` kończy się błędem, bo importer wybiera tylko produkty ze zdjęciami na dysku.
+
+1. Pobierz archiwum zdjęć z zakładki **Releases** repozytorium (wydanie `photos_v0.1`).
+2. Rozpakuj je tak, aby pliki leżały w `scraper_results/product_photos/<id_produktu>/<id_zdjecia>.webp`.
+3. Uruchom import:
+
+```bash
+make import
+```
+
+Import tworzy kategorie, atrybuty, 1100 produktów z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
+
+### 6. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 
@@ -86,7 +110,7 @@ make logs
 
 Domyślnie pokazuje to logi wszystkich kontenerów. Aby zawęzić je do jednego, podaj nazwę usługi, np. `make logs SERVICE=proxy`.
 
-### 6. Otwórz sklep
+### 7. Otwórz sklep
 
 Sklep jest dostępny wyłącznie przez HTTPS:
 
@@ -111,7 +135,7 @@ Dodatkowe informacje:
 
 ## Płatności i dostawa
 
-Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontenera `shop` — nie trzeba niczego klikać w panelu ani uruchamiać dodatkowych komend. Robi to `shop/init-scripts/20-configure-sales.sh`, który wywołuje `shop/scripts/configure-sales.php` (uzasadnienie: `docs/adr/0003-konfiguracja-sprzedazy.md`).
+Konfiguracja sprzedaży ustawia się automatycznie przy każdym starcie kontenera `shop` — nie trzeba niczego klikać w panelu ani uruchamiać dodatkowych komend. Robi to `shop/init-scripts/20-configure-sales.sh`, który wywołuje `shop/scripts/configure-sales.php` (uzasadnienie: [ADR 0003](docs/adr/0003-konfiguracja-sprzedazy.md)).
 
 - **Metody płatności:** przelew tradycyjny (`ps_wirepayment`, fikcyjne dane konta) i płatność przy odbiorze (`ps_cashondelivery`). Płatność czekiem (`ps_checkpayment`), instalowana domyślnie, jest odinstalowywana.
 - **Przewoźnicy:** „Przesyłka kurierska” (19,99 zł) i „Przesyłka kurierska ekspresowa” (29,99 zł), ceny brutto z 23% VAT, dostawa tylko na terenie Polski. Przewoźnicy z instalatora i danych demo („Click and collect”, „My carrier” itd.) są wyłączani. Nazwy i ceny zmienia się w tablicy `CARRIERS`, a potem trzeba też poprawić stronę CMS `shop/cms/1-dostawa.html`.
@@ -147,7 +171,49 @@ Polecenie instaluje zależności i przeglądarkę Chromium, a następnie urucham
 
 Raport HTML zapisuje się w `tests/playwright-report/` (podgląd: `cd tests && npx playwright show-report`), a zrzuty ekranu nieudanych testów w `tests/test-results/`.
 
+Jeden plik lub jeden test: `cd tests && BASE_URL=https://localhost:8443 npx playwright test e2e/koszyk.spec.ts` (filtr po nazwie: `-g "Koszyk"`, podgląd przeglądarki: `--headed`).
+
+| Plik | Co sprawdza |
+|---|---|
+| `tests/e2e/smoke.spec.ts` | strona główna się ładuje |
+| `tests/e2e/koszyk.spec.ts` | kroki 1–3 scenariusza W4: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka |
+
+Kroki 4–10 scenariusza W4 (rejestracja, zamówienie, płatność, przewoźnik, status, faktura) nie są jeszcze napisane. Cały scenariusz musi trwać ≤5 min.
+
+Test koszyka wymaga zaimportowanych produktów (`make import`) i kategorii w górnym menu, bo z menu wybiera kategorie. Produkty bez wystarczającego stanu pomija. Test, który klika po stronie, musi przed wejściem ustawić w `localStorage` `cookie-consent` i `age-confirmed` (jak w `koszyk.spec.ts`), inaczej baner cookies i okno 18+ zasłaniają stronę ([ADR 0002](docs/adr/0002-baner-cookies.md)).
+
+## Testy jednostkowe i linter
+
+Z aktywnym środowiskiem Pythona (patrz krok 2), bez uruchomionego sklepu. To samo robi CI przy każdym PR do `main`:
+
+```bash
+ruff check scraper/
+pytest scraper/
+```
+
+## Dokumentacja
+
+| Dokument | Zawartość |
+| --- | --- |
+| [WYMAGANIA.md](docs/WYMAGANIA.md) | Wymagania projektu i ich stan |
+| [Docker_Docs.md](docs/Docker_Docs.md) | Architektura kontenerów |
+| [Scraper_Instrukcja.md](docs/Scraper_Instrukcja.md), [Scraper_Dzialanie.md](docs/Scraper_Dzialanie.md) | Uruchomienie i budowa scrapera |
+| [Importer.md](docs/Importer.md) | Import danych do sklepu |
+| [Webservice_API.md](docs/Webservice_API.md) | Konfiguracja Webservice API |
+| [wyglad_strony.md](docs/wyglad_strony.md) | Wygląd sklepu i motyw potomny |
+| [adr/](docs/adr/) | Decyzje architektoniczne |
+| [AI_LOG.md](docs/AI_LOG.md) | Dziennik AI |
+| [Business Model Canvas](docs/Business_Model_Canvas_LuksusoweAlkohole.md) | Zadanie z wykładu 2 |
+
 ## Rozwiązywanie problemów
+
+### `ModuleNotFoundError: No module named 'requests'` przy `make init` lub `make import`
+
+Środowisko Pythona nie jest aktywne albo nie ma zależności (patrz krok 2). Klucz API jest już wtedy zarejestrowany; po naprawie uruchom `make init` ponownie, aby usunąć dane demo.
+
+### `make import` kończy się błędem `Za mało produktów z minimum 2 zdjęciami` lub `Nie udało się wybrać 1100 produktów`
+
+Brakuje zdjęć w `scraper_results/product_photos/` (patrz krok 5).
 
 ### Zmienne środowiskowe nie są ustawione
 
@@ -181,7 +247,7 @@ make reset
 make up
 ```
 
-Uwaga: `make reset` kasuje bazę danych oraz wygenerowany certyfikat.
+Uwaga: `make reset` kasuje bazę danych, wygenerowany certyfikat i lokalne mapowania importu (`scraper/importer/*_mapping.json`). Potem wykonaj ponownie kroki 4 i 5.
 
 ### Przeglądarka ostrzega o niezaufanym certyfikacie
 
