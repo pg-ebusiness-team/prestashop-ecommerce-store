@@ -1,5 +1,5 @@
 {**
- * Baner zgody na cookies wzorowany na luksusowealkohole.pl (docs/cookies.png), FRONT-4, ADR 0002.
+ * Baner zgody na cookies wzorowany na luksusowealkohole.pl, FRONT-4, ADR 0002.
  * Natywny <dialog>: showModal() daje przyciemnienie tła, pułapkę fokusu i obsługę klawiatury bez bibliotek.
  * Logika (zapis wyboru, ponowne otwarcie ze stopki) w assets/js/custom.js.
  *}

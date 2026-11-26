@@ -102,7 +102,7 @@ Zrzuty są poza repo – grafiki źródła są chronione prawem autorskim.
 | „Opinie klientów”, widżet TrustMate | zewnętrzny serwis |
 | Przycisk WhatsApp | zewnętrzny serwis |
 | reCAPTCHA w newsletterze | zewnętrzny serwis |
-| Bramka wieku 18+ | potrzebna, ale poza zakresem FRONT-2 (osobny ticket) |
+| Bramka wieku 18+ | poza zakresem FRONT-2; dodana w FRONT-4 (`templates/_partials/age-gate.tpl`, ADR 0002) |
 | Widok mobilny | osobny ticket o responsywności; Classic jest responsywny domyślnie |
 
 ## Jak odtwarzamy to w Classic
@@ -173,7 +173,7 @@ Stan po wszystkich częściach FRONT-2: nagłówek, strona główna, miniatura p
 | `modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl` (nowy) | Tytuł i tekst ze źródła. Pole z linią pod spodem, a obok koperta jako przycisk wysyłki (z `aria-label`). Pola formularza, komunikaty i hooki zgód (RODO) jak w Classic. |
 | `modules/ps_socialfollow/ps_socialfollow.tpl` (nowy) | Same ikony (szare SVG z Classic, `.icon-gray`), bez bloku, gdy nie ma linków. |
 | `assets/css/custom.css` | Styl stopki z FRONT-1 zastąpiony: siatka 4 kolumn (poniżej 992 px 2, poniżej 576 px 1). Nagłówki w Playfair. Linki i nagłówki pisane od wielkich liter jak w źródle (`capitalize`). Newsletter bez białego tła z Classic. Dolny pasek z linią u góry. |
-| `deploy/init/theme.sql` | Bloki linków: „Produkty” i „Nasza firma” (pl), bez linku „Sklepy”. Polskie tytuły i adresy stron CMS z danych demo: Dostawa, Polityka prywatności, Regulamin, O nas, Płatności (treść zostaje demo). Linki Facebook i Instagram ze źródła. |
+| `deploy/init/theme.sql` | Bloki linków: „Produkty” i „Nasza firma” (pl), bez linku „Sklepy”. Polskie tytuły i adresy stron CMS z danych demo: Dostawa, Polityka prywatności, Regulamin, O nas, Płatności (treść dodana w FRONT-4: `shop/cms/`). Linki Facebook i Instagram ze źródła. |
 | `deploy/init/home-images.txt` | `footer-logo.png` ze źródła. |
 
 ### Strona kategorii
@@ -203,24 +203,21 @@ Stan po wszystkich częściach FRONT-2: nagłówek, strona główna, miniatura p
 | Plik | Zmiana |
 | --- | --- |
 | `templates/checkout/cart.tpl` (nowy, `extends parent:`) | Duży tytuł „Koszyk” nad listą, „Kontynuuj zakupy” nad produktami (w Classic był pod spodem). Po prawej dwa boksy: „Podsumowanie” (sumy i przycisk do kasy) oraz „Kod rabatowy”. Klasy `.js-cart-detailed-totals` i `.js-cart-voucher` zostają z Classic, więc `core.js` dalej odświeża oba boksy po zmianie ilości i dodaniu kodu. |
-| `templates/checkout/_partials/cart-detailed-totals.tpl` (nowy) | Sumy z Classic bez kodu rabatowego (jest w osobnym boksie). Nowy wiersz „Do darmowej dostawy brakuje: …” liczony z progu `PS_SHIPPING_FREE_PRICE` (Sklep > Wysyłka > Preferencje). Bez progu wiersza nie ma. Zmiana progu w panelu od razu zmienia kwotę w koszyku. |
+| `templates/checkout/_partials/cart-detailed-totals.tpl` (nowy) | Sumy z Classic bez kodu rabatowego (jest w osobnym boksie). Nowy wiersz „Do darmowej dostawy brakuje: …” liczony z progu `PS_SHIPPING_FREE_PRICE` (Sklep > Wysyłka > Preferencje). Bez progu wiersza nie ma. Próg zmienia się w `deploy/compose.yaml` (ADR 0003), bo zmianę z panelu nadpisze kolejny start kontenera. |
 | `templates/checkout/_partials/cart-voucher.tpl` (nowy) | Pole kodu zawsze widoczne, bez zwijanego „Masz kod promocyjny?”. Placeholder „Wpisz kod rabatowy”, przycisk „Zastosuj”. Ten sam plik jest w podsumowaniu zamówienia (checkout). |
 | `assets/css/custom.css` | Tytuł 4rem, miniatura w beżowej ramce, nazwa w Playfair, wysokie pole ilości. Boksy w beżowej ramce z szeryfowym tytułem, wiersze sum wersalikami z kwotą po prawej, sekcje oddzielone beżową linią, przycisk do kasy na całą szerokość. Kod rabatowy: pole z linią pod spodem i przycisk obok. |
 
 ### Znane ograniczenia
 
 - Menu nie jest sticky, bo wymagałoby JS.
-- Brak telefonu w danych sklepu (`PS_SHOP_PHONE`).
 - Link dla firm prowadzi do strony kontaktu.
-- Menu i sekcje produktów pokazują dane demo do czasu importu. Bestsellery są ukryte, dopóki nie ma zamówień.
+- Sekcje produktów są puste do czasu importu (`make init` usuwa dane demo). Bestsellery są ukryte, dopóki nie ma zamówień.
 - `make theme` wymaga dostępu do luksusowealkohole.pl.
 - Na telefonie slider nie ma osobnych grafik (źródło ma wersje `_m`). To temat ticketu o responsywności.
 - Miniatura nie pokazuje „Najniższa cena w ciągu 30 dni” (Omnibus). PrestaShop nie ma tego natywnie, potrzebny byłby moduł.
-- Dane kontaktowe w stopce i nazwa w copyright pochodzą z konfiguracji sklepu. `theme.sql` ustawia przykładowe, fikcyjne dane (Luksusowe Alkohole, ul. Przykładowa 1, 00-001 Warszawa, `sklep@example.com`, faks 22 000 00 00). To nie są dane sklepu źródłowego, żeby sklep testowy nie kierował klientów do istniejącej firmy.
-- Kolumna „Produkty” nie ma jeszcze linków do kategorii ze źródła (Whisky & Bourbon itd.), bo te kategorie powstaną dopiero po imporcie.
-- Strony CMS mają polskie tytuły, ale treść demo (po angielsku) zostaje do czasu zadania o stronach prawnych.
+- Dane kontaktowe w stopce i nazwa w copyright pochodzą z konfiguracji sklepu. `theme.sql` ustawia przykładowe, fikcyjne dane (Luksusowe Alkohole, ul. Przykładowa 1, 00-001 Warszawa, `sklep@example.com`, telefon +48 123 456 789, faks 22 000 00 00). To nie są dane sklepu źródłowego, żeby sklep testowy nie kierował klientów do istniejącej firmy.
+- Kolumna „Produkty” nie ma jeszcze linków do kategorii ze źródła (Whisky & Bourbon itd.), bo `theme.sql` ich nie ustawia, a ID kategorii są znane dopiero po imporcie.
 - Brak reCAPTCHA w newsletterze (zewnętrzny serwis, w tabeli pominiętych).
 - Kategoria: nie ma wyboru „Produktów na stronę” ze źródła (Classic go nie ma; zostaje sortowanie). Długi opis nie zwija się pod „Pokaż więcej”. Sekcje filtrów nie zwijają się na komputerze (strzałki ^ w źródle).
 - Produkt: „Indeks” nie zmienia się po wyborze innego wariantu (pokazuje indeks produktu). „Kup razem z” pojawia się dopiero, gdy produkt ma akcesoria (dane demo ich nie mają). Załączniki i dodatkowe zakładki modułów (Classic: zakładki) nie są wyświetlane. Miniatury zdjęć bez strzałek ze źródła (Classic przewija je tylko przy wielu zdjęciach).
-- Ceny w € i dane demo do czasu importu (waluta to konfiguracja sklepu, nie motywu).
-- Koszyk: boks „Kod rabatowy” pojawia się dopiero, gdy w sklepie istnieje choć jedna reguła koszyka (PrestaShop wtedy włącza kody). Wiersz „Do darmowej dostawy brakuje” wymaga ustawienia progu `PS_SHIPPING_FREE_PRICE` (2000 zł z `WYMAGANIA.md`; to konfiguracja przewoźników, nie wygląd). Liczy brakującą kwotę od sumy produktów, bez kodów rabatowych.
+- Koszyk: boks „Kod rabatowy” pojawia się dopiero, gdy w sklepie istnieje choć jedna reguła koszyka (PrestaShop wtedy włącza kody). Wiersz „Do darmowej dostawy brakuje” bierze próg z `PS_SHIPPING_FREE_PRICE`, które przy każdym starcie kontenera ustawia `configure-sales.php` (ADR 0003). Liczy brakującą kwotę od sumy produktów, bez kodów rabatowych.
