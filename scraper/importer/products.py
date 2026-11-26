@@ -13,7 +13,11 @@ from scraper.importer.products_mapping import (
     get_product_mapping,
     save_mapping,
 )
-from scraper.importer.stock import import_stock
+from scraper.importer.stock import (
+    import_stock,
+    limit_combination_stock,
+)
+from scraper.importer.weights import assign_product_weights
 
 LANGUAGE_ID = 1
 
@@ -262,8 +266,12 @@ def build_product_xml(
     # Grupa reguł podatkowych VAT
     ET.SubElement(product_element, "id_tax_rules_group").text = str(tax_rules_group_id)
 
+    # Waga bazowa produktu (kg)
+    ET.SubElement(product_element, "weight").text = str(product.get("weight", 1.5))
+
     # Podstawowe ustawienia produktu
     ET.SubElement(product_element, "active").text = "1"
+    ET.SubElement(product_element, "state").text = "1"
     ET.SubElement(product_element, "available_for_order").text = "1"
     ET.SubElement(product_element, "show_price").text = "1"
     ET.SubElement(product_element, "visibility").text = "both"
@@ -390,7 +398,9 @@ def import_product(
     
     # Import kombinacji produktu i ich stanów magazynowych
     attributes_mapping = load_attributes_mapping()
-    combinations = product.get("combinations", [])
+    combinations = limit_combination_stock(
+        product.get("combinations") or []
+    )
 
     if not combinations:
         # Produkt prosty
@@ -462,6 +472,19 @@ def group_products(products):
 
         parent = grouped[source_id]
 
+        # Scalanie zdjęć ze wszystkich rekordów produktu i wariantów
+        existing_image_ids = {
+            image.get("id_image") or image.get("id")
+            for image in parent.get("images", [])
+        }
+
+        for image in product.get("images") or []:
+            image_id = image.get("id_image") or image.get("id")
+
+            if image_id is not None and image_id not in existing_image_ids:
+                parent.setdefault("images", []).append(image)
+                existing_image_ids.add(image_id)
+
         # Rekord wariantu z prawidłowymi atrybutami
         if attribute_id not in (None, 0) and attributes:
             existing_ids = {
@@ -476,4 +499,9 @@ def group_products(products):
         elif not attributes and not parent["combinations"]:
             parent["quantity"] = product.get("quantity")
 
-    return list(grouped.values())
+    grouped_products = list(grouped.values())
+
+    for product in grouped_products:
+        assign_product_weights(product)
+
+    return grouped_products
