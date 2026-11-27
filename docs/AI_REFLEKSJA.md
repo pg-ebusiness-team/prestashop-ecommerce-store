@@ -14,8 +14,6 @@ Najdroższe były błędy w operacjach na środowisku, a nie w samym kodzie. Cla
 
 - **Jak działa PrestaShop.** Bez znajomości modelu danych (przewoźnicy, cechy, indeksy filtrów, `specific_prices`) i kolejności kroków inicjalizacji nie dało się ocenić, czy propozycja AI jest poprawna. Hipotezy trzeba było sprawdzać zapytaniami SQL do bazy.
 - **Weryfikacji.** Każdą zmianę sprawdzaliśmy niezależnie: uruchomieniem od zera, drugim uruchomieniem skryptu (idempotencja), testami, `curl`, Playwrightem i ręcznie w przeglądarce. Sama deklaracja AI, że coś działa, nie wystarczała.
-- **Ostrożności przy operacjach nieodwracalnych.** Po utracie klucza i danych sklepu wiemy, że polecenia zmieniające stan środowiska trzeba czytać przed zatwierdzeniem.
-- **Precyzyjnego formułowania zadań.** Najlepsze wyniki dawały prośby z konkretnym objawem, plikiem i oczekiwanym efektem; ogólne polecenia kończyły się rozwiązaniem obok problemu.
 - **Decyzji projektowych.** Wybór wariantu wyglądu, zakres odstępstw od źródła i ocena, co jest błędem importu, a co scrapera, pozostały po naszej stronie.
 
 Podsumowując: AI skróciło czas pisania kodu i dokumentacji, ale nie zastąpiło zrozumienia systemu. Odpowiedzialność za poprawność została przy osobie, która zmianę zgłaszała i recenzowała.
