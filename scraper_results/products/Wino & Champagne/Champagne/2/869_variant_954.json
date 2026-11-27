@@ -62,8 +62,8 @@
   "price_without_reduction": 550.000001,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 6,
-  "quantity_all_versions": 48,
+  "quantity": 0,
+  "quantity_all_versions": 2,
   "id_image": "pl-default",
   "features": [
     {
@@ -306,7 +306,9 @@
   "price_amount": 550,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Dostępne w magazynie",
+  "availability_message": "Dostępny produkt z innymi opcjami",
   "availability_date": null,
-  "availability": "available"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

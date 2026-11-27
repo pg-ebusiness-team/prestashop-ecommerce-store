@@ -41,7 +41,7 @@
   "meta_title": "WÓDKA Pravda",
   "link_rewrite": "wodka-pravda",
   "name": "WÓDKA Pravda",
-  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Kontynuując \r\n ponad 200letnią tradycję Pravda wytwarzana jest obecnie tylko w jednej gorzelni \r\n z luksusowego spirytusu żytniego i wody źródlanej z ujęcia w chronionej strefie \r\ngórskiej. Wódka filtrowana jest przez najwyższej jakości aktywny węgiel drzewny \r\nz polskiej brzozy. Nowoczesne klarowanie zapewnia napojowi szlachetny \r\n błysk.</SPAN></P>\r\n",
+  "description": "\r\n<P style=\"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",\"serif\"; LINE-HEIGHT: 115%'>Kontynuując \r\nponad 200letnią tradycję Pravda wytwarzana jest obecnie tylko w jednej gorzelni \r\nz luksusowego spirytusu żytniego i wody źródlanej z ujęcia w chronionej strefie \r\ngórskiej. Wódka filtrowana jest przez najwyższej jakości aktywny węgiel drzewny \r\nz polskiej brzozy. Nowoczesne klarowanie zapewnia napojowi szlachetny \r\nbłysk.</SPAN></P>\r\n",
   "description_short": "<p>Kontynuując ponad 200letnią tradycję Pravda wytwarzana jest obecnie tylko w jednej gorzelni z luksusowego spirytusu żytniego i wody źródlanej z ujęcia w chronionej strefie górskiej.</p>",
   "available_now": "",
   "available_later": "",
@@ -86,6 +86,13 @@
       "id_feature": 7,
       "position": 6,
       "id_feature_value": 523
+    },
+    {
+      "name": "Charakter",
+      "value": "Zbożowa",
+      "id_feature": 9,
+      "position": 8,
+      "id_feature_value": 301
     }
   ],
   "attachments": [],
@@ -284,5 +291,7 @@
   "show_availability": true,
   "availability_message": "Dostępny produkt z innymi opcjami",
   "availability_date": null,
-  "availability": "unavailable"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

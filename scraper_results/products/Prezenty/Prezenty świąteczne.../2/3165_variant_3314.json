@@ -1,0 +1,366 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907522605322",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "199,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-11-26",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3314,
+  "advanced_stock_management": "0",
+  "date_add": "2026-11-26 18:12:42",
+  "date_upd": "2026-11-26 22:51:20",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Wild Fields 5YO Sherry 46,5% 0,7l w Drewnie",
+  "link_rewrite": "whisky-wild-fields-5yo-sherry-465-07l-w-drewnie",
+  "name": "WHISKY Wild Fields 5YO Sherry 46,5% 0,7l w Drewnie",
+  "description": "<p>Wild Fields Sherry Cask Single Wheat 5YO Polish Whisky wytworzona wyłącznie z polskiej, słodowanej pszenicy. Destylowana w małej partii, w jednej destylarni.</p>\n<p> Leżakowana pięć lat w 250 litrowych dębowych beczkach, w których dojrzewało wino Sherry. Niefiltrowana na zimno oraz niedobarwiana w pełni zachowała smak i kolor z beczki.</p>\n<p>W zapachu świeża i słodka. W smaku gładka z długim fiszem.</p>\n<p> Bardzo rzadka i oryginalna Sherry Cask Single Wheat Polish Whisky. Powstała we współpracy ze światowej sławy Scotch Whisky Master Distiller &amp; Master Blender John McDougall, który posiada ogromne doświadczenie z takich destylarni jak: Aultmore, Ben Nevis, Glenfiddich, Knockdhu czy Laphroaig.</p>",
+  "description_short": "<p>Wild Fields Sherry Cask Single Wheat 5YO Polish Whisky wytworzona wyłącznie z polskiej, słodowanej pszenicy. Destylowana w małej partii, w jednej destylarni.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3165,
+  "id_product": 3165,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3314,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3165-whisky-wild-fields-5yo-sherry-465-07l-w-drewnie",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 161.788618,
+  "price_without_reduction": 199,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "46,5%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 246
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single Grain",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 300
+    },
+    {
+      "name": "Wiek",
+      "value": "5 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 173
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5907522605322",
+      "ean13": "5907522605322",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4982,
+      "legend": "WHISKY Wild Fields 5YO Sherry 46,5% 0,7l w Drewnie",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4982-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4982-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4982-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4982-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4983,
+      "legend": "WHISKY Wild Fields 5YO Sherry 46,5% 0,7l w Drewnie",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4983-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4983-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4983-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4983-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4983-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4983-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4983-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4983-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4983-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4983-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4983-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4983-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4983-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4983-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4983-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4983-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4982,
+    "legend": "WHISKY Wild Fields 5YO Sherry 46,5% 0,7l w Drewnie",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4982-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-small_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4982-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-medium_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4982-cart_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4982-home_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4982-large_default/whisky-wild-fields-5yo-sherry-465-07l-w-drewnie.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 199,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

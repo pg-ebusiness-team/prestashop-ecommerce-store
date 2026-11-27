@@ -322,5 +322,7 @@
   "show_availability": true,
   "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "unavailable"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

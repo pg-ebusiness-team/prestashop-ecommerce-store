@@ -4,17 +4,17 @@
   "id_supplier": 0,
   "reference": "5906681554755",
   "is_virtual": "0",
-  "delivery_in_stock": null,
-  "delivery_out_stock": null,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
   "id_category_default": 31,
   "on_sale": "0",
   "online_only": "0",
   "ecotax": 0,
   "minimal_quantity": 1,
-  "low_stock_threshold": null,
+  "low_stock_threshold": 0,
   "low_stock_alert": "0",
   "price": "89,00 zł",
-  "unity": "szt.",
+  "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
   "additional_shipping_cost": "0.000000",
@@ -34,15 +34,15 @@
   "cache_default_attribute": 0,
   "advanced_stock_management": "0",
   "date_add": "2026-11-04 23:37:51",
-  "date_upd": "2026-11-04 23:37:51",
+  "date_upd": "2026-11-23 17:07:14",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "",
   "link_rewrite": "nalewka-staropolska-malinowa-poranna-rosa-350ml-pr",
   "name": "Nalewka Staropolska Malinowa Poranna Rosa 350ml pr",
-  "description": "\r\n<P>NALEWKA STAROPOLSKA Malinowa Poranna Rosa – tradycyjna polska nalewka o smaku \r\ndojrzałych malin</P>\r\n<P>Nalewka Staropolska Malinowa Poranna Rosa to propozycja dla miłośników \r\ntradycyjnych polskich nalewek i naturalnych, owocowych smaków. Jej charakter \r\ninspirowany jest aromatem świeżych, dojrzałych malin, które nadają trunkowi \r\nprzyjemną owocową słodycz i delikatną kwaskowatość. To nalewka o klasycznym, \r\ndomowym charakterze, przywołująca skojarzenia z letnimi owocami i tradycyjnymi \r\nrecepturami przekazywanymi z pokolenia na pokolenie.</P>\r\n<P>Charakterystyka nalewki Malinowa Poranna Rosa</P>\r\n<P>Aromat: owocowy i intensywny, z wyraźnymi nutami dojrzałych malin oraz \r\ndelikatnym, słodkim akcentem.</P>\r\n<P>Smak: przyjemnie owocowy, z charakterystyczną malinową słodyczą przełamaną \r\nsubtelną kwaskowatością. Kompozycja jest harmonijna i aromatyczna.</P>\r\n<P>Finisz: miękki, owocowy, z długo utrzymującą się nutą malin.</P>\r\n<P>Charakter i tradycja</P>\r\n<P>Nalewka Staropolska Malinowa Poranna Rosa nawiązuje do polskiej tradycji \r\nprzygotowywania nalewek owocowych. Maliny od lat zajmują szczególne miejsce w \r\nrodzimej kuchni i domowych recepturach, cenione za intensywny aromat oraz \r\ncharakterystyczny smak.</P>\r\n<P>To propozycja dla osób, które lubią owocowe alkohole o tradycyjnym \r\ncharakterze. Doskonale sprawdzi się również jako element eleganckiego zestawu \r\nprezentowego z polskimi specjałami.</P>\r\n<P>Jak podawać?</P>\r\n<P>Lekko schłodzona – w małym kieliszku, jako nalewka degustacyjna.</P>\r\n<P>Po posiłku – jako owocowy akcent na zakończenie kolacji.</P>\r\n<P>Do deserów – jako dodatek do lodów waniliowych, czekolady i deserów na bazie \r\nowoców.</P>\r\n<P>Na prezent – dla miłośników tradycyjnych polskich nalewek i malinowych \r\nsmaków.</P>\r\n<P>Specyfikacja produktu</P>\r\n<P>Nazwa: Nalewka Staropolska Malinowa Poranna Rosa</P>\r\n<P>Kategoria: nalewka owocowa</P>\r\n<P>Profil smakowy: malina</P>\r\n<P>Kraj pochodzenia: Polska</P>\r\n",
-  "description_short": "<p>NALEWKA STAROPOLSKA Malinowa Poranna Rosa – tradycyjna polska nalewka o smaku dojrzałych malin<br/>Nalewka Staropolska Malinowa Poranna Rosa to propozycja dla miłośników tradycyjnych polskich nalewek i naturalnych, owocowych smaków. Jej charakter inspirowa</p>",
+  "description": "<p>NALEWKA STAROPOLSKA Malinowa Poranna Rosa – tradycyjna polska nalewka o smaku dojrzałych malin</p>\n<p>Nalewka Staropolska Malinowa Poranna Rosa to propozycja dla miłośników tradycyjnych polskich nalewek i naturalnych, owocowych smaków. Jej charakter inspirowany jest aromatem świeżych, dojrzałych malin, które nadają trunkowi przyjemną owocową słodycz i delikatną kwaskowatość. To nalewka o klasycznym, domowym charakterze, przywołująca skojarzenia z letnimi owocami i tradycyjnymi recepturami przekazywanymi z pokolenia na pokolenie.</p>\n<p>Charakterystyka nalewki Malinowa Poranna Rosa</p>\n<p>Aromat: owocowy i intensywny, z wyraźnymi nutami dojrzałych malin oraz delikatnym, słodkim akcentem.</p>\n<p>Smak: przyjemnie owocowy, z charakterystyczną malinową słodyczą przełamaną subtelną kwaskowatością. Kompozycja jest harmonijna i aromatyczna.</p>\n<p>Finisz: miękki, owocowy, z długo utrzymującą się nutą malin.</p>\n<p>Charakter i tradycja</p>\n<p>Nalewka Staropolska Malinowa Poranna Rosa nawiązuje do polskiej tradycji przygotowywania nalewek owocowych. Maliny od lat zajmują szczególne miejsce w rodzimej kuchni i domowych recepturach, cenione za intensywny aromat oraz charakterystyczny smak.</p>\n<p>To propozycja dla osób, które lubią owocowe alkohole o tradycyjnym charakterze. Doskonale sprawdzi się również jako element eleganckiego zestawu prezentowego z polskimi specjałami.</p>\n<p>Jak podawać?</p>\n<p>Lekko schłodzona – w małym kieliszku, jako nalewka degustacyjna.</p>\n<p>Po posiłku – jako owocowy akcent na zakończenie kolacji.</p>\n<p>Do deserów – jako dodatek do lodów waniliowych, czekolady i deserów na bazie owoców.</p>\n<p>Na prezent – dla miłośników tradycyjnych polskich nalewek i malinowych smaków.</p>\n<p>Specyfikacja produktu</p>\n<p>Nazwa: Nalewka Staropolska Malinowa Poranna Rosa</p>\n<p>Kategoria: nalewka owocowa</p>\n<p>Profil smakowy: malina</p>\n<p>Kraj pochodzenia: Polska</p>",
+  "description_short": "<p>NALEWKA STAROPOLSKA Malinowa Poranna Rosa – tradycyjna polska nalewka o smaku dojrzałych malin<br />Nalewka Staropolska Malinowa Poranna Rosa to propozycja dla miłośników tradycyjnych polskich nalewek i naturalnych, owocowych smaków. Jej charakter inspirowa</p>",
   "available_now": "",
   "available_later": "",
   "id": 3140,
@@ -99,8 +99,154 @@
   "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
-  "images": [],
-  "cover": false,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4946,
+      "legend": "Nalewka Staropolska Malinowa Poranna Rosa 350ml pr",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4946-small_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4946-small_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4946-medium_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4946-medium_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4946,
+    "legend": "Nalewka Staropolska Malinowa Poranna Rosa 350ml pr",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4946-small_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-small_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4946-medium_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-medium_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4946-cart_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4946-home_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4946-large_default/nalewka-staropolska-malinowa-poranna-rosa-350ml-pr.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
   "has_discount": false,
   "discount_type": null,
   "discount_percentage": null,
@@ -112,5 +258,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

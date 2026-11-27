@@ -1,0 +1,293 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "8019873824875",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "60,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-09-17",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3262,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-17 22:09:35",
+  "date_upd": "2026-09-17 23:18:47",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WŁOCHY Sensuale Moscato Basilicata Frizz. 10% 0,75",
+  "link_rewrite": "wlochy-sensuale-moscato-basilicata-frizz-10-075",
+  "name": "WŁOCHY Sensuale Moscato Basilicata Frizz. 10% 0,75",
+  "description": "<p>WINO WŁOCHY Sensuale Moscato Basilicata Frizzante 10% 0,75L – aromatyczne, lekko musujące wino z południa Włoch<br />WŁOCHY Sensuale Moscato Basilicata Frizzante 10% 0,75L to delikatne, aromatyczne włoskie wino frizzante z regionu Basilicata. Powstaje na bazie szczepu Moscato, który słynie z intensywnego, kwiatowo-owocowego aromatu. Lekko musujący charakter, świeżość i przyjemna owocowość sprawiają, że jest to propozycja idealna na spotkania w gronie przyjaciół, celebrację wyjątkowych chwil oraz jako lekkie wino do deserów.<br />Charakterystyka wina<br />Sensuale Moscato Basilicata Frizzante zachwyca jasną, świeżą barwą i delikatnym perleniem. W aromacie dominują dojrzałe winogrona, brzoskwinie, morele oraz soczyste owoce cytrusowe, którym towarzyszą subtelne nuty kwiatowe. Bukiet jest świeży, bardzo przyjemny i charakterystyczny dla szczepu Moscato.<br />Na podniebieniu wino Sensuale Moscato jest lekkie, świeże i owocowe. Delikatne bąbelki dodają mu lekkości i orzeźwienia, a przyjemne połączenie owocowej słodyczy z kwasowością sprawia, że wino jest harmonijne i łatwe do picia. Finisz pozostaje świeży, owocowy i lekko musujący.<br />Styl i charakter<br />Sensuale Moscato Basilicata Frizzante to wino stworzone dla osób, które cenią aromatyczne, lekkie i delikatnie musujące wina włoskie. Frizzante oznacza subtelniejsze nasycenie dwutlenkiem węgla niż w przypadku klasycznych win musujących – dzięki temu perlenie jest delikatne i naturalnie podkreśla świeży charakter Moscato.<br />To świetny wybór na aperitif, letnie spotkanie, przyjęcie czy romantyczną kolację.<br />Z czym podawać?<br />WINO Sensuale Moscato Basilicata Frizzante doskonale komponuje się z:<br />lekkimi deserami owocowymi,<br />ciastami i tartami,<br />sernikiem,<br />świeżymi owocami,<br />panna cottą,<br />lodami i sorbetami,<br />lekkimi przekąskami i aperitifami.<br />Najlepiej podawać dobrze schłodzone, w temperaturze 6–8°C.</p>",
+  "description_short": "<p>WŁOCHY Sensuale Moscato Basilicata Frizzante 10% 0,75L to delikatne, aromatyczne włoskie wino frizzante z regionu Basilicata. Powstaje na bazie szczepu Moscato, który słynie z intensywnego, kwiatowo-owocowego aromatu. Lekko musujący charakter, świeżość i</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3110,
+  "id_product": 3110,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3262,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/3110-wlochy-sensuale-moscato-basilicata-frizz-10-075",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 48.780488,
+  "price_without_reduction": 60,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Półsłodkie",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 18
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Frizzante",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 637
+    },
+    {
+      "name": "Szczep",
+      "value": "Moscato",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 104
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "8019873824875",
+      "ean13": "8019873824875",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4886,
+      "legend": "WŁOCHY Sensuale Moscato Basilicata Frizz. 10% 0,75",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4886-small_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4886-small_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4886-medium_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4886-medium_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4886,
+    "legend": "WŁOCHY Sensuale Moscato Basilicata Frizz. 10% 0,75",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4886-small_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-small_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4886-medium_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-medium_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4886-cart_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4886-home_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4886-large_default/wlochy-sensuale-moscato-basilicata-frizz-10-075.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 60,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

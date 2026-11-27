@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 65,
   "id_supplier": 0,
   "reference": "5901617020465",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 2843,
   "advanced_stock_management": "0",
   "date_add": "2025-09-18 14:37:00",
-  "date_upd": "2026-05-22 20:43:56",
+  "date_upd": "2026-11-24 14:33:03",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Paprocky Single Malt",
   "link_rewrite": "whisky-paprocky-single-malt",
   "name": "WHISKY Paprocky Single Malt",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>WHISKY \r\nPAPROCKY to wyjątkowy, rodzinny projekt zrodzony z pasji i zaangażowania. \r\nPaprocky Single Malt dojrzewała w nowych beczkach z dębu (Virgin Oak), co nadało \r\njej unikalny charakter i bogaty aromat. To whisky o łagodnie oleistej \r\nstrukturze, wyróżniająca się owocowym profilem - szczególnie wyraźne są tu nuty \r\nzielonych jabłek i gruszek. Finisz urzeka akcentami tytoniu oraz słodowego \r\nkarmelu. Każda butelka Whisky Paprocky to nie tylko alkohol, ale też efekt \r\nrodzinnej pasji, staranności i serca włożonego w każdy etap \r\nprodukcji.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">WHISKY PAPROCKY to wyjątkowy, rodzinny projekt zrodzony z pasji i zaangażowania. Paprocky Single Malt dojrzewała w nowych beczkach z dębu (Virgin Oak), co nadało jej unikalny charakter i bogaty aromat. To whisky o łagodnie oleistej strukturze, wyróżniająca się owocowym profilem - szczególnie wyraźne są tu nuty zielonych jabłek i gruszek. Finisz urzeka akcentami tytoniu oraz słodowego karmelu. Każda butelka Whisky Paprocky to nie tylko alkohol, ale też efekt rodzinnej pasji, staranności i serca włożonego w każdy etap produkcji.</span></p>",
   "description_short": "<p>WHISKY PAPROCKY to wyjątkowy, rodzinny projekt zrodzony z pasji i zaangażowania. Paprocky Single Malt dojrzewała w nowych beczkach z dębu (Virgin Oak), co nadało jej unikalny charakter i bogaty aromat.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,14 +56,14 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/2634-whisky-paprocky-single-malt",
-  "manufacturer_name": null,
+  "manufacturer_name": "Paprocky",
   "attribute_price": 0,
   "price_tax_exc": 105.691057,
   "price_without_reduction": 130,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 6,
-  "quantity_all_versions": 6,
+  "quantity": 4,
+  "quantity_all_versions": 4,
   "id_image": "pl-default",
   "features": [
     {
@@ -280,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

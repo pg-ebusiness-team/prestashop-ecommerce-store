@@ -41,8 +41,8 @@
   "meta_title": "WINO Tokaji Aszu 5 Putt Bodvin Białe słodkie",
   "link_rewrite": "wino-tokaji-aszu-5-putt-bodvin-biale-slodkie",
   "name": "WINO Tokaji Aszu 5 Putt Bodvin Białe słodkie",
-  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Tokaj Aszú 5 Puttonyos Bodvin to wykwintne węgierskie wino deserowe pochodzące z regionu Tokaj, wytwarzane przez winiarnię Bodvin, założoną w 1992 roku w malowniczej miejscowości Mád. Tworzone jest z odmiany winogron Furmint, które ulegają naturalnemu procesowi botrytyzacji - tzw. \"szlachetnej pleśni\". To właśnie ona intensyfikuje cukry i aromaty w owocach, nadając winu jego wyjątkowy charakter. W bukiecie dominują intensywne aromaty miodu i kwiatów pomarańczy, wzbogacone wyraźnymi nutami pochodzącymi z botrytyzowanych winogron. Na podniebieniu wino jest pełne, harmonijne i bogate w smak, z wyraźnymi tonami dżemu, owoców kandyzowanych oraz subtelną nutą orzechów. Naturalna kwasowość idealnie równoważy słodycz, zapewniając winu świeżość i długi, elegancki finisz. Barwa jest jasno bursztynowa z pięknymi, miodowymi refleksami. Tokaj Aszú 5 Puttonyos Bodvin świetnie sprawdza się jako dodatek do deserów owocowych, serów pleśniowych, a także jako wyrafinowany aperitif. Cenione za swoją złożoność, elegancję i doskonałe wyważenie, stanowi prawdziwą gratkę dla koneserów win słodkich.</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Tokaj Aszú 5 Puttonyos Bodvin to wykwintne węgierskie wino deserowe pochodzące z regionu Tokaj, wytwarzane przez winiarnię Bodvin, założoną w 1992 roku w malowniczej miejscowości Mád.</span></p>",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Tokaj \r\nAszú 5 Puttonyos Bodvin to wykwintne węgierskie wino deserowe pochodzące z \r\nregionu Tokaj, wytwarzane przez winiarnię Bodvin, założoną w 1992 roku w \r\nmalowniczej miejscowości Mád. Tworzone jest z odmiany winogron Furmint, które \r\nulegają naturalnemu procesowi botrytyzacji - tzw. \"szlachetnej pleśni\". To \r\nwłaśnie ona intensyfikuje cukry i aromaty w owocach, nadając winu jego wyjątkowy \r\ncharakter. W bukiecie dominują intensywne aromaty miodu i kwiatów pomarańczy, \r\nwzbogacone wyraźnymi nutami pochodzącymi z botrytyzowanych winogron. Na \r\npodniebieniu wino jest pełne, harmonijne i bogate w smak, z wyraźnymi tonami \r\ndżemu, owoców kandyzowanych oraz subtelną nutą orzechów. Naturalna kwasowość \r\nidealnie równoważy słodycz, zapewniając winu świeżość i długi, elegancki finisz. \r\nBarwa jest jasno bursztynowa z pięknymi, miodowymi refleksami. Tokaj Aszú 5 \r\nPuttonyos Bodvin świetnie sprawdza się jako dodatek do deserów owocowych, serów \r\npleśniowych, a także jako wyrafinowany aperitif. Cenione za swoją złożoność, \r\nelegancję i doskonałe wyważenie, stanowi prawdziwą gratkę dla koneserów win \r\nsłodkich.</SPAN></P>\r\n",
+  "description_short": "<p>Tokaj Aszú 5 Puttonyos Bodvin to wykwintne węgierskie wino deserowe pochodzące z regionu Tokaj, wytwarzane przez winiarnię Bodvin, założoną w 1992 roku w malowniczej miejscowości Mád.</p>",
   "available_now": "",
   "available_later": "",
   "id": 2635,
@@ -62,8 +62,8 @@
   "price_without_reduction": 135.000001,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 2,
-  "quantity_all_versions": 2,
+  "quantity": 1,
+  "quantity_all_versions": 1,
   "id_image": "pl-default",
   "features": [
     {
@@ -132,7 +132,7 @@
   "id_customization": 0,
   "is_customizable": false,
   "show_quantities": true,
-  "quantity_label": "Przedmioty",
+  "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
   "images": [
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

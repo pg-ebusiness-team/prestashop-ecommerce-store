@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281030043",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 786,
   "advanced_stock_management": "0",
   "date_add": "2024-07-20 14:43:38",
-  "date_upd": "2025-04-07 19:19:56",
+  "date_upd": "2026-11-24 15:20:54",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Talisker 25 Y O",
   "link_rewrite": "whisky-talisker-25-y-o",
   "name": "WHISKY Talisker 25 Y O",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Talisker \r\n25 Years Old&nbsp;to delikatny aromat z subtelną nutą pieprzu, wodorostów i \r\nkarmelu. Wyczuwa się także odrobinę jodyny oraz palonego drewna. W smaku w \r\npierwszej kolejności uderza dym, który jest równoważony słodyczą karmelu i \r\nmorską, słoną bryzą. Finisz jest długi i przyjemnie ziemisty z dodatkiem imbiru \r\ni czekolady. Zabutelkowana w tradycyjnej dla destylarni mocy 45,8%. Wydana w \r\neleganckim i sztywnym pudełku wyściełanym miękkim \r\nmateriałem..</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Talisker 25 Years Old to delikatny aromat z subtelną nutą pieprzu, wodorostów i karmelu. Wyczuwa się także odrobinę jodyny oraz palonego drewna. W smaku w pierwszej kolejności uderza dym, który jest równoważony słodyczą karmelu i morską, słoną bryzą. Finisz jest długi i przyjemnie ziemisty z dodatkiem imbiru i czekolady. Zabutelkowana w tradycyjnej dla destylarni mocy 45,8%. Wydana w eleganckim i sztywnym pudełku wyściełanym miękkim materiałem..</span></p>",
   "description_short": "<p>Talisker 25 Years Old to delikatny aromat z subtelną nutą pieprzu, wodorostów i karmelu. Wyczuwa się także odrobinę jodyny oraz palonego drewna. W smaku w pierwszej kolejności uderza dym, który jest równoważony słodyczą karmelu i morską, słoną bryzą.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/715-whisky-talisker-25-y-o",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 2438.211382,
   "price_without_reduction": 2999,
@@ -301,5 +301,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

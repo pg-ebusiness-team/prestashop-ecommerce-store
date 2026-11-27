@@ -1,0 +1,322 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "Zestaw VIP Męski  III",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 11,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "430,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "0000-00-00",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2026-09-13 13:41:15",
+  "date_upd": "2026-09-13 13:47:06",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "zestaw-vip-meski-iii",
+  "name": "Zestaw VIP Męski  III",
+  "description": "<div class=\"z-0 flex min-h-[46px] justify-start\"></div>\n<div class=\"flex max-w-full flex-col gap-4 grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden\">\n<div class=\"fbskMG_root markdown prose dark:prose-invert wrap-break-word w-full light markdown-new-styling\">\n<ul>\n<li>ARCTURUS Premium Vodka – 40% vol., 700 ml – elegancka polska wódka premium<span class=\"PDq2pG_selectionAnchor\"></span></li>\n<li>HACHEZ Cocoa D’Arriba 77% Classic 100 g – wytrawna czekolada deserowa o intensywnym charakterze</li>\n<li>Stara Wędzarnia – Kiełbasa Krakowska Sucha-Staropolska 100 g – tradycyjna polska wędlina</li>\n<li>Truffes d’Or – Cacao Truffles – wykwintne trufle kakaowe</li>\n<li>Stara Wędzarnia – Smalec wieprzowy z mięsem – tradycyjny polski specjał</li>\n<li>Niederegger Lübeck – Tiramisu mit Pistazien – wyjątkowy marcepan o smaku pistacjowego tiramisu</li>\n<li>Eleganckie pudełko prezentowe na magnes</li>\n<li>Starannie dobrane ozdoby świąteczne</li>\n<li>Personalizowany bilecik z życzeniami</li>\n<li>Możliwość umieszczenia logo firmy</li>\n<li>Profesjonalne konfekcjonowanie i przygotowanie zestawu do wręczenia</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
+  "description_short": "<h3>Ekskluzywny zestaw prezentowy z polską wódką premium</h3>\n<p>Elegancki <strong>zestaw prezentowy z Arcturus Premium Vodka</strong> to wyjątkowe połączenie polskiej wódki premium, wykwintnych słodyczy oraz tradycyjnych polskich specjałów. Intensywna czekolada HACHEZ, kakaowe trufle, marcepan Niederegger oraz staropolska kiełbasa i smalec tworzą oryginalną kompozycję dla miłośników dobrego smaku. Całość w eleganckim pudełku na magnes stanowi doskonały <strong>prezent świąteczny dla klienta, pracownika lub partnera biznesowego</strong>, z możliwością personalizacji logo firmy i życzeń.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3090,
+  "id_product": 3090,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "prezenty",
+  "category_name": "Prezenty",
+  "link": "https://luksusowealkohole.pl/prezenty/3090-zestaw-vip-meski-iii",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 349.593496,
+  "price_without_reduction": 430,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 200,
+  "quantity_all_versions": 200,
+  "id_image": "pl-default",
+  "features": [],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4851,
+      "legend": "Zestaw VIP Męski  III",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4851-small_default/zestaw-vip-meski-iii.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4851-small_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4851-medium_default/zestaw-vip-meski-iii.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4851-medium_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4852,
+      "legend": "Zestaw VIP Męski  III",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4852-cart_default/zestaw-vip-meski-iii.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4852-cart_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4852-small_default/zestaw-vip-meski-iii.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4852-small_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4852-home_default/zestaw-vip-meski-iii.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4852-home_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4852-medium_default/zestaw-vip-meski-iii.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4852-medium_default/zestaw-vip-meski-iii.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4852-large_default/zestaw-vip-meski-iii.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4852-large_default/zestaw-vip-meski-iii.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4852-cart_default/zestaw-vip-meski-iii.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4852-cart_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4852-home_default/zestaw-vip-meski-iii.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4852-home_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4852-large_default/zestaw-vip-meski-iii.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4852-large_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4851,
+    "legend": "Zestaw VIP Męski  III",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4851-small_default/zestaw-vip-meski-iii.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-small_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4851-medium_default/zestaw-vip-meski-iii.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-medium_default/zestaw-vip-meski-iii.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4851-cart_default/zestaw-vip-meski-iii.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4851-home_default/zestaw-vip-meski-iii.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4851-large_default/zestaw-vip-meski-iii.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 430,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

@@ -39,10 +39,10 @@
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Bunnahabhain 18 Y O",
-  "link_rewrite": "whisky-bunnahabhain-18-yo",
-  "name": "WHISKY Bunnahabhain 18 YO",
-  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">18-letnia whisky single malt niefiltrowana na zimno ani nie barwiona karmelem. Bunnahabhain posiada wyczuwalne nuty soli, puddingu toffi i przypraw, z wybijającą się gałką muszkatołową. Bunnahabhain po napowietrzeniu rozwija się w tony skóry, karmelu. Na podniebieniu daje odczuć swój ciężar, jest oleista, dobrze zbudowana, wielowarstwowa – od nut sherry, przez sól morską, dębinę po pieczone kasztany i przyprawy korzenne. W długiej, gładkiej końcówce przeplatają się nuty sherry i soli.</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">18-letnia whisky single malt niefiltrowana na zimno ani nie barwiona karmelem. Bunnahabhain posiada wyczuwalne nuty soli, puddingu toffi i przypraw, z wybijającą się gałką muszkatołową.</span></p>",
+  "link_rewrite": "whisky-bunnahabhain-18-y-o",
+  "name": "WHISKY Bunnahabhain 18 Y O",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><FONT \r\nface=\"Calibri\">18-letnia whisky single malt niefiltrowana na zimno ani nie \r\nbarwiona karmelem. Bunnahabhain posiada wyczuwalne nuty soli, puddingu toffi i \r\nprzypraw, z wybijającą się gałką muszkatołową. Bunnahabhain po napowietrzeniu \r\nrozwija się w tony skóry, karmelu. Na podniebieniu daje odczuć swój ciężar, jest \r\noleista, dobrze zbudowana, wielowarstwowa – od nut sherry, przez sól morską, \r\ndębinę po pieczone kasztany i przyprawy korzenne. W długiej, gładkiej końcówce \r\nprzeplatają się nuty sherry i soli.</FONT></P>\r\n",
+  "description_short": "<p>18-letnia whisky single malt niefiltrowana na zimno ani nie barwiona karmelem. Bunnahabhain posiada wyczuwalne nuty soli, puddingu toffi i przypraw, z wybijającą się gałką muszkatołową.</p>",
   "available_now": "",
   "available_later": "",
   "id": 286,
@@ -55,15 +55,15 @@
   "allow_oosp": 0,
   "category": "whisky",
   "category_name": "Whisky",
-  "link": "https://luksusowealkohole.pl/whisky/286-whisky-bunnahabhain-18-yo",
+  "link": "https://luksusowealkohole.pl/whisky/286-whisky-bunnahabhain-18-y-o",
   "manufacturer_name": "Bunnahabhain",
   "attribute_price": 0,
   "price_tax_exc": 756.097561,
   "price_without_reduction": 930,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 1,
-  "quantity_all_versions": 1,
+  "quantity": 0,
+  "quantity_all_versions": 0,
   "id_image": "pl-default",
   "features": [
     {
@@ -138,7 +138,7 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": true,
+  "show_quantities": false,
   "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
@@ -150,68 +150,68 @@
       "position": 1,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "associatedVariants": []
@@ -223,68 +223,68 @@
       "position": 2,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/4177-small_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4177-small_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4177-small_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4177-small_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/4177-medium_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4177-medium_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4177-medium_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4177-medium_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-y-o.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-y-o.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4177-cart_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4177-home_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4177-large_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "associatedVariants": []
@@ -297,68 +297,68 @@
     "position": 1,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-small_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-medium_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4176-cart_default/whisky-bunnahabhain-18-y-o.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4176-home_default/whisky-bunnahabhain-18-y-o.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4176-large_default/whisky-bunnahabhain-18-y-o.jpg"
       }
     },
     "associatedVariants": []
@@ -372,7 +372,9 @@
   "price_amount": 930,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

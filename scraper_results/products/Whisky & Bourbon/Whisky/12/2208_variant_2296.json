@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281071572",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 2296,
   "advanced_stock_management": "0",
   "date_add": "2025-07-05 16:59:08",
-  "date_upd": "2025-07-05 17:50:43",
+  "date_upd": "2026-11-24 15:18:32",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Talisker Surge",
   "link_rewrite": "whisky-talisker-surge",
   "name": "WHISKY Talisker Surge",
-  "description": "Talisker Surge to wyjątkowy single malt stworzony z myślą o poszukiwaczach \r\nprzygód i miłośnikach intensywnych doznań smakowych. Inspirowana dziką naturą \r\nwyspy Skye - od surowych, skalistych brzegów i potężnych sztormów, po słoneczne \r\ndni i błękitne niebo - ta whisky oddaje esencję miejsca, z którego pochodzi. \r\nFiniszowana w beczkach po amerykańskim bourbonie, Surge łączy słodką głębię z \r\nwyrazistym, lekko dymnym charakterem. Wyraźne nuty przypraw i morskich akcentów \r\ntworzą bogaty, zbalansowany profil smakowy, typowy dla destylarni Talisker. Z \r\nbutelkowaną mocą 45,8%, Talisker Surge jest hołdem dla tradycji i klimatu \r\nszkockiego wybrzeża. To whisky, która przenosi na wyspę Skye z każdym łykiem - \r\noferując harmonijne połączenie słodyczy, dymu i przypraw, oddające \r\nniepowtarzalny duch regionu i morski charakter tej ikonicznej \r\ndestylarni.\r\n",
+  "description": "<p>Talisker Surge to wyjątkowy single malt stworzony z myślą o poszukiwaczach przygód i miłośnikach intensywnych doznań smakowych. Inspirowana dziką naturą wyspy Skye - od surowych, skalistych brzegów i potężnych sztormów, po słoneczne dni i błękitne niebo - ta whisky oddaje esencję miejsca, z którego pochodzi. Finiszowana w beczkach po amerykańskim bourbonie, Surge łączy słodką głębię z wyrazistym, lekko dymnym charakterem. Wyraźne nuty przypraw i morskich akcentów tworzą bogaty, zbalansowany profil smakowy, typowy dla destylarni Talisker. Z butelkowaną mocą 45,8%, Talisker Surge jest hołdem dla tradycji i klimatu szkockiego wybrzeża. To whisky, która przenosi na wyspę Skye z każdym łykiem - oferując harmonijne połączenie słodyczy, dymu i przypraw, oddające niepowtarzalny duch regionu i morski charakter tej ikonicznej destylarni.</p>",
   "description_short": "<p>Talisker Surge to wyjątkowy single malt stworzony z myślą o poszukiwaczach przygód i miłośnikach intensywnych doznań smakowych. Inspirowana dziką naturą wyspy Skye</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/2208-whisky-talisker-surge",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 268.292683,
   "price_without_reduction": 330,
@@ -301,5 +301,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

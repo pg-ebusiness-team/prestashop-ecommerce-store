@@ -1,0 +1,286 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5014218796575",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "28,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-11-20",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3310,
+  "advanced_stock_management": "0",
+  "date_add": "2026-11-20 22:53:00",
+  "date_upd": "2026-11-24 18:47:55",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "MINIATURKA WHISKY Scallywag Blended Malt 46% 0,05l",
+  "link_rewrite": "miniaturka-whisky-scallywag-blended-malt-46-005l",
+  "name": "MINIATURKA WHISKY Scallywag Blended Malt 46% 0,05l",
+  "description": "<p>Miniaturka Whisky Scallywag Blended Malt 46% 0,05 l</p>\n<p>Scallywag Blended Malt to wyjątkowa szkocka whisky blended malt, stworzona przez niezależnego bottlera Douglas Laing, będącego jednym z cenionych producentów i selekcjonerów whisky w Szkocji. Inspiracją dla nazwy i charakterystycznego wyglądu serii Scallywag jest sprytny, figlarny pies rasy fox terrier, który symbolizuje niezależny i nieco buntowniczy charakter tej kolekcji.</p>\n<p>Whisky powstaje z połączenia starannie wyselekcjonowanych single maltów pochodzących z regionu Speyside. Dojrzewanie w beczkach po sherry nadaje jej bogaty, ciepły i wyraźnie owocowy charakter, z typową dla tej serii słodyczą oraz korzenną głębią.</p>\n<p>W aromacie dominują nuty dojrzałych czerwonych owoców, jabłek, czekolady, wanilii i delikatnych przypraw. W smaku jest pełna i harmonijna, z akcentami suszonych owoców, słodkich przypraw, karmelu oraz czekolady. Finisz jest przyjemnie rozgrzewający, z subtelnymi nutami dębu i owocowej słodyczy.</p>\n<p>Miniaturka Scallywag Blended Malt to doskonała propozycja dla osób chcących poznać charakter whisky Speyside, a także ciekawy pomysł na drobny upominek, dodatek do zestawu prezentowego lub degustację porównawczą.</p>\n<p>Parametry produktu:<br />- Producent: Douglas Laing<br />- Marka: Scallywag<br />- Kraj pochodzenia: Szkocja<br />- Region: Speyside<br />- Rodzaj: Blended Malt Scotch Whisky<br />- Zawartość alkoholu: 46%<br />- Pojemność: 50 ml</p>",
+  "description_short": "<p>Scallywag Blended Malt to wyjątkowa szkocka whisky blended malt, stworzona przez niezależnego bottlera Douglas Laing, będącego jednym z cenionych producentów i selekcjonerów whisky w Szkocji. Inspiracją dla nazwy i charakterystycznego wyglądu serii Scally</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3162,
+  "id_product": 3162,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3310,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3162-miniaturka-whisky-scallywag-blended-malt-46-005l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 22.764228,
+  "price_without_reduction": 28,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Region",
+      "value": "Speyside",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 167
+    },
+    {
+      "name": "Alkohol",
+      "value": "46%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 243
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 32,
+      "id_attribute_group": 5,
+      "name": "0,05 l",
+      "group": "Pojemność",
+      "reference": "5014218796575",
+      "ean13": "5014218796575",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4970,
+      "legend": "MINIATURKA WHISKY Scallywag Blended Malt 46% 0,05l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4970-small_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4970-small_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4970-medium_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4970-medium_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4970,
+    "legend": "MINIATURKA WHISKY Scallywag Blended Malt 46% 0,05l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4970-small_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-small_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4970-medium_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-medium_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4970-cart_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4970-home_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4970-large_default/miniaturka-whisky-scallywag-blended-malt-46-005l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 28,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

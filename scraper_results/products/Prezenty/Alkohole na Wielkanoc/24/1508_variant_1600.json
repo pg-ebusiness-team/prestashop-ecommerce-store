@@ -13,7 +13,7 @@
   "minimal_quantity": 1,
   "low_stock_threshold": 0,
   "low_stock_alert": "0",
-  "price": "50,00 zł",
+  "price": "65,00 zł",
   "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
@@ -58,12 +58,12 @@
   "link": "https://luksusowealkohole.pl/wino/1508-wino-yalumba-y-series-shiraz-viognier",
   "manufacturer_name": null,
   "attribute_price": 0,
-  "price_tax_exc": 40.650407,
-  "price_without_reduction": 50.000001,
+  "price_tax_exc": 52.845528,
+  "price_without_reduction": 64.999999,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 0,
-  "quantity_all_versions": 0,
+  "quantity": 3,
+  "quantity_all_versions": 3,
   "id_image": "pl-default",
   "features": [
     {
@@ -138,8 +138,8 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": false,
-  "quantity_label": "Przedmiot",
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
   "images": [
@@ -296,10 +296,12 @@
   "discount_percentage_absolute": null,
   "discount_amount": null,
   "discount_amount_to_display": null,
-  "price_amount": 50,
+  "price_amount": 65,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Czekamy na dostawę",
+  "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "unavailable"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

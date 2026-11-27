@@ -1,0 +1,293 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "4770047237566",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "56,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-07-19",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2512,
+  "advanced_stock_management": "0",
+  "date_add": "2025-07-19 13:05:00",
+  "date_upd": "2026-01-16 10:41:08",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Stumbras Young Potato",
+  "link_rewrite": "wodka-stumbras-young-potato",
+  "name": "WÓDKA Stumbras Young Potato",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL;'>Stumbras \r\nDistinct Young Potato to wyjątkowa wódka klasy premium, stworzona przez \r\nrenomowaną litewską destylarnię Stumbras, znaną z wieloletniej tradycji w\r\n produkcji wysokogatunkowych alkoholi. Ten konkretny wariant wyróżnia się \r\nunikalnym profilem smakowym, uzyskanym dzięki zastosowaniu młodych ziemniaków\r\n jako surowca bazowego. Ziemniaki wykorzystywane w procesie destylacji pochodzą \r\nz wyselekcjonowanych upraw, gdzie są starannie pielęgnowane i zbierane w \r\nidealnym momencie, aby zapewnić ich świeżość i pełnię aromatu. Cały proces \r\nprodukcji odbywa się pod czujnym okiem doświadczonych specjalistów, którzy dbają \r\no każdy etap powstawania trunku, by zapewnić najwyższą jakość. Wódka ta zachwyca\r\n delikatnym, ale wyrazistym smakiem - czysta i łagodna, z subtelnymi,\r\n ziemniaczanymi nutami, które nadają jej niepowtarzalnego charakteru. Jej aromat\r\n jest wyważony, delikatny, ale jednocześnie intrygujący i pełen głębi. Stumbras\r\n Distinct Young Potato została zamknięta w eleganckiej, przezroczystej butelce z\r\n minimalistyczną etykietą, która podkreśla prestiż i nowoczesny charakter\r\n produktu. Każdy detal wizualny został zaprojektowany z myślą o podkreśleniu \r\nklasy i wyjątkowości tej edycji. Wódka doskonale sprawdzi się zarówno jako \r\nczysty trunek - najlepiej serwowana schłodzona - jak i jako składnik koktajli, \r\nktórym doda wyrafinowanego smaku i niecodziennej głębi. Produkt ten został \r\nstworzony z okazji setnej rocznicy istnienia destylarni, będąc jednocześnie \r\nnowoczesnym hołdem dla tradycji i doświadczenia budowanego przez \r\npokolenia.</SPAN></P>\r\n",
+  "description_short": "<p>Stumbras Distinct Young Potato to wyjątkowa wódka klasy premium, stworzona przez renomowaną litewską destylarnię Stumbras, znaną z wieloletniej tradycji w produkcji wysokogatunkowych alkoholi.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2324,
+  "id_product": 2324,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2512,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2324-wodka-stumbras-young-potato",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 45.528455,
+  "price_without_reduction": 56,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 6,
+  "quantity_all_versions": 6,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Litwa",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 519
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziemniaczana",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 397
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "4770047237566",
+      "ean13": "4770047237566",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3316,
+      "legend": "WÓDKA Stumbras Young Potato",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3316-small_default/wodka-stumbras-young-potato.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3316-small_default/wodka-stumbras-young-potato.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3316-medium_default/wodka-stumbras-young-potato.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3316-medium_default/wodka-stumbras-young-potato.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3316,
+    "legend": "WÓDKA Stumbras Young Potato",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3316-small_default/wodka-stumbras-young-potato.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-small_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3316-medium_default/wodka-stumbras-young-potato.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-medium_default/wodka-stumbras-young-potato.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3316-cart_default/wodka-stumbras-young-potato.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3316-home_default/wodka-stumbras-young-potato.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3316-large_default/wodka-stumbras-young-potato.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 56,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

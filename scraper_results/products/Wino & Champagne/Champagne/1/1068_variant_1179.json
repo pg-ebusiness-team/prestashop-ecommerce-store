@@ -53,7 +53,7 @@
   "quantity_wanted": 1,
   "extraContent": [],
   "allow_oosp": 0,
-  "quantity": 1,
+  "quantity": 0,
   "id_image": "1068-4711",
   "manufacturer_name": null,
   "category": "champagne",
@@ -64,7 +64,7 @@
   "price_without_reduction": 3250,
   "reduction": 0,
   "specific_prices": [],
-  "quantity_all_versions": 1,
+  "quantity_all_versions": 0,
   "features": [
     {
       "name": "Kraj",
@@ -159,7 +159,7 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": true,
+  "show_quantities": false,
   "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
@@ -393,7 +393,9 @@
   "price_amount": 3250,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

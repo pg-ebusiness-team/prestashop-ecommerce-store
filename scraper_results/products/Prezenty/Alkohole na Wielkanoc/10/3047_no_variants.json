@@ -4,17 +4,17 @@
   "id_supplier": 0,
   "reference": "OVERTURE",
   "is_virtual": "0",
-  "delivery_in_stock": null,
-  "delivery_out_stock": null,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
   "id_category_default": 35,
   "on_sale": "0",
   "online_only": "0",
   "ecotax": 0,
   "minimal_quantity": 1,
-  "low_stock_threshold": null,
+  "low_stock_threshold": 0,
   "low_stock_alert": "0",
   "price": "1 390,00 zł",
-  "unity": "szt.",
+  "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
   "additional_shipping_cost": "0.000000",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 0,
   "advanced_stock_management": "0",
   "date_add": "2026-08-25 14:34:23",
-  "date_upd": "2026-08-25 14:34:23",
+  "date_upd": "2026-11-24 19:04:50",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "USA Overture Napa Valley Opus One",
   "link_rewrite": "usa-overture-napa-valley-opus-one",
   "name": "USA Overture Napa Valley Opus One",
-  "description": "Overture Napa Valley Opus One to wyjątkowe wino pochodzące z jednej z \r\nnajbardziej prestiżowych winnic Kalifornii – Opus One Winery, stworzonej jako \r\nwspólny projekt dwóch legend światowego winiarstwa: Roberta Mondaviego i barona \r\nPhilippe’a de Rothschilda.<BR>Overture jest wyrazem filozofii Opus One i stanowi \r\nharmonijną kompozycję szczepów charakterystycznych dla słynnego regionu Napa \r\nValley. Wino zachwyca eleganckim, wielowymiarowym profilem, w którym odnajdziemy \r\ndojrzałe czerwone i czarne owoce, śliwki, cassis oraz subtelne akcenty wanilii i \r\nprzypraw.<BR>Na podniebieniu jest aksamitne, dobrze zbalansowane i niezwykle \r\nharmonijne, z przyjemną owocowością, delikatną strukturą tanin oraz długim, \r\neleganckim finiszem.<BR>Overture to propozycja dla osób, które cenią \r\nkalifornijskie winiarstwo na najwyższym poziomie, a jednocześnie poszukują wina \r\no wyjątkowej historii i prestiżowym pochodzeniu. Doskonale sprawdzi się jako \r\nluksusowy prezent, wyjątkowy trunek na specjalną okazję lub elegancki element \r\nkolekcji konesera win.\r\n",
+  "description": "<p>Overture Napa Valley Opus One to wyjątkowe wino pochodzące z jednej z najbardziej prestiżowych winnic Kalifornii – Opus One Winery, stworzonej jako wspólny projekt dwóch legend światowego winiarstwa: Roberta Mondaviego i barona Philippe’a de Rothschilda.<br />Overture jest wyrazem filozofii Opus One i stanowi harmonijną kompozycję szczepów charakterystycznych dla słynnego regionu Napa Valley. Wino zachwyca eleganckim, wielowymiarowym profilem, w którym odnajdziemy dojrzałe czerwone i czarne owoce, śliwki, cassis oraz subtelne akcenty wanilii i przypraw.<br />Na podniebieniu jest aksamitne, dobrze zbalansowane i niezwykle harmonijne, z przyjemną owocowością, delikatną strukturą tanin oraz długim, eleganckim finiszem.<br />Overture to propozycja dla osób, które cenią kalifornijskie winiarstwo na najwyższym poziomie, a jednocześnie poszukują wina o wyjątkowej historii i prestiżowym pochodzeniu. Doskonale sprawdzi się jako luksusowy prezent, wyjątkowy trunek na specjalną okazję lub elegancki element kolekcji konesera win.</p>",
   "description_short": "<p>Overture Napa Valley Opus One to wyjątkowe wino pochodzące z jednej z najbardziej prestiżowych winnic Kalifornii – Opus One Winery, stworzonej jako wspólny projekt dwóch legend światowego winiarstwa: Roberta Mondaviego i barona Philippe’a de Rothschilda.</p>",
   "available_now": "",
   "available_later": "",
@@ -113,8 +113,154 @@
   "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
-  "images": [],
-  "cover": false,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4979,
+      "legend": "USA Overture Napa Valley Opus One",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4979-small_default/usa-overture-napa-valley-opus-one.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4979-small_default/usa-overture-napa-valley-opus-one.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4979-medium_default/usa-overture-napa-valley-opus-one.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4979-medium_default/usa-overture-napa-valley-opus-one.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4979,
+    "legend": "USA Overture Napa Valley Opus One",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4979-small_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-small_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4979-medium_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-medium_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4979-cart_default/usa-overture-napa-valley-opus-one.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4979-home_default/usa-overture-napa-valley-opus-one.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4979-large_default/usa-overture-napa-valley-opus-one.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
   "has_discount": false,
   "discount_type": null,
   "discount_percentage": null,
@@ -126,5 +272,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }
