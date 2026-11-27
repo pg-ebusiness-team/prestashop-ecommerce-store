@@ -186,7 +186,9 @@ test.describe('Scenariusz zamówienia', () => {
     const krokPlatnosc = page.locator('#checkout-payment-step');
 
     await test.step('Krok 5: złożenie zamówienia na zawartość koszyka', async () => {
-      await page.locator('#_desktop_cart a').click();
+      // klik w koszyk w nagłówku rozwija podgląd, dopiero z niego przechodzimy do koszyka
+      await page.locator('#_desktop_cart .cart-toggle').click();
+      await page.locator('#cart-dropdown').getByRole('link', { name: 'Przejdź do koszyka' }).click();
       await expect(page).toHaveURL(/koszyk/);
       await page.getByRole('link', { name: /Przejdź do realizacji zamówienia/i }).click();
       await expect(page).toHaveURL(/zamowienie/);

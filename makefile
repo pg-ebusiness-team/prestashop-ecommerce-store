@@ -10,7 +10,7 @@ IMPORT_ARGS ?= --execute
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init api-check theme  test-e2e
-.PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import
+.PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import purifier-dir
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -107,13 +107,18 @@ categories:
 	if [ -n "$$out" ]; then echo "$$out"; exit 1; fi
 	@echo "categories: gotowe"
 # Import danych do PrestaShop
-import-categories:
+# API czyści opisy HTML przez HTMLPurifier, który zapisuje cache w var/cache/prod/purifier. PrestaShop nie tworzy
+# tego katalogu (po instalacji i po cache:clear go nie ma), a brak kończy każdy zapis opisu błędem HTTP 500.
+purifier-dir:
+	@$(COMPOSE) exec -T -u www-data shop mkdir -p var/cache/prod/purifier
+
+import-categories: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --categories-only
 
-import-products:
+import-products: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --products-only
 
-import:
+import: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS)
 
 # Testy E2E: instalacja zależności i Chromium, potem testy na adresie SHOP_URL
