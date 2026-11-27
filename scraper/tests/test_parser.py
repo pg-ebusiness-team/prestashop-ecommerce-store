@@ -2,6 +2,7 @@
 from pathlib import Path
 
 import pytest
+from models import Product
 from parser import (
     parse_main_categories,
     parse_page_count,
@@ -155,3 +156,13 @@ def test_parse_product_images(product_ajax):
 def test_parse_product_ajax_without_product_data():
     with pytest.raises(ValueError):
         parse_product_ajax('{"product_details": "<div></div>"}')
+
+
+def test_product_schema(product_ajax):
+    Product.model_validate(product_ajax)
+
+
+def test_product_schema_rejects_missing_name(product_ajax):
+    del product_ajax["name"]
+    with pytest.raises(ValueError, match="name"):
+        Product.model_validate(product_ajax)
