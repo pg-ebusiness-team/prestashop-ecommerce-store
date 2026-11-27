@@ -135,7 +135,8 @@ test.describe('Scenariusz zamówienia', () => {
       }
 
       pozycjeWKoszyku = liczbaPozycji - 3;
-      kwotaProduktow = (await page.locator('#cart-subtotal-products .value').innerText()).trim();
+      // textContent, bo innerText zwraca tekst po CSS text-transform („ZŁ” w koszyku, „zł” w podsumowaniu zamówienia)
+      kwotaProduktow = ((await page.locator('#cart-subtotal-products .value').textContent()) ?? '').trim();
     });
 
     await test.step('Krok 4: rejestracja nowego konta', async () => {
@@ -161,6 +162,41 @@ test.describe('Scenariusz zamówienia', () => {
       await expect(naglowek.getByRole('link', { name: /Wyloguj/i })).toBeVisible();
       // koszyk gościa przechodzi na nowe konto - bez tego krok 5 nie miałby czego zamówić
       await expect(licznik).toHaveText(new RegExp(`\\b${sztuki}\\b`));
+    });
+
+    // kroki zamówienia na /zamowienie; aktywny ma klasę -current, zaliczony -complete
+    const krokDane = page.locator('#checkout-personal-information-step');
+    const krokAdres = page.locator('#checkout-addresses-step');
+    const krokDostawa = page.locator('#checkout-delivery-step');
+    const krokPlatnosc = page.locator('#checkout-payment-step');
+
+    await test.step('Krok 5: złożenie zamówienia na zawartość koszyka', async () => {
+      await page.locator('#_desktop_cart a').click();
+      await expect(page).toHaveURL(/koszyk/);
+      await page.getByRole('link', { name: /Przejdź do realizacji zamówienia/i }).click();
+      await expect(page).toHaveURL(/zamowienie/);
+
+      // zamówienie obejmuje dokładnie koszyk z kroków 1-3: te same pozycje, sztuki i kwota produktów
+      const podsumowanie = page.locator('#js-checkout-summary');
+      await expect(podsumowanie.locator('#cart-summary-product-list .media')).toHaveCount(pozycjeWKoszyku);
+      await expect(podsumowanie.locator('.cart-summary-products')).toContainText(new RegExp(`\\b${sztuki} szt`));
+      await expect(podsumowanie.locator('#cart-subtotal-products .value')).toHaveText(kwotaProduktow);
+
+      // klient zalogowany w kroku 4, więc dane osobowe są już zaliczone, a sklep pyta o adres
+      await expect(krokDane).toHaveClass(/-complete/);
+      await expect(krokAdres).toHaveClass(/-current/);
+
+      // imię i nazwisko sklep uzupełnia z konta; kraj Polska jest jedynym aktywnym
+      await krokAdres.locator('[name=address1]').fill('ul. Długa 12');
+      await krokAdres.locator('[name=postcode]').fill('80-831');
+      await krokAdres.locator('[name=city]').fill('Gdańsk');
+      await krokAdres.getByRole('button', { name: /Dalej/i }).click();
+
+      await expect(krokAdres).toHaveClass(/-complete/);
+      await expect(krokDostawa).toHaveClass(/-current/);
+      await expect(krokAdres).toContainText('ul. Długa 12'); // zapisany adres widoczny w zwiniętym kroku
+      // Classic zawsze ma w HTML ukryty komunikat „adres niekompletny” - sklep pokazuje go, gdy adres odrzuci
+      await expect(krokAdres.locator('.js-address-error')).toBeHidden();
     });
   });
 });
