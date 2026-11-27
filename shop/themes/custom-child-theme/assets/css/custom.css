@@ -1609,24 +1609,7 @@ body#checkout section.checkout-step .address-item.selected,
   display: none;
 }
 
-#product .product-quantity #quantity_wanted {
-  width: 3.5rem;
-  height: 4rem;
-  font-size: 1.125rem;
-  color: var(--color-graphite);
-  border-color: var(--color-graphite);
-}
-
-/* Classic: pole i strzałki to floaty - na wąskim ekranie strzałki spadały pod pole */
-#product .product-quantity .bootstrap-touchspin {
-  display: flex;
-  height: 4rem;
-}
-
-#product .product-quantity .bootstrap-touchspin .btn-touchspin {
-  height: 2rem;
-  border-color: var(--color-graphite);
-}
+/* Pole ilości ze strzałkami: wspólne z koszykiem, niżej przy „Koszyk” */
 
 #product .product-quantity .add-to-cart .material-icons {
   line-height: 1;
@@ -1776,22 +1759,53 @@ body#checkout section.checkout-step .address-item.selected,
   color: var(--color-graphite);
 }
 
+/* Ilość na produkcie i w koszyku jak w źródle: pole 51 px + strzałki 32 px, jasnoszare ramki.
+   Źródło ma #a0a0a0 (2.6:1), tu #949494, bo ramka i strzałki kontrolki potrzebują 3:1 (WCAG 1.4.11).
+   Classic: pole i strzałki to floaty - flex trzyma je w rzędzie, na wąskim ekranie strzałki nie spadają pod pole. */
+#product .product-quantity .bootstrap-touchspin,
 #cart .cart-item .bootstrap-touchspin {
   display: flex;
+  width: auto;
   height: 4rem;
 }
 
+#product .product-quantity #quantity_wanted,
 #cart .cart-item .js-cart-line-product-quantity {
-  width: 3.25rem;
-  height: 4rem;
+  width: 3.2rem;
+  height: 100%;
   font-size: 1rem;
   color: var(--color-graphite);
-  border-color: var(--color-graphite);
+  border-color: #949494;
 }
 
-#cart .cart-item .bootstrap-touchspin .btn-touchspin {
-  height: 2rem;
-  border-color: var(--color-graphite);
+#product .product-quantity .input-group-btn-vertical,
+#cart .cart-item .input-group-btn-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Classic: dolna strzałka ma margin-top -2px (wspólna linia), więc każda musi mieć połowę + 1px,
+   inaczej kolumna strzałek kończy się 2px nad dołem pola */
+#product .product-quantity .btn-touchspin,
+#cart .cart-item .btn-touchspin {
+  width: 2rem;
+  height: calc(50% + 1px);
+  padding: 0;
+  background: #fff;
+  border-color: #949494;
+}
+
+#product .product-quantity .btn-touchspin i,
+#cart .cart-item .btn-touchspin i {
+  top: 50%;
+  left: 50%;
+  color: #949494;
+  transform: translate(-50%, -50%);
+}
+
+#product .product-quantity .btn-touchspin:hover i,
+#cart .cart-item .btn-touchspin:hover i {
+  color: var(--color-graphite);
 }
 
 #cart .cart-item .remove-from-cart {
