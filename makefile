@@ -11,7 +11,7 @@ TOOLS = $(COMPOSE) run --rm --no-deps --build --user $(shell id -u):$(shell id -
 PYTHON = $(TOOLS) python
 IMPORT_ARGS ?= --execute
 # Archiwum zdjęć produktów w Releases (deploy/init/photos.sh); można nadpisać w .env
-PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-store/releases/download/photos_v0.1/product_photos.zip
+PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-store/releases/download/photos_v1.0/product_photos.zip
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
