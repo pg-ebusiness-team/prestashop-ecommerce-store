@@ -74,7 +74,7 @@ Importer:
 - Wybiera wszystkie poprawne produkty, czyli takie, które mają zdjęcie na dysku i niepusty opis (pusty HTML też odpada). `--limit N` ogranicza import do N produktów (np. `--limit 1100`). Selektor zawsze zapewnia co najmniej 1 produkt w każdej niepustej podkategorii i co najmniej 50 produktów z ≥2 zdjęciami. Gdy danych lub zdjęć jest za mało, kończy się błędem.
 - Przypisuje produkt do wszystkich kategorii, w których występuje w źródle. Kategorią domyślną (okruszki, adres URL) jest pierwsza z nich.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
-- Tworzy grupy atrybutów, wartości i kombinacje wariantów.
+- Tworzy grupy atrybutów, wartości i kombinacje wariantów. Wariant dostaje dopłatę do ceny: różnicę ceny netto względem pierwszego wariantu produktu.
 - Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
 - Ustawia stany magazynowe produktów i ich kombinacji w zakresie 0–10 sztuk. Udział produktów ze stanem 0 jest utrzymywany w zakresie 5–20%.
 - Tworzy cechy produktów (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) i ich wartości, a następnie przypisuje je produktom — sklep pokazuje je w sekcji „Szczegóły” karty produktu. Cechy i wartości są rozpoznawane po nazwie (bez pliku mapowania), kolejność cech odpowiada źródłu.
