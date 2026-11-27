@@ -29,12 +29,10 @@
           {include file='checkout/_partials/cart-detailed-actions.tpl' cart=$cart}
         </div>
 
-        {if $cart.vouchers.allowed}
-          <div class="card cart-box cart-voucher-box">
-            <h2 class="cart-box-title">Kod rabatowy</h2>
-            {include file='checkout/_partials/cart-voucher.tpl'}
-          </div>
-        {/if}
+        <div class="card cart-box cart-voucher-box">
+          <h2 class="cart-box-title">Kod rabatowy</h2>
+          {include file='checkout/_partials/cart-voucher.tpl'}
+        </div>
 
         {hook h='displayReassurance'}
       </div>

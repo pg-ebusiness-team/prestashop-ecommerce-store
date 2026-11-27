@@ -172,3 +172,20 @@
     e.stopPropagation(); // core.js (koszyk, szybki podgląd) słucha na body, a ukryty przycisk też łapie tapnięcie
   }, true); // capture: przed handlerami Classic
 })();
+
+/*
+ * Kod rabatowy (checkout/_partials/cart-voucher.tpl): sklep nie ma bonów, więc każdy kod kończy się komunikatem
+ * „Taki bon rabatowy nie istnieje.” bez wysyłki do serwera.
+ * shortcut: odpowiedź na sztywno; po dodaniu reguł koszyka w panelu usunąć ten blok i przywrócić {if} w szablonach.
+ */
+(function () {
+  document.addEventListener('submit', function (e) {
+    var form = e.target.closest('[data-link-action="add-voucher"]');
+    if (!form) return;
+    e.preventDefault();
+    e.stopPropagation(); // capture: core.js nie wyśle AJAX-a (przy wyłączonych bonach i tak nic by nie odpowiedział)
+    var error = form.parentNode.querySelector('.js-error');
+    error.querySelector('.js-error-text').textContent = 'Taki bon rabatowy nie istnieje.';
+    error.style.display = 'block'; // Classic chowa .alert w .promo-code przez display: none
+  }, true);
+})();
