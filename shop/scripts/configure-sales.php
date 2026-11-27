@@ -84,6 +84,16 @@ function ensureModuleUninstalled(string $name): void
     info("odinstalowano $name");
 }
 
+// Lista życzeń: nie ma jej w wymaganiach ani w sklepie źródłowym, a jej modal logowania renderuje atrybut Vue
+// :href="prestashop.urls.pages.authentication", który crawler czyta jako link względny i dostaje 404.
+function wishlist(): void
+{
+    if (Module::isEnabled('blockwishlist')) {
+        loadModule('blockwishlist')->disable() || fail('nie udalo sie wylaczyc blockwishlist');
+        info('wylaczono blockwishlist');
+    }
+}
+
 function payments(): void
 {
     foreach (PAYMENT_MODULES_ENABLED as $name) {
@@ -398,6 +408,7 @@ try {
     payments();
     carriers();
     limits();
+    wishlist();
 } catch (Throwable $e) {
     info('BLAD: ' . $e->getMessage());
     exit(1);

@@ -509,5 +509,8 @@ def group_products(products):
 
     for product in grouped_products:
         assign_product_weights(product)
+        # PrestaShop trzyma cenę wariantu jako różnicę netto względem ceny produktu
+        for combination in product["combinations"]:
+            combination["price_delta"] = round(combination["price_net"] - product["price_net"], 6)
 
     return grouped_products

@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 
 import requests
-from models import Category, CategoryWithSubcategories
+from models import Category, CategoryWithSubcategories, Product
 from parser import (
     parse_main_categories,
     parse_page_count,
@@ -349,6 +349,9 @@ class Scraper:
                             log.info(f"Fetching {p_id} {product_url}")
                             # returns an array, even if product has no sub-variations
                             product_details = self.get_product_details(product_url, p_id)
+                            # validate all variants before saving any; ValidationError is logged by the except below
+                            for p in product_details:
+                                Product.model_validate(p)
                             for p in product_details:
                                 p_name = json_name(p)
                                 save_json(page_path, p_name, p)

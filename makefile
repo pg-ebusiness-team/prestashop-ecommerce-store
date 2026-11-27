@@ -16,7 +16,7 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
-.PHONY: facets categories import-categories import-products import photos
+.PHONY: facets categories import-categories import-products import photos purifier-dir
 
 help:
 	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
@@ -158,13 +158,18 @@ photos:
 	$(TOOLS) sh deploy/init/photos.sh "$(PHOTOS_RELEASE_URL)"
 
 # Import danych do PrestaShop
-import-categories:
+# API czyści opisy HTML przez HTMLPurifier, który zapisuje cache w var/cache/prod/purifier. PrestaShop nie tworzy
+# tego katalogu (po instalacji i po cache:clear go nie ma), a brak kończy każdy zapis opisu błędem HTTP 500.
+purifier-dir:
+	@$(COMPOSE) exec -T -u www-data shop mkdir -p var/cache/prod/purifier
+
+import-categories: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --categories-only
 
-import-products:
+import-products: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --products-only
 
-import:
+import: purifier-dir
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS)
 
 # Testy E2E: instalacja zależności i Chromium, potem testy na adresie SHOP_URL

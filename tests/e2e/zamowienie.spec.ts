@@ -1,9 +1,10 @@
+import { readFile } from 'node:fs/promises';
 import { test, expect } from '@playwright/test';
 
 // Scenariusz W4 z docs/WYMAGANIA.md: kroki idą po kolei w jednej sesji przeglądarki, bo zamówienie składamy
 // na koszyk z kroków 1-3, a kroki 9-10 sprawdzają zamówienie z kroku 8.
 test.describe('Scenariusz zamówienia', () => {
-  test('koszyk, rejestracja, zamówienie z płatnością przy odbiorze', async ({ page }) => {
+  test('koszyk, rejestracja, zamówienie z płatnością przy odbiorze, status i faktura', async ({ page }) => {
     test.setTimeout(300_000); // W4: cały scenariusz ma się zmieścić w 5 min
     // Bez tych wpisów baner cookies i okno 18+ zasłaniają stronę (docs/adr/0002-baner-cookies.md)
     await page.addInitScript(() => {
@@ -185,7 +186,9 @@ test.describe('Scenariusz zamówienia', () => {
     const krokPlatnosc = page.locator('#checkout-payment-step');
 
     await test.step('Krok 5: złożenie zamówienia na zawartość koszyka', async () => {
-      await page.locator('#_desktop_cart a').click();
+      // klik w koszyk w nagłówku rozwija podgląd, dopiero z niego przechodzimy do koszyka
+      await page.locator('#_desktop_cart .cart-toggle').click();
+      await page.locator('#cart-dropdown').getByRole('link', { name: 'Przejdź do koszyka' }).click();
       await expect(page).toHaveURL(/koszyk/);
       await page.getByRole('link', { name: /Przejdź do realizacji zamówienia/i }).click();
       await expect(page).toHaveURL(/zamowienie/);
@@ -283,6 +286,31 @@ test.describe('Scenariusz zamówienia', () => {
       await expect(page.locator('#order-items .order-line')).toHaveCount(pozycjeWKoszyku);
       // po złożeniu zamówienia sklep zakłada klientowi nowy, pusty koszyk
       await expect(licznik).toHaveText(/\b0\b/);
+    });
+
+    // wiersz zamówienia z kroku 8 w tabeli historii; ta sama lista jest też w ukrytym układzie mobilnym (.orders)
+    const wierszZamowienia = page.locator('#content table tbody tr').filter({ hasText: numerZamowienia });
+
+    await test.step('Krok 9: status zamówienia w historii zamówień', async () => {
+      await page.locator('#_desktop_user_info a.account').click();
+      await page.locator('#history-link').click();
+      await expect(page).toHaveURL(/historia-zamowien|order-history/);
+
+      await expect(wierszZamowienia).toHaveCount(1);
+      // stan początkowy zamówienia za pobraniem (PS_OS_COD_VALIDATION)
+      await expect(wierszZamowienia.locator('.label-pill')).toHaveText(/Oczekiwanie na płatność przy odbiorze/);
+    });
+
+    await test.step('Krok 10: pobranie faktury VAT', async () => {
+      // link jest tylko wtedy, gdy stan zamówienia ma flagę faktury (shop/scripts/configure-sales.php)
+      const pobieranie = page.waitForEvent('download');
+      await wierszZamowienia.locator('a[href*="pdf-invoice"]').click();
+      const faktura = await pobieranie;
+
+      expect(faktura.suggestedFilename()).toMatch(/\.pdf$/i);
+      // każdy plik PDF zaczyna się od „%PDF-”; strona błędu zapisana jako .pdf by tego nie przeszła
+      const plik = await readFile(await faktura.path());
+      expect(plik.subarray(0, 5).toString()).toBe('%PDF-');
     });
   });
 });

@@ -189,3 +189,26 @@
     error.style.display = 'block'; // Classic chowa .alert w .promo-code przez display: none
   }, true);
 })();
+
+/*
+ * Podgląd koszyka w nagłówku (modules/ps_shoppingcart/ps_shoppingcart.tpl): klik w koszyk rozwija/zwija listę,
+ * klik poza nią lub Esc zamyka. Nasłuch na document, bo ps_shoppingcart.js po zmianie koszyka podmienia .blockcart.
+ */
+(function () {
+  function toggle(btn, open) {
+    btn.setAttribute('aria-expanded', open);
+    document.getElementById('cart-dropdown').hidden = !open;
+  }
+  document.addEventListener('click', function (e) {
+    var btn = document.querySelector('.blockcart .cart-toggle');
+    if (!btn) return;
+    if (e.target.closest('.cart-toggle')) toggle(btn, btn.getAttribute('aria-expanded') !== 'true');
+    else if (!e.target.closest('#cart-dropdown')) toggle(btn, false);
+  });
+  document.addEventListener('keydown', function (e) {
+    var btn = document.querySelector('.blockcart .cart-toggle[aria-expanded="true"]');
+    if (e.key !== 'Escape' || !btn) return;
+    toggle(btn, false);
+    btn.focus();
+  });
+})();

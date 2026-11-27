@@ -101,7 +101,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [x] Respektowanie `robots.txt`
 - [x] Identyfikacja nagłówkiem User-Agent
 - [x] Możliwość przerwania i wznowienia bez ponownego pobierania zapisanych danych
-- [ ] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu — *stan: brak schematu w scraperze*
+- [x] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu
 - [ ] 0 produktów bez nazwy, ceny, opisu lub zdjęć — *stan: 63 bez pełnego opisu, 34 bez zdjęć*
 - [x] Testy jednostkowe parsowania na zapisanych lokalnie stronach HTML
 - Dane wyłącznie do celów dydaktycznych — sklep nie może być publicznie dostępny w internecie
