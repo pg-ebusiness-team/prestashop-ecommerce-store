@@ -37,6 +37,17 @@ test.describe('Scenariusz zamówienia', () => {
       return true;
     }
 
+    // Kopia listy w losowej kolejności (Fisher-Yates). Każde uruchomienie składa zamówienie i zmniejsza stany,
+    // więc branie zawsze tych samych pierwszych produktów po kilku uruchomieniach wyczerpałoby ich stany.
+    function wymieszaj<T>(lista: T[]): T[] {
+      const wynik = [...lista];
+      for (let i = wynik.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [wynik[i], wynik[j]] = [wynik[j], wynik[i]];
+      }
+      return wynik;
+    }
+
     let szukanaFraza = '';
     // stan koszyka po kroku 3 - krok 5 sprawdza, że zamówienie dotyczy tej samej zawartości
     let pozycjeWKoszyku = 0;
@@ -67,13 +78,13 @@ test.describe('Scenariusz zamówienia', () => {
 
       const dodane = new Set<string>();
       let uzyteKategorie = 0;
-      for (const kategoria of kategorie) {
+      for (const kategoria of wymieszaj(kategorie)) {
         if (dodane.size === 10) break;
         await page.goto(kategoria);
         const produkty = await miniatury.evaluateAll((linki) => linki.map((a) => (a as HTMLAnchorElement).href));
 
         let zKategorii = 0;
-        for (const produkt of produkty) {
+        for (const produkt of wymieszaj(produkty)) {
           // najwyżej 5 z jednej kategorii, żeby na pewno były co najmniej 2 kategorie
           if (dodane.size === 10 || zKategorii === 5) break;
           if (dodane.has(produkt)) continue;
@@ -124,7 +135,8 @@ test.describe('Scenariusz zamówienia', () => {
       expect(liczbaPozycji).toBeGreaterThanOrEqual(10);
 
       for (let usuniete = 1; usuniete <= 3; usuniete++) {
-        const sumaPrzed = await suma.innerText();
+        // textContent jak w toHaveText niżej; innerText dawał „ZŁ” zamiast „zł” i asercja zmiany zawsze przechodziła
+        const sumaPrzed = (await suma.textContent()) ?? '';
         const pierwsza = pozycje.first();
         sztuki -= Number(await pierwsza.locator('.js-cart-line-product-quantity').inputValue());
         await pierwsza.locator('.remove-from-cart').click();
