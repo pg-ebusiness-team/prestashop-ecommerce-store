@@ -26,6 +26,14 @@ services:
       # (make down/up, make up po zmianie obrazu) nie ma parameters.php i docker_run.sh instaluje sklep od nowa
       # na istniejącej bazie. Motyw z obrazu kopiuje do wolumenu shop/init-scripts/00-sync-theme.sh.
       - shop_data:/var/www/html
+    healthcheck:
+      # docker_run.sh uruchamia Apache dopiero po instalacji i init-scriptach, więc odpowiedź = sklep gotowy.
+      # Po HTTP sklep przekierowuje na HTTPS (302) - curl -f traktuje to jako sukces, a 5xx jako błąd.
+      test: ["CMD", "curl", "-fsS", "-o", "/dev/null", "http://localhost/"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 15m # pierwsza instalacja trwa kilka minut; nieudane próby w tym czasie się nie liczą
 
   proxy:
     build: ./nginx

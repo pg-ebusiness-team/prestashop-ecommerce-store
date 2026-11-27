@@ -18,7 +18,7 @@ SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 .PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import photos
 
 help:
-	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
+	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
 	@echo "make down    - zatrzymaj i usun kontenery (dane zostaja)"
 	@echo "make reset   - usun kontenery ORAZ dane (sklep od zera)"
 	@echo "make logs    - logi sklepu na zywo (domyslnie wszystkie, make logs SERVICE=[np. proxy], aby wybrać konkretne)"
@@ -37,8 +37,18 @@ help:
 	@echo "make photos            - pobierz zdjecia produktow z Releases (brakujace - z URL-i sklepu zrodlowego)"
 
 
-up:
-	$(COMPOSE) up -d --build
+# Pierwsze uruchomienie z czystego klona: .env z .env.example z wygenerowanym kluczem Webservice API
+# (32 znaki A-Z0-9). Istniejący .env nie jest ruszany. Przez -include .env na górze make tworzy go
+# przy dowolnym poleceniu, a potem wczytuje.
+.env:
+	@key=$$(od -An -N16 -tx1 /dev/urandom | tr -d ' \n' | tr a-f A-F); \
+	  awk -v key="$$key" '/^PS_API_KEY=/ { print "PS_API_KEY=" key; next } { print }' .env.example > .env
+	@echo "Utworzono .env z .env.example (wygenerowany PS_API_KEY). Hasla przykladowe - do zmiany poza lokalnym uzyciem."
+
+# --wait: polecenie kończy się dopiero, gdy sklep jest zainstalowany (healthcheck usługi shop), więc zaraz
+# po nim można uruchomić make init. Błąd instalacji lub konfiguracji sprzedaży kończy je kodem != 0.
+up: .env
+	$(COMPOSE) up -d --build --wait --wait-timeout 900
 
 down:
 	$(COMPOSE) down
