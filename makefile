@@ -9,7 +9,7 @@ IMPORT_ARGS ?= --execute
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check theme omnibus-install test-e2e import-categories import-products import
+.PHONY: help up down reset logs ps shell build init api-check theme omnibus-install test-e2e facets categories import-categories import-products import
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -23,6 +23,8 @@ help:
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
 	@echo "make omnibus-install - zainstaluj modul Omnibusprice"
+	@echo "make facets  - ustaw filtry w lewej kolumnie list produktow i przebuduj ich indeks (po imporcie danych)"
+	@echo "make categories - wgraj opisy kategorii z shop/categories/ (po imporcie danych)"
 	@echo "make test-e2e - uruchom testy E2E Playwright (raport: tests/playwright-report)"
 	@echo "make import-categories - importuj kategorie"
 	@echo "make import-products   - importuj atrybuty, produkty i warianty"
@@ -37,6 +39,7 @@ down:
 
 reset:
 	$(COMPOSE) down -v
+	rm -f scraper/importer/*_mapping.json
 
 logs:
 	$(COMPOSE) logs -f $(SERVICE)
@@ -74,14 +77,14 @@ theme:
 	  'mkdir -p img/cms/home && while read name url; do curl -fsS -o "img/cms/home/$$name" "$$url" || { echo "Nie udalo sie pobrac $$name"; exit 1; }; done'
 	@$(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"' < deploy/init/theme.sql
 	@# Strony CMS (treść w shop/cms/, metadane w deploy/init/cms.sql):
-	@# 1. Sprawdzamy, czy jest plik dla każdej strony 1-5. Bez tego brakująca strona dostałaby pustą treść (NULL).
+	@# 1. Sprawdzamy, czy jest plik dla każdej strony 1-6. Bez tego brakująca strona dostałaby pustą treść (NULL).
 	@#    Sprawdzenie jest osobno, bo błąd wewnątrz potoku (|) niżej nie zatrzymałby make.
 	@# 2. Dla każdego pliku wypisujemy linię SQL: SET @cms_<id> = FROM_BASE64('<treść pliku w base64>');
 	@#    <id> to numer z początku nazwy pliku (= id_cms w PrestaShop). Base64 zawiera tylko A-Z, a-z, 0-9, +, / i =,
 	@#    więc apostrofy, cudzysłowy i backslashe z HTML nie psują zapytania i nie trzeba ich escapować.
 	@# 3. Za tymi liniami doklejamy cms.sql, który wpisuje @cms_<id> do ps_cms_lang. Całość idzie jednym połączeniem
 	@#    do mysql, bo zmienne @ żyją tylko w obrębie jednej sesji.
-	@for id in 1 2 3 4 5; do ls shop/cms/$$id-*.html >/dev/null 2>&1 || { echo "Brak pliku shop/cms/$$id-*.html"; exit 1; }; done
+	@for id in 1 2 3 4 5 6; do ls shop/cms/$$id-*.html >/dev/null 2>&1 || { echo "Brak pliku shop/cms/$$id-*.html"; exit 1; }; done
 	@{ for f in shop/cms/*.html; do id=$$(basename "$$f"); id=$${id%%-*}; \
 	    printf "SET @cms_%s = FROM_BASE64('%s');\n" "$$id" "$$(base64 < "$$f" | tr -d '\n')"; done; \
 	  cat deploy/init/cms.sql; } \
@@ -93,6 +96,21 @@ theme:
 omnibus-install:
 	$(COMPOSE) exec -T -u www-data shop php bin/console prestashop:module install omnibusprice
 
+# Filtry (ps_facetedsearch) po imporcie - dopasowuje kategorie i cechy po nazwie, więc bez importu zgłosi braki.
+# Skrypt idzie przez stdin, więc nie trzeba przebudowywać obrazu; -u www-data jak przy theme (pliki cache).
+facets:
+	$(COMPOSE) exec -T -u www-data shop php < deploy/init/facets.php
+
+# Opisy kategorii po imporcie - jak strony CMS w theme: każdy plik shop/categories/<plik>.html idzie jako
+# SET @`cat_<plik>` = FROM_BASE64('...'), a categories.sql wpisuje je do kategorii o nazwach z listy.
+# Raport braków z categories.sql (linie „categories: BLAD”) zatrzymuje make.
+categories:
+	@out=$$({ for f in shop/categories/*.html; do name=$$(basename "$$f" .html); \
+	    printf "SET @\`cat_%s\` = FROM_BASE64('%s');\n" "$$name" "$$(base64 < "$$f" | tr -d '\n')"; done; \
+	  cat deploy/init/categories.sql; } \
+	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -N -u"$$MYSQL_USER" "$$MYSQL_DATABASE"') || exit 1; \
+	if [ -n "$$out" ]; then echo "$$out"; exit 1; fi
+	@echo "categories: gotowe"
 # Import danych do PrestaShop
 import-categories:
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --categories-only

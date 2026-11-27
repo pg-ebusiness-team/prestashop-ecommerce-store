@@ -22,6 +22,7 @@ import sys
 import time
 import traceback
 from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
@@ -372,14 +373,14 @@ def import_all_attributes(
 
 
 def resolve_category_id(
-    product: dict,
+    source_file_name: str,
     category_name_map: dict[str, int],
     products_dir: Path
 ) -> int | None:
     """Dopasowuje kategorię po nazwie katalogu, a nie po slugu URL."""
     from scraper.importer.categories import generate_link_rewrite
 
-    source_file = Path(product.get("source_file", ""))
+    source_file = Path(source_file_name)
 
     try:
         relative = source_file.relative_to(products_dir)
@@ -478,9 +479,18 @@ def main() -> int:
     )
     parser.add_argument("--products-dir", default=None, help="Katalog źródłowych JSON-ów.")
     parser.add_argument("--tax-rules-group-id", type=int, default=None)
+    parser.add_argument(
+        "--limit", type=int, default=None,
+        help="Maksymalna liczba produktów (domyślnie wszystkie poprawne)."
+    )
+    parser.add_argument(
+        "--workers", type=int, default=None,
+        help="Liczba wątków importu produktów (domyślnie PS_IMPORT_WORKERS lub 8)."
+    )
     args = parser.parse_args()
 
     load_env_file()
+    workers = max(1, args.workers or int(os.getenv("PS_IMPORT_WORKERS", "8")))
     dry_run = not args.execute
     products_dir = resolve_products_dir(args.products_dir)
 
@@ -497,6 +507,11 @@ def main() -> int:
         return 2
 
     from scraper.importer.api_client import PrestaShopAPI
+    from scraper.importer.features import (
+        count_features_dry_run,
+        import_features,
+        product_feature_ids,
+    )
     from scraper.importer.products import (
         group_products,
         import_product,
@@ -509,7 +524,8 @@ def main() -> int:
 
     selected_products, selected_categories = run_selection(
         source_dir=products_dir,
-        photos_dir=PHOTOS_DIR
+        photos_dir=PHOTOS_DIR,
+        target=args.limit
     )
 
     if args.categories_only:
@@ -574,7 +590,7 @@ def main() -> int:
         print(f"BŁĄD KONFIGURACJI VAT: {exc}", file=sys.stderr)
         return 2
 
-    api = PrestaShopAPI(shop_url, api_key) if not dry_run else None
+    api = PrestaShopAPI(shop_url, api_key, pool_size=workers) if not dry_run else None
 
     # Kategorie importujemy tylko wtedy, gdy nie wybrano trybu products-only.
     if args.products_only:
@@ -602,106 +618,84 @@ def main() -> int:
 
     grouped = group_products(normalized)
 
+    # Cechy (zakładka „Szczegóły”) po nazwie, przed produktami - produkt dostaje je w tym samym zapytaniu
+    resolved_features: dict | None = None
+    if dry_run:
+        feature_counts = Counter(count_features_dry_run(grouped))
+    else:
+        try:
+            counts, resolved_features = import_features(api, grouped)
+            feature_counts = Counter(counts)
+        except Exception as exc:  # noqa: BLE001
+            # Bez cech import produktów idzie dalej, a ich obecne cechy w sklepie zostają nietknięte
+            feature_counts = Counter({"rejected": 1})
+            print(f"[CECHY] Pominięto import cech: {type(exc).__name__}: {exc}")
+
     product_counts: Counter[str] = Counter()
     promotion_counts: Counter[str] = Counter()
     omnibus_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
 
-    if not dry_run:
-        from scraper.importer.promotions import sync_product_promotions
-        from scraper.importer.omnibus import sync_omnibus_prices
+    def import_one(product: dict, category_ids: list[int]) -> str:
+        tax_group_id = tax_map[normalize_vat_rate(product["vat_rate"])]
+        feature_ids = (
+            product_feature_ids(product, resolved_features)
+            if resolved_features is not None else None
+        )
+        _, operation = import_product(
+            api, product, mapping, category_ids, tax_group_id, feature_ids
+        )
+        return operation
 
-    for index, product in enumerate(grouped, start=1):
+    to_import: list[tuple[dict, list[int]]] = []
+    for product in grouped:
         source_id = product.get("source_id")
-        category_id = resolve_category_id(product, category_names, products_dir)
-        if category_id is None:
+        # dict.fromkeys: bez duplikatów (pliki wariantów), z zachowaniem kolejności - pierwsza = domyślna
+        category_ids = list(dict.fromkeys(
+            category_id
+            for source_file in product["source_files"]
+            if (category_id := resolve_category_id(source_file, category_names, products_dir)) is not None
+        ))
+        if not category_ids:
             product_counts["rejected"] += 1
             print(f"[PRODUKT {source_id}] Nie znaleziono kategorii dla: {product.get('source_file')}")
-            continue
-
-        if dry_run:
+        elif dry_run:
             product_counts["updated" if str(source_id) in mapping else "created"] += 1
         else:
-            try:
-                tax_group_id = tax_map[normalize_vat_rate(product["vat_rate"])]
-                _, operation = import_product(
-                    api, product, mapping, category_id, tax_group_id
-                )
-                product_counts[operation] += 1
+            to_import.append((product, category_ids))
 
-                # import_product() creates/updates the product and its combinations,
-                # and persists their source -> PrestaShop ID mappings. Promotions
-                # must be synchronized only after that mapping is ready.
-                promotion_result = sync_product_promotions(
-                    api, product, mapping, dry_run=False
-                )
-                for key, value in promotion_result.items():
-                    promotion_counts[key] += value
-
-                # Omnibus po imporcie produktu i kombinacji, gdy mapowanie ID jest gotowe.
+    if to_import:
+        print(f"\nImport {len(to_import)} produktów w {workers} wątkach.")
+        # Każdy wątek pracuje na innym produkcie, więc ruszają tylko własne klucze mapowania
+        executor = ThreadPoolExecutor(max_workers=workers)
+        try:
+            futures = {
+                executor.submit(import_one, product, category_ids): product.get("source_id")
+                for product, category_ids in to_import
+            }
+            for index, future in enumerate(as_completed(futures), start=1):
                 try:
-                    omnibus_result = sync_omnibus_prices(api, product, mapping)
-                    for key, value in omnibus_result.items():
-                        omnibus_counts[key] += value
-                except Exception as omnibus_exc:  # noqa: BLE001
-                    omnibus_counts["rejected"] += 1
-                    print(
-                        f"[OMNIBUS {source_id}] "
-                        f"{type(omnibus_exc).__name__}: {omnibus_exc}"
-                    )
-            except Exception as exc:  # noqa: BLE001
-                product_counts["rejected"] += 1
-                print(f"[PRODUKT {source_id}] {type(exc).__name__}: {exc}")
-
-        if dry_run:
-            # Dry-run reports promotion candidates without requiring target IDs
-            # for products/combinations that have not yet been imported.
-            candidate_promotions = product.get("promotions") or []
-            if candidate_promotions:
-                promotion_counts["planned"] += len(candidate_promotions)
-                promotion_counts["products"] += 1
-
-        if dry_run:
-            if product.get("lowest_price_30d_amount") is not None:
-                omnibus_counts["planned"] += 1
-            omnibus_counts["planned"] += sum(
-                1 for combination in product.get("combinations") or []
-                if combination.get("lowest_price_30d_amount") is not None
-            )
-
-        if index % 100 == 0:
-            print(f"Postęp: {index}/{len(grouped)} produktów.")
+                    product_counts[future.result()] += 1
+                except Exception as exc:  # noqa: BLE001
+                    product_counts["rejected"] += 1
+                    print(f"[PRODUKT {futures[future]}] {type(exc).__name__}: {exc}")
+                if index % 100 == 0:
+                    print(f"Postęp: {index}/{len(to_import)} produktów.")
+        except KeyboardInterrupt:
+            # Bez tego Ctrl+C czekałby na wszystkie zakolejkowane produkty
+            executor.shutdown(wait=False, cancel_futures=True)
+            raise
+        executor.shutdown()
 
     report_section("KATEGORIE", category_counts)
     report_section("ATRYBUTY", attribute_counts)
+    if not dry_run:
+        report_section("CECHY (nazwy i wartości)", feature_counts)
     report_section("PRODUKTY", product_counts)
 
-    if dry_run:
-        print("\nPROMOCJE — PODGLĄD")
-        print(f"  Produkty z promocjami: {promotion_counts['products']}")
-        print(f"  Reguły do synchronizacji: {promotion_counts['planned']}")
-    else:
-        print("\nPROMOCJE")
-        print(f"  Utworzone:      {promotion_counts['created']}")
-        print(f"  Zaktualizowane: {promotion_counts['updated']}")
-        print(f"  Odrzucone:      {promotion_counts['rejected']}")
-
-    if dry_run:
-        print("\nOMNIBUS — PODGLĄD")
-        print(f"  Ceny do synchronizacji: {omnibus_counts['planned']}")
-    else:
-        print("\nOMNIBUS")
-        print(f"  Wysłane ceny:   {omnibus_counts['sent']}")
-        print(f"  Pominięte:      {omnibus_counts['skipped']}")
-        print(f"  Odrzucone:      {omnibus_counts['rejected']}")
-
     total_rejected = (
-        rejected_records
-        + category_counts["rejected"]
-        + attribute_counts["rejected"]
-        + product_counts["rejected"]
-        + promotion_counts["rejected"]
-        + omnibus_counts["rejected"]
+        rejected_records + category_counts["rejected"] + attribute_counts["rejected"]
+        + feature_counts["rejected"] + product_counts["rejected"]
     )
     print("\nPODSUMOWANIE")
     print(f"  Pliki produktów:       {len(raw_products)}")

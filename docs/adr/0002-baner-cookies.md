@@ -7,7 +7,7 @@
 ## Kontekst
 
 Sklep ma wyświetlać baner informujący o cookies przy pierwszej wizycie (etap 1). Ticket zakładał „włącz i skonfiguruj
-moduł baneru cookie”. Wygląd ma odpowiadać sklepowi źródłowemu (`docs/cookies.png`: panel „Drogi użytkowniku”,
+moduł baneru cookie”. Wygląd ma odpowiadać sklepowi źródłowemu (panel „Drogi użytkowniku”,
 przyciski Ustawienia / Zatwierdź tylko wymagane / Zaakceptuj wszystkie).
 
 Ograniczenia:
@@ -49,4 +49,4 @@ Opcja 3.
 - Tym samym mechanizmem działa okno potwierdzenia pełnoletności (`_partials/age-gate.tpl`): otwiera się po
   zamknięciu banera cookies, „Tak” zapisuje `age-confirmed` w `localStorage`, „Nie” i Esc nie zamykają okna.
   To potwierdzenie deklaratywne, nie weryfikacja wieku - tę robi kurier przy odbiorze.
-  Testy E2E (etap 2) muszą przed wejściem ustawić `cookie-consent` i `age-confirmed`, inaczej okna zasłonią stronę.
+  Testy E2E (W4, oba etapy) muszą przed wejściem ustawić `cookie-consent` i `age-confirmed`, inaczej okna zasłonią stronę.

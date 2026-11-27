@@ -123,7 +123,7 @@
   "customer_group_discount": 0,
   "images": [
     {
-      "cover": 1,
+      "cover": null,
       "id_image": 3538,
       "legend": "WÓDKA Miodula Prezydencka",
       "position": 1,
@@ -200,77 +200,77 @@
   ],
   "cover": {
     "cover": 1,
-    "id_image": 3538,
+    "id_image": 3540,
     "legend": "WÓDKA Miodula Prezydencka",
-    "position": 1,
+    "position": 3,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/3538-cart_default/wodka-miodula-prezydencka.jpg",
+        "url": "https://luksusowealkohole.pl/3540-cart_default/wodka-miodula-prezydencka.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3538-cart_default/wodka-miodula-prezydencka.jpg"
+          "jpg": "https://luksusowealkohole.pl/3540-cart_default/wodka-miodula-prezydencka.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/3538-small_default/wodka-miodula-prezydencka.jpg",
+        "url": "https://luksusowealkohole.pl/3540-small_default/wodka-miodula-prezydencka.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3538-small_default/wodka-miodula-prezydencka.jpg"
+          "jpg": "https://luksusowealkohole.pl/3540-small_default/wodka-miodula-prezydencka.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/3538-home_default/wodka-miodula-prezydencka.jpg",
+        "url": "https://luksusowealkohole.pl/3540-home_default/wodka-miodula-prezydencka.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3538-home_default/wodka-miodula-prezydencka.jpg"
+          "jpg": "https://luksusowealkohole.pl/3540-home_default/wodka-miodula-prezydencka.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/3538-medium_default/wodka-miodula-prezydencka.jpg",
+        "url": "https://luksusowealkohole.pl/3540-medium_default/wodka-miodula-prezydencka.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3538-medium_default/wodka-miodula-prezydencka.jpg"
+          "jpg": "https://luksusowealkohole.pl/3540-medium_default/wodka-miodula-prezydencka.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/3538-large_default/wodka-miodula-prezydencka.jpg",
+        "url": "https://luksusowealkohole.pl/3540-large_default/wodka-miodula-prezydencka.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3538-large_default/wodka-miodula-prezydencka.jpg"
+          "jpg": "https://luksusowealkohole.pl/3540-large_default/wodka-miodula-prezydencka.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/3538-cart_default/wodka-miodula-prezydencka.jpg",
+      "url": "https://luksusowealkohole.pl/3540-cart_default/wodka-miodula-prezydencka.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3538-cart_default/wodka-miodula-prezydencka.jpg"
+        "jpg": "https://luksusowealkohole.pl/3540-cart_default/wodka-miodula-prezydencka.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/3538-home_default/wodka-miodula-prezydencka.jpg",
+      "url": "https://luksusowealkohole.pl/3540-home_default/wodka-miodula-prezydencka.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3538-home_default/wodka-miodula-prezydencka.jpg"
+        "jpg": "https://luksusowealkohole.pl/3540-home_default/wodka-miodula-prezydencka.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/3538-large_default/wodka-miodula-prezydencka.jpg",
+      "url": "https://luksusowealkohole.pl/3540-large_default/wodka-miodula-prezydencka.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3538-large_default/wodka-miodula-prezydencka.jpg"
+        "jpg": "https://luksusowealkohole.pl/3540-large_default/wodka-miodula-prezydencka.jpg"
       }
     },
     "associatedVariants": [
-      2727
+      1364
     ]
   },
   "has_discount": false,
@@ -284,5 +284,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 63,
   "id_supplier": 0,
   "reference": "05011007021177",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 244,
   "advanced_stock_management": "0",
   "date_add": "2024-06-19 17:14:23",
-  "date_upd": "2026-02-23 18:45:45",
+  "date_upd": "2026-11-24 14:07:27",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Jameson",
   "link_rewrite": "whisky-jameson",
   "name": "WHISKY Jameson",
-  "description": "Najpopularniejsza irlandzka whiskey na świecie. Jameson powstaje w sercu \r\n Irlandii według niezmiennej receptury od ponad 220 lat. Delikatny smak \r\n zawdzięcza długiemu procesowi leżakowania oraz potrójnej destylacji, \r\n charakterystycznym dla irlandzkich whiskey. \r\n",
+  "description": "<p>Najpopularniejsza irlandzka whiskey na świecie. Jameson powstaje w sercu Irlandii według niezmiennej receptury od ponad 220 lat. Delikatny smak zawdzięcza długiemu procesowi leżakowania oraz potrójnej destylacji, charakterystycznym dla irlandzkich whiskey.</p>",
   "description_short": "<p>Whisky Jameson - delikatny smak zawdzięcza długiemu procesowi leżakowania oraz potrójnej destylacji.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,14 +56,14 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/195-whisky-jameson",
-  "manufacturer_name": null,
+  "manufacturer_name": "Jameson",
   "attribute_price": 0,
   "price_tax_exc": 80.487805,
   "price_without_reduction": 99,
   "reduction": 0,
   "specific_prices": [],
   "quantity": 6,
-  "quantity_all_versions": 12,
+  "quantity_all_versions": 11,
   "id_image": "pl-default",
   "features": [
     {
@@ -353,5 +353,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

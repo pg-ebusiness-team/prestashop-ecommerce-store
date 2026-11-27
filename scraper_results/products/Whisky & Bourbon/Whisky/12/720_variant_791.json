@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281032733",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 791,
   "advanced_stock_management": "0",
   "date_add": "2024-07-20 15:01:45",
-  "date_upd": "2025-04-13 23:12:46",
+  "date_upd": "2026-11-24 15:18:45",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Talisker Storm",
   "link_rewrite": "whisky-talisker-storm",
   "name": "WHISKY Talisker Storm",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Whisky \r\nTalisker Storm Single Malt to nierocznikowana whisky będąca najnowszym produktem \r\ngorzelni, dostępnym na rynku od 2013 roku. Charakteryzuje się niezwykle złożoną \r\ni bogatą paletą smaków i aromatów. Zdecydowane, dymne i pikantne nuty z \r\ndodatkiem przypraw korzennych, idealnie komponują się ze słodszymi akcentami \r\nmiodu i wanilii oraz morskim aromatem.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Whisky Talisker Storm Single Malt to nierocznikowana whisky będąca najnowszym produktem gorzelni, dostępnym na rynku od 2013 roku. Charakteryzuje się niezwykle złożoną i bogatą paletą smaków i aromatów. Zdecydowane, dymne i pikantne nuty z dodatkiem przypraw korzennych, idealnie komponują się ze słodszymi akcentami miodu i wanilii oraz morskim aromatem.</span></p>",
   "description_short": "<p>Whisky Talisker Storm Single Malt to nierocznikowana whisky będąca najnowszym produktem gorzelni, dostępnym na rynku od 2013 roku. Charakteryzuje się niezwykle złożoną i bogatą paletą smaków i aromatów.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/720-whisky-talisker-storm",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 169.918699,
   "price_without_reduction": 209,
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

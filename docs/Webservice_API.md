@@ -6,7 +6,7 @@ Konfiguracja PrestaShop Webservice API, z którego korzysta skrypt importu danyc
 
 - włącza Webservice API (`PS_WEBSERVICE = 1`),
 - rejestruje jeden klucz API pobierany z `.env` (`PS_API_KEY`),
-- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
+- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
 
 Wszystko dzieje się skryptem — bez klikania w panelu administracyjnym, bo wymagania zakładają jedną komendę inicjalizacji (`make init`), a w etapie 2 inicjalizację bez ręcznych kroków.
 
@@ -15,7 +15,7 @@ Wszystko dzieje się skryptem — bez klikania w panelu administracyjnym, bo wym
 ```bash
 openssl rand -hex 16 | tr a-f A-F   # wygenerowanie klucza; wynik wpisać do .env jako PS_API_KEY
 make up                              # poczekać, aż w `make logs` pojawi się "Almost ! Starting web server now"
-make init                            # włączenie API i rejestracja klucza
+make init                            # włączenie API, rejestracja klucza i usunięcie danych demo
 make api-check                       # weryfikacja
 ```
 
@@ -53,14 +53,14 @@ PrestaShop zapisuje konfigurację Webservice w czterech tabelach. Skrypt wpisuje
 | `ps_configuration` | przełącznik `PS_WEBSERVICE` |
 | `ps_webservice_account` | klucz, opis, czy aktywny |
 | `ps_webservice_account_shop` | przypisanie klucza do sklepu (`id_shop = 1`) |
-| `ps_webservice_permission` | jeden wiersz na parę zasób × metoda (5 × 4 = 20 wierszy) |
+| `ps_webservice_permission` | jeden wiersz na parę zasób × metoda (7 × 4 = 28 wierszy) |
 
 Kroki skryptu (całość w jednej transakcji — przy błędzie w połowie nie zostaje konto bez uprawnień):
 
 1. **Włączenie API** — `UPDATE` wartości `PS_WEBSERVICE`, a jeśli wiersza nie ma, `INSERT`.
 2. **Usunięcie poprzedniego konta** — konto rozpoznawane po opisie `Import danych (BACK-1)`. Najpierw usuwane są wiersze zależne (`permission`, `account_shop`), potem samo konto.
 3. **Utworzenie konta** z kluczem `@ws_key` i przypięcie go do sklepu. `LAST_INSERT_ID()` daje id nowego konta.
-4. **Uprawnienia** — `CROSS JOIN` listy zasobów z listą metod tworzy 20 wierszy jednym zapytaniem.
+4. **Uprawnienia** — `CROSS JOIN` listy zasobów z listą metod tworzy 28 wierszy jednym zapytaniem.
 
 Dzięki krokowi 2 skrypt jest **idempotentny**: można go uruchamiać wielokrotnie bez duplikatów. Rozpoznawanie konta po opisie, a nie po kluczu, sprawia, że po zmianie klucza w `.env` stary klucz jest usuwany, a nie zostaje w bazie z uprawnieniami.
 
@@ -75,6 +75,8 @@ init:
 	@echo "$(PS_API_KEY)" | grep -qE '^[A-Z0-9]{32}$$' || { echo "PS_API_KEY w .env musi miec 32 znaki A-Z0-9"; exit 1; }
 	@{ echo "SET @ws_key = '$(PS_API_KEY)';"; cat deploy/init/webservice.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
+	@echo "Webservice API wlaczone, klucz zarejestrowany."
+	$(PYTHON) -m scraper.importer.cleanup_demo --execute
 ```
 
 - `-include .env` na początku `makefile` wczytuje zmienne z `.env` do `make`.
@@ -82,6 +84,7 @@ init:
 - `$$` w `makefile` oznacza dosłowny `$` — zmienne `$$MYSQL_USER` i `$$MYSQL_PASSWORD` rozwija powłoka w kontenerze `db`.
 - `MYSQL_PWD` zamiast `-p<hasło>` — hasła nie widać na liście procesów.
 - `exec -T` wyłącza TTY; bez tego pipe nie działa.
+- Ostatnia linia usuwa przez API kategorie i produkty demonstracyjne z instalatora (lista nazw `DEMO_CATEGORIES` w `cleanup_demo.py`). Działa na hoście, więc wymaga Pythona z zależnościami z `scraper/requirements.txt`. Gdy danych demo już nie ma, niczego nie zmienia.
 
 ### make api-check
 
@@ -100,4 +103,4 @@ make api-check SHOP_URL=https://adres-sklepu
 
 ## Rozszerzanie uprawnień
 
-Import wariantów, stawek VAT i promocji (D2/D3) będzie wymagał dodatkowych zasobów, np. `product_options`, `product_option_values`, `tax_rule_groups`, `specific_prices`. Wystarczy dopisać je do listy zasobów w kroku 4 skryptu i uruchomić ponownie `make init`.
+Import promocji (D3) będzie wymagał dodatkowych zasobów, np. `specific_prices`. Stawki VAT nie wymagają uprawnień, bo ID grup podatkowych są w `.env` (`PS_TAX_RULES_GROUP_MAP`). Nowe zasoby wystarczy dopisać do listy zasobów w kroku 4 skryptu i uruchomić ponownie `make init`.

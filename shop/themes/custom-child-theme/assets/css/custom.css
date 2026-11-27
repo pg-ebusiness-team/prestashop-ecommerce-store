@@ -9,7 +9,7 @@
   --color-black: #121212;
   --color-graphite: #414141;
   --color-text: #6f6f6f;        /* oryginał #777 ma kontrast 4.48:1, poniżej WCAG AA */
-  --color-muted: #767676;       /* oryginał #888, przyciemniony z tego samego powodu */
+  --color-muted: #6b6b6b;       /* oryginał #888; ciemniej, bo #767676 ma tylko ~4.0:1 na szarych tłach #f1f1f1/#f8f8f8 */
   --color-brand-100: #e6ded7;
   --color-brand-200: #ddd1c5;
   --color-brand-500: #a48d66;
@@ -18,6 +18,21 @@
   --color-border: #ddd;
   --font-body: "Lato", Arial, sans-serif;
   --font-heading: "Playfair Display", Georgia, serif;
+  --content-width: 1110px; /* szerokość treści w .container bez paddingu 2 x 15px */
+}
+
+/* Kontener szerszy na dużych ekranach jak w źródle (Classic kończy na 1140px) */
+@media (min-width: 1200px) {
+  :root { --content-width: 1140px; }
+  .container { width: calc(var(--content-width) + 30px); }
+}
+
+@media (min-width: 1460px) {
+  :root { --content-width: 1270px; }
+}
+
+@media (min-width: 1600px) {
+  :root { --content-width: 1370px; }
 }
 
 /* Typografia */
@@ -27,6 +42,46 @@ body {
   line-height: 1.85;
   letter-spacing: .5px;
   color: var(--color-text);
+}
+
+/* Szary #7a7a7a z Classic ma 4.29:1 na białym (poniżej WCAG AA) - tekst, pola i podpowiedzi w kolorze treści.
+   Bardziej szczegółowe reguły niżej (np. biały tekst na sliderze) nadal wygrywają. */
+p,
+.page-content.page-cms ul,
+.form-control,
+.form-control-comment,
+.nav-item .nav-link,
+.dropdown,
+.btn-tertiary,
+.top-menu a:not([data-depth="0"]),
+body#checkout section.checkout-step small {
+  color: var(--color-text);
+}
+
+.text-muted {
+  color: var(--color-text) !important; /* w Classic też z !important */
+}
+
+/* Przyciski formularzy z Classic: biały tekst na #24b9d7 (2.33:1) i #7a7a7a (4.29:1) */
+.group-span-filestyle .btn-default,
+.input-group .input-group-btn > .btn[data-action="show-password"] {
+  background: var(--color-graphite);
+}
+
+/* Nagłówek formularza kontaktu: h1 (dostępność, contactform.tpl) wyglądający jak h3 z Classic */
+.contact-form h1 {
+  text-transform: uppercase;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-muted);
+}
+
+/* Link w akapicie nie może różnić się od tekstu samym kolorem */
+.page-content.page-cms a,
+#content p a {
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -237,6 +292,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 #header #search_widget form input[type="text"] {
   padding: 10px 40px 10px 10px;
+  color: var(--color-text); /* #9b9b9b z Classic: 2.77:1 */
   background: #fff;
   border: 1px solid var(--color-border);
 }
@@ -247,7 +303,7 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #header #search_widget form i.clear {
-  display: none;
+  display: none !important; /* ps_searchbar.js na telefonie pokazuje X stylem inline, w miejscu lupy */
 }
 
 #header .header-actions {
@@ -269,13 +325,36 @@ body#checkout section.checkout-step .address-item.selected,
   display: none;
 }
 
-#header .header-actions .blockcart .header > span.hidden-sm-down {
-  display: none;
+#header .header-actions .blockcart {
+  white-space: nowrap; /* „Koszyk (n)” w jednej linii */
 }
 
 /* Menu: szary pasek na pełną szerokość, pozycje równo rozłożone */
 #header .header-menu {
   background: var(--color-grey-100);
+}
+
+/* Przyklejone do góry po przewinięciu za baner (custom.js), wsuwa się z góry */
+#header .header-menu.is-stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .11);
+  animation: menu-slide-down .4s ease-out;
+}
+
+@keyframes menu-slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #header .header-menu.is-stuck {
+    animation: none;
+  }
 }
 
 #header .header-menu .container {
@@ -367,21 +446,59 @@ body#checkout section.checkout-step .address-item.selected,
 
 @media (max-width: 767px) {
   .header-benefits {
-    flex-direction: column;
+    display: none; /* jak w źródle: na telefonie bez paska korzyści */
   }
 
   #header .header-top-right {
     align-items: stretch;
   }
 
-  #header #search_widget {
-    max-width: none;
+  /* Jak w źródle: wyszukiwarka schowana pod ikoną lupy (#search-toggle w header.tpl, custom.js) */
+  #header .header-top {
+    padding: 0;
   }
+
+  #header #search_widget {
+    display: none;
+    max-width: none;
+    margin-top: .75rem;
+  }
+
+  #header.search-open #search_widget {
+    display: block;
+  }
+}
+
+#search-toggle button {
+  display: flex;
+  align-items: center;
+  height: 50px; /* jak #menu-icon w Classic */
+  padding: 0 .5rem;
+}
+
+/* Górny pasek na telefonie: konto, lupa i koszyk w jednej linii z ikoną menu.
+   Classic daje ikonom line-height wyższy niż ich ramka, więc rysowały się za nisko. */
+#header .header-nav .mobile .float-xs-right .material-icons {
+  line-height: 1;
+}
+
+#header .header-nav #_mobile_user_info .user-info {
+  margin-top: 13px;
+}
+
+#header .header-nav #_mobile_cart .blockcart {
+  padding-top: 11px;
 }
 
 .breadcrumb {
   background: none;
   padding-left: 0;
+  color: var(--color-muted);
+}
+
+/* #7a7a7a z Classic ma 4.29:1 na białym, poniżej WCAG AA */
+#wrapper .breadcrumb li:last-child,
+.products-selection .sort-by {
   color: var(--color-muted);
 }
 
@@ -397,10 +514,74 @@ body#checkout section.checkout-step .address-item.selected,
   left: 0; /* Classic <992px przesuwa slider przez left: 50% */
   width: 100vw;
   margin: 0 0 1rem calc(50% - 50vw);
+  padding-bottom: 0; /* Classic <992px dodaje szary pasek pod sliderem */
 }
 
 #carousel .carousel-inner {
   height: auto;
+}
+
+/* Jak w źródle: nowy baner przenika się z poprzednim, podpis wjeżdża z prawej 0.5s po nim.
+   Zamiast przesuwania Classic (left); grafika 0.6s, bo Bootstrap kończy przejście po 600 ms. */
+#carousel .carousel-inner > .carousel-item {
+  left: 0;
+  transition: none;
+}
+
+#carousel .carousel-inner > .next,
+#carousel .carousel-inner > .prev {
+  z-index: 2; /* nowy nad starym także przy cofaniu */
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) img {
+  animation: fade-in .6s ease-out both;
+}
+
+#carousel .carousel-item:is(.active, .next, .prev) .caption {
+  animation: slide-in-right .8s ease-out .5s both;
+}
+
+/* Kwadraciki slajdów na dole pośrodku, jak .flex-control-paging w źródle (Classic je ukrywa) */
+#carousel .carousel-indicators {
+  display: block;
+  bottom: 10px;
+  z-index: 3; /* nad slajdem wchodzącym (.next/.prev ma 2) */
+}
+
+#carousel .carousel-indicators li,
+#carousel .carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  border: 0;
+  border-radius: 0;
+  background: #fff;
+  transition: background-color .5s ease;
+}
+
+#carousel .carousel-indicators li:hover,
+#carousel .carousel-indicators .active {
+  background: #bd515f;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    translate: 60px 0; /* translate, nie transform - podpis ma już transform: translateY(-50%) */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #carousel .carousel-item:is(.active, .next, .prev) img,
+  #carousel .carousel-item:is(.active, .next, .prev) .caption {
+    animation: none;
+  }
 }
 
 #carousel .carousel-item figure {
@@ -408,12 +589,10 @@ body#checkout section.checkout-step .address-item.selected,
   display: block;
 }
 
-/* Jak w źródle: zawsze 700px wysokości, zdjęcie przybliża się/przycina do tej ramki */
-@media (min-width: 768px) {
-  #carousel .carousel-item img {
-    height: 700px;
-    object-fit: cover;
-  }
+/* Jak w źródle: stała wysokość (480px na telefonie, niżej), zdjęcie przybliża się/przycina do tej ramki */
+#carousel .carousel-item img {
+  height: 700px;
+  object-fit: cover;
 }
 
 /* Przyciemnienie od lewej, jak .cover w źródle - biały tekst musi być czytelny na jasnych grafikach */
@@ -426,9 +605,12 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #carousel .carousel-item .caption {
+  position: absolute; /* Classic <992px: static, wyśrodkowany podpis pod zdjęciem */
   top: 50%;
   bottom: auto;
-  left: max(15px, calc(50% - 555px));
+  margin: 0;
+  text-align: left;
+  left: max(15px, calc(50% - var(--content-width) / 2));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -450,6 +632,10 @@ body#checkout section.checkout-step .address-item.selected,
   line-height: 1.1;
   text-transform: none !important; /* slider.tpl daje .text-uppercase z !important */
   color: #fff;
+}
+
+#carousel .carousel-item .caption .caption-description p {
+  color: #fff; /* Classic <992px: #7a7a7a */
 }
 
 #carousel .caption-description .slide-kicker {
@@ -489,9 +675,38 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 .home-tile {
+  position: relative;
   display: block;
   background: var(--color-grey-200);
   text-align: center;
+}
+
+/* Po najechaniu szara nakładka na zdjęciu z „Zobacz produkty”, jak .see__more w źródle.
+   CSS zamiast znacznika w theme.sql: napis tylko dekoracyjny, link ma nazwę kategorii. */
+.home-tile::before {
+  content: "Zobacz produkty";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1; /* tylko na kwadratowym zdjęciu, bez nazwy pod nim */
+  padding: 20px;
+  background: rgba(65, 65, 65, .8);
+  font-family: var(--font-heading);
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--color-grey-100);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
+.home-tile:hover::before,
+.home-tile:focus-visible::before {
+  opacity: 1;
 }
 
 #custom-text .home-tile img,
@@ -521,8 +736,18 @@ body#checkout section.checkout-step .address-item.selected,
 .home-banner {
   position: relative;
   display: block;
+  overflow: hidden; /* przycina powiększone zdjęcie */
   background: var(--color-black); /* tło pod tekstem, zanim wczyta się zdjęcie */
   color: #fff;
+}
+
+/* Po najechaniu lekki zoom tła */
+#custom-text .home-banner img {
+  transition: transform .5s ease;
+}
+
+#custom-text .home-banner:hover img {
+  transform: scale(1.05);
 }
 
 .home-banner-content {
@@ -559,26 +784,12 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 @media (max-width: 767px) {
-  /* Classic pokazuje tu podpis pod zdjęciem, a nasz biały tekst potrzebuje ciemnego tła */
-  #carousel .carousel-item figure::after {
-    display: none; /* podpis jest pod zdjęciem, na własnym tle */
-  }
-
-  #carousel .carousel-item .caption {
-    align-items: center;
-    max-width: none;
-    margin: 0;
-    padding: 1.5rem 1rem;
-    transform: none;
-    background: var(--color-graphite);
-  }
-
-  #carousel .carousel-item .caption .caption-description p {
-    color: #fff;
+  #carousel .carousel-item img {
+    height: 480px;
   }
 
   #carousel .carousel-item .caption .display-1 {
-    font-size: 2rem;
+    font-size: 2.75rem;
   }
 
   .home-tiles {
@@ -588,6 +799,10 @@ body#checkout section.checkout-step .address-item.selected,
 
   .home-tile-name {
     font-size: 1.125rem;
+  }
+
+  .home-tile::before {
+    font-size: 22px; /* 48px nie mieści się w kafelku w 2 kolumnach */
   }
 
   .home-banners {
@@ -821,23 +1036,12 @@ body#checkout section.checkout-step .address-item.selected,
 .product-miniature .thumbnail-container:hover .quick-view,
 .product-miniature .thumbnail-container:hover .miniature-cart-btn,
 .product-miniature .thumbnail-container:focus-within .quick-view,
-.product-miniature .thumbnail-container:focus-within .miniature-cart-btn {
+.product-miniature .thumbnail-container:focus-within .miniature-cart-btn,
+.product-miniature .thumbnail-top.is-tapped .quick-view,
+.product-miniature .thumbnail-top.is-tapped .miniature-cart-btn {
+  /* .is-tapped: ekran dotykowy, pierwsze tapnięcie w zdjęcie (custom.js) */
   opacity: 1;
   transform: none;
-}
-
-/* Ekrany dotykowe nie mają hovera - przyciski widoczne zawsze */
-@media (hover: none) {
-  .product-miniature .quick-view,
-  .product-miniature .miniature-cart-btn {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-/* Serce ulubionych (blockwishlist) wstawiane przez JS - w źródle go nie ma, zostaje na stronie produktu */
-.product-miniature .wishlist-button-add {
-  display: none !important; /* moduł ustawia display w stylu inline */
 }
 
 /* Ukośna wstęga „Promocja” w lewym górnym rogu */
@@ -933,10 +1137,47 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 #category-description,
-#category-description p {
+#category-description p,
+#category-additional-description,
+#category-additional-description p,
+#category-additional-description li {
   font-size: 1.125rem;
   line-height: 1.4;
   color: var(--color-graphite);
+}
+
+#category-additional-description ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+/* „Pokaż więcej”: pogrubiony tekst ze strzałką, która po rozwinięciu obraca się w górę */
+.category-more {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  margin-bottom: 1.25rem;
+  padding: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-graphite);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.category-more:hover,
+.category-more:focus-visible {
+  color: var(--color-brand-500);
+}
+
+.category-more .material-icons {
+  font-size: 1.5rem;
+  transition: transform .2s;
+}
+
+.category-more[aria-expanded="true"] .material-icons {
+  transform: rotate(180deg);
 }
 
 /* Podkategorie: same nazwy w ramkach */
@@ -1025,6 +1266,15 @@ body#checkout section.checkout-step .address-item.selected,
   text-transform: none;
 }
 
+/* Długie listy wartości (np. Kraj: 65 pozycji) przewijane wewnątrz filtra, ok. 15 pozycji na raz.
+   Bez suwaka ceny - jego lista to jeden element ze slidebarem. */
+#search_filters .facet ul:not(.faceted-slider) {
+  max-height: 22rem;
+  padding-right: .5rem; /* odstęp liczników od paska przewijania */
+  overflow-y: auto;
+  overscroll-behavior: contain; /* koniec listy nie przewija dalej całej strony */
+}
+
 #search_filters .facet .facet-label {
   display: flex;
   align-items: center;
@@ -1110,6 +1360,52 @@ body#checkout section.checkout-step .address-item.selected,
   border: 1px solid var(--color-border);
 }
 
+/* Telefon jak w źródle: bez sortowania, „Filtruj” jako pionowa zakładka przy prawej krawędzi ekranu */
+@media (max-width: 767px) {
+  .products-selection .products-sort-order {
+    display: none;
+  }
+
+  .products-selection .filter-button {
+    position: fixed;
+    top: 40%;
+    right: 0;
+    z-index: 10;
+    width: auto;
+    padding: 0;
+  }
+
+  #category #search_filter_toggler {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    width: auto;
+    padding: 1rem .5rem;
+    font-size: 0; /* chowa „Filtr” z tłumaczenia Classic; napis jak w źródle daje ::after */
+    color: var(--color-graphite);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    writing-mode: vertical-rl;
+    background: var(--color-brand-100);
+    border: 0;
+    box-shadow: none;
+    transform: rotate(180deg); /* tekst czytany od dołu do góry */
+  }
+
+  #search_filter_toggler::before {
+    font-family: "Material Icons";
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    content: "\E152"; /* filter_list */
+    transform: rotate(180deg); /* ikona prosto mimo obróconego przycisku */
+  }
+
+  #search_filter_toggler::after {
+    font-size: .8125rem;
+    content: "Filtruj";
+  }
+}
+
 /* Paginacja: numery w kwadratach, aktualna strona beżowa (templates/_partials/pagination.tpl) */
 .pagination {
   display: flex;
@@ -1187,7 +1483,11 @@ body#checkout section.checkout-step .address-item.selected,
   }
 
   #category-description,
-  #category-description p {
+  #category-description p,
+  #category-additional-description,
+  #category-additional-description p,
+  #category-additional-description li,
+  .category-more {
     font-size: 1rem;
   }
 
@@ -1304,24 +1604,7 @@ body#checkout section.checkout-step .address-item.selected,
   display: none;
 }
 
-#product .product-quantity #quantity_wanted {
-  width: 3.5rem;
-  height: 4rem;
-  font-size: 1.125rem;
-  color: var(--color-graphite);
-  border-color: var(--color-graphite);
-}
-
-/* Classic: pole i strzałki to floaty - na wąskim ekranie strzałki spadały pod pole */
-#product .product-quantity .bootstrap-touchspin {
-  display: flex;
-  height: 4rem;
-}
-
-#product .product-quantity .bootstrap-touchspin .btn-touchspin {
-  height: 2rem;
-  border-color: var(--color-graphite);
-}
+/* Pole ilości ze strzałkami: wspólne z koszykiem, niżej przy „Koszyk” */
 
 #product .product-quantity .add-to-cart .material-icons {
   line-height: 1;
@@ -1471,22 +1754,53 @@ body#checkout section.checkout-step .address-item.selected,
   color: var(--color-graphite);
 }
 
+/* Ilość na produkcie i w koszyku jak w źródle: pole 51 px + strzałki 32 px, jasnoszare ramki.
+   Źródło ma #a0a0a0 (2.6:1), tu #949494, bo ramka i strzałki kontrolki potrzebują 3:1 (WCAG 1.4.11).
+   Classic: pole i strzałki to floaty - flex trzyma je w rzędzie, na wąskim ekranie strzałki nie spadają pod pole. */
+#product .product-quantity .bootstrap-touchspin,
 #cart .cart-item .bootstrap-touchspin {
   display: flex;
+  width: auto;
   height: 4rem;
 }
 
+#product .product-quantity #quantity_wanted,
 #cart .cart-item .js-cart-line-product-quantity {
-  width: 3.25rem;
-  height: 4rem;
+  width: 3.2rem;
+  height: 100%;
   font-size: 1rem;
   color: var(--color-graphite);
-  border-color: var(--color-graphite);
+  border-color: #949494;
 }
 
-#cart .cart-item .bootstrap-touchspin .btn-touchspin {
-  height: 2rem;
-  border-color: var(--color-graphite);
+#product .product-quantity .input-group-btn-vertical,
+#cart .cart-item .input-group-btn-vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Classic: dolna strzałka ma margin-top -2px (wspólna linia), więc każda musi mieć połowę + 1px,
+   inaczej kolumna strzałek kończy się 2px nad dołem pola */
+#product .product-quantity .btn-touchspin,
+#cart .cart-item .btn-touchspin {
+  width: 2rem;
+  height: calc(50% + 1px);
+  padding: 0;
+  background: #fff;
+  border-color: #949494;
+}
+
+#product .product-quantity .btn-touchspin i,
+#cart .cart-item .btn-touchspin i {
+  top: 50%;
+  left: 50%;
+  color: #949494;
+  transform: translate(-50%, -50%);
+}
+
+#product .product-quantity .btn-touchspin:hover i,
+#cart .cart-item .btn-touchspin:hover i {
+  color: var(--color-graphite);
 }
 
 #cart .cart-item .remove-from-cart {
@@ -1671,6 +1985,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 .footer-description {
   margin-bottom: 1.75rem;
+  color: var(--color-muted); /* #7a7a7a z Classic: 4.04:1 na tle stopki */
   font-size: .9375rem;
   line-height: 1.6;
 }
@@ -1869,7 +2184,7 @@ body#checkout section.checkout-step .address-item.selected,
   }
 }
 
-/* Baner cookies (FRONT-4, wzór: docs/cookies.png): biały panel na środku ekranu, przyciemnione tło */
+/* Baner cookies (FRONT-4, ADR 0002): biały panel na środku ekranu, przyciemnione tło */
 .cookie-banner {
   width: calc(100% - 2rem);
   max-width: 62rem;

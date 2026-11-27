@@ -1,7 +1,10 @@
 import json
+import os
+import threading
 from pathlib import Path
 
 MAPPING_PATH = Path("scraper/importer/products_mapping.json")
+_SAVE_LOCK = threading.Lock()
 
 
 def load_mapping() -> dict:
@@ -20,11 +23,17 @@ def load_mapping() -> dict:
 
 def save_mapping(mapping: dict) -> None:
     """
-    Zapisuje mapowanie produktów do pliku JSON.
+    Zapisuje mapowanie produktów do pliku JSON (bezpieczne dla wątków).
     """
 
-    with MAPPING_PATH.open("w", encoding="utf-8") as file:
-        json.dump(mapping, file, indent=4, ensure_ascii=False)
+    with _SAVE_LOCK:
+        # shortcut: json.dumps bez indent idzie przez enkoder C bez oddawania GIL, więc to
+        # spójna migawka mimo zmian z innych wątków; na Pythonie free-threaded trzeba lock na każdej mutacji
+        snapshot = json.loads(json.dumps(mapping))
+        tmp_path = MAPPING_PATH.with_suffix(".json.tmp")
+        with tmp_path.open("w", encoding="utf-8") as file:
+            json.dump(snapshot, file, indent=4, ensure_ascii=False)
+        os.replace(tmp_path, MAPPING_PATH)
 
 def get_product_mapping(mapping: dict, source_id: int) -> dict | None:
     """

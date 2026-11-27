@@ -41,8 +41,8 @@
   "meta_title": "USA Bread&Butter Cab. Sauvignon Reserve",
   "link_rewrite": "usa-breadbutter-cab-sauvignon-reserve",
   "name": "USA Bread&Butter Cab. Sauvignon Reserve",
-  "description": "<p>Bread &amp; Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, bogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych Cabernet Sauvignon.<br />Charakterystyka<br />Kraj: USA<br />Region: Napa Valley, Kalifornia<br />Szczep: ok. 97% Cabernet Sauvignon, 3% Petite Sirah (w zależności od rocznika)<br />Styl: wytrawne, pełne i skoncentrowane<br />Alkohol: ok. 14,5%<br />Dojrzewanie: około 14 miesięcy w beczkach z francuskiego dębu.<br />Aromat i smak<br />czarne wiśnie i jeżyny,<br />śliwki,<br />mocha i gorzka czekolada,<br />wanilia,<br />cedr, goździki i przyprawy korzenne,<br />długi finisz z wyraźnymi, ale aksamitnymi taninami.<br />Do czego pasuje?<br />Świetnie komponuje się z:<br />stekiem z grilla,<br />jagnięciną,<br />pieczoną wołowiną,<br />burgerami premium,<br />dojrzałymi serami (cheddar, gouda długo dojrzewająca, parmezan).<br />Ocena<br />To wino regularnie zdobywa 90–91 punktów w Wine Enthusiast, co potwierdza jego wysoką jakość w swojej kategorii cenowej.</p>",
-  "description_short": "<p>Bread &amp; Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, bogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych Cabernet Sauvignon.</p>",
+  "description": "Bread &amp; Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, \r\nbogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych \r\nCabernet Sauvignon.<BR>Charakterystyka<BR>Kraj: USA<BR>Region: Napa Valley, \r\nKalifornia<BR>Szczep: ok. 97% Cabernet Sauvignon, 3% Petite Sirah (w zależności \r\nod rocznika)<BR>Styl: wytrawne, pełne i skoncentrowane<BR>Alkohol: ok. \r\n14,5%<BR>Dojrzewanie: około 14 miesięcy w beczkach z francuskiego \r\ndębu.<BR>Aromat i smak<BR>czarne wiśnie i jeżyny,<BR>śliwki,<BR>mocha i gorzka \r\nczekolada,<BR>wanilia,<BR>cedr, goździki i przyprawy korzenne,<BR>długi finisz z \r\nwyraźnymi, ale aksamitnymi taninami.<BR>Do czego pasuje?<BR>Świetnie komponuje \r\nsię z:<BR>stekiem z grilla,<BR>jagnięciną,<BR>pieczoną wołowiną,<BR>burgerami \r\npremium,<BR>dojrzałymi serami (cheddar, gouda długo dojrzewająca, \r\nparmezan).<BR>Ocena<BR>To wino regularnie zdobywa 90–91 punktów w Wine \r\nEnthusiast, co potwierdza jego wysoką jakość w swojej kategorii \r\ncenowej.<BR>\r\n",
+  "description_short": "<p>Bread & Butter Reserve Cabernet Sauvignon (USA, Napa Valley) to pełne, bogate czerwone wino z Kalifornii, stworzone dla miłośników intensywnych Cabernet Sauvignon.<br/></p>",
   "available_now": "",
   "available_later": "",
   "id": 3038,
@@ -279,5 +279,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -34,7 +34,7 @@
   "cache_default_attribute": 3280,
   "advanced_stock_management": "0",
   "date_add": "2026-10-21 21:23:24",
-  "date_upd": "2026-10-31 14:20:33",
+  "date_upd": "2026-11-13 15:42:26",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -48,7 +48,7 @@
   "id": 3131,
   "id_product": 3131,
   "out_of_stock": 2,
-  "new": 1,
+  "new": 0,
   "id_product_attribute": 3280,
   "quantity_wanted": 1,
   "extraContent": [],
@@ -273,5 +273,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

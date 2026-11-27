@@ -1,4 +1,5 @@
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -9,8 +10,7 @@ SOURCE_DIR = Path("scraper_results/products")
 # Katalog zawierający pobrane zdjęcia produktów
 PHOTOS_DIR = Path("scraper_results/product_photos")
 
-# Brak stałego limitu liczby produktów; selector dobiera maksymalną pulę
-# zgodną z wymaganiami dotyczącymi stanu magazynowego.
+# Docelowa liczba produktów do importu; None = wszystkie poprawne (ze zdjęciem i opisem)
 TARGET_PRODUCTS = None
 
 
@@ -138,6 +138,23 @@ def filter_products_with_photos(products, photos_dir=PHOTOS_DIR):
             valid_products[product_id] = records
 
     return valid_products
+
+
+def has_description(records) -> bool:
+    """Czy któryś rekord produktu ma niepusty opis (po usunięciu tagów HTML)."""
+    return any(
+        re.sub(r"<[^>]*>|&nbsp;|\s", "", record.get("description") or "")
+        for record in records
+    )
+
+
+def filter_products_with_description(products):
+    """Pozostawia wyłącznie produkty z niepustym opisem."""
+    return {
+        product_id: records
+        for product_id, records in products.items()
+        if has_description(records)
+    }
 
 
 def filter_categories(categories, valid_products):
@@ -283,6 +300,10 @@ def select_products(
         raise ValueError("Nieprawidłowy zakres udziału produktów ze stanem 0.")
 
     photos_dir = Path(photos_dir)
+    if target is None:
+        target = len(valid_products)
+
+    selected_ids = set()
 
     # Domyślnie nie ograniczamy selekcji do 1100 produktów.
     # Dobieramy maksymalną pulę, która może spełnić limit 5-20% produktów
@@ -451,6 +472,8 @@ def select_products(
             "Brakuje produktów z poprawną ceną regularną albo limit selekcji "
             "nie pozwala dodać kolejnych produktów."
         )
+    # ETAP 3: Uzupełnienie puli do docelowej liczby produktów.
+    for product_id in valid_products:
 
     # ETAP 4: zapewniamy minimum 5% produktów ze stanem 0.
     zero_candidates = sorted(
@@ -561,6 +584,9 @@ def run_selection(
         photos_dir
     )
 
+    # Odrzucenie produktów bez opisu
+    valid_products = filter_products_with_description(valid_products)
+
     # Aktualizacja struktury kategorii
     valid_categories = filter_categories(
         categories,
@@ -595,7 +621,9 @@ if __name__ == "__main__":
     print("Produkty z minimum 2 zdjęciami:", multiple_photos)
 
     # ETAP 3: Odrzucenie produktów bez zdjęć
-    valid_products = filter_products_with_photos(products)
+    valid_products = filter_products_with_description(
+        filter_products_with_photos(products)
+    )
 
     # ETAP 4: Aktualizacja struktury kategorii
     valid_categories = filter_categories(
@@ -604,10 +632,10 @@ if __name__ == "__main__":
     )
 
     print("\n========== PO FILTROWANIU ==========")
-    print("Produkty posiadające zdjęcia:", len(valid_products))
+    print("Produkty ze zdjęciem i opisem:", len(valid_products))
     print("Niepuste podkategorie:", len(valid_categories))
 
-    # ETAP 5: Wybór maksymalnej puli zgodnej z ograniczeniami
+    # ETAP 5: Wybór produktów
     selected_products, selected_categories = select_products(
         valid_products,
         valid_categories

@@ -41,7 +41,7 @@
   "meta_title": "LIKIER Jagermeister Orange",
   "link_rewrite": "likier-jagermeister-orange",
   "name": "LIKIER Jagermeister Orange",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><STRONG><SPAN style='line-height: 115%; font-size: 12pt; font-weight: normal; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold;'><FONT \r\nface=\"Calibri\">Jägermeister Orange 33% (700 ml) to nowoczesna interpretacja \r\nznanego na całym świecie niemieckiego likieru ziołowego, wzbogacona o wyrazisty \r\nsmak dojrzałych pomarańczy. Unikalna receptura łączy aż 56 starannie \r\nwyselekcjonowanych ziół, korzeni i przypraw z owocową świeżością, tworząc \r\nharmonijny profil smakowy - słodki, gorzki i orzeźwiający zarazem. Zawierający \r\n33% alkoholu, Jägermeister Orange jest nieco mocniejszy niż tradycyjne likiery \r\ncytrusowe, ale nadal zachowuje łagodność i przyjemność w degustacji. Najlepiej \r\nsmakuje dobrze schłodzony, serwowany w formie shota, ale doskonale odnajduje się \r\ntakże w roli składnika w letnich koktajlach i drinkach. Charakterystyczna, \r\nelegancka butelka o pojemności 700 ml nadaje temu wariantowi klasycznego trunku \r\nnowoczesny, stylowy charakter. Jägermeister Orange to doskonała propozycja dla \r\nmiłośników niebanalnych, ziołowo-owocowych kompozycji. Świetnie sprawdzi się na \r\nimprezach, spotkaniach z przyjaciółmi oraz w chwilach, które chcesz uczcić \r\nwyjątkowym smakiem.</FONT></SPAN></STRONG></P>\r\n",
+  "description": "\r\n<P style=\"MARGIN: 0cm 0cm 10pt\"><STRONG><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-WEIGHT: normal; LINE-HEIGHT: 115%; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL; mso-bidi-font-weight: bold'><FONT \r\nface=Calibri>Jägermeister Orange 33% (700 ml) to nowoczesna interpretacja \r\nznanego na całym świecie niemieckiego likieru ziołowego, wzbogacona o wyrazisty \r\nsmak dojrzałych pomarańczy. Unikalna receptura łączy aż 56 starannie \r\nwyselekcjonowanych ziół, korzeni i przypraw z owocową świeżością, tworząc \r\nharmonijny profil smakowy - słodki, gorzki i orzeźwiający zarazem. Zawierający \r\n33% alkoholu, Jägermeister Orange jest nieco mocniejszy niż tradycyjne likiery \r\ncytrusowe, ale nadal zachowuje łagodność i przyjemność w degustacji. Najlepiej \r\nsmakuje dobrze schłodzony, serwowany w formie shota, ale doskonale odnajduje się \r\ntakże w roli składnika w letnich koktajlach i drinkach. Charakterystyczna, \r\nelegancka butelka o pojemności 700 ml nadaje temu wariantowi klasycznego trunku \r\nnowoczesny, stylowy charakter. Jägermeister Orange to doskonała propozycja dla \r\nmiłośników niebanalnych, ziołowo-owocowych kompozycji. Świetnie sprawdzi się na \r\nimprezach, spotkaniach z przyjaciółmi oraz w chwilach, które chcesz uczcić \r\nwyjątkowym smakiem.</FONT></SPAN></STRONG></P>\r\n",
   "description_short": "<p>Jägermeister Orange 33% (700 ml) to nowoczesna interpretacja znanego na całym świecie niemieckiego likieru ziołowego, wzbogacona o wyrazisty smak dojrzałych pomarańczy.</p>",
   "available_now": "",
   "available_later": "",
@@ -63,7 +63,7 @@
   "reduction": 0,
   "specific_prices": [],
   "quantity": 2,
-  "quantity_all_versions": 3,
+  "quantity_all_versions": 5,
   "id_image": "pl-default",
   "features": [
     {
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

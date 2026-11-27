@@ -2,8 +2,8 @@
  * Kod rabatowy (Classic) jak w źródle: pole zawsze widoczne, bez zwijanego „Masz kod promocyjny?”.
  * Nagłówek boksu jest w checkout/cart.tpl, bo ten plik odświeża AJAX (.js-cart-voucher).
  * W podsumowaniu zamówienia (checkout) Classic też go używa - tam pole też jest od razu widoczne.
+ * Bez {if $cart.vouchers.allowed}: sklep nie ma reguł koszyka, a pole ma być zawsze (odpowiedź daje custom.js).
  *}
-{if $cart.vouchers.allowed}
   {block name='cart_voucher'}
     <div class="block-promo">
       <div class="cart-voucher js-cart-voucher">
@@ -50,4 +50,3 @@
       </div>
     </div>
   {/block}
-{/if}

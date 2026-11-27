@@ -1,0 +1,498 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5010314315092",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "7 770,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-11-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3288,
+  "advanced_stock_management": "0",
+  "date_add": "2026-11-10 17:53:53",
+  "date_upd": "2026-11-23 17:07:14",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+  "link_rewrite": "whisky-macallan-time-space-sherry-cask-448-07l",
+  "name": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+  "description": "<p>THE MACALLAN TIME : SPACE SHERRY CASK 20YO – EDYCJA LIMITOWANA</p>\n<p></p>\n<p>The Macallan Time : Space Sherry Cask 20YO to trzecia odsłona kolekcji Time, a zarazem pierwsza whisky tej destylarni dojrzewająca w beczkach po sherry pochodzących z własnej bednarni The Macallan w Jerez de la Frontera w Hiszpanii.</p>\n<p></p>\n<p>Wyjątkowy charakter tej edycji podkreśla niezwykła oprawa. Whisky została zamknięta w eleganckiej, okrągłej karafce typu decanter i umieszczona w specjalnie zaprojektowanym opakowaniu. Inspiracją dla projektu była odmiana winogron Palomino, stanowiąca podstawę produkcji sherry, a także intensywne, złociste światło słońca Andaluzji.</p>\n<p></p>\n<p>Wyjątkowość trunku wynika również z dwuetapowego procesu dojrzewania. Whisky początkowo leżakuje przez wiele lat w starannie wyselekcjonowanych beczkach dębowych po sherry, wykonanych przede wszystkim z dębu europejskiego. Następnie poddawana jest procesowi łączenia i harmonizacji aromatów (*marrying*) w kolejnych beczkach dębowych po sherry, dostarczanych przez renomowaną, wieloletnią winiarnię Valdespino z Jerez de la Frontera.</p>\n<p></p>\n<p>Zastosowanie dwóch etapów dojrzewania w beczkach nasyconych charakterem sherry pozwala uzyskać niezwykłą głębię i koncentrację smaku. Efektem jest whisky o dojrzałym, intensywnym i wielowymiarowym profilu, w którym dominują nuty ciemnych owoców, szlachetnych orzechów, czekolady oraz przyprawionego dębu.</p>\n<p></p>\n<p>The Macallan Time : Space Sherry Cask 20YO to wyjątkowa propozycja dla koneserów szkockiej whisky single malt, poszukujących rzadkich i dopracowanych edycji. Połączenie wieloletniego dojrzewania, wyjątkowych beczek po sherry oraz dopracowanego projektu opakowania czyni tę limitowaną edycję szczególnie interesującą pozycją kolekcjonerską i prestiżowym prezentem.</p>",
+  "description_short": "<p>The Macallan Time : Space Sherry Cask 20YO 44,8% 700 ml<br />The Macallan Time : Space Sherry Cask to wyjątkowa szkocka whisky single malt, stworzona jako hołd dla czasu, tradycji i rzemiosła destylacyjnego. Edycja ta łączy dwa miejsca o szczególnym znaczeniu</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3141,
+  "id_product": 3141,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3288,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3141-whisky-macallan-time-space-sherry-cask-448-07l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 6317.073171,
+  "price_without_reduction": 7770,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5010314315092",
+      "ean13": "5010314315092",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4941,
+      "legend": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4941-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4941-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4941-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4941-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4942,
+      "legend": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4942-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4942-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4942-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4942-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4942-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4942-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4942-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4942-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4942-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4942-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4942-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4942-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4942-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4942-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4942-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4942-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4943,
+      "legend": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+      "position": 3,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4943-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4943-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4943-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4943-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4943-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4943-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4943-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4943-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4943-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4943-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4943-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4943-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4943-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4943-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4943-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4943-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 4944,
+      "legend": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+      "position": 4,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4944-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4944-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4944-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4944-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4944-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4944-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4944-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4944-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4944-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4944-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4944-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4944-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4944-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4944-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4944-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4944-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4941,
+    "legend": "WHISKY Macallan Time Space Sherry Cask 44,8% 0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4941-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-small_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4941-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-medium_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4941-cart_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4941-home_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4941-large_default/whisky-macallan-time-space-sherry-cask-448-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 7770,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

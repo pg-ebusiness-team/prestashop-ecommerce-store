@@ -13,7 +13,7 @@
   "minimal_quantity": 1,
   "low_stock_threshold": null,
   "low_stock_alert": "0",
-  "price": "69,00 zł",
+  "price": "79,00 zł",
   "unity": "szt.",
   "unit_price": "",
   "unit_price_ratio": 0,
@@ -58,12 +58,12 @@
   "link": "https://luksusowealkohole.pl/wino/165-wino-marlborough-sun-sauvignon-blanc",
   "manufacturer_name": null,
   "attribute_price": 0,
-  "price_tax_exc": 56.097561,
-  "price_without_reduction": 69,
+  "price_tax_exc": 64.227642,
+  "price_without_reduction": 79,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 5,
-  "quantity_all_versions": 5,
+  "quantity": 13,
+  "quantity_all_versions": 13,
   "id_image": "pl-default",
   "features": [
     {
@@ -296,10 +296,12 @@
   "discount_percentage_absolute": null,
   "discount_amount": null,
   "discount_amount_to_display": null,
-  "price_amount": 69,
+  "price_amount": 79,
   "unit_price_full": "",
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 67,
   "id_supplier": 0,
   "reference": "5010327253848",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 2603,
   "advanced_stock_management": "0",
   "date_add": "2025-08-04 12:32:36",
-  "date_upd": "2026-05-22 20:43:56",
+  "date_upd": "2026-11-24 15:12:58",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Grant's Summer Orange",
   "link_rewrite": "whisky-grant-s-summer-orange",
   "name": "WHISKY Grant's Summer Orange",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grant's \r\nSummer Orange to orzeźwiający miks, łączący klasyczną szkocką whisky Grant's z \r\nsoczystym aromatem słodkich pomarańczy z Sycylii. Butelkowany przy delikatnej \r\nmocy 35%, najlepiej smakuje podawany z lodem i plasterkiem pomarańczy. To \r\nidealny wybór na letnie wieczory, gdy chcemy delektować się pełnym, owocowym i \r\nświeżym smakiem. Napój bazuje na naturalnym ekstrakcie z sycylijskich \r\npomarańczy, który doskonale komponuje się z lemoniadą, podkreślając pomarańczowy \r\naromat i tworząc lekką, owocową mieszankę. Aby wzbogacić doznania smakowe, warto \r\ndodać świeży plaster pomarańczy, co podkreśli świeżość i wyjątkowość tego \r\nkoktajlu.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Grant's Summer Orange to orzeźwiający miks, łączący klasyczną szkocką whisky Grant's z soczystym aromatem słodkich pomarańczy z Sycylii. Butelkowany przy delikatnej mocy 35%, najlepiej smakuje podawany z lodem i plasterkiem pomarańczy. To idealny wybór na letnie wieczory, gdy chcemy delektować się pełnym, owocowym i świeżym smakiem. Napój bazuje na naturalnym ekstrakcie z sycylijskich pomarańczy, który doskonale komponuje się z lemoniadą, podkreślając pomarańczowy aromat i tworząc lekką, owocową mieszankę. Aby wzbogacić doznania smakowe, warto dodać świeży plaster pomarańczy, co podkreśli świeżość i wyjątkowość tego koktajlu.</span></p>",
   "description_short": "<p>Grant's Summer Orange to orzeźwiający miks, łączący klasyczną szkocką whisky Grant's z soczystym aromatem słodkich pomarańczy z Sycylii.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/2402-whisky-grant-s-summer-orange",
-  "manufacturer_name": null,
+  "manufacturer_name": "Grants",
   "attribute_price": 0,
   "price_tax_exc": 56.910569,
   "price_without_reduction": 70,
@@ -367,5 +367,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

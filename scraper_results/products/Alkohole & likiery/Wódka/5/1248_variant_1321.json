@@ -1,0 +1,366 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "7640175713256",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "650,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-12-02",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1321,
+  "advanced_stock_management": "0",
+  "date_add": "2024-12-02 10:11:57",
+  "date_upd": "2025-02-20 12:50:00",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Grey Goose Altius",
+  "link_rewrite": "wodka-grey-goose-altius",
+  "name": "WÓDKA Grey Goose Altius",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Grey \r\nGoose Altius to luksusowa wódka, która łączy w sobie najwyższej jakości \r\nskładniki, niepowtarzalny smak i elegancki design. Ta prestiżowa wódka o \r\npojemności 0,7 litra i mocy 40% jest idealnym wyborem dla prawdziwych koneserów. \r\nGrey Goose Altius powstaje z czystej alpejskiej wody źródlanej oraz delikatnej \r\npszenicy ozimej z regionu Pikardii we Francji. Każda partia wódki jest starannie\r\n chłodzona i filtrowana w temperaturach -24 stopni Celsjusza, co zapewnia\r\n doskonałą czystość i smak. Przed butelkowaniem każda partia jest skrupulatnie\r\n sprawdzana przez Cellar Mastera, a każda butelka jest ręcznie numerowana, co\r\n podkreśla jej unikalność i wyjątkowy charakter.Butelka Grey Goose Altius to\r\n prawdziwe dzieło sztuki, inspirowane majestatycznymi francuskimi Alpami. Jej\r\n elegancki kształt oddaje ducha wietrznych gór, lodowato niebieskiego nieba oraz\r\n gęsi szybujących na dużych wysokościach. Podświetlana butelka nie tylko \r\nzachwyca wzrok, ale również dodaje wyjątkowego klimatu każdemu spotkaniu, stając \r\nsię punktem centralnym na stole. Grey Goose Altius najlepiej smakuje schłodzona \r\nlub jako baza do eleganckich koktajli. Idealnie sprawdzi się podczas wyjątkowych\r\n okazji, przyjęć, a także romantycznych wieczorów. To także doskonały wybór na\r\n prezent dla bliskich, którzy cenią sobie luksusowe alkohole i elegancki design.\r\n Wódka Grey Goose Altius to nie tylko doskonały trunek, ale także symbol\r\n elegancji i wyrafinowania. Idealna jako prezent lub na własne chwile relaksu, z\r\n pewnością zadowoli każdego konesera.</SPAN></P>\r\n",
+  "description_short": "<p>Grey Goose Altius to luksusowa wódka, która łączy w sobie najwyższej jakości składniki, niepowtarzalny smak i elegancki design. Ta prestiżowa wódka o pojemności 0,7 litra i mocy 40% jest idealnym wyborem dla prawdziwych koneserów.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1248,
+  "id_product": 1248,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1321,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/1248-wodka-grey-goose-altius",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 528.455285,
+  "price_without_reduction": 650.000001,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Francja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 25
+    },
+    {
+      "name": "Alkohol",
+      "value": "40%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 223
+    },
+    {
+      "name": "Kolor",
+      "value": "Białe",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 20
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Czysta",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 523
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "7640175713256",
+      "ean13": "7640175713256",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1765,
+      "legend": "WÓDKA Grey Goose Altius",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1765-small_default/wodka-grey-goose-altius.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1765-small_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1765-medium_default/wodka-grey-goose-altius.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1765-medium_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "associatedVariants": []
+    },
+    {
+      "cover": null,
+      "id_image": 1766,
+      "legend": "WÓDKA Grey Goose Altius",
+      "position": 2,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1766-cart_default/wodka-grey-goose-altius.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1766-cart_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1766-small_default/wodka-grey-goose-altius.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1766-small_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1766-home_default/wodka-grey-goose-altius.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1766-home_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1766-medium_default/wodka-grey-goose-altius.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1766-medium_default/wodka-grey-goose-altius.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1766-large_default/wodka-grey-goose-altius.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1766-large_default/wodka-grey-goose-altius.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1766-cart_default/wodka-grey-goose-altius.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1766-cart_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1766-home_default/wodka-grey-goose-altius.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1766-home_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1766-large_default/wodka-grey-goose-altius.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1766-large_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1765,
+    "legend": "WÓDKA Grey Goose Altius",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1765-small_default/wodka-grey-goose-altius.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-small_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1765-medium_default/wodka-grey-goose-altius.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-medium_default/wodka-grey-goose-altius.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1765-cart_default/wodka-grey-goose-altius.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1765-home_default/wodka-grey-goose-altius.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1765-large_default/wodka-grey-goose-altius.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 650,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

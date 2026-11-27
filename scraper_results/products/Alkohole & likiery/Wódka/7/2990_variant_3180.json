@@ -1,0 +1,279 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5904730405966",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "85,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-05-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3180,
+  "advanced_stock_management": "0",
+  "date_add": "2026-05-11 22:25:50",
+  "date_upd": "2026-05-13 21:37:25",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Smakowa Parzenica Litworówecka 38% 0,5l",
+  "link_rewrite": "wodka-smakowa-parzenica-litworowecka-38-05l",
+  "name": "WÓDKA Smakowa Parzenica Litworówecka 38% 0,5l",
+  "description": "Parzenica Litworówecka – regionalna wódka smakowa inspirowana góralską \r\ntradycją<BR>Parzenica Litworówecka to wyjątkowa polska wódka smakowa, \r\ninspirowana tradycją Podhala i charakterystycznymi recepturami regionalnych \r\nnalewek. Powstała z połączenia wysokiej jakości spirytusu oraz \r\nwyselekcjonowanych składników roślinnych, tworząc aromatyczny trunek o \r\nwyrazistym, ziołowo-korzennym charakterze.<BR>Nazwa „Litworówecka” nawiązuje do \r\nlitworu – górskiej rośliny od wieków cenionej w tradycyjnych recepturach \r\nregionalnych alkoholi. Dzięki temu wódka wyróżnia się oryginalnym profilem \r\nsmakowym, który łączy delikatną słodycz, ziołową świeżość oraz subtelne korzenne \r\nakcenty. To doskonała propozycja dla osób poszukujących tradycyjnych polskich \r\nalkoholi premium z regionalnym charakterem.<BR>Aromat<BR>Aromat jest intensywny \r\ni wyrazisty. Dominują nuty ziół górskich, korzeni oraz delikatnych przypraw. W \r\ntle pojawiają się subtelne akcenty leśne i lekko słodkie niuanse, nadające \r\ntrunkowi charakterystycznej głębi.<BR>Smak<BR>Na podniebieniu wódka prezentuje \r\nharmonijne połączenie ziołowej świeżości, delikatnej słodyczy oraz lekko \r\nkorzennego charakteru. Wyczuwalne są nuty ziół, górskich roślin i subtelnych \r\nprzypraw, które tworzą pełny i rozgrzewający profil smakowy. Całość pozostaje \r\nprzyjemnie gładka i dobrze zbalansowana.<BR>Finisz<BR>Średnio długi, ziołowy i \r\nlekko korzenny. Pozostawia na podniebieniu przyjemne nuty roślinne oraz subtelne \r\nrozgrzewające akcenty.<BR>Jak podawać?<BR>Parzenica Litworówecka najlepiej \r\nsmakuje dobrze schłodzona, serwowana solo lub jako regionalny akcent podczas \r\nspotkań towarzyskich. Świetnie sprawdzi się również jako baza do autorskich \r\ndrinków inspirowanych góralskimi smakami.<BR>Dlaczego warto wybrać Parzenica \r\nLitworówecka?<BR>polska wódka smakowa inspirowana tradycją \r\nPodhala<BR>ziołowo-korzenny profil smakowy<BR>regionalny charakter i oryginalna \r\nreceptura<BR>idealna do degustacji solo<BR>ciekawa propozycja dla miłośników \r\ntradycyjnych alkoholi<BR>doskonała na prezent i regionalne okazje\r\n",
+  "description_short": "<p>Parzenica Litworówecka to wyjątkowa polska wódka smakowa, inspirowana tradycją Podhala i charakterystycznymi recepturami regionalnych nalewek</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2990,
+  "id_product": 2990,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 3180,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2990-wodka-smakowa-parzenica-litworowecka-38-05l",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 69.105691,
+  "price_without_reduction": 85,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Alkohol",
+      "value": "38%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 233
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 27,
+      "id_attribute_group": 5,
+      "name": "0,5 l",
+      "group": "Pojemność",
+      "reference": "5904730405966",
+      "ean13": "5904730405966",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4726,
+      "legend": "WÓDKA Smakowa Parzenica Litworówecka 38% 0,5l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4726-small_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4726-small_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4726-medium_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4726-medium_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4726,
+    "legend": "WÓDKA Smakowa Parzenica Litworówecka 38% 0,5l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4726-small_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-small_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4726-medium_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-medium_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4726-cart_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4726-home_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4726-large_default/wodka-smakowa-parzenica-litworowecka-38-05l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 85,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

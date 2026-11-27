@@ -34,7 +34,7 @@
   "cache_default_attribute": 3229,
   "advanced_stock_management": "0",
   "date_add": "2026-09-01 22:45:51",
-  "date_upd": "2026-09-01 23:45:27",
+  "date_upd": "2026-11-24 18:47:55",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -124,73 +124,73 @@
   "images": [
     {
       "cover": 1,
-      "id_image": 4815,
+      "id_image": 4976,
       "legend": "KONIAK Martell VS",
       "position": 1,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg",
+          "url": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg"
+            "jpg": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/4815-small_default/koniak-martell-vs.jpg",
+          "url": "https://luksusowealkohole.pl/4976-small_default/koniak-martell-vs.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4815-small_default/koniak-martell-vs.jpg"
+            "jpg": "https://luksusowealkohole.pl/4976-small_default/koniak-martell-vs.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg",
+          "url": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg"
+            "jpg": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/4815-medium_default/koniak-martell-vs.jpg",
+          "url": "https://luksusowealkohole.pl/4976-medium_default/koniak-martell-vs.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4815-medium_default/koniak-martell-vs.jpg"
+            "jpg": "https://luksusowealkohole.pl/4976-medium_default/koniak-martell-vs.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg",
+          "url": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg"
+            "jpg": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg"
         }
       },
       "associatedVariants": []
@@ -198,73 +198,73 @@
   ],
   "cover": {
     "cover": 1,
-    "id_image": 4815,
+    "id_image": 4976,
     "legend": "KONIAK Martell VS",
     "position": 1,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/4815-small_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-small_default/koniak-martell-vs.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-small_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-small_default/koniak-martell-vs.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/4815-medium_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-medium_default/koniak-martell-vs.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-medium_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-medium_default/koniak-martell-vs.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg",
+        "url": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg"
+          "jpg": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg",
+      "url": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4815-cart_default/koniak-martell-vs.jpg"
+        "jpg": "https://luksusowealkohole.pl/4976-cart_default/koniak-martell-vs.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg",
+      "url": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4815-home_default/koniak-martell-vs.jpg"
+        "jpg": "https://luksusowealkohole.pl/4976-home_default/koniak-martell-vs.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg",
+      "url": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4815-large_default/koniak-martell-vs.jpg"
+        "jpg": "https://luksusowealkohole.pl/4976-large_default/koniak-martell-vs.jpg"
       }
     },
     "associatedVariants": []
@@ -280,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

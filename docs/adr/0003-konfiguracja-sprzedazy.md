@@ -37,7 +37,7 @@ Ograniczenia:
 Opcja 4.
 
 - `shop/scripts/configure-sales.php` ładuje `config/config.inc.php` i używa klas `Module`, `Configuration`,
-  `OrderState` (a w kolejnych etapach `Carrier`, `RangeWeight`). PrestaShop sam pilnuje powiązanych tabel i cache.
+  `OrderState`, `Carrier`, `RangeWeight`. PrestaShop sam pilnuje powiązanych tabel i cache.
 - `shop/init-scripts/20-configure-sales.sh` uruchamia go jako `www-data` po instalacji, przed startem Apache —
   tym samym mechanizmem co konfiguracja poczty (`10-configure-mail.sh`).
 - Skrypt jest idempotentny: zmienia tylko to, co odbiega od opisanego stanu; przewoźników rozpoznaje po

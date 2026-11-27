@@ -159,73 +159,73 @@
   "images": [
     {
       "cover": 1,
-      "id_image": 3569,
+      "id_image": 4952,
       "legend": "PROSECCO Borgo Molino Asolo Extra Brut",
       "position": 1,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+          "url": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+            "jpg": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/3569-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+          "url": "https://luksusowealkohole.pl/4952-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/3569-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+            "jpg": "https://luksusowealkohole.pl/4952-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+          "url": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+            "jpg": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/3569-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+          "url": "https://luksusowealkohole.pl/4952-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/3569-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+            "jpg": "https://luksusowealkohole.pl/4952-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+          "url": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+            "jpg": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "associatedVariants": []
@@ -233,73 +233,73 @@
   ],
   "cover": {
     "cover": 1,
-    "id_image": 3569,
+    "id_image": 4952,
     "legend": "PROSECCO Borgo Molino Asolo Extra Brut",
     "position": 1,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/3569-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-small_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/3569-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-medium_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+        "url": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+          "jpg": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+      "url": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3569-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+        "jpg": "https://luksusowealkohole.pl/4952-cart_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+      "url": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3569-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+        "jpg": "https://luksusowealkohole.pl/4952-home_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
+      "url": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/3569-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
+        "jpg": "https://luksusowealkohole.pl/4952-large_default/prosecco-borgo-molino-asolo-extra-brut.jpg"
       }
     },
     "associatedVariants": []
@@ -315,5 +315,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

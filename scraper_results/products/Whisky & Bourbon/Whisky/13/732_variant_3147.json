@@ -57,7 +57,7 @@
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/732-whisky-tomatin-12-y-o",
   "manufacturer_name": null,
-  "attribute_price": -149.593496,
+  "attribute_price": -157.723577,
   "price_tax_exc": 36.585366,
   "price_without_reduction": 45,
   "reduction": 0,
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

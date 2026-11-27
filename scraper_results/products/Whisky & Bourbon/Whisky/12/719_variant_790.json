@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281038094",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 790,
   "advanced_stock_management": "0",
   "date_add": "2024-07-20 14:59:32",
-  "date_upd": "2025-04-13 23:13:15",
+  "date_upd": "2026-11-24 15:18:57",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Talisker Skye",
   "link_rewrite": "whisky-talisker-skye",
   "name": "WHISKY Talisker Skye",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Whisky \r\nTalisker Sky produkowana w gorzelni Talisker, leżakowana w beczkach po Bourbonie \r\ni op sherry. Charakteryzuje się aromatem soczystych pomarańczy, mango z nutą \r\nsoli morskiej i pieprzu. Na podniebieniu słodka z wyraźnym akcentem karmelu, \r\nmiodu oraz przypraw korzennych i dym torfowego.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Whisky Talisker Sky produkowana w gorzelni Talisker, leżakowana w beczkach po Bourbonie i op sherry. Charakteryzuje się aromatem soczystych pomarańczy, mango z nutą soli morskiej i pieprzu. Na podniebieniu słodka z wyraźnym akcentem karmelu, miodu oraz przypraw korzennych i dym torfowego.</span></p>",
   "description_short": "<p>Whisky Talisker Sky produkowana w gorzelni Talisker, leżakowana w beczkach po Bourbonie i op sherry. Charakteryzuje się aromatem soczystych pomarańczy, mango z nutą soli morskiej i pieprzu.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/719-whisky-talisker-skye",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 161.788618,
   "price_without_reduction": 199,
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

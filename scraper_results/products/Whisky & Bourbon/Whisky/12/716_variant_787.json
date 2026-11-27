@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281033631",
   "is_virtual": "0",
@@ -34,7 +34,7 @@
   "cache_default_attribute": 787,
   "advanced_stock_management": "0",
   "date_add": "2024-07-20 14:49:06",
-  "date_upd": "2025-04-13 23:14:56",
+  "date_upd": "2026-11-24 15:20:36",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/716-whisky-talisker-dark-storm",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 308.130081,
   "price_without_reduction": 379,
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

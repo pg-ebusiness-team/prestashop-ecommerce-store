@@ -41,8 +41,8 @@
   "meta_title": "WINO Soligo Cabernet Franc",
   "link_rewrite": "wino-soligo-cabernet-franc",
   "name": "WINO Soligo Cabernet Franc",
-  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Winogrona są zbierane w momencie osiągnięcia optimum równowagi pomiędzy dojrzałością, a zachowaniem składników aromatycznych - zazwyczaj w październiku. Wino ma kolor ciemnej rubinowej czerwieni z purpurowymi odcieniami. Bukiet prezentuje typowe dla odmiany winorośli nuty ziołowe, wzbogacone tonami jeżyn, malin i lekko pikantnym zapachem tytoniu. W ustach przyjemne, z harmonijne dobranym ciałem do struktury, finisz o dobrej długości podkreślony taninami. To wino (z wzajemnością) uwielbia towarzystwo jedzenia - nadaje się do łączenia z czerwonym pieczonym lub duszonym mięsem i ptactwem. Jego pełny smak doskonale komponuje się z dojrzałym serem.</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Winogrona są zbierane w momencie osiągnięcia optimum równowagi pomiędzy dojrzałością, a zachowaniem składników aromatycznych - zazwyczaj w październiku. Wino ma kolor ciemnej rubinowej czerwieni z purpurowymi odcieniami.</span></p>",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Winogrona \r\nsą zbierane w momencie osiągnięcia optimum równowagi pomiędzy dojrzałością, a \r\nzachowaniem składników aromatycznych - zazwyczaj w październiku. Wino ma kolor \r\nciemnej rubinowej czerwieni z purpurowymi odcieniami. Bukiet prezentuje typowe \r\ndla odmiany winorośli nuty ziołowe, wzbogacone tonami jeżyn, malin i lekko\r\n pikantnym zapachem tytoniu. W ustach przyjemne, z harmonijne dobranym ciałem do\r\n struktury, finisz o dobrej długości podkreślony taninami. To wino (z\r\n wzajemnością) uwielbia towarzystwo jedzenia - nadaje się do łączenia z\r\n czerwonym pieczonym lub duszonym mięsem i ptactwem. Jego pełny smak doskonale\r\n komponuje się z dojrzałym serem.</SPAN></P>\r\n",
+  "description_short": "<p>Winogrona są zbierane w momencie osiągnięcia optimum równowagi pomiędzy dojrzałością, a zachowaniem składników aromatycznych - zazwyczaj w październiku. Wino ma kolor ciemnej rubinowej czerwieni z purpurowymi odcieniami.</p>",
   "available_now": "",
   "available_later": "",
   "id": 1173,
@@ -62,8 +62,8 @@
   "price_without_reduction": 55,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 5,
-  "quantity_all_versions": 5,
+  "quantity": 4,
+  "quantity_all_versions": 4,
   "id_image": "pl-default",
   "features": [
     {
@@ -301,5 +301,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

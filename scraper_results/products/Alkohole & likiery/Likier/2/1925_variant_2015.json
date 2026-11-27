@@ -62,8 +62,8 @@
   "price_without_reduction": 79,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 3,
-  "quantity_all_versions": 3,
+  "quantity": 0,
+  "quantity_all_versions": 0,
   "id_image": "pl-default",
   "features": [
     {
@@ -110,8 +110,8 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": true,
-  "quantity_label": "Przedmioty",
+  "show_quantities": false,
+  "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
   "images": [
@@ -271,7 +271,9 @@
   "price_amount": 79,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

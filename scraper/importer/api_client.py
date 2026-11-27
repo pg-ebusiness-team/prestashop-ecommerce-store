@@ -5,11 +5,15 @@ import requests
 
 class PrestaShopAPI:
 
-    def __init__(self, shop_url: str, api_key: str):
+    def __init__(self, shop_url: str, api_key: str, pool_size: int = 10):
         self.base_url = shop_url.rstrip("/") + "/api/"
         self.api_key = api_key
 
         self.session = requests.Session()
+        # Pula połączeń co najmniej tak duża jak liczba wątków importu
+        adapter = requests.adapters.HTTPAdapter(pool_maxsize=pool_size)
+        self.session.mount("https://", adapter)
+        self.session.mount("http://", adapter)
         self.session.verify = os.getenv("PS_VERIFY_SSL", "1") != "0"
         self.session.auth = (self.api_key, "")
         self.session.headers.update({

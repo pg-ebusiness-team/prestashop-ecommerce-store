@@ -4,17 +4,17 @@
   "id_supplier": 0,
   "reference": "8436024580013",
   "is_virtual": "0",
-  "delivery_in_stock": null,
-  "delivery_out_stock": null,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
   "id_category_default": 35,
   "on_sale": "0",
   "online_only": "0",
   "ecotax": 0,
   "minimal_quantity": 1,
-  "low_stock_threshold": null,
+  "low_stock_threshold": 0,
   "low_stock_alert": "0",
   "price": "109,00 zł",
-  "unity": "szt.",
+  "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
   "additional_shipping_cost": "0.000000",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 3284,
   "advanced_stock_management": "0",
   "date_add": "2026-11-04 23:10:52",
-  "date_upd": "2026-11-04 23:10:52",
+  "date_upd": "2026-11-23 17:07:14",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "HISZPANIA Mar De Frades Albarino 12,5% 0,75l",
   "link_rewrite": "hiszpania-mar-de-frades-albarino-125-075l",
   "name": "HISZPANIA Mar De Frades Albarino 12,5% 0,75l",
-  "description": "\r\n<P>HISZPANIA Mar de Frades Albari&#241;o 12,5% 0,75L – świeże białe wino z \r\nGalicji</P>\r\n<P>Mar de Frades Albari&#241;o to eleganckie białe wino z hiszpańskiej Galicji, \r\npochodzące z regionu Rías Baixas, słynącego z produkcji wyrazistych win ze \r\nszczepu Albari&#241;o. Zachwyca świeżością, subtelną mineralnością i aromatami owoców \r\ncytrusowych. Jego charakter nawiązuje do atlantyckiego klimatu \r\npółnocno-zachodniej Hiszpanii – jest rześkie, eleganckie i pełne energii. To \r\ndoskonały wybór dla osób ceniących wytrawne białe wina o wyraźnym, świeżym \r\nprofilu.</P>\r\n<P>Charakterystyka wina Mar de Frades Albari&#241;o</P>\r\n<P>Aromat: świeży i intensywny, z nutami cytryny, limonki, grejpfruta oraz \r\nbiałych owoców. W tle można wyczuć delikatne akcenty kwiatowe i mineralne.</P>\r\n<P>Smak: rześki, wytrawny i dobrze zbalansowany. Soczysta owocowość łączy się z \r\nprzyjemną kwasowością oraz subtelną słono-mineralną nutą, charakterystyczną dla \r\nwin z nadmorskiej Galicji.</P>\r\n<P>Finisz: świeży, czysty i elegancki, z cytrusowym akcentem oraz delikatnym \r\nmineralnym zakończeniem.</P>\r\n<P>Pochodzenie i charakter</P>\r\n<P>Mar de Frades Albari&#241;o powstaje w regionie Rías Baixas, na północno-zachodnim \r\nwybrzeżu Hiszpanii. Chłodny, atlantycki klimat sprzyja zachowaniu naturalnej \r\nświeżości winogron i wyrazistej kwasowości wina. Szczep Albari&#241;o jest ceniony za \r\naromatyczność, elegancję i doskonałe połączenie owocowego charakteru z \r\nmineralnością.</P>\r\n<P>To wino, które świetnie sprawdza się podczas letnich spotkań, eleganckich \r\nkolacji i jako towarzysz dań inspirowanych kuchnią śródziemnomorską.</P>\r\n<P>Z czym podawać?</P>\r\n<P>Owoce morza – krewetki, małże, ostrygi i przegrzebki.</P>\r\n<P>Ryby – grillowany dorsz, sola, dorada oraz delikatne ryby pieczone.</P>\r\n<P>Kuchnia śródziemnomorska – lekkie sałatki, dania z oliwą i świeżymi \r\nziołami.</P>\r\n<P>Sery – świeże sery kozie i delikatne sery dojrzewające.</P>\r\n<P>Najlepiej podawać schłodzone, w temperaturze około 8–10°C.</P>\r\n<P>Specyfikacja produktu</P>\r\n<P>Nazwa: Mar de Frades Albari&#241;o</P>\r\n<P>Kategoria: białe wino wytrawne</P>\r\n<P>Kraj pochodzenia: Hiszpania</P>\r\n<P>Region: Rías Baixas, Galicja</P>\r\n<P>Szczep: Albari&#241;o</P>\r\n<P>Zawartość alkoholu: 12,5%</P>\r\n<P>Pojemność: 0,75 l</P>\r\n",
+  "description": "<p>HISZPANIA Mar de Frades Albariño 12,5% 0,75L – świeże białe wino z Galicji</p>\n<p>Mar de Frades Albariño to eleganckie białe wino z hiszpańskiej Galicji, pochodzące z regionu Rías Baixas, słynącego z produkcji wyrazistych win ze szczepu Albariño. Zachwyca świeżością, subtelną mineralnością i aromatami owoców cytrusowych. Jego charakter nawiązuje do atlantyckiego klimatu północno-zachodniej Hiszpanii – jest rześkie, eleganckie i pełne energii. To doskonały wybór dla osób ceniących wytrawne białe wina o wyraźnym, świeżym profilu.</p>\n<p>Charakterystyka wina Mar de Frades Albariño</p>\n<p>Aromat: świeży i intensywny, z nutami cytryny, limonki, grejpfruta oraz białych owoców. W tle można wyczuć delikatne akcenty kwiatowe i mineralne.</p>\n<p>Smak: rześki, wytrawny i dobrze zbalansowany. Soczysta owocowość łączy się z przyjemną kwasowością oraz subtelną słono-mineralną nutą, charakterystyczną dla win z nadmorskiej Galicji.</p>\n<p>Finisz: świeży, czysty i elegancki, z cytrusowym akcentem oraz delikatnym mineralnym zakończeniem.</p>\n<p>Pochodzenie i charakter</p>\n<p>Mar de Frades Albariño powstaje w regionie Rías Baixas, na północno-zachodnim wybrzeżu Hiszpanii. Chłodny, atlantycki klimat sprzyja zachowaniu naturalnej świeżości winogron i wyrazistej kwasowości wina. Szczep Albariño jest ceniony za aromatyczność, elegancję i doskonałe połączenie owocowego charakteru z mineralnością.</p>\n<p>To wino, które świetnie sprawdza się podczas letnich spotkań, eleganckich kolacji i jako towarzysz dań inspirowanych kuchnią śródziemnomorską.</p>\n<p>Z czym podawać?</p>\n<p>Owoce morza – krewetki, małże, ostrygi i przegrzebki.</p>\n<p>Ryby – grillowany dorsz, sola, dorada oraz delikatne ryby pieczone.</p>\n<p>Kuchnia śródziemnomorska – lekkie sałatki, dania z oliwą i świeżymi ziołami.</p>\n<p>Sery – świeże sery kozie i delikatne sery dojrzewające.</p>\n<p>Najlepiej podawać schłodzone, w temperaturze około 8–10°C.</p>\n<p>Specyfikacja produktu</p>\n<p>Nazwa: Mar de Frades Albariño</p>\n<p>Kategoria: białe wino wytrawne</p>\n<p>Kraj pochodzenia: Hiszpania</p>\n<p>Region: Rías Baixas, Galicja</p>\n<p>Szczep: Albariño</p>\n<p>Zawartość alkoholu: 12,5%</p>\n<p>Pojemność: 0,75 l</p>",
   "description_short": "<p>Mar de Frades Albarino to eleganckie białe wino z hiszpańskiej Galicji, pochodzące z regionu Rías Baixas, słynącego z produkcji wyrazistych win ze szczepu Albarino. Zachwyca świeżością, subtelną mineralnością i aromatami owoców cytrusowych.</p>",
   "available_now": "",
   "available_later": "",
@@ -113,8 +113,154 @@
   "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
-  "images": [],
-  "cover": false,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4949,
+      "legend": "HISZPANIA Mar De Frades Albarino 12,5% 0,75l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4949-small_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4949-small_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4949-medium_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4949-medium_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4949,
+    "legend": "HISZPANIA Mar De Frades Albarino 12,5% 0,75l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4949-small_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-small_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4949-medium_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-medium_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4949-cart_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4949-home_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4949-large_default/hiszpania-mar-de-frades-albarino-125-075l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
   "has_discount": false,
   "discount_type": null,
   "discount_percentage": null,
@@ -126,5 +272,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

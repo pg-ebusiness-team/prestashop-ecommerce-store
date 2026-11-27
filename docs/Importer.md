@@ -21,11 +21,16 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `categories_mapping.py` | Mapowanie kategorii                        |
 | `attributes.py`         | Import grup i wartości atrybutów           |
 | `attributes_mapping.py` | Mapowanie atrybutów                        |
+| `features.py`           | Import cech produktów (zakładka „Szczegóły”) |
 | `products.py`           | Normalizacja, walidacja i import produktów |
 | `products_mapping.py`   | Mapowanie produktów i wariantów            |
 | `combinations.py`       | Import kombinacji produktów                |
 | `stock.py`              | Aktualizacja stanów magazynowych           |
 | `images.py`             | Import zdjęć produktów                     |
+| `selection.py`          | Wybór poprawnych produktów do importu      |
+| `weights.py`            | Wyliczanie wag produktów i wariantów       |
+| `import_attributes.py`  | Osobny import samych atrybutów             |
+| `cleanup_demo.py`       | Usuwanie danych demo (wywołuje `make init`) |
 
 ## 3. Konfiguracja
 
@@ -36,9 +41,11 @@ Najważniejsze ustawienia:
 | Zmienna                    | Zastosowanie                                                 |
 | -------------------------- | ------------------------------------------------------------ |
 | `PS_API_KEY`               | Klucz dostępu do Webservice API                              |
-| `HTTP_PORT` / `HTTPS_PORT` | Porty sklepu                                                 |
+| `HTTPS_PORT`               | Port sklepu w domyślnym adresie `https://localhost:<port>`   |
+| `SHOP_URL`                 | Adres sklepu, gdy inny niż domyślny (opcjonalnie)            |
 | `PS_VERIFY_SSL`            | Weryfikacja certyfikatu SSL                                  |
 | `PS_TAX_RULES_GROUP_MAP`   | Mapowanie stawek VAT na ID grup reguł podatkowych PrestaShop |
+| `PS_IMPORT_WORKERS`        | Liczba wątków importu produktów (domyślnie 8, opcjonalnie)   |
 
 **Mapowanie VAT:** identyfikatory w `PS_TAX_RULES_GROUP_MAP` muszą odpowiadać grupom reguł podatkowych istniejącym w danej instancji PrestaShop. Przykładowe wartości z `.env.example` nie muszą być prawidłowe dla innego sklepu.
 
@@ -64,13 +71,18 @@ Importer:
 
 - Normalizuje i waliduje dane.
 - Grupuje rekordy dotyczące tego samego produktu.
-- Ogranicza import do maksymalnie 1100 produktów oraz pomija produkty bez dostępnych zdjęć.
-- Przypisuje produkty do zaimportowanych kategorii.
+- Wybiera wszystkie poprawne produkty, czyli takie, które mają zdjęcie na dysku i niepusty opis (pusty HTML też odpada). `--limit N` ogranicza import do N produktów (np. `--limit 1100`). Selektor zawsze zapewnia co najmniej 1 produkt w każdej niepustej podkategorii i co najmniej 50 produktów z ≥2 zdjęciami. Gdy danych lub zdjęć jest za mało, kończy się błędem.
+- Przypisuje produkt do wszystkich kategorii, w których występuje w źródle. Kategorią domyślną (okruszki, adres URL) jest pierwsza z nich.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
-- Tworzy grupy atrybutów, wartości i kombinacje wariantów.
+- Tworzy grupy atrybutów, wartości i kombinacje wariantów. Wariant dostaje dopłatę do ceny: różnicę ceny netto względem pierwszego wariantu produktu.
 - Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
 - Ustawia stany magazynowe produktów i ich kombinacji w zakresie 0–10 sztuk. Udział produktów ze stanem 0 jest utrzymywany w zakresie 5–20%.
+- Tworzy cechy produktów (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) i ich wartości, a następnie przypisuje je produktom — sklep pokazuje je w sekcji „Szczegóły” karty produktu. Cechy i wartości są rozpoznawane po nazwie (bez pliku mapowania), kolejność cech odpowiada źródłu.
+- Ustawia stany magazynowe produktów i ich kombinacji.
+- Szacuje wagę (w kg) z pojemności (1,5 × litry + 0,25), a gdy jej brak — z gramatury (+ 0,05 na opakowanie). Gdy nie da się ustalić żadnej, przyjmuje 1,5 kg.
+- Ustawia stany magazynowe ze źródła. Przy produktach z wariantami ogranicza łączny stan do 10 sztuk. Udziału produktów ze stanem 0 (wymagane 5–20%) importer nie wymusza, wynika on z danych źródłowych. Zakres i udział sprawdza `docs/stock_validation.sql` (ostatni pomiar: 10,45%, wpis z 2026-11-20 w `AI_LOG.md`).
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
+- Importuje produkty równolegle (domyślnie 8 wątków, `--workers N` lub `PS_IMPORT_WORKERS`). Każdy wątek obsługuje cały jeden produkt: dane, kombinacje, stany i zdjęcia. Kategorie, atrybuty i cechy importują się wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest chroniony blokadą i atomowy (plik tymczasowy + podmiana). Gdy sklep zwraca błędy 5xx lub timeouty pod obciążeniem, zmniejsz liczbę wątków (`--workers 1` = dawny import sekwencyjny).
 
 ## 5. Mapowanie i idempotencja
 
@@ -78,11 +90,16 @@ Importer wykorzystuje pliki mapowania w `scraper/importer/`, które przechowują
 
 Mapowania pozwalają rozpoznawać wcześniej zaimportowane kategorie, produkty, atrybuty i warianty.
 
+Gdy produktu nie ma w mapowaniu albo wskazane ID już nie istnieje, importer szuka go w sklepie po polu `reference` (`SRC<id źródłowe>`). Zdjęcia są rozpoznawane wyłącznie po mapowaniu, dlatego:
+
+- przy działającym sklepie **nie usuwaj** `products_mapping.json` — ponowny import wgra zdjęcia drugi raz,
+- `make reset` sam usuwa mapowania — stare ID mogłyby trafić na inne produkty w nowej bazie. Jeśli bazę czyścisz inaczej (np. `docker compose down -v`), usuń je ręcznie: `rm -f scraper/importer/*_mapping.json`.
+
 Pliki mapowania są zależne od konkretnej instancji sklepu i powinny pozostać lokalne. Nie należy zastępować ich mapowaniami pochodzącymi z innej instancji PrestaShop. Przy synchronizacji kategorii importer weryfikuje je również na podstawie istniejącej kategorii i jej kategorii nadrzędnej, dzięki czemu może odbudować nieaktualne lokalne mapowanie.
 
 ## 6. Uruchomienie
 
-Polecenia należy wykonywać z katalogu głównego projektu.
+Polecenia należy wykonywać z katalogu głównego projektu, w środowisku Pythona z zależnościami z `scraper/requirements.txt` (patrz [README](../README.md), krok 2). Zdjęcia muszą być w `scraper_results/product_photos/` (krok 5), także przy dry-run.
 
 **Dry-run – sprawdzenie importu bez modyfikowania sklepu:**
 
@@ -96,6 +113,13 @@ python -m scraper.importer.main --dry-run
 python -m scraper.importer.main --execute
 ```
 
+**Import z inną liczbą wątków:**
+
+```bash
+python -m scraper.importer.main --execute --workers 4
+make import IMPORT_ARGS="--execute --workers 4"
+```
+
 **Import przez Makefile:**
 
 ```bash
@@ -104,6 +128,6 @@ make import-products    # import produktów
 make import             # pełny import
 ```
 
-Dry-run sprawdza dane wejściowe, ich poprawność, grupowanie oraz przewidywane operacje. Nie wykonuje zapisów w PrestaShop.
+Dry-run sprawdza dane wejściowe, ich poprawność, grupowanie oraz przewidywane operacje. Nie wykonuje zapisów w PrestaShop i nie łączy się ze sklepem, więc podział na „utworzone” i „zaktualizowane” wynika tylko z lokalnych mapowań.
 
 Właściwy import wymaga działającego sklepu, poprawnej konfiguracji `.env` i włączonego Webservice API.

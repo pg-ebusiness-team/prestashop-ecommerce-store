@@ -97,3 +97,95 @@
   if (!read()) open(false);
   else openAgeGate();
 })();
+
+/*
+ * Menu przyklejone do góry ekranu na desktopie, jak w źródle: po przewinięciu za baner (slider na stronie głównej,
+ * na innych stronach za pasek z logo) wsuwa się z góry. Samo position: sticky nie działa, bo menu leży w #header,
+ * a sticky trzyma się tylko w obrębie rodzica. Dajemy mu position: fixed (.is-stuck w custom.css), a pasek nad nim
+ * dostaje margines = wysokość menu, żeby treść nie skoczyła.
+ */
+(function () {
+  var menu = document.querySelector('#header .header-menu');
+  var above = document.querySelector('#header .header-top');
+  if (!menu || !above) return;
+  var trigger = document.getElementById('carousel') || above;
+  var desktop = window.matchMedia('(min-width: 768px)'); // na telefonie menu jest w wysuwanym panelu Classic
+
+  function update() {
+    var stuck = desktop.matches && trigger.getBoundingClientRect().bottom <= 0;
+    if (stuck === menu.classList.contains('is-stuck')) return;
+    above.style.marginBottom = stuck ? menu.offsetHeight + 'px' : '';
+    menu.classList.toggle('is-stuck', stuck);
+  }
+
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+})();
+
+/*
+ * Kontrolki tworzone przez JS Classic i modułów bez nazw dla czytników ekranu: przyciski +/- przy ilości (same ikony),
+ * pole z nazwą pliku w formularzu kontaktu i suwaki ceny w filtrach. Powstają w różnych momentach i od nowa po AJAX
+ * (wariant, koszyk, filtry), więc nadajemy nazwy przy każdej zmianie DOM.
+ */
+(function () {
+  var LABELS = [
+    ['.bootstrap-touchspin-up', 'Zwiększ ilość'],
+    ['.bootstrap-touchspin-down', 'Zmniejsz ilość'],
+    ['.bootstrap-filestyle input[type="text"]', 'Wybrany plik'],
+    ['.ui-slider-handle:first-of-type', 'Cena od'],
+    ['.ui-slider-handle:last-of-type', 'Cena do']
+  ];
+  function label() {
+    LABELS.forEach(function (l) {
+      document.querySelectorAll(l[0] + ':not([aria-label])').forEach(function (el) { el.setAttribute('aria-label', l[1]); });
+    });
+  }
+  label();
+  new MutationObserver(label).observe(document.body, { childList: true, subtree: true });
+})();
+
+/* Telefon: lupa w górnym pasku (#search-toggle w header.tpl) pokazuje/ukrywa wyszukiwarkę, jak w źródle. */
+(function () {
+  var btn = document.querySelector('#search-toggle button');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var open = document.getElementById('header').classList.toggle('search-open');
+    btn.setAttribute('aria-expanded', open);
+    if (open) document.querySelector('#search_widget input[type="text"]').focus();
+  });
+})();
+
+/*
+ * Ekran dotykowy, jak w źródle: pierwsze tapnięcie w zdjęcie produktu tylko odsłania oko i „Dodaj do koszyka”
+ * (.is-tapped w custom.css), dopiero następne otwiera produkt albo naciska przycisk.
+ */
+(function () {
+  if (!window.matchMedia('(hover: none)').matches) return;
+  document.addEventListener('click', function (e) {
+    var card = e.target.closest('.product-miniature .thumbnail-top');
+    var open = document.querySelector('.thumbnail-top.is-tapped');
+    if (open && open !== card) open.classList.remove('is-tapped');
+    if (!card || card === open) return;
+    card.classList.add('is-tapped');
+    e.preventDefault();
+    e.stopPropagation(); // core.js (koszyk, szybki podgląd) słucha na body, a ukryty przycisk też łapie tapnięcie
+  }, true); // capture: przed handlerami Classic
+})();
+
+/*
+ * Kod rabatowy (checkout/_partials/cart-voucher.tpl): sklep nie ma bonów, więc każdy kod kończy się komunikatem
+ * „Taki bon rabatowy nie istnieje.” bez wysyłki do serwera.
+ * shortcut: odpowiedź na sztywno; po dodaniu reguł koszyka w panelu usunąć ten blok i przywrócić {if} w szablonach.
+ */
+(function () {
+  document.addEventListener('submit', function (e) {
+    var form = e.target.closest('[data-link-action="add-voucher"]');
+    if (!form) return;
+    e.preventDefault();
+    e.stopPropagation(); // capture: core.js nie wyśle AJAX-a (przy wyłączonych bonach i tak nic by nie odpowiedział)
+    var error = form.parentNode.querySelector('.js-error');
+    error.querySelector('.js-error-text').textContent = 'Taki bon rabatowy nie istnieje.';
+    error.style.display = 'block'; // Classic chowa .alert w .promo-code przez display: none
+  }, true);
+})();

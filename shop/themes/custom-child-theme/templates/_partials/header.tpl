@@ -10,12 +10,12 @@
 {/block}
 
 {block name='header_nav'}
-  <nav class="header-nav">
+  <nav class="header-nav" aria-label="Górny pasek">
     <div class="container">
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-6 col-xs-12">
-            <a class="header-b2b" href="{$urls.pages.contact}">Poznaj specjalną ofertę dla firm i restauracji »</a>
+            <a class="header-b2b" href="{$link->getCMSLink(6)}">Poznaj specjalną ofertę dla firm i restauracji »</a>
           </div>
           <div class="col-md-6 header-contact">
             {if $shop.phone}
@@ -31,6 +31,11 @@
             <i class="material-icons d-inline">&#xE5D2;</i>
           </div>
           <div class="float-xs-right" id="_mobile_cart"></div>
+          <div class="float-xs-right" id="search-toggle">
+            <button type="button" class="btn-unstyle" aria-label="Szukaj" aria-expanded="false" aria-controls="search_widget">
+              <i class="material-icons" aria-hidden="true">&#xE8B6;</i>
+            </button>
+          </div>
           <div class="float-xs-right" id="_mobile_user_info"></div>
           <div class="top-logo" id="_mobile_logo"></div>
           <div class="clearfix"></div>

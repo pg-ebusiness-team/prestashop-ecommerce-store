@@ -296,12 +296,18 @@ def get_product_id(product: dict, mapping: dict) -> int | None:
 
 def build_product_xml(
     product: dict,
-    category_id: int,
+    category_ids: list[int],
     tax_rules_group_id: int,
-    product_id: int | None = None
+    product_id: int | None = None,
+    feature_ids: list[tuple[int, int]] | None = None
 ) -> str:
     """
     Buduje XML produktu zgodny z formatem PrestaShop Webservice.
+
+    category_ids: wszystkie kategorie produktu; pierwsza jest kategorią domyślną.
+
+    feature_ids: pary (ID cechy, ID wartości) do zakładki „Szczegóły”. PUT zastępuje cechy produktu
+    tą listą; None pomija powiązanie, żeby nieudany import cech nie wyczyścił ich w sklepie.
     """
 
     root = ET.Element("prestashop")
@@ -339,7 +345,7 @@ def build_product_xml(
     ET.SubElement(product_element, "price").text = str(product["price_net"])
 
     # Kategoria
-    ET.SubElement(product_element, "id_category_default").text = str(category_id)
+    ET.SubElement(product_element, "id_category_default").text = str(category_ids[0])
 
     # Grupa reguł podatkowych VAT
     ET.SubElement(product_element, "id_tax_rules_group").text = str(tax_rules_group_id)
@@ -354,11 +360,20 @@ def build_product_xml(
     ET.SubElement(product_element, "show_price").text = "1"
     ET.SubElement(product_element, "visibility").text = "both"
 
-    # Powiązanie produktu z kategorią
+    # Powiązanie produktu ze wszystkimi jego kategoriami
     associations = ET.SubElement(product_element, "associations")
     categories = ET.SubElement(associations, "categories")
-    category = ET.SubElement(categories, "category")
-    ET.SubElement(category, "id").text = str(category_id)
+    for category_id in category_ids:
+        category = ET.SubElement(categories, "category")
+        ET.SubElement(category, "id").text = str(category_id)
+
+    # Cechy produktu (zakładka „Szczegóły”)
+    if feature_ids is not None:
+        product_features = ET.SubElement(associations, "product_features")
+        for feature_id, value_id in feature_ids:
+            product_feature = ET.SubElement(product_features, "product_feature")
+            ET.SubElement(product_feature, "id").text = str(feature_id)
+            ET.SubElement(product_feature, "id_feature_value").text = str(value_id)
 
     return ET.tostring(root, encoding="unicode")
 
@@ -418,8 +433,9 @@ def import_product(
     api: PrestaShopAPI,
     product: dict,
     mapping: dict,
-    category_id: int,
-    tax_rules_group_id: int
+    category_ids: list[int],
+    tax_rules_group_id: int,
+    feature_ids: list[tuple[int, int]] | None = None
 ) -> tuple[int, str]:
     """
     Tworzy lub aktualizuje produkt oraz jego kombinacje.
@@ -446,9 +462,10 @@ def import_product(
 
     product_xml = build_product_xml(
         product,
-        category_id,
+        category_ids,
         tax_rules_group_id,
-        existing_product_id
+        existing_product_id,
+        feature_ids
     )
 
     if existing_product_id is not None:
@@ -538,9 +555,12 @@ def group_products(products):
                 "combinations": [],
                 "promotions": [],
                 "has_discount": False,
+                "source_files": []
             }
 
         parent = grouped[source_id]
+        # Ten sam produkt bywa w kilku kategoriach źródła - każdy plik wskazuje jedną z nich
+        parent["source_files"].append(product.get("source_file", ""))
 
         # Zbieramy promocje również z rekordów wariantów, a nie tylko
         # z pierwszego rekordu produktu. Źródło może powielać je w kategoriach.
@@ -593,5 +613,8 @@ def group_products(products):
 
     for product in grouped_products:
         assign_product_weights(product)
+        # PrestaShop trzyma cenę wariantu jako różnicę netto względem ceny produktu
+        for combination in product["combinations"]:
+            combination["price_delta"] = round(combination["price_net"] - product["price_net"], 6)
 
     return grouped_products

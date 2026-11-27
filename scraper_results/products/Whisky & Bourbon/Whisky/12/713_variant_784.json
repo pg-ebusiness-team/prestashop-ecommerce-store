@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 68,
   "id_supplier": 0,
   "reference": "5000281005416",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 784,
   "advanced_stock_management": "0",
   "date_add": "2024-07-20 14:36:06",
-  "date_upd": "2025-11-24 12:33:46",
+  "date_upd": "2026-11-24 15:21:48",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Talisker 10 Y O",
   "link_rewrite": "whisky-talisker-10-y-o",
   "name": "WHISKY Talisker 10 Y O",
-  "description": "<SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: PL; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;'>Talisker \r\n10 YO Whisky jest klasyczną whisky Single Malt wytwarzaną na wyspie Skye w \r\nrejonie Islay. Whisky ma kolor błyszczącego złota przez co często nazywana jest \r\n“Złotym trunkiem ze Skye”. Whisky ta słynie ze \"słonawego\" posmaku, który wynika \r\nz dużej ilości fenoli w trunku. Aromat przepełniają akcenty dymne, woń torfu; \r\nkonsystencja jest jedwabista, mocno zaakcentowany jest smak słodu, korzeni i \r\npieprzu. W smaku objawia się smak dojrzałych&nbsp;owoców z nutami dymu i silnym \r\nuderzeniem słodowanego jęczmienia, który rozgrzewa i otula</SPAN>\r\n",
+  "description": "<p><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Talisker 10 YO Whisky jest klasyczną whisky Single Malt wytwarzaną na wyspie Skye w rejonie Islay. Whisky ma kolor błyszczącego złota przez co często nazywana jest “Złotym trunkiem ze Skye”. Whisky ta słynie ze \"słonawego\" posmaku, który wynika z dużej ilości fenoli w trunku. Aromat przepełniają akcenty dymne, woń torfu; konsystencja jest jedwabista, mocno zaakcentowany jest smak słodu, korzeni i pieprzu. W smaku objawia się smak dojrzałych owoców z nutami dymu i silnym uderzeniem słodowanego jęczmienia, który rozgrzewa i otula</span></p>",
   "description_short": "<p>Talisker 10 YO Whisky jest klasyczną whisky Single Malt wytwarzaną na wyspie Skye w rejonie Islay. Whisky ma kolor błyszczącego złota przez co często nazywana jest \"Złotym trunkiem ze Skye\".</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/713-whisky-talisker-10-y-o",
-  "manufacturer_name": null,
+  "manufacturer_name": "Talisker",
   "attribute_price": 0,
   "price_tax_exc": 178.04878,
   "price_without_reduction": 218.999999,
@@ -301,5 +301,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

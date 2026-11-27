@@ -1,0 +1,278 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5902273818151",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "179,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-06-21",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 0,
+  "advanced_stock_management": "0",
+  "date_add": "2024-06-21 17:12:13",
+  "date_upd": "2025-03-26 10:36:28",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Specjał Myśliwski Mocny Leśny",
+  "link_rewrite": "wodka-specjal-mysliwski-mocny-lesny",
+  "name": "WÓDKA Specjał Myśliwski Mocny Leśny",
+  "description": "\r\n<P style=\"TEXT-ALIGN: justify; MARGIN: 0cm 0cm 10pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",\"serif\"; LINE-HEIGHT: 115%; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL'>Bazą \r\nsmakową naszego SPECJAŁU BIAŁOWIESKIEGO jest starannie wyselekcjonowany spirytus \r\nwyłącznie z polskich upraw żyta. Złożoną kompozycję smakową o korzenno-ziołowym \r\ncharakterze otrzymaliśmy łącząc smaki i aromaty suszonych ziół leśnych, owoców i \r\nprzypraw korzennych, podkreślając całość słodyczą miodu lipowego.&nbsp;SPECJAŁ \r\nMYŚLIWSKI MOCNY&nbsp;w pełni oddaje charakter mocnych, korzenno-ziołowych, \r\nwyrobów spirytusowych tworzonych na Podlasiu.&nbsp;Nasz wyrób powstaje w \r\nmałych,&nbsp;limitowanych partiach w procesie długiego dojrzewania, który nadaje \r\nmu wyjątkowej szlachetności.&nbsp;Rozlew każdej naszej butelki odbywa \r\nsię&nbsp;sposobem ręcznym.</SPAN></P>\r\n",
+  "description_short": "<p>Bazą smakową naszego SPECJAŁU BIAŁOWIESKIEGO jest starannie wyselekcjonowany spirytus wyłącznie z polskich upraw żyta.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 231,
+  "id_product": 231,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 0,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/231-wodka-specjal-mysliwski-mocny-lesny-5902273818151",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 145.528455,
+  "price_without_reduction": 179,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 4,
+  "quantity_all_versions": 4,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "63,8%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 253
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Ziołowy",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 550
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 239,
+      "legend": "WÓDKA Specjał Myśliwski Mocny Leśny",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/239-small_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/239-small_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/239-medium_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/239-medium_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 239,
+    "legend": "WÓDKA Specjał Myśliwski Mocny Leśny",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/239-small_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-small_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/239-medium_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-medium_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/239-cart_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/239-home_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/239-large_default/wodka-specjal-mysliwski-mocny-lesny.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 179,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Dostępne w magazynie",
+  "availability_date": null,
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}
