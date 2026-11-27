@@ -21,6 +21,11 @@ services:
       # Ograniczenia dostawy (shop/scripts/configure-sales.php); zmiana: edycja + make up
       FREE_SHIPPING_THRESHOLD: "2000" # zł brutto, darmowa dostawa od tej kwoty (włącznie)
       MAX_ORDER_WEIGHT_KG: "50" # zamówienie cięższe niż limit nie ma przewoźnika
+    volumes:
+      # Pliki sklepu (zdjęcia, app/config/parameters.php, katalog admina, moduły). Bez wolumenu nowy kontener
+      # (make down/up, make up po zmianie obrazu) nie ma parameters.php i docker_run.sh instaluje sklep od nowa
+      # na istniejącej bazie. Motyw z obrazu kopiuje do wolumenu shop/init-scripts/00-sync-theme.sh.
+      - shop_data:/var/www/html
 
   proxy:
     build: ./nginx
@@ -58,5 +63,6 @@ services:
       - db_data:/var/lib/mysql
 
 volumes:
+  shop_data:
   db_data:
   proxy_certs:
