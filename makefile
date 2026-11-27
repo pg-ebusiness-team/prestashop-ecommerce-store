@@ -5,8 +5,9 @@
 COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 # Importer i scraper w kontenerze narzędziowym (usługa tools, deploy/tools/Dockerfile) - bez Pythona na hoście.
 # --user: pliki zapisane w zamontowanym repo (zdjęcia, *_mapping.json) należą do użytkownika hosta, nie do roota.
-# --build: obraz przebuduje się sam po zmianie scraper/requirements.txt (bez zmian - z cache, kilka sekund).
-TOOLS = $(COMPOSE) run --rm --build --user $(shell id -u):$(shell id -g) tools
+# --build: obraz przebuduje się sam po zmianie scraper/requirements.txt (bez zmian - z cache, poniżej sekundy).
+# --no-deps: bez budowania i uruchamiania innych usług - sklep musi już działać (make up; make init sprawdza to w check-shop).
+TOOLS = $(COMPOSE) run --rm --no-deps --build --user $(shell id -u):$(shell id -g) tools
 PYTHON = $(TOOLS) python
 IMPORT_ARGS ?= --execute
 # Archiwum zdjęć produktów w Releases (deploy/init/photos.sh); można nadpisać w .env
@@ -14,8 +15,8 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check theme  test-e2e
-.PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import photos
+.PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
+.PHONY: facets categories import-categories import-products import photos
 
 help:
 	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
@@ -25,7 +26,8 @@ help:
 	@echo "make ps      - status kontenerow"
 	@echo "make shell   - powloka w kontenerze sklepu"
 	@echo "make build   - zbuduj obraz bez uruchamiania"
-	@echo "make init    - wlacz Webservice API i zarejestruj klucz PS_API_KEY"
+	@echo "make init    - pelna inicjalizacja danych po make up: zdjecia, klucz API, import, filtry, opisy kategorii, motyw"
+	@echo "               (kolejne kroki osobno: make photos / webservice / cleanup-demo / import / facets / categories / theme)"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
 	@echo "make facets  - ustaw filtry w lewej kolumnie list produktow i przebuduj ich indeks (po imporcie danych)"
@@ -69,11 +71,40 @@ shell:
 build:
 	$(COMPOSE) build
 
+# Pełna inicjalizacja danych po `make up` (WYMAGANIA.md W3: jedna komenda inicjalizacji). Kolejność wynika z zależności:
+#  photos       - pierwsze, bo nie zależy od sklepu: bez zdjęć kończy się błędem, zanim cokolwiek zmieni w bazie
+#  webservice   - klucz API, bez niego nie działa cleanup-demo ani import
+#  cleanup-demo - usuwa kategorie i produkty demo z instalatora
+#  import       - kategorie, atrybuty, cechy, produkty, zdjęcia (Webservice API)
+#  facets, categories - dopasowują kategorie i cechy po nazwie, więc po imporcie
+#  theme        - menu i stopka z kategorii po nazwie, więc po imporcie; na końcu czyści cache (także po SQL-ach wyżej)
+# Każdy krok jest idempotentny, więc ponowne `make init` aktualizuje dane bez duplikatów.
+# $(MAKE) z listą celów wykonuje je po kolei i zatrzymuje się na pierwszym błędzie.
 init:
+	@start=$$(date +%s); \
+	$(MAKE) --no-print-directory check-shop photos webservice cleanup-demo import facets categories theme || exit 1; \
+	elapsed=$$(( $$(date +%s) - start )); \
+	echo ""; \
+	echo "make init: gotowe w $$(( elapsed / 60 )) min $$(( elapsed % 60 )) s. Sklep: https://$(SERVER_NAME):$(HTTPS_PORT)"
+
+# Czy `make up` się zakończył: usługa shop musi mieć status healthy (healthcheck w deploy/compose.yaml)
+check-shop:
+	@health=$$($(COMPOSE) ps shop --format '{{.Health}}' 2>/dev/null); \
+	case "$$health" in \
+	  healthy) echo "check-shop: sklep gotowy" ;; \
+	  "") echo "check-shop: BLAD: sklep nie dziala - uruchom najpierw: make up"; exit 1 ;; \
+	  *) echo "check-shop: BLAD: sklep ma status '$$health' - poczekaj na koniec make up albo sprawdz: make logs SERVICE=shop"; exit 1 ;; \
+	esac
+
+# Włącza Webservice API i rejestruje klucz PS_API_KEY z .env (deploy/init/webservice.sql)
+webservice:
 	@echo "$(PS_API_KEY)" | grep -qE '^[A-Z0-9]{32}$$' || { echo "PS_API_KEY w .env musi miec 32 znaki A-Z0-9"; exit 1; }
 	@{ echo "SET @ws_key = '$(PS_API_KEY)';"; cat deploy/init/webservice.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
 	@echo "Webservice API wlaczone, klucz zarejestrowany."
+
+# Usuwa przez API kategorie i produkty demo z instalatora
+cleanup-demo:
 	$(PYTHON) -m scraper.importer.cleanup_demo --execute
 
 # Oczekiwane kody: klucz dziala, nie ma dostepu poza swoimi zasobami, bez klucza brak dostepu

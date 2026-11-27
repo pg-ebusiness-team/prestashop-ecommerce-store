@@ -78,8 +78,7 @@ services:
     volumes:
       # Repo z hosta: importer czyta scraper_results/, zapisuje zdjęcia i scraper/importer/*_mapping.json
       - ..:/app
-    depends_on:
-      - proxy
+    # Bez depends_on: makefile uruchamia tools z --no-deps, a sklep (proxy) musi już działać po make up
 
   db:
     image: mysql:8.0
