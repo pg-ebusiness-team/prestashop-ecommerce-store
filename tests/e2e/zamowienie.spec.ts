@@ -242,5 +242,33 @@ test.describe('Scenariusz zamówienia', () => {
       await krokPlatnosc.locator('[name="conditions_to_approve[terms-and-conditions]"]').check();
       await expect(zamow).toBeEnabled();
     });
+
+    // numer referencyjny złożonego zamówienia - po nim kroki 9-10 znajdą zamówienie w historii zamówień
+    let numerZamowienia = '';
+
+    await test.step('Krok 8: zatwierdzenie zamówienia', async () => {
+      const zamow = page.locator('#payment-confirmation button');
+      await expect(zamow).toHaveText(/Złóż zamówienie/i);
+      await zamow.click();
+
+      // przyjazny URL po polsku; order-confirmation to nazwa kontrolera przy wyłączonych przyjaznych URL-ach
+      await expect(page).toHaveURL(/(potwierdzenie-zamowienia|order-confirmation).*id_order=\d+/);
+      await expect(page.locator('#content-hook_order_confirmation')).toContainText(/zamówienie zostało potwierdzone/i);
+      await expect(page.locator('#content-hook_order_confirmation')).toContainText(klient.email);
+
+      // numer referencyjny: 9 wielkich liter, np. „Numer zamówienia: LBAUXBPIC”
+      const numer = page.locator('#order-reference-value');
+      await expect(numer).toHaveText(/\b[A-Z]{9}\b/);
+      // textContent, bo innerText zwraca tekst po CSS text-transform (jak przy kwocie w kroku 3)
+      numerZamowienia = ((await numer.textContent()) ?? '').match(/\b[A-Z]{9}\b/)![0];
+
+      // zamówienie zapisało wybory z kroków 6 i 7 oraz wszystkie pozycje koszyka
+      const szczegoly = page.locator('#order-details');
+      await expect(szczegoly).toContainText('Płatność przy odbiorze');
+      await expect(szczegoly).toContainText(przewoznik);
+      await expect(page.locator('#order-items .order-line')).toHaveCount(pozycjeWKoszyku);
+      // po złożeniu zamówienia sklep zakłada klientowi nowy, pusty koszyk
+      await expect(licznik).toHaveText(/\b0\b/);
+    });
   });
 });
