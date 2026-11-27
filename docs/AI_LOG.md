@@ -18,4 +18,4 @@
 
 ## Refleksja zespołu
 
-*(Uzupełnimy pod koniec etapu)*
+Zobacz [AI_REFLEKSJA.md](AI_REFLEKSJA.md).
