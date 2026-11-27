@@ -179,16 +179,18 @@ Polecenie instaluje zależności i przeglądarkę Chromium, a następnie urucham
 
 Raport HTML zapisuje się w `tests/playwright-report/` (podgląd: `cd tests && npx playwright show-report`), a zrzuty ekranu nieudanych testów w `tests/test-results/`.
 
-Jeden plik lub jeden test: `cd tests && BASE_URL=https://localhost:8443 npx playwright test e2e/koszyk.spec.ts` (filtr po nazwie: `-g "Koszyk"`, podgląd przeglądarki: `--headed`).
+Jeden plik lub jeden test: `cd tests && BASE_URL=https://localhost:8443 npx playwright test e2e/zamowienie.spec.ts` (filtr po nazwie: `-g "Scenariusz zamówienia"`, podgląd przeglądarki: `--headed`).
 
 | Plik | Co sprawdza |
 |---|---|
 | `tests/e2e/smoke.spec.ts` | strona główna się ładuje |
-| `tests/e2e/koszyk.spec.ts` | kroki 1–3 scenariusza W4: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka |
+| `tests/e2e/zamowienie.spec.ts` | scenariusz W4 w jednym teście, kroki 1–8: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka, rejestracja nowego konta, zamówienie na zawartość koszyka z adresem, wybór przewoźnika „Przesyłka kurierska ekspresowa” i płatności przy odbiorze, zatwierdzenie zamówienia i sprawdzenie strony potwierdzenia z numerem referencyjnym |
 
-Kroki 4–10 scenariusza W4 (rejestracja, zamówienie, płatność, przewoźnik, status, faktura) nie są jeszcze napisane. Cały scenariusz musi trwać ≤5 min.
+Kroki 9–10 scenariusza W4 (status zamówienia, faktura VAT) nie są jeszcze napisane — dopisuje się je na końcu `zamowienie.spec.ts`, bo dotyczą zamówienia z kroku 8 (numer referencyjny jest w zmiennej `numerZamowienia`). Cały scenariusz musi trwać ≤5 min (`test.setTimeout`); kroki 1–8 trwają ok. 25 s.
 
-Test koszyka wymaga zaimportowanych produktów (`make import`) i kategorii w górnym menu, bo z menu wybiera kategorie. Produkty bez wystarczającego stanu pomija. Test, który klika po stronie, musi przed wejściem ustawić w `localStorage` `cookie-consent` i `age-confirmed` (jak w `koszyk.spec.ts`), inaczej baner cookies i okno 18+ zasłaniają stronę ([ADR 0002](docs/adr/0002-baner-cookies.md)).
+Każde uruchomienie zakłada nowego klienta `e2e+<timestamp>@example.com` i składa prawdziwe zamówienie za pobraniem — zamówienia testowe rozpoznasz w panelu i w Mailpicie po prefiksie `e2e+`. Zamówienia zmniejszają stany magazynowe, a test bierze produkty tylko z kategorii najwyższego poziomu w górnym menu (losowa kolejność rozkłada zużycie, ale pula jest mała). Po kilku uruchomieniach kroki 1–2 przestają znajdować dostępne produkty (np. `Expected: 10, Received: 8` w kroku 1) — wtedy odśwież stany poleceniem `make import`, który przywraca stany z wyników scrapera.
+
+Scenariusz wymaga zaimportowanych produktów (`make import`) i kategorii w górnym menu, bo z menu wybiera kategorie. Produkty bez wystarczającego stanu pomija. Test, który klika po stronie, musi przed wejściem ustawić w `localStorage` `cookie-consent` i `age-confirmed` (jak w `zamowienie.spec.ts`), inaczej baner cookies i okno 18+ zasłaniają stronę ([ADR 0002](docs/adr/0002-baner-cookies.md)).
 
 ## Testy jednostkowe i linter
 
