@@ -63,13 +63,8 @@ global_settings:
       - blockreassurance
   hooks:
     modules_to_hook:
-      displayAdminCustomers:
-        - blockwishlist
       displayCustomerAccount:
-        - blockwishlist
         - psgdpr
-      displayMyAccountBlock:
-        - blockwishlist
       # displayNav1/displayNav2 nieużywane - header.tpl renderuje kontakt, konto i koszyk sam
       displayTop:
         - ps_mainmenu
@@ -89,7 +84,6 @@ global_settings:
         - ps_linklist
         - ps_customeraccountlinks
         - ps_contactinfo
-        - blockwishlist
       displayFooterProduct:       # „Podobne produkty” pod stroną produktu
         - ps_categoryproducts
       displayLeftColumn:          # w źródle lewa kolumna ma tylko filtry, bez drzewa kategorii
@@ -104,8 +98,6 @@ global_settings:
         - ps_searchbar
       displayOrderConfirmation2:
         - ps_featuredproducts
-      displayProductActions:
-        - blockwishlist
 
   image_types:
     cart_default:

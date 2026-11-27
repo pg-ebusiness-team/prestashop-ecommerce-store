@@ -1044,11 +1044,6 @@ body#checkout section.checkout-step .address-item.selected,
   transform: none;
 }
 
-/* Serce ulubionych (blockwishlist) wstawiane przez JS - w źródle go nie ma, zostaje na stronie produktu */
-.product-miniature .wishlist-button-add {
-  display: none !important; /* moduł ustawia display w stylu inline */
-}
-
 /* Ukośna wstęga „Promocja” w lewym górnym rogu */
 .product-miniature .product-ribbon {
   position: absolute;
