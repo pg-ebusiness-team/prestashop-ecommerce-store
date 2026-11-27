@@ -10,7 +10,16 @@ Kacper Trznadel
 
 ## Uruchomienie projektu
 
-Wymagania: Docker z Compose v2, `make`, `openssl`, `curl` i Python 3.12 (`make init` i `make import` uruchamiają skrypty Pythona na hoście). Testy E2E wymagają dodatkowo Node.js 18+.
+Wymagania: Docker z Compose v2, `make`, `curl` i dostęp do internetu (obrazy Dockera, archiwum zdjęć z zakładki Releases, grafiki strony głównej ze sklepu źródłowego). Pythona na komputerze nie potrzeba: importer i scraper działają w kontenerze narzędziowym `tools`. Testy E2E wymagają Node.js 18+, a testy jednostkowe scrapera Pythona 3.12 (sekcja [Testy jednostkowe i linter](#testy-jednostkowe-i-linter)).
+
+Z czystego klona sklep z danymi uruchamiają dwie komendy:
+
+```bash
+make up     # buduje obrazy, uruchamia sklep i czeka na koniec instalacji
+make init   # inicjalizacja danych: zdjęcia, import produktów, filtry, opisy kategorii, motyw
+```
+
+U nas `make up` trwa ok. 1–3 min (pierwsze pobieranie obrazów dłużej), a `make init` ok. 5 min.
 
 ### 1. Sklonuj repozytorium
 
@@ -20,31 +29,7 @@ Sklonuj repozytorium i przejdź do katalogu projektu:
 cd prestashop-ecommerce-store
 ```
 
-### 2. Przygotuj plik konfiguracyjny `.env`
-
-Po sklonowaniu repozytorium skopiuj przykładowy plik konfiguracyjny `.env.example` do pliku `.env`:
-
-```bash
-cp .env.example .env
-```
-
-Następnie otwórz plik `.env` i uzupełnij wszystkie wymagane zmienne środowiskowe poprawnymi wartościami.
-
-Klucz Webservice API (`PS_API_KEY`) musi mieć dokładnie 32 znaki `A-Z0-9`. Wygeneruj go poleceniem:
-
-```bash
-openssl rand -hex 16 | tr a-f A-F
-```
-
-Zainstaluj też zależności Pythona w środowisku wirtualnym. Środowisko musi być aktywne przy `make init` i `make import`:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r scraper/requirements.txt
-```
-
-### 3. Uruchom sklep
+### 2. Uruchom sklep
 
 Z poziomu głównego katalogu projektu wykonaj polecenie:
 
@@ -52,18 +37,41 @@ Z poziomu głównego katalogu projektu wykonaj polecenie:
 make up
 ```
 
-Polecenie zbuduje wymagane obrazy Docker i uruchomi kontenery w tle.
+Przy pierwszym uruchomieniu polecenie tworzy plik `.env` z `.env.example` i wpisuje do niego wygenerowany klucz Webservice API (`PS_API_KEY`, 32 znaki `A-Z0-9`). Przykładowe hasła z `.env.example` wystarczą do pracy lokalnej. Jeśli chcesz inne porty, domenę lub hasła, utwórz `.env` samodzielnie przed pierwszym `make up` (`cp .env.example .env` i edycja). Zmiana portów lub domeny po instalacji wymaga `make reset` (patrz [Rozwiązywanie problemów](#po-aktualizacji-sklep-przekierowuje-na-zły-adres-lub-w-pętli)). Istniejący `.env` nigdy nie jest nadpisywany.
 
-Przy pierwszym uruchomieniu proces może potrwać dłużej, ponieważ Docker musi pobrać wymagane obrazy i zbudować środowisko.
+Następnie polecenie buduje obrazy, uruchamia kontenery w tle i czeka, aż sklep będzie gotowy. Kończy się dopiero wtedy, gdy kontener `shop` ma status *healthy*, czyli PrestaShop jest zainstalowany i połączony z bazą (healthcheck w `deploy/compose.yaml`). Pierwsze uruchomienie trwa dłużej, bo Docker pobiera obrazy, a kontener instaluje PrestaShop. Jeśli instalacja albo konfiguracja sklepu się nie uda, `make up` kończy się błędem, a przyczynę widać w `make logs SERVICE=shop`.
 
-### 4. Zainicjalizuj dane
+### 3. Zainicjalizuj dane
 
-Gdy instalacja PrestaShop się zakończy (w `make logs` pojawi się `Almost ! Starting web server now`), wykonaj:
+Po `make up` wykonaj:
 
 ```bash
 make init
 ```
-Polecenie włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values`. Na końcu usuwa przez API kategorie i produkty demonstracyjne z instalatora. Można je uruchamiać wielokrotnie — nie tworzy duplikatów, a po zmianie klucza w `.env` zastępuje stary klucz nowym.
+
+Polecenie wykonuje po kolei kroki z tabeli i zatrzymuje się na pierwszym błędzie. Na końcu wypisuje łączny czas i adres sklepu. Każdy krok jest idempotentny, więc ponowne `make init` aktualizuje dane bez tworzenia duplikatów. Kroki są też osobnymi poleceniami (np. `make theme` po zmianie motywu, `make import` po zmianie wyników scrapera).
+
+| Krok | Co robi |
+|---|---|
+| `check-shop` | Sprawdza, czy sklep działa i ma status *healthy*. Jeśli nie, kończy się z podpowiedzią (`make up` albo `make logs SERVICE=shop`), zanim cokolwiek zmieni. |
+| `photos` | Pobiera zdjęcia produktów do `scraper_results/product_photos/` (opis niżej). Idzie przed krokami, które zmieniają bazę, bo nie zależy od sklepu: bez zdjęć `make init` kończy się, zanim cokolwiek w niej zmieni. |
+| `webservice` | Włącza Webservice API i rejestruje klucz `PS_API_KEY` z `.env` z uprawnieniami GET/POST/PUT/DELETE wyłącznie do zasobów `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values` (`deploy/init/webservice.sql`). Po zmianie klucza w `.env` zastępuje stary klucz nowym. |
+| `cleanup-demo` | Usuwa przez API kategorie i produkty demonstracyjne z instalatora. |
+| `import` | Importuje przez API kategorie, atrybuty, cechy i wszystkie poprawne produkty (ze zdjęciem i opisem) z wariantami, stanami magazynowymi i zdjęciami. Ponowne uruchomienie aktualizuje istniejące rekordy. Szczegóły: [docs/Importer.md](docs/Importer.md). |
+| `facets` | Zakłada w module `ps_facetedsearch` zestawy filtrów lewej kolumny dla grup kategorii, tak jak w sklepie źródłowym (lista w `deploy/init/facets.php`), i przebudowuje indeks filtrów. |
+| `categories` | Wpisuje opisy kategorii z plików HTML w `shop/categories/` (lista w `deploy/init/categories.sql`). Część po znaczniku `<!-- więcej -->` jest zwinięta pod przyciskiem „Pokaż więcej”. |
+| `theme` | Aktywuje motyw potomny `custom-child-theme`, pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`), wgrywa treści strony głównej (slider, kafelki, banery, logo, menu, stopka; `deploy/init/theme.sql`) i stron CMS (Dostawa, Polityka prywatności, Regulamin, O nas, Płatności, Oferta dla firm; pliki HTML w `shop/cms/`, metadane w `deploy/init/cms.sql`), a na końcu czyści cache. |
+
+Kolejność wynika z zależności. `facets`, `categories` i `theme` dopasowują kategorie i cechy po nazwie, więc muszą iść po imporcie (`theme` buduje z nich górne menu i stopkę). `theme` idzie ostatni, bo czyszczenie cache obejmuje też zmiany wprowadzone SQL-em w poprzednich krokach. Filtry, opisy kategorii, treści strony głównej i stron CMS ustawione w panelu zostaną przy kolejnym `make init` nadpisane wersją z repo.
+
+**Zdjęcia produktów.** Zdjęć nie ma w repozytorium. `make photos` (krok `make init` zaraz po `check-shop`, skrypt `deploy/init/photos.sh`):
+
+1. pobiera archiwum z zakładki **Releases** (wydanie `photos_v1.0`, adres w zmiennej `PHOTOS_RELEASE_URL` w `makefile`, którą można nadpisać w `.env`) i rozpakowuje je. Po udanym rozpakowaniu zapisuje znacznik `scraper_results/product_photos/.release`, więc kolejne uruchomienia nie pobierają archiwum ponownie;
+2. uruchamia scraper w trybie `--photos-only`, który pobiera z adresów zapisanych w wynikach scrapera (`scraper_results/products/`) tylko brakujące zdjęcia, z zachowaniem `robots.txt` i limitu 2 zapytań/s.
+
+Gdy archiwum jest niedostępne, krok 2 pobiera cały zbiór ze sklepu źródłowego (ok. 2900 zdjęć, ok. 25 min). Gdy sklep źródłowy nie odpowiada, a zdjęcia z archiwum są, krok kończy się ostrzeżeniem i `make init` idzie dalej. Błąd zgłasza dopiero brak obu źródeł. Linie `ERROR … 404` przy zdjęciu `1992` są oczekiwane: sklep źródłowy nie ma tego pliku, a importer pomija produkt bez zdjęcia.
+
+**Import z innymi opcjami.** Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Ograniczenie liczby produktów: `make import IMPORT_ARGS="--execute --limit 100"`.
 
 Poprawność konfiguracji API sprawdzisz poleceniem:
 
@@ -71,38 +79,7 @@ Poprawność konfiguracji API sprawdzisz poleceniem:
 make api-check
 ```
 
-Następnie włącz motyw sklepu:
-
-```bash
-make theme
-```
-
-Polecenie aktywuje motyw potomny `custom-child-theme` (dziedziczy po Classic), pobiera grafiki strony głównej ze sklepu źródłowego (lista w `deploy/init/home-images.txt`, wymaga internetu, do konsultacji), wgrywa treści strony głównej z `deploy/init/theme.sql` (slider, kafelki kategorii, banery, logo), treści stron CMS (Dostawa, Polityka prywatności, Regulamin, O nas, Płatności) z plików HTML w `shop/cms/` (metadane w `deploy/init/cms.sql`) i czyści cache. Można je uruchamiać wielokrotnie — treści ustawione w panelu dla slidera, bloku tekstowego i stron CMS zostaną nadpisane wersją z repo.
-
-### 5. Zaimportuj produkty
-
-Produkty i kategorie pochodzą z `scraper_results/` (w repo), ale zdjęć w repo nie ma. Bez nich `make import` kończy się błędem, bo importer wybiera tylko produkty ze zdjęciami na dysku.
-
-1. Pobierz archiwum zdjęć z zakładki **Releases** repozytorium (wydanie `photos_v0.1`).
-2. Rozpakuj je tak, aby pliki leżały w `scraper_results/product_photos/<id_produktu>/<id_zdjecia>.webp`.
-3. Uruchom import:
-
-```bash
-make import
-```
-
-Import tworzy kategorie, atrybuty, wszystkie poprawne produkty (ze zdjęciem i opisem; limit: `--limit N`) z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
-
-Po imporcie ustaw filtry w lewej kolumnie list produktów i wgraj opisy kategorii:
-
-```bash
-make facets
-make categories
-```
-
-`make facets` zakłada w module `ps_facetedsearch` zestawy filtrów dla grup kategorii, tak jak w sklepie źródłowym (lista w `deploy/init/facets.php`), i przebudowuje indeks filtrów. `make categories` wpisuje opisy kategorii z plików HTML w `shop/categories/` (lista kategorii w `deploy/init/categories.sql`). Część pliku po znaczniku `<!-- więcej -->` jest zwinięta pod przyciskiem „Pokaż więcej”. Oba polecenia dopasowują kategorie (i cechy) po nazwie, więc przed importem zgłoszą ich brak. Uruchom je ponownie po każdym imporcie. Filtry i opisy ustawione w panelu zostaną nadpisane wersją z repo.
-
-### 6. Sprawdź status kontenerów
+### 4. Sprawdź status kontenerów
 
 Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 
@@ -110,7 +87,7 @@ Aby sprawdzić, czy kontenery zostały uruchomione poprawnie, wykonaj:
 make ps
 ```
 
-Jeżeli chcesz obserwować logi na bieżąco, użyj:
+Kontener `shop` powinien mieć status `(healthy)`. Jeżeli chcesz obserwować logi na bieżąco, użyj:
 
 ```bash
 make logs
@@ -118,7 +95,7 @@ make logs
 
 Domyślnie pokazuje to logi wszystkich kontenerów. Aby zawęzić je do jednego, podaj nazwę usługi, np. `make logs SERVICE=proxy`.
 
-### 7. Otwórz sklep
+### 5. Otwórz sklep
 
 Sklep jest dostępny wyłącznie przez HTTPS:
 
@@ -165,7 +142,7 @@ Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-chil
 - `config/theme.yml` — konfiguracja motywu (`parent: classic`, `use_parent_assets: true`); sekcje `global_settings` i `theme_settings` są skopiowane z Classic, aby zachować hooki modułów, typy obrazków i układy stron.
 - `assets/css/custom.css` — wszystkie własne style; PrestaShop ładuje go automatycznie po CSS Classic.
 
-Motyw jest kopiowany do obrazu, więc po każdej zmianie w jego plikach wykonaj `make up` (przebudowa obrazu, dane zostają) i `make theme` (czyści cache).
+Motyw jest kopiowany do obrazu, a przy każdym starcie kontenera skrypt `shop/init-scripts/00-sync-theme.sh` przenosi go do plików sklepu (wolumen `shop_data`). Po każdej zmianie w plikach motywu wykonaj więc `make up` (przebudowa obrazu i restart kontenera, dane zostają) i `make theme` (czyści cache).
 
 ## Testy E2E (Playwright)
 
@@ -194,7 +171,15 @@ Scenariusz wymaga zaimportowanych produktów (`make import`) i kategorii w górn
 
 ## Testy jednostkowe i linter
 
-Z aktywnym środowiskiem Pythona (patrz krok 2), bez uruchomionego sklepu. To samo robi CI przy każdym PR do `main`:
+Na komputerze z Pythonem 3.12, bez uruchomionego sklepu. Raz utwórz środowisko wirtualne z zależnościami:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r scraper/requirements.txt
+```
+
+Potem, z aktywnym środowiskiem, uruchom to samo, co CI przy każdym PR do `main`:
 
 ```bash
 ruff check scraper/
@@ -217,13 +202,17 @@ pytest scraper/
 
 ## Rozwiązywanie problemów
 
-### `ModuleNotFoundError: No module named 'requests'` przy `make init` lub `make import`
+### `make init` kończy się na `check-shop: BLAD`
 
-Środowisko Pythona nie jest aktywne albo nie ma zależności (patrz krok 2). Klucz API jest już wtedy zarejestrowany; po naprawie uruchom `make init` ponownie, aby usunąć dane demo.
+Sklep nie działa albo jeszcze się instaluje. Uruchom `make up` i poczekaj, aż się zakończy. Jeśli `make up` zgłasza błąd albo kontener `shop` ma status `unhealthy`, przyczyna jest w `make logs SERVICE=shop` (np. linia `20-configure-sales: BLAD: ...`).
+
+### `photos: BLAD: brak archiwum i nie udało się pobrać zdjęć z URL-i`
+
+Nie udało się pobrać ani archiwum z Releases, ani zdjęć ze sklepu źródłowego. Sprawdź połączenie z internetem i adres `PHOTOS_RELEASE_URL` (np. czy tag wydania w zakładce Releases nie zmienił nazwy), a potem uruchom `make init` ponownie.
 
 ### `make import` kończy się błędem `Za mało produktów z minimum 2 zdjęciami` lub `Nie udało się wybrać N produktów`
 
-Brakuje zdjęć w `scraper_results/product_photos/` (patrz krok 5).
+Brakuje zdjęć w `scraper_results/product_photos/`. Uruchom `make photos` (patrz [krok 3](#3-zainicjalizuj-dane)).
 
 ### Zmienne środowiskowe nie są ustawione
 
@@ -246,7 +235,7 @@ Następnie sprawdź status usług:
 make ps
 ```
 
-Pierwsze uruchomienie sklepu może potrwać dłuższą chwilę dlatego upewnij się, że sklep zdążył połączyć się z bazą danych.
+`make up` czeka na koniec instalacji, więc jeśli zakończył się bez błędu, sklep działa. Jeśli kontener `shop` się zatrzymał, przyczyna jest w ostatnich liniach jego logu (`make logs SERVICE=shop`).
 
 ### Po aktualizacji sklep przekierowuje na zły adres lub w pętli
 
@@ -257,7 +246,7 @@ make reset
 make up
 ```
 
-Uwaga: `make reset` kasuje bazę danych, wygenerowany certyfikat i lokalne mapowania importu (`scraper/importer/*_mapping.json`). Potem wykonaj ponownie kroki 4 i 5.
+Uwaga: `make reset` kasuje bazę danych, pliki sklepu (wolumen `shop_data`: zdjęcia produktów w sklepie, konfiguracja instalacji), wygenerowany certyfikat i lokalne mapowania importu (`scraper/importer/*_mapping.json`). Pobrane zdjęcia w `scraper_results/product_photos/` zostają. Potem wykonaj ponownie `make init`.
 
 ### Przeglądarka ostrzega o niezaufanym certyfikacie
 

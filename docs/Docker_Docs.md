@@ -7,12 +7,14 @@ Stan architektury będzie rozwijany w czasie, a niniejszy plik aktualizowany.
 **Dockerfile** bazuje na obrazie kontenera Prestashop w wersji zgodnej z wymaganiami i kopiuje do niego motyw potomny:
 
 ```dockerfile
-COPY --chown=www-data:www-data themes/custom-child-theme /var/www/html/themes/custom-child-theme
+COPY --chown=www-data:www-data themes/custom-child-theme /usr/local/share/shop-theme/custom-child-theme
 ```
 
-Właścicielem musi być `www-data` (użytkownik Apache), bo PrestaShop zapisuje w katalogu motywu cache CSS/JS. Skrypt startowy obrazu dokopiowuje pliki PrestaShop z `cp -n` (bez nadpisywania), więc skopiowany motyw zostaje nienaruszony. Kolejne moduły własne dodajemy analogicznie, kolejnymi liniami *COPY*.
+Motyw trafia poza `/var/www/html`, bo cały ten katalog jest wolumenem `shop_data` (sekcja o kontenerze `shop`). Docker kopiuje zawartość obrazu do nazwanego wolumenu tylko raz, gdy wolumen jest pusty. Plik skopiowany prosto do `/var/www/html/themes/` byłby więc w sklepie tylko w wersji z pierwszego uruchomienia, a kolejne zmiany motywu nie byłyby widoczne. Do katalogu `themes/` w wolumenie kopiuje go przy każdym starcie kontenera init-script `00-sync-theme.sh` (opis niżej).
 
-Sam `COPY` tylko udostępnia motyw — aktywuje go `make theme` (`bin/console prestashop:theme:enable`), ponieważ aktywny motyw jest zapisany w bazie danych.
+Właścicielem musi być `www-data` (użytkownik Apache), bo PrestaShop zapisuje w katalogu motywu cache CSS/JS. Kolejne moduły własne dodajemy analogicznie: kopia z obrazu poza wolumen i synchronizacja w init-scripcie.
+
+Sam motyw w plikach nie wystarczy. Aktywuje go `make theme` (`bin/console prestashop:theme:enable`), ponieważ aktywny motyw jest zapisany w bazie danych.
 
 Drugi `COPY` dodaje skrypty uruchamiane przy każdym starcie kontenera:
 
@@ -20,7 +22,7 @@ Drugi `COPY` dodaje skrypty uruchamiane przy każdym starcie kontenera:
 COPY --chmod=755 init-scripts/ /tmp/init-scripts/
 ```
 
-Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie są tam dwa skrypty: konfiguracja poczty (`10-configure-mail.sh`) i konfiguracja sprzedaży (`20-configure-sales.sh`), opisane w sekcji o kontenerze `shop`. Prefiks liczbowy ustala kolejność uruchamiania.
+Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie są tam cztery skrypty: synchronizacja motywu (`00-sync-theme.sh`), rozgrzanie cache (`05-cache-warmup.sh`), konfiguracja poczty (`10-configure-mail.sh`) i konfiguracja sprzedaży (`20-configure-sales.sh`), opisane w sekcji o kontenerze `shop`. Prefiks liczbowy ustala kolejność uruchamiania.
 
 Trzeci `COPY` dodaje skrypty PHP wywoływane przez init-scripts:
 
@@ -32,7 +34,7 @@ Nie mogą leżeć w `/tmp/init-scripts/`, bo `docker_run.sh` uruchomiłby je bez
 
 ## Plik compose.yaml
 
-Póki co plik zawiera kontener sklepu, reverse proxy (nginx), serwer poczty testowej (Mailpit) oraz bazy danych, która bazuje na wolumenie.
+Plik zawiera kontener sklepu, reverse proxy (nginx), serwer poczty testowej (Mailpit), bazę danych oraz kontener narzędziowy `tools` do inicjalizacji danych. Sklep, baza i certyfikat proxy przechowują dane w nazwanych wolumenach (`shop_data`, `db_data`, `proxy_certs`). Usuwa je dopiero `make reset` (`docker compose down -v`).
 
 ### Kontener shop
 
@@ -70,6 +72,42 @@ Zmienne środowiskowe:
 FREE_SHIPPING_THRESHOLD i MAX_ORDER_WEIGHT_KG to reguły sklepu z wymagań, takie same dla wszystkich, dlatego są wpisane bezpośrednio w `compose.yaml` (zmiana przechodzi przez PR), a nie w `.env`, który służy sekretom i ustawieniom zależnym od komputera. Zmiana: edycja wartości i `make up`, bez przebudowy bazy.
 
 Kontener nie publikuje portów na hoście. Cały ruch przechodzi przez kontener `proxy`, co gwarantuje, że sklep jest dostępny wyłącznie przez HTTPS.
+
+#### Wolumen z plikami sklepu
+
+```yaml
+volumes:
+  - shop_data:/var/www/html
+```
+
+W wolumenie są wszystkie pliki sklepu, w tym zdjęcia produktów (`img/`), plik `app/config/parameters.php` z konfiguracją instalacji, katalog panelu admina i moduły. Bez wolumenu pliki te żyły w warstwie kontenera i znikały przy każdym jego odtworzeniu (`make down` i `make up`, `make up` po zmianie obrazu). `docker_run.sh` rozpoznaje zainstalowany sklep wyłącznie po `app/config/parameters.php`, więc nowy kontener instalował PrestaShop od nowa na istniejącej bazie, a import i zamówienia przepadały.
+
+Motyw i skrypty z obrazu leżą poza wolumenem (`/usr/local/share/`, `/tmp/init-scripts/`), więc ich zmiany docierają do sklepu po `make up` (motyw przez `00-sync-theme.sh`).
+
+#### Healthcheck
+
+```yaml
+healthcheck:
+  test: ["CMD", "curl", "-fsS", "-o", "/dev/null", "http://localhost/"]
+  interval: 10s
+  timeout: 5s
+  retries: 3
+  start_period: 15m
+```
+
+Co 10 s zapytanie z wnętrza kontenera do Apache, z pominięciem proxy. `docker_run.sh` uruchamia Apache dopiero po instalacji i init-scriptach, więc odpowiedź oznacza, że sklep jest gotowy. Po HTTP sklep odpowiada przekierowaniem na HTTPS (302), które `curl -f` uznaje za sukces. Do tego przekierowania PrestaShop musi wczytać konfigurację z bazy, więc przy niedostępnej bazie odpowiedź to 500 i healthcheck nie przechodzi. Strona nie jest przy tym renderowana, a zapytanie trwa kilka milisekund.
+
+`start_period: 15m` to okres ochronny na pierwszą instalację: nieudane próby w tym czasie się nie liczą, a pierwsza udana od razu daje status *healthy*. Później 3 nieudane próby z rzędu dają status *unhealthy*.
+
+Healthcheck nie sprawdza proxy, HTTPS ani danych. Służy do tego, żeby `make up` (`docker compose up --wait`) kończył się dopiero po instalacji, a `make init` (`check-shop`) nie startował wcześniej. W etapie 2 Docker Swarm użyje go do restartu usługi i aktualizacji bez przerwy.
+
+#### Synchronizacja motywu (init-scripts)
+
+`shop/init-scripts/00-sync-theme.sh` przy każdym starcie podmienia katalog `themes/custom-child-theme` w wolumenie na wersję z obrazu (`/usr/local/share/shop-theme/`). Kopiuje go obok i zamienia nazwy, żeby Apache nie trafił na niepełny motyw. Katalog jest podmieniany w całości, więc pliki usunięte z repo znikają też ze sklepu. Ręczne zmiany plików motywu w kontenerze są przy restarcie nadpisywane, bo źródłem prawdy jest repo. Ustawienia z panelu są w bazie i w `img/`, więc ich to nie dotyczy.
+
+#### Rozgrzanie cache (init-scripts)
+
+`shop/init-scripts/05-cache-warmup.sh` przy każdym starcie wykonuje jako `www-data` `bin/console cache:warmup --env=prod` (ok. 1 s). Warmer PrestaShop (`src/PrestaShopBundle/Cache/CacheWarmer.php`) tworzy w `var/cache/prod/` katalogi `purifier`, `tcpdf`, `cachefs`, `push` i `sandbox`. Instalator ich nie tworzy, a bez nich zapis produktu z opisem HTML przez API kończy się HTTP 500 (brak `purifier`), a generowanie PDF faktury może się nie udać (brak `tcpdf`). Wcześniej tworzył je przypadkiem `cache:clear` z `make theme` uruchamiany przed importem. Błąd jest zgłaszany komunikatem `BLAD`, ale nie zatrzymuje kontenera, bo sklep działa bez tych katalogów, a nie działa tylko import i faktury.
 
 #### Konfiguracja poczty (init-scripts)
 
@@ -215,3 +253,46 @@ Do jakiego katalogu w kontenerze będzie montowany wolumen:
 volumes:
   - db_data:/var/lib/mysql
 ```
+
+### Kontener tools
+
+Kontener narzędziowy do inicjalizacji danych: importer i scraper w Pythonie, bez instalowania Pythona na hoście. Uruchamia go makefile (`make init`, `make import`, `make photos`, `make cleanup-demo`) jako jednorazowe zadanie, które po zakończeniu jest usuwane:
+
+```make
+TOOLS = $(COMPOSE) run --rm --no-deps --build --user $(shell id -u):$(shell id -g) tools
+```
+
+- `--rm` usuwa kontener po zakończeniu polecenia,
+- `--no-deps` nie buduje ani nie uruchamia innych usług, bo sklep musi już działać po `make up`. Dlatego usługa nie ma `depends_on`,
+- `--build` przebudowuje obraz po zmianie `scraper/requirements.txt`, a bez zmian bierze go z cache w poniżej sekundy,
+- `--user` sprawia, że pliki zapisane w zamontowanym repo (zdjęcia, `scraper/importer/*_mapping.json`) należą do użytkownika hosta, a nie do roota.
+
+Obraz budowany jest z `deploy/tools/Dockerfile` (`python:3.12-slim`, zależności z `scraper/requirements.txt`, `curl` i `unzip` do archiwum zdjęć):
+
+```yaml
+build:
+  context: ../scraper
+  dockerfile: ../deploy/tools/Dockerfile
+image: tools:dev
+platform: linux/amd64
+```
+
+Kontekstem budowania jest `scraper/`, bo obraz potrzebuje tylko `requirements.txt`. Kontekst całego repo obejmowałby wyniki scrapera i zdjęcia. Kod nie jest kopiowany do obrazu, tylko montowany, więc jego zmiany działają bez przebudowy:
+
+```yaml
+volumes:
+  - ..:/app
+```
+
+Usługa nie startuje przy `make up`, bo należy do profilu:
+
+```yaml
+profiles: [tools]
+```
+
+Zmienne środowiskowe:
+- SHOP_URL - adres sklepu w sieci Dockera (`https://proxy`), a nie `localhost`, który w kontenerze oznacza sam kontener,
+- PS_SHOP_HOST - domena sklepu (`SERVER_NAME:HTTPS_PORT`) wysyłana w nagłówku `Host` (`scraper/importer/api_client.py`). PrestaShop odpowiada przekierowaniem 302 na swoją domenę na zapytania pod innym adresem, więc bez tego nagłówka API pod `https://proxy` nie działa,
+- PYTHONWARNINGS - wycisza ostrzeżenie urllib3 o samopodpisanym certyfikacie (`PS_VERIFY_SSL=0`), które pojawiałoby się przy każdym zapytaniu.
+
+Pozostałe ustawienia (`PS_API_KEY`, `PS_TAX_RULES_GROUP_MAP`, `PS_VERIFY_SSL`) importer wczytuje sam z `/app/.env` (`load_env_file` w `scraper/importer/main.py`), dlatego usługa nie ma `env_file`. Zmiennych już ustawionych nie nadpisuje, więc wartości z `environment` mają pierwszeństwo.

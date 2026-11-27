@@ -13,11 +13,12 @@ Wszystko dzieje się skryptem — bez klikania w panelu administracyjnym, bo wym
 ## Uruchomienie
 
 ```bash
-openssl rand -hex 16 | tr a-f A-F   # wygenerowanie klucza; wynik wpisać do .env jako PS_API_KEY
-make up                              # poczekać, aż w `make logs` pojawi się "Almost ! Starting web server now"
-make init                            # włączenie API, rejestracja klucza i usunięcie danych demo
-make api-check                       # weryfikacja
+make up          # przy pierwszym uruchomieniu tworzy .env z wygenerowanym PS_API_KEY; kończy się po instalacji sklepu
+make init        # pełna inicjalizacja; włączenie API i rejestracja klucza to jej krok `webservice`
+make api-check   # weryfikacja
 ```
+
+Sam klucz bez reszty inicjalizacji rejestruje `make webservice`. Klucz wpisany ręcznie do `.env` musi mieć 32 znaki `A-Z0-9`, np. z `openssl rand -hex 16 | tr a-f A-F`.
 
 Oczekiwany wynik `make api-check`:
 
@@ -68,15 +69,14 @@ Skrypt zakłada domyślny prefiks tabel `ps_` (compose nie ustawia `DB_PREFIX`).
 
 ## Cele w makefile
 
-### make init
+### make webservice (krok `make init`)
 
 ```make
-init:
+webservice:
 	@echo "$(PS_API_KEY)" | grep -qE '^[A-Z0-9]{32}$$' || { echo "PS_API_KEY w .env musi miec 32 znaki A-Z0-9"; exit 1; }
 	@{ echo "SET @ws_key = '$(PS_API_KEY)';"; cat deploy/init/webservice.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
 	@echo "Webservice API wlaczone, klucz zarejestrowany."
-	$(PYTHON) -m scraper.importer.cleanup_demo --execute
 ```
 
 - `-include .env` na początku `makefile` wczytuje zmienne z `.env` do `make`.
@@ -84,7 +84,7 @@ init:
 - `$$` w `makefile` oznacza dosłowny `$` — zmienne `$$MYSQL_USER` i `$$MYSQL_PASSWORD` rozwija powłoka w kontenerze `db`.
 - `MYSQL_PWD` zamiast `-p<hasło>` — hasła nie widać na liście procesów.
 - `exec -T` wyłącza TTY; bez tego pipe nie działa.
-- Ostatnia linia usuwa przez API kategorie i produkty demonstracyjne z instalatora (lista nazw `DEMO_CATEGORIES` w `cleanup_demo.py`). Działa na hoście, więc wymaga Pythona z zależnościami z `scraper/requirements.txt`. Gdy danych demo już nie ma, niczego nie zmienia.
+- Kolejny krok `make init`, `make cleanup-demo`, usuwa przez API kategorie i produkty demonstracyjne z instalatora (lista nazw `DEMO_CATEGORIES` w `cleanup_demo.py`). Działa w kontenerze narzędziowym `tools` (opis w `docs/Docker_Docs.md`), więc nie wymaga Pythona na hoście. Gdy danych demo już nie ma, niczego nie zmienia.
 
 ### make api-check
 
@@ -96,9 +96,9 @@ make api-check SHOP_URL=https://adres-sklepu
 
 ## Rozwiązywanie problemów
 
-- **`Table 'ps_configuration' doesn't exist`** — `make init` uruchomione przed końcem instalacji PrestaShop. Poczekać na `Almost ! Starting web server now` w `make logs` i powtórzyć.
+- **`Table 'ps_configuration' doesn't exist`** — `make webservice` uruchomione przed końcem instalacji PrestaShop. `make init` sprawdza to wcześniej (`check-shop`). Poczekać na koniec `make up` i powtórzyć.
 - **`PS_API_KEY w .env musi miec 32 znaki A-Z0-9`** — brak klucza w `.env` albo zły format; wygenerować go poleceniem z sekcji [Uruchomienie](#uruchomienie).
-- **`make api-check`: `api/ z kluczem -> 401`** — klucz w `.env` zmieniony bez ponownego `make init` albo baza została wyczyszczona (`make reset`).
+- **`make api-check`: `api/ z kluczem -> 401`** — klucz w `.env` zmieniony bez ponownego `make init` (lub `make webservice`) albo baza została wyczyszczona (`make reset`).
 - **`/api/` zwraca 404** — brak reguły przepisywania adresów w `.htaccess`. Na obrazie `prestashop:8.2.8` reguła jest tworzona przy auto-instalacji; gdyby jej zabrakło, zapisać ustawienia w panelu *Ruch → SEO i URL*.
 
 ## Rozszerzanie uprawnień
