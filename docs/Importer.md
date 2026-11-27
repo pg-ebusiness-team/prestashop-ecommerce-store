@@ -27,7 +27,7 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `combinations.py`       | Import kombinacji produktów                |
 | `stock.py`              | Aktualizacja stanów magazynowych           |
 | `images.py`             | Import zdjęć produktów                     |
-| `selection.py`          | Wybór 1100 produktów do importu            |
+| `selection.py`          | Wybór poprawnych produktów do importu      |
 | `weights.py`            | Wyliczanie wag produktów i wariantów       |
 | `import_attributes.py`  | Osobny import samych atrybutów             |
 | `cleanup_demo.py`       | Usuwanie danych demo (wywołuje `make init`) |
@@ -45,6 +45,7 @@ Najważniejsze ustawienia:
 | `SHOP_URL`                 | Adres sklepu, gdy inny niż domyślny (opcjonalnie)            |
 | `PS_VERIFY_SSL`            | Weryfikacja certyfikatu SSL                                  |
 | `PS_TAX_RULES_GROUP_MAP`   | Mapowanie stawek VAT na ID grup reguł podatkowych PrestaShop |
+| `PS_IMPORT_WORKERS`        | Liczba wątków importu produktów (domyślnie 8, opcjonalnie)   |
 
 **Mapowanie VAT:** identyfikatory w `PS_TAX_RULES_GROUP_MAP` muszą odpowiadać grupom reguł podatkowych istniejącym w danej instancji PrestaShop. Przykładowe wartości z `.env.example` nie muszą być prawidłowe dla innego sklepu.
 
@@ -70,8 +71,8 @@ Importer:
 
 - Normalizuje i waliduje dane.
 - Grupuje rekordy dotyczące tego samego produktu.
-- Wybiera dokładnie 1100 produktów (`TARGET_PRODUCTS` w `selection.py`), tylko takich, które mają zdjęcie na dysku. Zapewnia co najmniej 1 produkt w każdej niepustej podkategorii i co najmniej 50 produktów z ≥2 zdjęciami. Gdy danych lub zdjęć jest za mało, kończy się błędem.
-- Przypisuje produkty do zaimportowanych kategorii.
+- Wybiera wszystkie poprawne produkty, czyli takie, które mają zdjęcie na dysku i niepusty opis (pusty HTML też odpada). `--limit N` ogranicza import do N produktów (np. `--limit 1100`). Selektor zawsze zapewnia co najmniej 1 produkt w każdej niepustej podkategorii i co najmniej 50 produktów z ≥2 zdjęciami. Gdy danych lub zdjęć jest za mało, kończy się błędem.
+- Przypisuje produkt do wszystkich kategorii, w których występuje w źródle. Kategorią domyślną (okruszki, adres URL) jest pierwsza z nich.
 - Importuje ceny netto, brutto i odpowiednie stawki VAT.
 - Tworzy grupy atrybutów, wartości i kombinacje wariantów.
 - Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
@@ -81,6 +82,7 @@ Importer:
 - Szacuje wagę (w kg) z pojemności (1,5 × litry + 0,25), a gdy jej brak — z gramatury (+ 0,05 na opakowanie). Gdy nie da się ustalić żadnej, przyjmuje 1,5 kg.
 - Ustawia stany magazynowe ze źródła. Przy produktach z wariantami ogranicza łączny stan do 10 sztuk. Udziału produktów ze stanem 0 (wymagane 5–20%) importer nie wymusza, wynika on z danych źródłowych. Zakres i udział sprawdza `docs/stock_validation.sql` (ostatni pomiar: 10,45%, wpis z 2026-11-20 w `AI_LOG.md`).
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
+- Importuje produkty równolegle (domyślnie 8 wątków, `--workers N` lub `PS_IMPORT_WORKERS`). Każdy wątek obsługuje cały jeden produkt: dane, kombinacje, stany i zdjęcia. Kategorie, atrybuty i cechy importują się wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest chroniony blokadą i atomowy (plik tymczasowy + podmiana). Gdy sklep zwraca błędy 5xx lub timeouty pod obciążeniem, zmniejsz liczbę wątków (`--workers 1` = dawny import sekwencyjny).
 
 ## 5. Mapowanie i idempotencja
 
@@ -109,6 +111,13 @@ python -m scraper.importer.main --dry-run
 
 ```bash
 python -m scraper.importer.main --execute
+```
+
+**Import z inną liczbą wątków:**
+
+```bash
+python -m scraper.importer.main --execute --workers 4
+make import IMPORT_ARGS="--execute --workers 4"
 ```
 
 **Import przez Makefile:**
