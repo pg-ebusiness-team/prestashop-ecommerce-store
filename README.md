@@ -184,9 +184,9 @@ Jeden plik lub jeden test: `cd tests && BASE_URL=https://localhost:8443 npx play
 | Plik | Co sprawdza |
 |---|---|
 | `tests/e2e/smoke.spec.ts` | strona główna się ładuje |
-| `tests/e2e/zamowienie.spec.ts` | scenariusz W4 w jednym teście, kroki 1–8: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka, rejestracja nowego konta, zamówienie na zawartość koszyka z adresem, wybór przewoźnika „Przesyłka kurierska ekspresowa” i płatności przy odbiorze, zatwierdzenie zamówienia i sprawdzenie strony potwierdzenia z numerem referencyjnym |
+| `tests/e2e/zamowienie.spec.ts` | scenariusz W4 w jednym teście, kroki 1–10: 10 produktów z co najmniej 2 kategorii w różnych ilościach, wyszukanie produktu i dodanie losowego wyniku, usunięcie 3 pozycji z koszyka, rejestracja nowego konta, zamówienie na zawartość koszyka z adresem, wybór przewoźnika „Przesyłka kurierska ekspresowa” i płatności przy odbiorze, zatwierdzenie zamówienia i sprawdzenie strony potwierdzenia z numerem referencyjnym, status zamówienia w historii zamówień, pobranie faktury VAT (plik zaczyna się od `%PDF-`) |
 
-Kroki 9–10 scenariusza W4 (status zamówienia, faktura VAT) nie są jeszcze napisane — dopisuje się je na końcu `zamowienie.spec.ts`, bo dotyczą zamówienia z kroku 8 (numer referencyjny jest w zmiennej `numerZamowienia`). Cały scenariusz musi trwać ≤5 min (`test.setTimeout`); kroki 1–8 trwają ok. 25 s.
+Kroki 9–10 dotyczą zamówienia z kroku 8 (numer referencyjny jest w zmiennej `numerZamowienia`): test szuka go w historii zamówień, sprawdza status „Oczekiwanie na płatność przy odbiorze” i pobiera fakturę. Cały scenariusz musi trwać ≤5 min (`test.setTimeout`); kroki 1–8 trwają ok. 25 s, kroki 9–10 kilka sekund.
 
 Każde uruchomienie zakłada nowego klienta `e2e+<timestamp>@example.com` i składa prawdziwe zamówienie za pobraniem — zamówienia testowe rozpoznasz w panelu i w Mailpicie po prefiksie `e2e+`. Zamówienia zmniejszają stany magazynowe, a test bierze produkty tylko z kategorii najwyższego poziomu w górnym menu (losowa kolejność rozkłada zużycie, ale pula jest mała). Po kilku uruchomieniach kroki 1–2 przestają znajdować dostępne produkty (np. `Expected: 10, Received: 8` w kroku 1) — wtedy odśwież stany poleceniem `make import`, który przywraca stany z wyników scrapera.
 
