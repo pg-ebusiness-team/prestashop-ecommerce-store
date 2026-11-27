@@ -30,7 +30,7 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `selection.py`          | Wybór poprawnych produktów do importu      |
 | `weights.py`            | Wyliczanie wag produktów i wariantów       |
 | `import_attributes.py`  | Osobny import samych atrybutów             |
-| `cleanup_demo.py`       | Usuwanie danych demo (wywołuje `make init`) |
+| `cleanup_demo.py`       | Usuwanie danych demo (`make cleanup-demo`, część `make init`) |
 
 ## 3. Konfiguracja
 
@@ -42,7 +42,8 @@ Najważniejsze ustawienia:
 | -------------------------- | ------------------------------------------------------------ |
 | `PS_API_KEY`               | Klucz dostępu do Webservice API                              |
 | `HTTPS_PORT`               | Port sklepu w domyślnym adresie `https://localhost:<port>`   |
-| `SHOP_URL`                 | Adres sklepu, gdy inny niż domyślny (opcjonalnie)            |
+| `SHOP_URL`                 | Adres sklepu, gdy inny niż domyślny (opcjonalnie; kontener `tools` ustawia `https://proxy`) |
+| `PS_SHOP_HOST`             | Domena sklepu wysyłana w nagłówku `Host`, gdy `SHOP_URL` wskazuje inny adres niż domena sklepu (ustawia ją kontener `tools`) |
 | `PS_VERIFY_SSL`            | Weryfikacja certyfikatu SSL                                  |
 | `PS_TAX_RULES_GROUP_MAP`   | Mapowanie stawek VAT na ID grup reguł podatkowych PrestaShop |
 | `PS_IMPORT_WORKERS`        | Liczba wątków importu produktów (domyślnie 8, opcjonalnie)   |
@@ -82,7 +83,7 @@ Importer:
 - Szacuje wagę (w kg) z pojemności (1,5 × litry + 0,25), a gdy jej brak — z gramatury (+ 0,05 na opakowanie). Gdy nie da się ustalić żadnej, przyjmuje 1,5 kg.
 - Ustawia stany magazynowe ze źródła. Przy produktach z wariantami ogranicza łączny stan do 10 sztuk. Udziału produktów ze stanem 0 (wymagane 5–20%) importer nie wymusza, wynika on z danych źródłowych. Zakres i udział sprawdza `docs/stock_validation.sql` (ostatni pomiar: 10,45%, wpis z 2026-11-20 w `AI_LOG.md`).
 - Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
-- Importuje produkty równolegle (domyślnie 8 wątków, `--workers N` lub `PS_IMPORT_WORKERS`). Każdy wątek obsługuje cały jeden produkt: dane, kombinacje, stany i zdjęcia. Kategorie, atrybuty i cechy importują się wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest chroniony blokadą i atomowy (plik tymczasowy + podmiana). Gdy sklep zwraca błędy 5xx lub timeouty pod obciążeniem, zmniejsz liczbę wątków (`--workers 1` = dawny import sekwencyjny).
+- Importuje produkty równolegle (domyślnie 8 wątków, `--workers N` lub `PS_IMPORT_WORKERS`). Każdy wątek obsługuje cały jeden produkt: dane, kombinacje, stany i zdjęcia. Kategorie, atrybuty i cechy importują się wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest chroniony blokadą i atomowy (plik tymczasowy + podmiana). Równoległe zapisy produktów trafiają czasem na deadlock MySQL przy indeksowaniu wyszukiwarki (`Search::indexation`). PrestaShop zwraca wtedy HTTP 500 z pustą treścią, więc importer ponawia produkt do 3 razy przy każdym błędzie 5xx (`PRODUCT_ATTEMPTS` w `main.py`, w logu `HTTP 5xx, ponawiam (1/2)`). Ponowienie nie tworzy duplikatów, bo produkt jest odnajdywany po `reference` (sekcja 5). Gdy błędy 5xx lub timeouty powtarzają się mimo to, zmniejsz liczbę wątków (`--workers 1` = dawny import sekwencyjny).
 
 ## 5. Mapowanie i idempotencja
 
@@ -99,33 +100,34 @@ Pliki mapowania są zależne od konkretnej instancji sklepu i powinny pozostać 
 
 ## 6. Uruchomienie
 
-Polecenia należy wykonywać z katalogu głównego projektu, w środowisku Pythona z zależnościami z `scraper/requirements.txt` (patrz [README](../README.md), krok 2). Zdjęcia muszą być w `scraper_results/product_photos/` (krok 5), także przy dry-run.
-
-**Dry-run – sprawdzenie importu bez modyfikowania sklepu:**
-
-```bash
-python -m scraper.importer.main --dry-run
-```
-
-**Właściwy import:**
-
-```bash
-python -m scraper.importer.main --execute
-```
-
-**Import z inną liczbą wątków:**
-
-```bash
-python -m scraper.importer.main --execute --workers 4
-make import IMPORT_ARGS="--execute --workers 4"
-```
+Pełny import jest częścią `make init` (patrz [README](../README.md), krok 3). Osobno importer uruchamiają polecenia make, które wykonują go w kontenerze narzędziowym `tools` (Python z zależnościami, montowane repo; opis w [Docker_Docs.md](Docker_Docs.md)). Na komputerze nie potrzeba więc Pythona. Polecenia wykonuje się z katalogu głównego projektu, przy działającym sklepie (`make up`). Zdjęcia muszą być w `scraper_results/product_photos/` (`make photos`), także przy dry-run.
 
 **Import przez Makefile:**
 
 ```bash
+make import             # pełny import
 make import-categories  # import kategorii
 make import-products    # import produktów
-make import             # pełny import
+```
+
+**Dry-run – sprawdzenie importu bez modyfikowania sklepu:**
+
+```bash
+make import IMPORT_ARGS=--dry-run
+```
+
+**Import z inną liczbą wątków lub limitem produktów:**
+
+```bash
+make import IMPORT_ARGS="--execute --workers 4"
+make import IMPORT_ARGS="--execute --limit 100"
+```
+
+Bez make, w środowisku Pythona z zależnościami z `scraper/requirements.txt` (README, sekcja „Testy jednostkowe i linter”), importer łączy się z `https://localhost:<HTTPS_PORT>`:
+
+```bash
+python -m scraper.importer.main --dry-run
+python -m scraper.importer.main --execute
 ```
 
 Dry-run sprawdza dane wejściowe, ich poprawność, grupowanie oraz przewidywane operacje. Nie wykonuje zapisów w PrestaShop i nie łączy się ze sklepem, więc podział na „utworzone” i „zaktualizowane” wynika tylko z lokalnych mapowań.
