@@ -12,7 +12,7 @@ Najdroższe były błędy w operacjach na środowisku, a nie w samym kodzie. Cla
 
 ## Czego trzeba było nauczyć się samemu
 
-- **Jak działa PrestaShop.** Bez znajomości modelu danych (przewoźnicy, cechy, indeksy filtrów, `specific_prices`) i kolejności kroków inicjalizacji nie dało się ocenić, czy propozycja AI jest poprawna. Hipotezy trzeba było sprawdzać zapytaniami SQL do bazy.
+- **Jak działa PrestaShop.** Bez znajomości modelu danych (przewoźnicy, cechy, indeksy filtrów, `specific_prices`) i kolejności kroków inicjalizacji nie dało się ocenić, czy propozycja AI jest poprawna.
 - **Weryfikacji.** Każdą zmianę sprawdzaliśmy niezależnie: uruchomieniem od zera, drugim uruchomieniem skryptu (idempotencja), testami, `curl`, Playwrightem i ręcznie w przeglądarce. Sama deklaracja AI, że coś działa, nie wystarczała.
 - **Decyzji projektowych.** Wybór wariantu wyglądu, zakres odstępstw od źródła i ocena, co jest błędem importu, a co scrapera, pozostały po naszej stronie.
 
