@@ -198,5 +198,49 @@ test.describe('Scenariusz zamówienia', () => {
       // Classic zawsze ma w HTML ukryty komunikat „adres niekompletny” - sklep pokazuje go, gdy adres odrzuci
       await expect(krokAdres.locator('.js-address-error')).toBeHidden();
     });
+
+    // PrestaShop pyta o przewoźnika przed płatnością, dlatego krok 7 wykonujemy przed krokiem 6
+    // (numeracja jak w docs/WYMAGANIA.md)
+    const przewoznik = 'Przesyłka kurierska ekspresowa'; // jeden z dwóch nowych przewoźników (shop/scripts/configure-sales.php)
+
+    await test.step('Krok 7: wybór jednego z dwóch nowych przewoźników', async () => {
+      const opcje = krokDostawa.locator('.delivery-option');
+      // przy braku przewoźników sklep pokazuje tylko komunikat o przekroczonej wadze zamówienia
+      await expect(opcje, 'brak przewoźników - czy koszyk nie przekracza limitu 50 kg?').toHaveCount(2);
+
+      const radio = opcje.filter({ hasText: przewoznik }).locator('input[type=radio]');
+      if (!(await radio.isChecked())) {
+        // wybór zapisuje się w koszyku zapytaniem AJAX; dopiero po nim można przejść dalej
+        const zapis = page.waitForResponse((r) => r.url().includes('selectDeliveryOption'));
+        await radio.check();
+        expect((await zapis).ok()).toBe(true);
+      }
+      await expect(radio).toBeChecked();
+
+      await krokDostawa.getByRole('button', { name: /Dalej/i }).click();
+      await expect(krokDostawa).toHaveClass(/-complete/);
+      await expect(krokPlatnosc).toHaveClass(/-current/);
+    });
+
+    await test.step('Krok 6: wybór płatności przy odbiorze', async () => {
+      // tylko metody stosowane w Polsce: przelew tradycyjny i płatność przy odbiorze
+      await expect(krokPlatnosc.locator('input[name=payment-option]')).toHaveCount(2);
+      // sprawdzamy tutaj przelew tradycyjny, a w 'pobranie' płatność przy odbiorze
+      await expect(krokPlatnosc.locator('input[data-module-name="ps_wirepayment"]')).toHaveCount(1);
+
+      const pobranie = krokPlatnosc.locator('input[data-module-name="ps_cashondelivery"]');
+      await pobranie.check();
+      await expect(pobranie).toBeChecked();
+      // po wyborze sklep rozwija opis wybranej metody
+      const opis = page.locator(`#${await pobranie.getAttribute('id')}-additional-information`);
+      await expect(opis).toBeVisible();
+      await expect(opis).toContainText(/przy dostawie/i);
+
+      // przycisk zamówienia odblokowuje dopiero akceptacja regulaminu
+      const zamow = page.locator('#payment-confirmation button');
+      await expect(zamow).toBeDisabled();
+      await krokPlatnosc.locator('[name="conditions_to_approve[terms-and-conditions]"]').check();
+      await expect(zamow).toBeEnabled();
+    });
   });
 });
