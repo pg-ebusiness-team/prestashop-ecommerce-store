@@ -9,11 +9,13 @@ COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
 TOOLS = $(COMPOSE) run --rm --build --user $(shell id -u):$(shell id -g) tools
 PYTHON = $(TOOLS) python
 IMPORT_ARGS ?= --execute
+# Archiwum zdjęć produktów w Releases (deploy/init/photos.sh); można nadpisać w .env
+PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-store/releases/download/photos_v0.1/product_photos.zip
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init api-check theme  test-e2e
-.PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import
+.PHONY: help up down reset logs ps shell build init api-check theme test-e2e facets categories import-categories import-products import photos
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -32,6 +34,7 @@ help:
 	@echo "make import-categories - importuj kategorie"
 	@echo "make import-products   - importuj atrybuty, produkty i warianty"
 	@echo "make import            - wykonaj pelny import"
+	@echo "make photos            - pobierz zdjecia produktow z Releases (brakujace - z URL-i sklepu zrodlowego)"
 
 
 up:
@@ -109,6 +112,10 @@ categories:
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -N -u"$$MYSQL_USER" "$$MYSQL_DATABASE"') || exit 1; \
 	if [ -n "$$out" ]; then echo "$$out"; exit 1; fi
 	@echo "categories: gotowe"
+# Zdjęcia produktów: archiwum z Releases, brakujące z URL-i z wyników scrapera (fallback)
+photos:
+	$(TOOLS) sh deploy/init/photos.sh "$(PHOTOS_RELEASE_URL)"
+
 # Import danych do PrestaShop
 import-categories:
 	$(PYTHON) -m scraper.importer.main $(IMPORT_ARGS) --categories-only
