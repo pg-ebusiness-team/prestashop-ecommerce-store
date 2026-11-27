@@ -4,17 +4,17 @@
   "id_supplier": 0,
   "reference": "5904844529015",
   "is_virtual": "0",
-  "delivery_in_stock": null,
-  "delivery_out_stock": null,
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
   "id_category_default": 29,
   "on_sale": "0",
   "online_only": "0",
   "ecotax": 0,
   "minimal_quantity": 1,
-  "low_stock_threshold": null,
+  "low_stock_threshold": 0,
   "low_stock_alert": "0",
   "price": "185,00 zł",
-  "unity": "szt.",
+  "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
   "additional_shipping_cost": "0.000000",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 3283,
   "advanced_stock_management": "0",
   "date_add": "2026-11-04 23:10:52",
-  "date_upd": "2026-11-04 23:10:52",
+  "date_upd": "2026-11-23 17:07:14",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "LIKIER Mandarin Ginger J.Urbanowicz 30% 0,7l",
   "link_rewrite": "likier-mandarin-ginger-jurbanowicz-30-07l",
   "name": "LIKIER Mandarin Ginger J.Urbanowicz 30% 0,7l",
-  "description": "\r\n<P>LIKIER Mandarin Ginger J. Urbanowicz 30% 0,7L – mandarynkowa świeżość z \r\nwyrazistą nutą imbiru</P>\r\n<P>Mandarin Ginger J. Urbanowicz to aromatyczny likier, w którym soczysty, \r\ncytrusowy charakter mandarynki spotyka się z intensywną, lekko pikantną nutą \r\nimbiru. To interesująca propozycja dla osób, które lubią wyraziste połączenia \r\nsmakowe, łączące owocową słodycz z przyjemnym rozgrzewającym akcentem. Sprawdzi \r\nsię zarówno podczas spotkań towarzyskich, jak i jako oryginalny dodatek do \r\nkoktajli.</P>\r\n<P>Charakterystyka likieru Mandarin Ginger</P>\r\n<P>Aromat: wyraźnie cytrusowy, z dominującą nutą dojrzałej mandarynki i świeżym, \r\nkorzennym akcentem imbiru.</P>\r\n<P>Smak: owocowy i harmonijny. Słodycz mandarynki przeplata się z \r\ncharakterystyczną imbirową pikantnością, tworząc ciekawą, wielowymiarową \r\nkompozycję.</P>\r\n<P>Finisz: przyjemnie rozgrzewający, z utrzymującymi się nutami cytrusów i \r\ndelikatną ostrością imbiru.</P>\r\n<P>Charakter i sposób podawania</P>\r\n<P>Mandarin Ginger J. Urbanowicz wyróżnia się połączeniem dwóch składników o \r\nodmiennym charakterze – słodkiej, aromatycznej mandarynki oraz wyrazistego \r\nimbiru. Dzięki temu likier nie jest jedynie słodkim trunkiem, lecz oferuje \r\nrównież świeżość i korzenny akcent.</P>\r\n<P>Najlepiej sprawdzi się:</P>\r\n<P>Schłodzony – serwowany samodzielnie w niewielkim kieliszku.</P>\r\n<P>Na lodzie – jako prosty sposób na wydobycie cytrusowego charakteru.</P>\r\n<P>W koktajlach – jako dodatek do drinków z tonikiem, wodą gazowaną lub \r\ncytrusami.</P>\r\n<P>Do deserów – jako aromatyczny akcent do słodkich kompozycji i deserów \r\nowocowych.</P>\r\n<P>Specyfikacja produktu</P>\r\n<P>Nazwa: Mandarin Ginger J. Urbanowicz</P>\r\n<P>Kategoria: likier</P>\r\n<P>Profil smakowy: mandarynka, imbir</P>\r\n<P>Zawartość alkoholu: 30%</P>\r\n<P>Pojemność: 0,7 l</P>\r\n",
+  "description": "<p>LIKIER Mandarin Ginger J. Urbanowicz 30% 0,7L – mandarynkowa świeżość z wyrazistą nutą imbiru</p>\n<p>Mandarin Ginger J. Urbanowicz to aromatyczny likier, w którym soczysty, cytrusowy charakter mandarynki spotyka się z intensywną, lekko pikantną nutą imbiru. To interesująca propozycja dla osób, które lubią wyraziste połączenia smakowe, łączące owocową słodycz z przyjemnym rozgrzewającym akcentem. Sprawdzi się zarówno podczas spotkań towarzyskich, jak i jako oryginalny dodatek do koktajli.</p>\n<p>Charakterystyka likieru Mandarin Ginger</p>\n<p>Aromat: wyraźnie cytrusowy, z dominującą nutą dojrzałej mandarynki i świeżym, korzennym akcentem imbiru.</p>\n<p>Smak: owocowy i harmonijny. Słodycz mandarynki przeplata się z charakterystyczną imbirową pikantnością, tworząc ciekawą, wielowymiarową kompozycję.</p>\n<p>Finisz: przyjemnie rozgrzewający, z utrzymującymi się nutami cytrusów i delikatną ostrością imbiru.</p>\n<p>Charakter i sposób podawania</p>\n<p>Mandarin Ginger J. Urbanowicz wyróżnia się połączeniem dwóch składników o odmiennym charakterze – słodkiej, aromatycznej mandarynki oraz wyrazistego imbiru. Dzięki temu likier nie jest jedynie słodkim trunkiem, lecz oferuje również świeżość i korzenny akcent.</p>\n<p>Najlepiej sprawdzi się:</p>\n<p>Schłodzony – serwowany samodzielnie w niewielkim kieliszku.</p>\n<p>Na lodzie – jako prosty sposób na wydobycie cytrusowego charakteru.</p>\n<p>W koktajlach – jako dodatek do drinków z tonikiem, wodą gazowaną lub cytrusami.</p>\n<p>Do deserów – jako aromatyczny akcent do słodkich kompozycji i deserów owocowych.</p>\n<p>Specyfikacja produktu</p>\n<p>Nazwa: Mandarin Ginger J. Urbanowicz</p>\n<p>Kategoria: likier</p>\n<p>Profil smakowy: mandarynka, imbir</p>\n<p>Zawartość alkoholu: 30%</p>\n<p>Pojemność: 0,7 l</p>",
   "description_short": "<p>Mandarin Ginger J. Urbanowicz to aromatyczny likier, w którym soczysty, cytrusowy charakter mandarynki spotyka się z intensywną, lekko pikantną nutą imbiru. To interesująca propozycja dla osób, które lubią wyraziste połączenia smakowe</p>",
   "available_now": "",
   "available_later": "",
@@ -63,7 +63,7 @@
   "reduction": 0,
   "specific_prices": [],
   "quantity": 1,
-  "quantity_all_versions": 3,
+  "quantity_all_versions": 2,
   "id_image": "pl-default",
   "features": [
     {
@@ -121,8 +121,154 @@
   "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
-  "images": [],
-  "cover": false,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4945,
+      "legend": "LIKIER Mandarin Ginger J.Urbanowicz 30% 0,7l",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4945-small_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4945-small_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4945-medium_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4945-medium_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4945,
+    "legend": "LIKIER Mandarin Ginger J.Urbanowicz 30% 0,7l",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4945-small_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-small_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4945-medium_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-medium_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4945-cart_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4945-home_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4945-large_default/likier-mandarin-ginger-jurbanowicz-30-07l.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
   "has_discount": false,
   "discount_type": null,
   "discount_percentage": null,
@@ -134,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 65,
   "id_supplier": 0,
   "reference": "5901617020489",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 1330,
   "advanced_stock_management": "0",
   "date_add": "2024-12-02 11:42:04",
-  "date_upd": "2025-02-23 21:20:47",
+  "date_upd": "2026-11-24 14:33:38",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Paprocky Single Barrel",
   "link_rewrite": "whisky-paprocky-single-barrel",
   "name": "WHISKY Paprocky Single Barrel",
-  "description": "\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Paprocky \r\n whisky produkowana jest w Polsce w rodzinnej firmie, której siedziba mieści się \r\n przy adresie Paproć 111, stąd tej oryginalna nazwa trunku. Produkowana \r\nwyłącznie  ze słodu jęczmiennego w ściśle limitowanych ilościach. Nie mieszana z \r\nżadną inną  whisky, starzona w jednej, nowej beczce z amerykańskiego dębu. \r\nDojrzewanie odbywa się w małych beczkach co wpływa na niepowtarzalny smak \r\ntrunku. Aromat polskiej whisky jest wyrazisty, a smak bardzo \r\n nasycony.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Paprocky whisky produkowana jest w Polsce w rodzinnej firmie, której siedziba mieści się przy adresie Paproć 111, stąd tej oryginalna nazwa trunku. Produkowana wyłącznie ze słodu jęczmiennego w ściśle limitowanych ilościach. Nie mieszana z żadną inną whisky, starzona w jednej, nowej beczce z amerykańskiego dębu. Dojrzewanie odbywa się w małych beczkach co wpływa na niepowtarzalny smak trunku. Aromat polskiej whisky jest wyrazisty, a smak bardzo nasycony.</span></p>",
   "description_short": "<p>Paprocky whisky produkowana jest w Polsce w rodzinnej firmie, której siedziba mieści się przy adresie Paproć 111, stąd tej oryginalna nazwa trunku. Produkowana wyłącznie ze słodu jęczmiennego w ściśle limitowanych ilościach.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,14 +56,14 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/1256-whisky-paprocky-single-barrel",
-  "manufacturer_name": null,
+  "manufacturer_name": "Paprocky",
   "attribute_price": -133.333333,
   "price_tax_exc": 12.195122,
   "price_without_reduction": 15,
   "reduction": 0,
   "specific_prices": [],
   "quantity": 21,
-  "quantity_all_versions": 22,
+  "quantity_all_versions": 32,
   "id_image": "pl-default",
   "features": [
     {
@@ -277,5 +277,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

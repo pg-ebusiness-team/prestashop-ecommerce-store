@@ -39,10 +39,10 @@
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Bushmills 16 Y O",
-  "link_rewrite": "whisky-bushmills-16-yo",
-  "name": "WHISKY Bushmills 16 YO",
-  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Irlandzka whiskey produkowana od 1608 roku w najstarszej destylarni whiskey na świecie. Jest największą marką irlandzkiej whiskey typu single malt. Do suszenia jęczmienia nie używa torfu, stosuje potrójną destylację, prowadzi specjalną selekcję dębowych beczek, a jej kompozycje typu blended mają większą zawartość single malt, w porównaniu do konkurencyjnych produktów. Dzięki temu jest to marka o wyjątkowo łagodnym smaku cenionym na całym świecie. Bushmills 16 YO to wyjątkowa whiskey typu single malt, leżakująca ok. 16 lat w beczkach po sherry Oloroso i po bourbonie. Następnie jest przelewana do beczek po Porto, gdzie leżakuje przez 9 miesięcy.</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">rlandzka whiskey produkowana od 1608 roku w najstarszej destylarni whiskey na świecie. Jest największą marką irlandzkiej whiskey typu single malt.</span></p>",
+  "link_rewrite": "whisky-bushmills-16-y-o",
+  "name": "WHISKY Bushmills 16 Y O",
+  "description": "\r\n<P style=\"text-align: justify;\">Irlandzka whiskey produkowana od 1608 roku w \r\nnajstarszej destylarni whiskey na świecie. Jest największą marką irlandzkiej \r\nwhiskey typu single malt. Do suszenia jęczmienia nie używa torfu, stosuje \r\npotrójną destylację, prowadzi specjalną selekcję dębowych beczek, a jej \r\nkompozycje typu blended mają większą zawartość single malt, w porównaniu do \r\nkonkurencyjnych produktów. Dzięki temu jest to marka o wyjątkowo łagodnym smaku \r\ncenionym na całym świecie.</P>\r\n<P style=\"text-align: justify;\">Bushmills 16 YO to wyjątkowa whiskey typu single \r\nmalt, leżakująca ok. 16 lat w beczkach po sherry Oloroso i po bourbonie. \r\nNastępnie jest przelewana do beczek po Porto, gdzie leżakuje przez 9 \r\n miesięcy.</P>\r\n",
+  "description_short": "<p>Irlandzka whiskey produkowana od 1608 roku w najstarszej destylarni whiskey na świecie. Jest największą marką irlandzkiej whiskey typu single malt.</p>",
   "available_now": "",
   "available_later": "",
   "id": 291,
@@ -55,15 +55,15 @@
   "allow_oosp": 0,
   "category": "whisky",
   "category_name": "Whisky",
-  "link": "https://luksusowealkohole.pl/whisky/291-whisky-bushmills-16-yo",
+  "link": "https://luksusowealkohole.pl/whisky/291-whisky-bushmills-16-y-o",
   "manufacturer_name": "Bushmills",
   "attribute_price": 0,
   "price_tax_exc": 234.95935,
   "price_without_reduction": 289.000001,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 1,
-  "quantity_all_versions": 1,
+  "quantity": 0,
+  "quantity_all_versions": 0,
   "id_image": "pl-default",
   "features": [
     {
@@ -124,7 +124,7 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": true,
+  "show_quantities": false,
   "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
@@ -136,68 +136,68 @@
       "position": 1,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-y-o.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-y-o.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "associatedVariants": []
@@ -209,68 +209,68 @@
       "position": 2,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-y-o.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/4191-small_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4191-small_default/whisky-bushmills-16-y-o.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4191-small_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4191-small_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-y-o.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/4191-medium_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4191-medium_default/whisky-bushmills-16-y-o.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4191-medium_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4191-medium_default/whisky-bushmills-16-y-o.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-yo.jpg",
+          "url": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-y-o.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-yo.jpg"
+            "jpg": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-y-o.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4191-cart_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4191-home_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4191-large_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "associatedVariants": []
@@ -283,68 +283,68 @@
     "position": 1,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-y-o.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-small_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-y-o.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-medium_default/whisky-bushmills-16-y-o.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg",
+        "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg"
+          "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4190-cart_default/whisky-bushmills-16-y-o.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4190-home_default/whisky-bushmills-16-y-o.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg",
+      "url": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-yo.jpg"
+        "jpg": "https://luksusowealkohole.pl/4190-large_default/whisky-bushmills-16-y-o.jpg"
       }
     },
     "associatedVariants": []
@@ -358,7 +358,9 @@
   "price_amount": 289,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

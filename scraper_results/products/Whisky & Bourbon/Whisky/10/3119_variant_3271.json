@@ -34,7 +34,7 @@
   "cache_default_attribute": 3271,
   "advanced_stock_management": "0",
   "date_add": "2026-10-01 23:16:04",
-  "date_upd": "2026-10-07 23:05:38",
+  "date_upd": "2026-11-10 15:00:52",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -273,5 +273,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -34,7 +34,7 @@
   "cache_default_attribute": 1104,
   "advanced_stock_management": "0",
   "date_add": "2024-09-04 12:07:05",
-  "date_upd": "2025-07-01 16:43:05",
+  "date_upd": "2026-11-23 17:07:14",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -82,8 +82,8 @@
     "to": "0000-00-00 00:00:00",
     "score": 32
   },
-  "quantity": 4,
-  "quantity_all_versions": 4,
+  "quantity": 3,
+  "quantity_all_versions": 3,
   "id_image": "pl-default",
   "features": [
     {
@@ -151,146 +151,146 @@
   "images": [
     {
       "cover": 1,
-      "id_image": 2840,
+      "id_image": 4968,
       "legend": "WÓDKA Arcturus Ziemniaczana",
       "position": 1,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/2840-small_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4968-small_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2840-small_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4968-small_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/2840-medium_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4968-medium_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2840-medium_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4968-medium_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "associatedVariants": []
     },
     {
       "cover": null,
-      "id_image": 2841,
+      "id_image": 4969,
       "legend": "WÓDKA Arcturus Ziemniaczana",
       "position": 2,
       "bySize": {
         "cart_default": {
-          "url": "https://luksusowealkohole.pl/2841-cart_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4969-cart_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 85,
           "height": 96,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2841-cart_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4969-cart_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "small_default": {
-          "url": "https://luksusowealkohole.pl/2841-small_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4969-small_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 154,
           "height": 103,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2841-small_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4969-small_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "home_default": {
-          "url": "https://luksusowealkohole.pl/2841-home_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4969-home_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 326,
           "height": 370,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2841-home_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4969-home_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "medium_default": {
-          "url": "https://luksusowealkohole.pl/2841-medium_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4969-medium_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 566,
           "height": 642,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2841-medium_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4969-medium_default/wodka-arcturus-ziemniaczana.jpg"
           }
         },
         "large_default": {
-          "url": "https://luksusowealkohole.pl/2841-large_default/wodka-arcturus-ziemniaczana.jpg",
+          "url": "https://luksusowealkohole.pl/4969-large_default/wodka-arcturus-ziemniaczana.jpg",
           "width": 881,
           "height": 1000,
           "sources": {
-            "jpg": "https://luksusowealkohole.pl/2841-large_default/wodka-arcturus-ziemniaczana.jpg"
+            "jpg": "https://luksusowealkohole.pl/4969-large_default/wodka-arcturus-ziemniaczana.jpg"
           }
         }
       },
       "small": {
-        "url": "https://luksusowealkohole.pl/2841-cart_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4969-cart_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2841-cart_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4969-cart_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "medium": {
-        "url": "https://luksusowealkohole.pl/2841-home_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4969-home_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2841-home_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4969-home_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "large": {
-        "url": "https://luksusowealkohole.pl/2841-large_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4969-large_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2841-large_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4969-large_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "associatedVariants": []
@@ -298,73 +298,73 @@
   ],
   "cover": {
     "cover": 1,
-    "id_image": 2840,
+    "id_image": 4968,
     "legend": "WÓDKA Arcturus Ziemniaczana",
     "position": 1,
     "bySize": {
       "cart_default": {
-        "url": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 85,
         "height": 96,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "small_default": {
-        "url": "https://luksusowealkohole.pl/2840-small_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-small_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 154,
         "height": 103,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-small_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-small_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "home_default": {
-        "url": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 326,
         "height": 370,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "medium_default": {
-        "url": "https://luksusowealkohole.pl/2840-medium_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-medium_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 566,
         "height": 642,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-medium_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-medium_default/wodka-arcturus-ziemniaczana.jpg"
         }
       },
       "large_default": {
-        "url": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg",
+        "url": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg",
         "width": 881,
         "height": 1000,
         "sources": {
-          "jpg": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg"
+          "jpg": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg"
         }
       }
     },
     "small": {
-      "url": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg",
+      "url": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg",
       "width": 85,
       "height": 96,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/2840-cart_default/wodka-arcturus-ziemniaczana.jpg"
+        "jpg": "https://luksusowealkohole.pl/4968-cart_default/wodka-arcturus-ziemniaczana.jpg"
       }
     },
     "medium": {
-      "url": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg",
+      "url": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg",
       "width": 326,
       "height": 370,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/2840-home_default/wodka-arcturus-ziemniaczana.jpg"
+        "jpg": "https://luksusowealkohole.pl/4968-home_default/wodka-arcturus-ziemniaczana.jpg"
       }
     },
     "large": {
-      "url": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg",
+      "url": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg",
       "width": 881,
       "height": 1000,
       "sources": {
-        "jpg": "https://luksusowealkohole.pl/2840-large_default/wodka-arcturus-ziemniaczana.jpg"
+        "jpg": "https://luksusowealkohole.pl/4968-large_default/wodka-arcturus-ziemniaczana.jpg"
       }
     },
     "associatedVariants": []
@@ -378,7 +378,9 @@
   "price_amount": 189,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Dostępne w magazynie",
+  "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": "189,00 zł",
+  "lowest_price_30d_amount": 189.0
 }

@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 61,
   "id_supplier": 0,
   "reference": "5013967016613",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 3071,
   "advanced_stock_management": "0",
   "date_add": "2025-11-28 16:57:55",
-  "date_upd": "2026-05-22 20:43:56",
+  "date_upd": "2026-11-18 15:37:50",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Tamnavulin Spanish Grenache",
   "link_rewrite": "whisky-tamnavulin-spanish-grenache",
   "name": "WHISKY Tamnavulin Spanish Grenache",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Tamnavulin \r\nRed Wine Cask Edition - Spanish Grenache Finish to szkocka whisky single malt o \r\nwyjątkowo owocowym i harmonijnym charakterze. Początkowo dojrzewa w beczkach z \r\namerykańskiego dębu, dzięki czemu zyskuje klasyczną, waniliową gładkość oraz \r\nsubtelne nuty miodu i karmelu. Następnie trafia do beczek po hiszpańskim \r\nczerwonym winie Grenache, które nadają jej intensywnie owocowy profil, lekką \r\ntaninowość i aksamitną strukturę. Aromat zachwyca kompozycją świeżych kwiatów, \r\nkarmelizowanej pomarańczy, marcepanu oraz nut wanilii i kremowego budyniu. W \r\nsmaku pojawiają się akcenty białej czekolady, czerwonych borówek i jabłka w \r\npolewie, przechodzące w dojrzałą brzoskwinię oraz delikatne nuty kawy. Całość \r\njest bogata, wielowymiarowa i znakomicie zbalansowana - słodycz czerwonych \r\nowoców harmonijnie łączy się z korzennymi przyprawami i subtelną dębową \r\ngoryczką. Barwa whisky ma ciepłe, rubinowe refleksy, odzwierciedlające jej winny \r\nfinisz. Finisz degustacji jest długi, owocowy i przyjemnie rozgrzewający, z \r\ntrwałymi nutami tanin oraz delikatną słodyczą. To unikalna edycja w serii Cask \r\nEditions, doskonała dla miłośników owocowych, łagodnych single maltów z \r\nhiszpańskim akcentem oraz idealna dla tych, którzy chcą poznać bardziej \r\neksperymentalne oblicze Tamnavulin.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Tamnavulin Red Wine Cask Edition - Spanish Grenache Finish to szkocka whisky single malt o wyjątkowo owocowym i harmonijnym charakterze. Początkowo dojrzewa w beczkach z amerykańskiego dębu, dzięki czemu zyskuje klasyczną, waniliową gładkość oraz subtelne nuty miodu i karmelu. Następnie trafia do beczek po hiszpańskim czerwonym winie Grenache, które nadają jej intensywnie owocowy profil, lekką taninowość i aksamitną strukturę. Aromat zachwyca kompozycją świeżych kwiatów, karmelizowanej pomarańczy, marcepanu oraz nut wanilii i kremowego budyniu. W smaku pojawiają się akcenty białej czekolady, czerwonych borówek i jabłka w polewie, przechodzące w dojrzałą brzoskwinię oraz delikatne nuty kawy. Całość jest bogata, wielowymiarowa i znakomicie zbalansowana - słodycz czerwonych owoców harmonijnie łączy się z korzennymi przyprawami i subtelną dębową goryczką. Barwa whisky ma ciepłe, rubinowe refleksy, odzwierciedlające jej winny finisz. Finisz degustacji jest długi, owocowy i przyjemnie rozgrzewający, z trwałymi nutami tanin oraz delikatną słodyczą. To unikalna edycja w serii Cask Editions, doskonała dla miłośników owocowych, łagodnych single maltów z hiszpańskim akcentem oraz idealna dla tych, którzy chcą poznać bardziej eksperymentalne oblicze Tamnavulin.</span></p>",
   "description_short": "<p>Tamnavulin Red Wine Cask Edition - Spanish Grenache Finish to szkocka whisky single malt o wyjątkowo owocowym i harmonijnym charakterze.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,14 +56,14 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/2867-whisky-tamnavulin-spanish-grenache",
-  "manufacturer_name": null,
+  "manufacturer_name": "Tamnavulin",
   "attribute_price": 0,
   "price_tax_exc": 121.138211,
   "price_without_reduction": 149,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 28,
-  "quantity_all_versions": 28,
+  "quantity": 24,
+  "quantity_all_versions": 24,
   "id_image": "pl-default",
   "features": [
     {
@@ -301,5 +301,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

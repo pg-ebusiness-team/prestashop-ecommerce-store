@@ -1,0 +1,286 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 61,
+  "id_supplier": 0,
+  "reference": "5013967023895",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 18,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "2 900,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2026-11-10",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 3295,
+  "advanced_stock_management": "0",
+  "date_add": "2026-11-10 22:15:52",
+  "date_upd": "2026-11-23 17:07:14",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WHISKY Tamnavulin Moscatel Cask 25YO 0,7L 40%",
+  "link_rewrite": "whisky-tamnavulin-moscatel-cask-25yo-07l-40",
+  "name": "WHISKY Tamnavulin Moscatel Cask 25YO 0,7L 40%",
+  "description": "<p>Whisky Tamnavulin Moscatel Cask 25YO 40% 0,7 l</p>\n<p>Tamnavulin Moscatel Cask 25YO to wyjątkowa szkocka whisky single malt, która zachwyca dojrzałością, elegancją i bogactwem aromatów. Pochodzi z destylarni Tamnavulin, położonej w regionie Speyside, znanym z produkcji whisky o harmonijnym i wielowymiarowym charakterze.</p>\n<p>Whisky dojrzewała przez 20 lat w beczkach z amerykańskiego dębu, a następnie przez kolejne 5 lat w beczce po słodkim winie Moscatel. Tak długi proces maturacji pozwolił uzyskać niezwykle interesującą kompozycję, łączącą klasyczny charakter szkockiej whisky z owocową słodyczą i eleganckimi akcentami winnymi. <br />Vinmagasinet Livets Goda / Wine Magazine+1</p>\n<p><br />Aromat: Dojrzałe gruszki, mandarynki, pomarańcze, miód wrzosowy, wanilia i delikatne przyprawy korzenne.</p>\n<p>Smak: Bogaty i kremowy, z nutami rodzynek, ciemnej czekolady, karmelu, cytrusów oraz prażonych orzechów laskowych.</p>\n<p>Finisz: Długi i elegancki, z akcentami czekolady, karmelu, suszonych owoców i subtelnej dębiny. <br />Allt om Whisky+1</p>\n<p><br />Tamnavulin Moscatel Cask 25YO to propozycja dla miłośników dojrzałych whisky o złożonym, owocowo-deserowym profilu. Jej wyjątkowy proces dojrzewania i wykorzystanie beczek po winie Moscatel czynią ją interesującą pozycją zarówno do degustacji, jak i do kolekcji. Doskonale sprawdzi się również jako prestiżowy prezent dla konesera szkockiej whisky.</p>\n<p>Parametry produktu:<br />- Producent: Tamnavulin<br />- Kraj pochodzenia: Szkocja<br />- Region: Speyside<br />- Rodzaj: Single Malt Scotch Whisky<br />- Wiek: 25 lat<br />- Rodzaj beczek: amerykański dąb, beczka po winie Moscatel<br />- Pojemność: 700 ml</p>",
+  "description_short": "<p>Tamnavulin Moscatel Cask 25YO to wyjątkowa szkocka whisky single malt, która zachwyca dojrzałością, elegancją i bogactwem aromatów. Pochodzi z destylarni Tamnavulin, położonej w regionie Speyside, znanym z produkcji whisky o harmonijnym i wielowymiarowym</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 3148,
+  "id_product": 3148,
+  "out_of_stock": 2,
+  "new": 1,
+  "id_product_attribute": 3295,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "whisky",
+  "category_name": "Whisky",
+  "link": "https://luksusowealkohole.pl/whisky/3148-whisky-tamnavulin-moscatel-cask-25yo-07l-40",
+  "manufacturer_name": "Tamnavulin",
+  "attribute_price": 0,
+  "price_tax_exc": 2357.723577,
+  "price_without_reduction": 2900,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 1,
+  "quantity_all_versions": 1,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Szkocja",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 46
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Single malt",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 227
+    },
+    {
+      "name": "Wiek",
+      "value": "25 lat",
+      "id_feature": 11,
+      "position": 9,
+      "id_feature_value": 195
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5013967023895",
+      "ean13": "5013967023895",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmiot",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4934,
+      "legend": "WHISKY Tamnavulin Moscatel Cask 25YO 0,7L 40%",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4934-small_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4934-small_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4934-medium_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4934-medium_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4934,
+    "legend": "WHISKY Tamnavulin Moscatel Cask 25YO 0,7L 40%",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4934-small_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-small_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4934-medium_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-medium_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4934-cart_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4934-home_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4934-large_default/whisky-tamnavulin-moscatel-cask-25yo-07l-40.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 2900,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

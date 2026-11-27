@@ -121,8 +121,154 @@
   "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
-  "images": [],
-  "cover": false,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 4954,
+      "legend": "POLSKA Winnica Szubert Pet Nat",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/4954-small_default/polska-winnica-szubert-pet-nat.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4954-small_default/polska-winnica-szubert-pet-nat.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/4954-medium_default/polska-winnica-szubert-pet-nat.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4954-medium_default/polska-winnica-szubert-pet-nat.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 4954,
+    "legend": "POLSKA Winnica Szubert Pet Nat",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/4954-small_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-small_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/4954-medium_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-medium_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4954-cart_default/polska-winnica-szubert-pet-nat.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4954-home_default/polska-winnica-szubert-pet-nat.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/4954-large_default/polska-winnica-szubert-pet-nat.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
   "has_discount": false,
   "discount_type": null,
   "discount_percentage": null,
@@ -134,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

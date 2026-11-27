@@ -335,5 +335,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": "239,00 zł",
+  "lowest_price_30d_amount": 239.0
 }

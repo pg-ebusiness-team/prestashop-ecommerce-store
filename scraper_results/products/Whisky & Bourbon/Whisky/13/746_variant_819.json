@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 66,
   "id_supplier": 0,
   "reference": "5391516892070",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 819,
   "advanced_stock_management": "0",
   "date_add": "2024-07-22 14:21:43",
-  "date_upd": "2025-03-10 10:03:36",
+  "date_upd": "2026-11-24 15:01:56",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Tullamore Dew 14 Y O Four Cask Finnish",
   "link_rewrite": "whisky-tullamore-dew-14-y-o-four-cask-finnish",
   "name": "WHISKY Tullamore Dew 14 Y O Four Cask Finnish",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Whisky \r\nTullamore Dew 14 Years Old Four Cask Finish, destylowana w gorzelni New Midleton \r\nDistillery. Destylaty użyte do zestawienia tej whisky starzone były 14 lat w \r\nbeczkach po 4 różnych alkoholach [Sherry, Bourbon, Madera i Porto] . Tullamore \r\nDew 14YO Four Cask Finish charakteryzuje się delikatnym aromatem z nutą owoców \r\ncytrusowych, grillowanego ananasa oraz wanilii. Na podniebieniu dobrze zbudowana \r\no bogatym smaku. Wyczuwamy tu akcent słodkiej wanilii,&nbsp; czerwone winogrona \r\noraz soczyste jabłka.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;text-align:justify;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Whisky Tullamore Dew 14 Years Old Four Cask Finish, destylowana w gorzelni New Midleton Distillery. Destylaty użyte do zestawienia tej whisky starzone były 14 lat w beczkach po 4 różnych alkoholach [Sherry, Bourbon, Madera i Porto] . Tullamore Dew 14YO Four Cask Finish charakteryzuje się delikatnym aromatem z nutą owoców cytrusowych, grillowanego ananasa oraz wanilii. Na podniebieniu dobrze zbudowana o bogatym smaku. Wyczuwamy tu akcent słodkiej wanilii,  czerwone winogrona oraz soczyste jabłka.</span></p>",
   "description_short": "<p>Whisky Tullamore Dew 14 Years Old Four Cask Finish, destylowana w gorzelni New Midleton Distillery. Destylaty użyte do zestawienia tej whisky starzone były 14 lat w beczkach po 4 różnych alkoholach [Sherry, Bourbon, Madera i Porto] .</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/746-whisky-tullamore-dew-14-y-o-four-cask-finnish",
-  "manufacturer_name": null,
+  "manufacturer_name": "Tullamore Dew",
   "attribute_price": 0,
   "price_tax_exc": 202.439024,
   "price_without_reduction": 249,
@@ -287,5 +287,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

@@ -303,5 +303,7 @@
   "show_availability": true,
   "availability_message": "Dostępny produkt z innymi opcjami",
   "availability_date": null,
-  "availability": "unavailable"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

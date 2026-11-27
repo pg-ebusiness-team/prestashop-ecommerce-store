@@ -48,7 +48,7 @@
   "id": 3129,
   "id_product": 3129,
   "out_of_stock": 2,
-  "new": 1,
+  "new": 0,
   "id_product_attribute": 3278,
   "quantity_wanted": 1,
   "extraContent": [],
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

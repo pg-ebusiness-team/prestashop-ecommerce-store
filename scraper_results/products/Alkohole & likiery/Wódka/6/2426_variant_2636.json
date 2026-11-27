@@ -1,0 +1,307 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "5907222715178",
+  "is_virtual": "0",
+  "delivery_in_stock": "",
+  "delivery_out_stock": "",
+  "id_category_default": 34,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": 0,
+  "low_stock_alert": "0",
+  "price": "379,00 zł",
+  "unity": "",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2025-08-11",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 2636,
+  "advanced_stock_management": "0",
+  "date_add": "2025-08-11 12:53:37",
+  "date_upd": "2026-11-26 22:19:12",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "WÓDKA Palona Pułkownika z Sierakowa",
+  "link_rewrite": "wodka-palona-pulkownika-z-sierakowa",
+  "name": "WÓDKA Palona Pułkownika z Sierakowa",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Wódka Palona z kolekcji Pułkownika to hołd dla dawnej tradycji przepalanek - mocnych, aromatycznych trunków, które przed laty cieszyły się ogromną popularnością wśród ułanów i ziemiaństwa II Rzeczypospolitej. Powstaje na bazie żytniego spirytusu z prażonych ziaren, wzbogaconego karmelem i kompozycją starannie dobranych, macerowanych ziół. Choć zawiera wysoki procent alkoholu, jej smak jest doskonale zrównoważony. Nuty kakao, rozmarynu, miodu, gorzkiej czekolady oraz ziół skutecznie łagodzą jego ostrość. Aromat wódki to złożona mieszanka orzechów, migdałów, wanilii i tytoniu, która zapowiada głęboki i długi finisz z subtelną goryczką. Proces \"palenia\" wódki, czyli wzbogacania jej karmelem, sięga dawnych czasów i miał nie tylko walor smakowy - pomagał zrównoważyć siłę mocnego trunku. Przepalanki powstawały zarówno w warunkach polowych, jak i podczas spokojnych wieczorów w dworkach - jako napitki wyjątkowe, budzące respekt i nostalgię. Palona z kolekcji Pułkownika kontynuuje tę tradycję, oferując współczesną interpretację klasycznego smaku. Zamknięta w solidnej, ciężkiej butelce z grubego szkła i ozdobiona cynową etykietą, jest propozycją dla koneserów ceniących charakter, historię i głębię smaku.</span></p>",
+  "description_short": "<p>Wódka Palona z kolekcji Pułkownika to hołd dla dawnej tradycji przepalanek - mocnych, aromatycznych trunków, które przed laty cieszyły się ogromną popularnością wśród ułanów i ziemiaństwa II Rzeczypospolitej.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 2426,
+  "id_product": 2426,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 2636,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wodka",
+  "category_name": "Wódka",
+  "link": "https://luksusowealkohole.pl/wodka/2426-wodka-palona-pulkownika-z-sierakowa",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 308.130081,
+  "price_without_reduction": 379,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 2,
+  "quantity_all_versions": 2,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Polska",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 34
+    },
+    {
+      "name": "Alkohol",
+      "value": "52,8%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 296
+    },
+    {
+      "name": "Kolor",
+      "value": "Bursztynowy",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 474
+    },
+    {
+      "name": "Kolor",
+      "value": "Złoty",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 566
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Żytnia",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 379
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Smakowa",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 548
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 28,
+      "id_attribute_group": 5,
+      "name": "0,7 l",
+      "group": "Pojemność",
+      "reference": "5907222715178",
+      "ean13": "5907222715178",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 3437,
+      "legend": "WÓDKA Palona Pułkownika z Sierakowa",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/3437-small_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3437-small_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/3437-medium_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3437-medium_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 3437,
+    "legend": "WÓDKA Palona Pułkownika z Sierakowa",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/3437-small_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-small_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/3437-medium_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-medium_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3437-cart_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3437-home_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/3437-large_default/wodka-palona-pulkownika-z-sierakowa.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 379,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

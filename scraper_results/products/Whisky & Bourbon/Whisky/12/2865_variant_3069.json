@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 61,
   "id_supplier": 0,
   "reference": "5013967021457",
   "is_virtual": "0",
@@ -34,14 +34,14 @@
   "cache_default_attribute": 3069,
   "advanced_stock_management": "0",
   "date_add": "2025-11-28 16:17:55",
-  "date_upd": "2026-05-22 20:43:56",
+  "date_upd": "2026-11-18 15:38:13",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
   "meta_title": "WHISKY Tamnavulin Port Cask",
   "link_rewrite": "whisky-tamnavulin-port-cask",
   "name": "WHISKY Tamnavulin Port Cask",
-  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Tamnavulin \r\nPort Cask Finish to elegancka whisky single malt z regionu Speyside, ceniona za \r\nswój gładki, słodko-owocowy charakter. Początkowo dojrzewa w beczkach po \r\namerykańskim bourbonie, a następnie trafia do beczek po czerwonym winie porto, \r\nktóre nadają jej większej głębi, kremowej słodyczy oraz wyrazistych, deserowych \r\naromatów. W zapachu dominują nuty dojrzałych śliwek, malin, czerwonych owoców i \r\nwanilii, wzbogacone miodem, karmelem i delikatnymi przyprawami. Na podniebieniu \r\njest aksamitna i bogata, łącząc klasyczny styl Tamnavulin z wyrazistą słodyczą \r\nporto. Wyczuwalne są akcenty ciemnej czekolady, kompotu jagodowego oraz subtelne \r\ntło dębowe. Finisz długi, łagodny, z nutami suszonych owoców i czekolady. Whisky \r\nta stanowi część serii Cask Editions, w której destylarnia bada wpływ \r\nróżnorodnych beczek na smak swoich destylatów. Port Cask Finish podkreśla \r\ngładką, owocową naturę Tamnavulin, dodając jej imponującej złożoności i \r\nelegancji. Dzięki dopracowanemu, prezentowemu opakowaniu świetnie sprawdzi się \r\njako upominek dla miłośnika whisky - zwłaszcza tych, którzy cenią łagodne, \r\nowocowe single malty z deserowym twistem. Destylarnia Tamnavulin, której nazwa \r\noznacza \"Młyn na Wzgórzu\", została założona w 1966 roku w malowniczej \r\nmiejscowości Tomnavoulin w centrum Speyside. Po przerwie w działalności w latach \r\n1995-2007 powróciła do produkcji, skupiając się na tworzeniu przystępnych, \r\naksamitnych whisky idealnych do eksperymentów z różnymi rodzajami beczek - czego \r\nPort Cask Finish jest doskonałym przykładem.</SPAN></P>\r\n",
+  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Tamnavulin Port Cask Finish to elegancka whisky single malt z regionu Speyside, ceniona za swój gładki, słodko-owocowy charakter. Początkowo dojrzewa w beczkach po amerykańskim bourbonie, a następnie trafia do beczek po czerwonym winie porto, które nadają jej większej głębi, kremowej słodyczy oraz wyrazistych, deserowych aromatów. W zapachu dominują nuty dojrzałych śliwek, malin, czerwonych owoców i wanilii, wzbogacone miodem, karmelem i delikatnymi przyprawami. Na podniebieniu jest aksamitna i bogata, łącząc klasyczny styl Tamnavulin z wyrazistą słodyczą porto. Wyczuwalne są akcenty ciemnej czekolady, kompotu jagodowego oraz subtelne tło dębowe. Finisz długi, łagodny, z nutami suszonych owoców i czekolady. Whisky ta stanowi część serii Cask Editions, w której destylarnia bada wpływ różnorodnych beczek na smak swoich destylatów. Port Cask Finish podkreśla gładką, owocową naturę Tamnavulin, dodając jej imponującej złożoności i elegancji. Dzięki dopracowanemu, prezentowemu opakowaniu świetnie sprawdzi się jako upominek dla miłośnika whisky - zwłaszcza tych, którzy cenią łagodne, owocowe single malty z deserowym twistem. Destylarnia Tamnavulin, której nazwa oznacza \"Młyn na Wzgórzu\", została założona w 1966 roku w malowniczej miejscowości Tomnavoulin w centrum Speyside. Po przerwie w działalności w latach 1995-2007 powróciła do produkcji, skupiając się na tworzeniu przystępnych, aksamitnych whisky idealnych do eksperymentów z różnymi rodzajami beczek - czego Port Cask Finish jest doskonałym przykładem.</span></p>",
   "description_short": "<p>Tamnavulin Port Cask Finish to elegancka whisky single malt z regionu Speyside, ceniona za swój gładki, słodko-owocowy charakter.</p>",
   "available_now": "",
   "available_later": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/2865-whisky-tamnavulin-port-cask",
-  "manufacturer_name": null,
+  "manufacturer_name": "Tamnavulin",
   "attribute_price": 0,
   "price_tax_exc": 121.138211,
   "price_without_reduction": 149,
@@ -294,5 +294,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

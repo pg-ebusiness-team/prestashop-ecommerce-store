@@ -1,6 +1,6 @@
 {
   "id_shop_default": 1,
-  "id_manufacturer": 0,
+  "id_manufacturer": 63,
   "id_supplier": 0,
   "reference": "5011007024000",
   "is_virtual": "0",
@@ -11,10 +11,10 @@
   "online_only": "0",
   "ecotax": 0,
   "minimal_quantity": 1,
-  "low_stock_threshold": null,
+  "low_stock_threshold": 0,
   "low_stock_alert": "0",
   "price": "145,00 zł",
-  "unity": "szt.",
+  "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
   "additional_shipping_cost": "0.000000",
@@ -34,7 +34,7 @@
   "cache_default_attribute": 605,
   "advanced_stock_management": "0",
   "date_add": "2024-07-13 18:39:04",
-  "date_upd": "2026-02-23 18:46:14",
+  "date_upd": "2026-11-24 14:06:14",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -56,7 +56,7 @@
   "category": "whisky",
   "category_name": "Whisky",
   "link": "https://luksusowealkohole.pl/whisky/539-whisky-jameson-black-barrel",
-  "manufacturer_name": null,
+  "manufacturer_name": "Jameson",
   "attribute_price": 0,
   "price_tax_exc": 117.886179,
   "price_without_reduction": 145,
@@ -353,5 +353,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

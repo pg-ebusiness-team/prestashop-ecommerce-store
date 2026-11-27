@@ -1,0 +1,321 @@
+{
+  "id_shop_default": 1,
+  "id_manufacturer": 0,
+  "id_supplier": 0,
+  "reference": "80020620000510",
+  "is_virtual": "0",
+  "delivery_in_stock": null,
+  "delivery_out_stock": null,
+  "id_category_default": 35,
+  "on_sale": "0",
+  "online_only": "0",
+  "ecotax": 0,
+  "minimal_quantity": 1,
+  "low_stock_threshold": null,
+  "low_stock_alert": "0",
+  "price": "299,00 zł",
+  "unity": "szt.",
+  "unit_price": "",
+  "unit_price_ratio": 0,
+  "additional_shipping_cost": "0.000000",
+  "customizable": 0,
+  "text_fields": 0,
+  "uploadable_files": 0,
+  "active": "1",
+  "redirect_type": "default",
+  "id_type_redirected": 0,
+  "available_for_order": "1",
+  "available_date": "2024-11-16",
+  "show_condition": "0",
+  "condition": "new",
+  "show_price": "1",
+  "indexed": "1",
+  "visibility": "both",
+  "cache_default_attribute": 1267,
+  "advanced_stock_management": "0",
+  "date_add": "2024-11-16 14:01:49",
+  "date_upd": "2024-11-16 14:01:49",
+  "pack_stock_type": 3,
+  "meta_description": "",
+  "meta_keywords": "",
+  "meta_title": "",
+  "link_rewrite": "wlochy-masi-amarone-costasera-classico-promo",
+  "name": "WŁOCHY Masi Amarone Costasera Classico promo",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Wino \r\nMasi Costasera Amarone della Valpolicella Classico o ciemno czerwonym kolorze z \r\nfioletowymi refleksami. Na podniebieniu doskonale balansują wyraźne nuty \r\nsłodkich owoców, tworząc niezwykłą mozaikę pieczonych i suszonych owoców, w tym \r\nwiśni, czereśni i śliwek. Delikatne taniny i kwasowość doskonale harmonizują się \r\nz aromatami kawy i kakao, nadając winu wyjątkową głębię. Wrażenie jest niebywale \r\ndługie i złożone, a finisz zachwyca niezwykłym jedwabistym \r\nodcieniem.</SPAN></P>\r\n",
+  "description_short": "<p>Wino Masi Costasera Amarone della Valpolicella Classico o ciemno czerwonym kolorze z fioletowymi refleksami.</p>",
+  "available_now": "",
+  "available_later": "",
+  "id": 1194,
+  "id_product": 1194,
+  "out_of_stock": 2,
+  "new": 0,
+  "id_product_attribute": 1267,
+  "quantity_wanted": 1,
+  "extraContent": [],
+  "allow_oosp": 0,
+  "category": "wino",
+  "category_name": "Wino",
+  "link": "https://luksusowealkohole.pl/wino/1194-wlochy-masi-amarone-costasera-classico-promo",
+  "manufacturer_name": null,
+  "attribute_price": 0,
+  "price_tax_exc": 243.089431,
+  "price_without_reduction": 299,
+  "reduction": 0,
+  "specific_prices": [],
+  "quantity": 3,
+  "quantity_all_versions": 3,
+  "id_image": "pl-default",
+  "features": [
+    {
+      "name": "Kraj",
+      "value": "Włochy",
+      "id_feature": 3,
+      "position": 2,
+      "id_feature_value": 12
+    },
+    {
+      "name": "Region",
+      "value": "Veneto",
+      "id_feature": 4,
+      "position": 3,
+      "id_feature_value": 409
+    },
+    {
+      "name": "Alkohol",
+      "value": "15%",
+      "id_feature": 5,
+      "position": 4,
+      "id_feature_value": 307
+    },
+    {
+      "name": "Kolor",
+      "value": "Czerwone",
+      "id_feature": 6,
+      "position": 5,
+      "id_feature_value": 19
+    },
+    {
+      "name": "Rodzaj",
+      "value": "Wytrawne",
+      "id_feature": 7,
+      "position": 6,
+      "id_feature_value": 15
+    },
+    {
+      "name": "Szczep",
+      "value": "Corvina",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 70
+    },
+    {
+      "name": "Szczep",
+      "value": "Rondinella",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 412
+    },
+    {
+      "name": "Szczep",
+      "value": "Molinara",
+      "id_feature": 8,
+      "position": 7,
+      "id_feature_value": 431
+    }
+  ],
+  "attachments": [],
+  "virtual": 0,
+  "pack": 0,
+  "packItems": [],
+  "nopackprice": 0,
+  "customization_required": false,
+  "attributes": {
+    "5": {
+      "id_attribute": 31,
+      "id_attribute_group": 5,
+      "name": "0,75 l",
+      "group": "Pojemność",
+      "reference": "80020620000510",
+      "ean13": "",
+      "isbn": "",
+      "upc": "",
+      "mpn": "",
+      "available_now": null,
+      "available_later": null
+    }
+  },
+  "rate": 23,
+  "tax_name": "PTU PL 23%",
+  "ecotax_rate": 0,
+  "customizations": {
+    "fields": []
+  },
+  "id_customization": 0,
+  "is_customizable": false,
+  "show_quantities": true,
+  "quantity_label": "Przedmioty",
+  "quantity_discounts": [],
+  "customer_group_discount": 0,
+  "images": [
+    {
+      "cover": 1,
+      "id_image": 1763,
+      "legend": "WŁOCHY Masi Amarone Costasera Classico promo",
+      "position": 1,
+      "bySize": {
+        "cart_default": {
+          "url": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+          "width": 85,
+          "height": 96,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+          }
+        },
+        "small_default": {
+          "url": "https://luksusowealkohole.pl/1763-small_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+          "width": 154,
+          "height": 103,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1763-small_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+          }
+        },
+        "home_default": {
+          "url": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+          "width": 326,
+          "height": 370,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+          }
+        },
+        "medium_default": {
+          "url": "https://luksusowealkohole.pl/1763-medium_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+          "width": 566,
+          "height": 642,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1763-medium_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+          }
+        },
+        "large_default": {
+          "url": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+          "width": 881,
+          "height": 1000,
+          "sources": {
+            "jpg": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+          }
+        }
+      },
+      "small": {
+        "url": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "medium": {
+        "url": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "large": {
+        "url": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "associatedVariants": []
+    }
+  ],
+  "cover": {
+    "cover": 1,
+    "id_image": 1763,
+    "legend": "WŁOCHY Masi Amarone Costasera Classico promo",
+    "position": 1,
+    "bySize": {
+      "cart_default": {
+        "url": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 85,
+        "height": 96,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "small_default": {
+        "url": "https://luksusowealkohole.pl/1763-small_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 154,
+        "height": 103,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-small_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "home_default": {
+        "url": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 326,
+        "height": 370,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "medium_default": {
+        "url": "https://luksusowealkohole.pl/1763-medium_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 566,
+        "height": 642,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-medium_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      },
+      "large_default": {
+        "url": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+        "width": 881,
+        "height": 1000,
+        "sources": {
+          "jpg": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+        }
+      }
+    },
+    "small": {
+      "url": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+      "width": 85,
+      "height": 96,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1763-cart_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+      }
+    },
+    "medium": {
+      "url": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+      "width": 326,
+      "height": 370,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1763-home_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+      }
+    },
+    "large": {
+      "url": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg",
+      "width": 881,
+      "height": 1000,
+      "sources": {
+        "jpg": "https://luksusowealkohole.pl/1763-large_default/wlochy-masi-amarone-costasera-classico-promo.jpg"
+      }
+    },
+    "associatedVariants": []
+  },
+  "has_discount": false,
+  "discount_type": null,
+  "discount_percentage": null,
+  "discount_percentage_absolute": null,
+  "discount_amount": null,
+  "discount_amount_to_display": null,
+  "price_amount": 299,
+  "unit_price_full": "",
+  "show_availability": true,
+  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_date": null,
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
+}

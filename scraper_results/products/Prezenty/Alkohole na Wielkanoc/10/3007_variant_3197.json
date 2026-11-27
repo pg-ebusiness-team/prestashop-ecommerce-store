@@ -53,7 +53,7 @@
   "quantity_wanted": 1,
   "extraContent": [],
   "allow_oosp": 0,
-  "quantity": 11,
+  "quantity": 5,
   "id_image": "3007-4749",
   "manufacturer_name": null,
   "category": "wino",
@@ -64,7 +64,7 @@
   "price_without_reduction": 39,
   "reduction": 0,
   "specific_prices": [],
-  "quantity_all_versions": 11,
+  "quantity_all_versions": 5,
   "features": [
     {
       "name": "Kraj",
@@ -280,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "available"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

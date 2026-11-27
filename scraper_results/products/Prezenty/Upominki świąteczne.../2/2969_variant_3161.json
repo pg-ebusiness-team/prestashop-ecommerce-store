@@ -13,7 +13,7 @@
   "minimal_quantity": 1,
   "low_stock_threshold": null,
   "low_stock_alert": "0",
-  "price": "369,00 zł",
+  "price": "379,00 zł",
   "unity": "szt.",
   "unit_price": "",
   "unit_price_ratio": 0,
@@ -58,12 +58,12 @@
   "link": "https://luksusowealkohole.pl/wodka/2969-wodka-debowa-excellent-zaczarowany-olowek",
   "manufacturer_name": null,
   "attribute_price": 0,
-  "price_tax_exc": 300,
-  "price_without_reduction": 369,
+  "price_tax_exc": 308.130081,
+  "price_without_reduction": 379,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 1,
-  "quantity_all_versions": 1,
+  "quantity": 2,
+  "quantity_all_versions": 2,
   "id_image": "pl-default",
   "features": [
     {
@@ -118,7 +118,7 @@
   "id_customization": 0,
   "is_customizable": false,
   "show_quantities": true,
-  "quantity_label": "Przedmiot",
+  "quantity_label": "Przedmioty",
   "quantity_discounts": [],
   "customer_group_discount": 0,
   "images": [
@@ -275,10 +275,12 @@
   "discount_percentage_absolute": null,
   "discount_amount": null,
   "discount_amount_to_display": null,
-  "price_amount": 369,
+  "price_amount": 379,
   "unit_price_full": "",
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

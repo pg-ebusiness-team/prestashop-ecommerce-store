@@ -13,7 +13,7 @@
   "minimal_quantity": 1,
   "low_stock_threshold": 0,
   "low_stock_alert": "0",
-  "price": "70,00 zł",
+  "price": "71,00 zł",
   "unity": "",
   "unit_price": "",
   "unit_price_ratio": 0,
@@ -57,13 +57,13 @@
   "category_name": "Wódka",
   "link": "https://luksusowealkohole.pl/wodka/2319-wodka-zubrowka-biala",
   "manufacturer_name": null,
-  "attribute_price": 12.195122,
-  "price_tax_exc": 56.910569,
-  "price_without_reduction": 70,
+  "attribute_price": 13.00813,
+  "price_tax_exc": 57.723577,
+  "price_without_reduction": 71,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 3,
-  "quantity_all_versions": 10,
+  "quantity": 4,
+  "quantity_all_versions": 11,
   "id_image": "pl-default",
   "features": [
     {
@@ -286,10 +286,12 @@
   "discount_percentage_absolute": null,
   "discount_amount": null,
   "discount_amount_to_display": null,
-  "price_amount": 70,
+  "price_amount": 71,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

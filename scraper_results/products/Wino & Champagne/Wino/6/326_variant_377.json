@@ -62,8 +62,8 @@
   "price_without_reduction": 75,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 2,
-  "quantity_all_versions": 2,
+  "quantity": 4,
+  "quantity_all_versions": 4,
   "id_image": "pl-default",
   "features": [
     {
@@ -306,7 +306,9 @@
   "price_amount": 75,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Dostępne w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "available",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

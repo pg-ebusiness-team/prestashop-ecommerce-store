@@ -41,8 +41,8 @@
   "meta_title": "WHISKY Kavalan Concertmaster Port Cask",
   "link_rewrite": "whisky-kavalan-concertmaster-port-cask",
   "name": "WHISKY Kavalan Concertmaster Port Cask",
-  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Kavalan to whisky destylowana w tajwańskiej gorzelni King Car, zlokalizowanej w mieście Yuanshan, w prowincji Yilan. Nazwa tej whisky pochodzi od rdzennych mieszkańców Yilan. Pierwsza whisky z tego zakładu ukazała się na rynku w 2008 roku. Od tamtej pory Kavalan zbiera bardzo pochlebne recenzje. Concertmaster to whisky jęczmienna destylowana w tradycyjny sposób. Starzona jest w specjalnie wyselekcjonowanych beczkach wykonanych z amerykańskiego dębu i finiszuje w beczkach po Ruby, Tawny i Vintage Porto ze znanej portugalskiej doliny Douro. Rezultatem jest whisky o gładkiej i owocowej palecie.</span></p>\n<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Aromat lekki i egzotyczny z nutami porto, lukrecji, herbaty, delikatnego dymu, brązowego cukru, jagody i truskawki. W ustach świeży i owocowy z akcentami czerwonych owoców, mango, banana, porto, karmelu, dębu i dymu. Finisz krótki ze świeżymi i owocowymi tonami</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Kavalan to whisky destylowana w tajwańskiej gorzelni King Car, zlokalizowanej w mieście Yuanshan, w prowincji Yilan. Nazwa tej whisky pochodzi od rdzennych mieszkańców Yilan. Pierwsza whisky z tego zakładu ukazała się na rynku w 2008 roku.</span></p>",
+  "description": " \r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Kavalan \r\nto whisky destylowana w tajwańskiej gorzelni King Car, zlokalizowanej w mieście \r\nYuanshan, w prowincji Yilan. Nazwa tej whisky pochodzi od rdzennych mieszkańców \r\nYilan. Pierwsza whisky z tego zakładu ukazała się na rynku w 2008 roku. Od \r\ntamtej pory Kavalan zbiera bardzo pochlebne recenzje. Concertmaster to whisky \r\njęczmienna destylowana w tradycyjny sposób. Starzona jest w specjalnie \r\nwyselekcjonowanych beczkach wykonanych z amerykańskiego dębu i finiszuje w \r\nbeczkach po Ruby, Tawny i Vintage Porto ze znanej portugalskiej doliny Douro. \r\nRezultatem jest whisky o gładkiej i owocowej palecie.</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>&nbsp;</SPAN></P>\r\n<P style=\"margin: 0cm 0cm 10pt; text-align: justify;\"><SPAN style='line-height: 115%; font-family: \"Times New Roman\",\"serif\"; font-size: 12pt;'>Aromat&nbsp;lekki \r\ni egzotyczny z nutami porto, lukrecji, herbaty, delikatnego dymu, brązowego\r\n cukru, jagody i truskawki. W ustach świeży i owocowy z akcentami czerwonych\r\n owoców, mango, banana, porto, karmelu, dębu i dymu. Finisz&nbsp;krótki ze \r\nświeżymi i owocowymi tonami</SPAN></P>\r\n",
+  "description_short": "<p>Kavalan to whisky destylowana w tajwańskiej gorzelni King Car, zlokalizowanej w mieście Yuanshan, w prowincji Yilan. Nazwa tej whisky pochodzi od rdzennych mieszkańców Yilan. Pierwsza whisky z tego zakładu ukazała się na rynku w 2008 roku.</p>",
   "available_now": "",
   "available_later": "",
   "id": 622,
@@ -280,5 +280,7 @@
   "show_availability": true,
   "availability_message": "Ostatnie sztuki w magazynie",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "last_remaining_items",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

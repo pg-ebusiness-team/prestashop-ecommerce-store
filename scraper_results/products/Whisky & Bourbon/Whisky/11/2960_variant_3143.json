@@ -41,8 +41,8 @@
   "meta_title": "WHISKY Royal Salute 25YO Small Batch PX",
   "link_rewrite": "whisky-royal-salute-25yo-small-batch-px",
   "name": "WHISKY Royal Salute 25YO Small Batch PX",
-  "description": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Royal Salute 25YO Small Batch PX to prestiżowa, limitowana szkocka whisky typu blended, należąca do kolekcji „Small Batch Collection”. Wyróżnia się niezwykle głębokim, niemal syropowym charakterem, który zawdzięcza finiszowaniu w beczkach po sherry Pedro Ximénez z pierwszego napełnienia. W edycjach takich jak Partia 006 wykorzystuje się starannie dobraną kompozycję ponad 21 whisky single malt pochodzących z pięciu regionów Szkocji, co przekłada się na jej wyjątkową złożoność. Całość zamknięta jest w charakterystycznym, porcelanowym karafce w intensywnym fioletowym kolorze, inspirowanym brytyjskimi klejnotami koronnymi. W aromacie dominują bogate nuty kompotu z czarnej porzeczki, duszonych śliwek, rodzynek w czekoladzie oraz marcepanu, którym towarzyszy subtelny akcent gałki muszkatołowej. Na podniebieniu whisky jest aksamitna i pełna, oferując smaki suszonych śliwek w ciemnej czekoladzie, karmelizowanych fig, pieczonych jabłek oraz słodkiej waniliowej krówki. Finisz jest długi, elegancko wytrawny i lekko pikantny, z wyraźnymi nutami ciepłego kakao oraz opalanego dębu.</span></p>",
-  "description_short": "<p style=\"margin:0cm 0cm 10pt;\"><span style=\"line-height:115%;font-family:'Times New Roman', serif;font-size:12pt;\">Royal Salute 25YO Small Batch PX to prestiżowa, limitowana szkocka whisky typu blended, należąca do kolekcji \"Small Batch Collection\".</span></p>",
+  "description": "\r\n<P class=MsoNormal style=\"MARGIN: 0cm 0cm 8pt\"><SPAN \r\nstyle='FONT-SIZE: 12pt; FONT-FAMILY: \"Times New Roman\",serif; LINE-HEIGHT: 107%; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: PL'>Royal \r\nSalute 25YO Small Batch PX to prestiżowa, limitowana szkocka whisky typu \r\nblended, należąca do kolekcji „Small Batch Collection”. Wyróżnia się niezwykle \r\ngłębokim, niemal syropowym charakterem, który zawdzięcza finiszowaniu w beczkach \r\npo sherry Pedro Ximénez z pierwszego napełnienia. W edycjach takich jak Partia \r\n006 wykorzystuje się starannie dobraną kompozycję ponad 21 whisky single malt \r\npochodzących z pięciu regionów Szkocji, co przekłada się na jej wyjątkową \r\nzłożoność. Całość zamknięta jest w charakterystycznym, porcelanowym karafce w \r\nintensywnym fioletowym kolorze, inspirowanym brytyjskimi klejnotami koronnymi. W \r\naromacie dominują bogate nuty kompotu z czarnej porzeczki, duszonych śliwek, \r\nrodzynek w czekoladzie oraz marcepanu, którym towarzyszy subtelny akcent gałki \r\nmuszkatołowej. Na podniebieniu whisky jest aksamitna i pełna, oferując smaki \r\nsuszonych śliwek w ciemnej czekoladzie, karmelizowanych fig, pieczonych jabłek \r\noraz słodkiej waniliowej krówki. Finisz jest długi, elegancko wytrawny i lekko \r\npikantny, z wyraźnymi nutami ciepłego kakao oraz opalanego \r\ndębu.</SPAN><?xml:namespace prefix = \"o\" ns = \r\n\"urn:schemas-microsoft-com:office:office\" /><o:p></o:p></P>\r\n",
+  "description_short": "<p>Royal Salute 25YO Small Batch PX to prestiżowa, limitowana szkocka whisky typu blended, należąca do kolekcji \"Small Batch Collection\".</p>",
   "available_now": "",
   "available_later": "",
   "id": 2960,
@@ -62,8 +62,8 @@
   "price_without_reduction": 2190,
   "reduction": 0,
   "specific_prices": [],
-  "quantity": 1,
-  "quantity_all_versions": 1,
+  "quantity": 0,
+  "quantity_all_versions": 0,
   "id_image": "pl-default",
   "features": [
     {
@@ -124,7 +124,7 @@
   },
   "id_customization": 0,
   "is_customizable": false,
-  "show_quantities": true,
+  "show_quantities": false,
   "quantity_label": "Przedmiot",
   "quantity_discounts": [],
   "customer_group_discount": 0,
@@ -358,7 +358,9 @@
   "price_amount": 2190,
   "unit_price_full": "",
   "show_availability": true,
-  "availability_message": "Ostatnie sztuki w magazynie",
+  "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "last_remaining_items"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }

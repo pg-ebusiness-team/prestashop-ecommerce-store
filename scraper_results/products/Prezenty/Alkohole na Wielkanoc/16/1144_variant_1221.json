@@ -34,7 +34,7 @@
   "cache_default_attribute": 1221,
   "advanced_stock_management": "0",
   "date_add": "2024-11-04 19:05:02",
-  "date_upd": "2026-10-30 17:07:57",
+  "date_upd": "2026-11-14 18:04:58",
   "pack_stock_type": 3,
   "meta_description": "",
   "meta_keywords": "",
@@ -315,5 +315,7 @@
   "show_availability": true,
   "availability_message": "Czekamy na dostawę",
   "availability_date": null,
-  "availability": "unavailable"
+  "availability": "unavailable",
+  "lowest_price_30d": null,
+  "lowest_price_30d_amount": null
 }
