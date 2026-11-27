@@ -1,8 +1,10 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Koszyk', () => {
-  test('dodanie 10 produktów, wyszukanie produktu i usunięcie 3 pozycji', async ({ page }) => {
-    test.setTimeout(120_000); // ok. 30 s na danych demo, domyślny limit 30 s nie zostawiał zapasu
+// Scenariusz W4 z docs/WYMAGANIA.md: kroki idą po kolei w jednej sesji przeglądarki, bo zamówienie składamy
+// na koszyk z kroków 1-3, a kroki 9-10 sprawdzają zamówienie z kroku 8.
+test.describe('Scenariusz zamówienia', () => {
+  test('koszyk, rejestracja, zamówienie z płatnością przy odbiorze', async ({ page }) => {
+    test.setTimeout(300_000); // W4: cały scenariusz ma się zmieścić w 5 min
     // Bez tych wpisów baner cookies i okno 18+ zasłaniają stronę (docs/adr/0002-baner-cookies.md)
     await page.addInitScript(() => {
       localStorage.setItem('cookie-consent', JSON.stringify({ analytics: false, marketing: false }));
@@ -36,6 +38,26 @@ test.describe('Koszyk', () => {
     }
 
     let szukanaFraza = '';
+    // stan koszyka po kroku 3 - krok 5 sprawdza, że zamówienie dotyczy tej samej zawartości
+    let pozycjeWKoszyku = 0;
+    let kwotaProduktow = '';
+
+    // Nowy klient przy każdym uruchomieniu. Prefiks e2e+ odróżnia zamówienia testowe w panelu i w Mailpicie
+    // (etap 2, W4: zamówienia testowe rozpoznawalne). Imiona z polskimi znakami - sklep musi je poprawnie zapisać.
+    const losuj = <T,>(lista: T[]) => lista[Math.floor(Math.random() * lista.length)];
+    // imię i nazwisko z list tej samej płci, żeby nie powstało np. „Jędrzej Żółkiewska”
+    const plec = losuj([
+      { zwrot: 'Pani', imiona: ['Łucja', 'Małgorzata', 'Zofia'], nazwiska: ['Żółkiewska', 'Wiśniewska', 'Śliwińska'] },
+      { zwrot: 'Pan', imiona: ['Jędrzej', 'Mikołaj', 'Józef'], nazwiska: ['Żółkiewski', 'Wiśniewski', 'Głowacki'] },
+    ]);
+    const klient = {
+      zwrot: plec.zwrot,
+      imie: losuj(plec.imiona),
+      nazwisko: losuj(plec.nazwiska),
+      email: `e2e+${Date.now()}@example.com`,
+      // litery, cyfry i znak specjalny - spełnia politykę siły hasła PrestaShop
+      haslo: `E2e!${Math.random().toString(36).slice(2, 10)}#Qx9`,
+    };
 
     await test.step('Krok 1: 10 produktów w różnych ilościach z co najmniej 2 kategorii', async () => {
       await page.goto('/');
@@ -111,6 +133,34 @@ test.describe('Koszyk', () => {
         await expect(licznik).toHaveText(new RegExp(`\\b${sztuki}\\b`));
         await expect(suma).not.toHaveText(sumaPrzed);
       }
+
+      pozycjeWKoszyku = liczbaPozycji - 3;
+      kwotaProduktow = (await page.locator('#cart-subtotal-products .value').innerText()).trim();
+    });
+
+    await test.step('Krok 4: rejestracja nowego konta', async () => {
+      await page.locator('#_desktop_user_info').getByRole('link', { name: /Zaloguj się/i }).click();
+      await page.getByRole('link', { name: /Załóż je tutaj/i }).click();
+      await expect(page).toHaveURL(/rejestracja/);
+
+      const formularz = page.locator('#customer-form');
+      await formularz.getByRole('radio', { name: klient.zwrot, exact: true }).check();
+      await formularz.locator('[name=firstname]').fill(klient.imie);
+      await formularz.locator('[name=lastname]').fill(klient.nazwisko);
+      await formularz.locator('[name=email]').fill(klient.email);
+      await formularz.locator('[name=password]').fill(klient.haslo);
+      // wymagane zgody: regulamin z polityką prywatności (psgdpr) i informacja o przetwarzaniu danych
+      await formularz.locator('[name=psgdpr]').check();
+      await formularz.locator('[name=customer_privacy]').check();
+      await formularz.getByRole('button', { name: /Zapisz/i }).click();
+
+      // po udanej rejestracji sklep od razu loguje klienta i opuszcza formularz
+      await expect(page).not.toHaveURL(/rejestracja/);
+      const naglowek = page.locator('#_desktop_user_info');
+      await expect(naglowek).toContainText(`${klient.imie} ${klient.nazwisko}`);
+      await expect(naglowek.getByRole('link', { name: /Wyloguj/i })).toBeVisible();
+      // koszyk gościa przechodzi na nowe konto - bez tego krok 5 nie miałby czego zamówić
+      await expect(licznik).toHaveText(new RegExp(`\\b${sztuki}\\b`));
     });
   });
 });
