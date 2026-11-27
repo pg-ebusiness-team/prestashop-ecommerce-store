@@ -3,8 +3,11 @@
 # -f - specyfikacja ścieżki do pliku compose.yaml, tak by można było uruchamiać komendy z roota
 # --env-file - ścieżka do pliku .env z poziomu pliku makefile. Jest konieczna bo .env i compose.yaml znajdują się w innych folderach
 COMPOSE = docker compose -f deploy/compose.yaml --env-file .env
-# Importer PrestaShop
-PYTHON ?= python3
+# Importer i scraper w kontenerze narzędziowym (usługa tools, deploy/tools/Dockerfile) - bez Pythona na hoście.
+# --user: pliki zapisane w zamontowanym repo (zdjęcia, *_mapping.json) należą do użytkownika hosta, nie do roota.
+# --build: obraz przebuduje się sam po zmianie scraper/requirements.txt (bez zmian - z cache, kilka sekund).
+TOOLS = $(COMPOSE) run --rm --build --user $(shell id -u):$(shell id -g) tools
+PYTHON = $(TOOLS) python
 IMPORT_ARGS ?= --execute
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)

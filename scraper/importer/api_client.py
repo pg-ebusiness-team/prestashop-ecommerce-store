@@ -19,7 +19,11 @@ class PrestaShopAPI:
         self.session.headers.update({
             "Accept": "application/xml"
         })
-        
+        # Kontener narzędziowy łączy się z https://proxy (sieć Dockera), a PrestaShop przekierowuje (302)
+        # zapytania pod inną domeną niż swoja (PS_DOMAIN, np. localhost:8443) - wtedy podajemy ją w nagłówku Host
+        if shop_host := os.getenv("PS_SHOP_HOST"):
+            self.session.headers["Host"] = shop_host
+
     def _send_request(self, method: str, url: str, **kwargs):
         try:
             response = self.session.request(

@@ -48,6 +48,31 @@ services:
     ports:
       - "${MAILPIT_PORT}:8025"
 
+  # Kontener narzędziowy (importer, scraper): nie startuje przy make up (profil), uruchamia go
+  # make init / make import przez `docker compose run --rm tools ...`.
+  tools:
+    build:
+      context: ../scraper # tylko requirements.txt, bez wyników scrapera w kontekście budowania
+      dockerfile: ../deploy/tools/Dockerfile
+    image: tools:dev
+    platform: linux/amd64
+    profiles: [tools]
+    # Bez env_file: importer sam wczytuje /app/.env (load_env_file w scraper/importer/main.py) i nie nadpisuje
+    # zmiennych ustawionych niżej, więc SHOP_URL i PS_SHOP_HOST z environment mają pierwszeństwo
+    environment:
+      # W sieci Dockera sklep jest pod nazwą usługi proxy; PrestaShop odpowiada tylko dla swojej domeny,
+      # więc ją podajemy w nagłówku Host (scraper/importer/api_client.py)
+      SHOP_URL: https://proxy
+      PS_SHOP_HOST: ${SERVER_NAME}:${HTTPS_PORT}
+      # Certyfikat sklepu jest samopodpisany (PS_VERIFY_SSL=0), więc ostrzeżenie urllib3 przy każdym zapytaniu
+      # zasłaniałoby raport importu
+      PYTHONWARNINGS: "ignore:Unverified HTTPS request"
+    volumes:
+      # Repo z hosta: importer czyta scraper_results/, zapisuje zdjęcia i scraper/importer/*_mapping.json
+      - ..:/app
+    depends_on:
+      - proxy
+
   db:
     image: mysql:8.0
     platform: linux/amd64
