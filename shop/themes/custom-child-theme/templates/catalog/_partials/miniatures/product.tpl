@@ -55,7 +55,8 @@
               <input type="hidden" name="id_product" value="{$product.id_product}">
               <input type="hidden" name="id_product_attribute" value="{$product.id_product_attribute}">
               <input type="hidden" name="id_customization" value="0">
-              <input type="hidden" name="qty" value="{$product.minimal_quantity|default:1}">
+              {* minimal_quantity bywa 0 (produkty z wariantami), a |default nie zamienia zera - koszyk odrzuca qty=0 *}
+              <input type="hidden" name="qty" value="{if $product.minimal_quantity > 1}{$product.minimal_quantity}{else}1{/if}">
               <button type="submit" class="miniature-cart-btn" data-button-action="add-to-cart">
                 <i class="material-icons" aria-hidden="true">local_mall</i>
                 {l s='Add to cart' d='Shop.Theme.Actions'}

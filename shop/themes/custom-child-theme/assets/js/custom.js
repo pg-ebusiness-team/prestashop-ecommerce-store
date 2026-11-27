@@ -144,3 +144,31 @@
   label();
   new MutationObserver(label).observe(document.body, { childList: true, subtree: true });
 })();
+
+/* Telefon: lupa w górnym pasku (#search-toggle w header.tpl) pokazuje/ukrywa wyszukiwarkę, jak w źródle. */
+(function () {
+  var btn = document.querySelector('#search-toggle button');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var open = document.getElementById('header').classList.toggle('search-open');
+    btn.setAttribute('aria-expanded', open);
+    if (open) document.querySelector('#search_widget input[type="text"]').focus();
+  });
+})();
+
+/*
+ * Ekran dotykowy, jak w źródle: pierwsze tapnięcie w zdjęcie produktu tylko odsłania oko i „Dodaj do koszyka”
+ * (.is-tapped w custom.css), dopiero następne otwiera produkt albo naciska przycisk.
+ */
+(function () {
+  if (!window.matchMedia('(hover: none)').matches) return;
+  document.addEventListener('click', function (e) {
+    var card = e.target.closest('.product-miniature .thumbnail-top');
+    var open = document.querySelector('.thumbnail-top.is-tapped');
+    if (open && open !== card) open.classList.remove('is-tapped');
+    if (!card || card === open) return;
+    card.classList.add('is-tapped');
+    e.preventDefault();
+    e.stopPropagation(); // core.js (koszyk, szybki podgląd) słucha na body, a ukryty przycisk też łapie tapnięcie
+  }, true); // capture: przed handlerami Classic
+})();
