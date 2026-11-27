@@ -92,8 +92,10 @@ test.describe('Scenariusz zamówienia', () => {
           if (!(await dodajDoKoszyka((dodane.size % 3) + 1))) continue;
           if (!szukanaFraza) {
             const nazwa = await page.locator('h1').first().innerText();
-            // najdłuższe słowo nazwy - wyszukiwarka pomija słowa krótsze niż 3 znaki
-            szukanaFraza = (nazwa.match(/\p{L}{3,}/gu) ?? [nazwa]).sort((a, b) => b.length - a.length)[0];
+            // pierwsze słowo nazwy (zwykle rodzaj trunku, np. „Whisky”) - daje wiele wyników, więc krok 2 znajdzie
+            // dostępny produkt; najdłuższe słowo bywało unikalne i zwracało tylko produkt już wyczerpany w koszyku.
+            // Wyszukiwarka pomija słowa krótsze niż 3 znaki.
+            szukanaFraza = (nazwa.match(/\p{L}{3,}/gu) ?? [nazwa])[0];
           }
           dodane.add(produkt);
           zKategorii++;
