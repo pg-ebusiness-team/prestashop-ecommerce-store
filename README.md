@@ -91,7 +91,7 @@ Produkty i kategorie pochodzą z `scraper_results/` (w repo), ale zdjęć w repo
 make import
 ```
 
-Import tworzy kategorie, atrybuty, 1100 produktów z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
+Import tworzy kategorie, atrybuty, wszystkie poprawne produkty (ze zdjęciem i opisem; limit: `--limit N`) z wariantami, stany magazynowe i zdjęcia. Ponowne uruchomienie aktualizuje istniejące rekordy. Podgląd bez zapisu: `make import IMPORT_ARGS=--dry-run`. Szczegóły: [docs/Importer.md](docs/Importer.md).
 
 Po imporcie ustaw filtry w lewej kolumnie list produktów i wgraj opisy kategorii:
 
@@ -219,7 +219,7 @@ pytest scraper/
 
 Środowisko Pythona nie jest aktywne albo nie ma zależności (patrz krok 2). Klucz API jest już wtedy zarejestrowany; po naprawie uruchom `make init` ponownie, aby usunąć dane demo.
 
-### `make import` kończy się błędem `Za mało produktów z minimum 2 zdjęciami` lub `Nie udało się wybrać 1100 produktów`
+### `make import` kończy się błędem `Za mało produktów z minimum 2 zdjęciami` lub `Nie udało się wybrać N produktów`
 
 Brakuje zdjęć w `scraper_results/product_photos/` (patrz krok 5).
 

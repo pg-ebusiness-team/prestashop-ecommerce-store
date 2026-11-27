@@ -43,4 +43,5 @@ blob-report/
 # Lokalne mapowania ID źródło -> PrestaShop (zależne od instancji sklepu, tworzone przez importer)
 scraper/importer/categories_mapping.json
 scraper/importer/products_mapping.json
+scraper/importer/products_mapping.json.tmp
 scraper/importer/attributes_mapping.json

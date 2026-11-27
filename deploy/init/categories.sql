@@ -13,6 +13,8 @@ SET @more = '<!-- więcej -->';
 -- Pełna nazwa kategorii -> treść pliku. Kolejność jak w menu. Bez opisu w źródle (więc tu ich nie ma): Zestawy
 -- prezentowe na Wielkanoc, Kosze prezentowe na Wielkanoc, Alkohole na Wielkanoc, podkategorie Alkohole & likiery
 -- poza Gin, Likier, Rum i Tequila & Mezcal, Wino bezalkoholowe oraz cały dział Opakowania & Słodycze.
+-- Karty podarunkowe mają opis w shop/categories/, ale nie ma ich na liście: scraper nie zebrał z nich produktów,
+-- a importer nie zakłada pustych kategorii (wymóg „0 pustych”), więc takiej kategorii w sklepie nie ma.
 -- Teksty przepisane ze źródła bez stylów inline i bez linków (prowadziły do sklepu źródłowego).
 CREATE TEMPORARY TABLE category_text (name VARCHAR(128) NOT NULL, content MEDIUMTEXT);
 INSERT INTO category_text (name, content) VALUES
@@ -21,7 +23,6 @@ INSERT INTO category_text (name, content) VALUES
   ('Zestawy upominkowe', @`cat_zestawy-upominkowe`),
   ('Zestawy alkoholi na prezent', @`cat_zestawy-alkoholi-na-prezent`),
   ('Ozdobne butelki', @`cat_ozdobne-butelki`),
-  ('Karty podarunkowe', @`cat_karty-podarunkowe`),
   ('Prezenty świąteczne dla klientów', @`cat_prezenty-swiateczne-dla-klientow`),
   ('Upominki świąteczne dla pracowników', @`cat_upominki-swiateczne-dla-pracownikow`),
   ('Whisky & Bourbon', @`cat_whisky-bourbon`),

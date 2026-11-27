@@ -214,13 +214,15 @@ def get_product_id(product: dict, mapping: dict) -> int | None:
 
 def build_product_xml(
     product: dict,
-    category_id: int,
+    category_ids: list[int],
     tax_rules_group_id: int,
     product_id: int | None = None,
     feature_ids: list[tuple[int, int]] | None = None
 ) -> str:
     """
     Buduje XML produktu zgodny z formatem PrestaShop Webservice.
+
+    category_ids: wszystkie kategorie produktu; pierwsza jest kategorią domyślną.
 
     feature_ids: pary (ID cechy, ID wartości) do zakładki „Szczegóły”. PUT zastępuje cechy produktu
     tą listą; None pomija powiązanie, żeby nieudany import cech nie wyczyścił ich w sklepie.
@@ -261,7 +263,7 @@ def build_product_xml(
     ET.SubElement(product_element, "price").text = str(product["price_net"])
 
     # Kategoria
-    ET.SubElement(product_element, "id_category_default").text = str(category_id)
+    ET.SubElement(product_element, "id_category_default").text = str(category_ids[0])
 
     # Grupa reguł podatkowych VAT
     ET.SubElement(product_element, "id_tax_rules_group").text = str(tax_rules_group_id)
@@ -276,11 +278,12 @@ def build_product_xml(
     ET.SubElement(product_element, "show_price").text = "1"
     ET.SubElement(product_element, "visibility").text = "both"
 
-    # Powiązanie produktu z kategorią
+    # Powiązanie produktu ze wszystkimi jego kategoriami
     associations = ET.SubElement(product_element, "associations")
     categories = ET.SubElement(associations, "categories")
-    category = ET.SubElement(categories, "category")
-    ET.SubElement(category, "id").text = str(category_id)
+    for category_id in category_ids:
+        category = ET.SubElement(categories, "category")
+        ET.SubElement(category, "id").text = str(category_id)
 
     # Cechy produktu (zakładka „Szczegóły”)
     if feature_ids is not None:
@@ -348,7 +351,7 @@ def import_product(
     api: PrestaShopAPI,
     product: dict,
     mapping: dict,
-    category_id: int,
+    category_ids: list[int],
     tax_rules_group_id: int,
     feature_ids: list[tuple[int, int]] | None = None
 ) -> tuple[int, str]:
@@ -377,7 +380,7 @@ def import_product(
 
     product_xml = build_product_xml(
         product,
-        category_id,
+        category_ids,
         tax_rules_group_id,
         existing_product_id,
         feature_ids
@@ -467,10 +470,13 @@ def group_products(products):
                 "source_attribute_id": None,
                 "attributes": {},
                 "quantity": None,
-                "combinations": []
+                "combinations": [],
+                "source_files": []
             }
 
         parent = grouped[source_id]
+        # Ten sam produkt bywa w kilku kategoriach źródła - każdy plik wskazuje jedną z nich
+        parent["source_files"].append(product.get("source_file", ""))
 
         # Scalanie zdjęć ze wszystkich rekordów produktu i wariantów
         existing_image_ids = {
