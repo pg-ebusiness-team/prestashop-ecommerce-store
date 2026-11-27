@@ -9,7 +9,7 @@ IMPORT_ARGS ?= --execute
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init api-check theme test-e2e import-categories import-products import
+.PHONY: help up down reset logs ps shell build init api-check theme omnibus-install test-e2e import-categories import-products import
 
 help:
 	@echo "make up      - zbuduj obraz i uruchom sklep w tle"
@@ -22,6 +22,7 @@ help:
 	@echo "make init    - wlacz Webservice API i zarejestruj klucz PS_API_KEY"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
+	@echo "make omnibus-install - zainstaluj modul Omnibusprice"
 	@echo "make test-e2e - uruchom testy E2E Playwright (raport: tests/playwright-report)"
 	@echo "make import-categories - importuj kategorie"
 	@echo "make import-products   - importuj atrybuty, produkty i warianty"
@@ -86,6 +87,11 @@ theme:
 	  cat deploy/init/cms.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
 	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
+
+
+# Instalacja modułu Omnibusprice
+omnibus-install:
+	$(COMPOSE) exec -T -u www-data shop php bin/console prestashop:module install omnibusprice
 
 # Import danych do PrestaShop
 import-categories:

@@ -92,6 +92,7 @@ def import_all_categories(
     def process(item: dict, parent_id: int) -> int:
         nonlocal dry_id
         name, url = item["name"], item["url"]
+        
         current_id = get_prestashop_id(mapping, url)
 
         if dry_run:
@@ -104,23 +105,42 @@ def import_all_categories(
             dry_id -= 1
             return placeholder
 
-        # Zawsze szukamy kategorii po stabilnym kluczu:
-        # link_rewrite + id_parent.
-        existing_id = cat.find_existing_category(api, name, parent_id)
+        # 1. Sprawdź, czy ID z lokalnego mapowania nadal istnieje.
+        if current_id is not None:
+            try:
+                api.get(f"categories/{int(current_id)}")
+            except RuntimeError as exc:
+                if "404" not in str(exc):
+                    raise
 
-        if existing_id is not None:
-            add_mapping(mapping, url, existing_id, cat.MAPPING_PATH)
+                print(
+                    f"[KATEGORIA] Nieaktualne ID {current_id} "
+                    f"dla '{name}'. Odzyskuję kategorię."
+                )
+                current_id = None
+
+        # 2. Jeśli ID było nieaktualne lub brakowało go w mapowaniu,
+        #    spróbuj odnaleźć kategorię po nazwie i rodzicu.
+        if current_id is None:
+            current_id = cat.find_existing_category(api, name, parent_id)
+
+            if current_id is not None:
+                add_mapping(mapping, url, current_id, cat.MAPPING_PATH)
+
+        # 3. Utwórz kategorię tylko wtedy, gdy rzeczywiście nie istnieje.
+        if current_id is None:
+            current_id = cat.create_category(
+                api, mapping, name, url, root_id, language_id
+            )
+            counts["created"] += 1
+        else:
             cat.update_category(
                 api, mapping, name, url, root_id, language_id
             )
             counts["updated"] += 1
-            return int(existing_id)
 
-        current_id = cat.create_category(
-            api, mapping, name, url, root_id, language_id
-        )
-        counts["created"] += 1
         return int(current_id)
+
 
     selected_category_keys = {
     (
@@ -480,11 +500,12 @@ def main() -> int:
     from scraper.importer.products import (
         group_products,
         import_product,
+        load_products,
         normalize_product,
         validate_product,
     )
+    from scraper.importer.selection import run_selection, PHOTOS_DIR
     from scraper.importer.products_mapping import load_mapping as load_products_mapping
-    from scraper.importer.selection import PHOTOS_DIR, run_selection
 
     selected_products, selected_categories = run_selection(
         source_dir=products_dir,
@@ -582,7 +603,13 @@ def main() -> int:
     grouped = group_products(normalized)
 
     product_counts: Counter[str] = Counter()
+    promotion_counts: Counter[str] = Counter()
+    omnibus_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
+
+    if not dry_run:
+        from scraper.importer.promotions import sync_product_promotions
+        from scraper.importer.omnibus import sync_omnibus_prices
 
     for index, product in enumerate(grouped, start=1):
         source_id = product.get("source_id")
@@ -601,9 +628,46 @@ def main() -> int:
                     api, product, mapping, category_id, tax_group_id
                 )
                 product_counts[operation] += 1
+
+                # import_product() creates/updates the product and its combinations,
+                # and persists their source -> PrestaShop ID mappings. Promotions
+                # must be synchronized only after that mapping is ready.
+                promotion_result = sync_product_promotions(
+                    api, product, mapping, dry_run=False
+                )
+                for key, value in promotion_result.items():
+                    promotion_counts[key] += value
+
+                # Omnibus po imporcie produktu i kombinacji, gdy mapowanie ID jest gotowe.
+                try:
+                    omnibus_result = sync_omnibus_prices(api, product, mapping)
+                    for key, value in omnibus_result.items():
+                        omnibus_counts[key] += value
+                except Exception as omnibus_exc:  # noqa: BLE001
+                    omnibus_counts["rejected"] += 1
+                    print(
+                        f"[OMNIBUS {source_id}] "
+                        f"{type(omnibus_exc).__name__}: {omnibus_exc}"
+                    )
             except Exception as exc:  # noqa: BLE001
                 product_counts["rejected"] += 1
                 print(f"[PRODUKT {source_id}] {type(exc).__name__}: {exc}")
+
+        if dry_run:
+            # Dry-run reports promotion candidates without requiring target IDs
+            # for products/combinations that have not yet been imported.
+            candidate_promotions = product.get("promotions") or []
+            if candidate_promotions:
+                promotion_counts["planned"] += len(candidate_promotions)
+                promotion_counts["products"] += 1
+
+        if dry_run:
+            if product.get("lowest_price_30d_amount") is not None:
+                omnibus_counts["planned"] += 1
+            omnibus_counts["planned"] += sum(
+                1 for combination in product.get("combinations") or []
+                if combination.get("lowest_price_30d_amount") is not None
+            )
 
         if index % 100 == 0:
             print(f"Postęp: {index}/{len(grouped)} produktów.")
@@ -612,7 +676,33 @@ def main() -> int:
     report_section("ATRYBUTY", attribute_counts)
     report_section("PRODUKTY", product_counts)
 
-    total_rejected = rejected_records + category_counts["rejected"] + attribute_counts["rejected"] + product_counts["rejected"]
+    if dry_run:
+        print("\nPROMOCJE — PODGLĄD")
+        print(f"  Produkty z promocjami: {promotion_counts['products']}")
+        print(f"  Reguły do synchronizacji: {promotion_counts['planned']}")
+    else:
+        print("\nPROMOCJE")
+        print(f"  Utworzone:      {promotion_counts['created']}")
+        print(f"  Zaktualizowane: {promotion_counts['updated']}")
+        print(f"  Odrzucone:      {promotion_counts['rejected']}")
+
+    if dry_run:
+        print("\nOMNIBUS — PODGLĄD")
+        print(f"  Ceny do synchronizacji: {omnibus_counts['planned']}")
+    else:
+        print("\nOMNIBUS")
+        print(f"  Wysłane ceny:   {omnibus_counts['sent']}")
+        print(f"  Pominięte:      {omnibus_counts['skipped']}")
+        print(f"  Odrzucone:      {omnibus_counts['rejected']}")
+
+    total_rejected = (
+        rejected_records
+        + category_counts["rejected"]
+        + attribute_counts["rejected"]
+        + product_counts["rejected"]
+        + promotion_counts["rejected"]
+        + omnibus_counts["rejected"]
+    )
     print("\nPODSUMOWANIE")
     print(f"  Pliki produktów:       {len(raw_products)}")
     print(f"  Poprawne rekordy:      {len(normalized)}")
