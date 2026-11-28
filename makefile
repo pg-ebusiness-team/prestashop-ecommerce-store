@@ -16,7 +16,7 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
-.PHONY: facets categories import-categories import-products import photos backup
+.PHONY: facets categories import-categories import-products import photos backup restore
 
 help:
 	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
@@ -38,6 +38,7 @@ help:
 	@echo "make import            - wykonaj pelny import"
 	@echo "make photos            - pobierz zdjecia produktow z Releases (brakujace - z URL-i sklepu zrodlowego)"
 	@echo "make backup            - kopia zapasowa dzialajacego sklepu do backups/ (baza, pliki sklepu, certyfikat, mapowania importu)"
+	@echo "make restore           - odtworz sklep z kopii: make restore [BACKUP=backups/<plik>.tar], domyslnie najnowsza; USUWA biezace dane"
 
 
 # Pierwsze uruchomienie z czystego klona: .env z .env.example z wygenerowanym kluczem Webservice API
@@ -178,3 +179,7 @@ test-e2e:
 # Kopia zapasowa działającego sklepu (WYMAGANIA.md, D4): backups/backup-<data>.tar, opis części w deploy/backup.sh
 backup:
 	bash deploy/backup.sh
+
+# Odtworzenie z kopii (deploy/restore.sh): usuwa bieżące dane i pyta o potwierdzenie (bez pytania: CONFIRM=tak)
+restore:
+	bash deploy/restore.sh "$(BACKUP)"
