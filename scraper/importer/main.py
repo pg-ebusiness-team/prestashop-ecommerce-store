@@ -97,7 +97,6 @@ def import_all_categories(
     def process(item: dict, parent_id: int) -> int:
         nonlocal dry_id
         name, url = item["name"], item["url"]
-        
         current_id = get_prestashop_id(mapping, url)
 
         if dry_run:
@@ -110,42 +109,23 @@ def import_all_categories(
             dry_id -= 1
             return placeholder
 
-        # 1. Sprawdź, czy ID z lokalnego mapowania nadal istnieje.
-        if current_id is not None:
-            try:
-                api.get(f"categories/{int(current_id)}")
-            except RuntimeError as exc:
-                if "404" not in str(exc):
-                    raise
+        # Zawsze szukamy kategorii po stabilnym kluczu:
+        # link_rewrite + id_parent.
+        existing_id = cat.find_existing_category(api, name, parent_id)
 
-                print(
-                    f"[KATEGORIA] Nieaktualne ID {current_id} "
-                    f"dla '{name}'. Odzyskuję kategorię."
-                )
-                current_id = None
-
-        # 2. Jeśli ID było nieaktualne lub brakowało go w mapowaniu,
-        #    spróbuj odnaleźć kategorię po nazwie i rodzicu.
-        if current_id is None:
-            current_id = cat.find_existing_category(api, name, parent_id)
-
-            if current_id is not None:
-                add_mapping(mapping, url, current_id, cat.MAPPING_PATH)
-
-        # 3. Utwórz kategorię tylko wtedy, gdy rzeczywiście nie istnieje.
-        if current_id is None:
-            current_id = cat.create_category(
-                api, mapping, name, url, root_id, language_id
-            )
-            counts["created"] += 1
-        else:
+        if existing_id is not None:
+            add_mapping(mapping, url, existing_id, cat.MAPPING_PATH)
             cat.update_category(
                 api, mapping, name, url, root_id, language_id
             )
             counts["updated"] += 1
+            return int(existing_id)
 
+        current_id = cat.create_category(
+            api, mapping, name, url, root_id, language_id
+        )
+        counts["created"] += 1
         return int(current_id)
-
 
     selected_category_keys = {
     (
