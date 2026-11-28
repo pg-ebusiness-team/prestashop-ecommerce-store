@@ -16,7 +16,7 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
-.PHONY: facets categories import-categories import-products import photos backup restore
+.PHONY: facets categories import-categories import-products import photos backup restore config-export config-import
 
 help:
 	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
@@ -39,6 +39,8 @@ help:
 	@echo "make photos            - pobierz zdjecia produktow z Releases (brakujace - z URL-i sklepu zrodlowego)"
 	@echo "make backup            - kopia zapasowa dzialajacego sklepu do backups/ (baza, pliki sklepu, certyfikat, mapowania importu)"
 	@echo "make restore           - odtworz sklep z kopii: make restore [BACKUP=backups/<plik>.tar], domyslnie najnowsza; USUWA biezace dane"
+	@echo "make config-export     - zapisz ustawienia sklepu (bez sekretow i danych osobowych) do deploy/config/configuration.json"
+	@echo "make config-import     - wgraj ustawienia z deploy/config/configuration.json do dzialajacego sklepu"
 
 
 # Pierwsze uruchomienie z czystego klona: .env z .env.example z wygenerowanym kluczem Webservice API
@@ -183,3 +185,21 @@ backup:
 # Odtworzenie z kopii (deploy/restore.sh): usuwa bieżące dane i pyta o potwierdzenie (bez pytania: CONFIRM=tak)
 restore:
 	bash deploy/restore.sh "$(BACKUP)"
+
+# Eksport ustawień do repo (WYMAGANIA.md, D4), wykluczenia w deploy/config/export.php. Skrypt idzie przez stdin jak
+# facets. Wynik najpierw do pliku .tmp i sprawdzenie JSON-a, żeby błąd nie nadpisał configuration.json.
+config-export:
+	$(COMPOSE) exec -T -u www-data shop php < deploy/config/export.php > deploy/config/configuration.json.tmp \
+	  || { rm -f deploy/config/configuration.json.tmp; exit 1; }
+	$(COMPOSE) exec -T shop php -r 'json_decode(stream_get_contents(STDIN), flags: JSON_THROW_ON_ERROR);' \
+	  < deploy/config/configuration.json.tmp || { rm -f deploy/config/configuration.json.tmp; echo "config-export: BLAD: wynik nie jest poprawnym JSON"; exit 1; }
+	mv deploy/config/configuration.json.tmp deploy/config/configuration.json
+	@echo "config-export: zapisano deploy/config/configuration.json"
+
+# Wgranie ustawień z repo: plik do kontenera (skrypt czyta go z /tmp, bo stdin zajmuje sam skrypt), potem
+# cache:clear jak w theme (-u www-data: pliki cache muszą należeć do Apache)
+config-import:
+	$(COMPOSE) cp deploy/config/configuration.json shop:/tmp/configuration.json
+	$(COMPOSE) exec -T -u www-data shop php < deploy/config/import.php
+	$(COMPOSE) exec -T shop rm -f /tmp/configuration.json
+	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
