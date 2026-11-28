@@ -16,7 +16,7 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
 .PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
-.PHONY: facets categories import-categories import-products import photos
+.PHONY: facets categories import-categories import-products import photos backup
 
 help:
 	@echo "make up      - zbuduj obraz, uruchom sklep w tle i poczekaj na koniec instalacji (tworzy .env, jesli go nie ma)"
@@ -37,6 +37,7 @@ help:
 	@echo "make import-products   - importuj atrybuty, produkty i warianty"
 	@echo "make import            - wykonaj pelny import"
 	@echo "make photos            - pobierz zdjecia produktow z Releases (brakujace - z URL-i sklepu zrodlowego)"
+	@echo "make backup            - kopia zapasowa dzialajacego sklepu do backups/ (baza, pliki sklepu, certyfikat, mapowania importu)"
 
 
 # Pierwsze uruchomienie z czystego klona: .env z .env.example z wygenerowanym kluczem Webservice API
@@ -173,3 +174,7 @@ import:
 # Testy E2E: instalacja zależności i Chromium, potem testy na adresie SHOP_URL
 test-e2e:
 	cd tests && npm ci && npx playwright install chromium && BASE_URL=$(SHOP_URL) npm run test:e2e
+
+# Kopia zapasowa działającego sklepu (WYMAGANIA.md, D4): backups/backup-<data>.tar, opis części w deploy/backup.sh
+backup:
+	bash deploy/backup.sh
