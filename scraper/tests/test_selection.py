@@ -26,6 +26,10 @@ def test_select_products_without_target_takes_all(monkeypatch):
     valid = {i: [{"images": [{"id_image": 1}, {"id_image": 2}]}] for i in range(60)}
     categories = {("a", "b"): set(valid)}
 
-    selected, _ = selection.select_products(valid, categories, target=None)
+    # Test dotyczy tylko target=None - reguły promocji i stanu 0 wyłączone
+    selected, _ = selection.select_products(
+        valid, categories, target=None,
+        minimum_promoted_products=0, minimum_zero_stock_ratio=0,
+    )
 
     assert len(selected) == 60

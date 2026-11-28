@@ -3,7 +3,6 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-
 # Katalog zawierający dane pobrane przez scraper
 SOURCE_DIR = Path("scraper_results/products")
 

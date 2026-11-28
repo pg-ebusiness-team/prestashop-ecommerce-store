@@ -3,7 +3,7 @@ import re
 import threading
 import unicodedata
 import xml.etree.ElementTree as ET
-from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
+from decimal import ROUND_HALF_UP, Decimal, InvalidOperation
 from pathlib import Path
 
 from scraper.importer.api_client import PrestaShopAPI
@@ -106,7 +106,7 @@ def _calculate_regular_net(price_gross: object, vat_rate: object) -> float | Non
     if gross is None or rate is None or gross < 0 or rate < 0:
         return None
 
-    divisor = Decimal("1") + rate / Decimal("100")
+    divisor = Decimal(1) + rate / Decimal(100)
     if divisor <= 0:
         return None
 

@@ -19,8 +19,8 @@ import argparse
 import json
 import os
 import sys
-import time
 import threading
+import time
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -519,12 +519,11 @@ def main() -> int:
     from scraper.importer.products import (
         group_products,
         import_product,
-        load_products,
         normalize_product,
         validate_product,
     )
-    from scraper.importer.selection import run_selection, PHOTOS_DIR
     from scraper.importer.products_mapping import load_mapping as load_products_mapping
+    from scraper.importer.selection import PHOTOS_DIR, run_selection
 
     selected_products, selected_categories = run_selection(
         source_dir=products_dir,
@@ -641,9 +640,11 @@ def main() -> int:
     mapping = load_products_mapping()
 
     if not dry_run:
-        from scraper.importer.promotions import sync_product_promotions
         from scraper.importer.omnibus import sync_omnibus_prices
-        from scraper.importer.products_mapping import save_mapping as save_products_mapping
+        from scraper.importer.products_mapping import (
+            save_mapping as save_products_mapping,
+        )
+        from scraper.importer.promotions import sync_product_promotions
 
     worker_local = threading.local()
     worker_apis: list[Any] = []

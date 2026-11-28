@@ -119,7 +119,7 @@ def _normalize_specific_price_base(value: Any) -> str:
         return "-1.000000"
 
     price = _decimal(value, "price")
-    if price == Decimal("-1"):
+    if price == Decimal(-1):
         return "-1.000000"
     if price < 0:
         raise ValueError(
