@@ -1,6 +1,6 @@
 # Odstępstwa od sklepu źródłowego (luksusowealkohole.pl)
 
-Stan na 2026-11-25. Tylko rzeczy zauważone i **jeszcze niewprowadzone**.
+Stan na 2026-11-28 (sprawdzone zapytaniami do bazy po pełnym `make init`). Tylko rzeczy zauważone i **jeszcze niewprowadzone**.
 
 **Waga:** **3** — krytyczne, trzeba zrobić · **2** — warto zrobić, brak nie jest tragedią · **1** — odbiega, ale nieważne
 
@@ -8,10 +8,7 @@ Stan na 2026-11-25. Tylko rzeczy zauważone i **jeszcze niewprowadzone**.
 
 | # | Waga | Co odbiega | Gdzie | Co zmienić |
 |---|:-:|---|---|---|
-| 1 | 3 | Wina są w złej kategorii: 592 wina trafiły do „Alkohole na Wielkanoc”, a kategoria „Wino” jest pusta (podobnie 184 likiery i 37 nalewek) | Prezenty › Alkohole na Wielkanoc; Wino & Champagne › Wino | importer: kategoria domyślna z pola `id_category_default`, a nie z pierwszego pliku |
-| 2 | 3 | Produkt należy tylko do jednej kategorii, a w źródle do kilku. Przez to 7 podkategorii jest pustych (wymóg W3 [K]: 0 pustych): Wino, Kosze upominkowe, Zestawy upominkowe, Prezenty świąteczne…, Upominki świąteczne…, Zestawy prezentowe na…, Kosze prezentowe na… | listy produktów w tych podkategoriach | importer: przypisać produkt do wszystkich kategorii, w których znalazł go scraper |
-| 3 | 3 | „Karty podarunkowe” jest pusta. W źródle link przekierowuje na stronę główną, więc scraper nie znalazł tam produktów | Prezenty › Karty podarunkowe | importer (pominąć kategorię) albo `theme.sql` (ukryć ją) |
-| 4 | 3 | W sklepie zostały dane demo z instalatora: 19 produktów, kategorie Clothes / Accessories / Art, cechy Composition / Property. Prowadzący losuje 10 produktów do porównania ze źródłem (W3 [K]) i może trafić na produkt demo | lista produktów, wyszukiwarka, karta produktu | inicjalizacja (`deploy/`) albo importer: usunąć dane demo |
+| 1 | 2 | Kategoria domyślna (okruszki, adres URL) bywa zła: 657 produktów, m.in. wina, ma domyślną „Alkohole na Wielkanoc”. Produkty są już też w swoich właściwych kategoriach, więc „Wino” nie jest pusta | okruszki i URL karty produktu | importer: kategoria domyślna z pola `id_category_default`, a nie z pierwszej kategorii |
 | 5 | 2 | Ucięte nazwy podkategorii z „...”, np. „Zestawy alkoholi na...” zamiast „Zestawy alkoholi na prezent” (5 kategorii) | menu, nagłówek kategorii, okruszki, stopka | scraper (pełna nazwa z nagłówka strony kategorii) + ponowny import |
 | 13 | 2 | Brak filtra „Producenci”: importer nie wysyła producentów (scraper ma `manufacturer_name` w 520 rekordach), w sklepie są tylko 2 producenci demo | lewa kolumna: Whisky & Bourbon, Alkohole & likiery, okazje | importer (zasób `manufacturers` + uprawnienie w `webservice.sql`), potem `make facets` |
 | 14 | 1 | Na stronach okazji (np. Prezenty świąteczne…) brak filtra „Kategorie”. W źródle to drzewo wszystkich 44 kategorii, a nasz moduł pokazuje tylko podkategorie bieżącej kategorii, których okazje nie mają | lewa kolumna stron okazji | motyw/moduł - trudne, raczej zostawić |

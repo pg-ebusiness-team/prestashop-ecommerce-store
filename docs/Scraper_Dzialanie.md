@@ -9,8 +9,9 @@ Opis budowy i działania scrapera. Instrukcja uruchomienia: [Scraper_Instrukcja.
 | `scraper/main.py` | Argumenty linii poleceń, uruchomienie scrapera. |
 | `scraper/scraper.py` | Klasa `Scraper`: zapytania (limit, ponawianie), cache, przebieg po kategoriach, zapis JSON-ów i zdjęć. |
 | `scraper/parser.py` | Czyste funkcje wyciągające dane z HTML i odpowiedzi AJAX. Bez sieci. |
-| `scraper/models.py` | Typy kategorii (`Category`, `CategoryWithSubcategories`). |
+| `scraper/models.py` | Typy kategorii (`Category`, `CategoryWithSubcategories`) i schemat produktu `Product` (pydantic) do walidacji przed zapisem. |
 | `scraper/tests/test_parser.py` | Testy parsera na plikach z `scraper/fixtures/`. |
+| `scraper/importer/` | Importer do PrestaShop, opis w [Importer.md](Importer.md). |
 
 Podział: `scraper.py` pobiera i zapisuje, `parser.py` tylko czyta tekst strony. Dzięki temu parser da się testować bez łączenia ze sklepem, a zmiana wyglądu strony źródłowej wymaga poprawek tylko w `parser.py`.
 
@@ -49,6 +50,10 @@ Dane produktu nie pochodzą z HTML strony produktu, tylko z AJAX-a PrestaShopa:
 2. Dla każdego wariantu (albo raz, gdy wariantów nie ma) zapytanie POST `index.php?controller=product` z `action=refresh`.
 3. Z odpowiedzi brany jest atrybut `data-product` (JSON z nazwą, ceną, opisem, atrybutami i zdjęciami) i zapisywany jako `<id>_variant_<id_wariantu>.json` lub `<id>_no_variants.json`. Do tego JSON-a dopisywane są pola `lowest_price_30d` i `lowest_price_30d_amount` (najniższa cena z 30 dni, tekst i liczba) z bloku cen `product_prices` tej samej odpowiedzi.
 
+### Walidacja
+
+Przed zapisem każdy wariant produktu przechodzi przez `Product.model_validate()` (`scraper/models.py`): ID > 0, niepusta nazwa i kategoria, ceny i stawka VAT ≥ 0, obecne opis, cechy i zdjęcia. Schemat obejmuje tylko pola, które czyta importer, pozostałe są ignorowane. Najpierw walidowane są wszystkie warianty, więc przy błędzie (`ValidationError` w logu jako `ERROR`) nie zostaje zapisany żaden plik produktu, a podkategoria nie dostaje `_done`.
+
 ### 4. Zdjęcia
 
 Dla każdego zdjęcia z `images` pobierany jest rozmiar `large_default` do `product_photos/<id_produktu>/<id_image>.<rozszerzenie>`.
@@ -77,6 +82,7 @@ Stan scrapera to wyłącznie pliki na dysku — nie ma osobnej bazy.
 - **Produkt w kilku kategoriach:** przy kolejnym wystąpieniu jego JSON-y są kopiowane z zapamiętanego folderu. Położenie plików w folderach to informacja o przypisaniu do kategorii.
 - **`_done`:** znacznik w folderze podkategorii, zapisywany, gdy wszystkie jej produkty przeszły bez błędu. Podkategorie z `_done` są pomijane bez żadnego zapytania. Błąd choć jednego produktu = brak `_done` = podkategoria zostanie powtórzona.
 - **`--clean`** usuwa `products/` i `product_photos/`, a z nimi cały stan.
+- **`--photos-only`** wywołuje tylko `download_missing_photos()`: przegląda zapisane JSON-y i pobiera brakujące zdjęcia (limit i robots.txt obowiązują), bez pobierania kategorii i produktów.
 
 ## Logi
 

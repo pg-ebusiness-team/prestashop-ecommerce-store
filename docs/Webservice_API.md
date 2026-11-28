@@ -6,9 +6,9 @@ Konfiguracja PrestaShop Webservice API, z którego korzysta skrypt importu danyc
 
 - włącza Webservice API (`PS_WEBSERVICE = 1`),
 - rejestruje jeden klucz API pobierany z `.env` (`PS_API_KEY`),
-- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `product_features`, `product_feature_values`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
+- ogranicza klucz do metod GET, POST, PUT, DELETE na zasobach: `categories`, `products`, `combinations`, `stock_availables`, `images`, `product_options`, `product_option_values`, `specific_prices` (promocje), `product_features`, `product_feature_values`. Dostęp do pozostałych zasobów (np. `customers`, `orders`) kończy się odpowiedzią 401.
 
-Wszystko dzieje się skryptem — bez klikania w panelu administracyjnym, bo wymagania zakładają jedną komendę inicjalizacji (`make init`), a w etapie 2 inicjalizację bez ręcznych kroków.
+Wszystko robi skrypt, bez klikania w panelu (jedna komenda inicjalizacji, w etapie 2 bez ręcznych kroków).
 
 ## Uruchomienie
 
@@ -35,7 +35,7 @@ Przykładowe zapytanie (klucz jako login Basic Auth, hasło puste):
 curl -k -H "Authorization: Basic $(printf %s: "$PS_API_KEY" | base64)" https://localhost:8443/api/products
 ```
 
-Sklep jest dostępny wyłącznie przez HTTPS, a certyfikat jest samopodpisany, dlatego `curl` wymaga `-k`. Adres i port zależą od `SERVER_NAME` i `HTTPS_PORT` z `.env` (bazowo `localhost:8443`).
+`-k`, bo certyfikat jest samopodpisany. Adres zależy od `SERVER_NAME` i `HTTPS_PORT` z `.env`.
 
 ## Klucz API i bezpieczeństwo
 
@@ -47,23 +47,23 @@ Sklep jest dostępny wyłącznie przez HTTPS, a certyfikat jest samopodpisany, d
 
 ## Plik deploy/init/webservice.sql
 
-PrestaShop zapisuje konfigurację Webservice w czterech tabelach. Skrypt wpisuje do nich te same dane, które zapisałby panel *Parametry zaawansowane → Webservice*:
+Skrypt wpisuje do czterech tabel to samo, co panel *Parametry zaawansowane → Webservice*:
 
 | Tabela | Co trzyma |
 |---|---|
 | `ps_configuration` | przełącznik `PS_WEBSERVICE` |
 | `ps_webservice_account` | klucz, opis, czy aktywny |
 | `ps_webservice_account_shop` | przypisanie klucza do sklepu (`id_shop = 1`) |
-| `ps_webservice_permission` | jeden wiersz na parę zasób × metoda (7 × 4 = 28 wierszy) |
+| `ps_webservice_permission` | jeden wiersz na parę zasób × metoda (10 × 4 = 40 wierszy) |
 
 Kroki skryptu (całość w jednej transakcji — przy błędzie w połowie nie zostaje konto bez uprawnień):
 
 1. **Włączenie API** — `UPDATE` wartości `PS_WEBSERVICE`, a jeśli wiersza nie ma, `INSERT`.
 2. **Usunięcie poprzedniego konta** — konto rozpoznawane po opisie `Import danych (BACK-1)`. Najpierw usuwane są wiersze zależne (`permission`, `account_shop`), potem samo konto.
 3. **Utworzenie konta** z kluczem `@ws_key` i przypięcie go do sklepu. `LAST_INSERT_ID()` daje id nowego konta.
-4. **Uprawnienia** — `CROSS JOIN` listy zasobów z listą metod tworzy 28 wierszy jednym zapytaniem.
+4. **Uprawnienia** — `CROSS JOIN` listy zasobów z listą metod tworzy 40 wierszy jednym zapytaniem.
 
-Dzięki krokowi 2 skrypt jest **idempotentny**: można go uruchamiać wielokrotnie bez duplikatów. Rozpoznawanie konta po opisie, a nie po kluczu, sprawia, że po zmianie klucza w `.env` stary klucz jest usuwany, a nie zostaje w bazie z uprawnieniami.
+Dzięki krokowi 2 skrypt jest **idempotentny**, a że konto jest rozpoznawane po opisie, a nie po kluczu, po zmianie klucza w `.env` stary klucz znika z bazy.
 
 Skrypt zakłada domyślny prefiks tabel `ps_` (compose nie ustawia `DB_PREFIX`).
 
@@ -71,24 +71,13 @@ Skrypt zakłada domyślny prefiks tabel `ps_` (compose nie ustawia `DB_PREFIX`).
 
 ### make webservice (krok `make init`)
 
-```make
-webservice:
-	@echo "$(PS_API_KEY)" | grep -qE '^[A-Z0-9]{32}$$' || { echo "PS_API_KEY w .env musi miec 32 znaki A-Z0-9"; exit 1; }
-	@{ echo "SET @ws_key = '$(PS_API_KEY)';"; cat deploy/init/webservice.sql; } \
-	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
-	@echo "Webservice API wlaczone, klucz zarejestrowany."
-```
+Sprawdza format klucza, dokleja przed `webservice.sql` linię `SET @ws_key = '<klucz>';` (MySQL nie czyta zmiennych środowiskowych) i przekazuje całość przez pipe do `mysql` w kontenerze `db` (`exec -T`, bez TTY). Hasło idzie przez `MYSQL_PWD` w kontenerze, więc nie widać go na liście procesów.
 
-- `-include .env` na początku `makefile` wczytuje zmienne z `.env` do `make`.
-- MySQL nie czyta zmiennych środowiskowych, dlatego przed treścią pliku SQL doklejana jest linia `SET @ws_key = '...';`, a całość trafia przez pipe do `mysql`.
-- `$$` w `makefile` oznacza dosłowny `$` — zmienne `$$MYSQL_USER` i `$$MYSQL_PASSWORD` rozwija powłoka w kontenerze `db`.
-- `MYSQL_PWD` zamiast `-p<hasło>` — hasła nie widać na liście procesów.
-- `exec -T` wyłącza TTY; bez tego pipe nie działa.
-- Kolejny krok `make init`, `make cleanup-demo`, usuwa przez API kategorie i produkty demonstracyjne z instalatora (lista nazw `DEMO_CATEGORIES` w `cleanup_demo.py`). Działa w kontenerze narzędziowym `tools` (opis w `docs/Docker_Docs.md`), więc nie wymaga Pythona na hoście. Gdy danych demo już nie ma, niczego nie zmienia.
+Kolejny krok `make init`, `make cleanup-demo`, usuwa przez API kategorie i produkty demo z instalatora (`DEMO_CATEGORIES` w `cleanup_demo.py`); bez danych demo niczego nie zmienia.
 
 ### make api-check
 
-Wykonuje cztery zapytania `curl` i porównuje kody HTTP z oczekiwanymi (patrz [Uruchomienie](#uruchomienie)). Przy niezgodności wypisuje `FAIL` i kończy się błędem. Adres sklepu domyślnie to `https://localhost:$(HTTPS_PORT)` (zapytania idą z `-k`, bo certyfikat jest samopodpisany); można go nadpisać, np. dla klastra w etapie 2:
+Cztery zapytania `curl` z porównaniem kodów HTTP (patrz [Uruchomienie](#uruchomienie)); niezgodność to `FAIL` i błąd. Domyślny adres `https://localhost:$(HTTPS_PORT)` można nadpisać, np. dla klastra:
 
 ```bash
 make api-check SHOP_URL=https://adres-sklepu
@@ -101,6 +90,10 @@ make api-check SHOP_URL=https://adres-sklepu
 - **`make api-check`: `api/ z kluczem -> 401`** — klucz w `.env` zmieniony bez ponownego `make init` (lub `make webservice`) albo baza została wyczyszczona (`make reset`).
 - **`/api/` zwraca 404** — brak reguły przepisywania adresów w `.htaccess`. Na obrazie `prestashop:8.2.8` reguła jest tworzona przy auto-instalacji; gdyby jej zabrakło, zapisać ustawienia w panelu *Ruch → SEO i URL*.
 
+## Klucz a moduł Omnibus
+
+Ten sam klucz autoryzuje zapis najniższych cen z 30 dni do własnego modułu `omnibusprice` (`POST /module/omnibusprice/sync`, Basic Auth jak w API). To nie jest zasób Webservice, więc nie ma go w `ps_webservice_permission`: kontroler modułu sprawdza tylko, czy klucz istnieje w `ps_webservice_account` i jest aktywny. Opis modułu: README, sekcja „Promocje i Omnibus”.
+
 ## Rozszerzanie uprawnień
 
-Import promocji (D3) będzie wymagał dodatkowych zasobów, np. `specific_prices`. Stawki VAT nie wymagają uprawnień, bo ID grup podatkowych są w `.env` (`PS_TAX_RULES_GROUP_MAP`). Nowe zasoby wystarczy dopisać do listy zasobów w kroku 4 skryptu i uruchomić ponownie `make init`.
+Stawki VAT nie wymagają uprawnień, bo ID grup podatkowych są w `.env` (`PS_TAX_RULES_GROUP_MAP`). Nowe zasoby wystarczy dopisać do listy zasobów w kroku 4 skryptu i uruchomić ponownie `make init`.

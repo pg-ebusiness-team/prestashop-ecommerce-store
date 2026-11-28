@@ -2,14 +2,7 @@
 
 ## 1. Opis
 
-Importer umożliwia przeniesienie danych ze sklepu źródłowego do PrestaShop 8 za pomocą Webservice API.
-
-Obejmuje dwa zakresy:
-
-- **BACK-2 – Kategorie:** import kategorii głównych i podkategorii z zachowaniem hierarchii.
-- **BACK-3 – Produkty:** import produktów, cen, VAT, atrybutów, wariantów, stanów magazynowych i zdjęć.
-
-Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących, ograniczając powstawanie duplikatów przy ponownym uruchomieniu.
+Importer przenosi wyniki scrapera do PrestaShop 8 przez Webservice API: kategorie z hierarchią (BACK-2) oraz produkty z cenami, VAT, atrybutami, wariantami, stanami, zdjęciami, promocjami i cenami Omnibus (BACK-3, D3). Ponowne uruchomienie aktualizuje istniejące rekordy zamiast tworzyć duplikaty.
 
 ## 2. Struktura plików
 
@@ -29,14 +22,14 @@ Importer obsługuje tworzenie nowych rekordów oraz aktualizowanie istniejących
 | `images.py`             | Import zdjęć produktów                     |
 | `selection.py`          | Wybór poprawnych produktów do importu      |
 | `weights.py`            | Wyliczanie wag produktów i wariantów       |
+| `promotions.py`         | Synchronizacja promocji (`specific_prices`) |
+| `omnibus.py`            | Wysyłka najniższej ceny z 30 dni do modułu `omnibusprice` |
 | `import_attributes.py`  | Osobny import samych atrybutów             |
 | `cleanup_demo.py`       | Usuwanie danych demo (`make cleanup-demo`, część `make init`) |
 
 ## 3. Konfiguracja
 
-Importer korzysta ze zmiennych środowiskowych zapisanych w `.env`.
-
-Najważniejsze ustawienia:
+Importer czyta zmienne z `.env`:
 
 | Zmienna                    | Zastosowanie                                                 |
 | -------------------------- | ------------------------------------------------------------ |
@@ -48,42 +41,39 @@ Najważniejsze ustawienia:
 | `PS_TAX_RULES_GROUP_MAP`   | Mapowanie stawek VAT na ID grup reguł podatkowych PrestaShop |
 | `PS_IMPORT_WORKERS`        | Liczba wątków importu produktów (domyślnie 8, opcjonalnie)   |
 
-**Mapowanie VAT:** identyfikatory w `PS_TAX_RULES_GROUP_MAP` muszą odpowiadać grupom reguł podatkowych istniejącym w danej instancji PrestaShop. Przykładowe wartości z `.env.example` nie muszą być prawidłowe dla innego sklepu.
+ID w `PS_TAX_RULES_GROUP_MAP` muszą odpowiadać grupom reguł podatkowych danej instancji; wartości z `.env.example` pasują do domyślnej polskiej instalacji.
 
 ## 4. Działanie importera
 
 ### Kategorie (BACK-2)
 
-Dane kategorii pobierane są z `scraper_results/debug/categories.json`.
-
-Importer:
-
-- Tworzy kategorie główne pod kategorią `Home`.
-- Tworzy podkategorie we właściwych kategoriach nadrzędnych.
-- Wykorzystuje lokalne mapowanie identyfikatorów.
-- Weryfikuje istniejące kategorie i aktualizuje mapowanie, aby ponowne uruchomienie nie tworzyło duplikatów.
-- Aktualizuje istniejące kategorie zamiast tworzyć duplikaty.
+Źródło: `scraper_results/debug/categories.json`. Kategorie główne trafiają pod `Home`, podkategorie pod swoje kategorie nadrzędne. Istniejące kategorie są rozpoznawane po mapowaniu oraz po nazwie i rodzicu, więc są aktualizowane, a nieaktualne mapowanie się odbudowuje.
 
 ### Produkty (BACK-3)
 
-Dane produktów pobierane są z plików JSON znajdujących się w `scraper_results/products/`.
+Źródło: JSON-y w `scraper_results/products/`. Importer:
 
-Importer:
+- normalizuje, waliduje i grupuje rekordy (warianty jednego produktu),
+- wybiera poprawne produkty: zdjęcie na dysku i niepusty opis. `--limit N` ogranicza ich liczbę; selektor zawsze daje ≥1 produkt w każdej niepustej podkategorii i ≥50 produktów z ≥2 zdjęciami, a przy braku danych kończy się błędem,
+- przypisuje produkt do wszystkich kategorii ze źródła; domyślną (okruszki, URL) jest pierwsza,
+- ustawia ceny netto i brutto oraz VAT; wariant dostaje dopłatę = różnicę ceny netto względem pierwszego wariantu,
+- tworzy grupy atrybutów, wartości i kombinacje,
+- tworzy cechy (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) widoczne w „Szczegółach” karty produktu; rozpoznaje je po nazwie, bez pliku mapowania,
+- szacuje wagę: 1,5 × litry + 0,25 kg, bez pojemności z gramatury (+0,05 kg), w ostateczności 1,5 kg,
+- ustawia stany ze źródła, przy wariantach ograniczając łączny stan do 10. Udziału zer (5–20%) nie wymusza — wynika ze źródła; sprawdza go `docs/stock_validation.sql` (2026-11-28: stany 0–10, 11,02% zer),
+- przesyła zdjęcia WebP z `scraper_results/product_photos/`,
+- na końcu, sekwencyjnie, synchronizuje promocje i ceny Omnibus (niżej).
 
-- Normalizuje i waliduje dane.
-- Grupuje rekordy dotyczące tego samego produktu.
-- Wybiera wszystkie poprawne produkty, czyli takie, które mają zdjęcie na dysku i niepusty opis (pusty HTML też odpada). `--limit N` ogranicza import do N produktów (np. `--limit 1100`). Selektor zawsze zapewnia co najmniej 1 produkt w każdej niepustej podkategorii i co najmniej 50 produktów z ≥2 zdjęciami. Gdy danych lub zdjęć jest za mało, kończy się błędem.
-- Przypisuje produkt do wszystkich kategorii, w których występuje w źródle. Kategorią domyślną (okruszki, adres URL) jest pierwsza z nich.
-- Importuje ceny netto, brutto i odpowiednie stawki VAT.
-- Tworzy grupy atrybutów, wartości i kombinacje wariantów. Wariant dostaje dopłatę do ceny: różnicę ceny netto względem pierwszego wariantu produktu.
-- Wylicza wagę produktu na podstawie rozpoznanej pojemności lub objętości; gdy nie można jej ustalić, stosuje wartość domyślną.
-- Ustawia stany magazynowe produktów i ich kombinacji w zakresie 0–10 sztuk. Udział produktów ze stanem 0 jest utrzymywany w zakresie 5–20%.
-- Tworzy cechy produktów (Kraj, Region, Alkohol, Kolor, Rodzaj, Szczep, Charakter, Wiek) i ich wartości, a następnie przypisuje je produktom — sklep pokazuje je w sekcji „Szczegóły” karty produktu. Cechy i wartości są rozpoznawane po nazwie (bez pliku mapowania), kolejność cech odpowiada źródłu.
-- Ustawia stany magazynowe produktów i ich kombinacji.
-- Szacuje wagę (w kg) z pojemności (1,5 × litry + 0,25), a gdy jej brak — z gramatury (+ 0,05 na opakowanie). Gdy nie da się ustalić żadnej, przyjmuje 1,5 kg.
-- Ustawia stany magazynowe ze źródła. Przy produktach z wariantami ogranicza łączny stan do 10 sztuk. Udziału produktów ze stanem 0 (wymagane 5–20%) importer nie wymusza, wynika on z danych źródłowych. Zakres i udział sprawdza `docs/stock_validation.sql` (ostatni pomiar: 10,45%, wpis z 2026-11-20 w `AI_LOG.md`).
-- Przesyła zdjęcia z lokalnego katalogu `scraper_results/product_photos/` w formacie WEBP.
-- Importuje produkty równolegle (domyślnie 8 wątków, `--workers N` lub `PS_IMPORT_WORKERS`). Każdy wątek obsługuje cały jeden produkt: dane, kombinacje, stany i zdjęcia. Kategorie, atrybuty i cechy importują się wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest chroniony blokadą i atomowy (plik tymczasowy + podmiana). Równoległe zapisy produktów trafiają czasem na deadlock MySQL przy indeksowaniu wyszukiwarki (`Search::indexation`). PrestaShop zwraca wtedy HTTP 500 z pustą treścią, więc importer ponawia produkt do 3 razy przy każdym błędzie 5xx (`PRODUCT_ATTEMPTS` w `main.py`, w logu `HTTP 5xx, ponawiam (1/2)`). Ponowienie nie tworzy duplikatów, bo produkt jest odnajdywany po `reference` (sekcja 5). Gdy błędy 5xx lub timeouty powtarzają się mimo to, zmniejsz liczbę wątków (`--workers 1` = dawny import sekwencyjny).
+**Równoległość.** Produkty idą w 8 wątkach (`--workers N` lub `PS_IMPORT_WORKERS`), każdy wątek obsługuje cały produkt; kategorie, atrybuty i cechy wcześniej, sekwencyjnie. Zapis `products_mapping.json` jest pod blokadą i atomowy. Równoległe zapisy trafiają czasem na deadlock MySQL przy indeksowaniu wyszukiwarki (HTTP 500), więc produkt jest ponawiany do 3 razy przy każdym 5xx (`HTTP 5xx, ponawiam (1/2)` w logu) — bez duplikatów, bo jest odnajdywany po `reference`. Gdy błędy się powtarzają, zmniejsz liczbę wątków (`--workers 1`).
+
+### Promocje i Omnibus (D3)
+
+Etap po imporcie produktów, bo potrzebuje ich ID z mapowania. Dry-run pokazuje tylko liczbę planowanych promocji i cen.
+
+- **Promocje** (`promotions.py`): pole `specific_prices` z JSON-a trafia do zasobu `specific_prices`. Reguła jest dopasowywana po zakresie (produkt, wariant, sklep, waluta, kraj, grupa, klient, koszyk, ilość, typ rabatu), więc ponowny import ją aktualizuje.
+- **Omnibus** (`omnibus.py`): `lowest_price_30d_amount` (lub `lowest_price_30d`) produktu i wariantów idzie jednym `POST /module/omnibusprice/sync` do modułu `omnibusprice` (README, sekcja „Promocje i Omnibus”), który musi być zainstalowany (`make omnibus-install`). Rekordy bez ceny lub mapowania są pomijane.
+
+Raport ma osobne sekcje dla promocji i Omnibus; błąd jednego produktu liczy się jako odrzucony i nie przerywa importu.
 
 ## 5. Mapowanie i idempotencja
 
