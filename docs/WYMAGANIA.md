@@ -204,7 +204,7 @@ Oceniane tylko po zaliczeniu W1–W4; możliwe punkty częściowe.
 
 - [x] Skrypty w `deploy/` tworzą kopię (zrzut bazy, zdjęcia, pliki konfiguracyjne) i odtwarzają z niej sklep — *`deploy/backup.sh` (`make backup`) i `deploy/restore.sh` (`make restore`), [Backup.md](Backup.md); kopia 415 MB w 18 s, odtworzenie w 50 s, liczby produktów, kategorii, klientów, zamówień i zdjęć zgodne z manifestem*
 - [x] Eksport ustawień w repo pozwala przywrócić konfigurację; bez danych osobowych i sekretów — *`deploy/config/configuration.json` (`make config-export`, `make config-import`): 376 ustawień i 19 językowych, 33 wykluczone (sekrety, e-mail admina, środowisko, ID z instancji, wersje); gitleaks: 0 znalezisk*
-- [ ] Demonstracja odtworzenia na czystym środowisku na odbiorze w **≤10 min** — *stan: lokalnie odtworzenie 50 s po `down -v`; do sprawdzenia w nowym klonie, z budowaniem obrazów*
+- [x] Demonstracja odtworzenia na czystym środowisku na odbiorze w **≤10 min** — *sprawdzone przed odbiorem: nowy `git clone`, wygenerowany `.env` z innymi portami, hasłem bazy i katalogiem admina, usunięte obrazy sklepu i proxy; `CONFIRM=tak make restore` w 46 s z budowaniem obrazów; potem `make import` 0 utworzonych i 0 duplikatów, `make test-e2e` 2/2; procedura w [Backup.md](Backup.md#demonstracja-na-czystym-środowisku-odbiór-10-min)*
 
 #### D5. Ciągła integracja jakości kodu (2 pkt)
 
