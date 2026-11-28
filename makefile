@@ -15,7 +15,7 @@ PHOTOS_RELEASE_URL ?= https://github.com/pg-ebusiness-team/prestashop-ecommerce-
 # Adres sklepu dla api-check; nadpisywalny np. dla klastra w etapie 2
 SHOP_URL ?= https://localhost:$(HTTPS_PORT)
 
-.PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme test-e2e
+.PHONY: help up down reset logs ps shell build init check-shop webservice cleanup-demo api-check theme omnibus-install test-e2e
 .PHONY: facets categories import-categories import-products import photos backup restore config-export config-import
 
 help:
@@ -30,6 +30,7 @@ help:
 	@echo "               (kolejne kroki osobno: make photos / webservice / cleanup-demo / import / facets / categories / theme)"
 	@echo "make api-check - sprawdz odpowiedzi Webservice API dla klucza z .env"
 	@echo "make theme   - wlacz motyw potomny custom-child-theme, pobierz grafiki i wgraj tresci strony glownej i stron CMS, wyczysc cache"
+	@echo "make omnibus-install - zainstaluj modul Omnibusprice"
 	@echo "make facets  - ustaw filtry w lewej kolumnie list produktow i przebuduj ich indeks (po imporcie danych)"
 	@echo "make categories - wgraj opisy kategorii z shop/categories/ (po imporcie danych)"
 	@echo "make test-e2e - uruchom testy E2E Playwright (raport: tests/playwright-report)"
@@ -86,7 +87,7 @@ build:
 # $(MAKE) z listą celów wykonuje je po kolei i zatrzymuje się na pierwszym błędzie.
 init:
 	@start=$$(date +%s); \
-	$(MAKE) --no-print-directory check-shop photos webservice cleanup-demo import facets categories theme || exit 1; \
+	$(MAKE) --no-print-directory check-shop photos webservice cleanup-demo omnibus-install import facets categories theme || exit 1; \
 	elapsed=$$(( $$(date +%s) - start )); \
 	echo ""; \
 	echo "make init: gotowe w $$(( elapsed / 60 )) min $$(( elapsed % 60 )) s. Sklep: https://$(SERVER_NAME):$(HTTPS_PORT)"
@@ -141,6 +142,11 @@ theme:
 	  cat deploy/init/cms.sql; } \
 	  | $(COMPOSE) exec -T db sh -c 'MYSQL_PWD="$$MYSQL_PASSWORD" mysql -u"$$MYSQL_USER" "$$MYSQL_DATABASE"'
 	$(COMPOSE) exec -T -u www-data shop php bin/console cache:clear --env=prod
+
+
+# Instalacja modułu Omnibusprice
+omnibus-install:
+	$(COMPOSE) exec -T -u www-data shop php bin/console prestashop:module install omnibusprice
 
 # Filtry (ps_facetedsearch) po imporcie - dopasowuje kategorie i cechy po nazwie, więc bez importu zgłosi braki.
 # Skrypt idzie przez stdin, więc nie trzeba przebudowywać obrazu; -u www-data jak przy theme (pliki cache).

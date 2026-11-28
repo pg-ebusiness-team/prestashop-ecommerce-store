@@ -179,132 +179,398 @@ def filter_categories(categories, valid_products):
     return valid_categories
 
 
+def _product_has_promotion(records):
+    """Zwraca True, jeśli produkt ma co najmniej jedną importowalną promocję."""
+    for record in records:
+        promotions = record.get("specific_prices") or []
+        if isinstance(promotions, dict) and promotions:
+            return True
+        if isinstance(promotions, list) and any(
+            isinstance(item, dict) for item in promotions
+        ):
+            return True
+    return False
+
+
+def _make_synthetic_promotion(records):
+    """Dodaje techniczną promocję 5% do produktu bez promocji źródłowej."""
+    if _product_has_promotion(records):
+        return False
+
+    for record in records:
+        try:
+            regular_price = float(record.get("price_without_reduction"))
+            vat_rate = float(record.get("rate"))
+        except (TypeError, ValueError):
+            continue
+
+        current_raw = record.get("price_amount")
+        try:
+            current_price = float(current_raw) if current_raw not in (None, "") else regular_price
+        except (TypeError, ValueError):
+            continue
+
+        existing = record.get("specific_prices") or []
+        if isinstance(existing, dict):
+            existing = [existing]
+        if existing or bool(record.get("has_discount")):
+            continue
+        if regular_price <= 0 or current_price <= 0 or vat_rate < 0:
+            continue
+        if current_price < regular_price:
+            continue
+
+        # Zachowujemy oryginalną logikę promocji: specific_price zapisujemy
+        # dokładnie na tym samym rekordzie, co przed zmianą Omnibusa.
+        record["specific_prices"] = [{
+            "id_product_attribute": 0,
+            "id_shop": 0,
+            "id_shop_group": 0,
+            "id_currency": 0,
+            "id_country": 0,
+            "id_group": 0,
+            "id_customer": 0,
+            "id_cart": 0,
+            "from_quantity": 1,
+            "price": "-1.000000",
+            "reduction": "0.05",
+            "reduction_tax": 0,
+            "reduction_type": "percentage",
+            "from": "0000-00-00 00:00:00",
+            "to": "0000-00-00 00:00:00",
+        }]
+        record["_synthetic_promotion"] = True
+
+        # Dla produktów przecenianych przez nas nie ma historii źródłowej.
+        # Ustawiamy więc cenę sprzed naszej promocji osobno dla każdego
+        # wariantu, ale nie nadpisujemy istniejącej ceny historycznej.
+        for variant_record in records:
+            try:
+                variant_regular_price = float(
+                    variant_record.get("price_without_reduction")
+                )
+            except (TypeError, ValueError):
+                continue
+
+            if variant_regular_price <= 0:
+                continue
+
+            previous_price = round(variant_regular_price, 2)
+            if variant_record.get("lowest_price_30d_amount") in (None, ""):
+                variant_record["lowest_price_30d_amount"] = previous_price
+            if variant_record.get("lowest_price_30d") in (None, ""):
+                variant_record["lowest_price_30d"] = previous_price
+
+        return True
+
+    return False
+
+
+def _product_stock_state(records):
+    """Zwraca 'zero', 'positive' albo 'unknown' na poziomie produktu."""
+    quantities = [
+        record.get("quantity")
+        for record in records
+        if isinstance(record.get("quantity"), int)
+        and not isinstance(record.get("quantity"), bool)
+        and record.get("quantity") >= 0
+    ]
+
+    if not quantities:
+        return "unknown"
+    if all(quantity == 0 for quantity in quantities):
+        return "zero"
+    return "positive"
+
+
+def _product_has_multiple_photos(product_id, records, photos_dir):
+    photo_ids = {
+        image.get("id_image")
+        for record in records
+        for image in (record.get("images") or [])
+        if isinstance(image, dict) and image.get("id_image") is not None
+    }
+    existing_photos = [
+        image_id
+        for image_id in photo_ids
+        if (photos_dir / str(product_id) / f"{image_id}.webp").is_file()
+    ]
+    return len(existing_photos) >= 2
+
+
 def select_products(
     valid_products,
     valid_categories,
     target=TARGET_PRODUCTS,
-    photos_dir=PHOTOS_DIR
+    photos_dir=PHOTOS_DIR,
+    minimum_promoted_products=20,
+    minimum_zero_stock_ratio=0.05,
+    maximum_zero_stock_ratio=0.20,
 ):
     """
-    Wybiera docelową liczbę produktów.
+    Wybiera produkty, zachowując wymagania BACK-3-OPT oraz promocje.
 
-    1. Najpierw zabezpiecza każdą niepustą podkategorię.
-    2. Następnie uzupełnia pulę do docelowej liczby produktów.
-    3. Zachowuje wszystkie rekordy wybranych produktów.
+    1. Zabezpiecza wszystkie niepuste podkategorie.
+    2. Zabezpiecza minimum 50 produktów z co najmniej 2 zdjęciami.
+    3. Wybiera minimum 20 różnych produktów z promocją.
+    4. Pilnuje udziału produktów ze stanem 0 w zakresie 5-20%.
+    5. Uzupełnia pulę do target, zachowując wszystkie rekordy wariantów.
     """
+    if not 0 <= minimum_zero_stock_ratio <= maximum_zero_stock_ratio <= 1:
+        raise ValueError("Nieprawidłowy zakres udziału produktów ze stanem 0.")
 
-    if target is None:
-        target = len(valid_products)
+    photos_dir = Path(photos_dir)
 
     selected_ids = set()
 
-    # ETAP 1: Zabezpieczenie wszystkich niepustych podkategorii.
-    # Wybieramy przynajmniej jeden produkt z każdej podkategorii.
-    for category, product_ids in sorted(valid_categories.items()):
+    # Domyślnie nie ograniczamy selekcji do 1100 produktów.
+    # Dobieramy maksymalną pulę, która może spełnić limit 5-20% produktów
+    # ze stanem 0. Produkty ze stanem dodatnim lub nieznanym są kandydatami
+    # do pełnej puli; nadmiar produktów ze stanem 0 pozostaje poza selekcją.
+    if target is None:
+        zero_products = sum(
+            _product_stock_state(records) == "zero"
+            for records in valid_products.values()
+        )
+        nonzero_or_unknown_products = len(valid_products) - zero_products
 
-        for product_id in sorted(product_ids, key=str):
+        max_zero_by_upper_ratio = int(
+            nonzero_or_unknown_products * maximum_zero_stock_ratio
+            / (1 - maximum_zero_stock_ratio)
+        ) if maximum_zero_stock_ratio < 1 else zero_products
 
-            if product_id not in selected_ids:
-                selected_ids.add(product_id)
-                break
-
-    # Sprawdzamy, czy liczba wymaganych produktów
-    # z podkategorii nie przekracza naszego limitu.
-    if len(selected_ids) > target:
-        raise ValueError(
-            "Limit produktów jest zbyt mały dla wymaganej "
-            "struktury kategorii."
+        target = nonzero_or_unknown_products + min(
+            zero_products, max_zero_by_upper_ratio
         )
 
+        # Jeśli produktów ze stanem 0 jest za mało, ograniczamy pulę tak,
+        # aby nadal stanowiły co najmniej minimum wymagane procentowo.
+        if minimum_zero_stock_ratio > 0:
+            target = min(
+                target,
+                int(zero_products / minimum_zero_stock_ratio)
+            )
 
-    # ETAP 2: Zabezpieczenie minimum 50 produktów
-    # posiadających co najmniej 2 zdjęcia lokalne.
+    if target <= 0:
+        raise ValueError(
+            "Nie można wybrać produktów z zachowaniem wymaganego udziału "
+            "produktów ze stanem 0."
+        )
 
-    products_with_multiple_photos = []
+    selected_ids = set()
+    selected_categories_required = set()
 
-    # Sprawdzamy wszystkie produkty, które przeszły filtr zdjęć.
-    for product_id, records in valid_products.items():
+    # Ograniczenia procentowe liczymy względem docelowej puli produktów.
+    minimum_zero_stock = int(target * minimum_zero_stock_ratio + 0.999999)
+    maximum_zero_stock = int(target * maximum_zero_stock_ratio)
 
-        photo_ids = set()
+    def zero_count(product_ids):
+        return sum(
+            _product_stock_state(valid_products[product_id]) == "zero"
+            for product_id in product_ids
+        )
 
-        # Zbieramy identyfikatory zdjęć ze wszystkich rekordów produktu.
-        for record in records:
-            for image in record.get("images") or []:
-                image_id = image.get("id_image")
+    def add_product(product_id, mandatory=False):
+        if product_id in selected_ids:
+            return True
+        if len(selected_ids) >= target:
+            return False
 
-                if image_id is not None:
-                    photo_ids.add(image_id)
+        state = _product_stock_state(valid_products[product_id])
+        if state == "zero" and zero_count(selected_ids) >= maximum_zero_stock:
+            return False
 
-        # Sprawdzamy, które zdjęcia rzeczywiście istnieją na dysku.
-        existing_photos = [
-            image_id
-            for image_id in photo_ids
-            if (photos_dir / str(product_id) / f"{image_id}.webp").is_file()
-        ]
+        selected_ids.add(product_id)
+        if mandatory:
+            selected_categories_required.add(product_id)
+        return True
 
-        # Jeżeli produkt ma minimum 2 zdjęcia, kwalifikuje się.
-        if len(existing_photos) >= 2:
-            products_with_multiple_photos.append(product_id)
+    # ETAP 1: pokrycie wszystkich podkategorii, jak w poprzednim selektorze.
+    for category, product_ids in sorted(valid_categories.items()):
+        candidates = sorted(product_ids, key=str)
+        chosen = next((pid for pid in candidates if add_product(pid, mandatory=True)), None)
+        if chosen is None and not any(pid in selected_ids for pid in candidates):
+            raise ValueError(
+                f"Nie można zabezpieczyć podkategorii {category!r} "
+                "bez naruszenia limitu produktów lub stocku."
+            )
+        if chosen is None:
+            selected_categories_required.update(
+                pid for pid in candidates if pid in selected_ids
+            )
 
-    # Sprawdzamy, czy dane źródłowe pozwalają spełnić wymóg.
+    if len(selected_ids) > target:
+        raise ValueError("Limit produktów jest zbyt mały dla wymaganej struktury kategorii.")
+
+    # ETAP 2: minimum 50 produktów z >=2 zdjęciami.
+    products_with_multiple_photos = [
+        product_id
+        for product_id, records in valid_products.items()
+        if _product_has_multiple_photos(product_id, records, photos_dir)
+    ]
     if len(products_with_multiple_photos) < 50:
         raise ValueError(
             "Za mało produktów z minimum 2 zdjęciami. "
             f"Wymagane: 50, dostępne: {len(products_with_multiple_photos)}."
         )
 
-    # Sprawdzamy, ile produktów wielozdjęciowych już wybraliśmy
-    # podczas zabezpieczania podkategorii.
-    selected_multiple_photos = selected_ids.intersection(
-        products_with_multiple_photos
+    selected_multiple_photos = {
+        pid for pid in selected_ids if pid in products_with_multiple_photos
+    }
+    photo_candidates = sorted(
+        products_with_multiple_photos,
+        key=lambda pid: (
+            _product_stock_state(valid_products[pid]) == "zero",
+            str(pid),
+        ),
     )
-
-    # Dobieramy kolejne produkty, aż osiągniemy wymagane 50.
-    for product_id in products_with_multiple_photos:
-
+    for product_id in photo_candidates:
         if len(selected_multiple_photos) >= 50:
             break
-
-        if product_id not in selected_ids:
-            selected_ids.add(product_id)
+        if product_id not in selected_ids and add_product(product_id):
             selected_multiple_photos.add(product_id)
 
-    # ETAP 3: Uzupełnienie puli do docelowej liczby produktów.
-    for product_id in valid_products:
+    if len(selected_multiple_photos) < 50:
+        raise ValueError(
+            "Nie można wybrać wymaganych 50 produktów z minimum 2 zdjęciami "
+            "bez przekroczenia limitu stanu zerowego."
+        )
 
-        if product_id in selected_ids:
-            continue
+    # ETAP 3: minimum 20 różnych produktów promocyjnych.
+    # Najpierw wykorzystujemy promocje ze źródła, następnie tworzymy
+    # brakujące promocje 5% dla wybranych produktów bez rabatu.
+    promoted_candidates = [
+        product_id
+        for product_id, records in valid_products.items()
+        if _product_has_promotion(records)
+    ]
 
-        selected_ids.add(product_id)
-
-        if len(selected_ids) == target:
+    selected_promoted = {
+        pid for pid in selected_ids if _product_has_promotion(valid_products[pid])
+    }
+    promoted_candidates.sort(
+        key=lambda pid: (
+            _product_stock_state(valid_products[pid]) == "zero",
+            pid not in products_with_multiple_photos,
+            str(pid),
+        )
+    )
+    for product_id in promoted_candidates:
+        if len(selected_promoted) >= minimum_promoted_products:
             break
+        if product_id in selected_ids or add_product(product_id):
+            selected_promoted.add(product_id)
 
-    # Sprawdzamy, czy udało się osiągnąć docelową liczbę.
+    if len(selected_promoted) < minimum_promoted_products:
+        synthetic_candidates = sorted(
+            (
+                pid for pid, records in valid_products.items()
+                if not _product_has_promotion(records)
+            ),
+            key=lambda pid: (
+                _product_stock_state(valid_products[pid]) == "zero",
+                pid not in products_with_multiple_photos,
+                str(pid),
+            ),
+        )
+
+        for product_id in synthetic_candidates:
+            if len(selected_promoted) >= minimum_promoted_products:
+                break
+            if product_id not in selected_ids and not add_product(product_id):
+                continue
+            if _make_synthetic_promotion(valid_products[product_id]):
+                selected_promoted.add(product_id)
+
+    if len(selected_promoted) < minimum_promoted_products:
+        raise ValueError(
+            "Nie udało się uzyskać wymaganej liczby produktów promocyjnych. "
+            f"Wymagane: {minimum_promoted_products}, dostępne po promocjach "
+            f"źródłowych i dodatkowych: {len(selected_promoted)}. "
+            "Brakuje produktów z poprawną ceną regularną albo limit selekcji "
+            "nie pozwala dodać kolejnych produktów."
+        )
+    # ETAP 4: zapewniamy minimum 5% produktów ze stanem 0.
+    zero_candidates = sorted(
+        (
+            pid for pid in valid_products
+            if _product_stock_state(valid_products[pid]) == "zero"
+        ),
+        key=lambda pid: (
+            pid not in products_with_multiple_photos,
+            not _product_has_promotion(valid_products[pid]),
+            str(pid),
+        ),
+    )
+    for product_id in zero_candidates:
+        if zero_count(selected_ids) >= minimum_zero_stock:
+            break
+        add_product(product_id)
+
+    if zero_count(selected_ids) < minimum_zero_stock:
+        raise ValueError(
+            "Nie można osiągnąć minimalnego udziału 5% produktów ze stanem 0. "
+            f"Wybrano: {zero_count(selected_ids)}, wymagane: {minimum_zero_stock}."
+        )
+
+    # ETAP 5: uzupełnienie do wyliczonej puli; produkty ze stockiem dodatnim/nieznanym
+    # wybieramy przed zerowymi, aby nie przekroczyć limitu 20%.
+    remaining_candidates = sorted(
+        (pid for pid in valid_products if pid not in selected_ids),
+        key=lambda pid: (
+            _product_stock_state(valid_products[pid]) == "zero",
+            str(pid),
+        ),
+    )
+    for product_id in remaining_candidates:
+        if len(selected_ids) >= target:
+            break
+        add_product(product_id)
+
     if len(selected_ids) < target:
         raise ValueError(
             f"Nie udało się wybrać {target} produktów. "
-            f"Dostępnych produktów: {len(selected_ids)}."
+            f"Wybrano: {len(selected_ids)}. Dostępnych: {len(valid_products)}. "
+            "Sprawdź, czy limit stanu zerowego nie ogranicza puli."
         )
 
-    # Budujemy słownik wybranych produktów.
-    # Zachowujemy wszystkie rekordy każdego produktu,
-    # w tym informacje o jego wariantach.
+    selected_zero_stock = zero_count(selected_ids)
+    zero_ratio = selected_zero_stock / target
+    if not minimum_zero_stock_ratio <= zero_ratio <= maximum_zero_stock_ratio:
+        raise ValueError(
+            "Selekcja narusza wymagany udział produktów ze stanem 0: "
+            f"{selected_zero_stock}/{target} ({zero_ratio:.1%}); "
+            f"dozwolone {minimum_zero_stock_ratio:.0%}-{maximum_zero_stock_ratio:.0%}."
+        )
+
+    selected_promotion_count = sum(
+        _product_has_promotion(valid_products[pid]) for pid in selected_ids
+    )
+    if selected_promotion_count < minimum_promoted_products:
+        raise ValueError(
+            f"Wynik selekcji zawiera tylko {selected_promotion_count} "
+            "unikalnych produktów promocyjnych."
+        )
+
     selected_products = {
         product_id: records
         for product_id, records in valid_products.items()
         if product_id in selected_ids
     }
 
-    # Aktualizujemy strukturę kategorii na podstawie wybranych produktów.
     selected_categories = {}
-
     for category, product_ids in valid_categories.items():
-
         selected_category_ids = product_ids.intersection(selected_ids)
-
         if selected_category_ids:
             selected_categories[category] = selected_category_ids
+
+    print(
+        "Selekcja: "
+        f"{len(selected_products)} produktów, "
+        f"{selected_promotion_count} z promocją, "
+        f"{selected_zero_stock} ze stanem 0 ({zero_ratio:.1%}), "
+        f"{len(selected_multiple_photos)} z min. 2 zdjęciami."
+    )
 
     return selected_products, selected_categories
 

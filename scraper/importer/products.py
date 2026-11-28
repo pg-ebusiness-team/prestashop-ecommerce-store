@@ -1,7 +1,9 @@
 import json
 import re
+import threading
 import unicodedata
 import xml.etree.ElementTree as ET
+from decimal import ROUND_HALF_UP, Decimal, InvalidOperation
 from pathlib import Path
 
 from scraper.importer.api_client import PrestaShopAPI
@@ -20,6 +22,9 @@ from scraper.importer.stock import (
 from scraper.importer.weights import assign_product_weights
 
 LANGUAGE_ID = 1
+
+# Lokalna blokada mapowania; nie wymaga zmian w products_mapping.py.
+_PRODUCT_MAPPING_LOCK = threading.RLock()
 
 # Konfiguracja importera
 SOURCE_PATH = "scraper_results/products"
@@ -77,30 +82,111 @@ def load_products(source_path: str | Path = SOURCE_PATH) -> list[dict]:
 
     return products
 
+def _to_decimal(value: object) -> Decimal | None:
+    """Konwertuje wartość liczbową ze źródła bez błędów float."""
+    if value is None or value == "":
+        return None
+
+    try:
+        result = Decimal(str(value))
+    except (InvalidOperation, ValueError, TypeError):
+        return None
+
+    if not result.is_finite():
+        return None
+
+    return result
+
+
+def _calculate_regular_net(price_gross: object, vat_rate: object) -> float | None:
+    """Oblicza regularną cenę netto z regularnej ceny brutto i stawki VAT."""
+    gross = _to_decimal(price_gross)
+    rate = _to_decimal(vat_rate)
+
+    if gross is None or rate is None or gross < 0 or rate < 0:
+        return None
+
+    divisor = Decimal(1) + rate / Decimal(100)
+    if divisor <= 0:
+        return None
+
+    net = (gross / divisor).quantize(
+        Decimal("0.000001"), rounding=ROUND_HALF_UP
+    )
+    return float(net)
+
+
+def _extract_source_promotions(product: dict) -> list[dict]:
+    """Zwraca promocje źródłowe w jednolitej postaci listy słowników."""
+    raw_promotions = product.get("specific_prices")
+
+    if isinstance(raw_promotions, dict):
+        return [raw_promotions] if raw_promotions else []
+    if isinstance(raw_promotions, list):
+        return [item for item in raw_promotions if isinstance(item, dict)]
+    return []
+
+
+def _promotion_key(promotion: dict) -> tuple[str, ...]:
+    """Klucz deduplikacji promocji powielonych w rekordach źródłowych."""
+    fields = (
+        "id_product_attribute",
+        "id_shop",
+        "id_shop_group",
+        "id_currency",
+        "id_country",
+        "id_group",
+        "id_customer",
+        "from_quantity",
+        "price",
+        "reduction",
+        "reduction_tax",
+        "reduction_type",
+        "from",
+        "to",
+    )
+    return tuple(str(promotion.get(field, "")) for field in fields)
+
+
 def normalize_product(product: dict) -> dict:
     """
     Normalizuje dane produktu pobrane przez scraper.
 
-    Wybiera tylko pola potrzebne do importu do PrestaShop
-    i nadaje im spójne nazwy.
+    Cena bazowa PrestaShop jest regularną ceną netto. Cena po rabacie
+    oraz dane promocji są zachowywane osobno do synchronizacji specific_prices.
     """
 
     data = product["data"]
+    regular_gross = data.get("price_without_reduction")
+    vat_rate = data.get("rate")
+    regular_net = _calculate_regular_net(regular_gross, vat_rate)
 
     return {
         # Identyfikatory produktu i wariantu w sklepie źródłowym
         "source_id": data.get("id_product"),
         "source_attribute_id": data.get("id_product_attribute"),
+        # Default source combination can be present even when scraper returned
+        # no usable attribute definitions for the product.
+        "source_default_attribute_id": data.get("cache_default_attribute"),
 
         # Podstawowe informacje o produkcie
         "name": data.get("name"),
         "description": data.get("description", ""),
         "description_short": data.get("description_short", ""),
 
-        # Ceny, podatek VAT i stan magazynowy
-        "price_gross": data.get("price_without_reduction"),
-        "price_net": data.get("price_tax_exc"),
-        "vat_rate": data.get("rate"),
+        # Cena bazowa: regularna cena brutto/netto, nie cena po rabacie
+        "price_gross": regular_gross,
+        "price_net": regular_net,
+        "vat_rate": vat_rate,
+
+        # Dane promocyjne zachowane osobno; nie trafiają do pola products.price
+        "source_price_net": data.get("price_tax_exc"),
+        "has_discount": bool(data.get("has_discount")),
+        "specific_prices": data.get("specific_prices", []),
+        "lowest_price_30d": data.get("lowest_price_30d"),
+        "lowest_price_30d_amount": data.get("lowest_price_30d_amount"),
+
+        # Stan magazynowy
         "quantity": data.get("quantity"),
 
         # Kategoria źródłowa
@@ -389,12 +475,14 @@ def import_product(
     if existing_product_id is not None:
         product_id = existing_product_id
         update_product(api, product_id, product_xml)
-        mapping.setdefault(str(product["source_id"]), {})["prestashop_id"] = product_id
-        mapping[str(product["source_id"])].setdefault("combinations", {})
+        with _PRODUCT_MAPPING_LOCK:
+            mapping.setdefault(str(product["source_id"]), {})["prestashop_id"] = product_id
+            mapping[str(product["source_id"])].setdefault("combinations", {})
         operation = "updated"
     else:
         product_id = create_product(api, product_xml)
-        add_product_mapping(mapping, product["source_id"], product_id)
+        with _PRODUCT_MAPPING_LOCK:
+            add_product_mapping(mapping, product["source_id"], product_id)
         operation = "created"
 
     save_mapping(mapping)
@@ -471,12 +559,34 @@ def group_products(products):
                 "attributes": {},
                 "quantity": None,
                 "combinations": [],
+                "promotions": [],
+                "has_discount": False,
                 "source_files": []
             }
 
         parent = grouped[source_id]
         # Ten sam produkt bywa w kilku kategoriach źródła - każdy plik wskazuje jedną z nich
         parent["source_files"].append(product.get("source_file", ""))
+
+        # Zbieramy promocje również z rekordów wariantów, a nie tylko
+        # z pierwszego rekordu produktu. Źródło może powielać je w kategoriach.
+        existing_promotion_keys = {
+            _promotion_key(promotion) for promotion in parent["promotions"]
+        }
+        for source_promotion in _extract_source_promotions(product):
+            promotion = dict(source_promotion)
+            if promotion.get("id_product_attribute") is None:
+                promotion["id_product_attribute"] = (
+                    product.get("source_attribute_id") or 0
+                )
+            promotion_key = _promotion_key(promotion)
+            if promotion_key not in existing_promotion_keys:
+                parent["promotions"].append(promotion)
+                existing_promotion_keys.add(promotion_key)
+
+        parent["has_discount"] = (
+            parent["has_discount"] or bool(product.get("has_discount"))
+        )
 
         # Scalanie zdjęć ze wszystkich rekordów produktu i wariantów
         existing_image_ids = {

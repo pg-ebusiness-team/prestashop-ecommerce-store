@@ -1060,7 +1060,9 @@ body#checkout section.checkout-step .address-item.selected,
 .product-miniature .thumbnail-container:hover .regular-price,
 .product-miniature .thumbnail-container:focus-within .product-title a,
 .product-miniature .thumbnail-container:focus-within .product-price-and-shipping,
-.product-miniature .thumbnail-container:focus-within .regular-price {
+.product-miniature .thumbnail-container:focus-within .regular-price,
+.product-miniature .thumbnail-container:hover .omnibus-price,
+.product-miniature .thumbnail-container:focus-within .omnibus-price {
   color: #fff;
 }
 
@@ -2431,4 +2433,16 @@ body#checkout section.checkout-step .address-item.selected,
   .cookie-btn {
     flex-basis: 100%;
   }
+}
+
+/* Omnibus - najniższa cena z ostatnich 30 dni */
+.omnibus-price {
+  margin-top: 0.35rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--color-graphite);
+}
+
+.omnibus-price span {
+  font-weight: 600;
 }
