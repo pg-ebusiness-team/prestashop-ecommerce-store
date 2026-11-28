@@ -30,6 +30,8 @@ Opcja 3.
 - `make theme` pobiera je w kontenerze do `img/cms/home/` (katalog PrestaShop na grafiki treści), potem wgrywa
   `deploy/init/theme.sql`, który wskazuje na te pliki w sliderze i bloku `ps_customtext`.
 - Pobieranie przy każdym `make theme`: kontener po przebudowie (`make up`) traci pliki spoza bazy.
+  *Aktualizacja (2026-11-27):* od wprowadzenia wolumenu `shop_data` pliki sklepu, w tym `img/cms/home/`, przetrwają
+  przebudowę. Pobieranie przy każdym `make theme` zostaje, bo odświeża grafiki zgodnie z `home-images.txt`.
 
 ## Konsekwencje
 

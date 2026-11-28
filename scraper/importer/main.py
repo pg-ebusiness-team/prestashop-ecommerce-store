@@ -28,6 +28,9 @@ from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from typing import Any
 
+# Liczba prób importu jednego produktu przy błędzie HTTP 5xx (patrz import_one w main)
+PRODUCT_ATTEMPTS = 3
+
 
 def load_env_file(path: Path = Path(".env")) -> None:
     """Wczytuje prosty plik .env bez nadpisywania zmiennych środowiskowych."""
@@ -659,10 +662,23 @@ def main() -> int:
             product_feature_ids(product, resolved_features)
             if resolved_features is not None else None
         )
-        _, operation = import_product(
-            worker_local.api, product, mapping, category_ids, tax_group_id, feature_ids
-        )
-        return operation
+        # Równoległe zapisy produktów trafiają czasem na deadlock MySQL przy indeksowaniu wyszukiwarki
+        # (Search::indexation). PrestaShop zwraca wtedy HTTP 500 z pustą treścią, więc ponawiamy każdy 5xx.
+        # Ponowienie jest bezpieczne: import_product odnajduje produkt po reference SRC<id> i go aktualizuje.
+        for attempt in range(1, PRODUCT_ATTEMPTS + 1):
+            try:
+                _, operation = import_product(
+                    worker_local.api, product, mapping, category_ids, tax_group_id, feature_ids
+                )
+                return operation
+            except RuntimeError as exc:
+                if attempt == PRODUCT_ATTEMPTS or "błąd HTTP: 5" not in str(exc):
+                    raise
+                # Jeden zapis z \n - print() z wielu wątków potrafi skleić linie
+                sys.stdout.write(
+                    f"[PRODUKT {product.get('source_id')}] HTTP 5xx, ponawiam ({attempt}/{PRODUCT_ATTEMPTS - 1})\n"
+                )
+                time.sleep(attempt)
 
     to_import: list[tuple[dict, list[int]]] = []
     for product in grouped:

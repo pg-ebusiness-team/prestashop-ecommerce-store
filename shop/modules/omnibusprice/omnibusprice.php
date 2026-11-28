@@ -55,11 +55,11 @@ class Omnibusprice extends Module
 
     /**
      * Wyświetla informację w miejscach, w których motyw wywołuje hook
-     * displayProductPriceBlock z typem custom_price.
+     * displayProductPriceBlock z typem after_price (custom_price podmienia cenę).
      */
     public function hookDisplayProductPriceBlock($params)
     {
-        if (empty($params['type']) || $params['type'] !== 'custom_price') {
+        if (empty($params['type']) || $params['type'] !== 'after_price') {
             return '';
         }
 

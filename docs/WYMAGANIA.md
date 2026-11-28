@@ -46,9 +46,9 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 - [x] Zdjęcia **nie** w repozytorium ani w Git LFS
 - [x] Scraper zapisuje zdjęcia w katalogu wykluczonym w `.gitignore`
-- [ ] Pełny zbiór publikowany jako jedno archiwum (zip/tar.gz, ≤1 GB) w zakładce **Releases** — *stan: jest tag `photos_v0.1`; zawartość wydania do sprawdzenia*
-- [ ] Skrypt inicjalizacji pobiera archiwum z Releases, a gdy jest niedostępne — ponownie pobiera zdjęcia z URL-i z wyników scrapowania — *stan: brak skryptu, zdjęcia pobiera się ręcznie*
-- [ ] Dłuższy bok 800–1600 px, JPEG lub WebP, ≤300 KB na plik
+- [x] Pełny zbiór publikowany jako jedno archiwum (zip/tar.gz, ≤1 GB) w zakładce **Releases** — *wydanie `photos_v1.0`, `product_photos.zip` 76 MB, 2887 zdjęć; brakuje 1 zdjęcia, którego nie ma też w źródle (404, produkt 1496)*
+- [x] Skrypt inicjalizacji pobiera archiwum z Releases, a gdy jest niedostępne — ponownie pobiera zdjęcia z URL-i z wyników scrapowania — *`deploy/init/photos.sh` (`make photos`, krok `make init`), fallback: scraper `--photos-only`*
+- [x] Dłuższy bok 800–1600 px, JPEG lub WebP, ≤300 KB na plik — *wszystkie 2887 zdjęć z `photos_v1.0`: WebP, 1000 px, ≤300 KB*
 
 ### Narzędzia AI i dziennik AI
 
@@ -84,7 +84,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [ ] Recenzje zawierają merytoryczne komentarze, nie tylko akceptację
 - [ ] Struktura katalogów zgodna z tabelą powyżej — *stan: jest `scraper_results/` zamiast `scraper-results/`*
 - [ ] Każda osoba jest **autorem ≥3** i **recenzentem ≥3** scalonych PR
-- [x] Repo ≤200 MB, brak plików >10 MB, brak pełnego zbioru zdjęć
+- [x] Repo ≤200 MB, brak plików >10 MB, brak pełnego zbioru zdjęć — *`scraper_results/product_photos.zip` (72 MB) i `products.zip` usunięte z `main` w #7, `*.zip` w `.gitignore`; w historii zostają (bez force push)*
 
 ### W2. Scraper (4 pkt)
 
@@ -101,7 +101,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 - [x] Respektowanie `robots.txt`
 - [x] Identyfikacja nagłówkiem User-Agent
 - [x] Możliwość przerwania i wznowienia bez ponownego pobierania zapisanych danych
-- [ ] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu — *stan: brak schematu w scraperze*
+- [x] Walidacja względem schematu (JSON Schema / pydantic), błędy w logu
 - [ ] 0 produktów bez nazwy, ceny, opisu lub zdjęć — *stan: 63 bez pełnego opisu, 34 bez zdjęć*
 - [x] Testy jednostkowe parsowania na zapisanych lokalnie stronach HTML
 - Dane wyłącznie do celów dydaktycznych — sklep nie może być publicznie dostępny w internecie
@@ -111,7 +111,7 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 **Środowisko**
 
 - [x] **[K]** Sklep działa w zestawie kontenerów zarządzanych przez Docker Compose v2
-- [ ] **[K]** Uruchomienie z czystego klona według README: jedna komenda startowa + jedna komenda inicjalizacji danych (np. `docker compose up -d` i `make init`); **≤15 min** do działającego sklepu z danymi — *stan: brak jednej komendy inicjalizacji: potrzebne `make init`, `make theme`, ręczne pobranie zdjęć i `make import`*
+- [ ] **[K]** Uruchomienie z czystego klona według README: jedna komenda startowa + jedna komenda inicjalizacji danych (np. `docker compose up -d` i `make init`); **≤15 min** do działającego sklepu z danymi — *stan: `make up` + `make init` (#7); lokalnie `make up` ok. 1 min, `make init` 4 min 31 s; do potwierdzenia na czystym klonie z pobieraniem obrazów*
 - [x] **[K]** Ruch wyłącznie przez HTTPS z self-signed certyfikatem; HTTP → **301** na HTTPS
 - [ ] E-maile trafiają do Mailpit/MailHog: wiadomość po rejestracji i po złożeniu zamówienia
 
@@ -189,10 +189,10 @@ Oceniane tylko po zaliczeniu W1–W4; możliwe punkty częściowe.
 #### D2. Import danych przez API (4 pkt)
 
 - [ ] Skrypt tworzy przez Webservice API kategorie, podkategorie i produkty (zdjęcia, ceny, VAT, stany, waga) z wyników scrapowania
-- [ ] Idempotentność: ponowne uruchomienie aktualizuje rekordy, 0 duplikatów
+- [x] Idempotentność: ponowne uruchomienie aktualizuje rekordy, 0 duplikatów — *drugie `make init`: 2332 zaktualizowane, 0 utworzonych, 0 zduplikowanych `reference`*
 - [x] Klucz API w zmiennej środowiskowej, uprawnienia ograniczone do potrzebnych zasobów
 - [x] Raport liczby utworzonych, zaktualizowanych i odrzuconych rekordów
-- [ ] Import 1000 produktów ze zdjęciami ≤30 min (log skryptu)
+- [x] Import 1000 produktów ze zdjęciami ≤30 min (log skryptu) — *2332 produkty ze zdjęciami w 4 min 1 s (`Czas wykonania` w logu importera)*
 
 #### D3. Promocje i warianty produktów (3 pkt)
 

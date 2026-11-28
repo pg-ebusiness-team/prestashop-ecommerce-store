@@ -31,6 +31,8 @@ upload/
 
 # Wyniki scrapera: dane JSON w repo, pełny zbiór zdjęć w Releases
 scraper_results/product_photos/
+# Archiwa (zdjęcia z Releases, kopie danych) - repo bez plików >10 MB (WYMAGANIA.md, W1)
+*.zip
 
 # Raporty Playwright
 test-results/

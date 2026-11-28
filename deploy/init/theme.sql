@@ -168,4 +168,18 @@ UPDATE ps_configuration SET value = (
     AND cl.name IN ('Prezenty', 'Whisky & Bourbon', 'Alkohole & likiery', 'Wino & Champagne', 'Opakowania & Słodycze')
 ), date_upd = NOW() WHERE name = 'MOD_BLOCKTOPMENU_ITEMS';
 
+-- 10. Teksty instalatora, które zostają po angielsku mimo PS_LANGUAGE=pl (wymóg: interfejs klienta po polsku)
+-- Zgoda customer_privacy przy rejestracji (ps_dataprivacy) i komunikat trybu konserwacji.
+UPDATE ps_configuration_lang cl
+JOIN ps_configuration c ON c.id_configuration = cl.id_configuration
+JOIN ps_lang l ON l.id_lang = cl.id_lang AND l.iso_code = 'pl'
+SET cl.value = CASE c.name
+  WHEN 'CUSTPRIV_MSG_AUTH' THEN 'Podane dane osobowe wykorzystujemy do odpowiadania na zapytania, realizacji zamówień oraz zapewnienia dostępu do konta. Masz prawo do zmiany i usunięcia wszystkich swoich danych osobowych na stronie „Twoje konto”.'
+  WHEN 'PS_MAINTENANCE_TEXT' THEN 'Trwa aktualizacja sklepu. Wrócimy już niedługo.\nDziękujemy za cierpliwość.'
+END, cl.date_upd = NOW()
+WHERE c.name IN ('CUSTPRIV_MSG_AUTH', 'PS_MAINTENANCE_TEXT');
+-- Demo marki i dostawcy (Studio Design, Fashion supplier...) bez produktów, z angielskimi opisami - widoczne z mapy strony.
+UPDATE ps_manufacturer SET active = 0 WHERE name IN ('Studio Design', 'Graphic Corner');
+UPDATE ps_supplier SET active = 0 WHERE name IN ('Fashion supplier', 'Accessories supplier');
+
 COMMIT;

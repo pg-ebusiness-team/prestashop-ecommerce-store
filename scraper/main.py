@@ -30,7 +30,12 @@ parser.add_argument("--save-listings", action="store_true",
 parser.add_argument("--load-categories", action="store_true",
                     help="read the category tree from scraper_results/debug/categories.json instead of the website "
                          "(the file can be edited by hand, e.g. to fix category names)")
+parser.add_argument("--photos-only", action="store_true",
+                    help="only download missing photos of products already saved in scraper_results/products "
+                         "(no scraping; used by make init when the Releases archive is unavailable or incomplete)")
 args = parser.parse_args()
+if args.photos_only and args.clean:
+    parser.error("--photos-only can't be combined with --clean (it would delete the products it downloads for)")
 
 # to the console and to scraper_results/scraper.log (appended, so resumed runs keep the history)
 log_file = Path(__file__).resolve().parent.parent / "scraper_results" / "scraper.log"
@@ -42,6 +47,10 @@ for handler in handlers:
 logging.basicConfig(level=logging.INFO, handlers=handlers)
 
 scraper = Scraper('https://luksusowealkohole.pl/')
+if args.photos_only:
+    # photos that are already on disk are skipped without a request (robots.txt and 2 req/s still apply)
+    scraper.download_missing_photos()
+    raise SystemExit(0)
 if args.clean:
     scraper.clear_result()
 scraper.load_cache()

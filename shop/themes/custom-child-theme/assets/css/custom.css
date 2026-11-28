@@ -329,6 +329,91 @@ body#checkout section.checkout-step .address-item.selected,
   white-space: nowrap; /* „Koszyk (n)” w jednej linii */
 }
 
+/* Podgląd koszyka (modules/ps_shoppingcart/ps_shoppingcart.tpl) - rozwijany pod przyciskiem, na desktopie i telefonie */
+#header .blockcart {
+  position: relative;
+}
+
+#header .cart-toggle {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+/* Telefon, pełny koszyk: grafitowe tło; Classic barwi na biało tylko <a> i <i>, a licznik jest teraz w <button> */
+#header .header-nav .cart-preview.active .cart-toggle {
+  color: #fff;
+}
+
+#header .cart-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000; /* nad menu i jego rozwijanym panelem */
+  width: min(320px, calc(100vw - 32px));
+  margin-top: .5rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .12);
+  color: var(--color-text);
+  text-align: left;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: normal;
+}
+
+#header .cart-dropdown[hidden] {
+  display: none;
+}
+
+#header .cart-dropdown-products {
+  max-height: 50vh; /* długa lista przewija się w środku, przycisk zostaje widoczny */
+  overflow-y: auto;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+#header .cart-dropdown-product {
+  display: flex;
+  gap: .75rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--color-grey-200);
+}
+
+#header .cart-dropdown-product img {
+  flex-shrink: 0;
+}
+
+#header .cart-dropdown-product span {
+  display: block;
+  font-size: .875rem;
+}
+
+/* Classic barwi na biało wszystkie linki w .cart-preview.active na pasku telefonu - przywracamy kolory w podglądzie */
+#header .cart-preview.active .cart-dropdown a {
+  color: var(--color-graphite);
+}
+
+#header .cart-preview.active .cart-dropdown .btn-primary:hover,
+#header .cart-preview.active .cart-dropdown .btn-primary:focus {
+  color: #fff;
+}
+
+#header .cart-dropdown-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: var(--color-graphite);
+}
+
+#header .cart-dropdown-empty {
+  margin: 0;
+}
+
 /* Menu: szary pasek na pełną szerokość, pozycje równo rozłożone */
 #header .header-menu {
   background: var(--color-grey-100);
@@ -1546,6 +1631,7 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 /* Prawa połowa: nazwa, opis, indeks, warianty, cena, koszyk */
+.quickview h1.h1,
 #product h1.h1 {
   margin-bottom: 1rem;
   font-family: var(--font-heading);
@@ -1600,16 +1686,19 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 /* Ilość i „Dodaj do koszyka”: wysokie pola jak w źródle, bez etykiety „Ilość” (pole ma aria-label) */
+.quickview .product-add-to-cart > .control-label,
 #product .product-add-to-cart > .control-label {
   display: none;
 }
 
 /* Pole ilości ze strzałkami: wspólne z koszykiem, niżej przy „Koszyk” */
 
+.quickview .product-quantity .add-to-cart .material-icons,
 #product .product-quantity .add-to-cart .material-icons {
   line-height: 1;
 }
 
+.quickview .product-quantity .add-to-cart,
 #product .product-quantity .add-to-cart {
   display: inline-flex;
   gap: .5rem;
@@ -1665,17 +1754,35 @@ body#checkout section.checkout-step .address-item.selected,
 }
 
 @media (max-width: 767px) {
+  .quickview h1.h1,
   #product h1.h1 {
     font-size: 1.75rem;
   }
 
+  .quickview .product-quantity .add,
   #product .product-quantity .add {
     flex: 1;
   }
 
+  .quickview .product-quantity .add-to-cart,
   #product .product-quantity .add-to-cart {
     width: 100%;
     padding: 0 1rem;
+  }
+
+  /* w oknie szybkiego podglądu jest węziej niż na karcie produktu - napis z odstępami 2px nie mieścił się obok ilości */
+  .quickview .product-quantity .add-to-cart {
+    padding: 0 .5rem;
+    letter-spacing: .5px;
+  }
+
+  /* najwęższe telefony: przycisk przechodzi pod pole ilości zamiast wystawać poza okno */
+  .quickview .product-quantity {
+    flex-wrap: wrap;
+  }
+
+  .quickview .product-quantity .add {
+    flex: 1 0 auto;
   }
 
   .product-info-columns {
@@ -1757,6 +1864,7 @@ body#checkout section.checkout-step .address-item.selected,
 /* Ilość na produkcie i w koszyku jak w źródle: pole 51 px + strzałki 32 px, jasnoszare ramki.
    Źródło ma #a0a0a0 (2.6:1), tu #949494, bo ramka i strzałki kontrolki potrzebują 3:1 (WCAG 1.4.11).
    Classic: pole i strzałki to floaty - flex trzyma je w rzędzie, na wąskim ekranie strzałki nie spadają pod pole. */
+.quickview .product-quantity .bootstrap-touchspin,
 #product .product-quantity .bootstrap-touchspin,
 #cart .cart-item .bootstrap-touchspin {
   display: flex;
@@ -1764,6 +1872,7 @@ body#checkout section.checkout-step .address-item.selected,
   height: 4rem;
 }
 
+.quickview .product-quantity #quantity_wanted,
 #product .product-quantity #quantity_wanted,
 #cart .cart-item .js-cart-line-product-quantity {
   width: 3.2rem;
@@ -1773,6 +1882,7 @@ body#checkout section.checkout-step .address-item.selected,
   border-color: #949494;
 }
 
+.quickview .product-quantity .input-group-btn-vertical,
 #product .product-quantity .input-group-btn-vertical,
 #cart .cart-item .input-group-btn-vertical {
   display: flex;
@@ -1781,6 +1891,7 @@ body#checkout section.checkout-step .address-item.selected,
 
 /* Classic: dolna strzałka ma margin-top -2px (wspólna linia), więc każda musi mieć połowę + 1px,
    inaczej kolumna strzałek kończy się 2px nad dołem pola */
+.quickview .product-quantity .btn-touchspin,
 #product .product-quantity .btn-touchspin,
 #cart .cart-item .btn-touchspin {
   width: 2rem;
@@ -1790,6 +1901,7 @@ body#checkout section.checkout-step .address-item.selected,
   border-color: #949494;
 }
 
+.quickview .product-quantity .btn-touchspin i,
 #product .product-quantity .btn-touchspin i,
 #cart .cart-item .btn-touchspin i {
   top: 50%;
@@ -1798,6 +1910,7 @@ body#checkout section.checkout-step .address-item.selected,
   transform: translate(-50%, -50%);
 }
 
+.quickview .product-quantity .btn-touchspin:hover i,
 #product .product-quantity .btn-touchspin:hover i,
 #cart .cart-item .btn-touchspin:hover i {
   color: var(--color-graphite);
