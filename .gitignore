@@ -34,6 +34,10 @@ scraper_results/product_photos/
 # Archiwa (zdjęcia z Releases, kopie danych) - repo bez plików >10 MB (WYMAGANIA.md, W1)
 *.zip
 
+# Kopie zapasowe (make backup): zrzut bazy z danymi klientów, pliki sklepu, kopia .env z hasłami.
+# Nie mogą trafić do repo (WYMAGANIA.md, W1 [K]: brak sekretów; D4: bez danych osobowych i sekretów)
+backups/
+
 # Raporty Playwright
 test-results/
 playwright-report/
