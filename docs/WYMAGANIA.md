@@ -4,7 +4,7 @@ Zestawienie wymagań z opisów etapu 1/2 i 2/2 (eNauczanie PG). Progi z tabel me
 
 **Legenda:** **[K]** — warunek krytyczny; jego niespełnienie oznacza 0 pkt za całe wymaganie.
 
-**Stan (2026-11-25):** `[x]` — spełnione i sprawdzone w repozytorium lub na uruchomionym sklepie; `[ ]` — niespełnione albo jeszcze niesprawdzone (znane braki dopisane jako *stan*). Przy PR, który spełnia wymaganie, zaznacz je tutaj.
+**Stan (2026-11-28):** `[x]` — spełnione i sprawdzone w repozytorium lub na uruchomionym sklepie; `[ ]` — niespełnione albo jeszcze niesprawdzone (znane braki dopisane jako *stan*). Przy PR, który spełnia wymaganie, zaznacz je tutaj.
 
 ## Spis treści
 
@@ -67,8 +67,8 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
   | Weryfikacja | test, dokumentacja, ręczne uruchomienie |
 
 - [ ] Wpis dodaje osoba korzystająca z narzędzia, w tym samym PR co kod
-- [ ] Minimum **2 wpisy na osobę** w etapie — *stan: Jakub Romanowski ma 1 wpis*
-- [ ] Na końcu refleksja zespołu (≤1 strona): gdzie AI przyspieszyło pracę, gdzie wprowadziło w błąd, czego trzeba było nauczyć się samemu — *stan: do napisania*
+- [x] Minimum **2 wpisy na osobę** w etapie — *Bartosz Pacyga 4, Jakub Romanowski 3, Kacper Trznadel 2, Michał Kaźmierowski 7*
+- [x] Na końcu refleksja zespołu (≤1 strona): gdzie AI przyspieszyło pracę, gdzie wprowadziło w błąd, czego trzeba było nauczyć się samemu — *[AI_REFLEKSJA.md](AI_REFLEKSJA.md)*
 - Zespół bez AI opisuje to w refleksji i nie traci punktów
 - Podczas obrony nie można zasłaniać się tym, że kod napisało AI
 
@@ -129,11 +129,11 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 **Dane**
 
-- [ ] **[K]** ≥1000 produktów (chyba że sklep źródłowy ma mniej)
-- [ ] **[K]** ≥4 kategorie, każda z ≥2 podkategoriami, 0 pustych
+- [x] **[K]** ≥1000 produktów (chyba że sklep źródłowy ma mniej) — *2332 aktywne produkty po `make init`*
+- [x] **[K]** ≥4 kategorie, każda z ≥2 podkategoriami, 0 pustych — *5 kategorii z ≥2 podkategoriami, 0 pustych (zapytanie do bazy 2026-11-28)*
 - [ ] **[K]** Nazwy, opisy, zdjęcia, ceny i stawki VAT zgodne ze źródłem — **10 z 10** losowych produktów zgodnych
-- [ ] Stan magazynowy każdego produktu i wariantu: 0–10 szt.
-- [ ] **5–20%** produktów ze stanem 0
+- [x] Stan magazynowy każdego produktu i wariantu: 0–10 szt. — *min 0, max 10 w `ps_stock_available`*
+- [x] **5–20%** produktów ze stanem 0 — *11,02% aktywnych produktów (`docs/stock_validation.sql`)*
 
 **Konfiguracja sprzedaży**
 
@@ -151,25 +151,25 @@ Czas: 8 tygodni, odbiór na 4. spotkaniu projektowym. Decyzje z etapu 1 (struktu
 
 ### W4. Testy E2E (5 pkt)
 
-Skrypt Playwright w trybie headless wykonuje w całości w **≤5 min**:
+Skrypt Playwright w trybie headless wykonuje w całości w **≤5 min**: — *wszystkie kroki w `tests/e2e/zamowienie.spec.ts` (jeden test, ok. 30 s, `test.setTimeout` 5 min); `make test-e2e` 2/2 na czystym klonie przy weryfikacji D4*
 
-- [ ] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
-- [ ] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
-- [ ] 3. Usunięcie z koszyka 3 produktów — *stan: `tests/e2e/koszyk.spec.ts` (PR `feat/2/e2e-cart-tests`), nieuruchomiony na pełnym imporcie*
-- [ ] 4. Rejestracja nowego konta
-- [ ] 5. Złożenie zamówienia na zawartość koszyka
-- [ ] 6. Wybór płatności przy odbiorze
-- [ ] 7. Wybór jednego z dwóch nowych przewoźników
-- [ ] 8. Zatwierdzenie zamówienia
-- [ ] 9. Sprawdzenie statusu zamówienia
-- [ ] 10. Pobranie faktury VAT
+- [x] 1. Dodanie do koszyka 10 produktów w różnych ilościach, z dwóch różnych kategorii
+- [x] 2. Wyszukanie produktu po nazwie i dodanie losowego produktu z wyników
+- [x] 3. Usunięcie z koszyka 3 produktów
+- [x] 4. Rejestracja nowego konta
+- [x] 5. Złożenie zamówienia na zawartość koszyka
+- [x] 6. Wybór płatności przy odbiorze
+- [x] 7. Wybór jednego z dwóch nowych przewoźników
+- [x] 8. Zatwierdzenie zamówienia
+- [x] 9. Sprawdzenie statusu zamówienia
+- [x] 10. Pobranie faktury VAT
 
 Warunki dodatkowe:
 
-- [ ] **[K]** Testy uruchamia jedna komenda opisana w README; adres sklepu przekazywany parametrem lub zmienną środowiskową (w etapie 2 te same testy idą na klaster)
-- [ ] Każdy krok ma asercję sprawdzającą efekt, nie tylko wykonanie kliknięcia — *stan: jest tylko test dymny*
-- [ ] Raport (JUnit XML lub HTML) i zrzut ekranu przy błędzie
-- [ ] Brak `sleep` jako głównego mechanizmu synchronizacji
+- [x] **[K]** Testy uruchamia jedna komenda opisana w README; adres sklepu przekazywany parametrem lub zmienną środowiskową — *`make test-e2e [SHOP_URL=...]`, zmienna `BASE_URL`* (w etapie 2 te same testy idą na klaster)
+- [x] Każdy krok ma asercję sprawdzającą efekt, nie tylko wykonanie kliknięcia — *`expect` w każdym kroku `zamowienie.spec.ts`*
+- [x] Raport (JUnit XML lub HTML) i zrzut ekranu przy błędzie — *raport HTML `tests/playwright-report/`, `screenshot: 'only-on-failure'`*
+- [x] Brak `sleep` jako głównego mechanizmu synchronizacji — *brak `waitForTimeout` w `tests/e2e/`*
 - [ ] Stabilność: 3 z 3 kolejnych uruchomień zakończone sukcesem
 
 ### Wymagania dodatkowe etapu 1 (20 pkt)
@@ -196,9 +196,9 @@ Oceniane tylko po zaliczeniu W1–W4; możliwe punkty częściowe.
 
 #### D3. Promocje i warianty produktów (3 pkt)
 
-- [ ] ≥20 produktów z promocją cenową (stara cena, rabat, nowa cena) — *stan: importer nie tworzy `specific_prices`*
-- [ ] Przy każdej promocji najniższa cena z 30 dni przed obniżką (**dyrektywa Omnibus**) — gotowy moduł lub własny
-- [ ] ≥5 produktów z ≥2 wariantami, każdy wariant z osobnym stanem magazynowym
+- [x] ≥20 produktów z promocją cenową (stara cena, rabat, nowa cena) — *`scraper/importer/promotions.py`: 20 produktów z `specific_prices` (tyle promocji ma źródło w wynikach scrapera)*
+- [x] Przy każdej promocji najniższa cena z 30 dni przed obniżką (**dyrektywa Omnibus**) — gotowy moduł lub własny — *własny moduł `shop/modules/omnibusprice`, ceny wysyła `scraper/importer/omnibus.py`; wszystkie 20 produktów z promocją mają cenę z 30 dni*
+- [x] ≥5 produktów z ≥2 wariantami, każdy wariant z osobnym stanem magazynowym — *197 produktów z ≥2 wariantami, stan w `stock_availables` na wariant*
 
 #### D4. Backup i odtwarzanie (3 pkt)
 
@@ -213,7 +213,7 @@ Oceniane tylko po zaliczeniu W1–W4; możliwe punkty częściowe.
 
 #### D6. Dziennik AI i decyzje architektoniczne (3 pkt)
 
-- [ ] Dziennik AI zgodny z formatem, zakończony refleksją zespołu — *stan: brak refleksji*
+- [x] Dziennik AI zgodny z formatem, zakończony refleksją zespołu — *refleksja w [AI_REFLEKSJA.md](AI_REFLEKSJA.md)*
 - [x] ≥3 ADR w `docs/adr/`: kontekst, rozważane opcje, decyzja, konsekwencje (np. biblioteka scrapera, sposób importu, architektura kontenerów, przechowywanie zdjęć)
 
 ### Odbiór etapu 1

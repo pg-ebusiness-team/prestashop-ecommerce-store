@@ -35,6 +35,7 @@ python main.py --help   # lista argumentów
 | `--save-categories` | Zapisuje drzewo kategorii do `scraper_results/debug/categories.json`. |
 | `--load-categories` | Czyta drzewo kategorii z tego pliku zamiast ze strony. |
 | `--save-listings` | Zapisuje URL-e produktów każdej podkategorii do `scraper_results/debug/listings.json`. |
+| `--photos-only` | Pobiera tylko brakujące zdjęcia produktów już zapisanych w `scraper_results/products/`, bez przechodzenia po kategoriach. Nie łączy się z `--clean`. Używa go `make photos` (fallback, gdy brak archiwum z Releases). |
 
 ## Typowe scenariusze
 
@@ -56,6 +57,14 @@ python main.py --load-categories --clean
 ```
 
 Nie łącz `--save-categories` z `--category` — plik zawierałby wtedy tylko tę jedną kategorię.
+
+**Dociągnięcie brakujących zdjęć**
+
+```bash
+python main.py --photos-only
+```
+
+Bez Pythona na komputerze robi to `make photos` z katalogu głównego (kontener `tools`, najpierw próbuje archiwum z Releases).
 
 **Pobranie wszystkiego od zera**
 
@@ -88,6 +97,7 @@ scraper_results/
 - Zdjęcie główne bierz z `cover` — jest ustawione dla produktu, a nie dla wariantu.
 - Pole `id_image` na najwyższym poziomie JSON-a (`pl-default`) to obrazek zastępczy — pomiń.
 - Cena: `price_amount` (liczba) lub `price` (tekst z twardą spacją przed `zł`).
+- Promocja: `specific_prices` (obiekt ceny specyficznej ze sklepu źródłowego: `reduction`, `reduction_type`, `from`, `to` itd.; pusta lista bez promocji). Importer zakłada z niego promocję w sklepie.
 - Najniższa cena z 30 dni (Omnibus): `lowest_price_30d_amount` (liczba) lub `lowest_price_30d` (tekst jak `price`); oba `null`, gdy sklep jej nie pokazuje (produkt bez promocji).
 
 ## Testy i linter
@@ -99,7 +109,7 @@ scraper/.venv/bin/ruff check scraper/
 scraper/.venv/bin/pytest scraper/
 ```
 
-Testy nie łączą się ze sklepem — działają na stronach zapisanych w `scraper/fixtures/`.
+Testy nie łączą się ze sklepem — działają na stronach zapisanych w `scraper/fixtures/`. W `scraper/tests/` są też testy importera (`test_products_mapping.py`, `test_selection.py`).
 
 ## Problemy
 
@@ -109,4 +119,5 @@ Testy nie łączą się ze sklepem — działają na stronach zapisanych w `scra
 | `Retry 1/3 for ...` | Timeout albo błąd serwera; zapytanie jest ponawiane po 2, 4 i 8 s. |
 | `Category '...' not found. Available: ...` | Zła nazwa w `--category`; użyj jednej z wypisanych. |
 | `categories.json not found` | `--load-categories` bez wcześniejszego `--save-categories`. |
+| `ValidationError` w logu przy produkcie | JSON produktu nie pasuje do schematu `Product` (`scraper/models.py`), np. pusta nazwa. Żaden wariant produktu nie jest zapisywany, a podkategoria nie dostaje `_done`. |
 | Produktu brakuje w nowej podkategorii po wznowieniu | Podkategorie z `_done` są pomijane. Nowe produkty w sklepie pojawią się dopiero po usunięciu `_done` albo `--clean`. |
