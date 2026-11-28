@@ -22,7 +22,7 @@ Drugi `COPY` dodaje skrypty uruchamiane przy każdym starcie kontenera:
 COPY --chmod=755 init-scripts/ /tmp/init-scripts/
 ```
 
-Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie są tam cztery skrypty: synchronizacja motywu (`00-sync-theme.sh`), rozgrzanie cache (`05-cache-warmup.sh`), konfiguracja poczty (`10-configure-mail.sh`) i konfiguracja sprzedaży (`20-configure-sales.sh`), opisane w sekcji o kontenerze `shop`. Prefiks liczbowy ustala kolejność uruchamiania.
+Skrypt startowy obrazu (`docker_run.sh`) wykonuje po kolei wszystkie pliki z `/tmp/init-scripts/` po zakończeniu instalacji, tuż przed uruchomieniem serwera WWW. Obraz uruchamia te pliki bezpośrednio, dlatego `--chmod=755` nadaje bit wykonywalny niezależnie od uprawnień pliku w repozytorium. Obecnie jest tam pięć skryptów: synchronizacja motywu (`00-sync-theme.sh`), dopasowanie do zmiennych środowiskowych (`02-sync-env.sh`), rozgrzanie cache (`05-cache-warmup.sh`), konfiguracja poczty (`10-configure-mail.sh`) i konfiguracja sprzedaży (`20-configure-sales.sh`), opisane w sekcji o kontenerze `shop`. Prefiks liczbowy ustala kolejność uruchamiania.
 
 Trzeci `COPY` dodaje skrypty PHP wywoływane przez init-scripts:
 
@@ -34,7 +34,7 @@ Nie mogą leżeć w `/tmp/init-scripts/`, bo `docker_run.sh` uruchomiłby je bez
 
 ## Plik compose.yaml
 
-Plik zawiera kontener sklepu, reverse proxy (nginx), serwer poczty testowej (Mailpit), bazę danych oraz kontener narzędziowy `tools` do inicjalizacji danych. Sklep, baza i certyfikat proxy przechowują dane w nazwanych wolumenach (`shop_data`, `db_data`, `proxy_certs`). Usuwa je dopiero `make reset` (`docker compose down -v`).
+Plik zawiera kontener sklepu, reverse proxy (nginx), serwer poczty testowej (Mailpit), bazę danych oraz kontener narzędziowy `tools` do inicjalizacji danych. Sklep, baza i certyfikat proxy przechowują dane w nazwanych wolumenach (`shop_data`, `db_data`, `proxy_certs`). Usuwa je dopiero `make reset` (`docker compose down -v`) albo `make restore`, który zastępuje je kopią zapasową ([Backup.md](Backup.md)).
 
 ### Kontener shop
 
@@ -82,6 +82,8 @@ volumes:
 
 W wolumenie są wszystkie pliki sklepu, w tym zdjęcia produktów (`img/`), plik `app/config/parameters.php` z konfiguracją instalacji, katalog panelu admina i moduły. Bez wolumenu pliki te żyły w warstwie kontenera i znikały przy każdym jego odtworzeniu (`make down` i `make up`, `make up` po zmianie obrazu). `docker_run.sh` rozpoznaje zainstalowany sklep wyłącznie po `app/config/parameters.php`, więc nowy kontener instalował PrestaShop od nowa na istniejącej bazie, a import i zamówienia przepadały.
 
+Kopię całego wolumenu (bez zawartości `var/cache` i `var/logs`) robi `make backup`, a odtwarza `make restore` ([Backup.md](Backup.md)).
+
 Motyw i skrypty z obrazu leżą poza wolumenem (`/usr/local/share/`, `/tmp/init-scripts/`), więc ich zmiany docierają do sklepu po `make up` (motyw przez `00-sync-theme.sh`).
 
 #### Healthcheck
@@ -104,6 +106,31 @@ Healthcheck nie sprawdza proxy, HTTPS ani danych. Służy do tego, żeby `make u
 #### Synchronizacja motywu (init-scripts)
 
 `shop/init-scripts/00-sync-theme.sh` przy każdym starcie podmienia katalog `themes/custom-child-theme` w wolumenie na wersję z obrazu (`/usr/local/share/shop-theme/`). Kopiuje go obok i zamienia nazwy, żeby Apache nie trafił na niepełny motyw. Katalog jest podmieniany w całości, więc pliki usunięte z repo znikają też ze sklepu. Ręczne zmiany plików motywu w kontenerze są przy restarcie nadpisywane, bo źródłem prawdy jest repo. Ustawienia z panelu są w bazie i w `img/`, więc ich to nie dotyczy.
+
+#### Dopasowanie do zmiennych środowiskowych (init-scripts)
+
+Instalator zapisuje część ustawień środowiska tylko raz, przy pierwszej instalacji, i potem sklep nie czyta ich już ze zmiennych:
+
+| Ustawienie | Gdzie je zapisał instalator | Zmienna (z `.env`) |
+|---|---|---|
+| dane bazy | `app/config/parameters.php` w wolumenie | `DB_SERVER`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWD` (`MYSQL_*`) |
+| domena i SSL | baza: `ps_shop_url`, `PS_SHOP_DOMAIN`, `PS_SHOP_DOMAIN_SSL`, `PS_SSL_ENABLED`, `PS_SSL_ENABLED_EVERYWHERE`; plik `.htaccess` (reguły zdjęć mają warunek `RewriteCond %{HTTP_HOST} ^<domena>$`) | `PS_DOMAIN` (`SERVER_NAME:HTTPS_PORT`), `PS_ENABLE_SSL` |
+| katalog panelu admina | nazwa katalogu (`docker_run.sh` zmienia `admin` na `PS_FOLDER_ADMIN` tylko przy instalacji) | `PS_FOLDER_ADMIN` (`ADMIN_FOLDER`) |
+
+`shop/init-scripts/02-sync-env.sh` uruchamia przy każdym starcie jako `www-data` plik `shop/scripts/sync-env.php` (w obrazie `/usr/local/share/shop-init/sync-env.php`), który doprowadza te miejsca do wartości zmiennych:
+1. dane bazy w `parameters.php`, bez ładowania PrestaShop, bo ten ze złymi danymi bazy by nie wystartował. Zapis w formacie instalatora do pliku obok i zamiana nazwy, potem usunięcie cache Symfony, w którym jest skompilowana kopia parametrów. W logu są tylko nazwy zmienionych pól, bez wartości,
+2. nazwa katalogu admina. Panel jest rozpoznawany po `index.php` z `_PS_ADMIN_DIR_`. Gdy nie ma dokładnie jednego kandydata, skrypt tylko ostrzega, bo sklep dla klientów działa bez panelu,
+3. domena i SSL przez klasy PrestaShop (`ShopUrl`, `Configuration::updateGlobalValue`). `.htaccess` jest generowany od nowa (`Tools::generateHtaccess()`), gdy nie ma w nim `#Domain: <domena>`. Po zmianach czyszczony jest cache Smarty i Symfony.
+
+Skrypt jest przed `05-cache-warmup.sh`, bo ten już ładuje PrestaShop i potrzebuje poprawnych danych bazy. Cache usunięty przez `02-sync-env` od razu odbudowuje `05-cache-warmup`.
+
+Przy zgodnych wartościach, czyli przy zwykłym restarcie, skrypt niczego nie zapisuje i wypisuje `02-sync-env: sklep zgodny ze zmiennymi srodowiskowymi`. Zmiany są potrzebne w dwóch sytuacjach:
+- po `make restore`, gdy baza i pliki pochodzą z kopii zrobionej z innym `.env` ([Backup.md](Backup.md)),
+- po zmianie portu, domeny lub hasła bazy w `.env`. Wystarczy `make up`, bez `make reset`. Wyjątkiem jest `MYSQL_PASSWORD`: obraz MySQL zakłada użytkownika tylko przy tworzeniu wolumenu `db_data`, więc na istniejącej bazie trzeba też zmienić hasło w MySQL (`ALTER USER`), inaczej `docker_run.sh` czeka na bazę bez końca.
+
+Błąd (np. baza odrzuca dane logowania) **zatrzymuje start kontenera** (kod 1, linia `02-sync-env: BLAD: ...`), tak jak w konfiguracji sprzedaży. Sklep z niezgodnymi danymi bazy lub domeną i tak by nie działał, a kontener, który nie wstaje, widać w `make ps`.
+
+Ten sam mechanizm spełnia wymaganie D1 etapu 2: „Domena i ustawienia SSL przez zmienne środowiskowe, nie na stałe w zrzucie bazy”.
 
 #### Rozgrzanie cache (init-scripts)
 
@@ -198,7 +225,7 @@ Certyfikat jest samopodpisany i generowany przez skrypt `deploy/nginx/docker-ent
 - w przeciwnym razie `openssl` tworzy certyfikat RSA 2048 ważny 10 lat, z `subjectAltName` obejmującym `SERVER_NAME`, `localhost` i `127.0.0.1` (przeglądarki weryfikują SAN, a nie `CN`),
 - klucz prywatny jest zapisywany bez hasła (`-noenc`), ponieważ nginx nie może go odblokować przy starcie.
 
-Certyfikat nie trafia do repozytorium. Zmiana `SERVER_NAME` po pierwszym uruchomieniu nie wygeneruje nowego certyfikatu, ponieważ stary pozostaje w wolumenie. W takiej sytuacji należy wykonać `make reset`.
+Certyfikat nie trafia do repozytorium. Zmiana `SERVER_NAME` po pierwszym uruchomieniu nie wygeneruje nowego certyfikatu, ponieważ stary pozostaje w wolumenie. W takiej sytuacji usuń sam wolumen z certyfikatem (`make down`, `docker volume rm deploy_proxy_certs`, `make up`). Domenę w sklepie dopasuje `02-sync-env.sh`, więc `make reset` nie jest potrzebny.
 
 ### Kontener mail
 

@@ -37,7 +37,7 @@ Z poziomu głównego katalogu projektu wykonaj polecenie:
 make up
 ```
 
-Przy pierwszym uruchomieniu polecenie tworzy plik `.env` z `.env.example` i wpisuje do niego wygenerowany klucz Webservice API (`PS_API_KEY`, 32 znaki `A-Z0-9`). Przykładowe hasła z `.env.example` wystarczą do pracy lokalnej. Jeśli chcesz inne porty, domenę lub hasła, utwórz `.env` samodzielnie przed pierwszym `make up` (`cp .env.example .env` i edycja). Zmiana portów lub domeny po instalacji wymaga `make reset` (patrz [Rozwiązywanie problemów](#po-aktualizacji-sklep-przekierowuje-na-zły-adres-lub-w-pętli)). Istniejący `.env` nigdy nie jest nadpisywany.
+Przy pierwszym uruchomieniu polecenie tworzy plik `.env` z `.env.example` i wpisuje do niego wygenerowany klucz Webservice API (`PS_API_KEY`, 32 znaki `A-Z0-9`). Przykładowe hasła z `.env.example` wystarczą do pracy lokalnej. Jeśli chcesz inne porty, domenę lub hasła, utwórz `.env` samodzielnie przed pierwszym `make up` (`cp .env.example .env` i edycja). Zmianę portów lub domeny po instalacji wprowadza ponowne `make up` (patrz [Rozwiązywanie problemów](#po-aktualizacji-sklep-przekierowuje-na-zły-adres-lub-w-pętli)). Istniejący `.env` nigdy nie jest nadpisywany.
 
 Następnie polecenie buduje obrazy, uruchamia kontenery w tle i czeka, aż sklep będzie gotowy. Kończy się dopiero wtedy, gdy kontener `shop` ma status *healthy*, czyli PrestaShop jest zainstalowany i połączony z bazą (healthcheck w `deploy/compose.yaml`). Pierwsze uruchomienie trwa dłużej, bo Docker pobiera obrazy, a kontener instaluje PrestaShop. Jeśli instalacja albo konfiguracja sklepu się nie uda, `make up` kończy się błędem, a przyczynę widać w `make logs SERVICE=shop`.
 
@@ -144,6 +144,22 @@ Wygląd sklepu zmieniamy wyłącznie w motywie potomnym `shop/themes/custom-chil
 
 Motyw jest kopiowany do obrazu, a przy każdym starcie kontenera skrypt `shop/init-scripts/00-sync-theme.sh` przenosi go do plików sklepu (wolumen `shop_data`). Po każdej zmianie w plikach motywu wykonaj więc `make up` (przebudowa obrazu i restart kontenera, dane zostają) i `make theme` (czyści cache).
 
+## Kopia zapasowa i odtwarzanie
+
+```bash
+make backup                                   # kopia działającego sklepu do backups/backup-<data>.tar
+make restore                                  # odtworzenie z najnowszej kopii (USUWA bieżące dane, pyta o potwierdzenie)
+make restore BACKUP=backups/backup-<data>.tar # odtworzenie z wybranej kopii
+```
+
+Kopia zawiera zrzut bazy, cały wolumen `shop_data` (zdjęcia, `parameters.php`, katalog admina), certyfikat HTTPS, mapowania importera i manifest z sumami kontrolnymi. U nas ma ok. 415 MB, powstaje w ok. 20 s, a odtwarza się w ok. 1 min. Ma dane klientów i hasła, więc katalog `backups/` jest w `.gitignore` i kopia nie może trafić do repo.
+
+Restore dopasowuje sklep do bieżącego `.env` (dane bazy, domena, SSL, katalog admina, klucz API), więc kopię można odtworzyć na innym komputerze lub z innymi portami. Konta, w tym hasło administratora, zostają z kopii.
+
+Ustawienia sklepu bez sekretów i danych osobowych są w repo w `deploy/config/configuration.json`. Po zmianie ustawień w panelu zapisz je poleceniem `make config-export`, a wgraj do sklepu poleceniem `make config-import`.
+
+Szczegóły, w tym demonstracja na czystym środowisku: [docs/Backup.md](docs/Backup.md).
+
 ## Testy E2E (Playwright)
 
 Wymagany Node.js 18+. Przy uruchomionym sklepie wykonaj:
@@ -195,6 +211,7 @@ pytest scraper/
 | [Scraper_Instrukcja.md](docs/Scraper_Instrukcja.md), [Scraper_Dzialanie.md](docs/Scraper_Dzialanie.md) | Uruchomienie i budowa scrapera |
 | [Importer.md](docs/Importer.md) | Import danych do sklepu |
 | [Webservice_API.md](docs/Webservice_API.md) | Konfiguracja Webservice API |
+| [Backup.md](docs/Backup.md) | Kopia zapasowa, odtwarzanie i eksport ustawień |
 | [wyglad_strony.md](docs/wyglad_strony.md) | Wygląd sklepu i motyw potomny |
 | [adr/](docs/adr/) | Decyzje architektoniczne |
 | [AI_LOG.md](docs/AI_LOG.md) | Dziennik AI |
@@ -239,18 +256,21 @@ make ps
 
 ### Po aktualizacji sklep przekierowuje na zły adres lub w pętli
 
-Domena sklepu i ustawienie SSL są zapisywane w bazie danych przy pierwszej instalacji. Po zmianie `HTTP_PORT`, `HTTPS_PORT` lub `SERVER_NAME` (albo po aktualizacji ze starszej wersji projektu) usuń istniejące dane i uruchom sklep od zera:
+Domena sklepu i ustawienie SSL są zapisywane w bazie danych przy pierwszej instalacji. Przy każdym starcie kontenera dopasowuje je do `.env` skrypt `02-sync-env.sh` ([Docker_Docs.md](docs/Docker_Docs.md#dopasowanie-do-zmiennych-środowiskowych-init-scripts)). Po zmianie `HTTP_PORT`, `HTTPS_PORT` lub `SERVER_NAME` wystarczy więc:
 
 ```bash
-make reset
 make up
 ```
+
+W logu (`make logs SERVICE=shop`) pojawią się linie `02-sync-env: domena sklepu: ...`. Po zmianie `SERVER_NAME` certyfikat zostaje wystawiony na starą nazwę. Nowy wygenerujesz poleceniami `make down`, `docker volume rm deploy_proxy_certs` i `make up`.
+
+Jeśli sklep nadal nie działa (np. po aktualizacji ze starszej wersji projektu), usuń istniejące dane i uruchom sklep od zera: `make reset`, a potem `make up`.
 
 Uwaga: `make reset` kasuje bazę danych, pliki sklepu (wolumen `shop_data`: zdjęcia produktów w sklepie, konfiguracja instalacji), wygenerowany certyfikat i lokalne mapowania importu (`scraper/importer/*_mapping.json`). Pobrane zdjęcia w `scraper_results/product_photos/` zostają. Potem wykonaj ponownie `make init`.
 
 ### Przeglądarka ostrzega o niezaufanym certyfikacie
 
-To oczekiwane zachowanie, ponieważ certyfikat jest samopodpisany. Certyfikat zapisuje się w wolumenie Dockera, więc przy kolejnych uruchomieniach pozostaje ten sam i wyjątek w przeglądarce nie musi być dodawany ponownie. Dopiero `make reset` generuje nowy certyfikat.
+To oczekiwane zachowanie, ponieważ certyfikat jest samopodpisany. Certyfikat zapisuje się w wolumenie Dockera, więc przy kolejnych uruchomieniach pozostaje ten sam i wyjątek w przeglądarce nie musi być dodawany ponownie. Nowy certyfikat generuje dopiero usunięcie wolumenu `proxy_certs` (np. `make reset`). `make restore` wgrywa certyfikat z kopii.
 
 ### E-maile ze sklepu nie pojawiają się w Mailpicie
 
