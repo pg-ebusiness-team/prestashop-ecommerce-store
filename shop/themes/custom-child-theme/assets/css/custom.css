@@ -1060,7 +1060,9 @@ body#checkout section.checkout-step .address-item.selected,
 .product-miniature .thumbnail-container:hover .regular-price,
 .product-miniature .thumbnail-container:focus-within .product-title a,
 .product-miniature .thumbnail-container:focus-within .product-price-and-shipping,
-.product-miniature .thumbnail-container:focus-within .regular-price {
+.product-miniature .thumbnail-container:focus-within .regular-price,
+.product-miniature .thumbnail-container:hover .omnibus-price,
+.product-miniature .thumbnail-container:focus-within .omnibus-price {
   color: #fff;
 }
 
