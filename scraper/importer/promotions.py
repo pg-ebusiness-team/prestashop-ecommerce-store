@@ -113,6 +113,21 @@ def _resolve_target_attribute_id(
     return _as_int(target_id)
 
 
+def _normalize_specific_price_base(value: Any) -> str:
+    """Normalize specific_price.price without discarding a source fixed price."""
+    if value in (None, ""):
+        return "-1.000000"
+
+    price = _decimal(value, "price")
+    if price == Decimal("-1"):
+        return "-1.000000"
+    if price < 0:
+        raise ValueError(
+            "Cena bazowa specific_price musi być nieujemna albo równa -1."
+        )
+    return format(price, "f")
+
+
 def normalize_promotion(
     source: dict,
     source_product_id: int,
@@ -141,8 +156,11 @@ def normalize_promotion(
         "id_customer": str(_as_int(source.get("id_customer"), 0)),
         "id_cart": str(_as_int(source.get("id_cart"), 0)),
         "from_quantity": str(max(1, _as_int(source.get("from_quantity"), 1))),
-        # -1 means "use the product's current base price" in PrestaShop.
-        "price": "-1.000000",
+        # Preserve the source specific-price base price when supplied.
+        # In PrestaShop this is the fixed NET price before the reduction;
+        # replacing it with -1 can change price calculation for combinations.
+        # -1 is only the fallback meaning "use the target product base price".
+        "price": _normalize_specific_price_base(source.get("price")),
         "reduction": reduction,
         "reduction_tax": reduction_tax,
         "reduction_type": reduction_type,

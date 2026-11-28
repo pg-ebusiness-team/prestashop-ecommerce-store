@@ -1,5 +1,6 @@
 import json
 import re
+import threading
 import unicodedata
 import xml.etree.ElementTree as ET
 from decimal import Decimal, InvalidOperation, ROUND_HALF_UP
@@ -21,6 +22,9 @@ from scraper.importer.stock import (
 from scraper.importer.weights import assign_product_weights
 
 LANGUAGE_ID = 1
+
+# Lokalna blokada mapowania; nie wymaga zmian w products_mapping.py.
+_PRODUCT_MAPPING_LOCK = threading.RLock()
 
 # Konfiguracja importera
 SOURCE_PATH = "scraper_results/products"
@@ -471,12 +475,14 @@ def import_product(
     if existing_product_id is not None:
         product_id = existing_product_id
         update_product(api, product_id, product_xml)
-        mapping.setdefault(str(product["source_id"]), {})["prestashop_id"] = product_id
-        mapping[str(product["source_id"])].setdefault("combinations", {})
+        with _PRODUCT_MAPPING_LOCK:
+            mapping.setdefault(str(product["source_id"]), {})["prestashop_id"] = product_id
+            mapping[str(product["source_id"])].setdefault("combinations", {})
         operation = "updated"
     else:
         product_id = create_product(api, product_xml)
-        add_product_mapping(mapping, product["source_id"], product_id)
+        with _PRODUCT_MAPPING_LOCK:
+            add_product_mapping(mapping, product["source_id"], product_id)
         operation = "created"
 
     save_mapping(mapping)

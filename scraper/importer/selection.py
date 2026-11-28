@@ -221,8 +221,8 @@ def _make_synthetic_promotion(records):
         if current_price < regular_price:
             continue
 
-        # Reguła 5% od regularnej ceny netto. id_product_attribute=0
-        # oznacza regułę dla całego produktu, także z wariantami.
+        # Zachowujemy oryginalną logikę promocji: specific_price zapisujemy
+        # dokładnie na tym samym rekordzie, co przed zmianą Omnibusa.
         record["specific_prices"] = [{
             "id_product_attribute": 0,
             "id_shop": 0,
@@ -241,6 +241,27 @@ def _make_synthetic_promotion(records):
             "to": "0000-00-00 00:00:00",
         }]
         record["_synthetic_promotion"] = True
+
+        # Dla produktów przecenianych przez nas nie ma historii źródłowej.
+        # Ustawiamy więc cenę sprzed naszej promocji osobno dla każdego
+        # wariantu, ale nie nadpisujemy istniejącej ceny historycznej.
+        for variant_record in records:
+            try:
+                variant_regular_price = float(
+                    variant_record.get("price_without_reduction")
+                )
+            except (TypeError, ValueError):
+                continue
+
+            if variant_regular_price <= 0:
+                continue
+
+            previous_price = round(variant_regular_price, 2)
+            if variant_record.get("lowest_price_30d_amount") in (None, ""):
+                variant_record["lowest_price_30d_amount"] = previous_price
+            if variant_record.get("lowest_price_30d") in (None, ""):
+                variant_record["lowest_price_30d"] = previous_price
+
         return True
 
     return False
@@ -300,8 +321,6 @@ def select_products(
         raise ValueError("Nieprawidłowy zakres udziału produktów ze stanem 0.")
 
     photos_dir = Path(photos_dir)
-    if target is None:
-        target = len(valid_products)
 
     selected_ids = set()
 
@@ -472,9 +491,6 @@ def select_products(
             "Brakuje produktów z poprawną ceną regularną albo limit selekcji "
             "nie pozwala dodać kolejnych produktów."
         )
-    # ETAP 3: Uzupełnienie puli do docelowej liczby produktów.
-    for product_id in valid_products:
-
     # ETAP 4: zapewniamy minimum 5% produktów ze stanem 0.
     zero_candidates = sorted(
         (

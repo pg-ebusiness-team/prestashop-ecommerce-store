@@ -6,7 +6,12 @@ from typing import Any
 
 
 def _valid_price(product: dict[str, Any]) -> float | None:
+    # amount jest polem liczbowym preferowanym przez importer. Fallback do
+    # lowest_price_30d obsługuje rekordy, w których cena została zapisana
+    # tylko pod polem tekstowym.
     value = product.get("lowest_price_30d_amount")
+    if value in (None, ""):
+        value = product.get("lowest_price_30d")
     if value is None:
         return None
     try:

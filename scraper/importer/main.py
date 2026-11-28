@@ -20,6 +20,7 @@ import json
 import os
 import sys
 import time
+import threading
 import traceback
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -636,56 +637,121 @@ def main() -> int:
     omnibus_counts: Counter[str] = Counter()
     mapping = load_products_mapping()
 
+    if not dry_run:
+        from scraper.importer.promotions import sync_product_promotions
+        from scraper.importer.omnibus import sync_omnibus_prices
+        from scraper.importer.products_mapping import save_mapping as save_products_mapping
+
+    worker_local = threading.local()
+    worker_apis: list[Any] = []
+    worker_api_lock = threading.Lock()
+
     def import_one(product: dict, category_ids: list[int]) -> str:
+        # requests.Session nie jest gwarantowanie thread-safe. Każdy worker
+        # dostaje własną sesję i własny connection pool.
+        if not hasattr(worker_local, "api"):
+            worker_local.api = PrestaShopAPI(shop_url, api_key, pool_size=1)
+            with worker_api_lock:
+                worker_apis.append(worker_local.api)
+
         tax_group_id = tax_map[normalize_vat_rate(product["vat_rate"])]
         feature_ids = (
             product_feature_ids(product, resolved_features)
             if resolved_features is not None else None
         )
         _, operation = import_product(
-            api, product, mapping, category_ids, tax_group_id, feature_ids
+            worker_local.api, product, mapping, category_ids, tax_group_id, feature_ids
         )
         return operation
 
     to_import: list[tuple[dict, list[int]]] = []
     for product in grouped:
         source_id = product.get("source_id")
-        # dict.fromkeys: bez duplikatów (pliki wariantów), z zachowaniem kolejności - pierwsza = domyślna
         category_ids = list(dict.fromkeys(
             category_id
-            for source_file in product["source_files"]
+            for source_file in product.get("source_files", [])
             if (category_id := resolve_category_id(source_file, category_names, products_dir)) is not None
         ))
         if not category_ids:
             product_counts["rejected"] += 1
-            print(f"[PRODUKT {source_id}] Nie znaleziono kategorii dla: {product.get('source_file')}")
+            print(f"[PRODUKT {source_id}] Nie znaleziono kategorii dla: {product.get('source_files')}")
         elif dry_run:
             product_counts["updated" if str(source_id) in mapping else "created"] += 1
         else:
             to_import.append((product, category_ids))
 
+    imported_source_ids: set[str] = set()
     if to_import:
         print(f"\nImport {len(to_import)} produktów w {workers} wątkach.")
-        # Każdy wątek pracuje na innym produkcie, więc ruszają tylko własne klucze mapowania
         executor = ThreadPoolExecutor(max_workers=workers)
         try:
             futures = {
-                executor.submit(import_one, product, category_ids): product.get("source_id")
+                executor.submit(import_one, product, category_ids): str(product.get("source_id"))
                 for product, category_ids in to_import
             }
             for index, future in enumerate(as_completed(futures), start=1):
+                source_id = futures[future]
                 try:
                     product_counts[future.result()] += 1
+                    imported_source_ids.add(source_id)
                 except Exception as exc:  # noqa: BLE001
                     product_counts["rejected"] += 1
-                    print(f"[PRODUKT {futures[future]}] {type(exc).__name__}: {exc}")
+                    print(f"[PRODUKT {source_id}] {type(exc).__name__}: {exc}")
                 if index % 100 == 0:
-                    print(f"Postęp: {index}/{len(to_import)} produktów.")
+                    print(f"Postęp importu produktów: {index}/{len(to_import)}.")
         except KeyboardInterrupt:
-            # Bez tego Ctrl+C czekałby na wszystkie zakolejkowane produkty
             executor.shutdown(wait=False, cancel_futures=True)
             raise
-        executor.shutdown()
+        else:
+            executor.shutdown(wait=True)
+            for worker_api in worker_apis:
+                worker_api.session.close()
+
+        # Każdy worker aktualizuje własny klucz mapowania. Zapis końcowy po
+        # zakończeniu wszystkich workerów utrwala kompletną migawkę.
+        save_products_mapping(mapping)
+
+    # Promocje i Omnibus uruchamiamy dopiero po imporcie produktów/wariantów,
+    # kiedy wszystkie docelowe ID są już dostępne. Ten etap jest celowo
+    # sekwencyjny; nie blokuje wielowątkowego importu produktów.
+    if not dry_run:
+        for index, product in enumerate(grouped, start=1):
+            source_id = str(product.get("source_id"))
+            if source_id not in imported_source_ids:
+                continue
+
+            try:
+                promotion_result = sync_product_promotions(api, product, mapping, dry_run=False)
+                for key, value in promotion_result.items():
+                    promotion_counts[key] += value
+            except Exception as exc:  # noqa: BLE001
+                promotion_counts["rejected"] += 1
+                print(f"[PROMOCJA {source_id}] {type(exc).__name__}: {exc}")
+
+            try:
+                omnibus_result = sync_omnibus_prices(api, product, mapping)
+                for key, value in omnibus_result.items():
+                    omnibus_counts[key] += value
+            except Exception as exc:  # noqa: BLE001
+                omnibus_counts["rejected"] += 1
+                print(f"[OMNIBUS {source_id}] {type(exc).__name__}: {exc}")
+
+            if index % 100 == 0:
+                print(f"Postęp synchronizacji promocji/Omnibus: {index}/{len(grouped)}.")
+
+    else:
+        for product in grouped:
+            candidate_promotions = product.get("promotions") or []
+            if candidate_promotions:
+                promotion_counts["planned"] += len(candidate_promotions)
+                promotion_counts["products"] += 1
+
+            if product.get("lowest_price_30d_amount") is not None:
+                omnibus_counts["planned"] += 1
+            omnibus_counts["planned"] += sum(
+                1 for combination in product.get("combinations") or []
+                if combination.get("lowest_price_30d_amount") is not None
+            )
 
     report_section("KATEGORIE", category_counts)
     report_section("ATRYBUTY", attribute_counts)
@@ -693,9 +759,27 @@ def main() -> int:
         report_section("CECHY (nazwy i wartości)", feature_counts)
     report_section("PRODUKTY", product_counts)
 
+    if dry_run:
+        print("\nPROMOCJE — PODGLĄD")
+        print(f"  Produkty z promocjami: {promotion_counts['products']}")
+        print(f"  Reguły do synchronizacji: {promotion_counts['planned']}")
+        print("\nOMNIBUS — PODGLĄD")
+        print(f"  Ceny do synchronizacji: {omnibus_counts['planned']}")
+    else:
+        print("\nPROMOCJE")
+        print(f"  Utworzone:      {promotion_counts['created']}")
+        print(f"  Zaktualizowane: {promotion_counts['updated']}")
+        print(f"  Pominięte:      {promotion_counts['skipped']}")
+        print(f"  Odrzucone:      {promotion_counts['rejected']}")
+        print("\nOMNIBUS")
+        print(f"  Wysłane ceny:   {omnibus_counts['sent']}")
+        print(f"  Pominięte:      {omnibus_counts['skipped']}")
+        print(f"  Odrzucone:      {omnibus_counts['rejected']}")
+
     total_rejected = (
         rejected_records + category_counts["rejected"] + attribute_counts["rejected"]
         + feature_counts["rejected"] + product_counts["rejected"]
+        + promotion_counts["rejected"] + omnibus_counts["rejected"]
     )
     print("\nPODSUMOWANIE")
     print(f"  Pliki produktów:       {len(raw_products)}")

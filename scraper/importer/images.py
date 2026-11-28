@@ -74,24 +74,33 @@ def import_product_images(
 
         image_data = image_path.read_bytes()
 
-        response = api.post_image(
-            product_id,
-            image_data,
-            image_path.name,
-            "image/webp"
-        )
-
-        root = ET.fromstring(response)
-
-        prestashop_image_id = root.findtext("./image/id")
-
-        if prestashop_image_id is None:
-            raise RuntimeError(
-                f"PrestaShop nie zwrócił ID zdjęcia "
-                f"produktu {product_id}."
+        try:
+            response = api.post_image(
+                product_id,
+                image_data,
+                image_path.name,
+                "image/webp"
             )
+            root = ET.fromstring(response)
+            prestashop_image_id = root.findtext("./image/id")
 
-        image_mapping[image_key] = int(prestashop_image_id)
+            if prestashop_image_id is None:
+                raise RuntimeError(
+                    f"PrestaShop nie zwrócił ID zdjęcia "
+                    f"produktu {product_id}."
+                )
+            prestashop_image_id = int(prestashop_image_id)
+        except Exception as exc:  # noqa: BLE001
+            # A failed optional image must not mark the product itself as
+            # rejected and prevent its promotion/Omnibus synchronization.
+            print(
+                f"[ZDJĘCIE {source_id}/{source_image_id}] "
+                f"{type(exc).__name__}: {exc}"
+            )
+            skipped += 1
+            continue
+
+        image_mapping[image_key] = prestashop_image_id
 
         save_mapping(products_mapping)
 
